@@ -6,10 +6,18 @@ on:
       - master
 
 jobs:
- change-and-run:
+ run script:
     runs-on: ubuntu-latest
     
     steps:
-      - name: Print
-        run: echo "coba on push action"
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 
+      
+      - name: execute py script 
+        run: python coba.py 
      
