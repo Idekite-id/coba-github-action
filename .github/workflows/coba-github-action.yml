@@ -1,0 +1,15 @@
+name: coba push
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+ change-and-run:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Print
+        run: echo "coba on push action"
+     
