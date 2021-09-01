@@ -1,0 +1,29 @@
+name: coba workflow dispatch
+
+on: 
+  workflow_dispatch:
+  # For manual input when trigger the workflow
+    inputs:
+      first_number: 
+        description: 'first number'     
+        required: true
+      second_number: 
+        description: 'second number'     
+        required: true
+
+jobs:
+ run-script:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 #install the python needed
+          
+      - name: execute py script # run the run.py to get the latest data
+        run: python coba_2.py "${{github.event.inputs.first_number}}" "${{github.event.inputs.second_number}}"
+     
