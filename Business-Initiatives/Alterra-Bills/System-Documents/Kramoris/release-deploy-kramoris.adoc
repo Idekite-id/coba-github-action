@@ -1,0 +1,24 @@
+= Release and Deployment Kramoris
+
+
+== Release Schedule
+
+Jadwal rilis dilakukan setiap minggu di hari Jumat
+
+== Release Preparation
+
+. Buat branch *release/YYYYMMDD* dari branch *master*
+. *Finish* branch "release"
+. Git push develop
+. Git push master
+. Git push --tags ke branch *master*
+. Menghubungi infra untuk melakukan release
+. Buat new release di Github
+ ** Pilih tag sesuai kebutuhan, bisa buat tag baru atau menggunakan tag yang sudah ada
+ ** _Add release_ (Title *Kramoris Release YYYYMMDD*)
+ ** Lakukan _Accept_ pada semua deskripsi
+ ** Publish Release
+. Buat  deploy untuk tim infra
+. Buat Stroy Release di pivotal *Kramoris Release YYYYMMDD*
+. Lakukan update di deskripsi story release dengan mengisikan release note (Title *Kramoris Release YYYYMMDD*) dan lakukan _accept_ semua list story
+. *Finish* (untuk story pivotal)

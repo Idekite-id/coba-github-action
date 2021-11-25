@@ -1,0 +1,41 @@
+= Akomodasi dan Hiburan
+
+Pembelian tiket melalui aplikasi merupakan alternatif bagi para wisatawan atau orang yang sedang melakukan perjalanan yang tidak mau repot melakukan booking akomodasi dan tiket hiburan. Selain pilihan harga yang variatif pembelian tiket secara online pun memberikan kemudahan dan kepraktisan bagi para penggunanya.
+
+*Jenis Produk:*
+
+.. link:./Tiket-Pesawat.adoc[Tiket Pesawat]
++
+Produk untuk memfasilitasi pembayaran tiket pesawat secara online.
++
+.. link:./Tiket-KAI.adoc[Tiket KAI]
++
+Produk untuk memfasilitasi pembelian dan pembayaran tiket kereta api secara online.
++
+.. link:./Tiket-Kapal.adoc[Tiket Kapal]
++
+Produk untuk memfasilitasi pemesanan dan pembelian tiket kapal laut secara online.
++
+.. link:./Tiket-Bus.adoc[Tiket Bus]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran tiket bus secara online.
++
+.. link:./Travel.adoc[Travel]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran perjalanan menggunakan transportasi darat seperti mobil atau mini bus.
++
+.. link:./Hotel.adoc[Hotel]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran akomodasi pelayanan penginapan.
++
+.. link:./Accomodation-Rent.adoc[Accomodation Rental]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran akomodasi seperti sewa rumah, kost, apartemen dalam periode harian, bulanan, dan tahunan.
++
+.. link:./Rent-Property.adoc[Rent Property]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran apartemen.
++
+.. link:./Event.adoc[Event]
++
+Produk untuk memfasilitasi pemesanan dan transaksi acara konser, hiburan, pertandingan olahraga hingga wahana hiburan.

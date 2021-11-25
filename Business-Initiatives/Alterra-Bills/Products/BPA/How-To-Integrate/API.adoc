@@ -1,0 +1,30 @@
+= API
+
+API adalah sebuah teknologi untuk memfasilitasi pertukaran informasi atau data antara dua atau lebih aplikasi perangkat lunak. Partner dapat melakukan integrasi pada Alterra Bills dengan menggunakan metode API. 
+
+API yang dimiliki oleh Alterra Bills dapat membantu partner mengakses fungsionalitas dari Alterra Bills. API Alterra Bills ini memiliki endpoint yang digunakan pada transaksi secara asynchronous, yang berarti bahwa semua request transaksi akan direspon dengan status pending. API Alterra Bills ini juga menggunakan HTTP response codes, authentication, dan  verbs.
+
+Dengan memilih metode API, Alterra Bills akan menyediakan dokumentasi API yang sederhana sehingga membuat proses integrasi menjadi lebih mudah. Testing scenario juga telah disiapkan untuk mempercepat proses uji coba yang dilakukan.
+
+Untuk dapat memulai integrasi menggunakan API langkah-langkah yang perlu dilakukan adalah sebagai berikut:
+
+. Lengkapi data partner yang meliputi informasi kontak yang bisa dihubungi
+
+. Pilih produk yang ingin diintegrasikan
+
+. Lengkapi data dan informasi yang diperlukan pada dokumen yang tersedia meliputi:
+
+.. Tipe Integrasi
+.. Dokumen NDA
+.. Price List Partner
+.. Metode Pembayaran Partner
+.. Dokumen PKS
+.. Grup/Media Komunikasi
+.. Task Cost of Delay
+.. Integration Task
+.. Data Teknis Partner (IP Address, URL Callback, Partner API Expectations)
+.. Proses Integrasi siap dilakukan 
+
+Dokumen Integrasi API dapat diakses melalui link berikut:
+
+https://horven-doc.sumpahpalapa.com/apidoc/swagger/[Dokumentasi API Alterra Bills]

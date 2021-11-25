@@ -1,0 +1,60 @@
+= Voucher Game
+
+Voucher Game adalah kode voucher yang digunakan para Gamer untuk membeli Coin/Cash/Point untuk memainkan suatu Game Online.  
+
+Sepulsa menyediakan berbagai pilihan voucher game untuk dapat dibeli untuk memainkan game online seperti:
+
+- DOTA
+- Garena
+- Steam IDR
+- Steam USD
+- Playstation Network
+- Playstation Store
+- Playstation Plus (ID)
+- Xbox
+- Free Fire
+- Arena of Valor
+- Boyaa Domino Qiu Qiu
+- Boyaa Capsa Susun
+- Higgs Domino
+- MangaToon
+- Ragnarok Big Cat Coin
+- Ragnarok Mobile Zeny
+- Dragon Nest M
+- Love Nikki
+- Era of Celestial
+- Eternal City
+- Laplace M
+- Rules of Survival Mobile
+- Rules of Survival PC
+- Jade Dynasty
+- King of Kings
+- Heroes Evolved
+- Starpass
+- Shining Spirit
+- Lords Mobile Diamonds
+- Snail Games
+- Legacy of Discord
+- Call of Duty Mobile
+- Werewolf (Party Game)
+- Saint Seiya
+- Bleach Mobile 3D
+- Speed Drifters
+- Dancing Love
+- Nintendo eShop
+- Poin Blank
+- Unipin
+- Wavegame
+- Razer Gold
+- Aeria Points
+- Battlenet
+- imvu
+- Topup Mobile Legend
+- Travian
+- Megaxus
+- Playwith
+- Karma Koin
+- PUBG
+- Gemscool
+- Lyto
+- Marvel Super War

@@ -1,0 +1,57 @@
+= Robusta (Axis)
+:keywords: akj, telco, telco-payment-client, civet,robusta-axis
+
+== Overview
+
+Robusta (Axis) merupakan _frontend_ dari sistem Civet yang digunakan untuk halaman partner yakni MyXL.Robusta (Axis) adalah kloningan dari sistem Frigate, berbentuk _website_ dilengkapi fitur dan tampilan yang disesuaikan dengan permintaan partner.
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email*
+
+| Pipit Puspitasari
+| Product Owner
+| pipit@alterra.id
+
+| Ananto Eko Hendarto
+| Developer Manager
+| anton@alterra.id
+
+| Kurniawan Eko Wasono
+| Lead Developer
+| iwan@alterra.id
+
+| Johanes Paulus Giovani Putra
+| Lead Quality Engineer
+| johanes@alterra.id
+
+| Pipit Puspitasari
+| Ex Lead System Analyst
+| pipit@alterra.id
+|===
+
+== Technical Information
+
+<<./url-robusta-axis.adoc#, System URL Robusta (Axis)>>
+
+<<./architecture-robusta-axis.adoc#, Architecture Robusta (Axis)>>
+
+<<./technology-robusta-axis.adoc#, Technology Robusta (Axis)>>
+
+<<./environment-robusta-axis.adoc#, Environment Robusta (Axis)>>
+
+<<./release-deploy-robusta-axis.adoc#, Release and Deployment Robusta (Axis)>>
+
+== *Onboarding Information*
+
+<<./dev-onboarding-robusta-axis.adoc#, Developer Onboarding Robusta (Axis)>>
+
+<<./development-robusta-axis.adoc#, Development Robusta (Axis)>>
+
+<<./naming-convention-robusta-axis.adoc#, Naming Convention Robusta (Axis)>>
+
+== Documentation
+
+https://github.com/sepulsa/robusta-axis/releases[Release Note Robusta (Axis)]
+

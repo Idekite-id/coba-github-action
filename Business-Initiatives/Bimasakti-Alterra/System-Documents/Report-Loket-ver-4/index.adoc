@@ -1,0 +1,73 @@
+= Report Loket ver 4
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem Report Loket ver 4. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Tuagus Mardeka 
+| Software Engineer 
+| dika@bsa.id
+
+| Detut Indra S.A.N 
+| Software Engineer 
+| detut@bsa.id
+
+| Prawira Aryadi 
+| Software Engineer 
+| wira@bsa.id
+
+| Angga Wira 
+| Softwarw Engineer 
+| prayudi@bsa.id
+|===
+
+== Technical Information
+
+//Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Report-Loket-ver-4.adoc#, System URL Report Loket ver 4>>
+
+<<./architecture-Report-Loket-ver-4.adoc#, Architecture Report Loket ver 4>>
+
+<<./technology-Report-Loket-ver-4.adoc#, Technology Report Loket ver 4>>
+
+<<./environment-Report-Loket-ver-4.adoc#, Environment Report Loket ver 4>>
+
+<<./database-Report-Loket-ver-4.adoc#, Database Documentation Report Loket ver 4>>
+
+<<./release-deploy-Report-Loket-ver-4.adoc#, Release and Deployment Report Loket ver 4>>
+
+<<./flow-wire-Report-Loket-ver-4.adoc#, Flow and Wireframe Report Loket ver 4>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Report-Loket-ver-4.adoc#, Developer Onboarding Report Loket ver 4>>
+
+<<./development-Report-Loket-ver-4.adoc#, Development Report Loket ver 4>>
+
+<<./naming-convention-Report-Loket-ver-4.adoc#, Naming Convention Report Loket ver 4>>
+
+== Documentation
+
+//Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+//User Guide (jika ada, external link)
+
+//Dokumen Integrasi (jika ada, external link)
+
+//Dokumen Maintenance (jika ada, external link)
+
+//Dokumen API (jika ada, external link)
+
+<<./release-note-Report-Loket-ver-4.adoc#, Release Note Report Loket ver 4>>

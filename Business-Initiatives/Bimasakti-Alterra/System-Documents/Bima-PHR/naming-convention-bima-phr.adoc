@@ -1,0 +1,13 @@
+= Naming Convention Bima PHR
+
+_Naming Convention_ pada proses _development Dashboard_ ini menggunakan Javascript _Style Guide_ dari https://airbnb.io/javascript/[Airbnb].
+
+Pengaturan _style guide_ ini sudah diatur dalam _file_ .eslintrc.json, dengan pengaturan sebagai berikut:
+
+image::./images-bima-phr/Bima-PHR-Naming-Convention-1.png[Pengaturan menggunakan Clean Code Airbnb]
+
+Ketika _engineer_ telah selesai melakukan _development code_, diharuskan untuk menjalankan perintah ESlint pada CLI VSCode sebagai pengecekan, apakah _code_ yang sudah dikembangkan sesuai dengan kaidah _style guide_.
+
+Berikut ini adalah ilustrasi penggunaan eslint dan pesan _error_ yang muncul karena tidak sesuai dengan kaidah _style guide-nya_.
+
+image::./images-bima-phr/Bima-PHR-Naming-Convention-2.png[Ilustrasi Penggunaan ESlint]

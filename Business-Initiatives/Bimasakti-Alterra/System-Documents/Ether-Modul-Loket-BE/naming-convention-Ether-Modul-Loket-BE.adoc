@@ -1,0 +1,3 @@
+= Naming Convention Ether Modul Loket (BE)
+
+Berisi aturan penamaan dalam development sistem.

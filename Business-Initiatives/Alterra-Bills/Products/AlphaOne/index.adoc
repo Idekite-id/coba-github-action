@@ -1,0 +1,11 @@
+= AlphaOne
+
+Alphaone merupakan _Hybrid Aggregator Channel_ (traditional & modern)  yang mempertemukan para penjual produk baik secara _online_ maupun _offline_ dengan _payment channel_. Alphaone menyediakan layanan H2H (Host-to-Host), Terminal Jabber, XML & API berbagai macam produk terbaik seperti pulsa, e-wallet (Shopeepay, Linkaja, Dana, Gopay, Ovo, e-money mandiri), voucher game , paket data, dan Prepaid PLN pada customer, dengan harga terbaik.
+
+*How to Integrate*
+
+link:./How-To-Integrate/H2H.adoc[API]
+
+link:./How-To-Integrate/Jabber.adoc[API Translator]
+
+link:./How-To-Integrate/XML-and-API.adoc[XML and API]

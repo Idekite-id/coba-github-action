@@ -1,0 +1,36 @@
+= Education
+
+Edukasi adalah produk yang memfasilitasi pembayaran pendidikan/sekolah secara online.
+
+*Perilaku dan Penggunaan Produk*
+
+*_Partial payment_* pembayaran untuk per item tagihan
+
+Penanda tagihan tersebut dapat dibayarkan secara partial adalah pada saat response inquiry terdapat paramater ``bill_item_id``
+
+Jika melewati due date maka tidak semua tagihan menerima denda, bergantung kebijakan institusi/sekolah
+
+Jika detail tagihan lebih dari tanggal expired date maka tagihan tersebut tidak akan ditampilkan. End user dapat melakukan konfirmasi ke pihak institusi sekolah terkait pembayaran yang lebih _expired date_.
+
+Due date dan _expired date_ pada _partial payment_ dapat berbeda.
+
+*_Full payment_* pembayaran untuk seluruh tagihan. Jika melewati expired date tidak semua tagihan menerima denda, bergantung kebijakan institusi/sekolah.
+
+Jika ada keterlabatan pembayaran tagihan dibulan berikutnya akan tetap muncul bergantung kebijakan institusi / sekolah
+
+*Product Journey*
+
+Customer Journey Edukasi (Partner)
+
+. Customer mengetikan nomor pelanggan
+. Sistem menampilkan invoice Edukasi berisi identitas pelanggan & tagihan
+. Apabila dalam detail tagihan memiliki lebih dari 1 tagihan, customer dapat membayar tagihan tertentu atau membayar item seluruhnya.
+. Selanjutnya melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher/Aggregator Journey
+
+. Partner mengirimkan _customer number_
+. _Switching Engine_ mengirimkan _inquiry_ yang harus dibayarkan oleh Partner
+. Partner melakukan _request_ transaksi
+. _Switching Engine_ proses transaksi dan kirim _callback_ ke Partner

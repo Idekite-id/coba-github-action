@@ -1,0 +1,169 @@
+= Game Voucher Trunko
+
+== BM - FBS
+
+=== PURCHASE / ADVICE / REVERSAL
+
+----
+    // Request
+    {
+
+    	}
+    }
+
+    // Response
+
+
+    {
+
+    }
+----
+
+=== STOCK
+
+Khusus stock, harus dicari tau lagi apakah FBS  memungkinkan untuk return data array
+
+----
+    // Request
+    {
+    	
+    }
+
+    // Response
+    {
+
+    }
+----
+
+== Kraken - BM
+
+=== PURCHASE/ADVISE/REVERSAL
+
+----
+    // Request
+
+    {
+    	"command_type": "purchase", // purchase/advice/reversal
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "085363783000",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 1,
+    	"rawdata": "" // product with inquiry
+    }
+
+    // Response Success
+
+    {
+    	"transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "6855950",
+    	"remote_product_id": "SP25",
+      "customer_id": "085363783000",
+      "response_code": "00",
+    	"price": 24800,
+    	"amount": 25000,
+      "data": {
+        "biller_rescode": "0000",
+        "message": "success",
+    		"rawdata": "", // http response
+    		"management_code":"00001",
+        "voucher_code":"13123123123213123",
+        "serial_number":"212121212121",
+        "voucher_password":"9999",
+        "pin":"123",
+    		"desc":"33 Shell \/ 1.000 Cash"
+      },
+    	"next":""
+    }
+
+    // Response Pending
+
+    {
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "6855950",
+    	"remote_product_id": "SP25",
+      "customer_id": "085363783000",
+      "response_code": "10",
+    	"price": 24800, // product mapping (price)
+    	"amount": 25000, // product nominal (prepaid)
+      "data": {
+    		"biller_rescode": "9999",
+        "message": "pending", // failed/timeout/etc
+    		"rawdata": "", // http response
+        "management_code":"",
+    	  "voucher_code":"",
+    	  "serial_number":"",
+    	  "voucher_password":"",
+    	  "pin":"",
+    		"desc":""
+
+      },
+    	"next":""
+    }
+
+    // Response Failed
+
+    {
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "6855950",
+    	"remote_product_id": "SP25",
+      "customer_id": "085363783000",
+      "response_code": "99",
+    	"price": 24800, // product mapping (price)
+    	"amount": 25000, // product nominal (prepaid)
+      "data": {
+    		"biller_rescode": "9999",
+        "message": "failed", // failed/timeout/biller-message/etc
+    		"rawdata": "", // http response
+        "management_code":"",
+    	  "voucher_code":"",
+    	  "serial_number":"",
+    	  "voucher_password":"",
+    	  "pin":"",
+    		"desc":""
+      },
+    	"next":""
+    }
+----
+
+=== STOCK
+
+----
+    // Request
+
+    {
+      "command_type": "stock",
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "", // advise/reversal
+      "biller_id": 1,
+    	"biller_label": "serpul"
+    }
+
+    // Response Success
+
+    {
+    	"response_code": "00",
+    	"message": "success",
+    	"data": {
+    		"wallet1": "1500000",
+    		"wallet2": "2500000"
+    	}
+    }
+
+    // Response Failed
+
+    {
+    	"response_code": "99",
+    	"message": "timeout", // failed/timeout/biller message/etc
+    	"data": null
+    }
+----

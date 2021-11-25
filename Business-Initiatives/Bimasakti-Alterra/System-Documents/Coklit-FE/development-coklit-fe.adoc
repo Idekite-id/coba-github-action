@@ -1,0 +1,8 @@
+= Development Coklit FE
+
+== Development Step
+
+1. `checkout` ke branch `master`
+2. pastikan branch master dalam keadaan paling update (jalankan `git pull origin master` jika belum)
+3. `checkout` ke branch feature
+4. lakukan _pull request_ ke branch master setelah task selesai

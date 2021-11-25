@@ -1,0 +1,22 @@
+= Telkom Postpaid
+
+Produk Telkom postpaid digunakan untuk pembayaran tagihan telepon dan internet dari PT. Telekomunikasi Indonesia (TELKOM).
+
+*Variasi Produk*
+
+Variasi produk Telkom Postpaid adalah bergantung pada paket yang diberikan operator jaringan seluler, sebagai contoh:
+
+- Telepon pascabayar
+- Speedy
+- Indihome
+
+*Vendor Utama Produk*
+
+Vendor utama dari produk Telkom Postpaid adalah PT. Telekomunikasi Indonesia (TELKOM)
+
+*Customer Journey*
+
+. Customer memasukkan nomor telepon telkom atau nomor internet Indihome sebagai identifikasi pelanggan yang terdaftar layanan telkom
+. Sistem menampilkan total tagihan yang perlu dibayar dalam periode 1 bulan
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills

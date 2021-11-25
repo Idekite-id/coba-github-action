@@ -1,0 +1,22 @@
+= System URL Sentinel
+
+Berikut ini adalah URL yang dapat digunakan untuk mengakses sistem Sentinel.
+Pastikan untuk menggunakan VPN ketika mengakses URL (kecuali _production_).
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+| *Staging Dev*
+| https://kraken-web.sumpahpalapa.com/
+
+| *Staging Regression*
+| -
+
+| *Horven*
+| https://horven-web.sumpahpalapa.com/
+
+| *Production*
+| https://sentinel.alterra.id/
+|===

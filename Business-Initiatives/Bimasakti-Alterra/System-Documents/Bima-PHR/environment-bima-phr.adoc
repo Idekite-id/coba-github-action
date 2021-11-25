@@ -1,0 +1,22 @@
+= Environment Bima PHR
+
+Berikut adalah _environment_ dan URL yang tersedia digunakan untuk mengakses Dashboard Bima PHR:
+
+|===
+| *No* | *Environment* | *URL* | *VPN Alterra*
+
+| 1
+| Development & Testing
+| http://103.117.207.199:8808/
+| Yes
+
+| 2
+| Staging
+| https://bimaphr.sumpahpalapa.com/
+| Yes
+
+| 3
+| Production
+| http://bimaphr.alterra.id/
+| No
+|===

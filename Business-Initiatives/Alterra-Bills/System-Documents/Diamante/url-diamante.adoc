@@ -1,0 +1,15 @@
+= System URL Diamante
+
+Saat ini sistem Diamante masih dalam tahap _staging_, informasi akses dapat dilihat melalui tabel di bawah ini. Gunakan _Email_, _Username_, dan _Password_ yang sudah terdaftar untuk mengakses sistem.
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h|*Stage*
+^.^h|*URL*
+
+|Staging
+| https://diamante.sumpahpalapa.com[https://diamante.sumpahpalapa.com]
+
+|Production
+| https://diamante.alterra.id[https://diamante.alterra.id]
+|===

@@ -1,0 +1,3 @@
+= BPJS Kesehatan
+
+Keberadaan BPJS Kesehatan begitu penting bagi masyarakat. Saat ini hampir seluruh lapisan masyarakat menggunakan BPJS Kesehatan sebagai jaminan kesehatan. Jaminan kesehatan yang baik tentu tidak hadir secara gratis. Layaknya asuransi, BPJS Kesehatan juga mewajibkan para pesertanya atau pemilik manfaatnya untuk membayar iuran setiap bulan. Untuk itu Sepulsa memfasilitasi pembayaran iuran BPJS hanya dengan memasukkan nomor BPJS dan periode bayar. 

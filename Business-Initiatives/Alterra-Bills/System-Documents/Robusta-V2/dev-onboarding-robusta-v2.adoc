@@ -1,0 +1,55 @@
+= Developer Onboarding Robusta V2
+
+== Tools and Preparation
+
+Berikut Tools yang digunakan dalam sistem Robusta V2 :
+
+|===
+| *Usage* | *Tools Name*
+
+| Web Server
+| NGINX
+
+| Manual Test API
+| Postman
+
+| Browser
+| Chrome, Firefox
+
+| Programming Language
+| Javascript
+
+| Database
+| MySQL
+
+| Framework
+| ReactJS
+|===
+
+== *Platform Specification*
+
+|===
+| *Specification* | *Name*
+
+| OS
+| Debian 10
+
+| Web Server
+| NGINX
+
+| Programming Language
+| Javascript
+
+| Framework
+| ReactJS
+
+| DBMS
+| MySQL
+|===
+
+== *_Local Machine Setup_*
+
+* Download this project from github repository https://github.com/sepulsa/robustav2[`+https://github.com/sepulsa/robustav2+`]
+* yarn install to install dependency packages
+* `cp .env.example .env` and setup your local configurations
+* yarn start to run robusta on your local

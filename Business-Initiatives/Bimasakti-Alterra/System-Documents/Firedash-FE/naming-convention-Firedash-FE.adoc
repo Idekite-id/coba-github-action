@@ -1,0 +1,3 @@
+= Naming Convention Firedash (FE)
+
+Berisi aturan penamaan dalam development sistem.

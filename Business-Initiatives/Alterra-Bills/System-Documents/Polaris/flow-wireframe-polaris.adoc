@@ -1,0 +1,43 @@
+= Flow and Wireframe Polaris
+
+Berikut ini merupakan _flow and wireframe_ dari sistem Polaris:
+
+== 1. Polaris User Interface
+
+=== Website
+
+==== Production
+
+https://polaris.sepulsa.id/[] (52.77.6.1**)
+
+==== Basic Auth
+
+Silakan menghubungi team Polaris untuk mendapatkan credential Basic Auth.
+
+=== Background
+
+Polaris UI adalah _user interface_ untuk mempermudah penggunaan sistem Polaris dalam mengatur pengiriman notifikasi (email, sms, telegram). Sistem ini memiliki 3 menu utama, yaitu:
+
+1.  _Configure List_: Mengatur semua konfigurasi
+2.  _Task List_: Mengatur semua _task_
+3.  _Group List_: Mengatur semua group
+
+=== Flow & Wireframe
+
+==== Configure
+
+* Halaman menampilkan semua list konfigurasi
+* Halaman menambahkan konfigurasi
+* Halaman mengubah dan menghapus konfigurasi
+
+==== Task List
+
+* Halaman menampilkan semua daftar _task_
+* Halaman menambahkan _task_
+* Halaman mengubah dan menghapus _task_
+
+==== Group List
+
+* Halaman menampilkan semua daftar _group_
+* Halaman menambahkan _group_
+* Halaman mengubah dan menghapus _group_

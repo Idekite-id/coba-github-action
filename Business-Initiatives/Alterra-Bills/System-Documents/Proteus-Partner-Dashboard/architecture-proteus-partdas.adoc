@@ -1,0 +1,24 @@
+=  Architecture Proteus Partner Dashboard
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem Proteus Partner Dashboard:
+
+image::./images-proteus-partdas/proteus-partdas-c2-diagram.png[Proteus Partner Dashboard C2 Diagram]
+
+Sistem ini merupakan bagian dari Serpul. Untuk lebih detail terkait hubungan Proteus Partner Dashboard dengan sistem Serpul lainnya, silakan mengakses <<../../../../Divisions/Meet-Our-Divisions/Technology/Engineering/Alterra-Systems-C1-Diagram/Serpul-C1-Diagram.adoc#,Serpul C1 Diagram>> berikut.
+
+== Related Systems
+
+[cols="10%,30%,30%,30%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+| *Proteus Partner Dashboard*
+| Dashboard untuk Partner / Reseller yang sudah ditambahkan oleh Serpul Owner untuk maintain data
+| Proteus Core - As BE API
+|
+|===

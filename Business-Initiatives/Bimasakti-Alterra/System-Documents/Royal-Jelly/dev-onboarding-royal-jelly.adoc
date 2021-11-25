@@ -1,0 +1,11 @@
+= Developer Onboarding Royal Jelly
+
+Untuk memulai development pada sistem BimaReklame ini, seorang software engineer harus menguasai beberapa stack yang telah disebutkan di tabel 1.5. Sedangkan _requirement_ pada PC yang harus disiapkan adalah sebagai berikut;
+
+- Linux Operating System
+- Node Version Manager (nvm) (Bee dan Honey)
+- Python3 and VirtualEnv (Royal Jelly)
+- NodeJS v13.x (LTS) (node, npm v.6)
+ - VSCode Text Editor
+    
+Berdasarkan bekal pengetahuan ketika masa Onboarding, software engineer dapat memulai mendevelop fitur dengan membaca Dokumentasi Instalasi.

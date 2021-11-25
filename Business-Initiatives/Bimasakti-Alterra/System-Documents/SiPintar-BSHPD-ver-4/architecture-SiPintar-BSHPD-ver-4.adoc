@@ -1,0 +1,46 @@
+= Architecture SiPintar BSHPD ver 4
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem BSHPD ver 4:
+
+1. Hublang
++
+image::./images-SiPintar-BSHPD-ver-4/bshpd-hublang-v4-c2-diagram.png[BSHPD Hublang ver 4 C2 Diagram]
+
+2. Perencanaan
++
+image::./images-SiPintar-BSHPD-ver-4/bshpd-perencanaan-v4-c2-diagram.png[BSHPD Perencanaan ver 4 C2 Diagram]
+
+3. Distribusi
++
+image::./images-SiPintar-BSHPD-ver-4/bshpd-distribusi-v4-c2-diagram.png[BSHPD Distribusi ver 4 C2 Diagram]
+
+Sistem BSHPD merupakan bagian dari Bimasakti Alterra. Untuk lebih detail terkait hubungan BSHPD ver 4 dengan sistem Bimasakti Alterra lainnya, silakan mengakses diagram C1 berikut.
+
+== Related System
+
+BSHPD ver 4 terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan BSHPD ver 4.
+
+[cols="10%,30%,30%,30%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+| *PDAMPintar-Hubungan Pelanggan*
+|Aplikasi untuk bagian hublang PDAM masing-masing agar memudahkan pelayanan ke pelanggan PDAM.
+a| 
+a|
+
+| *PDAMPintar-Perencanaan*
+|Aplikasi untuk bagian perencanaan PDAM masing-masing untuk data-data yang berkaitan dengan RAB
+a| 
+a|
+
+| *PDAMPintar-Distribusi*
+| Aplikasi untuk bagian distribusi PDAM masing-masing.
+a| 
+a|
+|===

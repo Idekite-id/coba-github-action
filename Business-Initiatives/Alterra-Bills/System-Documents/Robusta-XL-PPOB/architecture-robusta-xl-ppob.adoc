@@ -1,0 +1,38 @@
+= Architecture Robusta (XL-PPOB)
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem Robusta (XL-PPOB):
+
+image::./images-robusta-xl-ppob/Robusta-XL-PPOB-C2-Diagram.png[Robusta XL PPOB C2 Diagram]
+
+Sistem ini merupakan bagian dari Telco. Untuk lebih detail terkait hubungan Robusta (XL-PPOB) dengan sistem Telco lainnya, silakan mengakses diagram C1 berikut.
+
+== Related Systems
+
+|===
+
+| *System Name* | *Description* | *Depends on* | *Be a Dependencies to*
+
+|Robusta V2
+|Frontend dari system Civet untuk tiap partner yang berbeda-beda.
+a|1. Civet - As BE API
+|-
+
+|===
+
+== Sitemaps
+
+Berikut adalah arsitektur sistem dari Robusta (XL-PPOB):
+
+* Sitemap Myxl
++
+image::images-robusta-xl-ppob/Robusta-XL-PPOB-MyXl.png[Sitemap Robusta (XL-PPOB)]
+
+* Sitemap MyAxis
++
+image::images-robusta-xl-ppob/Robusta-XL-PPOB-MyAxis.png[Sitemap Robusta (XL-PPOB)]
+
+* Sitemap MyPrio
++
+image::images-robusta-xl-ppob/Robusta-XL-PPOB-MyPrio.png[Sitemap Robusta (XL-PPOB)]

@@ -1,0 +1,18 @@
+= System URL Report Loket ver 4
+
+Saat ini sistem Report Loket ver 4 sedang dalam tahap development/ production (masukkan stage sistem), informasi akses dapat dilihat melalui tabel di bawah ini. Gunakan alias, _username_, dan _password_ yang sudah terdaftar untuk mengakses sistem.
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+|Development 
+|
+
+|Staging 
+|
+
+|Production 
+|
+|===

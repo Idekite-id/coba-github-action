@@ -1,0 +1,29 @@
+= Release and Deployment
+
+== Production Release Step
+
+_Don't_:
+
+1. Jangan membuat _Pull Request_ (PR) setelah _task_ disetujui oleh QA.
+2. Jangan melaukan _merge PR_ to _pre-release_ tanpa melakukan konfirmasi ke orang yang membuat rilis.
+3. _Unprotected branch `master` dan `pre-release`
+
+_Do_:
+
+1. Setiap SE _(Software Engineer)_ harus membuat _Pull Request_ ke _release branch_ setelah _task_ disetujui QA.
+2. Lakukan step no.1 secepat mungkin
+3. PIC _release_ harus _build & create_ _release note_ untuk setiap _task_ yang sudah siap dirilis.
+ - Minimal 1 hari sebelum jadwal rilis, rilis harus sudah diselesaikan
+ -  Cek semua PR (_Pull Request_)
+ - _Merge PR task_ satu per satu ke `pre-release`
+ - Jika terdapat konflik, _resolve_ konfik tersebut
+Jika terdapat masalah atau ada yang perlu didiskusikan, koordinasi dengan SE yang mengerjakan _task_ tersebut
+ - Ketika semua sudah sukses di-_merge_ ke `pre-release` : Buat _RELEASE DRAFT_ pada Github.
+Berikan _release tag_ dengan _version number_ : 1.x.x (major, medium, single-task)
+ - Finalisasi rilis dari step nomor 5
+ - Lakukakn PR dari `pre-release` ke _branch_ `master`
+ - *PERINGATAN : SEMUA _PULL REQUEST_ DIKUMPULKAN KE DALAM _BRANCH MASTER_ AKAN DIPROSES UNTUK _RELEASE_ KE _PRODUCTION_* (_kecuali untuk beberapa Repo, seperti : Terra_).
+
+== Deployment Schedule
+
+_Deployment_ Flea tidak terjadwal dengan pasti, idealnya tahap rilis harus di-_deploy_ sebelum _Sprint Review_. Jika tidak memungkinkan, tahap rilis akan dilakukan pada rentang _Sprint_ berikutnya.

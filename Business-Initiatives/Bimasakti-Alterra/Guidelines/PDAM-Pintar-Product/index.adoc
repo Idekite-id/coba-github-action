@@ -1,0 +1,19 @@
+= PDAM Pintar Product
+
+image::pdam-pintar-product-images/thematic-overview-pdam-pintar.png[align="center"]
+
+*Selamat Datang*
+
+Kamu akan mendapatkan informasi tentang Produk PDAM Pintar di halaman ini.
+
+PDAM Pintar merupakan  sistem yang digunakan untuk membantu dan mendukung proses bisnis PDAM dalam hal digitalisasi proses, mulai pembuatan data, analisis, dan laporan. Sistem ini mendukung penyesaian berbagai masalah teknis seperti, integrasi data, data yang tidak valid, proses data administrasi, dan pembayaran secara _online_.
+
+Ada dua informasi yang bisa kamu akses di sini: 
+
+* *PDAM Pintar*
++
+PDAM Pintar mempunyai 12 modul yang memiliki fungsi dan fitur sesuai dengan proses bisnis yang berlangsung.
+
+* *FAQ Modul PDAM Pintar*
++
+Pertanyaan dan jawaban yang sering diajukan oleh customer tentang modul PDAM Pintar.

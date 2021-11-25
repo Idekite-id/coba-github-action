@@ -1,0 +1,12 @@
+= Release and Deployment Coklit BE
+
+== Coklit
+
+1. Create branch `release_yyyymmdd` dari master
+
+2. Create PR dan Merge branch feature ke branch `release`
+PR dan merge branch `release` ke `master`
+
+3. Create Release dan Tag, format tag `v*.* . *` sesuai dengan fix version, target master.
+
+4. Publish release, deploy jalan, pastikan GitHub action no error

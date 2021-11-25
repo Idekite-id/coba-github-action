@@ -1,0 +1,26 @@
+= Architecture Perencanaan Web PDAM Jogja
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem Perencanaan Web PDAM Jogja:
+
+//image::./images-Perencanaan-Web-PDAM-Jogja/perencanaan-web-pdam-jogja-c2-diagram.png[Perencanaan Web PDAM Jogja C2 Diagram]
+
+Sistem ini merupakan bagian dari Bimasakti Alterra. Untuk lebih detail terkait hubungan Perencanaan Web PDAM Jogja dengan sistem Bimasakti Alterra lainnya, silakan mengakses diagram C1 berikut.
+
+== Related System
+
+Perencanaan Web PDAM Jogja terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Perencanaan Web PDAM Jogja.
+
+[cols="10%,20%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+| *Perencanaan Web PDAM Jogja*
+| 
+a| 
+a| 
+|===

@@ -1,0 +1,19 @@
+= Release and Deployment Trunko
+
+==  Release and Deployment Step
+
+1. _Review_ fitur yang akan di-_release_ dengan _stakeholder_ yang bersangkutan.
+2. _Merge_ _story branch_ yang sudah _QCR test accepted_ di _branch_ `dev_<release_version>` ke _branch_ `uat_<release_version>` untuk dilakukan QA regresion test.
+3. Jika QA regresion test passed, _merge_ branch `uat_<release_version>` ke branch `master`.
+4. _Create draft release_ sertakan tag version dengan target _branch master_
+5. Juga jangan lupa menyertakan _changelog_ kemudian klik *Public release*
+6. Isi _form_ IT Support untuk _request_ ke tim Infra.
+7. Berkolaborasi dengan Tim Infra dalam setiap proses _release_.
+8. Lakukan _monitoring_ setelah proses _release_ selesai. Pastikan perubahan sudah terpakai dan semuanya berjalan secara normal.
+9. _Create branch_ `dev_<release_version>` dan `uat_<release_version>` untuk rilis selanjutnya.
+10. _Finish Jira Release_.
+11. _Done_.
+
+==  Release and Deployment Schedule
+
+Release dan Deployment biasanya dilakukan seminggu sekali pada hari Selasa atau bisa dilakukan sewaktu-waktu tergantung dari kebutuhan.

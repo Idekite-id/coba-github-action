@@ -1,0 +1,43 @@
+= Release and Deployment Mobile Loket
+
+Berisi informasi tentang release dan step deployment
+
+==  Release Schedule and Step
+
+Tidak ada waktu khusus untuk release. Tergantung permintaan PO.
+
+[arabic]
+1. To begin the publishing process, select Build > Archive for Publishing:
+2. Archive for Publishing builds the project and bundles it into an archive file. The Archive All menu choice archives all archivable projects in the solution. Both options automatically open the Archive Manager when the build and bundling operations complete:
+3. Select Ad-Hoc
+4. Sign the APK, select keystore 'keystore-mobileloket' ask https://t.me/hadilo[] or https://t.me/agussuryaadip[]
+5. Save at folder
+6. Enter password
+7. Done
+8. APK shared upload to gdrive https://drive.google.com/drive/u/1/folders/1nfEHWbKxGhy2VdoToKnnJhJXZ98GuNJu[]
+9. Add Release Note at https://docs.google.com/spreadsheets/d/1fcf-OixXMdvjzebXFpB7-sXjgKh4jf4Xh1Oz-iXY1dE/edit?ts=606ab9c2#gid=0[]
+10. Add Release Note at release-note-systemname.adoc
+11. Share to Mobile Loket Group
+
+== Schedule and Step Deployment
+
+Tidak ada waktu khusus untuk release. Tergantung permintaan PO.
+
+[arabic]
+1. To begin the publishing process, select Build > Archive for Publishing:
+2. Archive for Publishing builds the project and bundles it into an archive file. The Archive All menu choice archives all archivable projects in the solution. Both options automatically open the Archive Manager when the build and bundling operations complete:
+3. Select Ad-Hoc
+4. Sign the APK, select keystore 'keystore-mobileloket' ask https://t.me/hadilo or https://t.me/agussuryaadip[]
+5. Save at folder
+6. Enter password
+7. Done
+8. APK shared upload to gdrive https://drive.google.com/drive/u/1/folders/1nfEHWbKxGhy2VdoToKnnJhJXZ98GuNJu[]
+9. Add Release Note at https://docs.google.com/spreadsheets/d/1fcf-OixXMdvjzebXFpB7-sXjgKh4jf4Xh1Oz-iXY1dE/edit?ts=606ab9c2#gid=0[]
+10. Add Release Note at release-note-systemname.adoc
+11. Share to Mobile Loket Group
+
+== Ref
+
+[arabic]
+1. https://docs.microsoft.com/en-us/xamarin/android/deploy-test/signing/?tabs=macos[]
+2. https://docs.microsoft.com/en-us/xamarin/android/deploy-test/release-prep/?tabs=macos[]

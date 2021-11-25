@@ -1,0 +1,14 @@
+= Membatalkan Pembayaran Voucher
+
+Ikuti langkah-langkah berikut untuk membatalkan pembayaran _voucher_ :
+
+image::../images-keuangan/keuangan-voucher-membatalkan-pembayaran-voucher-1.png[align="center"]
+
+1. Pilih data yang akan dibatalkan pembayaran vouchernya dan klik tombol *Pembatalan Pembayaran Voucher* 
+
++
+image::../images-keuangan/keuangan-voucher-membatalkan-pembayaran-voucher-2.png[align="center"]
+
+2. Setelah muncul kotak *Data Voucher Terbayar*, klik kanan pada *kolom tabel Jumlah*. Pilih menu *Batalkan Pembayaran*
+
+3. Jika sudah selesai klik tombol *Keluar*

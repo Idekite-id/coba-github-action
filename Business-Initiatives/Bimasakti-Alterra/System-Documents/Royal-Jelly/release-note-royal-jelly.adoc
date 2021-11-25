@@ -1,0 +1,5 @@
+= Release Notes Royal Jelly
+
+== Github
+
+Anda dapat mengakses _Release Notes_ sistem Royal Jelly pada https://github.com/bimasaktialterra/royal-jelly/releases[halaman berikut]

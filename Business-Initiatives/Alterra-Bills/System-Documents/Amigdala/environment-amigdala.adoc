@@ -1,0 +1,22 @@
+= Environment Amigdala
+
+== Server Specification
+
+=== Staging
+
+* Server: VM
+* OS : Debian 9
+* 1 vCPU, 3.75 GB memory
+
+=== Production
+
+* Kubernetes
+* Limit:
+ ** CPU: 300m
+ ** Memory: 300Mi
+* Request:
+ ** CPU: 100m
+ ** Memory: 200 Mi
+* Max replicas: 3
+* Min replicas: 1
+* targetCPUUtilizationPercentage: 70

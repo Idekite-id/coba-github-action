@@ -1,0 +1,23 @@
+= Kraken
+:keywords: sti,bpa,switcher-engine
+
+== Overview
+
+Kraken adalah sistem yang berfungsi memproses transaksi pembayaran tagihan elektronik seperti Pulsa, Listrik, Tagihan PDAM, dll.
+Saat ini Kraken sedang dalam tahap peralihan menggunakan Kraken V2.
+
+=== Latar Belakang Penamaan
+
+Secara etimologi penamaan Kraken diambil dari nama monster gurita raksasa legendaris yang tinggal di lautan dalam.
+
+== Sistem
+
+<<./Kraken-V2/index.adoc#, Kraken V2>>
+
+<<./Tentacles/index.adoc#, Tentacles>>
+
+== Informasi Lainnya
+
+<<./product-pricing-kraken-v2.adoc#, Kraken Product Pricing>>
+
+<<./kraken-singlepoint-migration.adoc#, Single Point Migration Kraken>>

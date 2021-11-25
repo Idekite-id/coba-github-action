@@ -1,0 +1,3 @@
+= Release and Deployment Royal Jelly
+
+Proses deploy ke production untuk ketiga sistem dilakukan oleh tim infastruktur. Request dapat dibuat di https://ata.to/isd[]. Request dilakukan oleh tim lead karena akan dilakukan pengecekan terkait credentials yang digunakan. Selain itu jadwal request dibuat mengikuti permintaan dari user.

@@ -1,0 +1,10 @@
+= Environment Proteus Core Dashboard
+
+== Staging
+
+https://proteuscore-dashboard.sumpahpalapa.com/dashboard[]
+
+Username : *****
+Password : *****
+
+*Note : Untuk detail username dan password, Anda dapat menghubungi Tim Development Proteus Core Dashboard*

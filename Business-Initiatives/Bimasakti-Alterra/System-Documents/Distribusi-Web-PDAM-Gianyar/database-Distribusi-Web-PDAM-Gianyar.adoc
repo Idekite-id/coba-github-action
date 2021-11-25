@@ -1,0 +1,15 @@
+= Database Documentation Distribusi Web PDAM Gianyar
+
+Berisi dokumentasi database yang digunakan di dalam sistem, seperti daftar tabel dan gambar ERD beserta penjelasannya.
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Table Name* 
+^.^h| *Description* 
+
+|
+|
+
+|
+|
+|===

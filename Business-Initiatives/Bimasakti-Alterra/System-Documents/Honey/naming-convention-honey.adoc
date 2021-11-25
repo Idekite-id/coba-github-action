@@ -1,0 +1,10 @@
+= Naming Convention Honey
+
+_Naming Convention_ di Honey mengikuti standar penamaan di JavaScript, sebagai contoh:
+
+1. Nama variabel dan nama fungsi menggunakan *camelCase*
+* Penamaan variabel bersifat opsional, jika tidak memungkinkan untuk menggunakan *camelCase* (sebagai contoh, variabel bisa saja harus menyesuaikan dengan data response yang berasal dari back-end yang menggunakan *hype-hens* atau *under_score*)
+2. Variabel global menggunakan *UPPERCASE*
+3. Konstanta menggunakan *UPPERCASE*
+
+https://www.w3schools.com/js/js_conventions.asp[]

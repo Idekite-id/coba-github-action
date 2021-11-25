@@ -1,0 +1,472 @@
+= API Partner Config Oknurt
+
+<<Get Partner Data>>
+
+<<Get Partner Config>>
+
+<<Set Partner Config>>
+
+<<Partner Config Sample>>
+
+<<Partner Config Rules Spec>>
+
+<<Partner Config ISO8583 Spec>>
+
+<<Partner Config Rules Operator>>
+
+<<Partner Config Rules Function>>
+
+<<Partner Config Rules Temporary Variables>>
+
+<<Command for API Config>>
+
+== Get Partner Data
+=== Request
+----
+method : GET
+URL    : /partner/:partner_id
+----
+=== Response
+----
+{
+    "id": 1,
+    "created_at": "2018-05-11T16:06:14+07:00",
+    "updated_at": "2020-11-19T07:55:17+07:00",
+    "deleted_at": null,
+    "username": "oknurt",
+    "password": "$2a$08$qOYMTrlUm3cgA4MW",
+    "name": "Oknurt",
+    "callback_url": "http://oknurt.sepulsa.id/v1/callback/oknurt",
+    "package_id": 1,
+    "email": "contact@oknurt.sepulsa.id",
+    "payment_type": "deposit",
+    "is_active": true
+}
+----
+
+== Get Partner Config
+----
+method : GET
+URL    : /partner/:partner_id/config
+----
+
+== Set Partner Config
+----
+method : POST
+URL    : /partner/:partner_id/config
+----
+
+== Partner Config Sample
+
+----
+{
+    "additional_config": {
+        "product_mapping": {
+            "T10K": {
+                "operator_id": 5,
+                "product_code": "22"
+            }
+        },
+        "response_code_mapping": {
+            "00": [
+                {
+                    "message": "TRANSAKSI BERHASIL",
+                    "rc_partner": "00"
+                }
+            ]
+        }
+    },
+    "api_config": {
+        "auth": {
+            "data": {
+                "public_key": "-----BEGIN PUBLIC KEY-----\nMIGfMA0GCB\n-----END PUBLIC KEY-----",
+                "signature_field": "signature",
+                "source_data": "request"
+            },
+            "type": "rsa_sha256_signature"
+        },
+        "callback": {
+            "request": {
+                "body": "customer_id=[customer_id]",
+                "header": {
+                    "Content-Type": "application/json"
+                },
+                "method": "post",
+                "timeout": 60,
+                "url": "http://localhost:8000"
+            },
+            "rules": {
+                "request": [
+                    {
+                        "conditions": [
+                            {
+                                "data": "rules-simple",
+                                "function_data": "text",
+                                "function_value": "text",
+                                "logic": "",
+                                "operator": "equal",
+                                "value": "rules-simple"
+                            }
+                        ],
+                        "label": "Simple callback",
+                        "operations": [
+                            {
+                                "data": "[customer_id]",
+                                "function": "text",
+                                "ta": false,
+                                "value": "[customer_id]"
+                            }
+                        ]
+                    }
+                ],
+                "response": []
+            }
+        }
+    },
+    "command_config": {
+        "purchase": {
+            "pdam": {
+                "iso8583_config": {
+                    "data": {
+                        "0200": {
+                            "elements": {
+                                "48": {
+                                    "format": "lllvar",
+                                    "length": 999,
+                                    "padding": "",
+                                    "sub_elements": [
+                                        {
+                                            "format": "fixed",
+                                            "length": 20,
+                                            "name": "transaksiid",
+                                            "padding": "",
+                                            "type": "an"
+                                        }
+                                    ],
+                                    "type": "an"
+                                }
+                            },
+                            "response": {
+                                "0210": {
+                                    "elements": {
+                                        "48": {
+                                            "format": "lllvar",
+                                            "length": 999,
+                                            "padding": "",
+                                            "sub_elements": [],
+                                            "type": "an"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "message": {
+                        "head": {
+                            "additional_mesage": "",
+                            "data": {
+                                "length": 4
+                            },
+                            "type": "default"
+                        },
+                        "tail": {
+                            "value": ""
+                        }
+                    }
+                },
+                "request": {
+                    "body": "{\n\"customer_id\": \"[customer_id]\",\n\"product_code\": \"[product_code]\",\n\"order_id\" : \"[order_id]\",\n\"reference_no\" : \"[ref_no]\"\n}",
+                    "header": {
+                        "Content-Type": "application/json"
+                    },
+                    "method": "post",
+                    "timeout": "30",
+                    "url": "https://horven-api.sumpahpalapa.com/bs/payment"
+                },
+                "response": {
+                    "body": "",
+                    "header": {}
+                },
+                "rules": {
+                    "request": [
+                        {
+                            "conditions": [
+                                {
+                                    "data": "rules-simple",
+                                    "function_data": "text",
+                                    "function_value": "text",
+                                    "logic": "",
+                                    "operator": "equal",
+                                    "value": "rules-simple"
+                                }
+                            ],
+                            "label": "default request",
+                            "operations": [
+                                {
+                                    "data": "[customer_id]",
+                                    "function": "text",
+                                    "ta": false,
+                                    "value": "[bit48:kodeva]"
+                                }
+                            ]
+                        }
+                    ],
+                    "response": [
+                        {
+                            "conditions": [
+                                {
+                                    "data": "rules-simple",
+                                    "function_data": "text",
+                                    "function_value": "text",
+                                    "logic": "",
+                                    "operator": "equal",
+                                    "value": "rules-simple"
+                                }
+                            ],
+                            "label": "default response payment",
+                            "operations": [
+                                {
+                                    "data": "[bit2]",
+                                    "function": "text",
+                                    "ta": false,
+                                    "value": "[req:bit2]"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "connection_type": "tcp_iso8583",
+    "debug": true,
+    "iso8583_config": {
+        "data": {
+            "0200": {
+                "elements": {
+                    "2": {
+                        "format": "llvar",
+                        "length": 19,
+                        "padding": "",
+                        "sub_elements": [],
+                        "type": "n"
+                    }
+                },
+                "response": {
+                    "0210": {
+                        "elements": {
+                            "63": {
+                                "format": "lllvar",
+                                "length": 999,
+                                "padding": "",
+                                "sub_elements": [],
+                                "type": "an"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "message": {
+            "head": {
+                "additional_mesage": "",
+                "data": {
+                    "length": 4
+                },
+                "type": "default"
+            },
+            "tail": {
+                "value": ""
+            }
+        }
+    },
+    "routing": {
+        "rules": {
+            "request": [
+                {
+                    "conditions": [
+                        {
+                            "data": "[bit3]",
+                            "function_data": "text",
+                            "function_value": "text",
+                            "logic": "",
+                            "operator": "start_with",
+                            "value": "05"
+                        }
+                    ],
+                    "label": "purchase",
+                    "operations": [
+                        {
+                            "data": "[command]",
+                            "function": "text",
+                            "ta": false,
+                            "value": "inquirybeforepayment"
+                        },
+                        {
+                            "data": "[product_type]",
+                            "function": "text",
+                            "ta": false,
+                            "value": "pdam"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
+----
+
+== Partner Config Rules Spec
+
+----
+{
+    "rules": [ //|optional|array_object|, if empty set to empty array []
+        {
+            "label": "Simple callback",  //|required|string|, rules label name
+            "conditions": [ //|optional|array_object| Operations will be executed when Conditions TRUE
+                {
+                    "data": "rules-simple", //|required|string|"rules-simple" for simple condition, use bracket [] if refer to request/response default value
+                    "function_data": "text", //|required|string|, see below for function list
+                    "function_value": "text", //|required|string|, see below for function list
+                    "logic": "",  //|optional|string|, MUST set to empty for single/last condition
+                    "operator": "equal", //|required|string|, see below for operator list
+                    "value": "rules-simple"  //|optional|string|"rules-simple" for simple condition, use bracket [] if refer to request/response default value
+                }
+            ],
+            "operations": [ //|optional|array_object|
+                {
+                "data": "[customer_id]", //|required|string|, dropdown, refer to bracket field in body mapping
+                "function": "text", //|optional|string| list function see below
+                "value": "advice", //|optional|string| use bracket [] if refer to fbs response
+                "ta": false
+                }
+            ]
+        }
+    ]
+}
+----
+
+== Partner Config ISO8583 Spec
+
+----
+{
+    "data": { //|optional|object|
+        "0200": //|optional|string|, MTI
+            { //|optional|object|
+            "elements": {
+                "48": //|optional|string|, bit element
+                { //|optional|object|
+                    "format": "lllvar" //|required|string|, dropdown list data format
+                    "length": 999, //|required|number|, data length
+                    "padding": "", //|required|string|, dropdown list data padding type
+                    "type": "an", //|required|string|, dropdown list data type
+                    "sub_elements": [  //|optional|array_object|
+                        {
+                            "format": "fixed", //|required|string|, dropdown list data format
+                            "length": 20, //|required|number|, data length
+                            "name": "transaksiid", //|required|string|, sub element name
+                            "padding": "", //|required|string|, dropdown list data padding type
+                            "type": "an" //|required|string|, dropdown list data type
+                        }
+                    ]
+                }
+            },
+            "response": {
+                "0210":  //|optional|string|, MTI
+                    { //|optional|object|
+                    "elements": {} // Same like "elements" format
+                }
+            }
+        }
+    },
+    "message": { //|optional|object| additional config message in header and tailer
+        "head": { //|optional|object|
+            "additional_mesage": "", //|optional|string| additional message in header
+            "data": { //|optional|object|
+                "length": 4 //|optional|number| message data length
+            },
+            "type": "default" //|optional|string|
+        },
+        "tail": { //|optional|object|
+            "value": "" //|optional|string| additional message in tailer
+        }
+    }
+}
+----
+
+== Partner Config Rules Operator
+
+----
+// operator
+empty //no need value, ( "",0,[],{},null )
+not_empty //no need value
+equal
+not_equal
+start_with
+end_with
+in
+not_in
+set
+not_set
+
+num_greater_than
+num_greater_than_or_equal
+num_less_than
+num_less_than_or_equal
+
+date_before
+date_after
+
+text_contains
+text_not_contains
+
+// operator logc
+and
+or
+----
+
+== Partner Config Rules Function
+
+----
+// used in rules operation function
+formula ===> support for math operator: * / + - ( )
+substring(string, indexFrom, indexTo)
+length(string)
+replace(string, old, new)
+concat(string, ...string)
+uppercase(string)
+lowercase(string)
+regex(exp, string)
+split(string, separator)
+array_join(array_string, separator)
+array_map(array, function)
+date_format(to_date_format, from_date_format, date)
+md5(string_to_hash)
+sha256(string_to_hash)
+base64enc(string_to_enc)
+base64dec(string_to_dec)
+getrcmapping(response_code, message)
+getpartnerpackagefee(base_price, partner_id, product_id)
+getproductmapping(partner_product, product_code)
+rsaDanaGenerateSign(payload)
+rsaDanaVerifySign(sourceData, public_key, signature)
+----
+
+== Partner Config Rules Temporary Variables
+
+----
+//temporary varibale, only used in rules operation data
+_VAR_A_
+_VAR_B_
+_VAR_C_
+----
+
+== Command for API Config
+
+----
+inquiry
+purchase
+advice
+reversal
+product
+----

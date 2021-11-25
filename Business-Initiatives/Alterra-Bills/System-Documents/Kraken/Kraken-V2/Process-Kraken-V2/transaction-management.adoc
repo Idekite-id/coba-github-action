@@ -1,0 +1,48 @@
+= Transaction Management Kraken V2
+
+== Short Description
+
+_Transaction_ management adalah fitur yang bertujuan untuk mengatur aktivitas pada transaksi, seperti menampilkan data transaksi, manual update status transaksi, manual update SN transaksi, cancel transaksi, reprocess transaksi, dan mengirimkan notifikasi status transaksi ke partner.
+
+== Feature Documentation
+
+Anda dapat mengakses dokumentasi _transaction management_ di https://docs.google.com/document/d/1CM5yT8SzMYrS7UeAu1uaQeGNp4HkuM3VORhQ3EJVTGg/edit?usp=sharing[Dokumentasi Admin API - Transaction] 
+
+== Log Catalog
+
+.Katalog Log Transaction Management
+|===
+|json.url |json.handler |description
+
+|/transaction/manual-update/success
+|SubmitForceToSuccess
+|Log ini mencatat aktivitas perubahan status transaksi ke sukses oleh ops
+
+|/transaction/manual-update/failed
+|SubmitForceToFailed
+|Log ini mencatat aktivitas perubahan status transaksi ke failed oleh ops
+
+|/transaction/manual-update/failed/bulk
+|SubmitBulkForceToFailed
+|Log ini mencatat aktivitas perubahan status ke failed pada beberapa transaksi sekaligus oleh ops
+
+|/transaction/manual-update/bulk/:biller_id
+|ForceManualUpdate
+|Log ini mencatat aktivitas perubahan status pada beberapa transaksi sekaligus sesuai biller id oleh ops
+
+|/transaction/manual-update-sn/bulk
+|BulkUpdateSN
+|Log ini mencatat aktivitas perubahan serial number transaksi oleh ops
+
+|/transaction/cancel
+|Canceltransaction
+|Log ini mencatat aktivitas perubahan status transaksi ke cancel oleh ops
+
+|/transaction/reprocess
+|ReprocessTransaction
+|Log ini mencatat aktivitas reproses transaksi yang mendapatkan status failed oleh ops
+
+|/transaction/send-notification
+|SendNotification
+|Log ini mencatat aktivitas pengiriman ulang notifikasi status transaksi ke partner oleh ops
+|===

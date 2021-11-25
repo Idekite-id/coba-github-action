@@ -1,0 +1,78 @@
+= Meowth 
+:keywords: ati, internal, promo-validation
+
+== Overview
+
+Meowth adalah bagian dari _microservice_ di Sepulsa yang mengelola sistem layanan promosi.
+
+Hal-hal yang terkait dengan promosi Sepulsa akan diatur melalui sistem Meowth seperti di bawah ini:
+
+* Promo
+* Banner
+* _Rules_
+
+=== Etimologi
+
+Sebenarnya, Meowth (dikenal sebagai Nyarth dalam versi Jepang asli) adalah spesies Pokemon di Nintendo dan _franchise_ Pokemon Freak Game. Desainnya terinspirasi oleh ikon keberuntungan Jepang, Maneki-Neko.
+
+Meowth merupakan sistem promosi Sepulsa. Semua promo yang dikeluarkan oleh Sepulsa diatur melalui sistem ini. Meowth dapat diakses melalui link https://terra.sepulsa.id/[https://terra.sepulsa.id/]. Masukkan _username_ dan _password,_ kemudian klik _Login_.
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email*
+
+| Bondan Ari Bowo
+| Product Owner
+| bondan@alterra.id
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Rosa Imantoro
+| Lead Developer
+| iman@alterra.id
+
+| Etik Insani Zebua
+| Lead Quality Engineer
+| sani@alterra.id
+
+| Budiyanto
+| Ex Lead System Analyst
+| budiyanto@alterra.id
+|===
+
+== Technical Information
+
+<<./url-meowth.adoc#, System URL Meowth>>
+
+<<./architecture-meowth.adoc#, Architecture Meowth>>
+
+<<./technology-meowth.adoc#, Technology Meowth>>
+
+<<./environment-meowth.adoc#, Environment Meowth>>
+
+<<./database-meowth.adoc#, Database Documentation Meowth>>
+
+<<./release-deploy-meowth.adoc#, Release and Deployment Meowth>>
+
+<<./flow-wire-meowth.adoc#, Flow and Wireframe Meowth>>
+
+== Onboarding Information
+
+<<./dev-onboarding-meowth.adoc#, Developer Onboarding Meowth>>
+
+<<./development-meowth.adoc#, Development Meowth>>
+
+<<./naming-convention-meowth.adoc#, Naming Convention Meowth>>
+
+== Documentation
+
+https://docs.google.com/document/d/10WIJjMkDilOhL-3aLdjOMNKY57ttOLJjQdYoqt1rnro/edit?usp=sharing[User Guide Meowth (For Operations Team)]
+
+<<./api-meowth.adoc#, API Document Meowth>>
+
+<<./release-note-meowth.adoc#, Release Note Meowth>>
+
+<<./system-feature-meowth.adoc#, System Feature Meowth>>

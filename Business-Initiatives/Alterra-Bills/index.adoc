@@ -1,0 +1,13 @@
+= Alterra Bills
+
+Alterra Bills merupakan *_"One Stop Solution for Bill Payment Services"_* yang menyediakan layanan _bill payment_ atau tagihan pembayaran dari hulu ke hilir dan menghubungkan semua penerbit tagihan (_bill issuers_), kanal pembayaran, dan _end-users_.
+
+Dalam halaman ini, kamu dapat mengakses berbagai informasi Alterra Bills, yang di antaranya adalah:
+
+link:./Company/index.adoc[Company]
+
+link:./Governance-Documents/index.adoc[Governance Documents]
+
+link:./Guidelines/index.adoc[Guidelines]
+
+link:./System-Documents/index.adoc[System Documents]

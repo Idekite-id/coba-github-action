@@ -1,0 +1,116 @@
+= Seingat Alicanto
+
+== Development Team
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| R Achmad Syatriadi Widisana  
+| Document Owner 
+| widisana@alterra.id
+
+| Hendrik Rahardja 
+|  Development Manager 
+| hendrik@alterra.id
+
+| Ramdhan Pohan  
+| Product Owner 
+| rpohan@alterra.id
+
+a| 1. R Achmad Syatriadi Widisana  
+2. Pipit Puspitasari 
+| System analyst 
+a| 1. widisana@alterra.id  
+2. pipit@alterra.id
+
+| Ery Hardinata 
+| Software Engineer 
+| ery@alterra.id
+
+| Mugh dzin syah 
+| Front End Developer 
+| dzinsyah@alterra.id
+
+| Khoiriyah 
+| Quality Enggineer 
+| khoiriyah@alterra.id
+|===
+
+== Overview
+
+Sebuah sistem yang berfokus untuk mengingatkan (_reminder_) tagihan _user_. Pengingat akan berjalan sesuai dengan periode waktu yang sudah _user_ atur misalnya mingguan, bulanan, 3 bulan, 6 bulan dan tahunan. _User_ akan mendapatkan *email* pengingat berupa waktu untuk membayar tagihan, sehingga memudahkan _user_ dalam mengatur dan mempersiapkan biaya tagihan yang akan dikeluarkan untuk periode tertentu.
+
+=== Sistem Flow
+
+* TODO
+
+=== User Story
+
+Berikut merupakan cara untuk menambahkan daftar Seingat dan melakukan transaksi lewat fitur Seingat:
+
+[arabic]
+. _User_ masuk menu profile dan pilih menu Seingat. +
++
+image::./image-feature-alicanto/seingat/Alicanto-Profile-Seingat.png[profile-seingat]
+
+. _User_ masuk ke halaman _empty state_ jika belum memiliki _list_ Seingat. +
++
+image::./image-feature-alicanto/seingat/Alicanto-Empty-Unpaid-Seingat.png[empty-unpaid-seingat]
+
+. _User_ masuk ke halaman Seingat jika memiliki _list_ seingat. +
++
+image::./image-feature-alicanto/seingat/Alicanto-List-Seingat.png[list-seingat]
+
+. _User_ masuk ke halaman pilih _product_, ketika klik tombol "Buat pengingat tagihan" di halaman _empty state_ atau klik tombol "+" dipojok kanan bawah halaman _list_ _seingat_. +
++
+image::./image-feature-alicanto/seingat/Alicanto-Select-Product-Seingat.png[select-product-seingat]
+
+. _User_ masuk ke halaman _form_ tambah pengingat ketika klik salah satu _product_ di halaman pilih _product_. +
++
+image::./image-feature-alicanto/seingat/Alicanto-Form-Add-Seingat.png[form-add-seingat]
+
+. Ketika Seingat berhasil ditambahkan maka _list_ Seingat  seperti pada gambar nomor 3 akan bertambah sesuai dengan pengingat yang di dibuat.
+
+. _User_ akan masuk ke halaman detail Seingat ketika klik salah satu dari _product_ yang ada di _list_ Seingat (gambar nomor 3). +
++
+image::./image-feature-alicanto/seingat/Alicanto-Detail-Seingat.png[detail-seingat]
+
+. _User_ bisa melakukan _delete_ Seingat di halaman detail Seingat dengan cara klik _icon trash_. +
++
+image::./image-feature-alicanto/seingat/Alicanto-Delete-Seingat.png[delete-seingat]
+
+. _User_ bisa melakukan _edit_ Seingat di halaman detail Seingat dengan cara klik _icon pencil_. +
++
+image::./image-feature-alicanto/seingat/Alicanto-Edit-Seingat.png[edit-seingat]
+
+. _User_ bisa melakukan pembayaran dengan cara klik tombol bayar sekarang di halaman detail Seingat, dan akan masuk ke halaman _checkout_ (untuk product denom). +
++
+image::./image-feature-alicanto/seingat/Alicanto-Detail-Seingat.png[detail-seingat]
+
+. _User_ bisa mengecek jumlah tagihan dengan cara klik tombol cek tagihan di halaman seingat khusus untuk _product_ tipe _inquiry_, dan bisa langsung ke halaman _checkout_ ketika klik tombol bayar sekarang. +
++
+image::./image-feature-alicanto/seingat/Alicanto-Inquiry-Seingat.png[inquiry-seingat]
+
+. Setelah _user_ melakukan pembayaran lewat fitur Seingat, _list_ Seingat yang sudah dibayar akan bertambah. +
++
+image::./image-feature-alicanto/seingat/Alicanto-List-Paid-Seingat.png[list-paid-seingat]
+
+. _User_ bisa melihat detail Seingat yang sudah di bayar dengan cara klik salah satu _list_ yang ada di daftar _list_ Seingat yang sudah dibayar. +
++
+image::./image-feature-alicanto/seingat/Alicanto-Detail-Paid.png[detail-paid]
+
+=== Implementation
+
+==== Proses Implementasi
+
+* Membuat mockup sesuai dengan prototype tim UI UX, URL protoype-nya bisa dilihat pada https://xd.adobe.com/view/0c571a96-8564-4286-8e81-526a212c8ccf-5904/[link berikut].
+* Integrasi dengan API yang disediakan oleh chital
+
+==== Detail Integration
+
+* TODO
+
+

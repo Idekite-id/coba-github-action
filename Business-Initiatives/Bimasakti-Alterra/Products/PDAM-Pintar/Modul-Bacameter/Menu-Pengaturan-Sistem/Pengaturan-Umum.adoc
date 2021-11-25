@@ -1,0 +1,5 @@
+= Pengaturan Umum
+
+image::../images-bacameter/bacameter-pengaturanumum-bacameter.png[align="center"]
+
+Fitur ini digunakan untuk melakukan pengaturan secara general pada sistem. Untuk melakukan pengaturan sistem bisa dengan mengubah atau mengisi form yang tersedia, kemudian klik tombol *Simpan*.

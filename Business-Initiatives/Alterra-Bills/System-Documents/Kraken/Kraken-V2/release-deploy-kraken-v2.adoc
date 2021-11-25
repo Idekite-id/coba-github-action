@@ -1,0 +1,22 @@
+= Release and Deployment Kraken V2
+
+1.  Review fitur yang akan di _release_ dengan _stakeholder_ yang bersangkutan
++
+    * Open `release` menu pada Jira
+    * [Opsional] Jika kita perlu melihat _title_, detail story / task dan melakukan _query_, kita dapat mengaksesnya pada `Issue Navigator`
+    * Filter berdasarkan Squad : `project = 10026 AND fixVersion = 10065 ORDER BY squad, priority DESC, key ASC`
+
+2.  Persiapan release dapat dengan membuka `release note` dan mengelompokan berdasarkan squad, atau dapat dituliskan secara manual dan bisa juga di-_copy_ satu per satu di `Issue Navigator`
++
+    *  Menginformasikan `release note` ke grup Kraken
+    *  Pastikan seluruh _story_ telah selesai dikerjakan dan lolos _regression test_ untuk kemudian di-_merge_ dari `uat_xxxxxxxx` ke `rilis/xxxxxxxx`
+    *  Pastikan _release_ diproses/tes oleh Travis hingga prosesnya selesai dan lolos testing
+    *  Release Selesai
+    *  Edit _Release Note_ pada Github
+    * Isi _helpdesk form_ dari Tim Infra (tutorial dapat diakses pada link https://drive.google.com/file/d/13UmhCeYMjR42oJ1_mos_lhDQj4fyP2Bl/view[video berikut]
+
+3.  Berkolaborasi dengan Tim Infra dalam setiap proses _release_ ( Anda dapat menggunakan Discord, Zoom, atau Google Meet untuk berkolaborasi)
+4.  Lakukan _monitoring_ setelah proses _release_ selesai
+5.  _Create_ branch QA, UAT & Release
+6.  Finish Jira Release
+7.  Done

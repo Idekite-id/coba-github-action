@@ -1,0 +1,342 @@
+= Logs Catalog Trunko
+
+== API Log
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Parameter* 
+^.^h|*Description*
+
+| `level` | Info or Error
+| `event` | See Event List Below
+| `data.transaction_id` | Transaction data from kraken
+| `data.transaction_biller_id` | Transaction data from kraken
+| `data.remote_transaction_id` | Transaction data from kraken
+| `data.remote_product_id` | Transaction data from kraken
+| `data.customer_id` | Transaction data from kraken
+| `data.partner_id` | Transaction data from kraken
+| `data.transaction_date` | Transaction data from kraken
+| `data.partner_name` | Transaction data from kraken
+| `data.product_id` | Transaction data from kraken
+| `data.product_type_label` | Transaction data from kraken
+| `data.biller_id` | Transaction data from kraken
+| `data.biller_label` | Transaction data from kraken
+| `data.counter` | Transaction data from kraken
+| `data.rawdata` | Transaction data from kraken
+| `data.parameters` | Transaction data from kraken
+| `data.command_data` | Transaction data from kraken
+| `data.biller_price` | Transaction data from kraken
+| `data.amount` | Transaction data from kraken
+| `connection_type` | http or tcp
+| `package` | Trunko Package Code
+| `time_start` | Process Time Start
+| `elapsed_time` | Process Elapsed Time
+| `raw_data` | Raw data
+| `request_url` | Request URL to Biller or from kraken
+| `request_host` | Trunko Host
+| `http_method` | POST, GET, PUT, PATCH, or DELETE
+| `request_ip` | Request Client IP
+| `request_time` | Request Time to biller or from kraken
+| `request.[biller_request_field]` | Request data to biller or from kraken, ex: request.no_hp
+| `request_header.[header_key]` | Request Header to biller or from kraken ex: request_header.Content-Type
+| `response_time` | Response Time from biller or to kraken
+| `response.[biller_response_field]` | Response data from biller or to kraken
+| `response_header.[header_key]` | Response header from biller or to kraken
+| `http_code` | 200, 401, 500, etc
+| `raw_request` | Raw request parameter data
+| `raw_response` | Raw response parameter data
+| `time` | Log Time
+|===
+
+=== Event List
+
+==== Execute Event List
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Event* 
+^.^h| *Description*
+
+| `kraken.request.http` | Request Log from kraken
+| `parser.rules.request.error` | Error Parse Request Rules to biller
+| `adapter.request` | Request Log to Biller
+| `adapter.request.err_parse` | Request Parse Error to biller
+| `adapter.request.error` | Error Request to Biller
+| `adapter.response` | Response Log from Biller
+| `adapter.response.err_parse` | Response Parse Error from biller
+| `adapter.response.error` | Error Response from biller
+| `parser.rules.response.error` | Error Parse response rules from biller
+| `parser.iso8583.error` | Error Parse ISO rules
+| `schedule.create` | Schedule creation when interval more than 3 second or outside execution time
+| `queue.create` | Scheduler running and send data to queue
+| `worker.run` | queue consumed
+| `worker.error` | queue consume error
+| `task.execute` | execute request to biller from worker
+|===
+
+==== Callback Event List
+
+[cols="30%,35%",frame=all, grid=all]
+|===
+^.^h| *Event* 
+^.^h| *Description*
+
+| `biller.request.http` | Request Log from Biller
+| `biller.request.http.error` | Error Request Log from Biller
+| `adapter.callback.request` | Request Log to Kraken
+| `adapter.callback.err_parse` | Error Parse Callback to Kraken
+| `adapter.callback.error` | Error Request to Kraken
+| `adapter.callback.response` | Response Log from Kraken
+
+|===
+
+=== Sample API Log
+
+==== Transaction API ( Kraken -> Trunko)
+
+    {
+        "level": "info",
+        "event": "kraken.request.http",
+        "data": {
+            "amount": 20000,
+            "biller_id": 59,
+            "biller_label": "trunko_test",
+            "command_type": "purchase",
+            "customer_id": "0812345678",
+            "partner_id": 6,
+            "product_id": 21,
+            "rawdata": "",
+            "remote_product_id": "",
+            "remote_transaction_id": "",
+            "transaction_biller_id": 98765468555945,
+            "transaction_id": 98765456855945
+        },
+        "connection_type": "http",
+        "package": "trunko/controller",
+        "time_start": "0001-01-01T00:00:00Z",
+        "elapsed_time": 9223372036854,
+        "raw_data": "",
+        "request_url": "/execute",
+        "request_host": "localhost:1123",
+        "http_method": "POST",
+        "request_ip": "::1",
+        "request_time": "2021-02-05T16:45:47+07:00",
+        "request": {
+            "amount": 20000,
+            "biller_id": 59,
+            "biller_label": "trunko_test",
+            "command_type": "purchase",
+            "customer_id": "0812345678",
+            "partner_id": 6,
+            "product_id": 21,
+            "rawdata": "",
+            "remote_product_id": "",
+            "remote_transaction_id": "",
+            "transaction_biller_id": 98765468555945,
+            "transaction_id": 98765456855945
+        },
+        "request_header": "POST /execute HTTP/1.1\r\nHost: localhost:1123\r\nAccept: */*\r\nAccept-Encoding: gzip, deflate, br\r\nAuthorization: Basic dHJ1bmtvOjEyMzQ1Ng==\r\nCache-Control: no-cache\r\nConnection: keep-alive\r\nContent-Length: 327\r\nContent-Type: application/json\r\nPostman-Token: 6a29c681-ebea-4781-a122-bcbed48eb37b\r\nUser-Agent: PostmanRuntime/7.26.8\r\nX-Trunko-Requesttime: 2021-02-05T16:45:47+07:00\r\n\r\n",
+        "response_time": "2021-02-05T16:45:49+07:00",
+        "response": {
+            "amount": 5000,
+            "bill_count": 1,
+            "biller_id": 59,
+            "customer_id": "0812345678",
+            "data": {
+                "biller_rescode": "00",
+                "detail": null,
+                "message": "Added to queue for interval more than 3 second",
+                "rawdata": "{\"fee\":\"\",\"keterangan\":\"Pengisian pulsa 123 Anda ke nomor 0812345678 BERHASIL. SN=1130234239174848 Harga=\",\"kodeproduk\":\"123\",\"nohp\":\"0812345678\",\"nominal\":\"\",\"order_id\":\"123131231231\",\"pin\":\"-----\",\"ref1\":\"123456789\",\"ref2\":\"237996835\",\"saldoterpotong\":\"0\",\"sn\":\"1130234239174848\",\"status\":\"00\",\"uid\":\"GH2345\",\"waktu\":\"20141107162119\"}\n",
+                "serial_number": "1130234239174848"
+            },
+            "next": "advice",
+            "next_interval": 0,
+            "price": 1000,
+            "remote_product_id": "abc",
+            "remote_transaction_id": "98765468555945",
+            "response_code": "10",
+            "stock": null,
+            "transaction_biller_id": 98765468555945,
+            "transaction_id": 98765456855945
+        },
+        "response_header": {
+            "Access-Control-Allow-Origin": [
+                "*"
+            ],
+            "Content-Type": [
+                "application/json; charset=UTF-8"
+            ],
+            "Vary": [
+                "Origin"
+            ],
+            "X-Trunko-Responsetime": [
+                "2021-02-05T16:45:49+07:00"
+            ]
+        },
+        "http_code": 200,
+        "raw_request": "",
+        "raw_response": "",
+        "time": "2021-02-05T16:45:49.851518"
+    }
+
+==== Response from Biller (Trunko -> Biller)
+
+    {
+        "level": "info",
+        "event": "adapter.response",
+        "data": {
+            "command_type": "purchase",
+            "transaction_id": 98765456855945,
+            "transaction_biller_id": 98765468555945,
+            "remote_transaction_id": "",
+            "remote_product_id": "abc",
+            "customer_id": "0812345678",
+            "partner_id": 6,
+            "transaction_date": "",
+            "partner_name": "sepulsa",
+            "product_id": 21,
+            "product_type_label": "mobile",
+            "biller_id": 59,
+            "biller_label": "trunko_test",
+            "counter": 0,
+            "rawdata": "",
+            "parameters": null,
+            "command_data": null,
+            "biller_price": "{\"id\":1,\"biller_id\":59,\"product_id\":21,\"biller_product_code\":\"abc\",\"pricing_type\":\"price\",\"biller_fee\":1000,\"include_ppn\":true,\"created_at\":\"2020-09-04T14:13:15+07:00\",\"updated_at\":\"2020-09-04T14:13:15+07:00\",\"biller\":{\"id\":59,\"created_at\":\"0001-01-01T00:00:00Z\",\"label\":\"trunko_test\",\"description\":\"trunko_test\"},\"product\":{\"id\":21,\"created_at\":\"2018-06-26T19:05:15+07:00\",\"updated_at\":\"2018-06-26T19:05:15+07:00\",\"deleted_at\":null,\"code\":\"21\",\"label\":\"Telkomsel Rp 5.000\",\"product_type\":{\"id\":1,\"label\":\"mobile\"},\"type_id\":1,\"operator\":{\"id\":5,\"label\":\"telkomsel\",\"code\":\"\"},\"operator_id\":5,\"nominal\":5000,\"price\":6000,\"status\":true,\"billers\":null}}",
+            "amount": 20000
+        },
+        "connection_type": "http",
+        "package": "trunko/modules/adapter",
+        "time_start": "2021-02-05T16:45:47.774174+07:00",
+        "elapsed_time": 2047,
+        "raw_data": "",
+        "request_url": "https://almock.alterra.dev/trunko/sync/purchase",
+        "request_host": "",
+        "http_method": "post",
+        "request_ip": "",
+        "request_time": "2021-02-05 16:45:47.774171",
+        "request": {
+            "kode_produk": "abc",
+            "method": "fastpay.pulsa",
+            "no_hp": "0812345678",
+            "pin": "940546",
+            "ref1": "98765468555945",
+            "uid": "HH13483"
+        },
+        "request_header": {
+            "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLm1pa3Jvc2tpbC5hYy5pZFwvdGVzdFwvcG1icFwvdjFcL2xvZ2luIiwiaWF0IjoxNjEyMTUxNjMyLCJleHAiOjE2MTIyMzgwMzIsIm5iZiI6MTYxMjE1MTYzMiwianRpIjoibkU0WnI3YUp1T0sxYVNWdyIsInN1YiI6MTAsInBydiI6ImIxMmQxMmYxNThhZjFlODY2NGMxOWZjYjg2NjA3MzVjMzUzMThjYjYifQ.Sm0-MUJjYzbrPTA7ugsHz0xT8k2ZWdlKko9d7vK2uGU",
+            "Content-Type": "application/json"
+        },
+        "response_time": "2021-02-05 16:45:49.821606",
+        "response": {
+            "fee": "",
+            "keterangan": "Pengisian pulsa 123 Anda ke nomor 0812345678 BERHASIL. SN=1130234239174848 Harga=",
+            "kodeproduk": "123",
+            "nohp": "0812345678",
+            "nominal": "",
+            "order_id": "123131231231",
+            "pin": "-----",
+            "ref1": "123456789",
+            "ref2": "237996835",
+            "saldoterpotong": "0",
+            "sn": "1130234239174848",
+            "status": "00",
+            "uid": "GH2345",
+            "waktu": "20141107162119"
+        },
+        "response_header": null,
+        "http_code": 0,
+        "raw_request": "{Url:https://almock.alterra.dev/trunko/sync/purchase Method:post Header:map[Authorization:Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLm1pa3Jvc2tpbC5hYy5pZFwvdGVzdFwvcG1icFwvdjFcL2xvZ2luIiwiaWF0IjoxNjEyMTUxNjMyLCJleHAiOjE2MTIyMzgwMzIsIm5iZiI6MTYxMjE1MTYzMiwianRpIjoibkU0WnI3YUp1T0sxYVNWdyIsInN1YiI6MTAsInBydiI6ImIxMmQxMmYxNThhZjFlODY2NGMxOWZjYjg2NjA3MzVjMzUzMThjYjYifQ.Sm0-MUJjYzbrPTA7ugsHz0xT8k2ZWdlKko9d7vK2uGU Content-Type:application/json] Body:{\n    \"method\": \"fastpay.pulsa\",\n    \"uid\": \"HH13483\",\n    \"pin\": \"940546\",\n    \"kode_produk\": \"abc\",\n    \"no_hp\": \"0812345678\",\n    \"ref1\": \"98765468555945\"\n} Timeout:60}",
+        "raw_response": "HTTP/1.1 200 OK\r\nContent-Length: 337\r\nAccess-Control-Allow-Origin: *\r\nConnection: keep-alive\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Fri, 05 Feb 2021 09:46:22 GMT\r\nVary: Origin\r\n\r\n{\"fee\":\"\",\"keterangan\":\"Pengisian pulsa 123 Anda ke nomor 0812345678 BERHASIL. SN=1130234239174848 Harga=\",\"kodeproduk\":\"123\",\"nohp\":\"0812345678\",\"nominal\":\"\",\"order_id\":\"123131231231\",\"pin\":\"-----\",\"ref1\":\"123456789\",\"ref2\":\"237996835\",\"saldoterpotong\":\"0\",\"sn\":\"1130234239174848\",\"status\":\"00\",\"uid\":\"GH2345\",\"waktu\":\"20141107162119\"}\n",
+        "time": "2021-02-05T16:45:49.822263"
+    }
+
+==== Response Rules Error Parse
+
+    {
+        "level": "error",
+        "event": "parser.rules.response.error",
+        "package": "trunko/modules/parser/rules",
+        "data": {
+            "amount": 20000,
+            "biller_id": 59,
+            "biller_label": "trunko_test",
+            "biller_price": "{\"id\":1,\"biller_id\":59,\"product_id\":21,\"biller_product_code\":\"abc\",\"pricing_type\":\"price\",\"biller_fee\":1000,\"include_ppn\":true,\"created_at\":\"2020-09-04T14:13:15+07:00\",\"updated_at\":\"2020-09-04T14:13:15+07:00\",\"biller\":{\"id\":59,\"created_at\":\"0001-01-01T00:00:00Z\",\"label\":\"trunko_test\",\"description\":\"trunko_test\"},\"product\":{\"id\":21,\"created_at\":\"2018-06-26T19:05:15+07:00\",\"updated_at\":\"2018-06-26T19:05:15+07:00\",\"deleted_at\":null,\"code\":\"21\",\"label\":\"Telkomsel Rp 5.000\",\"product_type\":{\"id\":1,\"label\":\"mobile\"},\"type_id\":1,\"operator\":{\"id\":5,\"label\":\"telkomsel\",\"code\":\"\"},\"operator_id\":5,\"nominal\":5000,\"price\":6000,\"status\":true,\"billers\":null}}",
+            "command_data": {
+                "purchase": {
+                    "fee": "",
+                    "keterangan": "Pengisian pulsa 123 Anda ke nomor 0812345678 BERHASIL. SN=1130234239174848 Harga=",
+                    "kodeproduk": "123",
+                    "nohp": "0812345678",
+                    "nominal": "",
+                    "order_id": "123131231231",
+                    "pin": "-----",
+                    "ref1": "123456789",
+                    "ref2": "237996835",
+                    "saldoterpotong": "0",
+                    "sn": "1130234239174848",
+                    "status": "00",
+                    "uid": "GH2345",
+                    "waktu": "20141107162119"
+                }
+            },
+            "command_type": "advice",
+            "counter": 1,
+            "customer_id": "0812345678",
+            "parameters": null,
+            "partner_id": 6,
+            "partner_name": "sepulsa",
+            "product_id": 21,
+            "product_type_label": "mobile",
+            "rawdata": "",
+            "remote_product_id": "abc",
+            "remote_transaction_id": "98765468555945",
+            "transaction_biller_id": 98765468555945,
+            "transaction_date": "",
+            "transaction_id": 98765456855945
+        },
+        "data_response": {
+            "ErrorDetail": [
+                "Key: 'Idpel1' Error:Field validation for 'Idpel1' failed on the 'eq' tag"
+            ],
+            "Message": "Failed Evaluate Request Payload Model"
+        },
+        "detail_str": {},
+        "time": "2021-02-05T16:45:54.271524",
+        "message": "Response Mapping: [RULES-OPERATION] -- Operations Value doesn't exist: [ref1]"
+    }
+
+==== Callback to Kraken (Trunko -> Callback)
+
+    {
+        "level": "info",
+        "event": "adapter.callback.response",
+        "data": {
+            "biller_rescode": "",
+            "detail": null,
+            "message": "HTTP CODE 503 503 Service Unavailable\n\u0026{Status:503 Service Unavailable StatusCode:503 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Access-Control-Allow-Origin:[*] Connection:[keep-alive] Content-Length:[143] Content-Type:[application/json; charset=UTF-8] Date:[Fri, 05 Feb 2021 09:46:26 GMT] Vary:[Origin]] Body:{Reader:} ContentLength:143 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc000545d00 TLS:0xc000154370}\n{\"ErrorDetail\":[\"Key: 'Idpel1' Error:Field validation for 'Idpel1' failed on the 'eq' tag\"],\"Message\":\"Failed Evaluate Request Payload Model\"}\n",
+            "rawdata": "",
+            "serial_number": ""
+        },
+        "connection_type": "",
+        "package": "",
+        "time_start": "2021-02-05T16:45:54.271762+07:00",
+        "elapsed_time": 237,
+        "raw_data": "HTTP/1.1 200 OK\r\nContent-Length: 5\r\nAccess-Control-Allow-Origin: *\r\nConnection: keep-alive\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Fri, 05 Feb 2021 09:46:27 GMT\r\nVary: Origin\r\n\r\n\"ok\"\n",
+        "request_url": "https://almock.alterra.dev/trunko/callbackk",
+        "request_host": "",
+        "http_method": "post",
+        "request_ip": "",
+        "request_time": "2021-02-05 16:45:54.271760",
+        "request": "{Url:https://almock.alterra.dev/trunko/callbackk Method:post Header:map[Content-Type:application/json] Body:{\"transaction_id\":98765456855945,\"transaction_biller_id\":98765468555945,\"remote_transaction_id\":\"98765468555945\",\"remote_product_id\":\"abc\",\"customer_id\":\"0812345678\",\"biller_id\":59,\"response_code\":\"10\",\"bill_count\":1,\"price\":1000,\"amount\":5000,\"stock\":null,\"data\":{\"serial_number\":\"\",\"biller_rescode\":\"\",\"message\":\"HTTP CODE 503 503 Service Unavailable\\n\\u0026{Status:503 Service Unavailable StatusCode:503 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Access-Control-Allow-Origin:[*] Connection:[keep-alive] Content-Length:[143] Content-Type:[application/json; charset=UTF-8] Date:[Fri, 05 Feb 2021 09:46:26 GMT] Vary:[Origin]] Body:{Reader:} ContentLength:143 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc000545d00 TLS:0xc000154370}\\n{\\\"ErrorDetail\\\":[\\\"Key: 'Idpel1' Error:Field validation for 'Idpel1' failed on the 'eq' tag\\\"],\\\"Message\\\":\\\"Failed Evaluate Request Payload Model\\\"}\\n\",\"rawdata\":\"\",\"detail\":null},\"next\":\"\",\"next_interval\":0} Timeout:60}",
+        "request_header": {
+            "Content-Type": "application/json"
+        },
+        "response_time": "2021-02-05 16:45:54.508613",
+        "response": "\u003cnil\u003e \"ok\"\n",
+        "response_header": null,
+        "http_code": 0,
+        "raw_request": "{Url:https://almock.alterra.dev/trunko/callbackk Method:post Header:map[Content-Type:application/json] Body:{\"transaction_id\":98765456855945,\"transaction_biller_id\":98765468555945,\"remote_transaction_id\":\"98765468555945\",\"remote_product_id\":\"abc\",\"customer_id\":\"0812345678\",\"biller_id\":59,\"response_code\":\"10\",\"bill_count\":1,\"price\":1000,\"amount\":5000,\"stock\":null,\"data\":{\"serial_number\":\"\",\"biller_rescode\":\"\",\"message\":\"HTTP CODE 503 503 Service Unavailable\\n\\u0026{Status:503 Service Unavailable StatusCode:503 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Access-Control-Allow-Origin:[*] Connection:[keep-alive] Content-Length:[143] Content-Type:[application/json; charset=UTF-8] Date:[Fri, 05 Feb 2021 09:46:26 GMT] Vary:[Origin]] Body:{Reader:} ContentLength:143 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc000545d00 TLS:0xc000154370}\\n{\\\"ErrorDetail\\\":[\\\"Key: 'Idpel1' Error:Field validation for 'Idpel1' failed on the 'eq' tag\\\"],\\\"Message\\\":\\\"Failed Evaluate Request Payload Model\\\"}\\n\",\"rawdata\":\"\",\"detail\":null},\"next\":\"\",\"next_interval\":0} Timeout:60}",
+        "raw_response": "HTTP/1.1 200 OK\r\nContent-Length: 5\r\nAccess-Control-Allow-Origin: *\r\nConnection: keep-alive\r\nContent-Type: application/json; charset=UTF-8\r\nDate: Fri, 05 Feb 2021 09:46:27 GMT\r\nVary: Origin\r\n\r\n\"ok\"\n",
+        "time": "2021-02-05T16:45:54.508954"
+    }

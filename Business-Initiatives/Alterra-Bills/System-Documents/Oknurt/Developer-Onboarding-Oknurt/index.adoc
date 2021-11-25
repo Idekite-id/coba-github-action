@@ -1,0 +1,19 @@
+= Developer Onboarding Oknurt
+
+OKnurt dikembangkan menggunakan Bahasa Pemrograman *Go* yang mampu menangani proses yang lebih banyak, serta lebih efisien dalam hal penggunaan _resources server_.
+
+Beberapa informasi terkait adalah sebagai berikut:
+
+<<../architecture-oknurt.adoc#, Architecture Oknurt>>
+____
+Gambaran umum sistem Oknurt dari sisi Logical dan Physical
+____
+<<./local-machine-setup-oknurt.adoc#, Local Machine Setup Oknurt>>
+
+____
+Cara installasi Oknurt di komputer lokal
+____
+<<./ide-oknurt.adoc#, IDE Oknurt>>
+____
+IDE yang dapat digunakan untuk pengembangan Oknurt
+____

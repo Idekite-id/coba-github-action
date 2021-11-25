@@ -1,0 +1,69 @@
+= Coklit BE
+
+== Overview
+Coklit berasal adalah proses pengumpulan tagihan institusi Hankam ditingkat kota/kab di masing2 PDAM untuk diteruskan ke DPD Perpamsi -> DPP Perpamsi, kemudian diverifikasi oleh team Coklit agar bisa ditagihkan dan dibayarkan oleh kementrian hankam. Sistem ini dibuat untuk mengumpulkan informasi tagihan air pada semua objek tagihan dibawah insitusi Hankam. 
+
+== Team Involved
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| Leo Himawan Adiakso 
+| Product Owner 
+| leo@bsa.id
+
+| Rana Pradipta 
+| Software Engineer Backend
+| rana@bsa.id
+
+| Pajar Wijaya Putra 
+| Software Engineer Backend
+| pwputra@bsa.id
+
+| Hasan Mubarok 
+| Software Engineer Frontend
+| hasan@bsa.id
+
+|===
+
+== Technical Information
+
+<<./url-coklit-be.adoc#, System URL Coklit BE>>
+
+<<./architecture-coklit-be.adoc#, Architecture Coklit BE>>
+
+<<./technology-coklit-be.adoc#, Technology Coklit BE>>
+
+<<./environment-coklit-be.adoc#, Environment Coklit BE>>
+
+<<./database-coklit-be.adoc#, Database Documentation Coklit BE>>
+
+<<./release-and-deployment-coklit-be.adoc#, Release and Deployment Coklit BE>>
+
+<<./flow-wire-coklit-be.adoc#, Flow and Wireframe Coklit BE>>
+
+== Onboarding Information
+
+<<./dev-onboarding-coklit-be.adoc#, Developer Onboarding Coklit BE>>
+
+<<./development-coklit-be.adoc#, Development Coklit BE>>
+
+<<./naming-convention-coklit-be.adoc#, Naming Convention Coklit BE>>
+
+== Documentation
+
+// Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya) dalam daftar dokumen berikut:
+
+// User Guide (jika ada, external link)
+
+// Dokumen Integrasi (jika ada, external link)
+
+// Dokumen Maintenance (jika ada, external link)
+
+// Dokumen API (jika ada, external link)
+
+<<./release-note-coklit-be.adoc#, Release Note Coklit BE>>
+

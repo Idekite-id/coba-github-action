@@ -1,0 +1,27 @@
+= Developer Onboarding Honey
+
+== Tools
+
+1. Node (minimum version >= 12.0.0)
+
+== Local Machine Setup
+
+1. Install Dependency
++
+`yarn`
+
+== How To Run Apps
+
+`yarn dev`
+
+== How To Run Tests
+
+`yarn test`
+
+== How To Run Test Single File
+
+`yarn test <path_to_file_name>/<file_name>`
+
+== How To Run Test with Collect Coverage
+
+`yarn coverage`

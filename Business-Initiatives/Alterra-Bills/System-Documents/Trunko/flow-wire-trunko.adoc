@@ -1,0 +1,5 @@
+= Flow and Wireframe Trunko
+
+_Flowchart_ dari sistem Trunko untuk API Transaksi :
+
+image::images-trunko/trunko-flow-wire.png[Trunko Transaction Flowchart]

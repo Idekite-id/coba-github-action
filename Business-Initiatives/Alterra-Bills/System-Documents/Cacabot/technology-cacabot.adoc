@@ -1,0 +1,21 @@
+= Technology Cacabot
+
+Berikut adalah spesifikasi teknologi yang digunakan untuk pengembangan Cacabot:
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Specification*
+^.^h| *Name*
+
+| Programming Language
+| Node {caret}16
+
+| Framework
+| FeathersJS {caret}4.5.1
+
+| Package Manager
+| yarn or npm
+
+| Dev Tools
+| VSCode ( with ESLint )
+|===

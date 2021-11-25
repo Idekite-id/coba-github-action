@@ -1,0 +1,93 @@
+= Flow Pelayanan Data Pelanggan Air
+
+Dokumen ini berisi tentang flow CRUD pada menu *Permohonan Pelanggan Air* dari sistem Sipintar.NET.
+
+Berikut adalah _flow_ dari *Permohonan Pelanggan Air*:
+
+== 1. Flow Page Permohonan Pelanggan Air
+
+Berikut adalah _flow_ dari show halaman Permohonan Pelanggan Air. Saat membuka _page_ Permohonan Pelanggan Air, aplikasi akan melakukan serangkaian proses berikut:
+
+1. Mendapatkan data permohonan pelanggan air dan data filter pada _page_ tersebut dengan memanggil URL REST API;
+2. Pada sisi REST API, akan melakukan rangkaian proses _query_ ke _database_; 
+3. REST API mengembalikan hasil _query_ ke Client; 
+4. Client menampilkan hasil _query_ oleh REST API. Jika _query_ tidak bermasalah dan datan
+ya tidak nol, maka akan menampilkan tabel. Jika tidak, maka akan _show empty state_.
+
+=== Flow WPF
+
+image::../../images-sipintar/hublang/pelayanan/sipintar-pelayanan-permohonan-permohonan-pelanggan-air-1.png[600,400]
+
+=== Flow REST API
+
+image::../../images-sipintar/hublang/pelayanan/sipintar-pelayanan-permohonan-permohonan-pelanggan-air-2.png[600,600]
+{sp} +
+{sp} +
+Berikut adalah _screenshot_ _main table_ Permohonan Pelanggan Air:
+
+image::../../images-sipintar/hublang/pelayanan/sipintar-pelayanan-permohonan-permohonan-pelanggan-air-3.png[900,600]
+{sp} +
+{sp} +
+
+== 2. Flow Input CRUD
+
+Berikut adalah _flow_ untuk _input_ CRUD menu Permohonan Pelanggan Air. _Input_ data dilakukan oleh _user_ melalui dialog _form_.
+
+=== Flow REST API
+
+image::../../images-sipintar/hublang/pelayanan/sipintar-pelayanan-permohonan-permohonan-pelanggan-air-4.png[600,600]
+{sp} +
+{sp} +
+
+Berikut adalah _screenshot_ input, koreksi, dan detail _dialog form_:
+
+Input 1
+
+image::../../images-sipintar/hublang/pelayanan/sipintar-pelayanan-permohonan-permohonan-pelanggan-air-5.png[600,400]
+
+Input 2
+
+image::../../images-sipintar/hublang/pelayanan/sipintar-pelayanan-permohonan-permohonan-pelanggan-air-6.png[600,400]
+
+Koreksi
+
+image::../../images-sipintar/hublang/pelayanan/sipintar-pelayanan-permohonan-permohonan-pelanggan-air-7.png[600,400]
+
+Detail
+
+image::../../images-sipintar/hublang/pelayanan/sipintar-pelayanan-permohonan-permohonan-pelanggan-air-8.png[600,400]
+
+== 3. Endpoint URL REST API
+
+Pada menu ini, URL REST API yang digunakan adalah: 
+
+[cols="10%,25%,65%",frame=all, grid=all]
+|===
+^.^h| *Method* 
+^.^h| *URL* 
+^.^h| *Deskripsi*
+
+|GET 
+| /api/v1/permohonan-pelanggan-air 
+| Digunakan untuk Get data, wajib menambahkan *IdPdam* dan *IdUserRequest* pada URI param ketika _request_
+
+|POST 
+| /api/v1/permohonan-pelanggan-air 
+| Digunakan untuk Tambah data, wajib menambahkan *IdPdam* dan *IdUserRequest* pada body ketika _request_
+
+|PATCH 
+| /api/v1/permohonan-pelanggan-air 
+| Digunakan untuk Ubah data, wajib menambahkan *IdPdam* dan *IdUserRequest* serta *IdEntity* pada body ketika request
+
+|DELETE 
+| /api/v1/permohonan-pelanggan-air 
+| Digunakan untuk Hapus data, wajib menambahkan *IdPdam* dan *IdUserRequest* serta *IdEntity* pada URI param ketika _request_
+|===
+
+=== Code Notes
+
+Fitur ini menggunakan tabel permohonan_pelanggan_air dan permohonan_pelanggan_air_detail untuk menyimpan datanya.
+
+=== Other Source
+
+https://drive.google.com/drive/folders/1-dgkqtu-USdwCKSRQddVefvn6HLSrJ28?usp=sharing[Diagram Source (editable with email @bsa.id)]

@@ -1,0 +1,25 @@
+= Technology SIBS Core V1
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+
+|OS 
+|
+
+|Web Server
+|
+
+|Programming Language 
+|
+
+|Framework
+|
+
+|Container
+|
+
+|Proxy
+|
+|===

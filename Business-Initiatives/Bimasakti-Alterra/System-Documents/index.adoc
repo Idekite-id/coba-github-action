@@ -1,0 +1,83 @@
+= System Documents
+
+Berikut adalah sistem-sistem yang terdapat dalam Bimasakti Alterra.
+
+[cols="33%,33%,33%",frame=none, grid=none]
+|===
+
+a|link:./Bima-PHR/index.adoc[Bima PHR]
+
+link:./Sipintar-NET/index.adoc[Sipintar.NET]
+
+link:./API-SmartPresence/index.adoc[API SmartPresence]
+
+link:./BSA-Store/index.adoc[BSA Store]
+
+link:/Bacameter-Mandiri-Web/index.adoc[Bacameter Mandiri Web]
+
+link:./Bacameter-Mobile/index.adoc[Bacameter Mobile]
+
+link:./Bacameter-NET/index.adoc[Bacameter.NET]
+
+link:./Coklit-BE/index.adoc[Coklit BE]
+
+link:./Coklit-FE/index.adoc[Coklit FE]
+
+link:./Dashboard-SmartPresence/index.adoc[Dashboard SmartPresence]
+
+link:./Dashboard-Web-PDAM/index.adoc[Dashboard Web PDAM Gianyar]
+
+link:./Distribusi-Web-PDAM-Gianyar/index.adoc[Distribusi Web PDAM Gianyar]
+
+link:./Ether-Canopus/index.adoc[Ether Canopus]
+
+a|link:./Ether-Firedash-BE/index.adoc[Ether Firedash BE]
+
+link:./Ether-Modul-Loket-BE/index.adoc[Ether Modul Loket BE]
+
+link:./Ether-Notification/index.adoc[Ether Notification]
+
+link:/.Ether-PRCDIS/index.adoc[Ether Notification]
+
+link:./Ether-Water-Info/index.adoc[Ether Water Info]
+
+link:./Ether-Water-Mobile-V3/index.adoc[Ether Water Mobile V3]
+
+link:./Ether-Water-Mobile/index.adoc[Ether Water Mobile]
+
+link:./Firedash-FE/index.adoc[Firedash FE]
+
+link:./Honey/index.adoc[Honey]
+
+link:./Hublang-Web-PDAM-Parepare/index.adoc[Hublang Web PDAM Parepare]
+
+link:./Library-Transaction-SIBS/index.adoc[Library Transaction SIBS]
+
+link:./Loket-NET/index.adoc[Loket.NET]
+
+link:./Mobile-Loket/index.adoc[Mobile Loket]
+
+a|link:./PDAM-Info/index.adoc[PDAM Info]
+
+link:./Perencanaan-Web-PDAM-Jogja/index.adoc[Perencanaan Web PDAM Jogja]
+
+link:./Report-BSBS-ver-4/index.adoc[Report BSBS ver 4]
+
+link:./Report-BSHPD-ver-4/index.adoc[Report BSHPD ver 4]
+
+link:./Report-Loket-ver-4/index.adoc[Report Loket ver 4]
+
+link:./Royal-Jelly/index.adoc[Royal Jelly]
+
+link:./SIBS-Core-V1/index.adoc[SIBS Core V1]
+
+link:./SIBS-Core-V2/index.adoc[SIBS Core V2]
+
+link:./SiPintar-BSBS-ver-4/index.adoc[SiPintar BSBS ver 4]
+
+link:./SiPintar-BSHPD-ver-4/index.adoc[SiPintar BSHPD ver 4]
+
+link:./SiPintar-Loket-ver-4/index.adoc[SiPintar Loket ver 4]
+
+link:./Supervisi-Web/index.adoc[Supervisi Web]
+|===

@@ -1,0 +1,5 @@
+= API Documentation Proteus Core
+
+Anda dapat mengakses _API Documentation_ sistem Proteus Core pada https://app.swaggerhub.com/apis/swaggeracc/PROTEUS_CORE/1.0.0[halaman berikut]
+
+NOTE: Anda harus bergabung dalam grup SERPUL swaggerhub terlebih dahulu untuk mengakses _API Documentation_

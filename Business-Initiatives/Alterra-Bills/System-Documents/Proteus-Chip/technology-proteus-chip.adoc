@@ -1,0 +1,15 @@
+= Technology Proteus Chip
+
+Berikut adalah teknologi yang digunakan dalam pengembangan sistem Proteus Chip :
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+
+| Programming Language
+| Java
+
+| GUI Toolkit
+| Swing Library
+|===

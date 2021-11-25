@@ -1,0 +1,26 @@
+= Architecture Diamante
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem Diamante:
+
+image::./images-diamante/Diamante-C2-Diagram.png[Diamante C2 Diagram]
+
+Sistem ini merupakan bagian dari BPA. Untuk lebih detail terkait hubungan Diamante dengan sistem Sepulsa lainnya, silakan mengakses diagram C1 berikut.
+
+== Related System
+
+Diamante terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Diamante.
+
+[cols="10%,20%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *System Name*
+^.^h| *Description*
+^.^h| *Depends on*
+^.^h| *Be a Dependencies to*
+
+|*Diamante*
+|Dashboard for Biller
+a|1. Bigquery Google Data Warehouse - *As Report Data Provider*
+a|1. Kafka (External) - *As Data Transaction Streaming Subscribe*
+|===

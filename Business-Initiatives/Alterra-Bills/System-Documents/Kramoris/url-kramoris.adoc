@@ -1,0 +1,17 @@
+= System URL Kramoris
+
+
+Berikut ini daftar URL sistem Kramoris (Beli Gadget):
+
+|===
+| *Stage* | *URL*
+
+| *Development*
+| https://kramoris-uat.alphabill.id/[]
+
+| *Staging*
+| https://kramoris-uat.alphabill.id/[]
+
+| *Production*
+| https://beligadget.xl.co.id/[]
+|===

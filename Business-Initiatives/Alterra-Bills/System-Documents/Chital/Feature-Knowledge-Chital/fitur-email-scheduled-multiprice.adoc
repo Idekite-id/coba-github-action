@@ -1,0 +1,32 @@
+= Dashboard - Scheduled Multi Price Chital
+
+== Development Team
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| Ananto Eko Hendarto 
+|  Development Manager 
+| anton@alterra.id
+
+| Lazuardi Hilmi  
+| Product Owner 
+| lazuardi@alterra.id
+
+| Aldi Dipasanta 
+| Software Engineer 
+| aldi@alterra.id
+
+| Dwi Riyantono 
+| Software Engineer (Backend) 
+| riyantono@alterra.id
+
+| Mugh Dzin Syah 
+| Software Engineer (Frontend) 
+| dzinsyah@alterra.id
+|===
+
+== Overview

@@ -1,0 +1,42 @@
+= Technology Kraken V2
+
+Berikut adalah teknologi yang digunakan dalam pengembangan Kraken V2 :
+
+[cols="30%,30%,40%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+^.^h| *Description*
+
+| Sistem Operasi
+| Linux
+|
+
+| Web Server
+| NGINX
+|
+
+| Bahasa Pemrograman
+| Go
+|
+
+| Framework
+| Echo
+| Minimalistic Go Framework
+
+| DBMS
+| Maria DB
+| _Persistence data storage_
+
+|
+| Mongo DB
+| sebagai tempat penyimpanan data _log system_
+
+| Messaging
+| RabbitMQ
+| untuk sistem antrian transaksi dan _inquiry_
+
+| Storage
+| Redis
+| sebagai tempat penyimpanan _cache_
+|===

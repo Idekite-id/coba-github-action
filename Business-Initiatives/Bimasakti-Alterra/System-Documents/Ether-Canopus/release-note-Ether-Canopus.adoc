@@ -1,0 +1,3 @@
+= Release Note Ether Canopus
+
+Berisi catatan rilis sistem.

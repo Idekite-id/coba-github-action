@@ -1,0 +1,49 @@
+= Pajak Bumi dan Bangunan
+
+PBB adalah pajak yang bersifat kebendaan dalam arti besarnya pajak terutang ditentukan oleh keadaan objek yaitu bumi/tanah dan atau bangunan. Keadaan subjek (siapa yang membayar) tidak ikut menentukan besarnya pajak.
+
+*Variasi Produk*
+
+Varian produk PBB antara lain:
+
+. Bumi: Permukaan bumi (tanah dan perairan) dan tubuh bumi yang ada di pedalaman serta laut wilayah Indonesia. Contoh: sawah, ladang, kebun, tanah. pekarangan, tambang, dll.
+
+. Bangunan: Konstruksi teknik yang ditanam atau dilekatkan secara tetap pada tanah dan atau perairan. Contoh: rumah tempat tinggal, bangunan tempat usaha, gedung bertingkat, pusat perbelanjaan, emplasemen, pagar mewah, dermaga, taman mewah, fasilitas lain yang memberi manfaat, jalan tol, kolam renang, anjungan minyak lepas pantai, dll.
+
+*Vendor Utama Produk*
+
+Vendor dari produk PBB adalah Bank Persepsi atau Kantor Pos dan Giro yang telah ditunjuk dalam SPPT
+
+*Perilaku dan Cara Penggunaan Produk*
+
+. Pengguna dapat membayar pajak di tahun tertentu
+
+. Jika pengguna pernah telat membayar PBB maka pengguna harus mengetahui kapan saja pajak yang belum dibayarkan
+
+. Pengguna bebas membayar tahun pajak yang terbaru lebih dahulu atau yang terlama. Pajak terlama masih dapat dibayarkan selama data masih disediakan oleh Pemda. Jika Pemda sudah tidak memberikan data pembayaran PBB maka end user harus menyelesaikan pembayaran pajak di Pemda langsung.
+
+*Product Journey*
+
+Product Journey PBB (Partner)
+
+. Menampilkan Tagihan PBB
+
+.. Pelanggan memilih daerah yang terkait dengan objek pajak yang dikenakan
+
+.. Pelanggan memilih tahun pajak yang akan dibayarkan
+
+.. Pelanggan menginputkan Nomor Objek Pajak yang akan dibayar
+
+. Sistem Partner akan menampilkan tagihan objek pajak terkait
+
+. Pelanggan melanjutkan ke halaman pemilihan metode pembayaran
+
+. Pelanggan akan menerima bukti pembayaran dan struk pembayaran pajak
+
+Ketentuan Pembayaran
+
+- Terdapat perbedaan untuk PBB setiap daerah, mirip seperti PDAM
+
+Showcase Product Journey Flow
+
+image::../../../images-bpa/flow-journey-pbb.png[align="center"]

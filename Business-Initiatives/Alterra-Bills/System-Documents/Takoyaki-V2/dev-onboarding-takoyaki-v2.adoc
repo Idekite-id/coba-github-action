@@ -1,0 +1,30 @@
+= Developer Onboarding Takoyaki V2
+
+|===
+| *Tools* | *Name*
+
+| Web Server
+| Nginx
+
+| Manual Test API
+| Postman
+
+| Browser
+| Chrome, Firefox
+
+| Programming Language
+| Php 7.0
+
+| Database
+| MySQL
+
+| Framework
+| Lumen
+|===
+
+== Local Machine Setup
+
+. Unduh proyek ini dari github repository
+. Move folder yang sudah didownload ke dalam htdocs
+. Masuk folder sites/default/
+. Copy default.settings.php  jadi setting.php dan siapkan local configurations-mu

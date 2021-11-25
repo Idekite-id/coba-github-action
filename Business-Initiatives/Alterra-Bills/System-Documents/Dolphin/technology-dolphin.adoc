@@ -1,0 +1,32 @@
+= Technology Dolphin
+
+Terdapat beberapa teknologi yang digunakan dalam pengembangan Dolphin, yakni:
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Spesification* 
+^.^h|*Name*
+
+|OS 
+| 
+
+|Database
+| MySQL/MariaDB
+
+|Web Server
+| NGINX and WSGI
+
+|Programming Language 
+| Python
+
+|Framework
+| mysql- client, Flask and Python Packages
+
+|Container
+|
+
+|Proxy
+|
+|===
+
+Untuk mengakses spesifikasi fungsional dari sistem ini, Anda dapat mengakses https://docs.google.com/a/sepulsa.com/spreadsheets/d/1WlkxUIMaZvPFfosn9R-SMlYrFgpHk4VeGYpMtmUrkrQ/edit?usp=sharing[halaman berikut].

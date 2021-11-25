@@ -1,0 +1,22 @@
+= API Execute Partner Request Oknurt
+
+== Request URL
+----
+    method : POST / GET
+    URL    : Can use these following URLs with routing rules defined in partner config:
+            - /v1/api/:partner_username/*
+            - /v1/api/:partner_username
+            - /v0/api/:partner_username/:command
+            - /v0/api/:partner_username/:product_type/:command
+
+----
+
+== Request Body
+----
+    In partner request body API format
+----
+
+== Response Body
+----
+    In partner response body API format
+----

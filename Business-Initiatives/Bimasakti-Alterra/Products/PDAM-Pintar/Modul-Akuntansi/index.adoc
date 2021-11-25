@@ -1,0 +1,57 @@
+= Modul Akuntansi
+
+Modul Akuntansi dikembangkan untuk memudahkan bagian Akuntansi dan Keuangan untuk melakukan pembukuan, pembuatan jurnal, memperoleh informasi pengelolaan keuangan (kas keluar dan masuk), dan penulisan laporan bulanan yang berkaitan dengan transaksi keuangan PDAM. 
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Akuntansi.adoc[Login ke Modul Akuntansi]
+
+link:./Getting-Started/Menu-Modul-Akuntansi.adoc[Menu Modul Akuntansi]
+
+== Menu Master Akun
+
+link:./Menu-Master-Akun/Mengelola-Data-Interaksi.adoc[Mengelola Data Interaksi]
+
+link:./Menu-Master-Akun/Mengelola-Data-Perkiraan.adoc[Mengelola Data Perkiraan]
+
+link:./Menu-Master-Akun/Mengelola-Saldo-Anggaran.adoc[Mengelola Saldo Anggaran]
+
+== Menu Jurnal
+
+link:./Menu-Jurnal/Mencetak-Jurnal.adoc[Mencetak Jurnal]
+
+== Menu Penyusutan
+
+link:./Menu-Penyusutan/Mencetak-Jurnal-Penyusutan.adoc[Mencetak Jurnal Penyusutan]
+
+link:./Menu-Penyusutan/Mengelola-Data-Aktiva.adoc[Mengelola Data Aktiva]
+
+link:./Menu-Penyusutan/Mengelola-Data-Persentase-Penyusutan-Aktiva.adoc[Mengelola Data Persentase Penyusutan Aktiva]
+
+link:./Menu-Penyusutan/Mengelola-Pengelompokan-Data-Aktiva.adoc[Mengelola Pengelompokan Data Aktiva]
+
+== Menu Posting Akun
+
+link:./Menu-Posting-Akun/Memposting-Data-Bulanan.adoc[Memposting Data Bulanan]
+
+== Menu Laporan Akun
+
+link:./Menu-Laporan-Akun/Jenis-Laporan-Pada-Modul-Akuntansi.adoc[Jenis Laporan Pada Modul Akuntansi]
+
+link:./Menu-Laporan-Akun/Menampilkan-Laporan-Akun.adoc[Menampilkan Laporan Akun]
+
+== Menu Pengaturan
+
+link:./Menu-Pengaturan/Backup-dan-Repair-Database.adoc[Backup dan Repair Database]
+
+link:./Menu-Pengaturan/Mengatur-Daftar-Persona-dan-TTD-Jabatan-Pengguna.adoc[Mengatur Daftar Persona dan TTD Jabatan Pengguna]
+
+link:./Menu-Pengaturan/Menampilkan-Data-Log-Akses-User.adoc[Menampilkan Data Log Akses User]
+
+link:./Menu-Pengaturan/Mengelola-Daftar-Posting-Akun.adoc[Mengelola Daftar Posting Akun]
+
+link:./Menu-Pengaturan/Mengelola-Jabatan-atau-Role-User.adoc[Mengelola Jabatan atau Role User]
+
+link:./Menu-Pengaturan/Mengelola-User-Akses.adoc[Mengelola User Akses]
+
+link:./Menu-Pengaturan/Melakukan-Sinkronisasi-Data-Pada-Aplikasi-Billing.adoc[Melakukan Sinkronisasi Data Pada Aplikasi Billing]

@@ -1,0 +1,3 @@
+= Flow and Wireframe SiPintar BSBS ver 4
+
+Dokumen ini berisi tentang flow dan wireframe dari system, dokumen bisa diisi dengan gambar dan deskripsi dari flow dan wireframe system.

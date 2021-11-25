@@ -1,0 +1,3 @@
+= Naming Convention Digital Billing System
+
+Sistem ini dikembangkan dengan menggunakan _Go_, untuk aturan penamaan, format, dan sebagainya dapat dibaca pada https://golang.org/doc/effective_go.html[halaman berikut].

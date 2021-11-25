@@ -1,0 +1,45 @@
+= Modul Perencanaan 
+
+Modul Perencanaan versi Web dikembangkan untuk memudahkan proses perencanaan biaya yang menunjang pelayanan PDAM. Anggaran yang dimaksud mencakup anggaran untuk sambungan baru, anggaran hibah, dan anggaran kolektif. Selain membuat anggaran, petugas juga dapat memonitor anggaran melalui Surat Perintah Kerja Opname (SPKO) dan realisasi RAB.
+
+Terdapat 3 menu utama pada modul ini, yaitu RAB, Master Data, dan Pengaturan. 
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Perencanaan-Web-Version.adoc[Login ke Modul Perencanaan (Web Version)]
+
+link:./Getting-Started/Menu-Modul-Perencanaan-Web-Version.adoc[Menu Modul Perencanaan (Web Version)]
+
+== Menu RAB
+
+link:./Menu-RAB/Membuat-RAB-Sambungan-Baru.adoc[Membuat RAB Sambungan Baru]
+
+link:./Menu-RAB/Melihat-Pemetaan-Daftar-SPKO.adoc[Melihat Pemetaan Daftar SPKO]
+
+link:./Menu-RAB/Membuat-RAB-Hibah.adoc[Membuat RAB Hibah]
+
+link:./Menu-RAB/Membuat-RAB-Kolektif.adoc[Membuat RAB Kolektif]
+
+link:./Menu-RAB/Mengubah-RAB-Realisasi.adoc[Mengubah RAB Realisasi]
+
+link:./Menu-RAB/Mengubah-RAB-Realisasi-Hibah.adoc[Mengubah RAB Realisasi Hibah]
+
+link:./Menu-RAB/Mengubah-RAB-Realisasi-Kolektif.adoc[Mengubah RAB Realisasi Kolektif]
+
+== Menu Master Data
+
+link:./Menu-Master-Data/Mengelola-Data-Petugas.adoc[Mengelola Data Petugas]
+
+link:./Menu-Master-Data/Mengelola-Data-Ongkos-Perbaikan.adoc[Mengelola Data Ongkos Perbaikan]
+
+link:./Menu-Master-Data/Mengelola-Data-Material.adoc[Mengelola Data Material]
+
+link:./Menu-Master-Data/Mengelola-Data-Paket-RAB.adoc[Mengelola Data Paket RAB]
+
+== Menu Pengaturan
+
+link:./Menu-Pengaturan/Melakukan-Pengaturan-Umum.adoc[Melakukan Pengaturan Umum]
+
+link:./Menu-Pengaturan/Mengatur-Database.adoc[Mengatur Database]
+
+link:./Menu-Pengaturan/Mengatur-PPN.adoc[Mengatur PPN]

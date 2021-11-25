@@ -1,0 +1,12 @@
+= Mengatur Database
+
+Database yang digunakan dalam Modul Perencanaan dapat diatur dalam menu Pengaturan. Untuk mengaturnya, ikuti detail langkah berikut:
+
+image::../images-perencanaan-web-ver/perencanaan-atur-database1.png[align="center"]
+
+1. Pilih menu *Pengaturan*
+2. Cari ikon *Atur Database*
+3. Pilih data yang ingin diatur, kemudian klik pada ikon *Perbaiki Data*
++
+image::../images-perencanaan-web-ver/perencanaan-atur-database2.png[align="center"]
+4. Setelah itu, akan muncul _form_ *Edit Atur Database*. Ubah data sesuai yang diinginkan, kemudian klik tombol *Simpan*.

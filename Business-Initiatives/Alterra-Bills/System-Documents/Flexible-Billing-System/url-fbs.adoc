@@ -1,0 +1,16 @@
+= System URL Flexible Billing System
+
+Berikut merupakan tautan yang digunakan untuk mengakses Flexible Billing System :
+
+|===
+| *Server Environment* | *URL* 
+
+| Development
+| https://gitlab.alterra.id/alterra/peregrine/ditto-ui[]
+
+| Staging / UAT
+| https://ditto-ui.sumpahpalapa.com[]
+
+| Production
+| https://ditto.sepulsa.id[]
+|===

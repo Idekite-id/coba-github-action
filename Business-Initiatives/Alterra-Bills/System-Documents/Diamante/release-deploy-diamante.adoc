@@ -1,0 +1,32 @@
+= Release and Deployment Diamante
+
+Berisi informasi tentang _release_ dan _step deployment_.
+
+== Release Schedule
+
+Diamante tidak memiliki jadwal rilis yang tetap. Rilis dilakukan berdasarkan kesepakatan antara tim development dengan _stakeholder_.
+
+== Step Deployment
+
+===== Go to project directory.
+`cd /sepulsa/www/diamante`
+
+===== Pull the repo.
+`git pull`
+
+===== Install dependencies.
+`composer install --ignore-platform-reqs`
+
+===== Do database migration.
+`php artisan migrate`
+
+`yes`
+
+===== Clear application cache.
+`composer dump-autoload && php artisan clear-compiled && php artisan auth:clear-resets && php artisan cache:clear && php artisan config:clear && php artisan event:clear && php artisan optimize:clear && php artisan route:clear && php artisan view:clear && php artisan route:cache`
+
+===== Restart worker.
+`sudo supervisorctl restart all`
+
+===== Flush redis.
+`redis-cli flushdb && redis-cli flushall`

@@ -1,0 +1,25 @@
+= Technology CoffeeShop
+
+Berikut adalah teknologi yang digunakan pada sistem CoffeeShop:
+
+|===
+| Specification | Name
+
+| Operating System
+| Debian 9
+
+| Web Server
+| NGINX
+
+| Programming Language
+| PHP 7.0
+
+| Framework
+| Drupal 7
+
+| DBMS
+| Maria DB
+
+| Lainnya
+| Redis
+|===

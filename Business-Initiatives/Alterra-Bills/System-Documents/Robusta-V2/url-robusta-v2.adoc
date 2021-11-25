@@ -1,0 +1,43 @@
+= System URL Robusta V2
+
+Berikut adalah akses URL sistem Robusta V2:
+
+|===
+| *Stage* | *URL Name* | *URL*
+
+| *Staging*
+| MyXl
+| https://myxl-uat.alphabill.id
+
+|
+| Axis
+| https://myaxis-uat.alphabill.id/
+
+|
+| XL Prioritas
+| https://xlprio-uat.alphabill.id/
+
+|
+| MyPrio
+| https://xlpriocivet-uat.alphabill.i
+
+| *Production*
+| XL
+| https://myxl.alphabill.id/
+
+|
+| Axis
+| https://myaxis.alphabill.id/
+
+|
+| XL Prioritas
+| https://xlprio.alphabill.id/
+
+|
+|
+| https://www.sepulsa.com/
+
+|
+| MyPrio
+| https://xlpriocivet.alphabill.id
+|===

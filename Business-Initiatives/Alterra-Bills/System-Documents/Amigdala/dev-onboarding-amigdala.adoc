@@ -1,0 +1,33 @@
+= Developer Onboarding Amigdala
+
+
+== Tools and Preparation
+
+Berikut tools yang digunakan dalam sistem Amigdala:
+
+|===
+| Spesifikasi | Nama
+
+| Programming Language 
+| Javascript
+
+| Framework
+| Feathers JS
+
+
+| Package Manager
+| Yarn
+
+
+| Development Tools
+| Visual Studio Code, Mongo GUI (Robo 3T), Postman
+
+|===
+
+== Local Machine Setup
+
+. _Install Nodejs_ (_version >= 10_)
+. _Install Yarn Package Manager_
+. _Clone_ dari Git
+. Arahkan _terminal_ ke _root directory project_ dan jalankan perintah `yarn install`
+. _Run App_ menggunakan perintah `node .`

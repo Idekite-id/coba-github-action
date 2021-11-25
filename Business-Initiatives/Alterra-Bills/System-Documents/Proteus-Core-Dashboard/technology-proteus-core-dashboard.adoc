@@ -1,0 +1,20 @@
+= Technology Proteus Core Dashboard
+
+Berikut merupakan teknologi yang digunakan dalam pengembangan sistem Proteus Core Dashboard
+
+[cols="40,60%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+
+1.2+|framework
+|Vue JS
+
+| Nuxt JS Framework + Vuetify
+
+|Software Platform 
+| Docker
+
+|Cluster Management
+|Kubernetes
+|===

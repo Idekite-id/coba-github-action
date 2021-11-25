@@ -1,0 +1,25 @@
+= Mencetak Jurnal Penyusutan
+
+Fitur ini digunakan untuk mencetak jurnal penyusutan. Berikut  adalah detail langkah-langkahnya:
+
+image::../images-akuntansi/akuntansi-mencetak-jurnal-penyusutan-1.png[align="center"]
+
+1. Pilih menu *Penyusutan*
+
+2. Pilih ikon *Cetak Tabel Penyusutan & Jurnal*
+
+3. Selanjutnya akan muncul _pop-up form_ untuk cetak penyusutan & jurnal penyusutan aktiva
+
+4. Isi _form_ sesuai dengan jenis jurnal yang diinginkan seperti pilihan cetak, kategori, bulan yang ingin dicetak, kemudian klik tombol *Tampil*.
+
++
+image::../images-akuntansi/akuntansi-mencetak-jurnal-penyusutan-2.png[align="center"]
+
+5. Apabila muncul _pop-up_ proses ulang, klik pada tombol *Yes* untuk melanjutkan proses. Klik pada tombol *No* untuk membatalkannya.
+
++
+image::../images-akuntansi/akuntansi-mencetak-jurnal-penyusutan-3.png[align="center"]
+
+6. Sistem akan menampilkan pratinjau dokumen. Silakan klik ikon *Print* untuk pada pratinjau dokumen untuk mencetaknya.
+
+

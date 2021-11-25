@@ -1,0 +1,27 @@
+= Mengelola User Akses dan Jabatan
+
+Fitur ini berfungsi untuk mengelola data akses User, baik itu menambahkan, memperbarui data diri, memperbarui kata sandi, menghapus, dan mencetak data laporan seperti langkah berikut.
+
+image::../images-bacameter/bacameter-akses-jabatan-bacameter.png[align="center"]
+
+1. Pilih menu *Pengaturan Sistem*
+2. Cari ikon *User Akses & Jabatan*
+3. Tekan ikon *Tambah* seperti poin 3 pada gambar di atas. Selanjutnya isi _form_ petugas baca. Jika sudah, tekan tombol *Simpan*, untuk membuat akses User baru seperti gambar di bawah ini
++
+image::../images-bacameter/bacameter-akses-jabatan2-bacameter.png[align="center"]
+4. Pilih data yang ingin diperbarui. Selanjutnya tekan ikon *Koreksi* seperti poin 4 pada gambar utama di atas. Perbarui bagian yang ingin diubah. Jika sudah, tekan tombol *Simpan* untuk memperbarui data
++
+image::../images-bacameter/bacameter-akses-jabatan3-bacameter.png[align="center"]
+5. Pilih data yang ingin dihapus terlebih dahulu. Tekan ikon *Hapus* seperti poin 5 pada gambar utama di atas. Selanjutnya, akan muncul _pop up_ konfirmasi. Jika sudah yakin untuk menghapus akses User tersebut, tekan tombol _Yes_ 
++
+image::../images-bacameter/bacameter-akses-jabatan4-bacameter.png[align="center"]
+6. Tekan ikon *Jabatan* untuk membuat hak akses User
+7. Tekan tombol ikon *Reset* untuk mengubah kata sandi/_password_ akses User seperti poin 7 pada gambar utama di atas. Selanjutnya akan muncul _pop up_ konfirmasi. Jika sudah yakin ingin mengubah kata sandi, tekan tombol *Yes* 
++
+image::../images-bacameter/bacameter-akses-jabatan5-bacameter.png[align="center"]
+8. Daftar User Akses dapat disimpan ke dalam format HTML, Excel, XML, dan txt dengan menekan ikon *Export* seperti poin 8 pada gambar utama di atas. Tentukan tempat penyimpanan dan nama file. Jika sudah, tekan tombol *Save* untuk mengekspor data
++
+image::../images-bacameter/bacameter-akses-jabatan6-bacameter.png[align="center"]
+9. Tekan tombol *Print* untuk mencetak daftar akses User seperti poin 9 pada gambar utama di atas. Berikut contoh halaman cetak User Akses dan Jabatan.
++
+image::../images-bacameter/bacameter-akses-jabatan7-bacameter.png[align="center"]

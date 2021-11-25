@@ -1,0 +1,10 @@
+= Mencetak Data Setoran Penerimaan
+
+Untuk mencetak data setoran penerimaan, Anda dapat mengikuti langkah-langkah di bawah ini:
+
+image::../images-loket/loket-cetak-setoran-1.png[align="center"]
+
+1. Saat data setoran penerimaan telah ditampilkan, klik tombol *Cetak* untuk mencetak  laporan setoran penerimaan.
++
+image::../images-loket/loket-cetak-setoran-2.png[align="center"]
+2. Gambar di atas adalah tampilan laporan setoran penerimaan. Anda dapat mencetak laporan tersebut dengan icon print pada menu bar.

@@ -1,0 +1,26 @@
+= Architecture SiPintar Loket ver 4
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem SiPintar Loket V4:
+
+image::./images-SiPintar-Loket-ver-4/SiPintar-Loket-ver-4-C2-Diagram.png[SiPintar Loket V4 C2 Diagram]
+
+Sistem ini merupakan bagian dari Bimasakti Alterra. Untuk lebih detail terkait hubungan SiPintar Loket V4 dengan sistem Bimasakti Alterra lainnya, silakan mengakses <<../../../../../Divisions/Meet-Our-Divisions/Technology/Engineering/Alterra-Systems-C1-Diagram/BSA-C1-Diagram.adoc#,BSA C1 Diagram>> berikut.
+
+== Related System
+
+SiPintar Loket V4 terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan SiPintar Loket V4.
+
+[cols="10%,30%,30%,30%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+| SiPintar Loket ver 4
+|Aplikasi untuk Loket PDAM masing-masing untuk menerima pembayaran, baik secara online maupun offline.
+a| 
+a|
+|===

@@ -1,0 +1,63 @@
+= Loket.NET
+:keywords: bsa-pdam,loket
+
+== Overview
+
+Loket.NET merupakan salah satu _desktop app_ (module) SiPDAMPintar yang di-_revamp_ dari Loket versi Delphi dengan beberapa _improvement UI/UX_.
+
+== Team Involved
+
+Berikut adalah _talent_ yang terlibat dalam pengembangan sistem Loket.NET. Masing-masing sudah dilengkapi dengan alamat _email_ yang bisa dihubungi jika diperlukan.
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| Aryo Indrasmoro | Engineering Manager | aryo@alterra.id
+| Acep Zulkipli J | Development Team Lead | azul@alterra.id
+| Ahmad Alfan | Software Engineer | alfan@alterra.id
+| Angga Dwi Apria Rifandi | Software Engineer | angga@alterra.id
+| Aulia Rahman Hanifan | Software Engineer | ahanifan@alterra.id
+| I Nyoman Widiarta | Software Engineer | widiarta@bsa.id
+| Josua Geovani Sinaga | Software Engineer | josua.sinaga@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./architecture-loket.adoc#, Architecture Loket.NET>>
+
+<<./technology-loket.adoc#, Technology Loket.NET>>
+
+<<./environment-loket.adoc#, Environment Loket.NET>>
+
+<<./database-loket.adoc#, Database Documentation Loket.NET>>
+
+<<./release-deploy-loket.adoc#, Release and Deployment Loket.NET>>
+
+<<./Flow-and-Wireframe-Loket-NET/index.adoc#, Flow and Wireframe Loket.NET>>
+
+== Onboarding Information
+
+<<./dev-onboarding-loket.adoc#, Developer Onboarding Loket.NET>>
+
+<<./Development-Loket-NET/index.adoc#, Development Loket.NET>>
+
+<<./naming-convention-loket.adoc#, Naming Convention Loket.NET>>
+
+== Documentation
+
+Berikut adalah dokumen penunjang untuk penggunaan sistem baik Loket versi Delphi maupun Loket.NET :  
+
+https://github.com/bimasaktialterra/loket.net/blob/main/CHANGELOG.md[Release Note Loket.NET]
+
+<<./laporan-daftar-tunggakan.adoc#, Laporan Daftar Tunggakan Development Flow Loket.NET>>
+
+<<./pembayaran-air-dan-nonair-flow.adoc#, Flow Pembayaran Tagihan Loket.NET>>
+
+<<./tagihan-nonair-flow.adoc#, Flow Tagihan Nonair Loket.NET>>
+
+<<./tagihan-sr-koreksi-hapus-denda-flow#, Koreksi dan Hapus Denda Tagihan SR Loket.NET>>

@@ -1,0 +1,18 @@
+= System URL Proteus Partner Dashboard
+
+Berikut merupakan tautan dari sistem Proteus Partner Dashboard:
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+| Development/Staging
+| https://partner.sumpahpalapa.com
+
+| UAT
+| https://partner-uat.sumpahpalapa.com
+
+| Production
+| https://partner.konekto.id
+|===

@@ -1,0 +1,3 @@
+= Naming Convention API SmartPresence
+
+Berisi aturan penamaan dalam development sistem.

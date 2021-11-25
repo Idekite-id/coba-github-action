@@ -1,0 +1,24 @@
+= Technology Proteus Core
+
+Berikut adalah teknolongi yang digunakan dalam _development_ Proteus Core :
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+
+| Programming Language
+| GoLang
+
+| Framework
+| Echo Framework
+
+| Database
+| MongoDB
+
+| Software Platform
+| Docker
+
+| Cluster Management
+| Kubernetes
+|===

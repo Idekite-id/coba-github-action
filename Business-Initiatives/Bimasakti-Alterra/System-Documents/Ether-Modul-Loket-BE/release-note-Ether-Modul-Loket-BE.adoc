@@ -1,0 +1,3 @@
+= Release Note Ether Modul Loket (BE)
+
+Berisi catatan rilis sistem.

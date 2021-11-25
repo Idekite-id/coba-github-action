@@ -1,0 +1,73 @@
+= Others Terra
+
+[discrete]
+=== *Terra*
+
+https://terra.sepulsa.id/[Dashboard]
+
+....
+Username : ********
+     Password : ********
+
+Username : ********
+     Password : ********
+....
+
+[discrete]
+=== *Geckoboard*
+
+https://app.geckoboard.com/login[Sepulsa Dashboard]
+
+ Username : ********@sepulsa.com
+      Password : ********
+
+[discrete]
+=== *Ops Dashboard*
+
+https://app.geckoboard.com/edit/dashboards/212428
+
+ Username : ********@sepulsa.com
+      Password : ********
+
+[discrete]
+=== *Ananto Dashboard*
+
+https://app.geckoboard.com/edit/dashboards/212452
+
+ Username : ********@sepulsa.com
+      Password : ********
+
+[discrete]
+=== *Biller Performance Dashboard*
+
+https://app.geckoboard.com/edit/dashboards/215842
+
+ Username : ********@sepulsa.com
+      Password : ********
+
+[discrete]
+=== *API Event List*
+
+https://buddy.sepulsa.id/api-docs/index.html#api-Event-Get_Event
+
+ Username : ********
+      Password : ********
+
+[discrete]
+=== *Apps Push Notification*
+
+https://terra.sepulsa.id/admin/sepulsa_apps/push_notification
+
+ Username :{request_to_terra_admin}
+      Password : {request_to_terra_admin}
+
+[discrete]
+=== *API Apps Notification*
+
+ Username : ********
+      Password : ********
+
+* _Notification List_ \=> https://buddy.sepulsa.id/api-docs/index.html#api-Sepulsa_Apps-Get_Notification_List
+* _Push Notification_ \=> https://buddy.sepulsa.id/api-docs/index.html#api-Sepulsa_Apps-Push_Notification
+* _Read Notification_ \=> https://buddy.sepulsa.id/api-docs/index.html#api-Sepulsa_Apps-Read_Notification
+* _Smart Plug Hotline_ \=> https://buddy.sepulsa.id/api-docs/index.html#api-Sepulsa_Apps-Smart_Plug_Hotline

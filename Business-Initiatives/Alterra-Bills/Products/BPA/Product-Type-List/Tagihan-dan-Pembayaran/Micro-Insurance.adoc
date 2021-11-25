@@ -1,0 +1,109 @@
+= Micro Insurance
+
+Micro insurance didefinisikan sebagai produk asuransi yang mengandung premi sangat murah dan terjangkau bagi masyarakat berpenghasilan rendah dengan nilai pertanggungan sangat terbatas. Micro insurance dirancang bagi masyarakat kelas bawah yang tidak terlayani oleh asuransi komersial atau asuransi sosial pada umumnya.
+
+*Variasi Produk*
+
+Varian asuransi Micro yang ada di Sinar Mas saat ini :
+
+- Asuransi Perlindungan Kecelakaan (Secure)
+- Asuransi Perlindungan Jiwa (Guard)
+- Asuransi Kesehatan - Rawat Inap (Health)
+- Asuransi Kesehatan - Demam Berdarah (DB)
+
+*Vendor Utama Produk*
+
+- Asuransi Sinar Mas
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Untuk produk Asuransi Jiwa :
+
+. User memilih product dan paket yang disediakan, seperti:
+.. Produk: Kecelakaan dan Jiwa
+.. Paket: Brown, Silver, Gold dan Platinum
+
+. User mengisi data profile diri secara lengkap
+
+. User memilih bank untuk pembayaran
+
+. User mendapatkan e-voucher dan nomor VA untuk detail pembayaran
+
+. Setelah user melakukan pembayaran, user menunggu maksimal 10 hari setelah semua data divalidasi untuk bisa menggunakan asuransi yang telah dipilih
+
+. User mendapatkan voucher dan asuransi bisa mulai dipakai dan dibayarkan
+
+- Untuk produk Asuransi Kesehatan :
+
+. User memilih product yang disediakan, seperti:
+.. Produk : Demam Berdarah dan Rawat Inap
+
+. User mengisi data profile diri secara lengkap
+
+. User memilih bank untuk pembayaran
+
+. User mendapatkan e-voucher dan nomor VA untuk detail pembayaran
+
+. Setelah user melakukan pembayaran, user menunggu maksimal 10 hari setelah semua data divalidasi untuk bisa menggunakan asuransi yang telah dipilih
+
+. User mendapatkan voucher dan asuransi bisa mulai dipakai dan dibayarkan
+
+*Product Journey*
+
+Showcase Partner Journey
+
+. Pilih produk yang tersedia
+
+. Customer input *tanggal lahir* dan kondisi customer saat ini
++
+Jika customer sedang dirawat di RS, maka register asuransi tidak bisa berjalan
+
+. Customer memilih nilai plafon asuransi yang ditawarkan
+
+. Customer mendapatkan beberapa informasi tentang product, seperti:
++
+- Manfaat yang didapatkan oleh customer
+- Biaya tahunan yang harus dikeluarkan oleh customer
+
+. Customer mengisi data diri dengan lengkap
+
+. Customer memilih metode pembayaran yang ditawarkan, seperti:
+- Master Card Visa
+- DOKU Wallet
+- Bank Transfer
+
+. Customer mulai berhak mendapatkan manfaat Asuransi Simas Demam Berdarah ini apabila telah melewati masa tunggu 15 (lima belas hari) hari kalender sejak tanggal mulai berlakunya Polis atau sejak tanggal customer keluar dari Rumah Sakit yang dinyatakan dengan surat keterangan Dokter Rumah Sakit.
+
+Switcher Product Journey
+
+. Partner memilih nominal yang akan diasuransikan
+
+. Sistem mengirimkan nilai premi yang harus dibayarkan oleh partner
+
+. Partner mamasukkan data Pemegang Polis dan data _Beneficiary_
+
+. Sistem memproses data yang telah dimasukkan ke biller (via endpoint) dan kirim _callback_ ke Partner
+
+. Sistem akan mengirimkan _response_ dengan status ``pending`` ke Partner
+
+. Sistem _submit transaction_ data ke Biller dan _get callback_ dari Biller
+
+. Jika callback failed (_response code ≠ 200_)
++
+Sistem mengirim _response error_ ke Partner dengan rescode yang telah disesuaikan
+
+. Jika _callback_ ``success`` maka:
+
+.. Sistem mengirim _request_ untuk confirm transaction ke Biller
+
+.. Sistem menerima _callback_ dari Biller
+
+.. Sistem mengirimkan _response_ data dari Biller ke Partner
+
+. Partner akan mendapat final status transaksi:
++
+``success`` : partner mendapatkan data polis, jika memilih pilihan untuk cetak data policy kebentuk softcopy, maka akan dikirimkan juga dalam bentuk link format PDF
++
+``failed`` : partner mendapatkan respone error
+
+image::../../../images-bpa/flow-journey-micro-insurance.png[align="center"]

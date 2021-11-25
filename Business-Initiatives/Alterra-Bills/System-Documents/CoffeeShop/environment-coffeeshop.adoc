@@ -1,0 +1,51 @@
+= Environment CoffeeShop
+
+Berikut adalah _environment_ sistem CoffeeShop:
+
+== Development / Staging
+
+|===
+| Nama | Spesifikasi
+
+| IP Address
+| 103.117.207.**
+
+| URL
+| https://coffee-shop.sumpahpalapa.com/
+
+| Doc Root
+| /sepulsa/www/coffee-shop
+
+| Service Name
+| dove-uat
+
+| DB Server
+| localhost:3306
+
+| Git Branch
+| coffee-shop
+|===
+
+== Production
+
+|===
+| Nama | Spesifikasi
+
+| IP Address
+| 206.189.158.**
+
+| URL
+| https://coffee-shop.alphabill.id/
+
+| Doc Root
+| /sepulsa/www/coffee-shop
+
+| Service Name
+| coffee-shop
+
+| DB Server
+| localhost:3306
+
+| Git Branch
+| coffee-shop
+|===

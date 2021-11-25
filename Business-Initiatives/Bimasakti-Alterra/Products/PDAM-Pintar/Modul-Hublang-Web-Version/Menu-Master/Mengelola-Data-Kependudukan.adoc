@@ -1,0 +1,11 @@
+= Mengelola Data Kependudukan
+
+Ikuti langkah-langkah berikut untuk mengelola data kependudukan:
+
+1. Klik ikon *Edit*, kemudian pilih dan ubah data pada _cell_ sesuai kebutuhan.
++
+image::../images-hublang-web/hublang-web-mengelola-data-kependudukan.png[align="center"]
+
+2. Untuk menyimpan perubahan, klik ikon *Simpan*. 
++
+image::../images-hublang-web/hublang-web-mengelola-data-kependudukan-1.png[align="center"]

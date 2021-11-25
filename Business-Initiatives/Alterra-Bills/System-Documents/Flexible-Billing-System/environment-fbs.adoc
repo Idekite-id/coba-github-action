@@ -1,0 +1,220 @@
+= Environment Flexible Billing System
+
+
+Berikut adalah _environment_ dari Flexible Billing System atau yang biasa disebut dengan Ditto :
+
+== Ditto
+
+|===
+| *Stage* | *Environment* | *Spec*
+
+| Development
+| IP Address
+| -
+
+|
+| URL
+| https://ditto.sumpahpalapa.com/[]
+
+|
+| Doc Root
+| https://ditto-swagger.sumpahpalapa.com/[]
+
+|
+| Service Name
+| -
+
+|
+| DB Server
+|
+
+|
+| Git Repo
+| https://gitlab.alterra.id/alterra/peregrine/ditto[]
+
+| Production
+| IP Address
+| -
+
+|
+| URL
+| https://ditto.sepulsa.id/[]
+
+|
+| Doc Root
+| https://ditto-swagger.sumpahpalapa.com/[]
+
+|
+| Service Name
+| -
+
+|
+| DB Server
+| -
+
+|
+| Git Repo
+| https://gitlab.alterra.id/alterra/peregrine/ditto[]
+|===
+
+== Ditto-Extension
+
+|===
+| *Stage* | *Environment* | *Spec*
+
+| Development
+| IP Address
+| -
+
+|
+| URL
+| https://ditto-ext.sumpahpalapa.com/[]
+
+|
+| Doc Root
+| https://gist.github.com/ciforusalterra/9be33dbc7928e677aa3350ced193737a[]
+
+|
+| Service Name
+| -
+
+|
+| DB Server
+| -
+
+|
+| Git Repo
+| https://gitlab.alterra.id/alterra/peregrine/ditto-extension[]
+
+| Production
+| IP Address
+| -
+
+|
+| URL
+| https://ditto-ext.sepulsa.id/[]
+
+|
+| Doc Root
+| https://gist.github.com/ciforusalterra/9be33dbc7928e677aa3350ced193737a[]
+
+|
+| Service Name
+| -
+
+|
+| DB Server
+| -
+
+|
+| Git Repo
+| -
+|===
+
+== Ditto-Callback
+
+|===
+| *Stage* | *Environment* | *Spec*
+
+| Development
+| IP Address
+| -
+
+|
+| URL
+| https://ditto-callback.sumpahpalapa.com/[]
+
+|
+| Doc Root
+| -
+
+|
+| Service Name
+| -
+
+|
+| DB Server
+| -
+
+|
+| Git Repo
+| https://gitlab.alterra.id/alterra/peregrine/ditto-callback[]
+
+| Production
+| IP Address
+| -
+
+|
+| URL
+| -
+
+|
+| Doc Root
+| -
+
+|
+| Service Name
+| -
+
+|
+| DB Server
+| -
+
+|
+| Git Repo
+| -
+|===
+
+== Ditto-UI
+
+|===
+| *Stage* | *Environment* | *Spec*
+
+| Development
+| IP Address
+| -
+
+|
+| URL
+| https://ditto-ui.sumpahpalapa.com/[]
+
+|
+| Doc Root
+| -
+
+|
+| Service Name
+| -
+
+|
+| DB Server
+| -
+
+|
+| Git Repo
+| https://gitlab.alterra.id/alterra/peregrine/ditto-ui[]
+
+| Production
+| IP Address
+| -
+
+|
+| URL
+| -
+
+|
+| Doc Root
+| -
+
+|
+| Service Name
+| -
+
+|
+| DB Server
+| -
+
+|
+| Git Repo
+| https://gitlab.alterra.id/alterra/peregrine/ditto-ui[]
+|===

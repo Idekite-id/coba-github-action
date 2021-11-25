@@ -1,0 +1,73 @@
+= Ether Firedash (BE)
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem Ether Firedash (BE). Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan.
+
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| Hardiyusa 
+| Software Engineer 
+| hardiyusa@bsa.id
+
+| I Ketut Giri Arsa 
+| Software Engineer 
+| giriarsa@bsa.id
+
+| I Wayan Agus Krisna Apriana 
+| Software Engineer 
+| apriana@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Ether-Firedash-BE.adoc#, System URL Ether Firedash (BE)>>
+
+<<./architecture-Ether-Firedash-BE.adoc#, Architecture Ether Firedash (BE)>>
+
+<<./technology-Ether-Firedash-BE.adoc#, Technology Ether Firedash (BE)>>
+
+<<./environment-Ether-Firedash-BE.adoc#, Environment Ether Firedash (BE)>>
+
+<<./database-Ether-Firedash-BE.adoc#, Database Documentation Ether Firedash (BE)>>
+
+<<./release-deploy-Ether-Firedash-BE.adoc#, Release and Deployment Ether Firedash (BE)>>
+
+<<./flow-wire-Ether-Firedash-BE.adoc#, Flow and Wireframe Ether Firedash (BE)>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Ether-Firedash-BE.adoc#, Developer Onboarding Ether Firedash (BE)>>
+
+<<./development-Ether-Firedash-BE.adoc#, Development Ether Firedash (BE)>>
+
+<<./naming-convention-Ether-Firedash-BE.adoc#, Naming Convention Ether Firedash (BE)>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+<<./release-note-Ether-Firedash-BE.adoc#, Release Note Ether Firedash (BE)>>

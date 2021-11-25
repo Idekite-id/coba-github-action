@@ -1,0 +1,23 @@
+= Release Note Polaris
+
+Berikut merupakan catatan rilis dari sistem Polaris:
+
+1. Polaris - 20171206 - 1.0.0
+- feature/#152877898 Polaris Test - Execution
+- feature/#152877914 Polaris Test - Log
+- feature/#152877889 Polaris Test - Dialect
+- feature/#152877893 Polaris Test - Channel
+- feature/#152877913 Polaris Test - Config
+- feature/#152624961 Polaris Tests - Calculate Incidents & DiskDB
+- feature/#152687567 Notification Kraken Biller top up failed new feature
+- feature/#152625188 Notification SMS Gateway - Nexmo
+- feature/#152878228 Notification SMS Gateway - InfoBip
+- feature/#152878227 Notification SMS Gateway - Zenziva
+- feature/#152877951 Polaris Test - Integration Travis CI
+
++
+**Note:**
+
+- Ketika dilakukan_testing_ Polaris, terdapat fitur Group Notification yang bermasalah.
+
+Untuk detail terkait rilis sistem ini, Anda dapat mengakses halaman berikut https://github.com/sepulsa/polaris/releases[]

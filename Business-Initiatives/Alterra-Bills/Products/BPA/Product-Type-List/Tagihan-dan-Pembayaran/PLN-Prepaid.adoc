@@ -1,0 +1,34 @@
+= PLN Prepaid
+
+PLN Prepaid adalah produk yang ditawarkan oleh PT PLN Persero untuk alternatif pembayaran layanan kelistrikan dengan sistem listrik prabayar, yang ditujukan agar masyarakat dapat mengontrol penggunaan listrik. Pelanggan listrik prabayar dari PLN harus terlebih dahulu membeli token listrik untuk dapat menggunakan layanan listrik.
+
+*Variasi Produk*
+
+Varian produk dari PLN Prepaid berupa denom yang dapat dibeli oleh Partner:
+
+- Rp 20.000
+- Rp 50.000
+- Rp 100.000
+- Rp 200.000
+- Rp 500.000
+- Rp 1.000.000
+
+*Vendor Utama Produk*
+
+Principal dari produk PLN Prepaid adalah PT PLN (Persero)
+
+*Perilaku dan Penggunaan Produk*
+
+Pengguna dapat melakukan pembelian token listrik untuk PLN prepaid melalui _website_ / aplikasi milik Partner. Setelah pembayaran selesai pengguna akan menerima token listrik.
+
+Nomor pelanggan beberapa daerah ada yang memiliki separator koma "," dan garis miring "/".
+
+*Product Journey*
+
+. Customer mengetikan nomer meter PLN
+
+. Customer memilih nominal top-up yang diinginkan
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills

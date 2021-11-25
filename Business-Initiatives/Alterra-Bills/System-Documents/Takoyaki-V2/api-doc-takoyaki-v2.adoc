@@ -1,0 +1,6 @@
+= API Documentation Takoyaki V2
+
+Dokumentasi API dapat diakses melalui link di bawah ini:
+
+* https://takoyaki.sepulsa.co.id/apidoc/[Public API]
+* https://takoyaki.sepulsa.co.id/apidoc-priv/[Internal/Admin API]

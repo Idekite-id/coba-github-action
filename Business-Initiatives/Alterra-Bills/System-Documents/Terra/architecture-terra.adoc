@@ -1,0 +1,11 @@
+= Architecture Terra
+
+== High Level Architecture
+
+Berikut merupakan arsitektur dari sistem Terra:
+
+image::./images-terra/800px-Terra_flow.png[Arsitektur Terra]
+
+== High Level Diagram
+
+Berikut merupakan High Level Diagram dari sistem Terra: image:./images-terra/Terra.png[HLA Terra]

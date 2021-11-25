@@ -1,0 +1,28 @@
+= Technology Meowth
+
+Berikut adalah teknologi yang digunakan dalam pengembangan sistem Meowth:
+
+|===
+| *Name* | *Specifications*
+
+| NGINX
+| Web Server
+
+|
+| OS
+
+| PHP 7
+| Programming Language
+
+| Laravel Lumen 5.2
+| Framework
+
+| MariaDB
+| DBMS
+
+| MongoDB v3.2
+| DBMS
+
+| Redis v3.2 (for database caching)
+| Other
+|===

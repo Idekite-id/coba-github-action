@@ -1,0 +1,8 @@
+= Developer Onboarding Library Transaction SIBS
+
+Berisi dokumentasi tentang hal-hal yang harus dilakukan oleh developer pada tahap _onboarding_. Biasanya berisi 2 poin utama berupa _tools_ yang dipakai dan tutorial untuk menginstal sistem di lokal.
+
+== Tools
+
+
+== Local Machine Setup

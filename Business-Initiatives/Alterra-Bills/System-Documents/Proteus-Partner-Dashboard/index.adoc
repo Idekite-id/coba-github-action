@@ -1,0 +1,62 @@
+= Proteus Partner Dashboard
+:keywords: gst, traditional
+
+== Overview
+
+Proteus Partner Dashboard adalah _dashboard partner_ yang digunakan untuk Proteus Core.
+Dimana _dashboard_ ini digunakan oleh _partner_ untuk mengatur koneksi Proteus Partner Dashboard ke Proteus Core, selain itu juga untuk monitoring transaksi yang dilakukan.
+
+== Team Involved
+
+[cols="35%,35%,30",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Kevin Setiawan Tanzil
+| Lead Software Engineer
+| kevin@alterra.id
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Anandhi Tristiaratri
+| Quality Engineer
+| anandhi@alterra.id
+
+| Moehammad Oki Putra Samudra
+| Software Engineer
+| oki@alterra.id
+
+| Doni Hadiyansyah
+| Software Engineer
+| dhadiansyah@alterra.id
+
+| Micky Robby Saputra Eka S
+| Quality Engineer
+| micky@alterra.id
+
+| M. Lutfi
+| Software Engineer
+| lutfi@alterra.id
+|===
+
+== Technical Information
+
+<<./architecture-proteus-partdas.adoc#, Architecture Proteus Partner Dashboard>>
+
+<<./url-proteus-partdas.adoc#, System URL Proteus Partner Dashboard>>
+
+<<./technology-proteus-partdas.adoc#, Technology Proteus Partner Dashboard>>
+
+== Onboarding Information
+
+<<./dev-onboarding-proteus-partdas.adoc#, Developer Onboarding Proteus Partner Dashboard>>
+
+<<./development-proteus-partdas.adoc#, Development Proteus Partner Dashboard>>
+
+== *Documentation*
+
+<<./api-doc-proteus-partdas.adoc#, API Documentation Proteus Partner Dashboard>>

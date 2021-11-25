@@ -1,0 +1,41 @@
+= Problem and Troubleshoot Takoyaki V2
+
+== Supervisord as Daemon Tool
+
+_Queue driver_ menggunakan Redis.
+_Queue_ sebaiknya dijalankan sebagai _service_ yang menggunakan _supervisord_, sehingga akan tersedia kapan pun selama _supervisor_ berjalan.
+Di bawah ini contoh _conf file_ yang berada di etc/supervisor.d/takoyaki-worker.conf.
+----
+[program:takoyaki-worker]
+process_name=%(program_name)s_%(process_num)02d
+command=php /sepulsa/var/www/takoyaki/artisan queue:work redis --sleep=5 --tries=3 --daemon
+autostart=true
+autorestart=true
+user=ec2-user
+numprocs=5
+redirect_stderr=true
+stdout_logfile=/sepulsa/var/www/takoyaki/storage/logs/worker/trxcallback.log
+----
+
+== Troubleshooting
+
+----
+Developer first check must be in SALMON with `@type=takoyaki` or `*takoyaki`
+----
+
+*Didn't Received Bonus Promo?*
+
+* Apakah promo aktif?
+* Apakah _source product_id_ cocok?
+* Apakah target _product_id_ tersedia di *partner package* ?
+* Apakan ada _trx_limit_ ?
+* Pastikan _rule promo_ sudah dibuat sebelum transaksi.
+* Apakah IP Takoyaki sudah dimasukkan pada  *Partner IP Whitelist* ?
+* Pastikan *tidak ada space* dalam Partner IP Whitelist!
+* [DEVELOPER CHECK] Cek *HOUR RANGE* pada .ENV config ( *CRON_HOUR_RANGE=0,08,11* =\=> active status, start_hour, end_hour ), dibandingkan dengat transaksi yang berkaitan.
+
+*Didn't Received SMS For Transaction with SMS Feature*
+
+* Cek pada .ENV config, *SMSTRX_ENABLED* harus memiliki nilai `1`
+* Cek `ordersms_log` tabel, lihat *sms_result*
+* Cek `my_failed_jobs` untuk mengetahui eror pada _queue level_

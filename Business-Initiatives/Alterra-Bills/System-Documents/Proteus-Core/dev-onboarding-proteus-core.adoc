@@ -1,0 +1,3 @@
+= Developer Onboarding Proteus Core
+
+Anda dapat mengakses _developer onboarding_ sistem Proteus Core pada https://github.com/sepulsa/proteus-core[Halaman Berikut]

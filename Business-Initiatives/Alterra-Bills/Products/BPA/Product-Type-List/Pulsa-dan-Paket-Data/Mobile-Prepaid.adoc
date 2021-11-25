@@ -1,0 +1,49 @@
+= Mobile Prepaid
+
+Mobile prepaid adalah produk yang digunakan untuk memfasilitasi pembelian pulsa pada telepon seluler prabayar.
+
+*Variasi Produk*
+
+Varian produk mobile prepaid adalah denom pulsa yang dimiliki operator jaringan seluler.
+
+*Vendor Utama Produk*
+
+Operator seluler yang tersedia di Indonesia, antara lain:
+
+- Telkomsel
+- XL
+- Indosat
+- Hutchison 3
+- Smartfren 
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Pulsa digunakan end user untuk alat pembayaran telepon seluler prabayar. Pulsa dapat digunakan untuk sambungan telepon, layanan pesan singkat (SMS), layanan koneksi internet.
+
+- Pulsa memiliki masa berlaku, jika melewati masa berlaku maka tidak bisa digunakan kembali. Pengisian ulang pulsa akan menambahkan masa aktif kartu perdana prabayar yang digunakan.
+
+- Jika pulsa tidak diisi hingga masa aktif habis maka end user akan masuk ke masa tenggang. End user hanya dapat menerima telepon dan SMS saat masa tenggang.
+
+- Operator telepon seluler memberikan masa tenggang selama 30 hari. Jika melewati masa tenggang maka kartu perdana tidak dapat digunakan
+
+*Product Journey*
+
+Partner
+
+. Customer memasukkan nomor handphone
+
+. Customer memilih denominasi pulsa yang diinginkan
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dari aplikasi/_website client_, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher/Aggregator
+
+. Partner mengirimkan nomor telepon seluler dan _product code_ untuk transaksi
+
+. _Switching Engine_ memproses transaksi ke biller
+
+. _Switching Engine_ menerima response transaksi biller
+
+. _Switching Engine_ mengirim _callback_ ke partner

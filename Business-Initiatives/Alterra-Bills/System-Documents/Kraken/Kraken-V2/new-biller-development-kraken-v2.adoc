@@ -1,0 +1,114 @@
+= New Biller Development Kraken V2
+
+== Branching in Git
+
+Buat _branch_ baru untuk _development_ biller
+
+1. Buat _branch_ baru di Kraken 2 dari 'develop' dengan nama `feature/[pivotal-id]-[pivotal-story-title]`
+
+Jangan lupa untuk memeriksa <<./Developer-Onboarding-Kraken-V2/gitflow-kraken-v2.adoc#, Gitflow Kraken V2 >> untuk referensi lebih lanjut.
+
+== Persiapkan dokumentasi yang baik sebagai _starting point_ yang baik
+
+Pada langkah ini, Anda harus mempersiapkan dokumentasi yang diperlukan untuk memulai development. Dalam langkah ini Anda harus memastikan bahwa Anda tahu semua hal sistem yang akan Anda kembangkan sebelum mulai mengembangkannya.
+
+1. Pastikan terdapat dokumen pendukung, dokumen pendukung tersebut disediakan oleh Biller Onboard Team :
+ ** Biller API Documentations
+ ** Pricing Schema
+ ** Initial Assessment Document
+2.  Diskusikan _story description_ Anda dengan *SA* dan *QE*.
+Diskusi harus mencakup penilaian awal :
+ ** *Why* - Jelaskan latar belakang dan _task value_ 
+ ** *Acceptance Criteria* - Kriteria yang harus dipenuhi agar _story_ dapat diterima oleh Quality Assurance Team, juga pastikan Anda menuliskannya dalam _gherkin syntax_
+ ** *Implementation* - Berisi daftar apa yang harus Anda _develop_ dan deskripsinya
+ ** *Test Scenario* - Mencakup segala test yang diperlukan untuk memeriksa segala aspek fitur yang dikembangkan dalam implementasi, biasanya mencakup _Mock Test scenario_
+ ** *Deliverables* - Berisi deskripsi implementasi sebagai materi _handover_ ke ops, yang ditulis dengan bahasa yang mudah dipahami
+ ** *Deployment Notes* - Berisi tentang _task_ yang harus dilakukan oleh _deployment officer_ setelah proses _deployment_
+ ** *Log Catalogue* - Berisi _log_ apa yang tercatat saat fitur dijalankan
+3.  Setelah semua _part_ dalam dokumen dinilai cukup dan dapat dimengerti oleh rekan diskusi Anda, sekarang Anda dapat memulai _development_ dengan mengklik tombol *Start* pada Pivotal
+4. Jika terdapat _blocker_ saat menulis dokumen, Anda dapat menghubungi Onboarding Ops dan / atau System Analyst
+
+== Biller module
+
+Pada langkah ini, Anda akan menyiapkan folder modul biller baru dan struktur file.
+
+1. Buat folder `kraken/modules/biller/[biller-name]`.
+2. Anda akan meletakkan semua kode modul biller Anda di bawah dalam directory yang sudah dibuat.
+3. Anda dapat merujuk ke modul biller lain untuk membuat struktur direktori modul biller dasar.
+
+=== Register Biller Module Instance
+
+Pada langkah ini, Anda membuat instance modul biller baru dan mendaftarkannya agar biller baru Anda dikenali oleh sistem (Kraken v2 dan Kraken Admin).
+
+1. Buat file baru `[biller-name]/[biller-name].go`
+2. Tuliskan informasi biller yang sedang Anda kembangkan dalam file tersebut dengan menuliskan label biller, _description_, dan _option_
+3. Tulis struct biller default untuk _instance_ modul dan tulis implementasi awal untuk _method_ CronInfo, BillerInfo, TaskInfo, dan ThreadPoolInit.
+4. Tulis fungsi init dan inisialisasi Logger di dalamnya
+5. Daftarkan instance Anda di `modules/info.go`
+
+=== Implement Biller method
+
+Implementasikan operation biller yang terkait, transformasi respons biller diproses oleh adaptor ke data siap kraken.
+
+1. Tulis `biller.Data` misalnya dalam file `[biller-name]/[biller-name].go`
+2. Implementasikan semua `biller.Executor` _method_ pada _interface_
+ ** *SetData* - Mentransmisikan data biller yang bersifat general ke data biller yang spesifik
+ ** *GetOption* - Memberikan opsi terkait biller
+ ** *GetStock* - Menyediakan _deposit balance checking_ pada biller
+ ** *Execute* - Memberikan _transaction flow_ pada biller
+ ** *Parse* - Meneruskan _message_ dari adaptor biller dengan menggunakan fungsi `ResponseParser` _parsing_ respon biller _biller response data_ (status, serial number, remote response code, rc, amount, and price)
+ ** *SendQueue* - Membuat _queue message_ dengan mekanisme yang telah ditentukan.
+ ** *GetManualProperty* - Mendapatkan semua _property_ yang diperlukan untuk memproses _manual update_
+ ** *NotificationCallback* - _Notification callback handler_
+ ** *SubmitManualUpdate* - Menyediakan layanan untuk memperbarui data transaksi biller dari data yang dikirimkan, yang telah ditentukan pada GetManualProperty
+
+=== Biller Module Log
+
+=== Biller Adpter
+
+Create adapter for biller messaging.
+
+1. Buat new file `[biller-name]/adapter.go`
+2. Buat API helper function by name `[BillerName]API` untuk menyediakan fungsi untuk _hit_ API biller . Semua fungsi untuk _hit_ API biller harus menggunakan fungsi ini sehingga tidak harus menulis _code_ baru berulang kali.
+3. Buat struct `[BillerName] Message` untuk _biller adapter_ yang mencakup _biller setting_ dan _request parameter_
+4. Buat juga struct untuk data adapter untuk mengirim dan menerima pesan ke dan dari biller (struct ini bersifat opsional dan bervariasi antar biller)
+5. Terapkan _biller messaging method_ untuk _hit_ API biller yang sesuai dengan kebutuhan
+
+=== Biller Adapter Log
+
+=== Callback notification (if any)
+
+Pada langkah ini, Anda membuat _callback_ untuk menerima _request_ biller yang berisi pembaruan transaksi.
+
+1. Add new route pada `modules/kraken/routes.go`
+2. Buat _callback_ _function_ _handler_ di `modules/kraken/controller/[biller-name]-notification.go`
+3. Implementasikan callback pada `NotificationCallback` _method_ pada `modules/biller/[biller-name]/[biller-name].go`
+
+=== Manual update (if any)
+
+1. Tentukan _manual update data_ diperlukan dalam `GetManualProperty` _method_
+2. Tentukan _manual update logic_ `SubmitManualUpdate` _method_
+
+=== Unit Testing
+
+Pada langkah ini, Anda membuat _Unit_ _Test_ untuk semua fungsi yang dikembangkan.
+
+1. Buat file Mock `[adapter] / mock.go` yang berisi fungsi _helper_ API khusus untuk mendapatkan data dari data mock.
+2. Buat juga semua _mock data_ (biasanya terdiri dari _customer number_ dan _message_ pada map) untuk _purchase, advice,_ dan _stock_  (jika ada), Anda disarankan untuk membuat _mock message_ berdasarkan _message_ asli dari biller tanpa modifikasi apapun.
+3. Buat Unit Test `[biller-name]-test.go` untuk menguji semua fungsi transaksi (_purchase,_ _advice_, dan _stock_ ) dan _message parser_ dengan _mock message_ yang tersedia.
+
+== Kraken Admin
+
+=== Config page in kraken admin
+
+Pada langkah ini, Anda akan membuat halaman konfigurasi dengan _user interface_ bagi Tim Operations untuk mengubah konfigurasi biller.
+
+1. Buat File baru `src/pages/Biller/[BillerName].vue`
+2. Add new route in `src/router/index.js` for biller menu directing to your vue file.
+3. Buat halaman config pada file tersebut, biasanya konfigurasi biller terdiri dari:
++
+ ** Konfigurasi Koneksi, terdiri dari titik akhir dan konfigurasi kredensial.
+ ** _Product Mapping_, pemetaan kode / id produk Biller ke ID produk Kraken.
+ ** _Response Code Mapping_, pemetaan kode respon Biller ke Kode Respon Kraken.
+ 
+4. Data konfigurasi harus digabungkan ke satu objek JSON (objek JSON harus mencerminkan struktur pengaturan biller di backend) sebelum dikirim ke backend.

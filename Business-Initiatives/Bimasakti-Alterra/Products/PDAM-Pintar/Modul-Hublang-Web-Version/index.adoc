@@ -1,0 +1,90 @@
+= Modul Hublang (Web Version)
+
+Modul Hublang versi Web dikembangkan untuk memudahkan proses pelayanan pelanggan PDAM. Pelayanan yang dimaksud mencakup penanganan pengaduan, pemasangan sambungan baru, penyegelan, pencabutan meter, dan sebagainya.
+
+Terdapat 4 menu utama pada modul ini, yaitu Pelayanan, Laporan, Master, dan Log. 
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Hublang-Web-Version.adoc[Login ke Modul Hublang (Web Version)]
+
+link:./Getting-Started/Menu-Modul-Hublang-Web-Version.adoc[Menu Modul Hublang (Web Version)]
+
+== Menu Pelayanan
+
+link:./Menu-Pelayanan/Memproses-Pengaduan.adoc[Memproses Pengaduan]
+
+link:./Menu-Pelayanan/Membuat-Sambungan-Baru.adoc[Membuat Sambungan Baru]
+
+link:./Menu-Pelayanan/Menambah-Daftar-Pembelian-Air-Tangki.adoc[Menambah Daftar Pembelian Air Tangki]
+
+link:./Menu-Pelayanan/Menampilkan-Daftar-Segel.adoc[Menampilkan Daftar Segel]
+
+link:./Menu-Pelayanan/Menampilkan-Data-Pengaduan-Cabut-Meter.adoc[Menampilkan Data Pengaduan Cabut Meter]
+
+link:./Menu-Pelayanan/Memfilter-dan-Membatalkan-Pengaduan.adoc[Memfilter dan Membatalkan Pengaduan]
+
+link:./Menu-Pelayanan/Menampilkan-Informasi-Pelanggan.adoc[Menampilkan Informasi Pelanggan]
+
+link:./Menu-Pelayanan/Menampilkan-Data-Pelanggan.adoc[Menampilkan Data Pelanggan]
+
+link:./Menu-Pelayanan/Menampilkan-Pesebaran-Pelanggan.adoc[Menampilkan Persebaran Pelanggan]
+
+== Menu Laporan
+
+link:./Menu-Laporan/Menampilkan-Laporan.adoc[Menampilkan Laporan]
+
+== Menu Master
+
+link:./Menu-Master/Mengelola-Data-Jenis-Non-Air.adoc[Mengelola Data Jenis Non Air]
+
+link:./Menu-Master/Mengelola-Format-Penomoran-Surat.adoc[Mengelola Format Penomoran Surat]
+
+link:./Menu-Master/Mengelola-Data-Informasi-Perusahaan.adoc[Mengelola Data Informasi Perusahaan]
+
+link:./Menu-Master/Mengatur-Tata-Letak-Tanda-Tangan-pada-Surat.adoc[Mengatur Tata Letak Tanda Tangan pada Surat]
+
+link:./Menu-Master/Mengelola-Data-Kependudukan.adoc[Mengelola Data Kependudukan]
+
+link:./Menu-Master/Mengelola-Data-Zona-Teknik.adoc[Mengelola Data Zona Teknik]
+
+link:./Menu-Master/Mengelola-Data-Distrik-Area.adoc[Mengelola Data Distrik Area]
+
+link:./Menu-Master/Mengelola-Data-Wilayah-PDAM.adoc[Mengelola Data Wilayah PDAM]
+
+== Menu Log
+
+link:./Menu-Log/Menampilkan-Log.adoc[Menampilkan Log]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

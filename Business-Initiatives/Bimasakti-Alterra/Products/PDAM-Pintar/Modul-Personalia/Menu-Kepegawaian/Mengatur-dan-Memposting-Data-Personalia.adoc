@@ -1,0 +1,14 @@
+= Mengatur dan Memposting Data Personalia
+
+Fitur ini digunakan untuk mengolah data personalia baik untuk posting maupun menghapus. Berikut langkah yang bisa diikuti untuk menggunakannya.
+
+image::../images-personalia/personalia-posting.png[align="center"]
+
+1. Pilih menu *Kepegawaian*
+2. Cari ikon *Posting Personalia*
+3. Pilih ikon *Posting*. Lalu pilih periode yang akan diunggah setelah itu  klik tombol *POSTING*
++
+image::../images-personalia/personalia-posting2.png[align="center"]
+4. Pilih ikon *Hapus*. Lalu klik pada tombol *Yes*.
++
+image::../images-personalia/personalia-posting3.png[align="center"]

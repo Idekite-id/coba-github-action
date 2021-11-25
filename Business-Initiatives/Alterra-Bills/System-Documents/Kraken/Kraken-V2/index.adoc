@@ -1,0 +1,71 @@
+= Kraken V2
+:keywords: sti,bpa,switcher-engine
+
+== Overview
+
+Kraken V2 adalah pengembangan dari Kraken V1 yang diharapkan mampu menangani jumlah transaksi yang lebih besar, juga memiliki sistem yang lebih stabil.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h|*Name*
+^.^h|*Role*
+^.^h|*Email*
+
+|Gabriel Stevano
+|Product Owner
+|gabriel@alterra.id
+
+|Wishnu Eka Sidharta
+|Developer Manager
+|wishnu@alterra.id
+
+|Eric Moelyowidyarto
+|Lead Developer
+|eric@alterra.id
+
+|Poby Zaarifwandono
+|Lead Developer
+|poby@alterra.id
+
+|Albert Tedjawirawan
+|Lead Developer
+|albert@alterra.id 
+
+|Retno Wiji Astutik
+|Lead Quality Engineer
+|retno@alterra.id  
+
+|Reinard Pangestu
+|Lead Quality Engineer
+|reinard@alterra.id
+|===
+
+== Technical Information
+
+<<./url-kraken-v2.adoc#, System URL Kraken V2>>
+
+<<./architecture-kraken-v2.adoc#, Architecture Kraken V2>>
+
+<<./technology-kraken-v2.adoc#, Technology Kraken V2>>
+
+<<./environment-kraken-v2.adoc#, Environment Kraken V2>>
+
+<<./database-kraken-v2.adoc#, Database Documentation Kraken V2>>
+
+<<./Process-Kraken-V2/index.adoc#, Process Kraken V2>>
+
+<<./release-deploy-kraken-v2.adoc#, Release and Deployment Kraken V2>>
+
+<<./smart-biller-kraken-v2.adoc#, Smart Biller and Kraken V2>>
+
+== Onboarding Information
+
+<<./Developer-Onboarding-Kraken-V2/index.adoc#, Developer Onboarding Kraken V2>>
+
+<<./new-biller-development-kraken-v2.adoc#, New Biller Kraken V2>>
+
+== Documentation
+
+<<./api-doc-kraken.adoc#, API Documentation Kraken V2>>

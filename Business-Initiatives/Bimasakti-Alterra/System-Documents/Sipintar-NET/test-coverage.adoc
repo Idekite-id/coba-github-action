@@ -1,0 +1,124 @@
+= Test Coverage Sipintar.NET
+
+Sipintar.NET development follow best practice code quality static code analysis via SonarLint Extention on Visual Studio 2019. Then we submit test coverage report to Sonarcloud.io
+
+Request access to Sipintar.NET https://sonarcloud.io/dashboard?id=bimasaktialterra_sipintar.net[SonarCloud.io] dashboard to https://ata.to/isd[Infra Team].
+
+== Add New XUnit Test Project
+
+Create new XUnit project on related folder that you want to cover the
+test, please refer to simple tutorial above or https://xunit.net/docs/getting-started/netcore/cmdline[official xunit website].
+
+Another xUnit tutorial pleas check references below.
+
+We use `SonarQube.Analysis.xml` to store all sonarqube scanner parameters to
+exclude duplication scan, to exclude unit test on some folder & files
+etc).
+
+You must add your *TestResult* project folder to
+*SonarQube.Analysis.xml* on property `sonar.cs.opencover.reportsPaths` and
+`sonar.cs.vstest.reportsPath` so that SonarQube can read your coverage
+report properly.
+
+If you need to exclude folder/files that no need to test please define
+on `sonar.exclusions` property.
+
+If you need to exclude folder/files that no need to scan as duplicate
+please define on `sonar.cpd.exclusions` property.
+
+To run unit test coverage execute;
+
+`dotnet test --settings coverlet.runsettings --logger trx`
+
+Check test coverage score locally using `reportgenerator` or better using <<SonarQube dotnet-sonarscanner>> please increase *test coverage > 80%* so that you can pass SonarCloud.io Quality Gate 80% code coverage.
+
+
+== Generate Test Coverage Report
+
+Install ReportGenerator
+
+[source,powershell]
+----
+dotnet tool install -g dotnet-reportgenerator-globaltool
+----
+
+Then execute `reportgenerator` in your feature branch, for example
+
+[source,powershell]
+----
+reportgenerator -reports:Tests\AppBusiness.Impl.Test\TestResults\86ed6af5-13b8-4209-a82f-e2675b50730e\coverage.opencover.xml -targetdir:TestReport/
+----
+
+String `86ed6af5-13b8-4209-a82f-e2675b50730e` should be different every time we run `dotnet test --settings coverlet.runsettings --logger trx`
+
+Or you can view test coverage report using
+
+https://marketplace.visualstudio.com/items?itemName=ChrisDexter.RunCoverletReport
+
+https://marketplace.visualstudio.com/items?itemName=PiotrKula.prestocoverage
+
+https://marketplace.visualstudio.com/items?itemName=FortuneNgwenya.FineCodeCoverage
+
+
+== SonarQube dotnet-sonarscanner
+
+To know how SonarCloud.io works, we can do test coverage & sonarscan our feature branch locally, please do following steps;
+
+[arabic]
+. Install Windows Powershell, better with http://chocolatey.org/[chocolatey]
+installed
+. Install  12.x <= JDK < 16.x https://chocolatey.org/packages/openjdk#versionhistory[] example; use `choco install openjdk14 --version=14.0.1`
+. Install
+https://hub.docker.com/editions/community/docker-ce-desktop-windows/[Docker
+desktop]
+. Download https://www.sonarqube.org/downloads/[SonarQube] better run it
+as container
++
+[source,powershell]
+----
+docker run -d --name sonarqube -e SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true -p 9000:9000 sonarqube:8-community
+----
+. Install *dotnet-sonarscanner* globally
++
+[source,powershell]
+----
+dotnet tool install --global dotnet-sonarscanner --version 5.0.2
+----
+
+=== Run dotnet-sonarscanner
+
+Assume you have correct credential and SonarQube running on http://localhost:9000[] then run these
+commands on Windows Powershell.
+
+[source,powershell]
+----
+dotnet-sonarscanner begin -d:sonar.login=admin -d:sonar.password=admin -k:"sipintar.net" -d:sonar.host.url="http://localhost:9000" -s:$PWD\SonarQube.Analysis.xml
+
+dotnet test --settings coverlet.runsettings --logger trx
+
+dotnet-sonarscanner end -d:sonar.login=admin -d:sonar.password=admin
+----
+
+After all command line working done you can see scan result here
+http://localhost:9000/dashboard?id=sipintar.net[]
+
+== Known Issues
+
+If you get error
+`Unable to find the SonarQube analysis settings file 'D:\ALTERRA\BSA\sipintar.net'`
+
+Please fix the path to this settings file, change `-s:$PWD\SonarQube.Analysis.xml` with your full path eg:
+`D:\ALTERRA\BSA\sipintar.net\SonarQube.Analysis.xml`
+
+If you get different score between local sonarqube & sonarcloud.io
+please delete each of your `TestResults` on test project directories, eg
+for test project `Tests\AppBusiness.Impl.Test` delete
+`Tests\AppBusiness.Impl.Test\TestResults`
+
+== References
+
+* https://hectormartinez.dev/posts/dotnet-coverage-coverlet[]
+* https://docs.sonarqube.org/latest/setup/get-started-2-minutes[]
+* https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-msbuild/[]
+* https://devblogs.microsoft.com/scripting/powertip-find-current-directory-in-powershell/[]
+* https://github.com/SonarSource/sonar-scanner-msbuild/blob/master/docs/SonarQube.Analysis.xml[]

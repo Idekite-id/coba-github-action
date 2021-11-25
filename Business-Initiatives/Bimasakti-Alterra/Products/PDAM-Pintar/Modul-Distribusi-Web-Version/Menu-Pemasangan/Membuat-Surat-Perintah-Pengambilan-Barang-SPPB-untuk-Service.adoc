@@ -1,0 +1,19 @@
+= Membuat Surat Perintah Pengambilan Barang (SPPB) untuk Service
+
+Berikut langkah-langkah pembuatan SPPB
+
+image::../images-distribusi-web-ver/distribusi-sppb-service1.png[align="center"]
+
+1. Pilih menu *Pemasangan*
+2. Klik pada ikon *Service Perbaikan*. Jika terdapat pengaduan yang terdaftar, maka data otomatis akan muncul pada tabel
+3. Pilih data yang perlu dibuatkan surat perintah pengambilan barang, dengan memberikan tanda *Centang* seperti poin 3 pada gambar di atas
+4. Setelah data dipilih, pilih *Proses SPPB* pada _dropdown_, kemudian klik tombol *Proses* pada tab Action seperti pada poin 4 gambar di atas
+5. Isi _pop up form_ yang disediakan. Jika proses pemutusan dibebankan kepada PDAM, maka tidak perlu memasukkan ongkos. Namun jika pemutusan dibebankan kepada pelanggan, ongkos perlu diisi. Jika semua data sudah dilengkapi, klik tombol *Proses SPPB* seperti pada gambar di bawah ini:
++
+image::../images-distribusi-web-ver/distribusi-sppb-service2.png[align="center"]
+6. Sistem akan menampilkan _pop up_ konfirmasi. Untuk melanjutkan proses SPK, klik tombol *OK* seperti pada gambar di bawah ini:
++
+image::../images-distribusi-web-ver/distribusi-sppb-service3.png[align="center"]
+7. Anda dapat memeriksa status proses pada halaman *Service Perbaikan* pada menu *Pemasangan*, seperti gambar di bawah ini. Jika proses SPPB berhasil, maka kolom SPPB akan tercentang.
++
+image::../images-distribusi-web-ver/distribusi-sppb-service4.png[align="center"]

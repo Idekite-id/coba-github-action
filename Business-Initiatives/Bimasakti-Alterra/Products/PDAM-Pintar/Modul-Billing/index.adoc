@@ -1,0 +1,65 @@
+= Modul Billing
+
+Ada 3 menu utama pada Modul Billing, meliputi Supervisi, Attribute, dan Perawatan Data. Hubungi tim Bimasakti Alterra untuk melakukan setup aplikasi SIMiBIMA Billing serta mendapatkan _credential access_ (_username_ dan _password_) untuk mengakses aplikasi.
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Billing.adoc[Login ke Modul Billing]
+
+link:./Getting-Started/Menu-Modul-Billing.adoc[Menu Modul Billing]
+
+== Menu Supervisi
+
+link:./Menu-Supervisi/Mengelola-Data-Pelanggan-Air.adoc[Mengelola Data Pelanggan Air]
+
+link:./Menu-Supervisi/Mengelola-Data-Pelanggan-Limbah.adoc[Mengelola Data Pelanggan Limbah]
+
+link:./Menu-Supervisi/Mengelola-Data-Pelanggan-L2T2.adoc[Mengelola Data Pelanggan L2T2]
+
+link:./Menu-Supervisi/Daftar-Tunggu-Proses-Verifikasi-Data-Koreksi-Rekening-Air.adoc[Daftar Tunggu Proses Verifikasi Data (Koreksi Rekening Air)]
+
+link:./Menu-Supervisi/Menerbitkan-Daftar-Rekening-Air.adoc[Menerbitkan Daftar Rekening Air]
+
+link:./Menu-Supervisi/Mengolah-Data-Rekening-Limbah.adoc[Mengolah Data Rekening Limbah]
+
+link:./Menu-Supervisi/Mengolah-Data-Rekening-Limbah-L2T2.adoc[Mengolah Data Rekening Limbah L2T2]
+
+link:./Menu-Supervisi/Menghapus-Daftar-Rekening-Air.adoc[Menghapus Daftar Rekening Air]
+
+link:./Menu-Supervisi/Membuat-Mengubah-Menghapus-dan-Menutup-Data-Periode.adoc[Membuat, Mengubah, Menghapus, dan Menutup Data Periode]
+
+link:./Menu-Supervisi/Mengunggah-Data-Transaksi-Rekening-Air.adoc[Mengunggah Data Transaksi Rekening Air]
+
+link:./Menu-Supervisi/Mengunduh-Data-Transaksi-Rekening-Air.adoc[Mengunduh Data Transaksi Rekening Air]
+
+link:./Menu-Supervisi/Memposting-Laporan-Data-Transaksi.adoc[Memposting Laporan Data Transaksi]
+
+link:./Menu-Supervisi/Menampilkan-Laporan-dalam-Modul-Billing.adoc[Menampilkan Laporan dalam Modul Billing]
+
+== Menu Attribute
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Tarif.adoc[Menambah, Mengubah, dan Menghapus Data Tarif]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Wilayah.adoc[Menambah, Mengubah, dan Menghapus Data Wilayah]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Loket.adoc[Menambah, Mengubah, dan Menghapus Data Loket]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Merek-Meter.adoc[Menambah, Mengubah, dan Menghapus Data Merek Meter]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Sumber-Air.adoc[Menambah, Mengubah, dan Menghapus Data Sumber Air]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Kolektif.adoc[Menambah, Mengubah, dan Menghapus Data Kolektif]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Kepemilikan.adoc[Menambah, Mengubah, dan Menghapus Data Kepemilikan]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Paraf.adoc[Menambah, Mengubah, dan Menghapus Data Paraf]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Pengguna-BSBS.adoc[Menambah, Mengubah, dan Menghapus Data Pengguna BSBS]
+
+link:./Menu-Attribute/Menambah-Mengubah-dan-Menghapus-Data-Pengguna-Loket-dan-BSHL.adoc[Menambah, Mengubah, dan Menghapus Data Loket Dan BSHL]
+
+== Menu Perawatan Data
+
+link:./Menu-Perawatan-Data/Mencadangkan-Backup-Database.adoc[Mencadangkan (Backup) Database]
+
+link:./Menu-Perawatan-Data/Memperbaiki-Database.adoc[Memperbaiki Database]

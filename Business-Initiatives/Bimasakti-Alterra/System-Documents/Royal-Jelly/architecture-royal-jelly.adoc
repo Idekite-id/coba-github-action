@@ -1,0 +1,27 @@
+= Architecture Royal Jelly
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem Royal Jelly:
+
+//image::./images-royal-jelly/royal-jelly-c2-diagram.png[Royal Jelly C2 Diagram]
+
+// Gambar dapat dimasukkan dalam folder "images-royal-jelly", dengan nama image yang dimulai dengan nama sistem, contoh "royal-jelly-image-name.png"
+
+Sistem ini merupakan bagian dari Bimasakti Alterra. Untuk lebih detail terkait hubungan Royal Jelly dengan sistem Bimasakti Alterra lainnya, silakan mengakses diagram C1 berikut.
+
+== Related System
+
+Royal Jelly terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Royal Jelly.
+
+[cols="5%,30%,65%",frame=all, grid=all]
+|===
+^.^h|*No* 
+^.^h|*System Name* 
+^.^h|*Description*
+
+|1 | Honey | Frontend
+|2 | Bee | Bee is a gateway sistem between SIMPATDA Solo and Ukur Reklame (BSA)
+|3 | Simpatda | System yang berhubungan dengan data subjek dan objek pajak
+|4 | Aplikasi Ukur | Aplikasi Ukur ini adalah aplikasi dari tim BSA yang harus diinstall di perangkat mobile jika ingin menggunakan role petugas pendataan atau petugas pemeriksaan. Aplikasi ukur dibuka dari dashboard honey ketika masuk ke halaman pengukuran.
+|===

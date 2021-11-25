@@ -1,0 +1,5 @@
+= Menampilkan Detail Tagihan Pelanggan
+
+Informasi tagihan pelanggan dapat ditampilkan dengan dengan mengakses fitur *Info tagihan* pada _dropdown menu_ *Info Pelanggan* yang termasuk dalam Aspek Pelayanan. Adapun data yang ditampilkan oleh fitur ini mencakup detail data pelanggan, tagihan, riwayat, beserta foto dan kelainan.
+
+image::../images-dasbor/dasbor-pelayanan-detail-info-tagihan.png[align="center"]

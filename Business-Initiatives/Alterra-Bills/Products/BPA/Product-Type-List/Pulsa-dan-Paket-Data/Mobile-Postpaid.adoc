@@ -1,0 +1,37 @@
+= Mobile Postpaid
+
+Mobile postpaid adalah produk yang digunakan untuk memfasilitasi pembayaran tagihan pada telepon seluler pascabayar.
+
+*Variasi Produk*
+
+Varian produk mobile postpaid  bergantung pada paket yang diberikan operator jaringan seluler seperti:
+
+- Call only
+- Call & SMS
+- Call, SMS, & Internet Data
+
+*Vendor Utama Produk*
+
+Operator seluler yang tersedia di Indonesia, antara lain:
+
+- Telkomsel
+- XL
+- Indosat
+- Tri Pascabayar
+- Smartfren Pascabayar
+
+*Perilaku dan Cara Penggunaan Produk*
+
+Pascabayar adalah layanan telepon seluler yang disediakan oleh penyedia jasa seluler. Tagihan atas penggunaan layanan jasa seluler diberikan tagihan setiap periode waktu. Periode tagihan umumnya satu bulan sesuai dengan penggunaan layanan seluler dalam bulan tersebut.
+
+Pengguna akan diberi batasan untuk penggunaan panggilan telepon, SMS, dan internet. Pengguna hanya membayarkan tagihan sesuai dengan batasan atau kurang dari batasan. Pengguna dapat menggunakan layanan jasa seluler melebihi batas yang disepakati di kontrak namun pengguna harus membayar biaya kelebihan sesuai dengan penggunaan.
+
+*Product Journey*
+
+. Customer mengetikan nomor handphone
+
+. Sistem menampilkan invoice tagihan yang harus dibayarkan
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dari aplikasi/_website client_, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills

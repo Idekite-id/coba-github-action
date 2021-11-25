@@ -1,0 +1,669 @@
+= Tiket KAI Trunko
+
+== BM - FBS
+
+=== INQUIRY
+
+----
+    // Request
+    {
+
+    }
+
+    // Response
+    {
+
+    }
+----
+
+=== PURCHASE / ADVICE / REVERSAL
+
+----
+    // Request
+    {
+
+    }
+
+    // Response
+    {
+
+    }
+----
+
+== Kraken - BM
+
+=== STATION
+
+----
+    // Request
+    {
+      "command_type": "station", // search schedule ticket train
+      "transaction_id": 0,
+    	"transaction_biller_id": 0,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 0,
+    	"rawdata": ""
+    }
+
+    // Response Success Ticket
+    {
+      "transaction_id": 0,
+      "transaction_biller_id": 0,
+      "customer_id": "",
+      "response_code": "00",
+      "amount": 0,
+      "data": {
+        "biller_rescode": "0000",
+        "message": "success",
+        "rawdata": "",
+        "detail": [
+           {
+                "city": "Jakarta",
+                "station_code": "GMR",
+                "station_name": "Gambir"
+            },
+            {
+                "city": "Malang",
+                "station_code": "KPN",
+                "station_name": "Kepanjen"
+            },
+            {
+                "city": "Malang",
+                "station_code": "ML",
+                "station_name": "Malang"
+            }
+        ]
+      },
+      "next": ""
+    }
+
+    //Response Failed Inquiry
+    {
+    	"transaction_id": 0,
+    	"transaction_biller_id": 0,
+      "customer_id": "0",
+      "response_code": "20",
+      "data": {
+        "biller_rescode": "0014",
+        "message": "failed",
+    		"rawdata": "Jadwal tidak tersedia" // http response
+      },
+    	"next":""
+    }
+----
+
+=== TICKET
+
+----
+    // Request
+    {
+      "command_type": "ticket", // search schedule ticket train
+      "transaction_id": 0,
+    	"transaction_biller_id": 0,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 0,
+    	"rawdata": "",
+    	"parameters": {
+    		"origin": "ML",
+    	  "destination": "GMR",
+    	  "date": "2019-11-28",
+    	  "adult": 1,
+    	  "infant": 1 	
+    	}
+    }
+
+    // Response Success Ticket
+    {
+      "transaction_id": 0,
+      "transaction_biller_id": 0,
+      "customer_id": "",
+      "response_code": "00",
+      "amount": 0,
+      "data": {
+        "biller_rescode": "0000",
+        "message": "success",
+        "rawdata": "",
+        "detail": {
+          "depart_station": "ML",
+    		  "destination_station": "GMR",
+    		  "qty_adult": 1,
+    		  "qty_infant": 1,
+    		  "schedules": [
+    		    {
+    		      "schedule_id": "218201",
+    		      "train_name": "GAJAYANA",
+    		      "departure_datetime": "2019-11-28 13:30",
+    		      "arrival_datetime": "2019-11-29 04:27",
+    		      "duration": "14j57m",
+    		      "train_class": "Eksekutif",
+    		      "train_subclass": "A",
+    		      "train_fare": {
+    		        "adult_fare": 555000,
+    		        "infant_fare": 0
+    		      },
+    		      "available_seat": 26
+    		    },
+    		    {
+    		      "schedule_id": "218206",
+    		      "train_name": "GAJAYANA",
+    		      "departure_datetime": "2019-11-28 13:30",
+    		      "arrival_datetime": "2019-11-29 04:27",
+    		      "duration": "14j57m",
+    		      "train_class": "Eksekutif",
+    		      "train_subclass": "H",
+    		      "train_fare": {
+    		        "adult_fare": 520000,
+    		        "infant_fare": 0
+    		      },
+    		      "available_seat": 12
+    		    },
+    		    {
+    		      "schedule_id": "218406",
+    		      "train_name": "BIMA",
+    		      "departure_datetime": "2019-11-28 14:25",
+    		      "arrival_datetime": "2019-11-29 05:43",
+    		      "duration": "15j18m",
+    		      "train_class": "Eksekutif",
+    		      "train_subclass": "I",
+    		      "train_fare": {
+    		        "adult_fare": 480000,
+    		        "infant_fare": 0
+    		      },
+    		      "available_seat": 7
+    		    }
+    		  ],
+    		  "expired_at": 1473332820
+        }
+      },
+      "next": ""
+    }
+
+    //Response Failed Inquiry
+    {
+    	"transaction_id": 0,
+    	"transaction_biller_id": 0,
+      "customer_id": "0",
+      "response_code": "20",
+      "data": {
+        "biller_rescode": "0014",
+        "message": "failed",
+    		"rawdata": "Jadwal tidak tersedia" // http response
+      },
+    	"next":""
+    }
+----
+
+=== BOOKING
+
+----
+    // Request
+    {
+      "command_type": "booking", // purchase/advice/reversal
+      "transaction_id": 0,
+    	"transaction_biller_id": 0,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "085719200192",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 0,
+    	"rawdata": "",
+    	"parameters": {
+    		"reference_no": "8799001",
+    		"adult": 1,
+    	  "infant": 1,
+    	  "schedule_id": "218201",
+    	  "customer_detail": {
+    	    "full_name": "John Hilmi",
+    	    "email": "john.hilmi@gmail.com"
+    	  },
+    	  "passengers_detail": [
+    	    {
+    	      "type": "adult",
+    	      "title": "Mr",
+    	      "full_name": "John Hilmi",
+    	      "identity_number": "38812399123990001"
+    	    },
+    	    {
+    	      "type": "infant",
+    	      "title": "Mr",
+    	      "full_name": "John Takpor",
+    	      "identity_number": "20181101"
+    	    }
+    	  ]
+    	} // product with inquiry
+    }
+
+    // Response Success Booking
+    {
+      "transaction_id": 0,
+      "transaction_biller_id": 0,
+      "customer_id": "085719200192",
+      "response_code": "00",
+      "amount": 555000,
+      "data": {
+        "biller_rescode": "0000",
+        "message": "success",
+        "rawdata": "",
+        "detail": {
+          "origin": "ML",
+          "destination": "GMR",
+          "date": "2019-10-28",
+          "adult": 1,
+          "infant": 1,
+    			"schedule_id": "3786503",
+          "booking_code": "5EW2NKI",
+          "reference_no": "1583006847",
+          "amount": 555000,
+          "admin_fee": 7500,
+          "additional_fee": 0,
+          "ticket_detail": {
+            "schedule_id": "3786503",
+            "train_name": "GAJAYANA (41)",
+            "departure_datetime": "2019-11-28 13:30",
+            "arrival_datetime": "2019-11-29 04:27",
+            "duration": "14j57m",
+            "train_class": "Eksekutif",
+            "train_subclass": "I",
+            "train_fare": {
+              "adult_fare": 555000,
+              "infant_fare": 0
+            }
+          },
+          "customer_detail": {
+            "full_name": "John Hilmi",
+            "email": "john.hilmi@gmail.com"
+          },
+          "passengers_detail": [
+            {
+              "type": "adult",
+              "title": "Mr",
+              "full_name": "John Hilmi",
+              "identity_number": "38812399123990001"
+            },
+            {
+              "type": "infant",
+              "title": "Mr",
+              "full_name": "John Takpor",
+              "identity_number": "20181101"
+            }
+          ],
+          "seat_detail": [
+            {
+              "wagon": "1",
+              "seats": [
+                {
+                  "row": "1",
+                  "column": "B"
+                }
+              ]
+            },
+            {
+              "wagon": "2",
+              "seats": [
+                {
+                  "row": "1",
+                  "column": "A"
+                }
+              ]
+            }
+          ],
+          "expired_at": 1473332820
+        }
+      },
+      "next": ""
+    }
+
+    //Response Failed Inquiry
+    {
+    	"transaction_id": 0,
+    	"transaction_biller_id": 0,
+      "customer_id": "085719200192",
+      "response_code": "23",
+      "data": {
+        "biller_rescode": "0014",
+        "message": "failed",
+    		"rawdata": "Connection Timeout" // http response
+      },
+    	"next":""
+    }
+----
+
+=== GET SEAT
+
+----
+    // Request
+
+    {
+    	"command_type": "get_seat", // purchase/advice/reversal
+      "transaction_id": 0,
+    	"transaction_biller_id": 0,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "085719200192",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 1,
+    	"rawdata": "",
+    	"parameters": {
+    		"reference_no": "8799001",
+    		"schedule_id": "3786503"
+    	} // get seat train
+    }
+
+    // Response Success
+    {
+      "transaction_id": 0,
+      "transaction_biller_id": 0,
+      "customer_id": "085719200192",
+      "response_code": "00",
+      "amount": 0,
+      "data": {
+        "biller_rescode": "0000",
+        "message": "success",
+        "rawdata": "",
+        "detail": {
+          "origin": "ML",
+          "destination": "GMR",
+          "date": "2019-11-28",
+          "schedule_id": "3786503",
+          "seat_details": [
+            {
+              "wagon": "1",
+              "seats": [
+                {
+                  "row": "1",
+                  "column": "A",
+                  "class": "A",
+                  "is_filled": false
+                },
+                {
+                  "row": "3",
+                  "column": "C",
+                  "class": "A",
+                  "is_filled": true
+                }
+              ]
+            },
+            {
+              "wagon": "2",
+              "seats": [
+                {
+                  "row": "3",
+                  "column": "B",
+                  "class": "A",
+                  "is_filled": false
+                },
+                {
+                  "row": "6",
+                  "column": "D",
+                  "class": "A",
+                  "is_filled": false
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "next": ""
+    }
+
+
+
+    // Response Failed
+
+    {
+    	"transaction_id": 0,
+    	"transaction_biller_id": 0,
+      "customer_id": "085719200192",
+      "response_code": "50",
+      "data": {
+        "biller_rescode": "0014",
+        "message": "failed",
+    		"rawdata": "Not Available" // http response
+      },
+    	"next":""
+    }
+----
+
+=== CHANGE SEAT
+
+----
+    // Request
+
+    {
+    	"command_type": "change_seat", // purchase/advice/reversal
+      "transaction_id": 0,
+    	"transaction_biller_id": 0,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "085719200192",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 1,
+    	"rawdata": "",
+    	"parameters": {
+    		"reference_no": "8799001",
+    		"wagon": "1",
+          "seats": [
+            {
+              "row": "1",
+              "column": "A"
+            },
+            {
+              "row": "3",
+              "column": "C"
+            }
+          ]
+    	} // change seat train
+    }
+
+    // Response Success
+    {
+      "transaction_id": 0,
+      "transaction_biller_id": 0,
+      "customer_id": "085719200192",
+      "response_code": "00",
+      "amount": 0,
+      "data": {
+        "biller_rescode": "0000",
+        "message": "success",
+        "rawdata": "",
+        "detail": {
+          "booking_code": "5EW2NKI",
+          "seat_details": [
+            {
+              "wagon": "1",
+              "seats": [
+                {
+                  "row": "1",
+                  "column": "A"
+                },
+                {
+                  "row": "3",
+                  "column": "C"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "next": ""
+    }
+
+    // Response Failed
+
+    {
+    	"transaction_id": 0,
+    	"transaction_biller_id": 0,
+      "customer_id": "085719200192",
+      "response_code": "50",
+      "data": {
+        "biller_rescode": "0014",
+        "message": "failed",
+    		"rawdata": "Not Available" // http response
+      },
+    	"next":""
+    }
+----
+
+=== PURCHASE/ADVISE/REVERSAL
+
+----
+    // Request
+
+    {
+    	"command_type": "purchase", // purchase/advice/reversal
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "085719200192",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 1,
+    	"rawdata": "",
+    	"parameters": {
+    		"reference_no": "8799001"
+    	} // product with inquiry
+    }
+
+    // Response Success
+
+    {
+      "transaction_id": 6855945,
+      "transaction_biller_id": 6855950,
+      "remote_transaction_id": "6855950",
+      "remote_product_id": "SP25",
+      "customer_id": "085719200192",
+      "response_code": "00",
+      "price": 562500,
+      "amount": 555000,
+      "data": {
+        "serial_number": "0051003619319900",
+        "biller_rescode": "0000",
+        "message": "success",
+        "rawdata": "",
+        "detail": {
+          "reference_no": "1583006847",
+          "origin": "ML",
+          "destination": "GMR",
+          "date": "2019-10-28",
+          "adult": 1,
+          "infant": 1,
+          "booking_code": "5EW2NKI",
+          "amount": 555000,
+          "admin_fee": 7500,
+          "additional_fee": 0,
+          "ticket_detail": {
+            "schedule_id": "3786503",
+            "train_name": "GAJAYANA (41)",
+            "departure_datetime": "2019-11-28 13:30",
+            "arrival_datetime": "2019-11-29 04:27",
+            "duration": "14j57m",
+            "train_class": "Eksekutif",
+            "train_subclass": "I",
+            "train_fare": {
+              "adult_fare": 555000,
+              "infant_fare": 0
+            }
+          },
+          "customer_detail": {
+            "full_name": "John Hilmi",
+            "email": "john.hilmi@gmail.com"
+          },
+          "passengers_detail": [
+            {
+              "type": "adult",
+              "title": "Mr",
+              "full_name": "John Hilmi",
+              "identity_number": "38812399123990001"
+            },
+            {
+              "type": "infant",
+              "title": "Mr",
+              "full_name": "John Takpor",
+              "identity_number": "20181101"
+            }
+          ],
+          "seat_detail": [
+            {
+              "wagon": "1",
+              "seats": [
+                {
+                  "row": "1",
+                  "column": "A"
+                },
+                {
+                  "row": "3",
+                  "column": "C"
+                }
+              ]
+            }
+          ],
+          "expired_at": 1473332820
+        },
+        "next": ""
+      }
+    }
+
+    // Response Pending
+
+    {
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "6855950",
+    	"remote_product_id": "SP25",
+      "customer_id": "085363783000",
+      "response_code": "10",
+    	"price": 562500,
+      "amount": 555000,
+      "data": {
+        "serial_number": "",
+        "biller_rescode": "9999",
+        "message": "pending", // failed/timeout/etc
+    		"rawdata": "" // http response
+      },
+    	"next":""
+    }
+
+    // Response Failed
+
+    {
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "6855950",
+    	"remote_product_id": "SP25",
+      "customer_id": "085363783000",
+      "response_code": "99",
+    	"price": 562500,
+      "amount": 555000,
+      "data": {
+        "serial_number": "",
+        "biller_rescode": "9999",
+        "message": "failed", // failed/timeout/biller-message/etc
+    		"rawdata": "" // http response
+      },
+    	"next":""
+    }
+----

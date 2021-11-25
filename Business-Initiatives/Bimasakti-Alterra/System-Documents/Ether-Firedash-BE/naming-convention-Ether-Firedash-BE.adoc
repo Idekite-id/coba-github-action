@@ -1,0 +1,3 @@
+= Naming Convention Ether Firedash (BE)
+
+Berisi aturan penamaan dalam development sistem.

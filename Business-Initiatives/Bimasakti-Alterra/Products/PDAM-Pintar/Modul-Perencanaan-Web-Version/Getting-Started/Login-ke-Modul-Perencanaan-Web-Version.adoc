@@ -1,0 +1,9 @@
+= Login ke Modul Perencanaan (Web Version)
+
+Modul Perencanaan hanya bisa diakses menggunakan akun yang sudah terdaftar. URL modul dapat diakses melalui tautan sesuai wilayah PDAM masing-masing. Anda dapat menghubungi Tim Bimasakti Alterra untuk mendapatkan _direct link_, _username_, dan _password_, kemudian ikuti langkah-langkah di bawah ini untuk mengakses modul.
+
+image::../images-perencanaan-web-ver/perencanaan-web-login.png[align="center"]
+
+1. Masukan *Username* dan *Password* 
+2. Klik pada tombol *Log In*
+3. Sistem akan menampilkan halaman utama Modul Perencanaan.

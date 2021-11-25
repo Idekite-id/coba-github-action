@@ -1,0 +1,118 @@
+= Data Transaction Bayar Terra
+
+== Overview
+
+Data transaction bayar adalah sebuah fitur reporting historical transaksi pembayaran PDAM untuk initiative BSA, berikut beberapa informasi yang ada di dalam reporting  Data transaction bayar :
+
+* No Sambungan
+* Periode
+* Stan lalu
+* Stan Sekarang
+* Stan Angkat
+* Pakai
+* Biaya Pemakaian
+* Materai
+* Rekair
+* PPN	Persen
+* PPN
+* Total
+* Tanggal Bayar
+* Flag Angsur
+* etc.
+
+== User Story
+
+|===
+| Nama |Actor| Business Problem | Goal 
+
+| Data transaction bayar 
+|
+| Ada kebutuhan untuk tracking history transaction pembayaran PDAM dalam inisiatif BSA 
+| Bisa mengetahui history transaksi pembayaran PDAM untuk di analisa dan menjadi insight bagi team internal
+
+|===
+
+== Development Team
+
+|===
+| Position | Tim | Nama
+
+| Product Owner
+| Saiyo
+| Bayu Setiawan
+
+| Lead Data Engineer
+| Saiyo
+| Bayu Setiawan
+
+| Data Engineer
+| Saiyo
+| Andhika Restama
+
+| System Analyst
+|
+|
+
+| Quality engineer
+|
+|
+|===
+
+== Required Database and Table
+
+Airavata Postgree
+
+|=== 
+| Scheema | Table | Description 
+
+| bimasakti
+| tbl_bayar
+|
+
+| bimasakti 
+| master_loket
+|
+
+| bimasakti 
+| master_source_db 
+|
+|===
+
+== High Level Diagram
+
+image::../images-terra/terra-Diagram_-_Merge_Biller.png[Diagram Merge Biller]
+
+== Workflow System
+
+Fitur Data transaction bayar
+
+image::../images-terra/terra-Workflow_-_Data_Transaction_Bayar.png[Workflow Data Transaction Bayar]
+
+*Frontend process :*
+
+. Login terra
+. Choose menu _'Bimasakti'_
+. Click submenu _'Data Transaction'_
+. Click sub menu _'Data transaction bayar'_
+. Input _'No Sambungan'_
+. Input _'Periode Bayar'_
+. Select _'Status'_
+. Select _'Layanan PDAM'_
+. Select _'Loket'_
+. Select _'Bayar Start Date'_
+. Select _'Bayar End Date'_
+. Select _'Waktu Update Start'_
+. Select _'Waktu Update End'_
+. Click _'Search'_
+. Click _'Export to CSV'_
+. Input email
+. Click _'Submit'_
+
+*Backend process :*
+
+. Pada saat _User_ klik sub menu _Data Transaction bayar_ maka akan me-_trigger_ function untuk select transaksi terbaru di table _tbl_bayar_ dari schema bimasakti **dan akan di show pada datatables di page Data Transaction Bayar.
+. Selanjutnya setelah _User_ selesai melakukan input filter parameter dan menekan tombol _'search'_ maka akan me-_trigger_ function untuk mengexecute data based on filter parameter, sebagai source data transaksi nya menggunakan schema bimasakti table _tbl_bayar_ , _master_loket_, _master_source_db_ dari _datalake_ _airavata postgree_.
+. Setelah dataset yang kita inginkan selesai di proses maka akan ditampilkan pada UI Terra, langkah selanjutnya nya _User_ click button _export to CSV_ maka akan diteruskan ke page _data transaction bayar prepare export data to CSV._
+. Pada page _prepare export data transaction bayar prepare export data to CSV_ user harus menginput alamat email pribadi sepulsa untuk dikirimkan link hasil export data, dilanjutkan dengan click button _submit_.
+. Ketika _User_ click button _submit_ akan me-_trigger_ _function_ untuk menjalankan job export dataset to csv file dan akan di store di Amazon S3.
+Link download file nya akan dikirim ke email yang di-input oleh _User_.

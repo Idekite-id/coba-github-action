@@ -1,0 +1,45 @@
+= Modul Keuangan
+
+Bimasakti Keuangan dikembangkan untuk memudahkan bagian  keuangan untuk melakukan pembukuan, pembuatan jurnal, memperoleh informasi mengenai pengelolaan keuangan yang ada di PDAM berupa aliran kas keluar dan masuk dan penulisan laporan bulanan yang berkaitan dengan transaksi keuangan PDAM. 
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Keuangan.adoc[Login ke Modul Keuangan]
+
+link:./Getting-Started/Menu-Modul-Keuangan.adoc[Menu Modul Keuangan]
+
+== Menu Master Keuangan
+
+link:./Menu-Master-Keuangan/Memasukkan-Data-Saldo-Awal-atau-Rekonsiliasi-Kas-dan-Bank.adoc[Memasukkan Data Saldo Awal atau Rekonsiliasi Kas dan Bank]
+
+link:./Menu-Master-Keuangan/Menambah-dan-Memperbarui-Presentase-Tarif-Pajak.adoc[Menambah dan Memperbarui Presentase Tarif Pajak]
+
+link:./Menu-Master-Keuangan/Mengatur-Anggaran-Penagihan-Bulanan.adoc[Mengatur Anggaran Penagihan Bulanan]
+
+== Menu Voucher
+
+link:./Menu-Voucher/Mengelola-Data-Voucher.adoc[Mengelola Data Voucher]
+
+link:./Menu-Voucher/Memproses-dan-Membatalkan-Pembayaran-Voucher.adoc[Memproses dan Membatalkan Pembayaran Voucher]
+
+link:./Menu-Voucher/Mencetak-Lembar-Voucher-Harian.adoc[Mencetak Lembar Voucher Harian]
+
+link:./Menu-Voucher/Membatalkan-Pembayaran-Voucher.adoc[Membatalkan Pembayaran Voucher]
+
+link:./Menu-Voucher/Mencetak-Kwitansi-Pembelian-Voucher.adoc[Mencetak Kwitansi Pembelian Voucher]
+
+== Menu Posting Keuangan
+
+link:./Menu-Posting-Keuangan/Memposting-Transaksi-Harian-Kas.adoc[Memposting Transaksi Harian Kas]
+
+link:./Menu-Posting-Keuangan/Memproses-Piutang-Bulanan-Air-LC-LT-dan-Penerimaan-Bulanan.adoc[Memproses Piutang Bulanan Air, LC & LT, dan Penerimaan Bulanan]
+
+link:./Menu-Posting-Keuangan/Memproses-Saldo-Harian-Kas-dan-Bank.adoc[Memproses Saldo Harian Kas dan Bank]
+
+link:./Menu-Posting-Keuangan/Mengelola-Data-Penerimaan-Lainnya.adoc[Mengelola Data Penerimaan Lainnya]
+
+link:./Menu-Posting-Keuangan/Mengelola-Data-Pengeluaran-Lainnya.adoc[Mengelola Data Pengeluaran Lainnya]
+
+== Menu Laporan Keuangan
+
+link:./Menu-Laporan-Keuangan/Mengelola-Laporan.adoc[Mengelola Laporan Keuangan]

@@ -1,0 +1,68 @@
+= Ether Modul Loket (BE)
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Ether Modul Loket (BE). Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| I Ketut Giri Arsa 
+| Software Engineer 
+| giriarsa@bsa.id
+
+| Surya Adiputra 
+| Software Engineer 
+| suryaadiputra@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Ether-Modul-Loket-BE.adoc#, System URL Ether Modul Loket (BE)>>
+
+<<./architecture-Ether-Modul-Loket-BE.adoc#, Architecture Ether Modul Loket (BE)>>
+
+<<./technology-Ether-Modul-Loket-BE.adoc#, Technology Ether Modul Loket (BE)>>
+
+<<./environment-Ether-Modul-Loket-BE.adoc#, Environment Ether Modul Loket (BE)>>
+
+<<./database-Ether-Modul-Loket-BE.adoc#, Database Documentation Ether Modul Loket (BE)>>
+
+<<./release-deploy-Ether-Modul-Loket-BE.adoc#, Release and Deployment Ether Modul Loket (BE)>>
+
+<<./flow-wire-Ether-Modul-Loket-BE.adoc#, Flow and Wireframe Ether Modul Loket (BE)>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Ether-Modul-Loket-BE.adoc#, Developer Onboarding Ether Modul Loket (BE)>>
+
+<<./development-Ether-Modul-Loket-BE.adoc#, Development Ether Modul Loket (BE)>>
+
+<<./naming-convention-Ether-Modul-Loket-BE.adoc#, Naming Convention Ether Modul Loket (BE)>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+<<./release-note-Ether-Modul-Loket-BE.adoc#, Release Note Ether Modul Loket (BE)>>

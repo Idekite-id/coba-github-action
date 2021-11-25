@@ -1,0 +1,24 @@
+= Raven
+:keywords: ati, data, monitoring-anomalie
+
+== Overview
+
+Raven adalah sistem yang dikembangkan untuk memberikan notifikasi ketika terjadi sebuah _case_ atau masalah.
+_Case_ dalam hal ini dapat berupa kegagalan pada transaksi _biller_, perubahan harga pada _biller_, dan hal lain yang dibutuhkan oleh tim OPS.
+
+Pengembangan sistem ini ditujukan untuk memberikan tim OPS visual terkait permasalahan-permasalahan yang terjadi pada sistem yang ada di Alterra.
+Sistem Raven terintegrasi dengan database Postgre _(Sepulsa Reporting)_ dalam membaca permasalahan yang sudah ada di dalam sistem.
+
+== Technical Information
+
+<<./url-raven.adoc#, System URL Raven>>
+
+<<./architecture-raven.adoc#, Architecture Raven>>
+
+<<./technology-raven.adoc#, Technology Raven>>
+
+<<./flow-wire-raven.adoc#, Flow and Wireframe Raven>>
+
+== Documentation 
+
+https://github.com/sepulsa/raven/releases[Release Note Raven]

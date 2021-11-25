@@ -1,0 +1,33 @@
+= Technology Diamante
+
+Berikut adalah teknologi yang digunakan dalam pengembangan sistem Diamante:
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Specification*
+^.^h|*Name*
+
+|OS
+| Ubuntu Server 16.04 x64
+
+|Web Server
+| Nginx v1.19.2
+
+|Programming Language
+| PHP v7.4.10
+
+|Framework
+| Laravel v7.x
+
+|Container
+| Docker Engine v19.03.12
+
+|Cache
+| Redis Server v6.0.8
+
+|Worker
+| Supervisord v4.2.0
+
+|Proxy
+| Nginx v1.19.2
+|===

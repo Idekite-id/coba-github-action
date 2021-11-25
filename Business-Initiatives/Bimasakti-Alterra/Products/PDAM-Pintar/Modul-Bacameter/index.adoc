@@ -1,0 +1,55 @@
+= Modul Bacameter
+
+Modul Bacameter merupakan sistem dan aplikasi terintegrasi untuk melakukan pengelolaan bacameter seperti proses pembacaan meteran PDAM dan proses verifikasinya, dan lain-lain. Modul ini terdiri dari dua aplikasi, yaitu Supervisi dan Modul Sistem Kontrol.
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Supervisi.adoc[Login ke Modul Supervisi]
+
+link:./Getting-Started/Login-ke-Modul-Sistem-Kontrol.adoc[Login ke Modul Sistem Kontrol]
+
+link:./Getting-Started/Menu-Modul-Supervisi.adoc[Menu Modul Supervisi]
+
+link:./Getting-Started/Menu-Modul-Sistem-Kontrol.adoc[Menu Modul Sistem Kontrol]
+
+== Menu Supervisi Hasil Baca
+
+link:./Menu-Supervisi-Hasil-Baca/Mengelola-Data-Pelanggan-dari-Data-Daftar-Pelanggan.adoc[Mengelola Data Pelanggan dari Data Daftar Pelanggan]
+
+== Menu Produktivitas
+
+link:./Menu-Produktivitas/Cara-Filter-Data-Produktivitas.adoc[Cara Filter Data Produktivitas]
+
+== Menu Pemetaan Pelanggan
+
+link:./Menu-Pemetaan-Pelanggan/Pemetaan-Pelanggan.adoc[Pemetaan Pelanggan]
+
+== Menu Saran dan Pengaduan
+
+link:./Menu-Saran-Pengaduan/Menampilkan-Saran-dan-Pengaduan.adoc[Menampilkan Saran dan Pengaduan]
+
+== Menu Master Data
+
+link:./Menu-Master-Data/Menambah-Memperbarui-dan-Menghapus-Master-Data.adoc[Menambah, Memperbarui, dan Menghapus Master Data]
+
+== Menu Laporan
+
+link:./Menu-Laporan/Menampilkan-Laporan.adoc[Menampilkan Laporan]
+
+== Menu Pengaturan Sistem
+
+link:./Menu-Pengaturan-Sistem/Mengelola-Data-Pembacaan.adoc[Mengelola Data Pembacaan]
+
+link:./Menu-Pengaturan-Sistem/Mengelola-User-Akses-dan-Jabatan.adoc[Mengelola User Akses dan Jabatan]
+
+link:./Menu-Pengaturan-Sistem/SMS-Gateway.adoc[SMS Gateway]
+
+link:./Menu-Pengaturan-Sistem/Pengaturan-Umum.adoc[Pengaturan Umum]
+
+link:./Menu-Pengaturan-Sistem/Sinkronisasi-Data.adoc[Sinkronisasi Data]
+
+== Menu Lain-Lain
+
+link:./Menu-Lain-Lain/Mengelola-Database.adoc[Mengelola Database]
+
+link:./Menu-Lain-Lain/Menampilkan-Log-User-Akses.adoc[Menampilkan Log User Akses]

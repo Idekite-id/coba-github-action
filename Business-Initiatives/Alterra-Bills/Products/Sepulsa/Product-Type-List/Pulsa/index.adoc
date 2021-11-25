@@ -1,0 +1,16 @@
+= Pulsa
+
+Pulsa adalah alat satuan perhitungan biaya telepon. Pulsa umumnya digunakan untuk melakukan telepon, SMS, dan mengakses internet pada telepon seluler. Keberadaan pulsa pada saat ini tidak dapat dipisahkan dalam kehidupan sehari-hari karena sangat berkaitan erat dengan proses komunikasi. 
+
+Sepulsa melayani pembelian pulsa dengan berbagai macam provider dan operator yang tersedia di Indonesia, diantaranya:
+
+- Simpati
+- As
+- Im3 Ooredoo
+- Mentari Ooredoo
+- XL
+- Axis
+- Tri
+- Smartfren
+
+image::../images-sepulsa/produk-pulsa.png[align="center"]

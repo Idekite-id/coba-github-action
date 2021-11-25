@@ -1,0 +1,59 @@
+= SIBS Core V1
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem SIBS Core V1. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| I Ketut Agus Yudianto | Engineering Manager | agusyudi@bsa.id
+| Hardiyusa | Software Engineer | hardiyusa@bsa.id
+|===
+
+== Technical Information
+
+//Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-SIBS-Core-V1.adoc#, System URL SIBS Core V1>>
+
+<<./architecture-SIBS-Core-V1.adoc#, Architecture SIBS Core V1>>
+
+<<./technology-SIBS-Core-V1.adoc#, Technology SIBS Core V1>>
+
+<<./environment-SIBS-Core-V1.adoc#, Environment SIBS Core V1>>
+
+<<./database-SIBS-Core-V1.adoc#, Database Documentation SIBS Core V1>>
+
+<<./release-deploy-SIBS-Core-V1.adoc#, Release and Deployment SIBS Core V1>>
+
+<<./flow-wire-SIBS-Core-V1.adoc#, Flow and Wireframe SIBS Core V1>>
+
+== Onboarding Information
+
+<<./dev-onboarding-SIBS-Core-V1.adoc#, Developer Onboarding SIBS Core V1>>
+
+<<./development-SIBS-Core-V1.adoc#, Development SIBS Core V1>>
+
+<<./naming-convention-SIBS-Core-V1.adoc#, Naming Convention SIBS Core V1>>
+
+== Documentation
+
+//Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+//User Guide (jika ada, external link)
+
+//Dokumen Integrasi (jika ada, external link)
+
+//Dokumen Maintenance (jika ada, external link)
+
+//Dokumen API (jika ada, external link)
+
+<<./release-note-SIBS-Core-V1.adoc#, Release Note SIBS Core V1>>

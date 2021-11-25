@@ -1,0 +1,17 @@
+= System URL Gaharu
+
+Berikut adalah URL yang dapat digunakan untuk mengakses sistem Gaharu:
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+| *Environment* | *URL*
+
+| *Development*
+| *-*
+
+| *Staging / UAT*
+| https://gaharu-uat.sepulsa.id/
+
+| *Production*
+| https://gaharu.sepulsa.com
+|===

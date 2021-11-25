@@ -1,0 +1,76 @@
+= Oknurt
+:keywords: bpa
+
+== Overview
+
+Oknurt adalah _module partner management_ yang dikembangkan sebagai sistem pendukung kraken untuk mengakomodasi percepatan integrasi _partner_ ke Kraken. Oknurt bisa juga disebut sebagai sistem jembatan API _partner_ ke API Kraken. _Request_ dari _partner_ akan diteruskan ke Kraken sesuai dengan API _spec_ Kraken, untuk kemudian _response_ Kraken akan diteruskan ke _partner_ sesuai dengan API _spec partner_.
+
+Oknurt memungkinkan _partner_ yang memiliki spesifikasi API yang berbeda, dapat terhubung dengan lebih cepat sehingga diharapkan dapat meningkatkan _revenue_ perusahaan.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Wishnu Eka Sidharta 
+| Development Manager
+| wishnu@alterra.id
+
+| Gabriel Stevano 
+| Product Owner 
+| gabriel@alterra.id
+
+| Bahtiar Indra Ariyanki 
+| Development Lead
+| bahtiar@alterra.id
+
+| Ikromy Muddhar 
+| Software Engineer
+| ikromy@alterra.id
+
+| Reinard Pangestu 
+| Lead Quality Engineer 
+|reinard@alterra.id
+
+| Retno Wiji Astutik 
+| Lead Quality Engineer 
+| retno@alterra.id
+|===
+
+== Technical Information
+
+<<./url-oknurt.adoc#, System URL Oknurt>>
+
+<<./technology-oknurt.adoc#, Technology Oknurt>>
+
+<<./environment-oknurt.adoc#, Environment Oknurt>>
+
+<<./release-deploy-oknurt.adoc#, Release and Deployment Oknurt>>
+
+<<./architecture-oknurt.adoc#, Architecture Oknurt>>
+
+<<./flow-wire-oknurt.adoc#, Flow and Wireframe Oknurt>>
+
+== Onboarding Information
+
+<<./Developer-Onboarding-Oknurt/index.adoc#, Developer Onboarding Oknurt>>
+
+<<./development-oknurt.adoc#, Development Oknurt>>
+
+<<./naming-convention-oknurt.adoc#, Naming Convention Oknurt>>
+
+== Documentation
+
+<<./API-Document-Oknurt/index.adoc#, API Documentation Oknurt>>
+
+<<./workflow-oknurt.adoc#, Workflow Oknurt>>
+
+<<./user-guide-oknurt.adoc#, User Guide Oknurt for Integration Support>>
+
+<<./log-catalog-oknurt.adoc#, Logs Catalog Oknurt>>
+
+https://github.com/sepulsa/oknurt/releases[Release Notes Oknurt]
+

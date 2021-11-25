@@ -1,0 +1,3 @@
+= Naming Convention SiPintar Loket ver 4
+
+Berisi aturan penamaan dalam development sistem.

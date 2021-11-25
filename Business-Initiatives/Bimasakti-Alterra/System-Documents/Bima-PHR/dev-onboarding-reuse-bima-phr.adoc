@@ -1,0 +1,73 @@
+= Reuse Function Bima PHR
+
+== Refresh Token
+
+Fungsi _refresh token_ terdapat di directory redux/actions/loginActions.js sehingga dapat digunakan ketika _catch error token expired_ (_code: 410_).
+
+Penggunaan: contoh di bawah bisa diakses di TransaksiPage.js
+
+* Import
++
+Tambahkan fungsi ini dibagian //Actions (tolong tambahkan jika belum ada dibagian atas _component_)
++
+----
+  import { refreshingToken, resetState } from '../redux/actions';
+----
+
+* Catch error
++
+_Block code below to copy_
++
+----
+  .catch(async (error) => {
+      const { response } = error
+      const { token, refreshToken } = loginReducers
+      if (response.status === 410) {
+       await refreshingToken(token, refreshToken)
+       this.getDataTransaksi()
+     } else {
+       resetState()
+     }
+   });
+----
+
+* Proptypes
++
+_Block code below to copy_
++
+----
+TransaksiPage.propTypes = {
+refreshingToken: PropTypes.func.isRequired,
+resetState: PropTypes.func.isRequired,
+loginReducers: PropTypes.shape({
+token: PropTypes.string,
+isLogin: PropTypes.bool,
+refreshToken: PropTypes.string
+}).isRequired,
+history: PropTypes.shape(historyPropTypes).isRequired,
+};
+----
+
+* Map Dispatch
++
+----
+  const mapStateToProps = (state) => ({
+  loginReducers: state.loginReducers,
+  });
+
+  const mapDispatchToProps = {
+  refreshingToken,
+  resetState
+  }
+
+  export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+  )(withRouter(TransaksiPage));
+----
+
+* Utils Function
++
+_Function_ utils ada di directory utils/, digunakan untuk menyimpan _function_ yang dapat digunakan kembali.
++
+Perbedaannya dengan _function_ yang ada di _actions_ adalah _function-function_ ini tidak dapat digunakan untuk _get/set global state_

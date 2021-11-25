@@ -1,0 +1,22 @@
+= Environment Coklit FE
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+1.6+|Staging |IP Address | 
+|URL | http://coklit-dash.sumpahpalapa.com/[]
+|Doc Root |
+|Service Name | Coklit FE Staging
+|Git Repo | coklit-fe
+|Git Branch | master
+1.6+|Production |DB Server |
+|IP Address |
+|URL | https://coklit.bsa.id/[]
+|Doc Root |
+|Service Name | Coklit FE Production
+|Git Repo | coklit-fe
+|Git Branch | master *(tag on release)
+|===

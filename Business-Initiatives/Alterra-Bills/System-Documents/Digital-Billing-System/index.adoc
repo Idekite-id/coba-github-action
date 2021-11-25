@@ -1,0 +1,45 @@
+= Digital Billing System
+:keywords: ati, innovation, digital-billing-system
+
+== Overview
+
+_Digital Billing System_ (DBS) atau Alterra Bills adalah _project_ untuk support BPA untuk mengintegrasikan pemilik tagihan yang tidak memiliki sistem IT atau memiliki sistem IT namun tidak memiliki _resource_ yang memadai untuk melakukan integrasi ke sistem _Bill Payment Agregator_ Alterra (Kraken)
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email*
+|Evan Sujanto| Development Manager| evan@alterra.id
+|David Boy Tonara|Product Owner| david@alterra.id
+|-|Lead Developer| 
+|Fransiska Maya| Lead Quality Egineer| fransiska@alterra.id
+|Budiyanto|Lead System Analyst| budiyanto@alterra.id
+|===
+
+== Technical Information
+
+<<./url-digital-billing-system#, System URL Digital Billing System>>
+
+<<./architecture-digital-billing-system#, Architecture Digital Billing System>>
+
+<<./technology-digital-billing-system#, Technology Digital Billing System>>
+
+<<./environment-digital-billing-system#, Environment Digital Billing System>>
+
+<<./database-digital-billing-system#, Database Documentation Digital Billing System>>
+
+<<./release-deploy-digital-billing-system#, Release and Deployment Digital Billing System>>
+
+== Onboarding Information
+
+<<./dev-onboarding-digital-billing-system#, Developer Onboarding Digital Billing System>>
+
+<<./development-digital-billing-system#, Development Digital Billing System>>
+
+<<./naming-convention-digital-billing-system#, Naming Convention Digital Billing System>>
+
+== Documentation
+
+http://103.117.207.183/api-[API Documentation Digital Billing System]
+
+<<./security-digital-billing-system#, Security Digital Billing System>>

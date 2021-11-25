@@ -1,0 +1,40 @@
+= Pengenalan terkait Data Array
+
+Data _array_ merupakan struktur data yang digunakan untuk menyimpan sekumpulan data dalam satu tempat. Setiap data dalam _array_ memiliki indeks, sehingga kita akan mudah memprosesnya. Indeks ini digunakan sebagai penanda untuk _looping_ data di dalam data _array_ tersebut.
+
+Ada 2 macam data _array_, yaitu _array string_ dan _object_. Berikut adalah contoh masing-masing data _array_ (_string_ dan _object_). 
+
+*Array String*
+
+----
+{
+  "kombinasi_huruf": [“abc”, “def”, “ghi”]
+}
+----
+
+*Array Object*
+
+----
+{
+  "kombinasi_angka_dan_huruf": [
+    {
+      "huruf1": 123,
+      "angka2": "abc"
+    },
+    {
+      "huruf1": 456,
+      "angka2": "def"
+    },
+    {
+      "huruf1": 789,
+      "angka2": "ghi"
+    }
+  ]
+}
+----
+
+Menggunakan acuan dari data _array string_ dan _object_, data _array_ akan diolah untuk berbagai implementasi seperti restruktur format _array_, _get single_ data _array_, _function array_ (date_format, formula dan str_pad) dan transformasi _array_ ke _string_. 
+
+== *Topik terkait*
+
+link:../Implementasi-Restruktur-Format-Array-di-BM-dan-PM.adoc[Implementasi Restruktur Format Array di BM dan PM]

@@ -1,0 +1,11 @@
+= Listrik PLN
+
+Saat ini listrik merupakan kebutuhan pokok manusia, hal tersebut dapat terlihat dari pola hidup manusia yang selalu bergantung kepada listrik. Untuk memenuhi hal tersebut, Sepulsa menyediakan 2 jenis metode pembelian listrik yang disediakan oleh PLN, diantaranya:
+
+. Token Listrik
++
+Token Listrik adalah metode listrik prabayar yang merupakan sistem pembayaran dan pemakaian listrik dari PLN di mana pengguna membayar terlebih dahulu sebelum dapat menggunakan listrik. Sebelum dapat menggunakan listrik, pengguna harus terlebih dulu membeli pulsa listrik atau token listrik sejumlah nominal yang dibutuhkan.
+
+. Tagihan Listrik
++
+Tagihan Listrik merupakan metode listrik pascabayar, di mana pengguna baru akan menerima tagihan listrik PLN sesuai dengan listrik yang digunakan dalam periode 1 bulan. Biasanya tagihan akan diterima pada saat akhir bulan, dan pengguna harus membayarkannya untuk dapat melanjutkan layanan listrik di bulan depan.

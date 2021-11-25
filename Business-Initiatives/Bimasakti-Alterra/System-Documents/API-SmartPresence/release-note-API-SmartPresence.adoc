@@ -1,0 +1,3 @@
+= Release Note API SmartPresence
+
+Berisi catatan rilis sistem.

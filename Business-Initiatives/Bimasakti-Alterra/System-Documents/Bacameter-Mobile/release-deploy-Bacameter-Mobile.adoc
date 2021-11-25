@@ -1,0 +1,27 @@
+= Release and Deployment Bacameter Mobile
+
+Berisi informasi tentang _release_ dan step _deployment_ sistem.
+
+==  Release Schedule and Step
+
+Tidak ada waktu khusus untuk release. Tergantung permintaan PO.
+
+1. To begin the publishing process, select Build > Generate Signed Bundle / APK...
+2. Select 'APK' option, click 'Next'
+3. Choose keystore existing or create new, type key store password, key alias and key password and then click 'Next'
+4. Set destination folder, choose build variant, check signature version V1 and V2 and click 'Finish'
+5. Done
+6. Transfer APK and changelog / release note to Infrastructure Team to process publish in BSA Store
+7. Use BSA Store to install or update the latest release of Bacameter App
+
+== Schedule and Step Deployment
+
+Tidak ada waktu khusus untuk release. Tergantung permintaan PO.
+
+1. To begin the publishing process, select Build > Generate Signed Bundle / APK...
+2. Select 'APK' option, click 'Next'
+3. Choose keystore existing or create new, type key store password, key alias and key password and then click 'Next'
+4. Set destination folder, choose build variant, check signature version V1 and V2 and click 'Finish'
+5. Done
+6. Transfer APK and changelog / release note to Infrastructure Team to process publish in BSA Store
+7. Use BSA Store to install or update the latest release of Bacameter App

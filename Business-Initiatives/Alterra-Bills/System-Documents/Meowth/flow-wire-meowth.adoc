@@ -1,0 +1,303 @@
+= Flow and Wireframe Meowth
+
+== Detail Flow dan Wireframe Meowth
+
+|===
+| *No* | *Feature* | *Type* | *Diagram*
+
+| 1
+| Promo how to
+| Flow
+| https://drive.google.com/file/d/11i3J7UJzR719o0CFcaMhwod_OpJpAcsg/view?usp=sharing[]
+
+| 2
+| Add promo code
+| Flow
+| https://drive.google.com/file/d/1-_XUv7pVItBX4JMQAKMED1wVXSJa5Cjq/view?usp=sharing[]
+
+| 3
+| Promo banner
+| Flow
+| https://drive.google.com/file/d/1uqag_tepNADdhoy7vMo2KQ2IJZdyTul5/view?usp=sharing[]
+
+| 4
+| Details
+| Flow
+| https://drive.google.com/file/d/1hP0Rj5Q6AdU49ncVx9s7SGmAq706lNlr/view?usp=sharing[]
+
+| 5
+| Log
+| Flow
+| https://drive.google.com/file/d/1XgOiQ5eN5qu4rg0McofDdm97we7EjvIh/view?usp=sharing[]
+
+| 6
+| Edit banner type
+| Flow
+| https://drive.google.com/file/d/1xUd7ZSAMDhZCgs9yVcrwv3x3Vqlvm6LA/view?usp=sharing[]
+
+| 7
+| Add banner type
+| Flow
+| https://drive.google.com/file/d/1nB_t6u9tp8bqRzILwgR0InvCVur5DdIh/view?usp=sharing[]
+
+| 8
+| Edit promo code
+| Flow
+| https://drive.google.com/file/d/1wVTbVn0VU7kz21zCQ7e2YsiwLfJefLmA/view?usp=sharing[]
+
+| 9
+| Banner type
+| Flow
+| https://drive.google.com/file/d/1sI3zFB5-8gaW5a9QlgT58O_W68A2Vyto/view?usp=sharing[]
+
+| 10
+| Search form banner type
+| Flow
+| https://drive.google.com/file/d/1UvA4F_zoUJcM-2DDN7aTwbUMHF2sDu1l/view?usp=sharing[]
+
+| 11
+| List details all banner type
+| Flow
+| https://drive.google.com/file/d/1izKXvoOETNK4B2qSek1Wo7LU7LDgFPkH/view?usp=sharing[]
+
+| 12
+| Promo code
+| Flow
+| https://drive.google.com/file/d/1og-ASxXFnSUApJjU7UhTO3qqvpAG9G24/view?usp=sharing[]
+
+| 13
+| List details all promo code
+| Flow
+| https://drive.google.com/file/d/12tg4jOFDzMs_VtBh0xnFuQstncyPo8GR/view?usp=sharing[]
+
+| 14
+| Search form promo code
+| Flow
+| https://drive.google.com/file/d/1-wJZdiwriGBekwlz0gmOgzZ4-jYLw5el/view?usp=sharing[]
+
+| 15
+| Search form promo
+| Flow
+| https://drive.google.com/file/d/1POeWgU_SnWTirFijiZx087SW8ZaUMd57/view?usp=sharing[]
+
+| 16
+| Promo details
+| Flow
+| https://drive.google.com/file/d/1w7lSU2I-xQyQyvzh_hPCG_pzd7Q03uJs/view?usp=sharing[]
+
+| 17
+| Promo terms & conditions
+| Flow
+| https://drive.google.com/file/d/1IjAaDeUskYQ7VOHwGmmbAeXYYlui4d2i/view?usp=sharing[]
+
+| 18
+| Promo call to action
+| Flow
+| https://drive.google.com/file/d/1BEG9AyY9tvoOpdqfT3p6yAlbQMB-XvfR/view?usp=sharing[]
+
+| 19
+| List details all client
+| Flow
+| https://drive.google.com/file/d/1OjZ87PfWHbgdeDDQjnoq8CfJoe1ooNId/view?usp=sharing[]
+
+| 20
+| List details all promo
+| Flow
+| https://drive.google.com/file/d/1VjAcqSGt-RgICmv5IjX1iJiazRQY5pVA/view?usp=sharing
+
+| 21
+| Edit promo
+| Flow
+| https://drive.google.com/file/d/1x4pBBR6k2V3dZRUAOCd8Lv964sdTytd5/view?usp=sharing[]
+
+| 22
+| Add Promo
+| Flow
+| https://drive.google.com/file/d/1PPl-bdOCV6F2ESRj2fwaDVs09-w32els/view?usp=sharing
+
+| 23
+| Edit client
+| Flow
+| https://drive.google.com/file/d/1bARQQLX9un4-wjnpiAD3zu2N79OUZLFy/view?usp=sharing[]
+
+| 24
+| Add client
+| Flow
+| https://drive.google.com/file/d/1SMpMHyQH4K4vPojGSm_koK-n7kV3LvbF/view?usp=sharing[]
+
+| 26
+| Promo
+| Flow
+| https://drive.google.com/file/d/1IDWbapnlLHS9yCH5KkFHXdruquU7ry--/view?usp=sharing[]
+
+| 27
+| Search form client
+| Flow
+| https://drive.google.com/file/d/1glkrdJkt5e7jbMwgfCl9SCNvmkiU842F/view?usp=sharing[]
+
+| 28
+| Client
+| Flow
+| https://drive.google.com/file/d/1K_6uwHhsyIGHFZvJjqyA-iDZm9KJhEtv/view?usp=sharing[]
+
+| 29
+| Promo inquiry & redeem
+| Flow
+| https://drive.google.com/file/d/1qqpQjgWnCWvGZ9jKUuqV-0fE1_1hQUrk/view?usp=sharing[]
+
+| 30
+| Promo usage reversal & void
+| Flow
+| https://drive.google.com/file/d/1A-4iuimmJsKz84Tazxj6h0WOeHP9dl9s/view?usp=sharing[]
+
+| 31
+| Promocode
+| Flow
+| https://drive.google.com/file/d/1-GHv5cAlVaVInMeAAUDLojG7KTt8eyDP/view?usp=sharing[]
+
+| 32
+| CRUD promo
+| Flow
+| https://drive.google.com/file/d/1wMDSRM29IijuwWNKImGNCYcUAQgyq1re/view?usp=sharing[]
+
+| 33
+| Promo banner
+| Flow
+| https://drive.google.com/file/d/1NAmj-CvJjJqHWS4DuhGTXlVaEMEPx56g/view?usp=sharing[]
+
+| 34
+| CRUD banner type
+| Flow
+| https://drive.google.com/file/d/1wMp5qlqBIaHY4LWmmGUg29XVAlFHhyXd/view?usp=sharing[]
+
+| 35
+| Promo content call to action
+| Flow
+| https://drive.google.com/file/d/1XyhaDfgG5TBeJh2W-sefvyYDvS63Zckq/view?usp=sharing[]
+
+| 36
+| Promo content TnC
+| Flow
+| https://drive.google.com/file/d/1xJ-H6GIbOwPQ4Mk9wGGXQkdT_ZTgsK7y/view?usp=sharing[]
+
+| 37
+| Promo content how to
+| Flow
+| https://drive.google.com/file/d/1aVeSzGPJ2IlFvZiYKqLEafVxanmpzOUp/view?usp=sharing[]
+
+| 38
+| CRUD client
+| Flow
+| https://drive.google.com/file/d/12_ORLVEK4AHrMRc9yJ-I9gMsukEVZ8ry/view?usp=sharing[]
+
+| 39
+| Authorization
+| Flow
+| https://drive.google.com/file/d/1G05DQT6UAt-6uWvc08QYcawGYHloKIox/view?usp=sharing[]
+
+| 40
+| Promo
+| Flow
+| https://drive.google.com/file/d/1c_oXJeAldmtUy1-SsXHtFMrWL3QK7cE9/view?usp=sharing[]
+|===
+
+== Daftar Halaman yang terkait dengan Meowth
+
+. Pronghorn/Module/Meowth https://wiki.sepulsa.id/index.php?title=Pronghorn/Module/Meowth[Login required - Sepulsa Wiki]
++
+. Meowth Staging/UAT Server https://wiki.sepulsa.id/index.php?title=Meowth_Staging/UAT_Server[Login required - Sepulsa Wiki]
+
+== Troubleshooting
+
+== Log
+
+* Dapat diaktifkan dengan mengatur nilai `LOG_ENABLED_LOGSTASH` ke 1
+* Layanan Logstash harus secara manual memasukkan _file_ di `storage/logs/logstash` _directory_
+
+Cek di halaman Salmon :
+
+Devel log : `+@type=meowth-***+`
+
+Production log : `+@type=***+`
+
+Invalid redeem : `+"@type=***" AND "@message=INVALID REDEEM" AND " your_suspect_identifiers"+`
+
+== Response Code
+
+Ada beberapa _response codes_ untuk _Invalid messages_.
+Mohon cek di https://meowth.sepulsa.id/apidoc/#response_codes[Meowth APIDOC]
+
+== Possible Promo Rules
+
+Promocode masih diperlukan untuk _promo usage_.
+Aturan yang memungkinkan untuk promo yang valid tercantum di bawah ini :
+
+. _Valid with specified_ `Item / SKU`
+. _Valid with specified_ `Item quantity`
+. _Valid with specified multiple_ `Payment Method`
+. _Valid with specified_ `total order amount`
+. _Valid with specified_ (single/multi) `running days`
+. _Valid with specified_ `allday or in hours range`
+. _Valid with_ `apps only` _transaction_
+. _Valid with_ `Paket data type` _transaction_
+. _Valid with_ `Operator type` _transaction_
+. _Valid with_ `History _transaction_`
+. _Valid with_ `combination` _from list above_
+
+== Infra - How to Setup and Deploy
+
+== Setup For The First Time
+
+. Mempersiapkan *git* dengan *ssh key*.
+https://help.github.com/en/articles/connecting-to-github-with-ssh[Ini untuk referensi].
+. Pergi ke folder _web root_ dan _clone_ https://github.com/sepulsa/meowth[repo] ini
+. `Git checkout` ke _desired branch_ atau _release tag_
+. Buat config dengan menyalin file `.env.example` ke `.env`, dan modifikasi value sesuai produksi _server configuration._
+ .. `APP_ENV=production`
+ .. `APP_DEBUG=false`
+ .. `APP_KEY=\{put_your_random_string_here}`
+ .. `APP_TIMEZONE=Asia/Jakarta`
+ .. `APP_BASEURL=http://your.domain.com/`
+ .. `DB_TIMEZONE=+07:00`
+. Jalankan `composer install --no-dev`
+. Mempersiapkan _databases_
+. Jalankan _migration_ dan _default data seeding_ dengan `php artisan migrate --seed --force`
+. Selesai
+
+== *Deploying Update*
+
+. Jalankan `+git fetch origin {release_tag}+`.
+. Jalankan `+git checkout {release_tag}+`.
+. Beberapa file perlu diubah ke`.env`
+. Jalankan `composer update --no-dev`.
+. Jalankan _migration_ jika terjadi `php artisan migrate --force`
+. _Restart queue_ jika terjadi `php artisan queue:restart`.
+. Selesai
+
+== Emergency Solution
+
+=== Upload Bulk Unique Code
+
+Fitur ini sebetulnya sudah ada di v1.2, tapi belum lolos QA untuk release 1.2-nya.
+Ops (Mas Budi) sering meminta upload _unique code_ dalam _quantity_ yang banyak.
+Untuk melakukannya, silahkan gunakan _DB tool_ untuk MySQL (rekomendasi: pakai Sequel Pro), lalu gunakan fasilitas `IMPORT CSV` yang ada pada tool anda.
+
+Format field CSV-nya harus ada seperti di bawah ini :
+
+* `code`
+* `promoid`
+* `max_usage`( klo _unique_, isikan 1.
+Jika bukan _unique_, silahkan isikan batasannya )
+* `created_at`
+* `updated_at`
+
+== Export Promocodes to CSV
+
+Belum ada fitur : Kadang OPS minta promo _code_ yang baru di-_upload_ untuk _review code_-nya.
+Tolong rincikan ke mereka `Promo ID` apa saja yang mau di-_ekspor code_-nya.
+
+ select c.*,
+ 	p.title as promo_title
+ from promocodes c
+ 	join promos p on c.promoid = p.id
+ where c.promoid in (140,141,142,143,144);

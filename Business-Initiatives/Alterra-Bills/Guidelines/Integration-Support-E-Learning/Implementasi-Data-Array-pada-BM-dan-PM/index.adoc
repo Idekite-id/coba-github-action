@@ -1,0 +1,13 @@
+= Implementasi Data Array pada BM dan PM
+
+Topik ini akan menjelaskan tentang implementasi _array_ pada _tools_ BM dan PM.  Pada pelaksanaannya, implementasi data _array_ memiliki perbedaan pada data _source_ dan data _destination_-nya.
+
+Selengkapnya, untuk materi _array_ yang akan dijelaskan pada implementasi _tools_ BM maupun PM dapat merujuk pada E-Learning ini untuk belajar secara mandiri. Ikuti langkah-langkah (*baca instruksi dan lihat video*) di bawah ini secara berurutan ya.
+
+1. link:./Pengenalan-terkait-Data-Array.adoc[Pengenalan terkait Data Array]
+2. link:./Implementasi-Restruktur-Format-Array-di-BM-dan-PM.adoc[Implementasi Restruktur Format Array di BM dan PM]
+3. link:./Implementasi-Get-Single-Data-Array-di-BM-dan-PM.adoc[Implementasi Get Single Data Array di BM dan PM]
+4. link:./Implementasi-Function-Array-di-BM-dan-PM.adoc[Implementasi Function Array di BM dan PM]
+- Function date-format di BM
+- Function formula dan str-pad di PM
+5. link:./Implementasi-Transformasi-Format-Array-ke-String.adoc[Implementasi Transformasi Format Array ke String]

@@ -1,0 +1,145 @@
+= Summary Dompul Terra
+
+== Overview
+
+Fitur ini digunakan untuk mengetahui summary total kuota dompul untuk masing-masing label dompul dalam range date tertentu.
+Berikut beberapa informasi yang ada di report Summary Dompul :
+
+* Dompul Code
+* Dompul Label
+* Partner
+* Mobile
+* Data
+* Total
+
+== User Story
+
+|===
+| Nama | Actor | Business Problem 
+| Summary Dompul 
+| OPS
+| 
+|===
+
+== Development Team
+
+|===
+| Position | Tim | Nama
+
+| Product Owner
+| Saiyo
+| Bayu Setiawan
+
+| Lead Data Engineer
+| Saiyo
+| Bayu Setiawan
+
+| Data Engineer
+| Saiyo
+| Vera Rusmalawati
+
+| System Analyst
+|
+|
+
+| Quality engineer
+|
+|
+|===
+
+== Required Database and Table
+
+Airavata Postgree 
+
+|===
+| Schema | Table | Description
+
+| Public 
+| Kraken_trx 
+|
+
+| Public 
+| Kraken_fields 
+|
+
+| Public 
+| Kraken_Billers
+|
+
+| Public 
+| Product 
+|
+
+| Krakenv2 
+| Transactions 
+|
+
+| Krakenv2 
+| Transaction_Biller
+|
+
+| Krakenv2 
+| vw_product
+|
+
+| Kraken_lite 
+| Kraken_trx 
+|
+
+| Kraken_lite 
+| Kraken_biller 
+|
+
+| Kraken_lite 
+| Product 
+|
+
+| Internal 
+| Dompul 
+|
+
+|===
+
+== High Level Diagram
+
+image::../images-terra/terra-Diagram_-_Merge_Biller.png[Diagram Merge Biller]
+
+== Workflow System
+
+Fitur Summary Dompul
+
+image::../images-terra/terra-Workflow_-_Summary_Dompul.png[Summary Dompul Terra]
+
+*Frontend process :*
+
+. Login Terra
+. Choose menu _'Operational'_
+. Choose submenu _'Report'_
+. Click submenu _'Summary Dompul'_
+. Select _'Start Date and Time (Created Date)'_
+. Select _'End Date and time (Created Date)'_
+. Select _'Biller'_
+. Select _'Partner'_
+. Click _'Search'_
+. Click _'Export to CSV'_
+. Click link _'Download File'_
+
+*Backend process :*
+
+. Ketika user selesai input filter parameter dan klik submit maka akan mentriggered function untuk mengexecute data based on filter parameter lalu di show pada page  di terra,
+ ** Pertama function tersebut akan menjalankan sejumlah fungsi sum guna mendapatkan total purchased_price dengan tipe product_type mobile dan data baik dari transaksi di krakenv1, krakenlite dan krakenv2 dangan range date based on parameter input.
+sebagai source datanya menggunakan table :
++
+....
+     kraken1 = kraken_trx
+
+     krakenv2 = transactions
+
+     krakenlite = kraken_trx
+....
+
+* Selanjutnya dari transaksi tersebut akan di join ke table _dompul_ schema _internal_ untuk mapping transaksi-transaksi tersebut masuk ke dalam dompul code dan dompul label apa.
+Setelah data set yang di inginkan sudah sesuai dengan parameter input maka akan di show pada databales di UI terra.
+
+. Ketika user klik button export to CSV maka backend system terra akan menjalankan function untuk export data menjadi CSV file dan akan di arahkan ke _export new CSV page._
+. Ketika user klik link download maka file .CSV akan di unduh ke device user

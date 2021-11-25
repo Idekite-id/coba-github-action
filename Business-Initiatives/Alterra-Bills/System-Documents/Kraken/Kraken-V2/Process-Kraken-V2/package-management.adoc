@@ -1,0 +1,44 @@
+= Package Management Kraken V2
+
+== Short Description
+
+_Package management_ adalah fitur yang bertujuan untuk mengatur aktivitas pada _package_, seperti menampilkan data package, membuat _package_ baru, serta mengubah data _product_ pada _package_.
+
+== Feature Documentation
+
+Anda dapat mengakses dokumentasi _package management_ di https://drive.google.com/file/d/1q8Wlip6wKDxO8sY4YWG5RlYlCzHsfhQc/view?usp=sharing[Dokumentasi Admin API - Package] 
+
+== Log Catalog
+
+.Katalog Log Package Management
+|===
+|json.url |json.handler |description
+
+|/package
+|AddPackage
+|Log ini mencatat aktivitas penambahan package baru oleh ops pada Kraken
+
+|/package/:package_id
+|UpdatePackage
+|Log ini mencatat aktivitas perubahan label atau product pada package oleh ops di kraken
+
+|/package/bulk
+|BulkUpdatePackage
+|Log ini mencatat aktivitas perubahan product pada beberapa package sekaligus oleh ops di kraken
+
+|/package/changebiller/:package_id
+|ChangeBillerPackage
+|Log ini mencatat aktivitas perubahan biller product pada package oleh smartbiller di kraken
+
+|/package/opencloseproduct/:package_id
+|ChangeBillerAndStatusPackage
+|Log ini mencatat aktivitas perubahan status product pada package oleh smartbiller di kraken
+
+|/package/change/:package_change_id
+|ApprovePackageChange
+|Log ini mencatat aktivitas approval perubahan pada package oleh ops di kraken
+
+|/package/change/:package_change_id
+|CancelSchedule
+|Log ini mencatat aktivitas pembatalan perubahan pada package yang masih dijadwalkan oleh ops di kraken
+|===

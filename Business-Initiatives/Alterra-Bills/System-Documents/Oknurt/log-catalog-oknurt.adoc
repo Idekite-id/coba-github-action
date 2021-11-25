@@ -1,0 +1,242 @@
+= Logs Catalog Oknurt
+
+== API Log
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Type* 
+^.^h| *Parameter* 
+^.^h|*Description*
+
+|Mandatory 
+| `package` 
+| Package handler
+
+| 
+| `handler` 
+| Control handler
+
+| 
+| `url` 
+| Requested URL
+
+| 
+| `request` 
+| Request payload
+
+| 
+| `response` 
+| Response payload
+|===
+
+=== Sample API Log
+
+==== Execute API
+
+    {
+        "level": "info",
+        "Identifier": "oknurt_http",
+        "package": "github.com/sepulsa/oknurt/controllers",
+        "elapsed_time": 119,
+        "handler": "Execute.API-fm",
+        "ip": "::1",
+        "host": "localhost:8040",
+        "method": "POST",
+        "url": "/v0/api/pronghorn/mobile/purchase",
+        "request_time": "2020-12-01T14:08:07+07:00",
+        "request_header": "POST /v0/api/pronghorn/mobile/purchase HTTP/1.1\r\n",
+        "request": "<?xml version=\"1.0\"?>\n\n    <phone_number_mobile>081945908673</phone_number_mobile>",
+        "httpcode": 500,
+        "response_time": "2020-12-01T14:08:07+07:00",
+        "response_header": "{\"Access-Control-Allow-Origin\":[\"*\"]}",
+        "response": "{\"message\":\"Invalid Response Mapping\"}\n",
+        "time": "2020-12-01T14:08:07.119814"
+    }
+
+==== Execute Callback
+
+    {
+        "level": "info",
+        "Identifier": "oknurt_http",
+        "package": "github.com/sepulsa/oknurt/controllers",
+        "elapsed_time": 827,
+        "handler": "Execute.Callback-fm",
+        "ip": "::1",
+        "host": "localhost:8040",
+        "method": "POST",
+        "url": "/v1/callback/pronghorn",
+        "request_time": "2020-12-01T14:51:03+07:00",
+        "request_header": "POST /v1/callback/pronghorn HTTP/1.1\r\n{\"transaction_id\":\"242119\"}",
+        "request": "{\"transaction_id\":\"242119\"}",
+        "httpcode": 401,
+        "response_time": "2020-12-01T14:51:03+07:00",
+        "response_header": "{\"Access-Control-Allow-Origin\":[\"*\"]}",
+        "response": "{\"message\":\"Unauthorized\"}\n",
+        "time": "2020-12-01T14:51:03.827175"
+    }
+
+==== Set Config
+
+    {
+        "level": "info",
+        "Identifier": "oknurt_http",
+        "package": "github.com/sepulsa/oknurt/modules/partner",
+        "elapsed_time": 190,
+        "handler": "Set",
+        "ip": "::1",
+        "host": "localhost:8040",
+        "method": "POST",
+        "url": "/partner/10/config",
+        "request_time": "2020-12-01T14:50:29+07:00",
+        "request_header": "POST /partner/10/config HTTP/1.1\r\n",
+        "request": "{\"additional_config\":{}}",
+        "httpcode": 200,
+        "response_time": "2020-12-01T14:50:29+07:00",
+        "response_header": "{\"Access-Control-Allow-Origin\":[\"*\"]}",
+        "response": "{\"message\":\"success\"}\n",
+        "time": "2020-12-01T14:50:29.190540"
+    }
+
+=== API Information
+
+[cols="30%,35%,35%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Action* 
+^.^h| *Handler* 
+^.^h| *Package* 
+^.^h| *Request* 
+^.^h| *Response*
+
+| Execute API 
+| `Execute.API-fm` 
+| `oknurt/controllers` 
+| Partner request payload 
+| Partner response payload
+
+| Execute Callback 
+| `Execute.Callback-fm` 
+|`oknurt/controllers`
+| Kraken callback payload 
+| Partner response payload
+
+| Set Partner Config 
+| `Set`
+|`oknurt/modules/partner`
+| Partner config 
+| Response status message
+|===
+
+== Adapter Log
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Type* 
+^.^h| *Parameter* 
+^.^h|*Description*
+| Mandatory 
+| `event`
+| Event process `"adapter"`
+
+| 
+|`url`
+| Destination URL address
+
+| 
+|`request`
+| Request payload
+
+| 
+|`response`
+| Response payload
+|===
+
+
+=== Sample Adapter Log
+
+----
+{
+    "level": "info",
+    "event": "adapter",
+    "url": "http://localhost:8000/api/v3/services/transaction",
+    "request_time": "2020-12-01T14:08:15.710097+07:00",
+    "request": "Method:\npost\n\nBody:\n{\n  \"customer_id\": \"0819\"}",
+    "response_time": "2020-12-01T14:08:15.800443+07:00",
+    "response": "HTTP/1.1 201 Created\r\nVary: Origin\r\n\r\n{\"transaction_id\":\"242116\"}\n",
+    "time": "2020-12-01T14:08:15.800452"
+}
+----
+
+== Error Log
+
+Log when error occur during parse and build request response in Oknurt.
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Type* 
+^.^h| *Parameter* 
+^.^h|*Description*
+
+| Mandatory
+| `level`
+| Log level `"error"`
+
+| 
+|`message`
+| Error message
+|===
+
+
+=== Sample Error Log
+
+----
+{
+    "level": "error",
+    "time": "2020-12-01T14:08:07.119598",
+    "message": "[RULES-OPERATION] -- Operations Value doesn't exist: [transaction_id]"
+}
+----
+
+== Access Log
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Type* 
+^.^h| *Parameter* 
+^.^h|*Description*
+
+| Mandatory
+| `uri`
+| URI access
+
+| 
+|`method`
+| HTTP Method
+
+| 
+|`status`
+| HTTP Code
+
+| Additional 
+|`error`
+| Error message
+|===
+
+
+=== Sample Access Log
+----
+{
+    "time": "2020-12-01T14:50:29.190562+07:00",
+    "id": "",
+    "remote_ip": "::1",
+    "host": "localhost:8040",
+    "method": "POST",
+    "uri": "/partner/10/config",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+    "status": 200,
+    "error": "",
+    "latency": 25427047,
+    "latency_human": "25.427047ms",
+    "bytes_in": 7817,
+    "bytes_out": 22
+}
+----

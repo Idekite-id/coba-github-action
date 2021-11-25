@@ -1,0 +1,13 @@
+= Database Documentation Oknurt
+
+Berisi dokumentasi _ yang digunakan dalam sistem, seperti daftar tabel dan gambar ERD beserta penjelasannya.
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h|*Table Name* 
+^.^h|*Description*
+
+|
+|
+
+|===

@@ -1,0 +1,9 @@
+= Rekonsiliasi Partner Switching
+
+Rekonsiliasi Partner _switching_ adalah proses rekonsiliasi, yang dilakukan untuk validasi dan melakukan pengecekan kesesuaian antara data Alterra, Partner dan Biller. Proses ini dilakukan setiap hari kerja, H+1 setelah Partner melakukan transaksi
+
+Pada _section_ ini, kamu akan mempelajari 3 hal yang berkaitan dengan proses rekonsiliasi Partner _Switching_, meliputi : 
+
+- link:./partner-switching.adoc[Partner Switching]
+- link:./cara-melakukan-rekonsiliasi-partner-switching.adoc[Cara Rekonsiliasi Partner Switching]
+- link:./cara-melakukan-handling-dispute.adoc[Cara Melakukan Handling Dispute]

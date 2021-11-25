@@ -1,0 +1,212 @@
+= Merchant Chital
+
+== Development Team
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Ananto Eko Hendarto 
+|  Development Manager 
+| anton@alterra.id
+
+| Lazuardi Hilmi  
+| Product Owner 
+| lazuardi@alterra.id
+
+| Aldi Dipasanta 
+| Software Engineer 
+| aldi@alterra.id
+
+| Dwi Riyantono 
+| Software Engineer (Backend) 
+| riyantono@alterra.id
+
+| Mugh Dzin Syah 
+| Software Engineer (Frontend) 
+| dzinsyah@alterra.id
+|===
+
+== Overview
+
+Sebuah sistem yang berfokus untuk promo penambahan point (_accrual_) dari transaksi _customer_ yang sukses dan produk _eligible_.
+
+Eligibilitas produk ditentukan dengan asosiasi _vendor_ dan jangka waktu promo.
+
+=== Sistem Flow
+
+* TODO
+
+=== User Story
+
+* TODO
+
+=== Implementation
+
+==== Database
+
+.merchant_vendor
+[cols="20%,20%,15%,15%,15%,15%",frame=all, grid=all]
+|===
+^.^h| *Field*              
+^.^h| *Type*         
+^.^h| *Null*  
+^.^h| *Key* 
+^.^h| *Default* 
+^.^h| *Extra*  
+
+| id                    | int          | NO   | PRI | NULL    | auto_increment
+| uuid                  | char(32)     | NO   | UNI | NULL    |
+| name                  | varchar(128) | NO   |     | NULL    |
+| code                  | varchar(64)  | NO   |     | NULL    |
+| status                | tinyint(1)   | NO   |     | NULL    |
+| start_date            | datetime(6)  | YES  |     | NULL    |
+| end_date              | datetime(6)  | YES  |     | NULL    |
+| reward_label          | varchar(256) | NO   |     | NULL    |
+| account_id_label      | varchar(128) | NO   |     | NULL    |
+| reward_banner_image   | varchar(100) | NO   |     | NULL    |
+| reward_term_condition | longtext     | NO   |     | NULL    |
+| created_date          | datetime(6)  | NO   |     | NULL    |
+| updated_date          | datetime(6)  | YES  |     | NULL    |
+| updated_by_id         | int          | YES  | MUL | NULL    |
+| fee_per_point         | decimal(6,0) | NO   |     | NULL    |
+| partner_id            | int          | YES  | MUL | NULL    |
+|===
+
+.merchant_vendorcustomerthrough
+[cols="20%,20%,15%,15%,15%,15%",frame=all, grid=all]
+|===
+^.^h| *Field*              
+^.^h| *Type*         
+^.^h| *Null*  
+^.^h| *Key* 
+^.^h| *Default* 
+^.^h| *Extra* 
+
+| Field            | Type    | Null | Key | Default | Extra
+| id                     | int          | NO   | PRI | NULL    | auto_increment
+| vendor_member_id       | varchar(128) | NO   |     | NULL    |
+| vendor_member_status   | varchar(128) | NO   |     | NULL    |
+| vendor_member_validity | tinyint(1)   | NO   |     | NULL    |
+| customer_id_id         | int          | NO   | MUL | NULL    |
+| vendor_id_id           | int          | NO   | MUL | NULL    |               
+|===
+
+.merchant_vendororderthrough
+[cols="20%,20%,15%,15%,15%,15%",frame=all, grid=all]
+|===
+^.^h| *Field*              
+^.^h| *Type*         
+^.^h| *Null*  
+^.^h| *Key* 
+^.^h| *Default* 
+^.^h| *Extra* 
+
+| id               | int          | NO   | PRI | NULL    | auto_increment
+| vendor_member_id | varchar(128) | NO   |     | NULL    |
+| point            | int          | NO   |     | NULL    |
+| status           | smallint     | NO   |     | NULL    |
+| execute_date     | datetime(6)  | YES  |     | NULL    |
+| created_date     | datetime(6)  | NO   |     | NULL    |
+| updated_date     | datetime(6)  | YES  |     | NULL    |
+| order_id         | int          | YES  | UNI | NULL    |
+| vendor_id_id     | int          | NO   | MUL | NULL    |
+|===
+
+.merchant_vendorstockrecordthrough
+[cols="20%,20%,15%,15%,15%,15%",frame=all, grid=all]
+|===
+^.^h| *Field*              
+^.^h| *Type*         
+^.^h| *Null*  
+^.^h| *Key* 
+^.^h| *Default* 
+^.^h| *Extra* 
+
+| id             | int         | NO   | PRI | NULL    | auto_increment
+| point          | int         | NO   |     | NULL    |
+| created_date   | datetime(6) | NO   |     | NULL    |
+| updated_date   | datetime(6) | YES  |     | NULL    |
+| stockrecord_id | int         | YES  | MUL | NULL    |
+| updated_by_id  | int         | YES  | MUL | NULL    |
+| vendor_id_id   | int         | NO   | MUL | NULL    |
+|===
+
+==== Proses Implementasi
+
+* Membangun _endpoint_ `REST API` yang akan digunakan _frontend_ (*Alicanto*) untuk berinteraksi dengan sistem _backend_ (*Chital*). _Endpoint_ ini memiliki fungsi-fungsi standar *CRUD* (Create, Read, Update, Delete).
+* Membuat `job scheduler` yang akan digunakan oleh fitur merchant melakukan accrual ke _vendor_ yang ditentukan.
+
+==== Overview
+
+* *List Seingat*
+
+.PATCH /api/v1/carts/merchant/
+Request
+[source,json]
+{
+  "lines": [
+    {
+      "merchant": {uuid}
+    }
+  ]
+}
+
+Response
+[source,json]
+{
+  "id": 0,
+  "status": "Open",
+  "url": "http://example.com",
+  "owner": "http://example.com",
+  "lines": [
+    {
+      "stockrecord": {
+        "product_label": "string",
+        "admin_fee": "string",
+        "is_admin_fee_kraken": true
+      },
+      "attributes": [
+        {
+          "option": {
+            "name": "string",
+            "code": "string"
+          },
+          "value": "string"
+        }
+      ],
+      "product": {
+        "url": "http://example.com",
+        "title": "string",
+        "product_class": {
+          "name": "string",
+          "slug": "string"
+        }
+      }
+    }
+  ],
+  "total_excl_fee": "string",
+  "total_incl_fee": "string",
+  "contains_a_voucher": "string",
+  "voucher": {
+    "name": "string",
+    "code": "string",
+    "start_datetime": "2021-05-05T03:18:58Z",
+    "end_datetime": "2021-05-05T03:18:58Z"
+  },
+  "contains_a_merchant": "string",
+  "merchant_label": "string",
+  "merchant_point": "string",
+  "meowth_error": "string"
+}
+
+
+==== Technical Terms
+
+*Vendor* :: Merchant partner dengan sepulsa.com
+
+*Vendor Member ID* :: Member ID yang digunakan sebagai identifier dari tiap vendor, bisa berbeda tiap vendor.
+
+*Accrual* :: Penambahan poin kepada vendor sesuai kesepakatan bisnis.

@@ -1,0 +1,64 @@
+= Developer Onboarding Elisian
+
+== Prerequisites
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Specification* 
+^.^h| *Description*
+
+| Programming Language 
+| PHP CLI v7.1.x or later
+
+| Web Framework 
+| Laravel v5.5
+
+| Composer Package Manager 
+| https://getcomposer.org/download/[]
+
+| Database 
+| MySQL v5.5.x or later
+
+| Queue and Cache system 
+| Redis v5 or later
+|===
+
+=== Tools
+
+Beberapa _tools_ yang disarankan untuk _Development_ adalah sebagai berikut:
+
+1. MAMP
+2. Visual Code Studio
+3. Sublime Text
+
+==== Local Machine Setup
+
+1.  _Download_ _project_ ini dari github _repository_ "https://github.com/sepulsa/elisian".
+2.  Buat _database_ dengan nama `elisian` di dalam _local environment_-mu.
+3. `cp .env.example .env` dan atur _local configurations_.
+4. `composer install` untuk _install dependency packages_.
+5.  `php artisan migrate --seed` untuk _migrate_ dan _seeding database_.
+6.  `sudo chmod -R 0777 storage && sudo chmod -R 0777 public/file` untuk memastikan _storage directories_ punya _permissions_ yang tepat.
+7.  Atur _supervisor configuration_-mu seperti berikut:
++
+....
+ [program:elisian-worker]
+
+ process_name=%(program_name)s_%(process_num)02d
+
+ command=php /home/forge/example.com/artisan queue:work --sleep=3 --tries=3 --daemon
+
+ autostart=true
+
+ autorestart=true
+
+ user=forge
+
+ numprocs=3
+
+ redirect_stderr=true
+
+ stdout_logfile=/home/forge/example.com/storage/logs/supervisor.l
+....
+
+8. `composer dump-autoload && php artisan clear-compiled && php artisan auth:clear-resets && php artisan cache:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear` untuk membersihkan _project cache_.

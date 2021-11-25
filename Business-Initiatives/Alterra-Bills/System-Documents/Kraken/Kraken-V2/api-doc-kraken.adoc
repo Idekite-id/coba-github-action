@@ -1,0 +1,5 @@
+= API Documentation Kraken V2
+
+https://krakenv2.sumpahpalapa.com/swagger/[]
+
+Untuk melihat admin API, ubah alamat spesifikasi menjadi `v3/kraken-all-3.0.yaml`.

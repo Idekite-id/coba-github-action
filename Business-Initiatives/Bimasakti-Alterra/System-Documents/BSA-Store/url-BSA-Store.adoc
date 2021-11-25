@@ -1,0 +1,18 @@
+= System URL BSA Store
+
+Saat ini sistem BSA Store sedang dalam tahap development/ production (masukkan stage sistem), informasi akses dapat dilihat melalui tabel di bawah ini. Gunakan alias, _username_, dan _password_ yang sudah terdaftar untuk mengakses sistem.
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+|Development 
+| https://aquila-bsa-testing.azurewebsites.net/[]
+
+|Staging 
+| https://aquila-bsa-testing.azurewebsites.net/[]
+
+|Production 
+| https://aquila.bsa.id/[]
+|===

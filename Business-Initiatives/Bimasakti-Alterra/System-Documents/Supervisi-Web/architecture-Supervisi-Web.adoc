@@ -1,0 +1,28 @@
+= Architecture Supervisi Web
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem Supervisi Web:
+
+//image::./images-Supervisi-Web/Supervisi-Web-c2-diagram.png[Supervisi Web C2 Diagram]
+
+// Gambar dapat dimasukkan dalam folder "images-Supervisi-Web", dengan nama image yang dimulai dengan nama sistem, contoh "Supervisi-Web-Image-Name.png"
+
+Sistem ini merupakan bagian dari Bimasakti Alterra. Untuk lebih detail terkait hubungan Supervisi Web dengan sistem Bimasakti Alterra lainnya, silakan mengakses diagram C1 berikut.
+
+== Related System
+
+Supervisi Web terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Supervisi Web.
+
+[cols="10%,30%,30%,30%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+| *Supervisi Web*
+|
+a| 
+a|
+|===

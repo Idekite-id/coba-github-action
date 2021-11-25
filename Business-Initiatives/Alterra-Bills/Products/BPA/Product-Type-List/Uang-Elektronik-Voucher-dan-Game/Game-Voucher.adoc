@@ -1,0 +1,106 @@
+= Game Voucher
+
+Game Voucher merupakan bentuk transaksi yang memiliki nilai uang dan dapat ditukarkan (_redeem_) untuk tujuan yang spesifik pada pihak vendor terkait. Biasanya Voucher bersifat sekali pakai.
+
+*Variasi Produk*
+
+Berikut ini adalah jenis-jenis voucher yang saat ini ada/akan tersedia untuk Partner, dimana masing-masing jenis voucher memiliki publisher yang berbeda-beda:
+
+- Voucher Game
++
+Voucher game adalah voucher yang nilainya berupa poin yang dapat digunakan untuk transaksi di dalam platform seperti steam ataupun di dalam game itu sendiri.
+
+- Voucher Subscription
++
+Merupakan voucher untuk layanan berlangganan, ketika di-_redeem_ voucher ini dapat digunakan untuk memperpanjang durasi berlangganan pengguna.
+
+*Perilaku dan Cara Penggunaan Produk*
+
+Berdasarkan cara _redeem_:
+
+. Serial number + Voucher code
++
+- Serial number: Nomor serial produk, untuk keperluan dispute baik oleh partner, maupun ke biller. Serial number dapat digunakan untuk komplain ke publisher game jika customer tidak dapat redeem vouchernya.
+- Voucher code: Untuk di-_redeem_
+
+. Serial number + Voucher password/pin
++
+- Serial number: Nomor serial produk, untuk keperluan dispute baik oleh partner, maupun ke biller. Serial number dapat digunakan untuk komplain ke publisher game jika customer tidak dapat menukar voucher
+- Voucher password/pin: Untuk di-_redeem_
+
+. Serial number + voucher code + voucher password/pin
++
+- Serial number: Nomor serial produk, untuk keperluan dispute baik oleh partner, maupun ke biller. Serial number dapat digunakan untuk komplain ke publisher game jika customer tidak dapat menukarkan vouchernya.
+- Voucher code: Untuk di-_redeem_
+- Voucher password/pin: Untuk di-_redeem_
+
+. Managemen_code, pada sebagian voucher game berfungsi sama dengan serial number
+
+. Setiap voucher game memiliki cara _redeem_ yang berbeda-beda.
+
+. Voucher game di _Switching Engine_ berbeda bergantung saat _mapping_ Biller.
+
+*Customer Journey*
+
+. Customer memilih produk voucher yang ingin dibeli (sesuai dengan publisher dan nominalnya)
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dan detail voucher dari Aplikasi Client, dalam hal ini Partner yang terhubung dengan Sistem Sepulsa
+
+image::../../../images-bpa/flow-journey-voucher-game.png[align="center"]
+
+*Daftar Biller*
+
+|===
+|Name |Level| Biller Type| Payment| Produk
+
+|Unipin
+|
+|
+|
+|Game Voucher
+
+|AyoPay
+|
+|Non-Direct
+|Settlement
+|Game Voucher
+
+|Blackhawk
+|Principal
+|Non-Direct
+|Settlement
+|Game Voucher, Spotify
+
+|Snapask
+|Principal
+|
+|
+|Subscription
+
+|Dolphin
+|
+|
+|
+|Game Voucher
+
+|HitenGaming
+|
+|
+|
+|Game Voucher
+
+|Mimopay
+|
+|
+|
+|Game Voucher
+
+|Triyakom
+|
+|
+|
+|Game Voucher
+
+|===

@@ -1,0 +1,73 @@
+= SiPintar BSHPD ver 4
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem. 
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem SiPintar BSHPD ver 4. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Tuagus Mardeka 
+| Sofware Engineer 
+| dika@bsa.id
+
+| Detut Indra 
+| Sofware Engineer 
+| detut@bsa.id
+
+| Angga Wira Prayudi 
+| Sofware Engineer 
+| prayudi@bsa.id
+
+| Prawira Ariadi (menk) 
+| Sofware Engineer 
+| wira@bsa.id
+|===
+
+== Technical Information
+
+//Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan. 
+
+<<./url-SiPintar-BSHPD-ver-4.adoc#, System URL SiPintar BSHPD ver 4>>
+
+<<./architecture-SiPintar-BSHPD-ver-4.adoc#, Architecture SiPintar BSHPD ver 4>>
+
+<<./technology-SiPintar-BSHPD-ver-4.adoc#, Technology SiPintar BSHPD ver 4>>
+
+<<./environment-SiPintar-BSHPD-ver-4.adoc#, Environment SiPintar BSHPD ver 4>>
+
+<<./database-SiPintar-BSHPD-ver-4.adoc#, Database Documentation SiPintar BSHPD ver 4>>
+
+<<./release-deploy-SiPintar-BSHPD-ver-4.adoc#, Release and Deployment SiPintar BSHPD ver 4>>
+
+<<./flow-wire-SiPintar-BSHPD-ver-4.adoc#, Flow and Wireframe SiPintar BSHPD ver 4>>
+
+== Onboarding Information
+
+<<./dev-onboarding-SiPintar-BSHPD-ver-4.adoc#, Developer Onboarding SiPintar BSHPD ver 4>>
+
+<<./development-SiPintar-BSHPD-ver-4.adoc#, Development SiPintar BSHPD ver 4>>
+
+<<./naming-convention-SiPintar-BSHPD-ver-4.adoc#, Naming Convention SiPintar BSHPD ver 4>>
+
+== Documentation
+
+//Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+//User Guide (jika ada, external link)
+
+//Dokumen Integrasi (jika ada, external link)
+
+//Dokumen Maintenance (jika ada, external link)
+
+//Dokumen API (jika ada, external link)
+
+<<./release-note-SiPintar-BSHPD-ver-4.adoc#, Release Note SiPintar BSHPD ver 4>>

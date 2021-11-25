@@ -1,0 +1,29 @@
+= Product Type List
+
+Berikut adalah kategori produk yang dimiliki Sepulsa.
+
+link:./BPJS-Kesehatan/index.adoc[BPJS Kesehatan]
+
+link:./Internet-dan-TV-Kabel/index.adoc[Internet dan TV Kabel]
+
+link:./Kartu-Kredit/index.adoc[Kartu Kredit]
+
+link:./Listrik-PLN/index.adoc[Listrik PLN]
+
+link:./Paket-Data/index.adoc[Paket Data]
+
+link:./Pasca-Bayar/index.adoc[Pasca Bayar]
+
+link:./PDAM/index.adoc[PDAM]
+
+link:./Pulsa/index.adoc[Pulsa]
+
+link:./Sepulsa-Berkah/index.adoc[Sepulsa Berkah]
+
+link:./Telkom/index.adoc[Telkom]
+
+link:./Uang-Elektronik/index.adoc[Uang Elektronik]
+
+link:./Voucher-Game/index.adoc[Voucher Game]
+
+link:./Voucher-Streaming/index.adoc[Voucher Streaming]

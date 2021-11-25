@@ -1,0 +1,18 @@
+= System URL Proteus Core
+
+Berikut adalah URL yang dapat digunakan untuk mengakses sistem Proteus Core:
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+| Development/Staging
+| https://proteuscore.sumpahpalapa.com
+
+| UAT
+| https://proteuscore-uat.sumpahpalapa.com
+
+| Production
+| https://proteus-core.konekto.id
+|===

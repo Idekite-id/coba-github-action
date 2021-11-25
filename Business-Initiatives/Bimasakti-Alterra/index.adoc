@@ -1,0 +1,13 @@
+= Bimasakti Alterra
+
+Bimasakti Alterra adalah _company_ bagian dari Alterra yang melayani kebutuhan bisnis dan organisasi seperti PDAM, Rumah Sakit, Dinas, dan Badan Pemerintah Daerah dalam penyedian aplikasi bisnis dan operasional.
+
+Dalam halaman ini, kamu dapat mengakses berbagai informasi Bimasakti Alterra, yang di antaranya adalah:
+
+link:./Company/index.adoc[Company]
+
+link:./Governance-Documents/index.adoc[Governance Documents]
+
+link:./Guidelines/index.adoc[Guidelines]
+
+link:./System-Documents/index.adoc[System Documents]

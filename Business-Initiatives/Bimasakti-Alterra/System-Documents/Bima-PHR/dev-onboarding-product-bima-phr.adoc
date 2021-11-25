@@ -1,0 +1,35 @@
+= Product Resources Bima PHR
+
+|===
+| *Nama* | *URL*
+
+| Existing Production
+| https://dash.bimaphr.id
+
+| User Flow Eksisting BimaPHR
+| https://whimsical.com/7CzfwzFu3osyzEyAmfiKb7
+
+| BimaPHR Product Plan
+| https://docs.google.com/spreadsheets/d/1Qk0eD8If_vHy0kFM95Ee3ktbP1zc2Mrg5X3B_7iRJYE/edit?usp=sharing
+
+| Wireframe New Epics
+| https://xd.adobe.com/view/575e2920-502e-42d0-4bc4-41095114fbd4-216f/
+
+| Development and Testing Environment
+| http://10.117.207.199:8808/ (VPN required)
+
+| Staging Environment
+| https://bimaphr.sumpahpalapa.com/
+
+| Production Environment
+| http://bimaphr.alterra.id/
+
+| API BimaPHR Rev 2.1
+| https://documenteer.getpostman.com/view/9624716/SWT5jgT3?version=latest#cac800a0-ffff-4468-9c33-81dd5b7d9b0d
+
+| Repository
+| https://gitlab.alterra.id/alterra/merlin/targaryen/bima-phr
+
+| Dokumen Lainnya
+| https://docs.google.com/spreadsheets/d/1zmDxKZdW-DTMTnAi3zG93C413scjyK1gL_xeaJAgXF4/edit#gid=0[User Lainya], https://docs.google.com/spreadsheets/d/1OhEuujDvguldHPgOEXe_rPBQ0Qu5EdWkzl9Apawt-OY/edit#gid=1734764227[Concern to BimaPHR] + <<BimaPHR/bimaphr-devonboard-reuse,Reuse Function>>
+|===

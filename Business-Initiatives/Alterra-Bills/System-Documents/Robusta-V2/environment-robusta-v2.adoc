@@ -1,0 +1,151 @@
+= Environment Robusta V2
+
+Berikut merupakan informasi mengenai _environment_ dari sistem Robusta V2:
+
+== Development/Staging
+
+=== MyXL
+
+|===
+| *Name* | *Specs*
+
+| IP Address
+| 103.117.207.13
+
+| URL
+| https://myxl-uat.alphabill.id/
+
+| Doc Root
+| /sepulsa/www/myxlrobusta
+
+| Service Name
+| myxl-***
+
+| DB Server
+| localhost:33**
+
+| Git Branch
+| robustav2- dev-xl
+|===
+
+=== MyAxis
+
+|===
+| *Name* | *Specs*
+
+| IP Address
+| 103.117.207.62
+
+| URL
+| https://myaxis-uat.alphabill.id/
+
+| Doc Root
+| /sepulsa/www/myaxisrobusta
+
+| Service Name
+| myaxis-***
+
+| DB Server
+| localhost:33**
+
+| Git Branch
+| robusta-axis - dev
+|===
+
+=== MyPrio
+
+|===
+| *Name* | *Specs*
+
+| IP Address
+| 34.101.179.198
+
+| URL
+| https://xlprio-uat.alphabill.id/
+
+| Doc Root
+| alphabill/www/xlpriorobusta
+
+| Service Name
+|
+
+| DB Server
+| localhost:33**
+
+| Git Branch
+| robusta-xlppob - staging
+|===
+
+== Production
+
+=== MyXL
+
+|===
+| *Name* | *Specs*
+
+| IP Address
+| 13.251.78.95
+
+| URL
+| https://myxl.alphabill.id/
+
+| Doc Root
+| /sepulsa/www/myxlrobusta
+
+| Service Name
+| MyXL-Civet-Alphabill-110618
+
+| DB Server
+| localhost:3306
+
+| Git Branch
+| robustav2-dev-xl
+|===
+
+=== MyPrio
+
+|===
+| *Name* | *Specs*
+
+| IP Address
+| 34.101.109.225
+
+| URL
+| https://xlprio.alphabill.id/
+
+| Doc Root
+| /alphabill/www/xlpriorobusta
+
+| Service Name
+| -
+
+| DB Server
+| localhost:33**
+
+| Git Branch
+| robusta-xlppob - dev
+|===
+
+=== MyAxis
+
+|===
+| *Name* | *Specs*
+
+| IP Address
+| 34.101.177.19
+
+| URL
+| https://myaxis.alphabill.id/
+
+| Doc Root
+| /sepulsa/www/myaxisrobusta
+
+| Service Name
+| myaxis-***
+
+| DB Server
+| localhost:33**
+
+| Git Branch
+| robusta-axis - dev
+|===

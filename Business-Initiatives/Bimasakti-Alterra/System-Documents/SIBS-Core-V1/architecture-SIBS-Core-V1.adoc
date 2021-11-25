@@ -1,0 +1,28 @@
+= Architecture SIBS Core V1
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem SIBS Core V1:
+
+//image::./images-SIBS-Core-V1/SIBS-Core-V1-c2-diagram.png[SIBS Core V1 C2 Diagram]
+
+// Gambar dapat dimasukkan dalam folder "images-SIBS-Core-V1", dengan nama image yang dimulai dengan nama sistem, contoh "SIBS-Core-V1-Image-Name.png"
+
+Sistem ini merupakan bagian dari Bimasakti Alterra. Untuk lebih detail terkait hubungan SIBS Core V1 dengan sistem Bimasakti Alterra lainnya, silakan mengakses diagram C1 berikut.
+
+== Related System
+
+SIBS Core V1 terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan SIBS Core V1.
+
+[cols="10%,30%,30%,30%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+| *SIBS Core V1*
+|
+a| 
+a|
+|===

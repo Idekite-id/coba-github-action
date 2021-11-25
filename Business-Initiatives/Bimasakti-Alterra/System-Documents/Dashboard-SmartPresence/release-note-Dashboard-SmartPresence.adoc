@@ -1,0 +1,3 @@
+= Release Note Dashboard SmartPresence
+
+Berisi catatan rilis sistem.

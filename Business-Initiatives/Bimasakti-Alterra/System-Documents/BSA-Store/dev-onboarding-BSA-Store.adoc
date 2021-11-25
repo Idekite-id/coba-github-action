@@ -1,0 +1,36 @@
+= Developer Onboarding BSA Store
+
+Berisi dokumentasi tentang hal-hal yang harus dilakukan oleh developer pada tahap _onboarding_. Biasanya berisi 2 poin utama berupa _tools_ yang dipakai dan tutorial untuk menginstal sistem di lokal.
+
+== Tools
+
+1. C# Programming language (Xamarin Framework)
+2. Visual Studio >= Version 8.7.8
+
+== Local Machine Setup
+
+1. Install Visutal Studio (https://visualstudio.microsoft.com/downloads/[])
+2. Download and install SDK Android (https://developer.android.com/studio[])
+3. Pull data from repo (https://github.com/bimasaktialterra/bsastore-mobileapps[])
+4. Run Visual Studio with internet connection for build dependency project.
+5. Create device : Emulator Android, Tools - Device Manage - New Device Real device Android, Plug your android phone to pc (make sure development mode & usb debugging is enable)
+6. Run app, right click on android folder bsastore.Android - Run Project.
+
+== Folder Structure
+
+1. `bsastore` : Folder for xamarin forms (universal code)
+2. `Models` : Folder Models data, defines the structure of the system by identifying the static structure of objects in that system
+3. `Properties` : Values for publish data.
+4. `Resources` : Files assets (icons, images, fonts, custom functions)
+5. `ViewModels` : Business logic class, responsible for preparing and managing the data for an Activity.
+6. `Views` : View data and layout class (XAML, and .CS)
+7. `bsastore.Android` : Folder for android project structure.
+8. `bsastore.IOS` : Folder for IOS project structure.
+
+== Unit Test
+
+Project for unit testing on Folder UnitTest
+
+1. Using NUnit for testing framework (version 3.12.0)
+2. Using Moq for mocking framework (version 12.0.3)
+3. Generate code coverage from visual studio enterprise (Windows)

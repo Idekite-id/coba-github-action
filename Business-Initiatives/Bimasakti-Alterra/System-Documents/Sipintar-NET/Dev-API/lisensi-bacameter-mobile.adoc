@@ -1,0 +1,538 @@
+= Development API Lisensi Bacameter Mobile Sipintar.NET
+
+:source-highlighter: rouge
+:source-language: C#
+
+Berisi langkah development API untuk CRUD Lisensi Bacameter Mobile.
+
+== Development Step
+
+=== 1. Membuat Tabel
+
+Pada tahap ini, kita membuat suatu tabel untuk menyimpan data yang akan diolah oleh API. Buatlah tabel sesuai kebutuhan pengolahan data.
+
+=== 2. Membuat Entity Model
+
+Kemudian, kita membuat suatu _class Model_ pada _folder_ `+..\Modules\AppPersistence.Mysql\Models+` untuk merepresentasikan _table entity_ yang akan kita gunakan dari _database_. Definisikan nama tabel menggunakan anotasi `+Table("{nama_table}")+`` apabila nama tabel berbeda dengan nama _class_. 
+
+____
+    using System;
+    using System.ComponentModel.DataAnnotations.Schema;
+
+    namespace AppPersistence.Mysql.Models
+    {
+        [Table("lisensi_bacameter_mobile")]
+        public class LisensiBacameterMobile
+        {
+            public int? IdPdam { get; set; }
+            public int? IdLisensi { get; set; }
+            public int? IdPetugasBaca { get; set; }
+            public bool? FlagHapus { get; set; }
+            public string KodeDevice { get; set; }
+            public string KodeLisensi { get; set; }
+            public DateTime? WaktuUpdate { get; set; }
+        }
+    }
+____
+
+=== 3. Mendaftarkan Model
+
+Selanjutnya, kita daftarkan Model yang telah kita buat tadi pada file <<../../Modules/AppPersistence.Mysql/AppDbContext.cs, ../Modules/AppPersistence.Mysql/AppDbContext.cs>> seperti berikut:
+
+____
+    public DbSet<LisensiBacameterMobile> LisensiBacameterMobile { get; set; }
+____
+
+Kemudian pada _function_ `+OnModelCreating+` seperti berikut:
+
+____
+    #region LisensiBacameterMobile
+    {modelBuilder.Entity<LisensiBacameterMobile>(entity =>
+    {
+        entity.HasKey(c => c.IdLisensi);
+    });
+    #endregion
+____
+
+=== 4. Membuat Data Transfer Objects (DTO)
+
+Pada tahap ini kita membuat DTO pada _folder_ `+..\Business\AppBusiness.Data\DTOs+` untuk merepresentasikan data yang dikirim dari _Adapter_ agar bisa diproses pada _layer Business_
+
+____
+    using System;
+
+    namespace AppBusiness.Data.DTOs
+    {
+        public class LisensiBacameterMobileDto
+        {
+            public int? IdPdam { get; set; }
+            public int? IdLisensi { get; set; }
+            public int? IdPetugasBaca { get; set; }
+            public string KodeDevice { get; set; }
+            public string KodeLisensi { get; set; }
+            public bool? FlagHapus { get; set; } = false;
+            public DateTime? WaktuUpdate { get; set; }
+            public int? IdUserRequest { get; set; }
+        }
+    }
+____
+
+=== 5. Mendaftarkan Model dan DTO pada AutoMapper
+
+Pada tahap ini kita mendaftarkan Model dan DTO yang telah kita buat pada AutoMapper pada file <<../../Modules/AppPersistence.Mysql/Utility/AutoMapperProfile.cs, ../Modules/AppPersistence.Mysql/Utility/AutoMapperProfile.cs>>, sehingga kita dapat memetakan _property_ dari Model ke DTO maupun sebaliknya.
+
+____
+    CreateMap<LisensiBacameterMobile, LisensiBacameterMobileDto>().ReverseMap();
+____
+
+=== 6. Membuat Repository
+
+Kemudian kita membuat _Repository_ untuk melakukan pengolahan data dari _database_, tetapi sebelumnya kita buat dahulu _Interface_ dari _Repository_ tersebut pada _directory_ `+..\Business\AppPersistence.Interface\Interfaces+`
+
+____
+    using AppBusiness.Data.DTOs;
+    using AppBusiness.Data.Responses;
+    using System.Threading.Tasks;
+
+    namespace AppPersistence.Interface
+    {
+        public interface ILisensiBacameterMobile
+        {
+            Task<RepositoryResponse> GetData(LisensiBacameterMobileDto param);
+            Task<RepositoryResponse> AddData(LisensiBacameterMobileDto param);
+            Task<RepositoryResponse> UpdateData(LisensiBacameterMobileDto param);
+            Task<RepositoryResponse> DeleteData(LisensiBacameterMobileDto param);
+        }
+    }
+____
+
+Setelah itu, berdasarkan _Interface_ tersebut, kita membuat _Repository_ pada _directory_ `+..\Modules\AppPersistence.Mysql\Repositories+`
+
+____
+    ...
+
+    namespace AppPersistence.Mysql.Repositories
+    {
+        public class LisensiBacameterMobileRepository : ILisensiBacameterMobile
+        {
+            private readonly IMapper _mapper;
+
+            public LisensiBacameterMobileRepository(IMapper mapper)
+            {
+                _mapper = mapper;
+            }
+
+            public async Task<RepositoryResponse> GetData(LisensiBacameterMobileDto param)
+            {
+                var watch = Stopwatch.StartNew();
+
+                RepositoryResponse response = new RepositoryResponse()
+                {
+                    Status = false,
+                    Message = !param.IdPdam.HasValue ? "ID PDAM Tidak Boleh Kosong !" : null
+                };
+
+                ...
+
+                watch.Stop();
+                AppResponseGetData.Time_Ex_Repo = watch.ElapsedMilliseconds;
+                return response;
+            }
+
+            public async Task<RepositoryResponse> AddData(LisensiBacameterMobileDto param)
+            {
+                var watch = Stopwatch.StartNew();
+
+                RepositoryResponse response = new RepositoryResponse()
+                {
+                    Status = false,
+                    Message = Validasi(param)
+                };
+
+                ...
+
+                watch.Stop();
+                AppResponseProcessData.Time_Ex_Repo = watch.ElapsedMilliseconds;
+                return response;
+            }
+
+            public async Task<RepositoryResponse> UpdateData(LisensiBacameterMobileDto param)
+            {
+                var watch = Stopwatch.StartNew();
+
+                RepositoryResponse response = new RepositoryResponse()
+                {
+                    Status = false,
+                    Message = Validasi(param, true)
+                };
+
+                ...
+                
+                watch.Stop();
+                AppResponseProcessData.Time_Ex_Repo = watch.ElapsedMilliseconds;
+                return response;
+            }
+
+            public async Task<RepositoryResponse> DeleteData(LisensiBacameterMobileDto param)
+            {
+                var watch = Stopwatch.StartNew();
+                RepositoryResponse response = new RepositoryResponse()
+                {
+                    Status = false,
+                    Message = Validasi(param, true)
+                };
+
+                ...
+
+                watch.Stop();
+                AppResponseProcessData.Time_Ex_Repo = watch.ElapsedMilliseconds;
+                return response;
+            }
+
+            private string Validasi(LisensiBacameterMobileDto param, bool UpDelFlag = false)
+            {
+                if (UpDelFlag)
+                {
+                    return param.IdPdam.HasValue && param.IdLisensi.HasValue ? null : "ID PDAM dan ID Lisensi tidak boleh kosong!";
+                }
+
+                if (!param.IdPdam.HasValue)
+                    return "ID PDAM Tidak Boleh Kosong !";
+
+                if (!param.IdPetugasBaca.HasValue)
+                    return "ID User Tidak Boleh Kosong !";
+
+                if (string.IsNullOrWhiteSpace(param.KodeDevice))
+                    return "ID Device Tidak Boleh Kosong !";
+
+                if (string.IsNullOrWhiteSpace(param.KodeLisensi))
+                    return "Kode Lisensi Tidak Boleh Kosong !";
+
+                return null;
+            }
+
+        }
+    }
+____
+
+=== 7. Mendaftarkan Repository pada Persistence
+
+Pada tahap ini, kita akan mendaftarkan _service_ beserta _interface_ pada _Business_. _Interface_ akan kita daftarkan berupa _property instance_ pada _Persistent Interface_ di _file_ <<../../Business/AppPersistent.Interface/IPersistence.cs, ../Business/AppPersistent.Interface/IPersistence.cs>>
+
+____
+    ILisensiBacameterMobileService ILisensiBacameterMobileService { get; }
+____
+
+Kemudian kita mendaftarkan _Repository_ pada _Persistence_ pada _file_ <<../../Modules/AppPersistence.Mysql/Persistence.cs, ../Modules/AppPersistence.Mysql/Persistence.cs>> seperti berikut:
+
+Kita buat dulu _property instance_ dari _Interface_
+
+____
+    public ILisensiBacameterMobile LisensiBacameterMobile { get; protected set; }
+____
+
+kemudian pada _Constructor Persistence_ kita inisialisasikan _property_ tersebut dengan _repository_ yang kita buat
+
+____
+    LisensiBacameterMobile = new LisensiBacameterMobile_Repository_(new Mapper(configuration));
+____
+
+=== 8. Membuat Service
+
+Kemudian kita membuat _Service_ untuk meneruskan data dari Adapter ke REST API, tetapi sebelumnya kita buat dahulu _Interface_ dari _Service_ tersebut pada _directory_ `+..\Business\AppBusiness.Interface\Interfaces+`
+
+____
+    using AppBusiness.Data.DTOs;
+    using AppBusiness.Data.Responses;
+    using System.Threading.Tasks;
+
+    namespace AppBusiness.Interface
+    {
+        public interface ILisensiBacameterMobileService
+        {
+            Task<RepositoryResponse> Get(LisensiBacameterMobileDto param);
+            Task<RepositoryResponse> Add(LisensiBacameterMobileDto param);
+            Task<RepositoryResponse> Update(LisensiBacameterMobileDto param);
+            Task<RepositoryResponse> Delete(LisensiBacameterMobileDto param);
+        }
+    }
+____
+
+Setelah itu, berdasarkan _Interface_ tersebut, kita membuat _Service_ pada _directory_ `+..\Business\AppBusiness.Impl\Services+`
+
+____
+    using AppBusiness.Data.DTOs;
+    using AppBusiness.Data.Responses;
+    using AppBusiness.Interface;
+    using AppPersistence.Interface;
+    using System.Threading.Tasks;
+
+    namespace AppBusiness.Impl.Services
+    {
+        public class LisensiBacameterMobileService : ILisensiBacameterMobileService
+        {
+            private readonly ILisensiBacameterMobile lisensi;
+
+            public LisensiBacameterMobileService(IPersistence persistence)
+            {
+                lisensi = persistence.LisensiBacameterMobile;
+            }
+
+            public async Task<RepositoryResponse> Get(LisensiBacameterMobileDto param)
+            {
+                return await lisensi.GetData(param);
+            }
+
+            public async Task<RepositoryResponse> Add(LisensiBacameterMobileDto param)
+            {
+                return await lisensi.AddData(param);
+            }
+
+            public async Task<RepositoryResponse> Update(LisensiBacameterMobileDto param)
+            {
+                return await lisensi.UpdateData(param);
+            }
+
+            public async Task<RepositoryResponse> Delete(LisensiBacameterMobileDto param)
+            {
+                return await lisensi.DeleteData(param);
+            }
+        }
+    }
+____
+
+=== 9. Mendaftarkan Service pada Business
+
+Pada tahap ini kita akan mendaftarkan _service_ beserta _interface_ pada _Business_. _Interface_ akan kita daftarkan berupa _property instance_ pada _Business Interface_ di _file_ <<../../Business/AppBusiness.Interface/IBusiness.cs, ../Business/AppBusiness.Interface/IBusiness.cs>>
+
+____
+    ILisensiBacameterMobileService ILisensiBacameterMobileService { get; }
+____
+
+Kemudian kita mendaftarkan Service pada _Business_ pada _file_ <<../../Business/AppBusiness.Impl/Business.cs, ../Business/AppBusiness.Impl/Business.cs>> seperti berikut:
+
+Kita buat dulu _property instance_ dari _Interface_
+
+____
+    public ILisensiBacameterMobileService ILisensiBacameterMobileService { get; protected set; }
+____
+
+kemudian pada _Constructor Business_ kita inisialisasikan _property_ tersebut dengan parameter _interface service_
+
+____
+    public Business(
+        ...
+        ILisensiBacameterMobileService iLisensiBacameterMobileService,
+        ...)
+
+    {
+        ...
+        ILisensiBacameterMobileService = iLisensiBacameterMobileService;
+        ...
+    }
+____
+
+=== 10. Mendaftarkan Service pada Startup REST API
+
+Pada tahap ini kita akan mendaftarkan _service_ pada _Startup_ REST API di file <<../../Apps/RestApi/Startup.cs, ../Apps/RestApi/Startup.cs>>. Pada _function_ `+ConfigureServices+` tambahkan
+____
+    services.AddSingleton<ILisensiBacameterMobileService, LisensiBacameterMobileService>();
+____
+
+=== 11. Membuat Class untuk Body API
+
+Pada tahap ini kita membuat _Class_ untuk merepresentasikan Body API yang bisa diterima untuk diolah, terletak pada file <<../../Apps/RestApi/Controllers/ParameterModels/ParamLisensiBacameterMobile.cs, ../Apps/RestApi/Controllers/ParameterModels/ParamLisensiBacameterMobile.cs>>
+
+____
+    namespace RestApi.Controllers
+    {
+        public class ParamLisensiBacameterMobile
+        {
+            public int? IdPdam { get; set; }
+            public int? IdLisensi { get; set; }
+            public int? IdPetugasBaca { get; set; }
+            public string KodeDevice { get; set; }
+            public string KodeLisensi { get; set; }
+            public int? IdUserRequest { get; set; }
+        }
+        
+        public class ParamUpdateLisensiBacameterMobile
+        {
+            public int? IdPdam { get; set; }
+            public int? IdLisensi { get; set; }
+            public string KodeDevice { get; set; }
+            public string KodeLisensi { get; set; }
+            public int? IdUserRequest { get; set; }
+        }
+    }
+____
+
+=== 12. Mendaftarkan Param Body pada AutoMapper
+
+Pada tahap ini kita mendaftarkan Class Param Body API yang telah kita buat pada AutoMapper pada file <<../../Apps/RestApi/Utility/AutoMapperProfile.cs, ../Apps/RestApi/Utility/AutoMapperProfile.cs>>, sehingga kita dapat memetakan _property_ dari Class Param Body API ke DTO maupun sebaliknya.
+
+____
+    CreateMap<ParamLisensiBacameterMobile, LisensiBacameterMobileDto>().ReverseMap();
+    CreateMap<ParamUpdateLisensiBacameterMobile, LisensiBacameterMobileDto>().ReverseMap();
+____
+
+=== 13. Membuat Controller REST API
+
+Pada tahap ini kita membuat _Controller_ untuk REST API pada file <<../../Apps/RestApi/Controllers/LisensiBacameterMobileController.cs, ../Apps/RestApi/Controllers/LisensiBacameterMobileController.cs>>
+
+____
+    namespace RestApi.Controllers
+    {
+        [Produces("application/json")]
+        [TokenAuthorization]
+        [ApiController]
+        [ApiVersion("1")]
+        [ApiVersion("2")]
+        [Route("api/v{version:apiVersion}/lisensi-bacameter-mobile")]
+        [ApiExplorerSettings(GroupName = "API Bacameter Mobile")]
+        public class LisensiBacameterMobileController : ControllerBase
+        {
+            private readonly IMapper _mapper;
+            private readonly ILisensiBacameterMobileService lisensiService;
+            private readonly IMasterResponseUiService masterResponseUiService;
+            public bool InvokeException { get; set; } = false;
+            public bool InvokeExceptionInner { get; set; } = false;
+
+            public LisensiBacameterMobileController([FromServices] IBusiness business, IMapper mapper)
+            {
+                lisensiService = business.ILisensiBacameterMobileService;
+                masterResponseUiService = business.IMasterResponseUiService;
+                _mapper = mapper;
+            }
+
+            /// <summary>
+            /// {Tampilkan Daftar Lisensi Bacameter Mobile}
+            /// </summary>
+            /// <response code="200">Data Return</response>
+            /// <response code="400">Error</response> 
+            [HttpGet]
+            [Cached(60000)]
+            [MapToApiVersion("1")]
+            [ProducesResponseType(typeof(ExampleGetLisensiBacameterMobile), StatusCodes.Status200OK)]
+            [ProducesResponseType(typeof(ExampleError), StatusCodes.Status400BadRequest)]
+            public async Task<IActionResult> Get(int? IdUserRequest, int? IdPdam, int? IdUser)
+            {
+                ...
+            }
+
+            /// <summary>
+            /// {Tambah Daftar Lisensi Bacameter Mobile}
+            /// </summary>
+            /// <response code="201">Sukses/Ditolak</response>
+            /// <response code="400">Sistem Error</response> 
+            [HttpPost]
+            [MapToApiVersion("1")]
+            [ProducesResponseType(typeof(ExampleProcessDataSukses), StatusCodes.Status201Created)]
+            [ProducesResponseType(typeof(ExampleError), StatusCodes.Status400BadRequest)]
+            public async Task<IActionResult> Add([FromBody] ParamLisensiBacameterMobile input)
+            {
+                ...
+            }
+
+            /// <summary>
+            /// {Koreksi Daftar Lisensi Bacameter Mobile}
+            /// </summary>
+            /// <response code="201">Sukses/Ditolak</response>
+            /// <response code="400">Sistem Error</response> 
+            [HttpPatch]
+            [MapToApiVersion("1")]
+            [ProducesResponseType(typeof(ExampleProcessDataSukses), StatusCodes.Status201Created)]
+            [ProducesResponseType(typeof(ExampleError), StatusCodes.Status400BadRequest)]
+            public async Task<IActionResult> Update([FromBody] ParamUpdateLisensiBacameterMobile input)
+            {
+            ...
+            }
+
+            /// <summary>
+            /// {Hapus Daftar Lisensi Bacameter Mobile}
+            /// </summary>
+            /// <response code="201">Sukses/Ditolak</response>
+            /// <response code="400">Sistem Error</response> 
+            [HttpDelete]
+            [MapToApiVersion("1")]
+            [ProducesResponseType(typeof(ExampleProcessDataSukses), StatusCodes.Status201Created)]
+            [ProducesResponseType(typeof(ExampleError), StatusCodes.Status400BadRequest)]
+            public async Task<IActionResult> Delete(int? IdUserRequest, int? IdPdam, int? IdLisensi)
+            {
+                ...
+            }
+        }
+    }
+____
+
+=== 14. Membuat Response Sample
+
+Pada tahap ini, kita membuat _sample_ untuk _response_ dari _Controller_ REST API yang kita buat sebelumnya sehingga akan muncul di Swagger. Sebagai contoh kita membuat untuk _Response_ pada _Request_ GET, terlebih dahulu kita buat Class untuk merepresentasikan sample tersebut pada file <<../../Apps/RestApi/Supports/SwaggerExample/ExampleGetLisensiBacameterMobile.cs, ../Apps/RestApi/Supports/SwaggerExample/ExampleGetLisensiBacameterMobile.cs>>
+
+____
+    namespace RestApi.Supports.SwaggerExample
+    {
+        public class ExampleGetLisensiBacameterMobile : AppResponseGetData { }
+
+        public class ResultExampleGetLisensiBacameterMobile : IExamplesProvider<ExampleGetLisensiBacameterMobile>
+        {
+            public ExampleGetLisensiBacameterMobile GetExamples()
+            {
+                List<LisensiBacameterMobileDto> data = new List<LisensiBacameterMobileDto>();
+
+                data.Add(new LisensiBacameterMobileDto
+                {
+                    IdUserRequest = 1,
+                    IdPdam = 1,
+                    IdLisensi= 1,
+                    IdPetugasBaca = 5,
+                    KodeDevice = "Kode Device 1",
+                    KodeLisensi = "Kode Lisensi 1",
+                    FlagHapus = false,
+                    WaktuUpdate = DateTime.Now
+                });
+                data.Add(new LisensiBacameterMobileDto
+                {
+                    IdUserRequest = 1,
+                    IdPdam = 1,
+                    IdLisensi = 2,
+                    IdPetugasBaca = 6,
+                    KodeDevice = "Kode Device 2",
+                    KodeLisensi = "Kode Lisensi 2",
+                    FlagHapus = false,
+                    WaktuUpdate = DateTime.Now
+                });
+
+                return new ExampleGetLisensiBacameterMobile
+                {
+                    Status = true,
+                    Ui_msg = null,
+                    System_msg = null,
+                    TotalRecord = data.Count,
+                    Execution_time = 100,
+                    Execution_time_repo = 100,
+                    Data = data
+                };
+            }
+        }
+    }
+____
+
+Kemudian pada _Controller_ tambahkan Anotasi [ProducesResponseType(typeof(ExampleGetLisensiBacameterMobile), StatusCodes.Status200OK)] sehingga _sample response_ yang telah kita buat akan ditampilkan pada Swagger sesuai _Status Code_ yang dihasilkan oleh _Response_
+
+____
+    /// <summary>
+    /// {Tampilkan Daftar Lisensi Bacameter Mobile}
+    /// </summary>
+    /// <response code="200">Data Return</response>
+    /// <response code="400">Error</response> 
+    [HttpGet]
+    [Cached(60000)]
+    [MapToApiVersion("1")]
+    [ProducesResponseType(typeof(ExampleGetLisensiBacameterMobile), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ExampleError), StatusCodes.Status400BadRequest)]
+    public async Task<IActionResult> Get(int? IdUserRequest, int? IdPdam, int? IdUser)
+    {
+        ...
+    }
+____

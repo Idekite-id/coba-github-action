@@ -1,0 +1,52 @@
+= Environment Nadiabot
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Stage* 
+^.^h| *Environment* 
+^.^h| *Specs* 
+
+1.7+|Development 
+|IP Address 
+|
+
+|IP Address 
+|
+
+|URL 
+|
+
+|Doc Root 
+|
+
+|Service Name 
+|
+
+|DB Server 
+|
+
+|Git Repo 
+|
+
+1.7+|Production 
+|DB Server 
+|
+
+|IP Address 
+|
+
+|URL 
+|
+
+|Doc Root 
+|
+
+|Service Name 
+|
+
+|DB Server 
+|
+
+|Git Repo 
+|
+|===

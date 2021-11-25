@@ -1,0 +1,5 @@
+= Sequence Diagram Hydra
+
+== Workflow Hydra MS
+
+image::images-hydra/hydra-sequence-diagram.png[Hydra Sequence Diagram]

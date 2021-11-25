@@ -1,0 +1,15 @@
+= Setting Paraf TTD Laporan
+
+Untuk _setting_ paraf TTD Laporan, _User_ dapat mengikuti langkah-langkah berikut.
+
+image::../images-gudang/gudang-pengaturan-paraf-ttd.png[align="center"]
+
+1. Pilih menu *Pengaturan Umum*
+2. Klik pada ikon *Paraf TTD Laporan*
+3. _Pop up_ data paraf TTD laporan akan muncul, klik pada tombol *plus (+)* di pojok kiri bawah
++
+image::../images-gudang/gudang-pengaturan-paraf-ttd-1.png[align="center"]
+4. Tambahkan *nama, jabatan,* dan *NIK* pada row yang baru saja muncul. Klik pada ikon centang *(✓)* setelah _entry_ data
+
+Untuk mengubah data Paraf TTD Laporan, anda bisa memilih data Paraf pada daftar data Paraf TTD Laporan, kemudian ubah data.
+

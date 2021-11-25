@@ -1,0 +1,8 @@
+= API Documentation Meowth
+
+. Staging https://meowth.sepulsa.co.id/apidoc/[]
+. UAT https://meowth-uat.sumpahpalapa.com/apidoc/[]
+
+== Credential Database Meowth
+
+Anda dapat menghubungi Tim Development Meowth untuk mendapatkan akses ke database sistem

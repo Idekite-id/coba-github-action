@@ -1,0 +1,3 @@
+= Naming Convention Meowth
+
+Sistem Meowth dibangun menggunakan Lumen (Laravel framework), cek https://github.com/alexeymezenin/laravel-best-practices#follow-laravel-naming-conventions[halaman berikut] untuk informasi lebih lengkap tentang Lumen.

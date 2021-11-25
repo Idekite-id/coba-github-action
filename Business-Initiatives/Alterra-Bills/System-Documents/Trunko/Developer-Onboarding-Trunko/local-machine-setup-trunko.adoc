@@ -1,0 +1,203 @@
+= Local Machine Setup Trunko
+
+____
+Step by Step installing Trunko in your Local Machine
+____
+
+== Prerequisites
+
+=== Version Control System
+Version control system (VCS) adalah sistem yang merekam perubahan pada file atau kumpulan file dari waktu ke waktu sehingga Anda dapat _recall_ versi tertentu di kemudian hari jika dibutuhkan. Dalam pengembangannya, Trunko menggunakan https://github.com/[Github] sebagai _versioning control tools_.
+
+Anda dapat menggunakan _git client_ apapun sesuai kebutuhan.
+
+
+
+Salah satu _git client_ yang ada adalah Tower. Anda bisa _install_ Tower dan menggunakan Github di macOS dengan mengikuti langkah di bawah ini:
+
+1. _Download_ Tower https://www.git-tower.com/mac[di sini]
+2. Buka aplikasinya, kemudian ikuti petunjuk instalasinya.
+3. _Click_ File.
+4. _Click_ Clone Git Repository.
+5. Isi _remote url_.
+6. _Click_ Clone.
+
+Untuk informasi lebih lanjut tentang penggunaan Tower, Anda dapat merujuk pada https://www.git-tower.com/learn/[halaman web berikut].
+
+
+
+Untuk aplikasi Source Tree, anda dapat melakukan https://www.sourcetreeapp.com/[_download_ di sini].
+
+
+
+Untuk aplikasi Github Desktop, anda dapat melakukan https://desktop.github.com/[_download_ di sini].
+
+
+=== Golang
+Trunko adalah sistem yang dikembangkan menggunakan Golang. Golang adalah bahasa pemrograman _open source_ yang dapat dengan mudah digunakan untuk membangun perangkat lunak yang sederhana, _reliable_ dan efisien.
+
+**Installation Step**
+
+
+1. Pilih *Go version* dan *Download* macOS *package installer* https://golang.org/dl/[di sini].
+2. Buka dan ikuti petunjuk untuk menginstal *Go tools*.
+3. Paket menginstal distribusi *Go* ke `/usr/local/go`.
+4. Pastikan Anda memiliki variabel lingkungan ini atau menambahkannya di `~/.bash_profile`
+
+- `export GOPATH=$HOME/go`
+- `export GOBIN=$GOPATH/bin`
+5. Uji instalasi Anda dengan instruksi langkah demi langkah yang ditulis https://golang.org/doc/install#testing[di sini].
+6. Anda juga dapat menguji instalasi *Go* Anda berdasarkan jenis `go version` di dalam _terminal_ Anda. Jika instalasinya benar, Anda akan melihat versi Golang Anda.
+
+
+=== File Watcher
+
+Jika ada perubahan yang dibuat dalam program Golang, Anda harus _build_ program lagi untuk memeriksa efeknya. Hal tersebut tentu akan membuang-buang waktu karena _developer_ biasanya cenderung sering mengubah _code_. Anda dapat menggunakan "Gin" untuk mengatasi masalah ini.
+
+Gin adalah _command line utility_ sederhana untuk yang digunakan untuk _live-reloading_aplikasi web Go_. Anda dapat menjalankan "Go" dalam direktori aplikasi, maka aplikasi web anda akan secara otomatis dijalankan menggunakan _proxy_ Gin. Gin akan kembali _compile code_ secara otomatis ketika terdapat perubahan. Aplikasi Anda akan di-_restart_ jika Gin menerima sebuah _HTTP request_. Untuk lebih lengkapnya terkait penggunaan Gin, Anda dapat mengakses https://github.com/codegangsta/gin[Gin Official Github].
+
+
+**_Install_ Gin in MacOS**
+
+Anda dapat menginstal "Gin" di macOS dengan mengikuti langkah di bawah ini:
+
+1. Pastikan Anda memiliki *environment* Go yang aktif dan `GOPATH/bin` ada di `PATH` Anda.
+2. Jalankan `go get github.com/codegangsta/gin`.
+3. Kemudian pastikan bahwa `gin` terinstal dengan benar dengan menjalankan `gin -h`.
+
+Pada dasarnya, penggunaan Gin hampir sama dengan penggunaan *Go tool*. Gunakan *Go tool* `go build main.go` dan Gin menggunakan `gin run main.go` .
+
+
+=== Package Dependency Manager
+
+Saat kita mengembangkan _softaware applications_, menulis potongan kode yang dapat dipelihara dan digunakan kembali sangat penting. _Go_ menyediakan _modularity_ dan _code reusability_ melalui _package ecosystem_.
+
+Go mendorong Anda untuk menyusun bagian-bagian dari _software_ menggunakan _packages_, dan mengembangkan aplikasi menggunakan _package_ kecil tersebut. Dengan tersebarnya Go di berbagai belahan dunia, dikembangkan juga banyak _package_ yang mudah digunakan oleh berbagai developer untuk berbagai macam kebutuhan. Developer Golang yang baik biasanya cenderung menggunakan _package_ daripada memulai dari nol. Hal tersebut akan membuat _development_ lebih cepat dan membuat _code_ lebih _maintainable_.
+
+Trunko menggunakan *Dep* sebagai _dependency manager_ untuk Golang _development_.
+
+
+**Install Dep di MacOS**
+
+
+Anda dapat menginstal Dep di macOS dengan mengikuti langkah di bawah ini:
+
+1. Pastikan Anda memiliki Go *environment* yang aktif dan `GOPATH/bin` ada di dalam `PATH`.
+2. Jalankan `go get -u github.com/golang/dep/cmd/dep`.
+
+Anda akan mulai menggunakan Dep dengan mengikuti langkah di bawah ini:
+
+1. Akses *project directory*.
+2. Jalankan `dep init`.
+3. Jalankan `ls` dan Anda akan melihat 2 file baru (`Gopkg.toml` dan `Gopkg.lock`). The `Gopkg.toml` file adalah tempat Anda menentukan *dependency* Anda dan versi tertentu dari *dependency* ini yang Anda ingin project Anda gunakan. Pikirkan ini sebagai `package.json` jika Anda berasal dari latar belakang `NodeJS`, atau `pom.xml` jika Anda berasal dari latar belakang `Java`. `Gopkg.lock` file adalah *snapshot* lengkap dari grafik *dependency* proyek Anda yang dinyatakan sebagai serangkaian `[[project]]` *stanzas*.
+4. Jalankan `dep ensure` untuk menginstal *dependency*.
+5. Untuk informasi lebih lanjut terkait penggunaan Dep, Anda dapat mengakses https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d[this github page]
+
+
+=== MariaDB
+
+MariaDB Server adalah salah satu server _database_ paling populer di dunia yang dikembangkan oleh developer asli MySQL. Beberapa user dari server ini adalah Wikipedia, WordPress.com dan Google. MariaDB merupakan _software_ yang bersifat _open source_ yang berfungsi sebagai _relational database_  yang menyediakan _SQL Interface_ pada saat data diakses. Versi terakhir Maria DB sudah mencakup beberapa fitur GIS dan JSON.
+
+
+**Menginstal MariaDB di MacOS**
+
+Anda dapat menginstal dan menjalankan MariaDB di macOS dengan mengikuti langkah di bawah ini:
+
+1. Menginstal https://brew.sh/[Homebrew] terlebih dahulu
+2. Jalankan `brew install mariadb`
+3. Jalankan `mysql.server start` untuk memulai MariaDB
+4. Untuk penggunaan lebih rinci tentang MariaDB, silakan merujuk ke https://mariadb.com/kb/en/library/installing-mariadb-on-macos-using-homebrew[Halaman Resmi]
+
+
+
+**Menginstal SQL Client di MacOS**
+
+Anda harus menginstal SQL Clinet di komputer lokal Anda, Anda dapat menggunakan SQL Client apa pun sesuai dengan preferensi Anda.
+Salah satu SQL Client adalah Sequel Pro Anda dapat menginstal dan menjalankan Sequel Pro di macOS dengan mengikuti langkah di bawah ini:
+
+1. *Download* https://sequelpro.com/[di sini].
+2. Buka unduhan
+3. Gunakan *socket connection* dengan nama `localhost`, *username* `root` dan kata sandi kosong (*Default MariaDB configuration*)
+4. Klik **Connect**.
+
+
+=== MongoDB
+
+MongoDB adalah _database document_ dengan _scalability_ dan _flexibility_ yang baik jika digunakan untuk _querying_ dan _indexing_ sesuai kebutuhan. MongoDB menyimpan data dalam bentuk yang mirip dengan dokumen JSON secara fleksibel, sehingga _field_ dari satu dokumen ke dokumen lagi dapat berbeda dan struktur datanya dapat diubah sejalan dengan kebutuhan.
+
+
+**Menginstal MongoDB di MacOS**
+
+Anda dapat menginstal dan menjalankan MongoDB di macOS dengan mengikuti langkah di bawah ini:
+
+1. Menginstal https://brew.sh/[Homebrew] terlebih dahulu
+2. Jalankan `brew install mongodb`
+3. Buat "`db`" *directory*. Di sinilah file data Mongo akan hidup. Anda dapat membuat direktori di lokasi default dengan menjalankan `mkdir -p /data/db`
+4. Pastikan direktori `/data/db` memiliki izin
+5. Jalankan `mongod` untuk memulai MongoDB
+6. Untuk penggunaan lebih rinci tentang MariaDB, silakan merujuk ke https://treehouse.github.io/installation-guides/mac/mongo-mac.html[this official page]
+
+
+
+**Menginstal NoSQL Client di MacOS**
+
+Setelah instalasi, Anda memerlukan NoSQL Client untuk dengan mudah mengakses dan mengelola data dalam MongoDB.
+
+Anda dapat menginstal dan menjalankan NoSQL Client di macOS dengan mengikuti langkah di bawah ini:
+
+1. *Download* https://github.com/nosqlclient/nosqlclient[di sini]
+2. Buka unduhan
+3. Buat koneksi dan isi server dengan `localhost:27017` (*Default MongoDB configuration*)
+4. Klik **Connect** sekarang.
+
+
+=== Redis
+Redis adalah _open source_ (berlisensi BSD), _in-memory data structure store_, yang digunakan sebagai _database_, _cache_, dan _message broker_. _Open Source_ ini dapat digunakan untuk struktur data seperti _string_, _hashes_, _lists_, _sets_, _sorted sets_ dengan _range queries_, _bitmaps_, _hyperloglogs_, dan _geospatial indexes_ dengan _radius queries_. Redis didukung dengan_built-in replication, Lua scripting, LRU eviction, transactions_ dan _on-disk persistence_ pada level yang berbeda, juga menyediakan _availability_ yang tinggi via Redis Sentinel dan _automatic partitioning_ dengan Redis Cluster.
+
+
+**Menginstal Redis di MacOS**
+
+Anda dapat menginstal dan menjalankan Redis di macOS dengan mengikuti langkah di bawah ini:
+
+1. Jalankan `wget` `http://download.redis.io/redis-stable.tar.gz[]` untuk *download* Redis
+2. Jalankan `tar xvzf redis-stable.tar.gz` untuk *extract* Redis *tar ball*
+3. Jalankan `cd redis-stable`
+4. Jalankan `make` untuk kompilasi Redis
+5. Jalankan `sudo cp src/redis-server /usr/local/bin/` untuk membuat `redis-server` dieksekusi dari mana saja. `redis-server` adalah Redis Server itu sendiri
+6. Jalankan `sudo cp src/redis-cli /usr/local/bin/` untuk membuat `redis-cli` dieksekusi dari mana saja. `redis-cli` adalah *command line interface utility* untuk berbicara dengan Redis.
+
+=== RabbitMQ
+RabbitMQ adalah _open source software_ yang populer untuk _message broker_. _Message Broker_ bisa dianalogikan sebagai kotak pos, kantor pos, dan tukang pos yang bertugas menerima pesan, mengatur pesan untuk dikirimkan kemana, sekaligus mengirimkannya ke penerima. Selain ringan dan mudah untuk _deploy_, RabbitMQ mendukung AMQP (_Advanced Message Queuing Protocol_), STOMP (_Streaming Text Oriented Messaging Protocol_), MQTT (_Message Queuing Telemetry Transport_) dan _message protocol_ yang lain.
+
+
+**Menginstal RabbitMQ di MacOS**
+
+Anda dapat menginstal dan menjalankan RabbitMQ di macOS dengan mengikuti langkah di bawah ini:
+
+1. Menginstal https://brew.sh/[Homebrew] terlebih dahulu atau lakukan `brew update` jika sudah menginstall.
+2. Jalankan `brew install rabbitmq`
+3. RabbitMQ _server_ dan CLI _tools_ akan terinstall di `/usr/local/Cellar/rabbitmq/{version}/sbin/` yang bisa diakses dari `/usr/local/opt/rabbitmq/sbin`. Buat link ke binaries dengan menambahkan `export PATH=$PATH:/usr/local/sbin` pada `PATH` _shell profile_ (`~/.bashrc` untuk bash atau `~/.zshrc` untuk zsh).
+4. Jalankan `rabbitmq-server` atau `brew services start rabbitmq` untuk menjalankan pada background.
+5. Akses dashboard pada `http://localhost:15672` dengan menggunakan _default username_ dan _password_ `guest` dan `guest`.
+6. Untuk penggunaan lebih rinci tentang RabbitMQ, silakan merujuk ke https://www.rabbitmq.com/documentation.html[Halaman Resmi]
+
+== Setup Trunko
+
+=== Trunko Services
+Jika Anda sudah mengikuti langkah prasyarat, Anda dapat mulai menginstal Trunko di mesin lokal Anda.
+Berikut langkah-langkahnya:
+
+1. Instal <<golang,Golang>>
+2. Instal <<version-control-system,Tower>> dan _clone code_ dari _remote url_ https://github.com/sepulsa/trunko
+3. Masukkan _code_ `$GOPATH/src`
+4. Instal <<file-watcher,Gin>>
+5. Instal <<package-dependency-manager,Dep>>
+6. Instal dan _run_ <<mariadb,MariaDB>>
+7. Instal dan _run_ <<mongodb,MongoDB>>
+8. Instal dan _run_ <<redis,Redis>>
+9. Instal dan _run_ <<rabbitmq,RabbitMQ>>
+10. _Run_ `dep ensure`
+11. _Copy_ file `cfg/example.json` ke `cfg/config.json`
+12. Sesuaikan `cfg/config.json` dengan konfigurasi _environment_ Anda sendiri
+13. _Run_ `gin run`
+14. _Run_ `./trunko` atau `./trunko start` untuk menjalankan Trunko

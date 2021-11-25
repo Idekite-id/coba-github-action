@@ -1,0 +1,66 @@
+= CoffeeShop
+:keywords: akj,telco,telco-order-system-configuration-dashboard,kraken,civet,takoyaki
+
+== Overview
+
+CoffeeShop adalah sebuah _platform_ yang digunakan untuk mengintegrasikan banyak Civet di dalam satu _dashboard_ dan dikelola oleh Tim Ops. Di dalam sistem CoffeeShop ada beberapa fitur untuk memantau stok produk dengan mengubah status produk (_OPEN_ atau _CLOSED_). Status digunakan untuk memeriksa produk siap dijual atau tidak, sesuai permintaan _Partner_ atau bahkan dari sisi CoffeeShop sendiri, melalui _open_ atau _closed_ produk otomatis disisi Kraken.
+
+== Team Involved
+
+|===
+| Name | Role | Email
+
+| Pipit Puspitasari
+| Product Owner
+| pipit@alterra.id
+
+
+| Ananto Eko Hendarto
+| Developer Manager
+| anton@alterra.id
+
+
+| Hendrik Rahardja
+| Lead Developer
+| hendrik@alterra.id
+
+| Kurniawan Eko Wasono
+| Senior Developer
+| iwan@alterra.id
+
+| Johanes Paulus Giovani Putra
+| Lead Quality Engineer
+| johanes@alterra.id
+
+
+| Pipit Puspitasari
+| Ex Lead System Analyst
+| pipit@alterra.id
+
+|===
+
+== Technical Information 
+
+<<./url-coffeeshop.adoc#, System URL CoffeeShop>>
+
+<<./architecture-coffeeshop.adoc#, Architecture CoffeeShop>>
+
+<<./technology-coffeeshop.adoc#, Technology CoffeeShop>>
+
+<<./environment-coffeeshop.adoc#, Environment CoffeeShop>>
+
+<<./release-deploy-coffeeshop.adoc#, Release and  Deployment CoffeeShop>>
+
+== Onboarding Information
+
+<<./dev-onboarding-coffeeshop.adoc#, Developer Onboarding CoffeeShop>>
+
+<<./development-coffeeshop.adoc#, Development CoffeeShop>>
+
+<<./naming-convention-coffeeshop.adoc#, Naming Convention CoffeeShop>>
+
+== Documentation
+
+https://sepulsa.github.io/pollux/[API Documentation CoffeeShop]
+
+https://github.com/sepulsa/coffeeshop/releases[Release Note CoffeeShop]

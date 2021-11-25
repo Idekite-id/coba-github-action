@@ -1,0 +1,65 @@
+= Distribusi Web PDAM Gianyar
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem Distribusi Web PDAM Gianyar. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| I Gede Krisna Putra Andiana 
+|  Software Engineer 
+| gedekrisna@bsa.id
+|===
+
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Distribusi-Web-PDAM-Gianyar.adoc#, System URL Distribusi Web PDAM Gianyar>>
+
+<<./architecture-Distribusi-Web-PDAM-Gianyar.adoc#, Architecture Distribusi Web PDAM Gianyar>>
+
+<<./technology-Distribusi-Web-PDAM-Gianyar.adoc#, Technology Distribusi Web PDAM Gianyar>>
+
+<<./environment-Distribusi-Web-PDAM-Gianyar.adoc#, Environment Distribusi Web PDAM Gianyar>>
+
+<<./database-Distribusi-Web-PDAM-Gianyar.adoc#, Database Documentation Distribusi Web PDAM Gianyar>>
+
+<<./release-deploy-Distribusi-Web-PDAM-Gianyar.adoc#, Release and Deployment Distribusi Web PDAM Gianyar>>
+
+<<./flow-wire-Distribusi-Web-PDAM-Gianyar.adoc#, Flow and Wireframe Distribusi Web PDAM Gianyar>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Distribusi-Web-PDAM-Gianyar.adoc#, Developer Onboarding Distribusi Web PDAM Gianyar>>
+
+<<./development-Distribusi-Web-PDAM-Gianyar.adoc#, Development Distribusi Web PDAM Gianyar>>
+
+<<./naming-convention-Distribusi-Web-PDAM-Gianyar.adoc#, Naming Convention Distribusi Web PDAM Gianyar>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+<<./release-note-Distribusi-Web-PDAM-Gianyar.adoc#, Release Note Distribusi Web PDAM Gianyar>>

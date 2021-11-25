@@ -1,0 +1,64 @@
+= Supervisi Web
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Supervisi Web. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+|  
+|  
+| 
+
+|  
+|  
+| 
+|===
+
+== Technical Information
+
+//Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Supervisi-Web.adoc#, System URL Supervisi Web>>
+
+<<./architecture-Supervisi-Web.adoc#, Architecture Supervisi Web>>
+
+<<./technology-Supervisi-Web.adoc#, Technology Supervisi Web>>
+
+<<./environment-Supervisi-Web.adoc#, Environment Supervisi Web>>
+
+<<./database-Supervisi-Web.adoc#, Database Documentation Supervisi Web>>
+
+<<./release-deploy-Supervisi-Web.adoc#, Release and Deployment Supervisi Web>>
+
+<<./flow-wire-Supervisi-Web.adoc#, Flow and Wireframe Supervisi Web>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Supervisi-Web.adoc#, Developer Onboarding Supervisi Web>>
+
+<<./development-Supervisi-Web.adoc#, Development Supervisi Web>>
+
+<<./naming-convention-Supervisi-Web.adoc#, Naming Convention Supervisi Web>>
+
+== Documentation
+
+//Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+//User Guide (jika ada, external link)
+
+//Dokumen Integrasi (jika ada, external link)
+
+//Dokumen Maintenance (jika ada, external link)
+
+//Dokumen API (jika ada, external link)
+
+<<./release-note-Supervisi-Web.adoc#, Release Note Supervisi Web>>

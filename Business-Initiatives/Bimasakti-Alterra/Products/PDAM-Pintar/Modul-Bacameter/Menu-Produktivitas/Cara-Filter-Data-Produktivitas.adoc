@@ -1,0 +1,10 @@
+= Cara Filter Data Produktivitas
+
+image::../images-bacameter/bacameter-filter-data-bacameter.png[align="center"]
+
+Menu ini berisi beberapa jenis laporan, diantaranya: *Laporan produktivitas petugas, Laporan Pembacaan per Tanggal, Laporan Progress Pembacaan, dan Laporan Produktivitas Pelanggan.*
+
+1. Tentukan *jenis laporan* yang ingin ditampilkan atau dicetak
+2. Tentukan *periode tanggal* yang meliputi periode dan jenis tanggal serta *informasi lain* yang diperlukan pada filter yang disediakan
+3. Tekan tombol *Tampilkan Data* untuk menampilkan data
+4. Tekan tombol *Cetak* untuk mencetak data.

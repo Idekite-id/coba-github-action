@@ -1,0 +1,87 @@
+= API Simulate Rules Oknurt
+
+API Simulate Rules Oknurt is used to simulate rules that has defined in routing and / or command per product type. It simulated to make sure, rules are well configured and work with API specification of partner and kraken.
+
+In simulate rules, user can give partner request sample and / or kraken response sample, then see response that will be sent to partner. It also can be used to check what request that will be sent to kraken.
+
+== Request URL
+----
+    method : POST
+    URL    : /partner/simulate
+----
+
+== Request Body
+----
+    {
+        "mapping_type": "response",
+        "mapping_config": {
+            "rules": {
+                "response": [
+                    {
+                        "conditions": [
+                            {
+                                "data": "rules-simple",
+                                "function_data": "text",
+                                "function_value": "text",
+                                "logic": "",
+                                "operator": "equal",
+                                "value": "rules-simple"
+                            }
+                        ],
+                        "label": "simple",
+                        "operations": [
+                            {
+                                "data": "[transaction_id]",
+                                "function": "text",
+                                "ta": false,
+                                "value": "[transaction_id]"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "product_mapping": {
+                "TSEL5K": {
+                    "product_code": "21",
+                    "operator_id": 5
+                }
+            },
+            "response_code_mapping": {
+                "00": [
+                    {
+                        "rc_partner": "0000",
+                        "message": "Partner Message Success"
+                    }
+                ]
+            }
+        },
+        "output": "<?xml version=\\\"1.0\\\"?>\n<mlinkResponse>\n    <transaction_id>[transaction_id]</transaction_id>\n</mlinkResponse>",
+        "input": {
+            "request": {
+                "type": "json",
+                "payload": "{\n    \"phone_number_data\": \"081945908673\",\n    \"code_product_data\": \"TSEL5K\",\n    \"order_number_data\": \"123\"\n}"
+            },
+            "response": {
+                "type": "json",
+                "payload": "{\n  \"transaction_id\": \"1\"}"
+            }
+        }
+    }
+----
+
+== Response Body
+----
+    Success response:
+    {
+        "result": "<?xml version=\\\"1.0\\\"?>\n<mlinkResponse>\n    <transaction_id>1</transaction_id>\n</mlinkResponse>",
+        "rules": "simple",
+        "error_message": ""
+    }
+
+    Failed response:
+    {
+        "result": "<?xml version=\\\"1.0\\\"?>\n<mlinkResponse>\n    <transaction_id>1</transaction_id>\n</mlinkResponse>",
+        "rules": "",
+        "error_message": "Operations Value doesn't exist: [transaction_id]"
+    }
+----

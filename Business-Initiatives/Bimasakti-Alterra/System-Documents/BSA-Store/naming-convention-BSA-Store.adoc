@@ -1,0 +1,13 @@
+= Naming Convention BSA Store
+
+[cols="33%,33%,33%",frame=all, grid=all]
+|===
+2.1+^.^h|*Class* 
+^.^h|*Remarks*
+
+|View Class|xxxPage.xaml|layout page
+|View Class|xxxPage.xaml.cs|layout logic page
+|View Model Class|xxxViewModel.cs|class for viewmodel
+|Unit Test Class|xxxTest.cs|class for unit test
+|Variable name|Camel|class for unit test
+|===

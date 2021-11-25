@@ -1,0 +1,3 @@
+= Release Note SIBS Core V2
+
+Berisi catatan rilis sistem.

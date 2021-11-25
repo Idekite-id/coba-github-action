@@ -1,0 +1,20 @@
+= System URL Sipintar.NET
+
+Saat ini sistem dalam tahap development, informasi akses dapat dilihat melalui tabel di bawah ini. 
+
+Gunakan _alias_, _username_, dan _password_ yang sudah terdaftar untuk mengakses sistem.
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+|Development 
+| https://sipintardev.azurewebsites.net/[]
+
+|Staging 
+|
+
+|Production 
+|
+|===

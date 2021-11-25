@@ -1,0 +1,22 @@
+= Technology Sipintar.NET
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Spesification* 
+^.^h|*Name*
+
+|OS 
+|
+
+|Web Server
+|
+
+|Programming Language 
+|
+
+|Framework
+|
+
+|Container|
+|Proxy|
+|===

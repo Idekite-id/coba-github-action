@@ -1,0 +1,75 @@
+= Silo V2
+:keywords: akj, telco, physical-goods-inventory, dolphin, polaris,silo-v2
+
+== Overview
+
+Silo V2 merupakan sistem yang berfungsi untuk menangani penjualan produk fisik seperti ponsel dan _mobile_ modem beserta _starter pack_ (kartu perdana) atau _bundling_ paket data.
+Pada sistem ini, _request_ dari _partner merchant_ akan disimpan sementara (_inventory_), lalu akan didistribusikan ke _customer_.
+
+Terdapat 4 aktor yang terlibat dalam sistem Silo V2, yaitu:
+
+. _Partner merchant_
+. Silo (Sistem)
+. Telco
+. Silo (Sepulsa Ops)
+
+Silov V2 juga berkaitan dengan sistem Dolphin untuk membantu manajemen _voucher_.
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email*
+
+| Pipit Puspitasari
+| Product Owner
+| pipit@alterra.id
+
+| Ananto Eko Hendarto
+| Developer Manager
+| anton@alterra.id
+
+| Kurniawan Eko Wasono
+| Lead Developer
+| iwan@alterra.id
+
+| Johanes Paulus Giovani Putra
+| Lead Quality Engineer
+| johanes@alterra.id
+
+| Pipit Puspitasari
+| Ex Lead System Analyst
+| pipit@alterra.id
+|===
+
+== Technical Invormation
+
+<<./url-silo-v2.adoc#, System URL Silo V2>>
+
+<<./architecture-silo-v2.adoc#, Architecture Silo V2>>
+
+<<./technology-silo-v2.adoc#, Technology Silo V2>>
+
+<<./environment-silo-v2.adoc#, Environment Silo V2>>
+
+<<./database-silo-v2.adoc#, Database Documentation Silo V2>>
+
+<<./release-deploy-silo-v2.adoc#, Release and Deployment Silo V2>>
+
+== Onboarding Information
+
+<<./dev-onboarding-silo-v2.adoc#, Developer Onboarding Silo V2>>
+
+<<./development-silo-v2.adoc#, Development Silo V2>>
+
+<<./naming-convention-silo-v2.adoc#, Naming Convention Silo V2>>
+
+== Documentation
+
+https://docs.google.com/document/d/13UCXqbOznmZrOUQIYGclx8AgzU42u4wb12hjHVa5Goc/edit?usp=sharing[User Guide Silo V2 for Operations Team]
+
+https://silo.sumpahpalapa.com/admin/apidoc[API Documentation Silo V2]
+
+https://github.com/sepulsa/silo2/releases[Release Note Silo V2]
+
+<<./problem-trouble-silo-v2.adoc#, Problem and Troubleshoot Silo V2>>
+

@@ -1,0 +1,60 @@
+= Voucher
+
+Produk dalam bentuk transaksi yang memiliki nilai uang dan dapat digunakan dengan cara ditukarkan(_redeem_). Biasanya Voucher bersifat sekali pakai.
+
+*Variasi Produk*
+
+Berikut ini adalah jenis-jenis varian voucher yang saat ini ada/akan tersedia untuk Partner, dimana masing-masing jenis voucher memiliki _publisher_ yang berbeda-beda:
+
+- Voucher Game
++
+Voucher game adalah voucher yang nilainya berupa poin yang dapat digunakan untuk transaksi di dalam platform seperti _steam_ ataupun game lainnya.
+
+- Voucher Subscription
++
+Merupakan voucher untuk layanan berlangganan, ketika ditukarkan (_redeem_) voucher ini dapat digunakan untuk memperpanjang durasi berlangganan pengguna.
+
+*Perilaku dan Cara Penggunaan*
+
+Berdasarkan cara _redeem_:
+
+. Serial number + Voucher code
+
+- Serial number: Nomor serial produk, untuk keperluan dispute baik oleh partner, maupun ke biller. Serial number dapat digunakan untuk komplain ke publisher game jika customer tidak dapat redeem vouchernya.
+
+- Voucher code: Untuk ditukarkan (_redeem_)
+
+. Serial number + Voucher password/pin
+
+- Serial number: Nomor serial produk, untuk keperluan dispute baik oleh partner, maupun ke biller. Serial number dapat digunakan untuk komplain ke publisher game jika customer tidak dapat redeem vouchernya
+
+- Voucher password/pin: Untuk ditukarkan (_redeem_)
+
+. Serial number + voucher code + voucher password/pin
+
+- Serial number: Nomor serial produk, untuk keperluan dispute baik oleh partner, maupun ke biller. Serial number dapat digunakan untuk komplain ke publisher game jika customer tidak dapat redeem vouchernya.
+
+- Voucher code: Untuk ditukarkan (_redeem_)
+
+- Voucher password/pin: Untuk ditukarkan (_redeem_)
+
+. ``Management_code``, pada sebagian voucher game berfungsi sama dengan serial number
+
+. Setiap voucher game memiliki cara redeem yang berbeda-beda.
+
+. Voucher game di Kraken berbeda bergantung saat mapping biller.
+
+
+*Customer Journey*
+
+. Customer memilih produk voucher yang ingin dibeli (sesuai dengan publisher dan nominalnya)
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dan detail voucher dari Aplikasi Client, dalam hal ini Partner yang terhubung dengan Sistem Sepulsa
+
+image::../../../images-bpa/flow-journey-voucher.png[align="center"]
+
+
+
+

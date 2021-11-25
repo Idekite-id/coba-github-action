@@ -1,0 +1,10 @@
+= Release and Deployment Sentinel
+
+== Release Steps
+
+_Release using JIRA method_
+
+== Deployment Schedule
+
+Ini tentatif, idealnya rilis harus dilakukan sebelum _sprint review_.
+Jika tidak memungkinkan, rilis dilakukan dalam rentang _sprint_ sesudahnya.

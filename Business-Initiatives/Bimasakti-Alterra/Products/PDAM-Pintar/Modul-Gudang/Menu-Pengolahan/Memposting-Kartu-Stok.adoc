@@ -1,0 +1,14 @@
+= Memposting Kartu Stok
+
+Fitur ini dapat digunakan untuk posting kartu stok. Hasil posting tersebut dapat dilihat di dalam menu laporan stok barang.
+
+Posting kartu stok dapat dilakukan dengan mengikuti langkah-langkah berikut.
+
+image::../images-gudang/gudang-pengolahan-data-posting-kartu-stok-1.png[align="center"]
+
+1. Pilih menu *Pengolahan*
+2. Klik pada ikon *Posting Kartu Stock*
+3. Pada _pop up_ Posting Kartu Stock pilih bulan dan tahun yang ingin di posting. Setelah sesuai maka klik tombol *Mulai Posting*
++
+image::../images-gudang/gudang-pengolahan-data-posting-kartu-stok-2.png[align="center"]
+4. Tunggu hingga _loading_ menjadi 100% dan _pop up information_ akan keluar. Kemudian tekan tombol *OK*.

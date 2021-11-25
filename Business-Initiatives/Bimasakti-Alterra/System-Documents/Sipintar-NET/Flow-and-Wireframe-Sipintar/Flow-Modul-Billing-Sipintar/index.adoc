@@ -1,0 +1,46 @@
+= Flow Modul Billing Sipintar.NET
+
+Berikut adalah deskripsi dan flow dari Modul Billing pada Sipintar.NET versi 5.
+
+== Menu Login
+
+* <<./login.adoc#, Flow Flow Login>>
+
+== Menu Supervisi
+
+* <<./supervisi-periode.adoc#, Flow Supervisi Periode>>
+* <<./supervisi-pelanggan-air.adoc#, Flow Supervisi Pelanggan Air>>
+* <<./supervisi-pelanggan-limbah.adoc#, Flow Supervisi Pelanggan Limbah>>
+* <<./supervisi-pelanggan-l2t2.adoc#, Flow Supervisi Pelanggan L2T2>>
+* <<./supervisi-rekening-air.adoc#, Supervisi Rekening Air>>
+* Flow Supervisi Rekening Limbah
+* Flow Supervisi Rekening L2T2
+* Flow Supervisi Daftar Tunggu
+* <<./supervisi-penghapusan-rekening.adoc#, Flow Supervisi Penghapusan Rekening>>
+* <<./supervisi-upload-download.adoc#, Flow Supervisi Upload dan Download Data>>
+* <<./supervisi-posting.adoc#, Flow Supervisi Riwayat Posting>>
+
+== Menu Atribut
+
+* <<./atribut-tarif.adoc#, Flow Atribut Tarif>>
+* <<./atribut-wilayah-administrasi.adoc#, Flow Atribut Wilayah Administrasi>>
+* Flow Atribut Loket
+* <<./atribut-meteran.adoc#, Flow Atribut Meteran>>
+* <<./atribut-sumber-air.adoc#, Flow Atribut Sumber Air>>
+* <<./atribut-kolektif.adoc#, Flow Atribut Kolektif Penagihan>>
+* <<./atribut-kepemilikan.adoc#, Flow Atribut Kepemilikan>>
+* Flow Atribut Paraf (pindah ke webconfig)
+* <<./atribut-status.adoc#, Flow Atribut Status>>
+* <<./atribut-flag.adoc#, Flow Atribut Flag>>
+
+== Manu Bantuan
+
+* <<./bantuan-saran-pengaduan-dan-faq.adoc#, Flow Bantuan - Saran Pengaduan dan FAQ>>
+
+== Menu Laporan (pindah ke app lain)
+
+* Flow Laporan
+
+== Menu User Billing
+
+* <<./user-billing.adoc#, Flow User Billing>>

@@ -1,0 +1,24 @@
+= Menampilkan Laporan Akun
+
+Berikut langkah-langkah untuk menampilkan laporan pada Modul Akuntansi : 
+
+image::../images-akuntansi/akuntansi-menampilkan-laporan-1.png[align="center"]
+
+1. Pilih Menu *Laporan Akun*, untuk memilih kategori laporan yang diinginkan
+
++
+image::../images-akuntansi/akuntansi-menampilkan-laporan-2.png[align="center"]
+
+2. Pilih kategori laporan yang diinginkan
+
++
+image::../images-akuntansi/akuntansi-menampilkan-laporan-3.png[align="center"]
+
+3. Setelah memilih kategori laporan, selanjutnya akan muncul _filter_ untuk menampilkan data laporan yang dipilih.
+
+4. Setelah mengisi _filter_ pada pop-up yang muncul, selanjutnya klik tombol *Tampil* untuk menampilkan Laporan
+
++
+image::../images-akuntansi/akuntansi-menampilkan-laporan-4.png[align="center"]
+
+5. Data laporan sesuai kategori dan _filter_ akan ditampilkan sesuai gambar diatas

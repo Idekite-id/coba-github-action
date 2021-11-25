@@ -1,0 +1,528 @@
+= Katalog Proses Kraken V2
+
+
+|===
+| *ID* | *Group* | *Deskripsi* | *Permission* | *Level* | *Tags* | *Pivotal ID* 
+
+| transaction.transaction
+| Transaction
+| Partner can create transaction
+| Partner
+| Stable
+|
+| #151669283
+
+
+| transaction.inquiry
+| Transaction
+| Partner can create inquiry request
+| Partner
+| Stable
+|
+|
+
+
+| transaction.check-status
+| Transaction
+| Partner can check his/her transaction status
+| Partner
+| Stable
+|
+|
+
+
+| task.create
+| Transaction State
+| "transaction process: create transaction "
+| System
+| Stable
+|
+|
+
+
+| task.inquiry
+| Transaction State
+| transaction process: create inquiry request
+| System
+| Stable
+|
+|
+
+
+| task.update
+| Transaction State
+| transaction process: update transaction status
+| System
+| Stable
+|
+|
+|
+
+| task.cancel
+| Transaction State
+| transaction process: cancellation
+| System
+| Stable
+|
+|
+
+
+| task.reversal
+| Transaction State
+| transaction process: reversal
+| System
+| Stable
+|
+|
+
+
+| user.create
+| Administration
+| User can create another user account
+| Admin
+| Stable
+|
+| "#123
+
+
+|
+|
+|
+|
+|
+|
+| #234"
+
+
+| user.login
+| Administration
+| User can login into Admin Site
+| Ops
+| Stable
+|
+| #123
+
+
+| user.disable
+| Administration
+| User can deactivate other user account
+| Admin
+| Stable
+|
+|
+
+
+| user.enable
+| Administration
+| User can activate other user account
+| Admin
+| Stable
+|
+|
+
+
+| user.edit
+| Administration
+| User can edit other user account
+| Admin
+| Stable
+|
+|
+
+
+| role.add
+| Administration
+| User can add new role
+| Admin
+| Stable
+|
+|
+
+
+| role.edit
+| Administration
+| User can edit existing roles
+| Admin
+|
+|
+|
+
+
+| operator.add
+| Administration
+| User can add operator (vendor)
+| Admin
+|
+|
+|
+
+
+| operator.edit
+| Administration
+| User can edit operator (vendor)
+| Admin
+|
+|
+|
+
+
+| biller.stock-inventory-status
+| Administration
+| User can see latest stock update
+| Ops
+|
+|
+|
+
+
+| biller
+| Administration
+| User can manage biller
+| Ops
+|
+|
+|
+
+
+| biller.config
+| Administration
+| User can manage biller config
+| Ops
+|
+|
+|
+
+
+| biller.stock
+| Administration
+| User can manage biller stock
+| Ops
+|
+|
+|
+
+
+| package
+| Administration
+| User can manage product package
+| Ops
+|
+|
+|
+
+
+| package.add
+| Administration
+| User can add product package
+| Ops
+|
+|
+|
+
+
+| package.edit
+| Administration
+| User can edit product package
+| Ops
+|
+|
+|
+
+
+| package.edit.enable-disable
+| Administration
+| User can enable/disable specific product on package
+| Ops
+|
+|
+|
+
+
+| package.edit.export
+| Administration
+| User can export product package setting into CSV
+| Ops
+|
+|
+|
+
+
+| package.edit.import
+| Administration
+| User can import product package setting from CSV
+| Ops
+|
+|
+|
+
+
+| package.edit.addproduct
+| Administration
+| User can add product in product package
+| Ops
+|
+|
+|
+
+
+| package.approval
+| Administration
+| User can approve package change and browse approval history
+| Ops Lead
+|
+|
+|
+
+
+| package.logs
+| Administration
+| User can browse package change logs
+| Ops
+|
+|
+|
+
+
+| package.price.logs
+| Administration
+| User can browse package price change logs
+| Ops
+|
+|
+|
+
+
+| product
+| Administration
+| User can manage product
+| Ops
+|
+|
+|
+
+
+| product.search
+| Administration
+| User can search product based on the form criteria
+| Ops
+|
+|
+|
+
+
+| product.add
+| Administration
+| User can add new product
+| Ops
+|
+|
+|
+
+
+| product.edit
+| Administration
+| User can edit product data
+| Ops
+|
+|
+|
+
+
+| product.approval
+| Administration
+| User can approve product change and browse approval history
+| Ops Lead
+|
+|
+|
+
+
+| product.biller
+| Administration
+| User can assign/remove biller from product data
+| Ops
+|
+|
+|
+
+
+| product.logs
+| Administration
+| User can browse product change log
+| Ops
+|
+|
+|
+
+
+| product.price.logs
+| Administration
+| User can browse product price change log
+| Ops
+|
+|
+|
+
+
+| product.archive
+| Administration
+| User can archive unused product data
+| Ops
+|
+|
+|
+
+
+| product.disable-enable
+| Administration
+| User can disable/enable product
+| Ops
+|
+|
+|
+
+
+| partner
+| Administration
+| User can browse partner data
+| Ops
+|
+|
+|
+
+
+| partner.add
+| Administration
+| User can add new partner
+| Ops
+|
+|
+|
+
+
+| partner.edit
+| Administration
+| User can edit partner data
+| Ops
+|
+|
+|
+
+
+| partner.settings
+| Administration
+| User can manage partner settings
+| Ops
+|
+|
+|
+
+
+| partner.disable-enable
+| Administration
+| user can enable/disable partner
+| Ops
+|
+|
+|
+
+
+| partner.balance
+| Administration
+| User can browse partner balance
+| Ops
+|
+|
+|
+
+
+| partner.balance.add
+| Administration
+| User can add partner balance manually
+| Ops
+|
+|
+|
+
+
+| transaction
+| Administration
+| User can browse transaction data from partner
+| Ops
+|
+|
+|
+
+
+| transaction.reprocess
+| Administration
+| User can reprocess failed transaction
+| Ops
+|
+|
+|
+
+
+| transaction.cancel
+| Administration
+| User can cancel transaction
+| Ops
+|
+|
+|
+
+
+| transaction.force-success
+| Administration
+| User can force change transaction status to success
+| Ops
+|
+|
+|
+
+
+| transaction.force-failed
+| Administration
+| User force change transaction status to failed
+| Ops
+|
+|
+|
+
+
+| transaction.quarantine
+| Administration
+| User can see quarantined transaction data
+| Ops
+|
+|
+|
+
+
+| transaction.biller
+| Administration
+| User can browse transaction data to biller
+| Ops
+|
+|
+|
+
+
+| settings.system-param
+| Administration
+| Settings for Kraken System Param
+| Ops
+|
+|
+|
+
+
+| settings.cache
+| Administration
+| Settings for Kraken System Cache
+| Ops
+|
+|
+|
+
+|===

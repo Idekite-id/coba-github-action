@@ -1,0 +1,9 @@
+= Technology Bima PHR
+
+Teknologi yang digunakan untuk pengembangan sistem dashboard ini adalah sebagai berikut:
+
+* ReactJS
+* Redux State Management
+* Ajax Request REST API using axios
+* Git, Gitlab, Trunk Base Development
+* Gitlab CI/CD

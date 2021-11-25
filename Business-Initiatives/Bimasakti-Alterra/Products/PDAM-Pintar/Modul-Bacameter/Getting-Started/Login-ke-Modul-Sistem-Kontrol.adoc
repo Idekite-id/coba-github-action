@@ -1,0 +1,9 @@
+= Login ke Modul Sistem Kontrol
+
+Untuk masuk ke dalam sistem, Anda cukup mengikuti langkah berikut.
+
+image::../images-bacameter/bacameter-login-sistem-kontrol.png[align="center"]
+
+1. Masukkan *Pengguna* dan *Kata Sandi*, 
+2. Klik pada tombol *MASUK*
+3. Sistem akan menampilkan halaman utama Modul Supervisi.

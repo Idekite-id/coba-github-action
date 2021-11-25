@@ -1,0 +1,10 @@
+= Developer Onboarding Kramoris
+
+== Local Machine Setup
+
+Berikut adalah beberapa _tools_ yang direkomendasikan untuk _development_:
+
+* Browser (chrome, firefox, safari)
+* Postman
+* XAMPP
+* Github

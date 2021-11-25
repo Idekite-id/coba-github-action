@@ -1,0 +1,28 @@
+= Release and Deployment Takoyaki V2
+
+*Promo Scan Scheduler*
+
+* Penjadwalan akan dijalankan melalui perintah `php artisan transaction:promoscan --subminutes=10` setiap 1 menit dan dapat dikonfigurasi menjadi rentang jam aktif dalam _file_ .ENV dengan pengaturan "CRON_HOUR_RANGE"
+
+*SMS Transaction Scan Scheduler*
+
+* _Sms transaction scan scheduler_ dapat diaktifkan/non-aktifkan via .ENV _file_ pada ```SMSTRX_ENABLED``.
+Masukkan 1 untuk mengaktifkan, 0 untuk menonaktifkan.
+* Perintah dapat dijalankan melalui _command_ `php artisan transaction:sms_scan --subminutes=1000`.
+`subminutes` merupakan _range_ dalam N di menit sebelumnya untuk dapat meliihat ke database.
+Secara _default_ perintah ini dijalankan via penjadwalan di setiap 1 menit.
+* Untuk tujuan pengujian *testing purpose* set `--mobileno=YOURNUM` untuk _override real number_ dalam transaksi ke nomor anda.
+contohnya: `php artisan transaction:sms_scan --subminutes=1000 --mobileno=0809800900`.
+* Hanya produk yang terdaftar yang akan mendapat notifikasi.
+* Anda dapat melakukan _set product_id_ pada config/smsproduct.php.
+* Setiap produk dapat memiliki pesan sendiri.
+Secara _default_ `default_message` konfigurasi akan digunakan jika pesan produk _null_.
+* Anda dapat memberikan label produk di pesan dengan parameter sebagai berikut: https://wiki.sepulsa.id/index.php?title=Template:Product_label&action=edit&redlink=1[Template:Product label]
+
+*Additional Packages*
+
+* http://www.doctrine-project.org/projects/dbal.html[Doctrine Dbal] for alter table migration
+* https://github.com/giggsey/libphonenumber-for-php[Giggsey - Phone Number Formatter]
+
+
+

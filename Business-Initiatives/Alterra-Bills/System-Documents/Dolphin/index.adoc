@@ -1,0 +1,74 @@
+= Dolphin
+:keywords: sti, bpa, voucher-inventory  
+
+== Overview
+
+Dolphin (_voucher center_) adalah aplikasi yang mengatur _voucher offline_ di bawah Sepulsa. Sistem ini dikembangkan pada akhir tahun 2016 (Desember).
+
+Berikut adalah beberapa fitur atau menu yang dapat dioperasikan dalam sistem Dolphin:
+
+[cols="5%,30%,65%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Nama* 
+^.^h| *Deskripsi*
+
+| 1
+| Provider Management
+| Define list of voucher provider
+
+| 2
+| Product Management
+| Define product based on voucher category
+
+| 3.
+| Stock & Upload Voucher
+| Check voucher list and upload new voucher stock
+
+| 4
+| Inventory Report
+| Check voucher list and upload new voucher stock
+
+| 5
+| Transaction Logs
+| Check log transaction
+
+| 6
+| User Client Management
+| Manage user client API
+|===
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h|*Name* 
+^.^h|*Role* 
+^.^h|*Email*
+
+|Eric Moelyowidyarto
+| Sr. Software Engineer
+| eric@alterra.id
+
+|Poby Zaarif Wandono
+| Software Engineer
+| poby@alterra.id
+|===
+
+== Technical Information
+
+<<./url-dolphin#, System URL Dolphin>>
+
+<<./technology-dolphin#, Technology Dolphin>>
+
+== Onboarding Information
+
+<<./development-dolphin#, Development Dolphin>>
+
+<<./flow-wire-dolphin#, Flow and Wireframe Dolphin>>
+
+== Documentation
+
+<<./api-doc-dolphin#, API Documentation Dolphin>>
+
+<<./release-note-dolphin#, Release Note Dolphin>>

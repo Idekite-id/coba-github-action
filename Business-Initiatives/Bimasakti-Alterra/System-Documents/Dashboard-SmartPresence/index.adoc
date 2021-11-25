@@ -1,0 +1,64 @@
+= Dashboard SmartPresence
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Dashboard SmartPresence. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Wayan Agus Krisna Apriana 
+| Software Engineer 
+| apriana@bsa.id
+
+|
+|
+|
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Dashboard-SmartPresence.adoc#, System URL Dashboard SmartPresence>>
+
+<<./architecture-Dashboard-SmartPresence.adoc#, Architecture Dashboard SmartPresence>>
+
+<<./technology-Dashboard-SmartPresence.adoc#, Technology Dashboard SmartPresence>>
+
+<<./environment-Dashboard-SmartPresence.adoc#, Environment Dashboard SmartPresence>>
+
+<<./database-Dashboard-SmartPresence.adoc#, Database Documentation Dashboard SmartPresence>>
+
+<<./release-deploy-Dashboard-SmartPresence.adoc#, Release and Deployment Dashboard SmartPresence>>
+
+<<./flow-wire-Dashboard-SmartPresence.adoc#, Flow and Wireframe Dashboard SmartPresence>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Dashboard-SmartPresence.adoc#, Developer Onboarding Dashboard SmartPresence>>
+
+<<./development-Dashboard-SmartPresence.adoc#, Development Dashboard SmartPresence>>
+
+<<./naming-convention-Dashboard-SmartPresence.adoc#, Naming Convention Dashboard SmartPresence>>
+
+== Documentation
+
+// Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya) dalam daftar dokumen berikut:
+
+// User Guide (jika ada, external link)
+
+// Dokumen Integrasi (jika ada, external link)
+
+// Dokumen Maintenance (jika ada, external link)
+
+// Dokumen API (jika ada, external link)
+
+<<./release-note-Dashboard-SmartPresence.adoc#, Release Note Dashboard SmartPresence>>

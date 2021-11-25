@@ -1,0 +1,46 @@
+= Mobile Data Package
+
+Mobile data package adalah produk yang digunakan untuk memfasilitasi pembelian paket data internet pada telepon seluler.
+
+*Variasi Produk*
+
+Varian produk mobile data package adalah denom kuota atau paket data yang dimiliki operator jaringan seluler.
+
+*Vendor Utama Produk*
+
+Operator seluler yang tersedia di Indonesia, antara lain:
+
+- Telkomsel
+- XL Axiata
+- Indosat Ooredoo
+- Hutchison 3
+- SmartFren
+- hiNet
+
+*Perilaku dan Cara Penggunaan Produk*
+
+Pengguna dapat menggunakan fasilitas internet pada telepon seluler dengan cara mengaktifkan paket internet terlebih dahulu. Setelah melakukan pembelian paket internet, pengguna akan mendapatkan kuota dengan jumlah tertentu.
+
+*Product Journey*
+
+Showcase Customer Journey
+
+. Customer memasukkan nomor handphone
+
+. Customer memilih paket data yang diinginkan
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dari aplikasi/website client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher / Aggregator Product Journey
+
+. Partner mengirimkan nomor telepon seluler dan kode produk untuk transaksi
+
+. _Switching Engine_ memproses transaksi ke Biller
+
+. _Switching Engine_ menerima _response_ transaksi biller
+
+. _Switching Engine_ mengirimmkan _callback_ ke partner
+
+

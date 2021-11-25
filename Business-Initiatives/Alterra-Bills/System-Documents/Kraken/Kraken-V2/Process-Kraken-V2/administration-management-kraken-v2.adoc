@@ -1,0 +1,46 @@
+= Administration Management Kraken V2
+
+== Primary Actor
+
+* Lead Operasional
+* Operasional
+* Admin
+
+== Administration Positive Scenario
+
+1. Ops/Lead Ops berwenang untuk mengelola data Kraken
+2. Ops/Lead Ops mengelola data transaksi
+3. Ops/Lead Ops mengelola _biller configuration_
+4. Ops/Lead Ops mengelola _partner data_
+5. Ops/Lead Ops membuat _product_
+ ** Lead Ops menyetujui produk baru dan secara otomatis memiliki status terbuka
+6.  Ops/Lead Ops buat paket untuk mitra tertentu
+7. Lead Ops menyetujui pembuatan paket
+8. Ops/Lead Ops tambahkan produk baru ke paket
+9. Lead Ops menyetujui penambahan produk
+10. Ops/Lead Ops mengubah harga dalam produk atau paket
+11. Lead Ops menyetujui perubahan harga dalam produk / paket
+12. Ops/Lead Ops aktifkan produk / paket, OPS dapat notifikasi
+13. Ops/Lead Ops nonaktifkan produk / paket, _lead_ OPS dapat notifikasi
+
+== Extensions
+
+2a. Transaction is suspected  
+
+    - 2a1. Ops check transaction status manually    
+    - 2a2. Ops called force success to transaction      
+    - 2a3. Ops called force failed to transaction
+
+6a. Package approval failed   
+
+    - 6a1.Lead Ops reject package creation
+
+6b.Approval on scheduled time
+
+4a.Partner not receive callback
+
+    - 4a1.Partner called timeout
+    - 4a2.Partner do check transaction status
+
+4b.Transaction is literally in pending state, need to be reconcile manually
+

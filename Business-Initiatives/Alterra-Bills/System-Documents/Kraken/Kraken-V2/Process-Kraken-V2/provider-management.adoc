@@ -1,0 +1,29 @@
+= Provider Management Kraken V2
+
+== Short Description
+
+_Provider Management_ adalah fitur yang digunakan untuk mengelola _service provider_ atau operator sebagai penyelenggara layanan yang bisa dilakukan pembayaran lewat sistem Kraken.
+
+== Feature Documentation
+
+Anda dapat mengakses dokumentasi _provider management_ di https://docs.google.com/document/d/1dPBwamgdkK3Am3uyd2IJQQxm27M5oQ52fCd-py5MXQ0/edit?usp=sharing[Dokumentasi Admin API - Provider Management] 
+
+== Log Catalog
+
+.Katalog Log Provider Management
+|===
+|json.url |json.handler |description
+
+|/operator
+|AddOperator
+|Log ini mencatat aktivitas penambahan operator atau provider baru
+
+|/operator/:id
+|UpdateOperator
+|Log ini mencatat aktifitas pembaruan atau perubahan data provider
+
+|/operator/variable/:name
+|UpdateVariableOperator
+|Log ini mencatat aktifitas perubahan variable data provider
+
+|===

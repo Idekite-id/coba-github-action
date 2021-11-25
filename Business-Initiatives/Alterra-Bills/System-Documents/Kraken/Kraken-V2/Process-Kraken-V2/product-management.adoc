@@ -1,0 +1,69 @@
+= Product Management Kraken V2
+
+== Short Description
+
+_Product management_ adalah fitur yang digunakan untuk mengelola _product_ seperti menambah product, mengubah, mengarsipkan, dll.
+
+== Feature Documentation
+
+Anda dapat mengakses dokumentasi _product management_ di https://docs.google.com/document/d/1RFZIyvhotI8I28T29iT65vnfxZd_5OWuHWQidXydTpE/edit?usp=sharing[Dokumentasi Admin API - Product] 
+
+== Log Catalog
+
+.Katalog Log Product Management
+|===
+|json.url |json.handler |description
+
+|/product
+|AddProduct
+|Log ini mencatat aktivitas penambahan product baru
+
+|/product/:id
+|UpdateProduct
+|Log ini mencatat aktivitas pengubahan product
+
+|/product/:id
+|DeleteProduct
+|Log ini mencatat aktivitas pengarsipan product
+
+|/reactivate/:id
+|UnarchiveProduct
+|Log ini mencatat aktivitas pemulihan product yang telah diarsipkan
+
+|/product/bulk-product
+|BulkAddProduct
+|Log ini mencatat aktivitas penambahan product secara masal
+
+|/product/status
+|UpdateProductStatuses
+|Log ini mencatat aktivitas pengubahan status product secara masal
+
+|/product/type/:id
+|UpdateProductTypeName
+|Log ini mencatat aktivitas pengubahan product type name
+
+|/product/change/:id
+|AcceptProductChange
+|Log ini mencatat aktivitas menyetujui/menolak permintaan perubahan product
+
+|/product/change/:id
+|CancelProductChange
+|Log ini mencatat aktivitas pembatalan perubahan product yang sudah dijadwalkan
+
+|/product/:id/biller
+|UpdateProductBiller
+|Log ini mencatat aktivitas pengubahan product biller
+
+|/product/package/:id
+|ChangeProductStatusByPackage
+|Log ini mencatat aktivitas perubahan status product di beberapa package secara masal
+
+|/product/delete-package/:id
+|BulkDeleteProductPackageByProduct
+|Log ini mencatat aktivitas penghapusan product di beberapa package secara masal
+
+|product/biller
+|BulkUpdateProductBiller
+|Log ini mencatat aktivitas perubahan biller di product secara masal
+
+|===

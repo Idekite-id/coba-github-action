@@ -1,0 +1,3 @@
+= Release Note Ether Notification
+
+Berisi catatan rilis sistem.

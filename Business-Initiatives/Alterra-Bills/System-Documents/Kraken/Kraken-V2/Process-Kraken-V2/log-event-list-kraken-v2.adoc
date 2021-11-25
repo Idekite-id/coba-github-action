@@ -1,0 +1,95 @@
+= Log Event List Kraken V2
+
+|===
+| *Event* | *Deskripsi* |  |
+
+| adapter.request
+| _Logging adapter_ sebelum _request_ dari Kraken ke Biller
+|
+|
+
+| adapter.response
+| _Logging adapter_ setelah _request_ dari Kraken ke Biller dalam kasus normal
+|
+|
+
+| adapter.error
+| _Logging adapter_ setelah _request_ dari Kraken to Biller dalam kasus _error_
+|
+|
+
+| adapter.err_parse
+| _Logging adapter_ setelah _request_ dari Kraken ke Biller dalam kasus _error_ tertentu
+|
+|
+
+| S
+| _Logging biller_ pembelian sebelum membuat _request_ ke adaptor
+|
+|
+
+| biller.purchase.response
+| _Logging biller_ pembelian setelah mendapatkan respons dari adaptor
+|
+|
+
+| biller.advice.request
+| _Logging biller_ _advice_ sebelum membuat _request_ ke adaptor (jika ada)
+|
+|
+
+| biller.advice.response
+| _Logging biller advice_ setelah mendapat respons dari adaptor (jika ada)
+| biller.manual.prepare
+| _Logging biller_ sebelum jalankan _manual update_ (jika ada)
+
+| biller.manual.update
+| _Logging biller_ setelah jalankan _manual update_ (jika ada)
+|
+|
+
+| task.create
+| _Log Task Module_ saat _task_ sedang dibuat
+|
+|
+
+| task.inquiry
+| _Log Task Module_ saat proses _transaction inquiry_
+|
+|
+
+| task.transaction
+| _Log Task Module_ saat transaksi dibayarkan kepada Biller
+|
+|
+
+| task.advice
+| _Log Task Module_ ketika transaksi diberitahukan
+|
+|
+
+| task.reversal
+| _Log Task Module_ ketika transaksi dikembalikan
+|
+|
+
+| task.update
+| _Log Task Module_ ketika data transaksi diperbarui dari respons Biller
+|
+|
+
+| task.notificationcallback
+| _Log Task Module_ saat menerima pemberitahuan _calback_ dari Biller
+|
+|
+
+| task.notification
+| _Log Task Module_ saat mengirim pemberitahuan _callback_ ke _partner_
+|
+|
+
+| task.manualupdate
+| _Log Task Module_ ketika transaksi diperbarui secara manual
+|
+|
+|===

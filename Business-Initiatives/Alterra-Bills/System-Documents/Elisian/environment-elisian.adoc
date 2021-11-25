@@ -1,0 +1,47 @@
+= Environment Elisian
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *Specification* 
+^.^h| *Name*
+
+1.6+| Staging 
+| IP Address 
+| 18.136.228. * * *
+
+| URL 
+| https://elisian.sumpahpalapa.com/[]
+
+| Doc Root 
+| /sepulsa/www/elisian/public
+
+| Service Name 
+| Elisian UAT
+
+| DB Server 
+| localhost:3306
+
+| Git Branch 
+| elisian - develop
+
+1.6+| Production 
+| IP Address 
+| 13.250.181.* *
+
+| URL 
+| https://elisian.alphabill.id/[]
+
+| Doc Root 
+| /sepulsa/www/elisian/public
+
+| Service Name 
+| Elisian 02022018
+
+| DB Server 
+| localhost:3306
+
+| Git Branch | elisian - master
+|===
+
+*Note : Untuk detail IP Address, Anda dapat menghubungi Tim Development Elisian atau Tim Infrastruktur*

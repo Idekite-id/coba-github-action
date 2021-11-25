@@ -1,0 +1,156 @@
+= Log Schema Structure Kraken V2
+
+
+== Base
+
+* event
+* credential
+* message
+* package
+
+== menu:Process 
+
+* customer_id
+* response_time
+* start_time
+
+|===
+|  |  |  |
+
+| *API*
+| request
+|
+|
+
+|
+| response
+|
+|
+
+|
+| response_code
+|
+|
+
+| *TASK*
+| state
+|
+|
+
+|
+| product
+| inquiry
+| -
+
+|
+|
+| notifications
+| endpoints
+
+|
+|
+|
+| raw_data
+
+|
+|
+|
+| response_status
+
+|
+|
+| create
+|
+
+|
+|
+| purchase
+|
+
+|
+|
+| reversal
+|
+
+|
+|
+| update
+|
+
+|
+|
+| done
+|
+
+|
+|
+| manual_update
+|
+
+|
+|
+| cancel
+|
+
+| *BILLER*
+| trx_bill_id
+|
+|
+
+|
+| methode
+|
+|
+
+|
+| param
+|
+|
+
+|
+| parsed_date
+|
+|
+
+|
+| response_code
+|
+|
+
+|
+| price
+|
+|
+
+|
+| ammount
+|
+|
+
+| *ADAPTER*
+| trx_bill_id
+|
+|
+
+|
+| endpoint
+|
+|
+
+|
+| command
+|
+|
+
+|
+| raw_data
+|
+|
+
+|
+| response
+|
+|
+|===
+
+

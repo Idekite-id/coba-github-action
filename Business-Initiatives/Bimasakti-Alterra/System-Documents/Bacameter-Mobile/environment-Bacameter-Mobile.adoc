@@ -1,0 +1,17 @@
+= Environment Bacameter Mobile
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+1.4+|Development |IP Address |
+|URL | {variable URL}
+|Minimum Android Version | Android 5.0 (Api Level 21)
+|Target Android Version | Android 9.0 (Api Level 28)
+1.4+|Production |DB Server |
+|URL | {variable URL}
+|Minimum Android Version | Android 5.0 (Api Level 21)
+|Target Android Version | Android 9.0 (Api Level 28)
+|===

@@ -1,0 +1,77 @@
+= Modul Hublang
+
+Modul Hublang merupakan sistem Bimasakti yang digunakan untuk penanganan berbagai permohonan, berita acara, hingga pengaduan dari pelanggan pada masing-masing PDAM.
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Hublang.adoc[Login ke Modul Hublang]
+
+link:./Getting-Started/Menu-Modul-Hublang.adoc[Menu Modul Hublang]
+
+== Menu Pelayanan
+
+link:./Menu-Pelayanan/Melihat-Detail-Pelanggan.adoc[Melihat Detail Pelanggan]
+
+link:./Menu-Pelayanan/Mengelola-Data-Pelanggan.adoc[Mengelola Data Pelanggan]
+
+link:./Menu-Pelayanan/Mengelola-Permohonan-Balik-Nama.adoc[Mengelola Permohonan Balik Nama]
+
+link:./Menu-Pelayanan/Mengelola-Berita-Acara-Permohonan-Balik-Nama.adoc[Mengelola Berita Acara Permohonan Balik Nama]
+
+link:./Menu-Pelayanan/Mengelola-Permohonan-Rubah-Golongan.adoc[Mengelola  Permohonan Rubah Golongan]
+
+link:./Menu-Pelayanan/Mengelola-Berita-Acara-Rubah-Golongan.adoc[Mengelola Berita Acara  Rubah Golongan]
+
+link:./Menu-Pelayanan/Mengelola-Permohonan-Rubah-Rayon.adoc[Mengelola Permohonan Rubah Rayon]
+
+link:./Menu-Pelayanan/Mengelola-Permohonan-Tutup-Sementara-Pelanggan-Air.adoc[Mengelola  Permohonan Tutup Sementara Pelanggan Air]
+
+link:./Menu-Pelayanan/Mengelola-Permohonan-Tutup-Total-Pelanggan-Air.adoc[Mengelola Permohonan Tutup Total Pelanggan Air]
+
+link:./Menu-Pelayanan/Mengelola-Permohonan-Perubahan-atau-Koreksi-Rekening.adoc[Mengelola Permohonan Perubahan atau Koreksi Rekening]
+
+link:./Menu-Pelayanan/Membuat-dan-Menghapus-Usulan-Koreksi-Rekening.adoc[Membuat dan Menghapus Usulan Koreksi Rekening]
+
+link:./Menu-Pelayanan/Menampilkan-Daftar-Koreksi-Rekening-Pelanggan.adoc[Menampilkan Daftar Koreksi Rekening Pelanggan]
+
+link:./Menu-Pelayanan/Menghitung-Simulasi-Tarif.adoc[Menghitung Simulasi Tarif]
+
+link:./Menu-Pelayanan/Mengelola-Permohonan-Pembukaan-Segel-Pelanggan.adoc[Mengelola Permohonan Pembukaan Segel Pelanggan]
+
+link:./Menu-Pelayanan/Mengelola-Permohonan-Sambung-Kembali.adoc[Mengelola Permohonan Sambung Kembali]
+
+link:./Menu-Pelayanan/Mengelola-Pendaftaran-Sambungan-Baru.adoc[Mengelola Pendaftaran Sambungan Baru]
+
+link:./Menu-Pelayanan/Melakukan-Pemblokiran-Pelanggan-Bermasalah.adoc[Melakukan Pemblokiran Pelanggan Bermasalah]
+
+link:./Menu-Pelayanan/Mengelola-Pengaduan-Lainnya.adoc[Mengelola Pengaduan Lainnya]
+
+link:./Menu-Pelayanan/Mengelola-Tagihan-Secara-Manual.adoc[Mengelola Tagihan Secara Manual]
+
+link:./Menu-Pelayanan/Mengelola-Data-Air-Tangki.adoc[Mengelola Data Air Tangki]
+
+link:./Menu-Pelayanan/Melakukan-Monitoring-Pelayanan.adoc[Melakukan Monitoring Pelayanan]
+
+== Menu Supervisi Permohonan
+
+link:./Menu-Supervisi-Permohonan/Menampilkan-Daftar-Tunggu-Proses-Data.adoc[Menampilkan Daftar Tunggu Proses Data]
+
+== Menu Laporan
+
+link:./Menu-Laporan/Menampilkan-Laporan.adoc[Menampilkan Laporan]
+
+== Menu Master Data
+
+link:./Menu-Master-Data/Mengelola-Data-Material.adoc[Mengelola Data Material]
+
+link:./Menu-Master-Data/Mengelola-Data-Ongkos.adoc[Mengelola Data Ongkos]
+
+link:./Menu-Master-Data/Mengelola-Data-Paket-Material.adoc[Mengelola Data Paket Material]
+
+link:./Menu-Master-Data/Mengelola-Data-Paket-Ongkos.adoc[Mengelola Data Paket Ongkos]
+
+link:./Menu-Master-Data/Mengelola-Data-Paket-RAB.adoc[Mengelola  Data Paket RAB]
+
+link:./Menu-Master-Data/Mengelola-Data-Jenis-Non-Air.adoc[Mengelola  Data Jenis Non Air]
+
+link:./Menu-Master-Data/Mengelola-Data-Tarif-Air-Tangki.adoc[Mengelola Data Tarif Air Tangki]

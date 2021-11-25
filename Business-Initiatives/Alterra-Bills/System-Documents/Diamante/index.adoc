@@ -1,0 +1,61 @@
+= Diamante
+:keywords: sti, bpa-support, diamante
+
+== Overview
+
+Diamante merupakan aplikasi _dashboard_ yang digunakan untuk penyedia _product (Biller)_ di Alterra.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Diamante. Masing-masing sudah dilengkapi dengan alamat email yang bisa dihubungi jika diperlukan.
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name*
+^.^h| *Role*
+^.^h| *Email*
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Somy Andriyanto
+| Lead Developer
+| somy@alterra.id
+
+| Leovano Adias Julian Triatama
+| Software Engineer
+| leovano@alterra.id
+
+| Lalu Haryadi Guni
+| Software Engineer
+| adi@alterra.id
+|===
+
+== Technical Information
+
+<<./url-diamante.adoc#, System URL Diamante>>
+
+<<./architecture-diamante.adoc#, Architecture Diamante>>
+
+<<./technology-diamante.adoc#, Technology Diamante>>
+
+<<./environment-diamante.adoc#, Environment Diamante>>
+
+<<./database-diamante.adoc#, Database Documentation Diamante>>
+
+<<./release-deploy-diamante.adoc#, Release and Deployment Diamante>>
+
+<<./flow-wire-diamante.adoc#, Flow and Wireframe Diamante>>
+
+== Onboarding Information
+
+<<./dev-onboarding-diamante.adoc#, Developer Onboarding Diamante>>
+
+<<./development-diamante.adoc#, Development Diamante>>
+
+<<./naming-convention-diamante.adoc#, Naming Convention Diamante>>
+
+== Documentation
+
+<<./release-note-diamante.adoc#, Release Note Diamante>>

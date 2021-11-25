@@ -1,0 +1,87 @@
+= Mobile VAS
+
+Value-Added Services merupakan fasilitas produk yang populer di Industri Telekomunikasi sebagai penunjang untuk layanan utama yaitu Pulsa dan paket data yang pasti disediakan oleh setiap perusahaan operator telekomunikasi. Biasanya produk vas digunakan sebagai promosi dengan cost yang tergolong murah atau tidak memakan biaya yang besar.
+
+Selain digunakan sebagai penunjang penjualan main business, produk VAS ini juga bisa digunakan untuk pengkategorian tiap _subscriber / customer_ menjadi kelompok dengan tipe atau level tertentu.
+
+*Variasi Produk*
+
+Berdasarkan pengelompokan bisnis tertentuk di telekomunikasi, biasanya Produk VAS digunakan kepada produk dengan kategori: 
+
+- Customer Behavior VAS
+- Network VAS
+
+Untuk produk yang akan digunakan oleh Alterra saat ini adalah lebih banyak ke produk dengan kategori *Customer Behavior VAS* seperti : 
+
+- Indosat Only4U
+
+*Vendor Utama Produk*
+
+Terdapat beberapa vendor untuk tiap operator telekomunikasi yang bisa mensupport untuk ketersediaan produk ini, diantaranya: 
+
+- Indosat CVM
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Produk dengan tipe VAS ini tergolong dalam kategory “_Product with Inquiry_“
+
+- List produk yang diberikan ke customer didapatkan berdasarkan hasil _Inquiry_ yang dilakukan oleh customer
+
+- Tidak semua customer bisa mendapatkan produk dengan tipe ini dikarenakan terdapat beberapa limitasi dari sisi operator dan tiap customer bisa jadi mendapatkan rekomendasi produk yang berbeda
+
+*Customer Journey*
+
+. Pelanggan memasukkan _msisdn_ yang akan digunakan
+. Pelanggan mendapatkan produk list yang bisa di beli
++
+Notes : Jika _msisdn_ yang dimasukkan tidak termasuk dalam kriteria penerima produk, maka akan menampilkan list kosong
+. Pelanggan memilih produk yang akan dibeli
+. Pelanggan melakukan pembayaran
+. Pelanggan akan mendapatkan notifikasi produk yang dibeli sudah bisa untuk digunakan
+
+Partner
+
+. Partner memasukkan _request inquiry_ sesuai dengan _payload_ yang telah ditentukan
+
+. Partner mendapatkan _response_ dari _request inquiry_
++
+Notes : Jika _msisdn_ yang dimasukkan tidak termasuk dalam kriteria penerima produk, maka akan menampilkan list kosong
+
+. Partner mengirimkan _request transaction_ untuk melakukan pembayaran produk
+
+. Partner mendapatkan _response transaction_ dengan status ``Pending``
+
+. Partner akan mendapatkan response callback transaction dan akan mendapatkan final status
+.. Jika transaksi sukses maka data transaksi akan dikirimkan dengan status ``Success``
+.. Jika transaksi gagal maka data transaksi akan dikirimkan dengan status ``Failed``
+
+Switcher/Agregator
+
+. Partner mengirimkan _request inquiry_ sesuai dengan parameter yang telah ditentukan seperti:
++
+- customer_number
+
+. Switcher mendapatkan parameter request dan dilanjutkan proses ke Vendor
+
+. Vendor mengirimkan data detail hasil _inquiry_ sesuai dengan parameter yang dibutuhkan oleh Vendor
+
+. Switcher memproses hasil detail data dan menampilkan beberapa parameter yang dibutuhkan oleh Partner
+
+. Partner mendapatkan detail data _Inquiry_ beserta jumlah tagihan yang harus dibayarkan
+
+. Partner mengirimkan _request transaction_ sesuai dengan parameter yang telah ditentukan, seperti:
+- reference_number
+- customer_number
+
+. Switcher mendapatkan parameter _request_ dan mengirimkan _response_ ``pending`` ke Partner
+
+. Switcher melanjutkan proses ke Vendor sesuai dengan parameter yang diminta oleh Vendor
+
+. Vendor memproses transaksi yang telah dilakukan dan mengirimkan hasil dengan status akhir
+
+. Switcher mendapatkan data detail transaksi dan memproses sesuai dengan status akhir yang diberikan oleh vendor
+- status :  ``Success``  or  ``Failed``
+
+. Switcher mengirimkan _callback response_ dengan detail data sesuai yang telah dibutuhkan oleh partner sesuai dengan status transaksi yang didapatkan
+
+image::../../../images-bpa/flow-journey-mobile-vas.png[align="center"]

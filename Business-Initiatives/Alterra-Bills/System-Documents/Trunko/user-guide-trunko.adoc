@@ -1,0 +1,7 @@
+= User Guide Trunko for Integration Support
+
+https://docs.google.com/document/d/1UOYkTU0oSWzwc7ZuviCcH04JLE5F2M-KuDseIA5Dzig/edit#heading=h.ww1qx1lsp4um[How to Use Trunko (BM) HTTP for Integration Support,role=external,window=_blank]
+
+https://docs.google.com/document/d/1H7BVic0P6YB7epc_ybo8Y5ih60531MxT4ZtXHB5jvuI/edit#heading=h.ww1qx1lsp4um[How to Use Trunko (BM) TCP for Integration Support,role=external,window=_blank]
+
+

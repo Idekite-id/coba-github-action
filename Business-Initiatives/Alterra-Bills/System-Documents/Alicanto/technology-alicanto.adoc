@@ -1,0 +1,27 @@
+= Technology Alicanto
+
+Berikut adalah spesifikasi teknologi yang digunakan untuk pengembangan Alicanto:
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Specification* 
+^.^h|*Name*
+
+| OS
+| Linux
+
+| Web Server
+| Node.js (express)
+
+| Programming Language
+| Javascript
+
+| Framework
+| React - Next.js
+
+| DBMS
+| -
+
+| Other
+| Material-UI
+|===

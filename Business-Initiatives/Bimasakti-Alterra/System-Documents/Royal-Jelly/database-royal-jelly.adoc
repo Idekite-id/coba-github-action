@@ -1,0 +1,35 @@
+= Database Documentation Royal Jelly
+
+
+Berisi dokumentasi database yang digunakan di dalam sistem Royal Jelly.
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Table Name* 
+^.^h|*Description*
+
+| `calculation_note` | menampung data catatan kalkulasi
+| `calculation_variable` | menampung variable kalkulasi
+| `callback` | menampung data callback
+| `district` | menampung data kota/kabupaten berdasarkan provinsinya
+| `endpoint` | menampung data endpoint
+| `endpoint_role` | menampung daftar role dan endpoint nya
+| `menu` | menampung data menu
+| `menu_role` | menampung data role dan menunya
+| `province` | menampung data provinsi
+| `role` | menampung data role
+| `sub_district` | menampung data sub distrik
+| `surveyor_coverage` | menampung data surveyor dan sub distriknya
+| `tax_object` | menampung data tax object
+| `tax_object_instance` | menampung data tax object instance
+| `tax_object_instance_history` | menampung data riwayat tax object instance
+| `tax_object_point` | menampung data tax object point
+| `tax_object_point_surveyor` | menampung data tax object point surveyor
+| `tax_object_status` | menampung data status tax object
+| `tax_object_submission` | menampung data tax object submission
+| `tax_object_submission_surveyor` | menampung data surveyor tax object submission
+| `tax_object_type` | menampung data tipe tax object
+| `user` | menampung data user
+| `village` | menampung data village
+| `violation_report` | menampung data violation report
+|===

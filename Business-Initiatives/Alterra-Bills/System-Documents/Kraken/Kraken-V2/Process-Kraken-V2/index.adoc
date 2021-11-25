@@ -1,0 +1,89 @@
+= Process Kraken V2
+
+== Scenario
+
+<<./transaction-kraken-v2.adoc#, Kraken V2 Transaction>>
+
+____
+Skenario yang terakit dengan Transaksi di Kraken 2
+____
+
+<<./administration-management-kraken-v2.adoc#,Administration Management Kraken V2>>
+
+____
+Skenario yang terkait dengan administrasi Kraken 2
+____
+
+== Administration Management
+
+<<./package-management.adoc#, Package Management Kraken V2>>
+
+____
+Fitur untuk mengelola package di Kraken
+____
+
+<<./transaction-management.adoc#, Transaction Management Kraken V2>>
+
+____
+Fitur untuk mengelola transaction di Kraken
+____
+
+<<./partner-management.adoc#, Partner Management Kraken V2>>
+
+____
+Fitur untuk mengelola partner di Kraken
+____
+
+<<./product-management.adoc#, Product Management Kraken V2>>
+
+____
+Fitur untuk mengelola produk di Kraken
+____
+
+<<./provider-management.adoc#, Provider Management Kraken V2>>
+
+____
+Fitur untuk mengelola operator atau service provider di Kraken
+____
+
+<<./system-param-management.adoc#, System Parameter Management Kraken V2>>
+
+____
+Fitur untuk mengelola konfigurasi general system parameter di Kraken
+____
+
+<<./cache-management.adoc#, Cache Management Kraken V2>>
+
+____
+Fitur untuk mengelola (reload) system cache di Kraken
+____
+
+
+== Proses
+
+<<./katalog-proses-kraken-v2.adoc#,Katalog Proses Kraken V2>>
+
+____
+Katalog proses Kraken V2
+____
+
+ 
+== Log
+
+<<./log-schema-kraken-v2.adoc#,Log Schema Kraken V2>>
+
+____
+Log schema for each package
+____
+
+<<./log-event-list-kraken-v2.adoc#,Log Even List Kraken V2>>
+
+____
+Complete sample of event log
+____
+
+<<./log-schema-structure-kraken-v2.adoc#,Log Schema Structure Kraken V2>>
+
+____
+Kraken 2 Log Structure
+____

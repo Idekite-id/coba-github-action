@@ -1,0 +1,38 @@
+= Technology Trunko
+
+Berikut adalah teknologi yang digunakan dalam pengembangan Trunko :
+
+[cols="30%,30%,40%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+^.^h| *Description*
+
+| Sistem Operasi
+| Linux 
+|
+
+| _Container-Framework_ 
+| Kubernetes 
+|
+
+| Bahasa Pemrograman 
+| Go 
+|
+
+| Framework 
+| Echo 
+| Minimalistic Go Framework
+
+| Database 
+| MongoDB 
+| _message scheduler_
+
+|  
+| Redis 
+| _data caching_
+
+| _Message Broker_ 
+| RabbitMQ 
+|
+|===

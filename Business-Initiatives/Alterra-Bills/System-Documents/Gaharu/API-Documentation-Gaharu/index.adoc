@@ -1,0 +1,17 @@
+= API Documentation Gaharu
+
+== API Collection
+
+Dalam halaman berikut, Anda dapat melihat API yang digunakan sistem Gaharu.
+
+Anda dapat mengakses _collection_ API Gaharu pada https://www.postman.com/collections/05058fafb07cb29bdfca[halaman berikut]
+
+== API Documentation
+
+<<./api-doc-pln-prepaid-gaharu.adoc#,API Documentation PLN Prepaid Gaharu>>
+
+<<./api-doc-redeem-pulsa-paket-data-gaharu.adoc#, API Documentation Redeem Pulsa or Paket Data Gaharu>>
+
+<<./api-doc-callback-gaharu.adoc#, API Documentation Callback Gaharu>>
+
+<<./api-doc-check-status-gaharu.adoc#, API Documentation Check Status Gaharu>>

@@ -1,0 +1,7 @@
+= API Documentation Proteus Partner Dashboard
+
+Berikut ini adalah _link_ dokumentasi API sistem Proteus Partner Dashboard :
+
+https://app.swaggerhub.com/apis/swaggeracc/PROTEUS_CORE/1.0.0[]
+
+NOTE: Anda harus bergabung dengan grup SERPUL swaggerhub terlebih dahulu untuk mengakses dokumentasi API

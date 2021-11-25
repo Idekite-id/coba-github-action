@@ -1,0 +1,20 @@
+= Uang Elektronik
+
+Produk untuk memfasilitasi isi ulang/top-up uang digital. Produk e-money adalah berupa akun digital / kartu dimana kita dapat gunakan untuk melakukan pembayaran ke merchant dari penyedia layanan terkait.
+
+. Penyedia layanan:
+
+.. Bank: Flazz, Sakuku, e-Money, Brizzi, e-Cash
+.. Provider Telekomunikasi: T-Cash, XL Tunai, Dompetku
+.. Lainnya: Gopay, Doku Wallet, True Money, Uangku, Paytren
+
+. Bentuk:
+.. Kartu fisik (chip): e-Money, Flazz, Sakuku, dll
+.. Basis server (e-wallet): Gopay, Grabpay, Ovo, dll
+
+*Customer Journey*
+
+. Customer mengetikan nomor handphone yang terhubung dengan akun e-wallet
+. Customer memilih denominasi topup yang diinginkan
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills

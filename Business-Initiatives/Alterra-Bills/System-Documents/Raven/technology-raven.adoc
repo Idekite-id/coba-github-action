@@ -1,0 +1,35 @@
+= Technology Raven
+
+Berikut ini adalah teknologi yang digunakan dalam pengembangan sistem Raven.
+
+|===
+| *Specification* | *Server* | *Description*
+
+| OS
+| -
+|
+
+| Web Server
+| -
+|
+
+| Programming Language
+|
+|
+
+| Framework
+| Drupal
+|
+
+| DBMS
+| MySQL
+|
+
+|
+| PostgreeSQL
+|
+
+| Library
+| STMP
+|
+|===

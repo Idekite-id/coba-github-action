@@ -1,0 +1,18 @@
+= Request Barang Masuk
+
+Ikuti langkah di bawah ini untuk mengajukan pembelian barang yang akan diminta oleh bagian tertentu.
+
+image::../images-gudang/gudang-permintaan-pembelian-barang-1.png[align="center"]
+
+1. Pilih menu *Pengelolaan Barang*
+2. Klik pada ikon *Pengajuan Pembelian Barang*
++
+image::../images-gudang/gudang-permintaan-pembelian-barang-2.png[align="center"]
+3. Form Pengajuan Pengeluaran Barang akan muncul. *Isi Nomor DPB, Wilayah, Tanggal, Kategori, Kegunaan,* dan *Barang yang akan dikeluarkan*
+4. Klik pada tombol *Simpan dan Cetak DPB*
++
+image::../images-gudang/gudang-permintaan-pembelian-barang-3.png[align="center"]
+5. Akan muncul _pop up_ konfirmasi untuk menyimpan data _request_, klik *Yes* jika data sudah benar
++
+image::../images-gudang/gudang-permintaan-pembelian-barang-4.png[align="center"]
+6. _Pop up_ bahwa data telah berhasil disimpan akan muncul, klik pada tombol *OK*, maka akan muncul _preview_ PDF Daftar Permintaan Barang (PDB) yang dapat dicetak kemudian.

@@ -1,0 +1,19 @@
+= Development CoffeeShop
+
+== Gitflow
+
+image::./images-coffeeshop/Coffeeshop-Gitflow.png[Gitflow CoffeeShop]
+
+== Development Step
+
+Hal-hal yang perlu diperhatikan ketika _developer_ akan melakukan clone civet :
+
+1. Konfigurasi API Kraken (setelah membuat partner pada Kraken).
+Pada menu `Configuration\->Web Services\->Kraken API Settings` dan pada menu `/admin/commerce/config/topup/provider/kraken.`
+2.  Konfigurasi _Veritrans Callback_.
+Tentukan _Client Key_ pada setiap pengaturan metode pembayaran dan atur _Civet URL Callback_ pada Sepulsa _Veritrans_ admin menu.
+3. Konfigurasi email header pada mimemail _file(code)_.
+4. Konfigurasi _product package code_ pada `/admin/commerce/config/product-variation-types/pulsa/fields/field_package_code.`
+5. Set pesan penyelesaian (_completion message_) pada halaman terima kasih Frigate di `/admin/commerce/config/checkout/form/pane/checkout_completion_message.`
+6. Tentukan _tools_ untuk _Customer Service_ dan Ops (contoh: proses ulang transaksi atau laporan yang dibutuhkan dari Ops).
+7. Tentukan MDR _module_ (optional jika _partner_ ingin MDR _fee_ dibayar oleh _customer_).

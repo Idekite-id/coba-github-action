@@ -1,0 +1,9 @@
+= Login ke Modul Personalia
+
+Untuk masuk ke dalam sistem, Anda cukup mengikuti langkah berikut.
+
+image::../images-personalia/personalia-login.png[align="center"]
+
+1. Masukkan *Username* dan *Password*
+2. Klik pada tombol *MASUK*
+3. Sistem akan menampilkan halaman utama Modul Personalia.

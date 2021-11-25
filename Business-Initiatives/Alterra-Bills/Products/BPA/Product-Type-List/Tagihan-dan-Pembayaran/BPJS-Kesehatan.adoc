@@ -1,0 +1,82 @@
+= BPJS Kesehatan
+
+BPJS adalah badan hukum yang dibentuk untuk menyelenggarakan program jaminan sosial. Salah satu produk besarnya yaitu BPJS Kesehatan. Produk ini dikhususkan kepada layanan jaminan kesehatan dari pemerintah untuk setiap penduduk Indonesia.
+
+*Variasi Produk*
+
+Produk yang disediakan adalah pembayaran produk BPJS Kesehatan.
+
+*Vendor Utama Produk*
+
+Jatelindo
+
+*Customer Journey*
+
+Partner
+
+. Partner memasukkan nomor BPJS Kesehatan milik Keluarga (identifikasi data peserta BPJS)
+
+. Partner memasukkan jumlah bulan pembayaran dengan keterangan:
+
+- Bisa lebih dari 1 bulan pembayaran
+- Jika ada tagihan yang belum terbayar di bulan sebelumnya, tagihan tersebut harus dilunasi terlebih dahulu beserta dendanya hingga bulan berjalan
+- Format:
++
+``[payment_period]`` harus sesuai dengan ketentuan
+
+. Partner _request inquiry_ untuk mengecek nilai tagihan yang harus dibayarkan
+
+. Partner mendapatkan nilai tagihan yang harus dibayarkan (beserta nilai denda jika terdapat periode yang telat bayar)
+
+. Partner melakukan _request_ transaksi dengan menginputkan data yang sama dengan _inquiry_:
+
+- Input nomor BPJS
+- Input jumlah bulan pembayaran
+
+. Jika transaksi sukses, partner akan mendapatkan data detail transaksi beserta detail data peserta BPJS
+
+. Jika transaksi gagal, status transaksi akan tetap dengan status _pending_
+
+Switcher/Aggregator
+
+. Partner _request inquiry_ untuk melihat jumlah tagihan yang harus dibayarkan
+
+. _Switching Engine_ melakukan validasi parameter _request_ dan akan langsung melempar _response error_ jika terdapat kesalahan input parameter
+
+. _Switching Engine_ _request_ ke Biller berdasarkan parameter yang diinputkan oleh partner
+
+. _Switching Engine_ mendapatkan _response_ dari _request_ yang telah dilakukan
+
+. Jika _success_, maka akan muncul jumlah tagihan (dan denda jika ada)
+
+. Jika gagal, maka akan mendapatkan _error message_
+
+. _Switching Engine_ akan mengirimkan _response_ berupa Jumlah Tagihan ke Partner
+
+. Partner melakukan proses transaksi sesuai dengan parameter yang harus diinputkan
+
+. _Switching Engine_ melakukan validasi parameter _request_ dan akan langsung melempar _response error_ jika terdapat kesalahan input parameter
+
+. _Switching Engine_ melakukan _request_ transaksi ke Biller
+
+. _Switching Engine_ mendapatkan _response_ dari _request_ transaksi yang telah dilakukan
+
+. Jika success, maka akan mendapatkan detail data pembayaran dan detail customer BPJS yang dibayarkan
+
+. Jika gagal, maka akan mendapatkan _error message_
+
+. _Switching Engine_ akan mengirimkan data _response_ langsung ke partner
+
+*Test Scenario*
+
+Positive Case
+
+. Bayar BPJS Kesehatan untuk bulan berjalan
+. Bayar BPJS Kesehatan untuk bulan berjalan disertai pembayaran tagihan sebelumnya
+. Bayar BPJS Kesehatan untuk beberapa bulan ke depan, misalnya: 3 bulan
+
+Negative Case
+
+. Bayar BPJS Kesehatan dengan nomor BPJS yang belum terdaftar
+. Bayar BPJS Kesehatan untuk bulan berjalan dengan Nomor BPJS yang sudah dibayarkan sebelumnya
+. Bayar BPJS Kesehatan untuk bulan yang sudah lewat

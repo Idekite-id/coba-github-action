@@ -1,0 +1,75 @@
+= Jenis Laporan Pada Modul Akuntansi
+
+Menu *Laporan Akun* pada modul akuntansi digunakan untuk menampilkan berbagai kategori dan jenis laporan. Berikut penjelasan tentang setiap jenis laporan yang dapat ditampilkan: 
+
+1. *Sub Buku Pembantu*
++
+Sub Buku Pembantu digunakan untuk memeriksa _balance_ dan data pendukung antara laporan debit dan kredit yang tercatat di dalam buku besar.
+
+2. *Cetak Buku Besar*
++
+Cetak Buku Besar digunakan untuk menampilkan dan mencetak data laporan pembukuan yang dalam buku besar (_ledger_) yang dicatat oleh sistem berdasarkan dari Posting Akun.
+
+3. *Neraca Lajur*
++
+Laporan Neraca Lajur digunakan untuk menampilkan laporan dari pencatatan jurnal neraca keuangan pada bulan berjalan di dalam sistem.
+
+4. *Laporan Neraca Akhir*
++
+Laporan Neraca Akhir digunakan untuk menampilkan laporan dari pencatatan jurnal neraca keuangan dengan akumulasi terakhir yang ada di dalam sistem. Dalam fitur ini terdapat 3 sub-menu lainnya, yaitu:
+
+- *Neraca Akhir Detail* : Digunakan untuk menampilkan laporan dari neraca keuangan akumulasi terakhir dengan rincian keseluruhan data
+
+- *Neraca Akhir Staffel* : Digunakan untuk menampilkan laporan dari neraca keuangan akumulasi terakhir dengan metode Staffel
+
+- *Neraca akhir Scontro* : Digunakan untuk menampilkan laporan dari neraca keuangan akumulasi terakhir dengan metode Scontro
+
+5. *Laporan Laba Rugi*
++
+Laporan Laba Rugi digunakan untuk menampilkan laporan dari pencatatan jurnal keuntungan dan kerugian yang didapatkan oleh perusahaan dan dicatat oleh sistem. Terdapat 3 sub-menu yang ada dalam menu ini, yaitu : 
+
+- *Laporan Laba Rugi Rincian* : Digunakan untuk menampilkan laporan laba rugi dengan data jurnal yang lengkap secara keseluruhan.
+
+- *Laporan Laba Rugi Rekap* : Digunakan untuk menampilkan laporan laba rugi dengan data jurnal yang lengkap secara rekap.
+
+- *Laporan Laba Rugi SAK-ETAP* : Digunakan untuk menampilkan laporan laba rugi dengan versi yang sudah sesuai dengan standar pelaporan akuntansi SAK-ETAP. 
+
+6. *Laporan Perputaran Uang*
++
+Laporan Perputaran Uang digunakan untuk menampilkan laporan arus kas (cash flow) yang dicatat oleh sistem. Tedapat 3 fitur yang ada dalam menu ini, yaitu: *Metode Langsung*, *Metode Tidak Langsung*, dan *Metode Detail*
+
+7. *Laporan Perubahan Ekuitas*
++
+Laporan Perubahan Ekuitas digunakan untuk menampilkan laporan yang menggambarkan peningkatan atau penurunan aktiva bersih atau kekayaan selama periode tertentu.
+
+8. *Laporan Rincian Biaya*
++
+Laporan Rincian Biaya digunakan untuk menampilkan rincian laporan biaya operasional dari bisnis yang dilakukan oleh perusahaan. Terdapat 3 submenu pada menu ini, yaitu: *Rincian Biaya Langsung*, *Rincian Biaya SAK-ETAP*, dan *Rincian Biaya Kombinasi*
+
+9. *Laporan Rincian Pendapatan*
++
+Laporan Rincian Pendapatan digunakan untuk menampilkan rincian pendapatan dari transaksi bisnis PDAM yang dilakukan oleh perusahaan. Terdapat 2 submenu pada menu ini, yaitu: *Rincian Pendapatan Langsung* dan *Rincian Pendapatan SAK-ETAP*
+
+10. *Hutang Jangka Pendek*
++
+Laporan Hutang Jangka Pendek digunakan untuk menampilkan laporan hutang jangka pendek.
+
+11. *Ikhtisar Rekening Air*
++
+Laporan Ikhtisar Rekening Air digunakan untuk menampilkan laporan dari pencatatan ikhtisar rekening air pada sistem.
+
+12. *Ikhtisar Rekening NonAir*
++
+Laporan Ikhtisar Rekening Non Air digunakan untuk menampilkan laporan pencatatan ikhtisar rekening nonair pada sistem.
+
+13. *Konsolidasi Penagihan*
++
+Laporan Konsolidasi Penagihan digunakan untuk menampilkan kumpulan laporan dari pencatatan setiap jenis rekening PDAM.
+
+14. *Laporan Persediaan*
++
+Laporan Persediaan digunakan untuk menampilkan laporan dari pencatatan laporan tentang persediaan bahan kimia, ATK, bahan instalasi (pipa air, meter air, aksesoris, dan lainnya).
+
+15. *Ikhtisar Pembelian*
++
+Laporan Ikhtisar Pembelian digunakan untuk menampilkan laporan dari pembelian dari aplikasi Gudang.

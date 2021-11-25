@@ -1,0 +1,17 @@
+= Mengelola Format Penomoran Surat
+
+Dalam Modul Hublang, Anda dapat melakukan pengelolaan format penomoran surat, seperti menambah, memperbarui dan menghapus data. Ikuti langkah-langkah berikut untuk mengelola data: 
+
+image::../images-hublang-web/hublang-web-mengelola-format-nomor-surat.png[align="center"]
+
+1. Untuk menambah data nomor surat, klik tombol *Nomor*. Selanjutnya isi form penambahan nomor surat. Setelah data terisi, klik tombol *Simpan Data*.
++
+image::../images-hublang-web/hublang-web-mengelola-format-nomor-surat-1.png[align="center"]
+
+2. Untuk memperbarui data, klik ikon *Edit*. Setelah mengubah data, klik pada tombol *Update Data*.
++
+image::../images-hublang-web/hublang-web-mengelola-format-nomor-surat-2.png[align="center"]
+
+3. Untuk menghapus data jenis non air, klik pada tombol *Hapus* hingga muncul _pop up_. Untuk melanjutkan proses, klik tombol *Ya*, *Delete Data*. Untuk membatalkan, klik tombol *Tidak*, *Terima Kasih*.
++
+image::../images-hublang-web/hublang-web-mengelola-format-nomor-surat-3.png[align="center"]

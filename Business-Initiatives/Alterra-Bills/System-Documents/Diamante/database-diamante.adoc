@@ -1,0 +1,14 @@
+= Database Documentation Diamante
+
+Berisi dokumentasi database yang digunakan di dalam sistem, seperti daftar tabel dan gambar ERD beserta penjelasannya.
+
+|===
+|*Table Name* |*Description*
+
+| Companies | Menyimpan data _biller_ atau perusahaan penyedia product.
+| Exports | Menyimpan data _export_ dari unduhan user.
+| Permissions | Menyimpan data _permission_ dari masing - masing _role_.
+| Roles | Menyimpan data _role_.
+| Users | Menyimpan data _user_.
+
+|===

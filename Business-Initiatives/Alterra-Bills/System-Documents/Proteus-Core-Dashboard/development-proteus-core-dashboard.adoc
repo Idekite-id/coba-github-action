@@ -1,0 +1,7 @@
+= Development Proteus Core Dashboard
+
+== Workflow / Gitflow
+
+Berikut ini adalah Gitflow dari sistem Proteus Core Dashboard
+
+image::images-proteus-core-dashboard/proteus-core-dashboard-flow.png[Gitflow Proteus Core Dashboard]

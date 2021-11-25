@@ -1,0 +1,7 @@
+= User Guide Oknurt for Integration Support
+
+https://docs.google.com/document/d/1f2MPh3V1ScLWcuOhdB3VqDSS73EK2nSLjKE5fUkjrM0/edit#heading=h.ww1qx1lsp4um[How to Use Oknurt (PM) HTTP for Integration Support,role=external,window=_blank]
+
+https://docs.google.com/document/d/1wwr_jmviSJXicVwYdX1sPcEfNwb9m8vAGJg-viLrTPE/edit#heading=h.ww1qx1lsp4um[How to Use Oknurt (PM) TCP for Integration Support,role=external,window=_blank]
+
+

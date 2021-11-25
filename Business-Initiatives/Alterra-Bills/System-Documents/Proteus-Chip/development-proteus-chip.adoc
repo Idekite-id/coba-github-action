@@ -1,0 +1,7 @@
+= Development Proteus Chip
+
+== Workflow / Gitflow
+
+Berikut adalah Gitflow dari sistem Proteus Chip.
+
+image::images-proteus-chip/proteus-chip-flow.png[Gitflow Proteus Chip]

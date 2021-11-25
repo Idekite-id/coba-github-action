@@ -1,0 +1,23 @@
+= Architecture Kramoris
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem Kramoris:
+
+Sistem ini merupakan bagian dari Telco. Untuk lebih detail terkait hubungan Kramoris dengan sistem Telco lainnya, silakan mengakses <<../../../../../Divisions/Meet-Our-Divisions/Technology/Engineering/Alterra-Systems-C1-Diagram/Telco-C1-Diagram.adoc#,Telco C1 Diagram>> berikut.
+
+image::./images-kramoris/Kramoris-C2-Diagram.png[Kramoris C2 Diagram]
+
+== Related Systems
+
+|===
+
+| *System Name* | *Description* | *Depends on* | *Be a Dependencies to*
+
+|Kramoris
+|Platform for buying and selling sim cards and modems for XL product
+a|1. Silo - As BE API
+2. Midtrans (External) - As Payment Gateway
+|-
+
+|===

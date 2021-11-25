@@ -1,0 +1,44 @@
+= Almock
+:keywords: sti, bpa, mock-api-service
+
+== Overview
+
+Almock adalah sistem yang dibuat untuk tujuan _mocking_ API (versi _dummy_). Sistem ini bisa digunakan untuk semua Alterrans yang tidak memiliki server untuk _testing_ tanpa harus hit _API_ yang asli.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| 
+| Product Owner
+|
+
+| Wishnu Eka Sidharta  
+| Development Manager
+| wishnu@alterra.id
+
+|  
+| Lead Developer
+|
+
+|  
+| Lead Quality Engineer
+| 
+
+|  
+| Lead System Analyst
+| 
+|===
+
+== Technical Information
+
+<<./url-almock.adoc#, System URL Almock>>
+
+== Documentation
+
+https://docs.google.com/document/d/1w7IseRXmccPhpiJV0xKQyJlgUlFTPt9HJ348WFNiG1s/edit?usp=sharing[User Guide Almock for Operations Team]
+

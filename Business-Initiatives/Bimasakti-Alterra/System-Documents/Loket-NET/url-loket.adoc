@@ -1,0 +1,18 @@
+= System URL Loket.NET
+
+Saat ini sistem dalam tahap ___________, informasi akses dapat dilihat melalui tabel di bawah ini. Gunakan alias, username, dan password yang sudah terdaftar untuk mengakses sistem.
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*URL*
+
+|Development 
+|
+
+|Staging 
+|
+
+|Production 
+|
+|===

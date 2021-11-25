@@ -1,0 +1,92 @@
+= Connection and Protocol Hydra
+
+== HTTP
+
+HTTP adalah protokol standar di era internet modern yang mengakomodasi REST sebagai _interface_. Anda dapat mengakses https://hydra.sumpahpalapa.com/docs/http/[Swagger Documentation] untuk detail spesifikasinya.
+
+== gRPC
+
+gRPC adalah framework RPC modern berperforma tinggi yang dapat dijalankan dalam _environment_ apapun. Framework ini menghubungkan berbagai _service_ dan antar _data center_ dengan _support_ _plugable_ untuk _load balancing, tracking, health checking,_ dan _authentication_ secara efisien. Framework ini juga dapat diimplementasikan pada komputasi terdistribusi untuk menghubungkan perangkat, aplikasi seluler, dan _browser_ ke layanan _backend_. Akses https://grpc.io/[link berikut] untuk mempelajari lebih detail tentang gRPC.
+
+== Proto Files
+
+gRPC menggunakan file proto untuk menentukan spesifikasi RPC _message_, yang didasarkan pada https://developers.google.com/protocol-buffers/[_protocol buffers language_]. File proto akan diubah ke bahasa pemrograman tertentu, sehingga sistem apapun dapat melakukan integrasi dengan mudah. Berikut adalah spesifikasi Hydra dalam file proto: 
+
+----
+// command: protoc -I=notify notify/notify.proto --go_out=plugins=grpc:notify
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.hydra.notify";
+option java_outer_classname = "NotifyProto";
+
+package notify;
+
+// Interface exported by the server.
+service Notify {
+  rpc RequestNotify(NotifyRequestParam) returns (NotifyResponseParam) {}
+}
+
+message NotifyRequestParam {
+  // Transation identifier from client side
+	string remote_event_id = 1;
+	// http url to notify
+	string url = 2;
+	// http method to notify, available method: get, post, put, patch, delete
+	string method = 3;
+	// http header to notify
+	map<string, string> header  = 4;
+	// http body to notify
+	string body = 5;
+	// http timeout, in miliseconds
+	int32 timeout = 6;
+	// Hystrix Circuit Breaker Settings
+	HystrixSettings hystrix_settings = 7;
+	// Retry Process configuration
+	RetrySettings retry_settings = 8;
+	// Callback Configuration
+	CallbackSettings callback_settings = 9;
+	
+}
+
+message NotifyResponseParam {
+  	string response_code = 1;
+	string message = 2;
+	string response_data = 3;
+  	string event_id = 4;
+	string remote_event_id = 5;
+}
+
+message HystrixSettings{
+	// CommandName is what process name do you want to have a same setting
+	string command_name = 1;
+	// HystrixTimeout is how long to wait for command to complete, in milliseconds (default: 1000)
+	int32 hystrix_timeout = 2;
+	// MaxConcurrentRequests is how many commands of the same type can run at the same time (default: 10)
+	int32 max_concurrent_requests = 3;
+	// ErrorPercentThreshold causes circuits to open once the rolling measure of errors exceeds this percent of requests (default: 50)
+	int32 error_percent_threshold = 4;
+	// SleepWindow is how long, in milliseconds, to wait after a circuit opens before testing for recovery (default: 5000)
+	int32 sleep_window = 5;
+	// RequestVolumeThreshold is the minimum number of requests needed before a circuit can be tripped due to health (default: 20)
+	int32 request_volume_threshold = 6;
+}
+
+message RetrySettings{
+	// how many retries to be executed
+	int32 retry_count = 1;
+	// how many retries to be executed
+	int32 backoff_interval = 2;
+	// how long is the variation in periodicity between retrying, in miliseconds
+	int32 maximum_jitter_interval = 3;
+}
+
+message CallbackSettings{
+	// callback http url to notify
+	string url = 1;
+	// http method to notify, available method: get, post, put, patch, delete
+	string method = 2;
+	// callback http header to notify
+	map<string, string> header = 3;
+}
+----

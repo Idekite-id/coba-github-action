@@ -1,0 +1,22 @@
+= System URL Royal Jelly
+
+Berikut adalah URL yang dapat digunakan untuk mengakses sistem Royal Jelly :
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+| Staging Bee| https://bee.sumpahpalapa.com[]
+| Production Bee | https://ukur-api.bimareklame.id/[]
+| Staging Royal Jelly KBB | https://royal-jelly.sumpahpalapa.com[]
+| Production Royal Jelly KBB | https://kbb-api.bimareklame.id[]
+| Staging Royal Jelly Surakarta| http://royal-solo.sumpahpalapa.com/[]
+| Production Royal Jelly Surakarta| https://surakarta-api.bimareklame.id/[]
+| Demo Royal Jelly Surakarta| https://demo-be.bimareklame.id[]
+| Staging Honey KBB | https://honey.sumpahpalapa.com/[]
+| Production Honey KBB | https://kbb.bimareklame.id[]
+| Staging Honey Surakarta| http://surakarta.sumpahpalapa.com[]
+| Production Honey Surakarta| https://surakarta.bimareklame.id[]
+| Demo Honey Surakarta| https://demo.bimareklame.id/[]
+|===

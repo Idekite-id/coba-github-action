@@ -1,0 +1,47 @@
+= Proteus Chip
+:keywords: gst, traditional,proteus-chip
+
+== Overview
+
+Proteus Chip adalah sistem yang di-_install_ di tiap Serpul _Owner_, agar dapat menambah stok _chip_ modem untuk berbagai transaksi (pulsa, paket data, dll) ke Proteus Core. Proteus Chip menggunakan basis _AT Command_.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Kevin Setiawan Tanzil
+| Lead Software Engineer
+| kevin@alterra.id
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Anandhi Tristiaratri
+| Quality Engineer
+| anandhi@alterra.id
+
+| Moehammad Oki Putra Samudra
+| Software Engineer
+| oki@alterra.id
+
+| Doni Hadiyansyah
+| Software Engineer
+| dhadiansyah@alterra.id
+|===
+
+== Technical Information
+
+<<./architecture-proteus-chip.adoc#, Architecture Proteus Chip>>
+
+<<./technology-proteus-chip.adoc#, Technology Proteus Chip>>
+
+== Onboarding Information
+
+<<./development-proteus-chip.adoc#, Development Proteus Chip>>
+
+== Documentation

@@ -1,0 +1,17 @@
+= Mencetak Lembar Voucher Harian
+
+Fitur ini berfungsi untuk mencetak lembar _voucher_ harian. Berikut langkah-langkahnya:
+
+image::../images-keuangan/keuangan-voucher-mencetak-lembar-voucher-harian-1.png[align="center"]
+
+
+1. Pilih ikon *Cetak Lembar Voucher Harian*, kemudian klik salah satu data di kolom di tabel. Selanjutnya, klik ikon *Cetak Lembar Voucher Harian*
+
+2. Setelah muncul kotak *Cetak Lembar Voucher*, lengkapi data dengan *Tanggal Buat Voucher s/d Tanggal*, *Tanggal Cetak*, dan *Nomor Voucher* sesuai dengan data yang ingin dicetak
+
+3. Setelah selesai, klik tombol *Tampil* untuk lanjut ke proses berikutnya. Jika Anda ingin membatalkan perintah cetak, klik tombol *Keluar*
+
++
+image::../images-keuangan/keuangan-voucher-mencetak-lembar-voucher-harian-2.png[align="center"]
+
+4. Selanjutnya akan muncul _preview file_. Anda dapat mencetak _voucher_ dengan menekan ikon *Print* .

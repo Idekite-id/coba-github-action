@@ -1,0 +1,61 @@
+= Elisian
+:keywords: sti,bpa-support,operation-dashboard, elisian
+
+== Overview
+
+Elisian adalah pengganti Aplhaboard, yang merupakan _dashboard_ yang digunakan untuk menampilkan semua data yang dibutuhkan oleh _partner_ dan _biller/operators_ (Telco).
+
+Elisian dikembangkan untuk kebutuhan _partner_ berupa sebuah _dashboard_ untuk menampilkan informasi yang dibutuhkan oleh _partner_ sehingga dapat diakses dengan mudah sesuai dengan kebutuhan. Untuk transaksi yang bersifat _real time_, Elisian membaca data dari _direct slave_ Kraken sementara untuk transaksi tidak bersifat _real time_, Elisian membaca data dari Postgree (_Sepulsa Reporting_).
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Somy Andriyanto
+| Lead Developer
+| somy@alterra.id
+
+| Leovano Adias J T
+| Software Engineer
+| leovano@alterra.id
+
+| Lalu Haryadi Guni
+| Software Engineer
+| adi@alterra.id
+|===
+
+== Technical Information
+
+<<./url-elisian.adoc#, System URL Elisian>>
+
+<<./architecture-elisian.adoc#, Architecture Elisian>>
+
+<<./technology-elisian.adoc#, Technology Elisian>>
+
+<<./environment-elisian.adoc#, Environment Elisian>>
+
+<<./database-elisian.adoc#, Database Documentation Elisian>>
+
+<<./release-deploy-elisian.adoc#, Release and Deployment Elisian>>
+
+
+== Onboarding Information
+
+<<./dev-onboarding-elisian.adoc#, Developer Onboarding Elisian>>
+
+<<./development-elisian.adoc#, Development Elisian>>
+
+<<./naming-convention-elisian.adoc#, Naming Convention Elisian>>
+
+
+== Documentation
+
+https://github.com/sepulsa/elisian/releases[Release Notes Elisian]

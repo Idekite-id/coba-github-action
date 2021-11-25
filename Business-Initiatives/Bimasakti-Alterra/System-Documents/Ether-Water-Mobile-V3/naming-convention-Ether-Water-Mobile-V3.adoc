@@ -1,0 +1,3 @@
+= Naming Convention Ether Water Mobile V3
+
+Berisi aturan penamaan dalam development sistem.

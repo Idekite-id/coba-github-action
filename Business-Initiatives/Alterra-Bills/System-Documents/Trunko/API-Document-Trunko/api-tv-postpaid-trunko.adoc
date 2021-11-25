@@ -1,0 +1,95 @@
+= TV Postpaid Trunko
+
+[source,json]
+----
+// Request
+
+{
+	"command_type": "purchase", // purchase/advice/reversal
+  "transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "", // advice/reversal
+	"remote_product_id": "", // advice/reversal
+	"customer_id": "401000080011",
+	"partner_id": 6,
+  "product_id": 105,
+  "biller_id": 1,
+	"biller_label": "serpul",
+	"counter": 1,
+	"rawdata": "", // selalu ambil dari response inquiry rawdata
+	"parameters": {
+		"amount": "44500"
+	} // product with inquiry
+}
+
+// Response Success
+
+{
+	"transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "6855950",
+	"remote_product_id": "SP25",
+  "customer_id": "401000080011",
+  "response_code": "00",
+	"price": 45500, // purchase price
+	"amount": 44500, // product nominal (prepaid)
+  "data": {
+    "serial_number": "0051003619319900",
+    "biller_rescode": "0000",
+    "message": "success",
+    "rawdata": "",
+    "detail": {
+        "stan": "769880",
+        "reference_no": "6164004122696118",
+        "customer_id": "401000080011",
+        "customer_name": "WISHNU EKA SIDHARTA",
+        "bill_count": "1",
+        "bill_periode": "202004",
+        "bill_amount": "44500",
+        "admin_charge": "2000",
+        "total_amount": "46500"
+    }
+  },
+	"next":""
+}
+
+// Response Pending
+
+{
+  "transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "6855950",
+	"remote_product_id": "SP25",
+  "customer_id": "401000080011",
+  "response_code": "10",
+	"price": 45500, // purchase price
+	"amount": 44500, // bill amount/base bill
+  "data": {
+    "serial_number": "",
+    "biller_rescode": "9999",
+    "message": "pending", // failed/timeout/etc
+		"rawdata": "" // rawdata response inquiry
+  },
+	"next":""
+}
+
+// Response Failed
+
+{
+  "transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "6855950",
+	"remote_product_id": "SP25",
+  "customer_id": "401000080011",
+  "response_code": "99",
+	"price": 45500, // purchase price
+	"amount": 44500, // bill amount/base bill
+  "data": {
+    "serial_number": "",
+    "biller_rescode": "9999",
+    "message": "failed", // failed/timeout/biller-message/etc
+		"rawdata": "" // http response
+  },
+	"next":""
+}
+----

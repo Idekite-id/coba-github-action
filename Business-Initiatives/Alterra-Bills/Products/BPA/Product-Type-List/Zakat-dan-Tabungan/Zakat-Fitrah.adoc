@@ -1,0 +1,35 @@
+= Zakat Fitrah
+
+Produk untuk memfasilitasi pembayaran zakat fitrah bagi umat muslim secara online. Zakat fitrah merupakan salah satu dari jenis zakat yang wajib dikeluarkan setiap individu merdeka dan mampu serta sesuai dengan syarat yang telah ditetapkan. Zakat sendiri telah menjadi salah satu bagian dari rukun Islam yang ke-4. Oleh karena itu, diwajibkan kita sebagai umat muslim untuk selalu membayar zakat terutama zakat fitrah.
+
+*Variasi Produk*
+
+Varian produk untuk zakat fitrah berupa denom yang akan dizakatkan.
+
+*Vendor Utama Produk*
+
+Vendor utama Zakat Fitrah yaitu: BAZNAS
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Jenis zakatnya menyesuaikan dengan harga makanan pokok di Indonesia yaitu beras.
+- MUZAKKI adalah orang yang dikenai kewajiban membayar zakat atas kepemilikan harta yang telah mencapai nishab dan haul.
+- Setiap balita hingga orang dewasa memiliki kewajiban membayar zakat sebesar 3,5 liter atau 2,5 kg beras. Apabila sahabat Zakat ingin menggantikannya dengan uang, Sahabat harus membayar sesuai dengan harga dari 2,5 kg beras tersebut. Yang selanjutnya Sahabat bisa salurkan kepada masjid terdekat atau kepada lembaga amil zakat yang terpercaya.
+- 1 transaksi hanya untuk pembayaran zakat fitrah 1 orang
+- Transaksi untuk diri sendiri hanya perlu menuliskan 1 nama pelanggan. Contoh: "Ikhfandi Nurcahyo"
+- Transaksi untuk anggota keluarga/orang lain yang ingin diwakilkan, dapat menuliskan nama dibelakang muzzaki yang sudah terdaftar dengan format: Nama muzaki yang sudah terdaftar#Nama orang lain yang akan dibayarkan zakat. Contoh: "Ikhfandi Nurcahyo#Galuh Nurcahyo"
+
+*Customer Journey*
+
+Partner
+
+. Customer mengetikan customer number, nama, dan email
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher/Agregator
+
+. Partner mengirimkan nomor telepon seluler, nama, email, dan _product code_ untuk transaksi
+. Sistem memproses transaksi ke Biller
+. Sistem menerima _response_ transaksi Biller
+. Sistem mengirim _callback_ ke Partner

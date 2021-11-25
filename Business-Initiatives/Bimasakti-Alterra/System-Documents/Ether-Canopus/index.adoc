@@ -1,0 +1,80 @@
+= Ether Canopus
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Ether Canopus. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| I Wayan Agus Krisna Apriana 
+| Software Engineer 
+| apriana@bsa.id
+
+| I Gede Krisna Putra Andiana 
+| Software Engineer 
+| gedekrisna@bsa.id
+
+| I Ketut Giri Arsa 
+| Software Engineer 
+| giriarsa@bsa.id
+
+| I Made Agus Surya Adiputra 
+| Software Engineer 
+| suryaadiputra@bsa.id
+
+| Hardiyusa 
+| Software Engineer 
+| hardiyusa@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Ether-Canopus.adoc#, System URL Ether Canopus>>
+
+<<./architecture-Ether-Canopus.adoc#, Architecture Ether Canopus>>
+
+<<./technology-Ether-Canopus.adoc#, Technology Ether Canopus>>
+
+<<./environment-Ether-Canopus.adoc#, Environment Ether Canopus>>
+
+<<./database-Ether-Canopus.adoc#, Database Documentation Ether Canopus>>
+
+<<./release-deploy-Ether-Canopus.adoc#, Release and Deployment Ether Canopus>>
+
+<<./flow-wire-Ether-Canopus.adoc#, Flow and Wireframe Ether Canopus>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Ether-Canopus.adoc#, Developer Onboarding Ether Canopus>>
+
+<<./development-Ether-Canopus.adoc#, Development Ether Canopus>>
+
+<<./naming-convention-Ether-Canopus.adoc#, Naming Convention Ether Canopus>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+<<./release-note-Ether-Canopus.adoc#, Release Note Ether Canopus>>

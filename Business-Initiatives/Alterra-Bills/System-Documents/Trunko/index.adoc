@@ -1,0 +1,78 @@
+= Trunko
+:keywords: bpa
+
+== Overview
+
+Trunko adalah _module biller management_ yang dikembangkan untuk mengakomodasi percepatan integrasi Biller.
+
+_Percepatan integrasi_ yang dimaksud adalah yang sebelumnya setiap akan integrasi Biller atau jika terjadi perubahan spesifikasi pada Biller harus di- _develop_ terlebih dahulu, dengan adanya Trunko cukup dengan melakukan konfigurasi pada _Dashboard_ yang sudah disediakan.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Wishnu Eka Sidharta 
+| Development Manager
+| wishnu@alterra.id
+
+| Gabriel Stevano 
+| Product Owner 
+| gabriel@alterra.id
+
+| Bahtiar Indra Ariyanki 
+| Development Lead
+| bahtiar@alterra.id
+
+| Ikromy Muddhar 
+| Software Engineer
+| ikromy@alterra.id
+
+| Reinard Pangestu 
+| Lead Quality Engineer 
+|reinard@alterra.id
+
+| Retno Wiji Astutik 
+| Lead Quality Engineer 
+| retno@alterra.id
+|===
+
+== Technical Information
+
+<<./url-trunko.adoc#, System URL Trunko>>
+
+<<./technology-trunko.adoc#, Technology Trunko>>
+
+<<./environment-trunko.adoc#, Environment Trunko>>
+
+<<./release-deploy-trunko.adoc#, Release and Deployment Trunko>>
+
+<<./architecture-trunko.adoc#, Architecture Trunko>>
+
+<<./flow-wire-trunko.adoc#, Flow and Wireframe Trunko>>
+
+== Onboarding Information
+
+<<./Developer-Onboarding-Trunko/dev-onboarding-trunko.adoc#, Developer Onboarding Trunko>>
+
+<<./development-trunko.adoc#, Development Trunko>>
+
+<<./naming-convention-trunko.adoc#, Naming Convention Trunko>>
+
+== Documentation
+
+<<./API-Document-Trunko/api-doc-trunko.adoc#, API Documentation Trunko>>
+
+<<./workflow-trunko.adoc#, Workflow Trunko>>
+
+<<./building-trunko.adoc#, Building Block Trunko>>
+
+<<./user-guide-trunko.adoc#, User Guide Trunko for Integration Support>>
+
+<<./log-catalog-trunko.adoc#, Logs Catalog Trunko>>
+
+https://github.com/sepulsa/trunko/releases[Release Notes Trunko]
+

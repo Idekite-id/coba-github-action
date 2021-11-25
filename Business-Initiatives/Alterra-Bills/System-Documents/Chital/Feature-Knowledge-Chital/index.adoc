@@ -1,0 +1,15 @@
+= Feature Knowledge Chital
+
+Berikut adalah fitur-fitur yang terdapat dalam sistem Chital:
+
+- <<./fitur-email-chital.adoc#, Register and Login via Email Chital>>
+
+- <<./fitur-email-scheduled-multiprice.adoc#, Dashboard - Scheduled Multi Price Chital>>
+
+- <<./fitur-OTP-chital.adoc#, Email OTP Notification Chital>>
+
+- <<./fitur-seingat-chital.adoc#, Seingat Chital>>
+
+- <<./fitur-log-dashboard-chital.adoc#, Log Dashboard Chital>>
+
+- <<./fitur-super-tools-chital.adoc#, Super Tools Chital >>

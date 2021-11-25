@@ -1,0 +1,3 @@
+= PDAM Pintar
+
+PDAM Pintar adalah sistem ERP Perusahaan Air Minum, khususnya perusahaan umum daerah air minum dan limbah. Yang telah dikembangkan sejak tahun. PDAM Pintar hadir sebagai solusi sistem PDAM yang masih manual dan terpisah satu sama lain; kesulitan dalam menganalisis dan mendapat data yang valid, proses data administrasi, membuat laporan dan belum terhubung ke layanan pembayaran tagihan online.

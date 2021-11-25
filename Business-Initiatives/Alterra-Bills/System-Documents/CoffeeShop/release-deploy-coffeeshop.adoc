@@ -1,0 +1,36 @@
+= Release and Deployment CoffeeShop
+
+== Production Release Step
+
+Hal-hal yang tidak boleh dilakukan ketika melakukan Release Step:
+
+1. Tidak membuat _Pull Request_ setelah _task_ disetujui oleh QA
+2. Jangan melakukan merge _Pull Request_ ke _pre-release_ tanpa konfirmasi dari orang yang membuat _release_
+3. _Unprotected branch master_ dan _pre-release_
+
+Hal-hal yang harus dilakukan ketika melakukan _Release Step_:
+
+1. Setiap SE (_Software Engineer_) harus membuat _Pull Request_ untuk _release branch_ setelah _task_ disetujui oleh QA
+2. A.S.A.P untuk no.1
+3. _Release Person_, harus membuat _release notes_ untuk setiap _task_ yang siap untuk di_release_:
+  - Minimal sehari sebelum jadwal _release_, _release_ harus sudah selesai.
+  - Cek semua _Pull Request_.
+  - _Merge Pull Request task_ satu per satu ke dalam _pre release_.
+  - Jika ada konflik program : _resolved_.
+4. Jika kamu tidak yakin, koordinasikan dengan SE siapa yang mengerjakan task tersebut.
+  - Setelah semua sukses, merge ke dalam "pre-release" : Buat RELEASE DRAFT di Github.
+5. Tandai dengan tag untuk versi nomornya : 1.X.X (_major, medium, single-task_).
+  - Selesaikan proses _release_ dari langkah sebelumnya.
+  - Pindahkan _Pull Request_ dari _branch prerelease_ ke _master_.
+  - *PERINGATAN : SEMUA _PULL REQUEST_ DIKUMPULKAN KE DALAM _BRANCH MASTER_ AKAN DI_RELEASE_ KE _PRODUCTION_* (_kecuali untuk beberapa Repo, seperti : Terra_).
+
+== Development and UAT Release
+
+1. Semua langkah sama dengan _release_ sebelumnya. Kecuali :
+  - Tidak perlu membuat _Tag Release_.
+  - _Merge_ ke dalam _branch development_ untuk _deploy_ ke dalam _server development_.
+
+== Deployment
+
+Jadwal _deployment_ bersifat tentatif, namun idealnya release harus di-_deploy_ sebelum _Sprint Review_.
+Ketika itu tidak memungkinkan untuk itu, Release harus di-_deploy_ dalam rentang _Sprint_ setelahnya.

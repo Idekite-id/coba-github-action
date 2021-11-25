@@ -1,0 +1,21 @@
+= Feature Knowledge Alicanto
+
+Dokumen ini berisi tentang informasi fitur-fitur tambahan yang ada pada sistem Alicanto.
+
+[cols="50%,50%",frame=all, grid=all]
+|===
+^.^h|*Feature* 
+^.^h|*Document*
+
+| Seingat Alicanto 
+| <<./fitur-seingat-alicanto.adoc#, Fitur Seingat Alicanto>>
+
+| URL SEO Friendly 
+| <<./fitur-url-seo-friendly.adoc#, Fitur Seingat URL SEO Friendly>>
+
+| SEO Internal Link 
+| <<./fitur-seo-internal-link.adoc#, Fitur SEO Intenal Link>>
+
+| SEO JSON LD 
+| <<./fitur-meta-json-ld.adoc#, Fitur SEO JSON LD Alicanto>>
+|===

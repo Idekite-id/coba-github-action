@@ -1,0 +1,32 @@
+= Architecture Sipintar.NET
+
+== Related System
+
+Sistem Sipintar.NET terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Sipintar.NET.
+
+[cols="5%,25%,70%",frame=all, grid=all]
+|===
+^.^h|*No* 
+^.^h|*Nama Sistem* 
+^.^h|*Deskripsi*
+
+| 1 
+| Bacameter.NET 
+| Aplikasi desktop pengelola hasil baca meteran PDAM
+
+| 2 
+| Billing.NET 
+| Aplikasi desktop pengelola rekening pelanggan PDAM
+
+| 3 
+| Loket.NET 
+| Aplikasi desktop pengelola tagihan pelanggan PDAM
+
+| 4 
+| Hublang.NET 
+| Aplikasi desktop pengelola hubungan pelanggan PDAM
+|===
+
+== High Level Architecture
+
+Gambar HLA sistem dapat diakses https://drive.google.com/file/d/1h4OclB9f-XaNlQO8G9QePQF4jbo--0KD/view?usp=sharing[di sini].

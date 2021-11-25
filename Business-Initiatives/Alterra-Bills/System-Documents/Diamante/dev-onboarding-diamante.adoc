@@ -1,0 +1,34 @@
+= Developer Onboarding Diamante
+
+Berisi dokumentasi tentang hal-hal yang harus dilakukan oleh _developer_ pada tahap _onboarding_. Biasanya berisi 2 poin utama berupa _tools_ yang dipakai dan tutorial untuk menginstal sistem di lokal.
+
+== Tools
+
+1. Laravel Valet / MAMP
+2. PHPStorm / Visual Studio Code
+
+== Local Machine Setup
+
+1. Lakukan _clone project_ dan masuklah ke dalam folder tersebut.
+2. _Install_ PHP Dependencies.
+
+    `$ composer install`
+
+3. Buat file dengan ekstensi `.env` dan pengaturannya.
+
+    `$ cp .env.example .env`
+
+4. Lakukan _Generate Application Key_.
+
+    `$ php artisan key:generate`
+
+5. Selanjutnya jalankan migrasi database.
+
+    `$ php artisan migrate`
+
+6. Masukkan _User_, _Role_, dan _Permission_ menggunakan Tinker. Kamu dapat menanyakannya pada _contributors_.
+7. Tampilkan app dengan _built-in server_ (kamu juga dapat menggunakan Homestead atau Valet sebagai gantinya)
+
+    `$ php artisan serve`
+
+8. Buka http://localhost:8000[http://localhost:8000] pada _web browser_.

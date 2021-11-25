@@ -1,0 +1,18 @@
+= Release and Deployment Oknurt
+
+==  Release and Deployment Step
+
+1. Review fitur yang akan di-_release_ dengan stakeholder yang bersangkutan.
+2. Merge _story branch_ yang sudah _QCR test accepted_ di branch `dev_<release_version>` ke branch `uat_<release_version>` untuk dilakukan QA regresion test.
+3. Jika QA regresion test passed, merge branch `uat_<release_version>` ke branch `master` beserta release tag nya.
+4. Edit Release Note pada Github.
+5. Isi form IT Support untuk request ke tim Infra.
+6. Berkolaborasi dengan Tim Infra dalam setiap proses release.
+7. Lakukan monitoring setelah proses release selesai. Pastikan perubahan sudah terpakai dan semuanya berjalan secara normal.
+8. Create branch `dev_<release_version>` dan `uat_<release_version>` untuk rilis selanjutnya.
+9. Finish Jira Release.
+10. Done.
+
+==  Release and Deployment Schedule
+
+Release dan Deployment biasanya dilakukan seminggu sekali pada hari Selasa atau bisa dilakukan sewaktu-waktu tergantung dari kebutuhan.

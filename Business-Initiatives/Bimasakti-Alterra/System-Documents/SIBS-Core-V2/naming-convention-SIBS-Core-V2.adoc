@@ -1,0 +1,3 @@
+= Naming Convention SIBS Core V2
+
+Berisi aturan penamaan dalam development sistem.

@@ -1,0 +1,31 @@
+= Technology Smart Biller
+
+Berikut ini merupakan teknologi yang digunakan dalam pengembangan Smart Biller:
+
+|===
+| Specification | Server | Description
+
+| OS
+|
+|
+
+| Web Server
+|
+|
+
+| Programming Language
+| Python
+|
+
+| Framework
+|
+|
+
+| Database
+| MariaDB
+|
+
+| Other
+|
+|
+|===

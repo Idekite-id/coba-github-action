@@ -1,0 +1,3 @@
+= Environment Kraken V2
+
+Anda dapat mengakses credential dan detail Kraken 2 Staging (Horven) pada https://www.pivotaltracker.com/story/show/158246938[halaman berikut].

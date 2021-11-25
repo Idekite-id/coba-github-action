@@ -1,0 +1,53 @@
+= Modul Loket
+
+Loket pembayaran merupakan bagian kecil dari _billing_ di PDAM. Bimasakti merancang aplikasi loket yang diberi nama *SIPDAMPintar Loket*. Aplikasi ini memiliki keunggulan utama,  yaitu dapat diakses secara _online_ dan _offline_. _Online_ berarti loket ini memerlukan jaringan, baik lokal yang terhubung dengan jaringan PDAM (cabangnya tersebar di beberapa lokasi), maupun jaringan internet yang menghubungkan ke jaringan PDAM. _Offline_ berarti aplikasi dapat berjalan walaupun koneksi ke server terputus, karena database backup masih ada di komputer tersebut.
+
+Ada 8 menu utama pada Modul Loket, meliputi Tagihan, Angsuran, Tunggakan, Penerimaan, Laporan, Tutup Loket, Setoran dan Info Loket. Anda dapat mengakses Modul Loket melalui komputer/laptop dengan mengakses _shortcut_ Loket dan memasukkan hak akses/akun yang akan diberikan oleh Tim Bimasakti Alterra.
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Loket.adoc[Login ke Modul Loket]
+
+link:./Getting-Started/Menu-Modul-Loket.adoc[Menu Modul Loket]
+
+== Menu Tagihan
+
+link:./Menu-Tagihan/Melakukan-Pembayaran-Tagihan-Air.adoc[Melakukan Pembayaran Tagihan Air]
+
+link:./Menu-Tagihan/Melakukan-Pembayaran-Air-Secara-Kolektif.adoc[Melakukan Pembayaran Air Secara Kolektif]
+
+link:./Menu-Tagihan/Melakukan-Pembayaran-Tagihan-Non-Air.adoc[Melakukan Pembayaran Tagihan Non Air]
+
+link:./Menu-Tagihan/Menampilkan-Histori-Tagihan.adoc[Menampilkan Histori Tagihan]
+
+== Menu Angsuran
+
+link:./Menu-Angsuran/Membuat-Angsuran-Air.adoc[Membuat Angsuran Air]
+
+link:./Menu-Angsuran/Membuat-Angsuran-Non-Air.adoc[Membuat Angsuran Non Air]
+
+link:./Menu-Angsuran/Membuat-Angsuran-Sambungan-Baru.adoc[Membuat Angsuran Sambungan Baru]
+
+== Menu Tunggakan
+
+link:./Menu-Tunggakan/Menampilkan-Tunggakan-Tagihan-Pelanggan.adoc[Menampilkan Tunggakan Tagihan Pelanggan]
+
+== Menu Laporan
+
+link:./Menu-Laporan/Menampilkan-Laporan.adoc[Menampilkan Laporan]
+
+== Menu Tutup Loket
+
+link:./Menu-Tutup-Loket/Menutup-Loket.adoc[Menutup Loket]
+
+== Menu Setoran
+
+link:./Menu-Setoran/Menampilkan-Data-Setoran-Penerimaan.adoc[Menampilkan Data Setoran Penerimaan]
+
+link:./Menu-Setoran/Mencetak-Data-Setoran-Penerimaan.adoc[Mencetak Data Setoran Penerimaan]
+
+link:./Menu-Setoran/Melakukan-Setoran-Penerimaan.adoc[Melakukan Setoran Penerimaan]
+
+== Menu Info Loket
+
+link:./Menu-Info-Loket/Menampilkan-Info-Loket.adoc[Menampilkan Info Loket]

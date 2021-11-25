@@ -1,0 +1,58 @@
+= Robusta V2
+:keywords: akj, telco, telco-payment-client, civet,robusta
+
+== Overview
+
+Robusta merupakan _frontend_ dari sistem Civet yang digunakan untuk halaman partner yakni MyXL.
+Robusta adalah kloningan dari sistem Frigate, berbentuk _website_ dilengkapi fitur dan tampilan yang disesuaikan dengan permintaan partner.
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email*
+
+| Pipit Puspitasari
+| Product Owner
+| pipit@alterra.id
+
+| Ananto Eko Hendarto
+| Developer Manager
+| anton@alterra.id
+
+| Hendrik Rahardja
+| Lead Developer
+| hendrik@alterra.id
+
+| Johanes Paulus Giovani Putra
+| Lead Quality Engineer
+| johanes@alterra.id
+
+| Pipit Puspitasari
+| Ex Lead System Analyst
+| pipit@alterra.id
+|===
+
+== Technical Information
+
+<<./url-robusta-v2.adoc#, System URL Robusta V2>>
+
+<<./architecture-robusta-v2.adoc#, Architecture Robusta V2>>
+
+<<./technology-robusta-v2.adoc#, Technology Robusta V2>>
+
+<<./environment-robusta-v2.adoc#, Environment Robusta V2>>
+
+<<./release-deploy-robusta-v2.adoc#, Release and Deployment Robusta V2>>
+
+== *Onboarding Information*
+
+<<./dev-onboarding-robusta-v2.adoc#, Developer Onboarding Robusta V2>>
+
+<<./development-robusta-v2.adoc#, Development Robusta V2>>
+
+<<./naming-convention-robusta-v2.adoc#, Naming Convention Robusta V2>>
+
+== Documentation
+
+https://github.com/sepulsa/robustav2/releases[Release Note Robusta V2]
+

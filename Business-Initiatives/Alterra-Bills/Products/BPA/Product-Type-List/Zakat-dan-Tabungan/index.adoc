@@ -1,0 +1,25 @@
+= Zakat dan Tabungan
+
+Pembayaran secara online tidak hanya berfokus pada kebutuhan sehari-hari namun sudah merambah pada aktifitas sedekah, donasi, dan tabungan. Pada saat ini banyak orang mulai melakukan pembayaran zakat, infaq, kurban, wakaf melalui aplikasi karena kemudahan prosesnya.
+
+*Jenis Produk*
+
+.. link:./Zakat-Fitrah.adoc[Zakat Fitrah]
++
+Produk untuk memfasilitasi pembayaran zakat fitrah bagi umat muslim secara online.
++
+.. link:./Infaq.adoc[Infaq]
++
+Produk untuk memfasilitasi amal atau pengeluaran harta secara sukarela kepada orang yang membutuhkan secara online.
++
+.. link:./Wakaf.adoc[Wakaf]
++
+Produk untuk memfasilitasi sedekah dengan memisahkan/menyerahkan sebagian harta untuk dimanfaatkan. 
++
+.. link:./Kurban.adoc[Kurban]
++
+Produk untuk memfasilitasi pembelian atau transaksi hewan qurban secara online. 
++
+.. link:./Tabungan-Emas.adoc[Tabungan Emas]
++
+Produk untuk memfasilitasi penitipan saldo emas.

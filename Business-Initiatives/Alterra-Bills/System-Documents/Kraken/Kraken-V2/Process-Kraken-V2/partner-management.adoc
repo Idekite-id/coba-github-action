@@ -1,0 +1,61 @@
+= Partner Management Kraken V2
+
+== Short Description
+
+_Partner management_ adalah fitur yang digunakan untuk mengelola partner beserta konfigurasi - konfigurasinya seperti, _IP whitelist_, deposit, membuat 'api key' baru dan konfigurasi tambahan lain.
+
+== Feature Documentation
+
+Anda dapat mengakses dokumentasi _partner management_ di https://docs.google.com/document/d/102-0V-eYKwSIDZwTcn0Vrs2pLnANHM2ztpNHWn_yI7U/edit?usp=sharing[Dokumentasi Admin API - Partner] 
+
+== Log Catalog
+
+.Katalog Log Package Management
+|===
+|json.url |json.handler |description
+
+|/partner
+|AddPartner
+|Log ini mencatat aktivitas penambahan partner baru
+
+|/partner/:id
+|UpdatePartner
+|Log ini mencatat aktifitas pembaruan data partner
+
+|/partner/:id
+|DeletePartner
+|Log ini mencatat aktifitas mengarsipkan partner partner
+
+|/partner/archived/:id
+|RestorePartner
+|Log ini mencatat aktifitas pemulihan partner yg telah diarsipkan
+
+|/partner/:id/setting
+|AddPartnerAdditionalSetting
+|Log ini mencatat penambahan konfigurasi tambahan untuk partner
+
+|/partner/:id/setting/:settingId
+|UpdatePartnerAdditionalSetting
+|Log ini mencatat aktifitas perubahan konfigurasi tambahan untuk partner
+
+|/partner/:id/setting/:settingId
+|DeletePartnerAdditionalSetting
+|Log ini mencatat aktifitas penghapusan konfigurasi tambahan untuk partner
+
+|/partner/:id/status
+|UpdatePartnerStatus
+|Log ini mencatat aktifitas mengaktifkan atau menonaktifkan partner
+
+|/partner/:id/debit
+|DebitPartnerBalance
+|Log ini mencatat aktifitas pengurangan deposit partner
+
+|/partner/:id/credit
+|CreditPartnerBalance
+|Log ini mencatat aktifitas penambahan deposit partner
+
+|/partner/:id/bank/:code
+|CreateVirtualAccount
+|Log ini mencatat aktifitas pembuatan virtual account untuk partner
+
+|===

@@ -1,0 +1,64 @@
+= Migrate API SmartPresence Document (& Update Structure) - TH-1039
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem API SmartPresence. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Wayan Agus Krisna Apriana 
+| Software Engineer 
+| apriana@bsa.id
+
+|
+|
+|
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-API-SmartPresence.adoc#, System URL API SmartPresence>>
+
+<<./architecture-API-SmartPresence.adoc#, Architecture API SmartPresence>>
+
+<<./technology-API-SmartPresence.adoc#, Technology API SmartPresence>>
+
+<<./environment-API-SmartPresence.adoc#, Environment API SmartPresence>>
+
+<<./database-API-SmartPresence.adoc#, Database Documentation API SmartPresence>>
+
+<<./release-deploy-API-SmartPresence.adoc#, Release and Deployment API SmartPresence>>
+
+<<./flow-wire-API-SmartPresence.adoc#, Flow and Wireframe API SmartPresence>>
+
+== Onboarding Information
+
+<<./dev-onboarding-API-SmartPresence.adoc#, Developer Onboarding API SmartPresence>>
+
+<<./development-API-SmartPresence.adoc#, Development API SmartPresence>>
+
+<<./naming-convention-API-SmartPresence.adoc#, Naming Convention API SmartPresence>>
+
+== Documentation
+
+// Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+// User Guide (jika ada, external link)
+
+// Dokumen Integrasi (jika ada, external link)
+
+// Dokumen Maintenance (jika ada, external link)
+
+// Dokumen API (jika ada, external link)
+
+<<./adr-doc-API-SmartPresence.adoc#, ADR Document API SmartPresence>>

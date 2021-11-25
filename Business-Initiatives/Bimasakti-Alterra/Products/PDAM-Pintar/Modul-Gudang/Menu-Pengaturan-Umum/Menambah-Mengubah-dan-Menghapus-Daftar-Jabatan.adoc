@@ -1,0 +1,34 @@
+= Menambah, Mengubah, dan Menghapus Daftar Jabatan
+
+Untuk menambah data jabatan, _User_ dapat mengikuti langkah-langkah berikut.
+
+image::../images-gudang/gudang-pengaturan-daftar-jabatan-1.png[align="center"]
+
+1. Pilih menu *Pengaturan Umum*
+2. Klik pada ikon *Daftar Jabatan* hingga muncul daftar jabatan
+3. Klik pada ikon *Tambah Data*
++
+image::../images-gudang/gudang-pengaturan-daftar-jabatan-2.png[align="center"]
+4. Selanjutnya muncul _form_ untuk menambah data akan muncul, isi _field_ *Kode Jabatan* dan *Nama Jabatan*, kemudian centang akses yang akan diberikan
+5. Klik pada tombol *Simpan*.
+
+Untuk mengubah data, _User_  dapat mengikuti langkah berikut.
+
+image::../images-gudang/gudang-pengaturan-daftar-jabatan-3.png[align="center"]
+
+1. Klik pada salah satu data jabatan
+2. Klik pada tombol *Koreksi Data*
++
+image::../images-gudang/gudang-pengaturan-daftar-jabatan-4.png[align="center"]
+3. _Pop up_ koreksi data akan muncul, User dapat mengubah akses untuk jabatan yang perlu diubah
+4. Klik pada tombol *Koreksi*.
+
+Untuk menghapus data, _User_ dapat mengikuti langkah berikut.
+
+image::../images-gudang/gudang-pengaturan-daftar-jabatan-5.png[align="center"]
+
+1. Klik pada salah satu data jabatan
+2. Klik pada tombol *Hapus Data*
++
+image::../images-gudang/gudang-pengaturan-daftar-jabatan-6.png[align="center"]
+3. _Pop up_ untuk menghapus data akan muncul. Klik pada tombol *Yes* untuk menghapus data.

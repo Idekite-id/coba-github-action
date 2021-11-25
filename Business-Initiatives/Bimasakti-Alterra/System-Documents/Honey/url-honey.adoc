@@ -1,0 +1,37 @@
+= System URL Honey
+
+Saat ini sistem dalam tahap _production_. Daerah yang sudah terintegrasi dengan Bimareklame adalah Kabupaten Bandung Barat (KBB), dan Kota Surakarta. Informasi akses dapat dilihat
+melalui tabel di bawah ini. Gunakan alias, username, dan password yang
+sudah terdaftar untuk mengakses sistem.
+
+== Kabupaten Bandung Barat
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+|Staging | https://honey.sumpahpalapa.com/[]
+|Production | https://kbb.bimareklame.id[]
+|===
+
+== Kota Surakarta
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+|Staging | http://surakarta.sumpahpalapa.com[]
+|Production | https://surakarta.bimareklame.id[]
+|===
+
+== Demo
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+|Demo | https://demo.bimareklame.id/[]
+|===

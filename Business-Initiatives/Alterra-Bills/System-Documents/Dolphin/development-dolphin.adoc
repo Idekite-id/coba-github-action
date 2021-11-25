@@ -1,0 +1,25 @@
+= Development Dolphin
+
+== Test or Mockup
+
+* _Mock Testing (Mock test biller)_ 
++
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h| *Response Code*  
+^.^h| *Number* 
+^.^h| *Description*
+
+| 0 
+| 081234000001 
+| for top up success
+
+| 1 
+| 081234000003 
+|for top up hardfail 
+
+| 2 
+| 081234000002 
+|for top up failed 
+|===
+

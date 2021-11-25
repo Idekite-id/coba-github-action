@@ -1,0 +1,44 @@
+= Event
+
+Event digunakan pemesanan dan transaksi acara konser, hiburan, pertandingan olahraga hingga wahana.
+
+*Variasi Produk*
+
+Varian produk untuk Event meliputi:
+
+- Tiket konser
+- Tiket pertandingan olahraga
+- Tiket exhibition
+- Tiket attraction (wahana)
+- dan lain lain
+
+*Vendor Utama*
+
+Vendor utama dari produk Event adalah event organizer dan wahana.
+
+*Perilaku dan Cara Penggunaan Produk*
+
+Pengguna dapat melakukan pemesanan & pembayaran melalui website / aplikasi milik partner. Setelah pembayaran selesai end user akan menerima e-tiket yang dapat ditukar dengan tiket masuk di lokasi acara atau lokasi wahana.
+
+*Product Journey*
+
+Customer
+
+. Pilih event atau wahana yang tersedia
+. Pilih jenis tiket yang tersedia. Masukkan jumlah tiket yang akan dibeli
+. Masukkan identitas pemesan.
+. Jika event / wahana membutuhkan data peserta maka isikan data peserta
+. Sistem menampilkan invoice tagihan yang harus dibayarkan
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+. Partner akan mendapatkan data pemesan, data peserta ditiket, barcode, dan link evoucher
+. Partner wajib mengirimkan/melampirkan link evoucher ke end user melalui email
+
+Switcher/Agregator
+
+. Untuk melakukan booking, partner mengirimkan nomor telepon customer sebagai customer ID, event dan jadwal yang dipilih, identitas pemesan, identitas tiket peserta
+. Sistem akan mengirimkan _response booking_ dengan informasi tiket yang harus dibayarkan partner
+. Partner _request transaction_
+. Sistem memproses transaction dan kirim callback ke partner
+
+image::../../../images-bpa/flow-journey-event.png[align="center"]

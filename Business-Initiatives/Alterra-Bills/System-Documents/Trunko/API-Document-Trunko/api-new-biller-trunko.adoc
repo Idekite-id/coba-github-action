@@ -1,0 +1,19 @@
+= API New Biller Trunko
+
+== Create New Biller
+
+=== Request URL
+
+----
+    method :POST
+    URL    :kraken_backend/biller
+----
+
+=== Request Body
+
+----
+    {
+      "label": "fbs",
+      "description": "Flexible Billing System"
+    }
+----

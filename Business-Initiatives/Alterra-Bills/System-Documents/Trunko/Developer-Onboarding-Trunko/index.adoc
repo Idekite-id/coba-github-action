@@ -1,0 +1,19 @@
+= Developer Onboarding Trunko
+
+Trunko digunakan untuk integrasi Biller dengan melakukan _config_ melalui Biller Dashboard.
+
+Beberapa informasi terkait adalah sebagai berikut:
+
+<<../architecture-trunko.adoc#, Architecture Trunko>>
+____
+Gambaran umum sistem Trunko dari sisi Logical dan Physical
+____
+<<./local-machine-setup-trunko.adoc#, Local Machine Setup Trunko>>
+
+____
+Cara installasi Trunko di komputer lokal
+____
+<<./ide-trunko.adoc#, IDE Trunko>>
+____
+IDE yang dapat digunakan untuk pengembangan Trunko
+____

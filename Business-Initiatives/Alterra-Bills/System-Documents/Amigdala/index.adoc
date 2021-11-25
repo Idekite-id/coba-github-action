@@ -1,0 +1,55 @@
+= Amigdala
+:keywords: sti, bpa-support, amigdala
+
+== Overview
+
+Amigdala adalah sistem yang digunakan untuk _generate tickets_ secara otomatis pada JIRA, khususnya pada _project_ tim Operational.
+Sistem ini dapat _generate tickets_ pada JIRA yang diambil dari beberapa sistem dan _manual input_. Amigdala terintegrasi dengan sistem Lusca, Cacabot, dan Sentinel yang disesuaikan dengan kebutuhan. Sekaligus berfungsi sebagai _ticket generator_ pada JIRA Operational Alterra dengan memanfaatkan _source_ dari integrasi sistem yang disebutkan sebelumnya. _Issue ticket_ ini juga bisa di-_set_ secara _scheduling_ dengan _setting_ manual pada halaman Sentinel _Dashboard_. _Output_ dari sistem ini adalah _issue_ pada JIRA.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Somy Andriyanto
+| Lead Developer
+| somy@alterra.id
+
+| Leovano Adias J T
+| Software Engineer
+| leovano@alterra.id
+
+| Lalu Haryadi Guni
+| Software Engineer
+| adi@alterra.id
+|===
+
+
+== Technical Information
+
+<<./url-amigdala.adoc#, System URL Amigdala>>
+
+<<./architecture-amigdala.adoc#, Architecture Amigdala>>
+
+<<./technology-amigdala.adoc#, Technology Amigdala>>
+
+<<./environment-amigdala.adoc#, Environment Amigdala>>
+
+<<./release-deploy-amigdala.adoc#, Release and Deployment Amigdala>>
+
+== Onboarding Information
+
+<<./dev-onboarding-amigdala.adoc#, Developer Onboarding Amigdala>>
+
+<<./development-amigdala.adoc#, Development Amigdala>>
+
+== Documentation
+
+https://alterra.atlassian.net/projects/BPAS?contains=Amigdala&orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released[Release Notes Amigdala]

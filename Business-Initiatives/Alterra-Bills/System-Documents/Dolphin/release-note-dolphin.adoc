@@ -1,0 +1,5 @@
+= Release Note Dolphin
+
+Anda dapat mengakses _release note_ Dolphin pada https://docs.google.com/a/sepulsa.com/spreadsheets/d/1kDMKLoTZeHiny562n3TNFapStvzjtJ_ZvvldJ_-KRm0/edit?usp=sharing[halaman berikut].
+
+_Release_ pada sistem ini menggunakan _semantic versioning_. Untuk panduan terkait _versioning_ tersebut, Anda dapat mengakses https://pressupinc.com/blog/2014/02/introduction-semantic-version-numbers/[link berikut].

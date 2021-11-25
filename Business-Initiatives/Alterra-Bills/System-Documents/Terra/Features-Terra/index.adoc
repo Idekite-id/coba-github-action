@@ -1,0 +1,135 @@
+= Features Terra
+
+Berikut merupakan fitur-fitur yang ada dalam sistem Terra:
+
+|===
+| Nama Fitur | Status | Deskripsi
+
+| <<./features-RekonBiller.adoc#, Recon Biller Terra>>
+| Live
+| Fungsi dari fitur ini untuk mengotomatisasikan Recon Biller yang ada di Alterra
+
+| <<./features-PromoBillers.adoc#, Promo Biller Terra>>
+| Live
+| Fungsi dari fitur ini adalah untuk mengatur Promo dari Biller
+
+| <<./features-Transaction.adoc#, Transaction Terra>>
+| Live
+| Fitur ini digunakan untuk _view_ dan _export historical transaction_ secara lengkap dari _partner_ ke Alterra yang terjadi di dalam bisnis inisiatif BPA
+
+| <<./features-TransactionBiller.adoc#, Transaction Biller Terra>>
+| Live
+| Fitur ini digunakan untuk _view_ dan _export historical transaction_ secara lengkap dari Alterra ke Biller yang terjadi di dalam bisnis inisiatif BPA
+
+| <<./features-TransactionMerge.adoc#, Transaction Merge Terra>>
+| Live
+| Fitur ini digunakan untuk _view_ dan _export historical transaction_ secara general yang terjadi di dalam bisnis inisiatif BPA
+
+| <<./features-TransactionMergeBiller.adoc#, Transaction Merge Biller Terra>>
+| Live
+| Fitur ini digunakan untuk _view_ dan _export historical transaction_ terkait informasi Biller yang terjadi dalam bisnis inisiatif BPA
+
+| <<./features-SummaryDompul.adoc#, Summary Dompul Terra>> 
+| Live
+| Fitur ini digunakan untuk mengetahui _summary_ kuota dompul untuk masing-masing label dompul dalam _range date_ tertentu
+
+| <<./features-SummaryDompulDetail.adoc#, Summary Dompul Detail Terra>> 
+| Live
+| Fitur ini digunakan untuk mengetahui _detail summary_ dompul untuk masing-masing label dompul dalam _range date_ tertentu, satu dompul _code_ bisa digunakan oleh lebih dari 1 _partner_
+
+| <<./features-SummaryDompulPartner.adoc#, Summary Dompul Partner Terra>> 
+| Live
+| Fitur ini digunakan untuk mengetahui _summary_ dompul dari masing-masing _partner_ dan _count_ transaksi serta margin dalam _range date_ tertentu
+
+| <<./features-DailyReport.adoc#, Daily Report Terra>> 
+| Live
+| Daily Report adalah sebuah fitur di Terra yang digunakan untuk melihat _summary_ penjualan harian dan membaginya ke dalam _basket size_
+
+| <<./features-MonthlyReport.adoc#, Monthly Report Terra>>
+| Live
+| Monthly Report adalah sebuah fitur di Terra yang digunakan untuk melihat _summary_ penjualan bulanan dan membaginya ke dalam _basket size_
+
+| <<./features-B2BDetailReport.adoc#, B2B Detail Report Terra>>
+| Live
+| B2B detail report adalah sebuah fitur di Terra yang digunakan untuk melihat data transaksi yang sifatnya _business to business report_ per _biller_ atau per _partner_
+
+| <<./features-HistoryDeposit.adoc#, History Deposit Terra>>
+| Live
+| History Deposit adalah fitur _reporting_ pada Terra yang digunakan untuk mengetahui _update history_ deposit _partner_ di Alterra (_transaction, deposit & refund_)
+
+| <<./features-LedgerKredit.adoc#, Ledger Kredit Terra>>
+| Live
+| Ledger Kredit adalah fitur reporting pada Terra yang digunakan untuk mengetahui _history_ transaksi di _ledger user_ Pronghorn atau Sepulsa.com (_transaction, deposit & refund_)
+
+| <<./features-RCBiller.adoc#, RC Biller Terra>>
+| Live
+| RC Biller adalah fitur pada Terra yang digunakan untuk mengklasifikasikan _message_ transaksi dari _biller_ menjadi _code_ RC Biller agar lebih mudah diidentifikasikan
+
+| <<./features-ProteusTransaction.adoc#, Proteus Transaction Terra>> 
+| Live
+| Proteus transaction adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mengetahui _history transaction_ dari Kraken dan Pronghorn _as a partner_ ke beberapa _biller_ lokal yang dibantu oleh sistem Proteus
+
+| <<./features-IRSTransaction.adoc#, IRS Transaction Terra>> 
+| Live
+| IRS transaction adalah fitur _reporting_ di Terra yang digunakan untuk mengetahui _history transaction_ dari Kraken _reseller_ lainnya ke lokal _partner_ IRS
+
+| <<./features-InventoryBiller.adoc#, Inventory Biller Terra>>
+| Live
+| Inventory Biller adalah fitur _reporting_ di Terra yang digunakan untuk mengetahui _history_ dompul dan sisa saldo yang dimiliki _partner_ di _biller_ tertentu
+
+| <<./features-PronghornOrderList.adoc#, Pronghorn Order List>>
+| Live
+| Pronghorn Order List adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mengetahui _history_ order di Pronghorn melalui _Front-end_ Sepulsa.com
+
+| <<./features-PronghornOrderReportDetail.adoc#, Pronghorn Order - Report Detail>>
+| Live
+| Pronghorn Order Detail adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mendapatkan data dan informasi _detail_ order di Pronghorn melalui Front-end Sepulsa.com
+
+| <<./features-PronghornOrderDetail.adoc#, Pronghorn Order Detail>>
+| Live
+| Pronghorn Order Detail adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mendapatkan data dan informasi _detail_ order di Pronghorn melalui Front-end Sepulsa.com
+
+| <<./features-UserPronghornUserList.adoc#, User - Pronghorn User List>>
+| Live
+| Pronghorn User List adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mendapatkan data dan informasi terkait _user_ Pronghorn mulai dari _first transaction_, status user dan _registration date user_
+
+| <<./features-DataTransactionBayar.adoc#, Data Transaction Bayar Terra>>
+| Live
+| Data transaction bayar adalah sebuah fitur _reporting_ transaksi pembayaran PDAM untuk inisiatif BSA
+
+| <<./features-DataTransactionPiutang.adoc#, Data Transaction Piutang Terra>>
+| Live
+| Data transaction piutang adalah sebuah fitur _reporting_ transaksi piutang PDAM untuk inisiatif BSA
+
+| <<./features-DataTransactionNonair.adoc#, Data Transaction Nonair Terra>>
+| Live
+| Data transaction Non-air adalah sebuah fitur _reporting_ transaksi Non-air untuk inisiatif BSA
+
+| <<./features-DataTransactionRab.adoc#, Data Transaction Rab Terra>>
+| Live
+| Data transaction RAB adalah sebuah fitur _reporting_ transaksi biaya pemasangan baru untuk inisiatif BSA
+
+| <<./features-PartnerPriceList.adoc#, Partner Price List Terra>>
+| Live
+| Partner Price List adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mengetahui harga jual _product_ ter-_update_ dari Alterra ke _partner_
+
+| <<./features-ProjectionBillerDirect.adoc#, Projection Biller Direct Terra>>
+| Live
+| Projection Biller Direct adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mengetahui _trend_ transaksi dari Alterra ke _biller_ dengan _type direct_ dan _suggestion_ berapa jumlah yang harus didepositkan oleh Alterra ke _biller_ dalam _range tanggal_ sesuai filter input
+
+| <<./features-ProjectionBillerNonDirect.adoc#, Projection Biller Non Direct Terra>>
+| Live
+| Projection Biller Direct adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mengetahui _trend_ transaksi dari Alterra ke _biller_ dengan _type non-direct_ dan _suggestion_ berapa jumlah yang harus didepositkan oleh Alterra ke _biller_ dalam _range_ tanggal sesuai filter input
+
+| <<./features-ProjectionBillerOthers.adoc#, Projection Biller Others Terra>>
+| Live
+| Projection Biller Direct adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mengetahui jumlah transaksi dari Alterra ke _biller_ selain _direct_ dan _non direct biller_ serta _suggestion_ berapa jumlah yang harus didepositkan oleh Alterra ke _biller_ tersebut dalam _range_ tanggal sesuai filter input
+
+| <<./features-BillerPurchasePrice.adoc#, Biller Purchase Price Terra>>
+| Live
+| Biller Purchase Price adalah salah satu fitur _reporting_ di Terra yang digunakan untuk mengetahui harga jual _biller_ ke Alterra untuk _all product_
+
+| <<./features-SetupBufferNominalBiller.adoc#, Set up Buffer Nominal Biller Terra>>
+| Live
+| Set up Buffer Nominal Biller digunakan untuk _set up buffer_ pada spesifik _biller_ untuk kebutuhan penghitungan _projection biller_
+|===

@@ -1,0 +1,79 @@
+= API Documentation Dolphin
+
+Semua _web service_ Dolphin menggunakan HTTP dengan _Basic Authentication Security_. _Web Services authentication_ dapat dibuat melalui _web admin console_ di _User Client configuration menu_.
+
+*1.
+Get Voucher*
+
+* _POST JSON_ to http://dolphin.sepulsa.id/api/vtrans
+* _Request Params_:
++
+----
+{
+  "order_id":"\[order_id_from_client\]",
+  "code":"\[product_code\]"
+}
+----
+
+* _Response Code_: 
++
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Response Code* 
+^.^h| *Description* 
+
+| 0 
+| _Success_ 
+
+| 1 
+| _Product code not found_ 
+
+| 2 
+| _Voucher unavailable_ 
+|===
+
+*2.
+Inquiry*
+
+* _Get URL_ : http://dolphin.sepulsa.id/api/vtrans?id=trx_id
+* _Response Code_: 
++
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Response Code* 
+^.^h| *Description* 
+
+| 0 
+| _Success_ 
+
+| 9 
+| _No transaction found_
+|===
+
+*3.
+Cancel Voucher*
+
+* POST JSON to http://dolphin.sepulsa.id/api/vcancel
+
+* _Request Params_ :
++
+----
+{
+"id":"\[trx_id\]",
+"order_id":"\[order_id_from_client\]"
+}
+----
+
+* _Response Code_:
++
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Response Code* 
+^.^h| *Description*
+
+| 0
+| _Success_
+
+| 9
+| _serial number incorrect/no transaction found_
+|===

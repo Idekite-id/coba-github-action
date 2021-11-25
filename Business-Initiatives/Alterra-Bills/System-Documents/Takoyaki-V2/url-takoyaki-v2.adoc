@@ -1,0 +1,19 @@
+= System URL Takoyaki V2
+
+== Development
+
+Berikut adalah _url system_ pada tahap _development_ sistem takoyaki:
+
+https://takoyaki.sepulsa.co.id/
+
+* _Client ID_ = semua _partner_ yang ada di https://horven.sumpahpalapa.com/admin[Horven]
+* _Client Secret_ = berkaitan dengan _partner secret_ di Horven
+
+== Product
+
+|===
+| Sepulsa | Isi Pulsa(https://takoyaki.sepulsa.id)
+|===
+
+* _Client ID_ = semua _partner_ yang ada di http://kraken.sepulsa.id/[Kraken]
+* _Client Secret_ = berkaitan dengan _partner secret_ di Kraken

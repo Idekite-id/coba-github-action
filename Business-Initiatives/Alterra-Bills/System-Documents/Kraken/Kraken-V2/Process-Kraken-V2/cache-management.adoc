@@ -1,0 +1,40 @@
+= Cache Management Kraken V2
+
+== Short Description
+
+_Cache Management_ adalah fitur yang digunakan untuk mengelola _cache_ yang digunakan pada proses transaksi di sistem Kraken.
+
+== Feature Documentation
+Anda dapat mengakses dokumentasi _cache management_ di https://drive.google.com/file/d/1wZoKwxN78Xt8BdQCk1XxDhrjgTyXMzPT/edit?usp=sharing[Dokumentasi Admin API - Cache Management] 
+
+== Log Catalog
+
+.Katalog Log Cache Management
+|===
+|json.url |json.handler |description
+
+|/reload/all
+|ReloadAll
+|Log ini mencatat aktivitas memperbarui semua data konfigurasi ke dalam _cache_
+
+|/reload/product
+|ReloadProduct
+|Log ini mencatat aktifitas memperbarui semua data _product_ dan operator ke dalam _cache_
+
+|/reload/partner
+|ReloadPartner
+|Log ini mencatat aktifitas memperbarui semua data _partner_ ke dalam _cache_
+
+|/reload/package
+|ReloadPackage
+|Log ini mencatat aktifitas memperbarui semua data _package_ ke dalam _cache_
+
+|/reload/billerresponsecode
+|ReloadBillerResponseCode
+|Log ini mencatat aktifitas memperbarui semua data _mapping biller response code_ ke dalam _cache_
+
+|/reload/variable
+|ReloadVariable
+|Log ini mencatat aktifitas memperbarui semua data _variable_ termasuk juga _system param_ ke dalam _cache_
+
+|===

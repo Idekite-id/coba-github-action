@@ -1,0 +1,61 @@
+= SiPintar Loket ver 4
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem. 
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem SiPintar Loket ver 4. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Tuagus Mardeka | Sofware Engineer | dika@bsa.id
+| Detut Indra | Sofware Engineer | detut@bsa.id
+| Angga Wira Prayudi | Sofware Engineer | prayudi@bsa.id
+| Prawira Ariadi | Sofware Engineer | wira@bsa.id
+|===
+
+== Technical Information
+
+//Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-SiPintar-Loket-ver-4.adoc#, System URL SiPintar Loket ver 4>>
+
+<<./architecture-SiPintar-Loket-ver-4.adoc#, Architecture SiPintar Loket ver 4>>
+
+<<./technology-SiPintar-Loket-ver-4.adoc#, Technology SiPintar Loket ver 4>>
+
+<<./environment-SiPintar-Loket-ver-4.adoc#, Environment SiPintar Loket ver 4>>
+
+<<./database-SiPintar-Loket-ver-4.adoc#, Database Documentation SiPintar Loket ver 4>>
+
+<<./release-deploy-SiPintar-Loket-ver-4.adoc#, Release and Deployment SiPintar Loket ver 4>>
+
+<<./flow-wire-SiPintar-Loket-ver-4.adoc#, Flow and Wireframe SiPintar Loket ver 4>>
+
+== Onboarding Information
+
+<<./dev-onboarding-SiPintar-Loket-ver-4.adoc#, Developer Onboarding SiPintar Loket ver 4>>
+
+<<./development-SiPintar-Loket-ver-4.adoc#, Development SiPintar Loket ver 4>>
+
+<<./naming-convention-SiPintar-Loket-ver-4.adoc#, Naming Convention SiPintar Loket ver 4>>
+
+== Documentation
+
+//Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+//User Guide (jika ada, external link)
+
+//Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+//Dokumen API (jika ada, external link)
+
+<<./release-note-SiPintar-Loket-ver-4.adoc#, Release Note SiPintar Loket ver 4>>

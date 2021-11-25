@@ -1,0 +1,28 @@
+= API Callback Oknurt
+
+API Callback Oknurt is set in kraken partner setting `callback_url`, so that kraken can send callback data to oknurt. Then callback will be forwarded to partner in partner callback API specification format.
+
+== Request URL
+----
+    method          : POST
+    URL             : /v1/callback/:partner_username
+    Authorizations  : Basic Auth
+----
+
+== Request Body
+----
+    In kraken callback body API format
+----
+
+== Response Body
+----
+    Success response:
+        HTTP Code       : 200 OK
+        Body Response   : {"message": "OK"}
+
+    Failed response example:
+        HTTP Code       : 400 Bad Request
+        Body Response   : {"message": "Empty Body"}
+----
+
+Callback from kraken will be forwarded to callback partner URL and callback format that has defined in partner config `api_config.callback`

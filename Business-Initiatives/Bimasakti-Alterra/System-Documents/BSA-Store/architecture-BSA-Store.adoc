@@ -1,0 +1,22 @@
+= Architecture BSA Store
+
+== High Level Architecture
+
+https://github.com/bimasaktialterra/bsastore-mobileapps/blob/docs/docs/images-BSA-Store/images-architecture-mvvm.png[]
+The Mobile Loket use MVVM Pattern. See more https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm[]
+
+// Gambar dapat dimasukkan dalam folder "images-BSA-Store", dengan nama image yang dimulai dengan nama sistem, contoh "BSA-Store-Image-Name.png"
+
+== Related System
+
+BSA Store terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan BSA Store.
+
+[cols="5%,35%,60%",frame=all, grid=all]
+|===
+^.^h|*No* 
+^.^h| *System Name* 
+^.^h|*Description*
+
+| 1 | Server Stagging | https://aquila-bsa-testing.azurewebsites.net/[]
+| 2 | Server Production | https://aquila.bsa.id/[]
+|===

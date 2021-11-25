@@ -1,0 +1,28 @@
+= Release and Deployment Coklit FE
+
+== Staging
+
+=== Schedule and Step Deployment
+
+Deployment Coklit FE Staging dilakukan ketika _on-push branch master_ melalui CI/CD yang disediakan oleh Github Actions. Ketika akan dilakukan proses _merge branch feature_ ke _master_, harus dipastikan terlebih dahulu semua langkah-langkah di Github Actions sudah lolos (ditandai dengan centang warna hijau) dan sudah melalui proses _peer to peer review_.
+
+*Deployment Step*
+
+1. Push Master Branch After Merge
+
+== Production
+
+=== Schedule and Step Deployment
+
+Deployment Coklit FE Production dilakukan ketika ada permintaan rilis dari _Product Owner_. Proses deploy production yang ditangani oleh tim SE hanya sampai pada tahap build and push docker image, proses deploy selanjutnya diserahkan kepada tim Infra
+
+*Deployment Step*
+
+1. Buat rilis di github dengan klik button *Draft New Release*
+
+2. Buat tag version sesuai JIRA Ticket dengan target branch master
+
+3. Klik *Publish Rilis*
+
+4. Request Deploy ke tim Infra dengan tag docker image adalah tag release version yang sudah dibuat
+

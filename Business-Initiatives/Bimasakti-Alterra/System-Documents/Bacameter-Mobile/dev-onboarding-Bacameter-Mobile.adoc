@@ -1,0 +1,31 @@
+= Developer Onboarding Bacameter Mobile
+
+Berikut adalah panduan bagi Developer dalam pengembangan sistem Bacameter Mobile.
+
+== Tools
+
+1. Java Programming Languange (Java 8) JDK 1.8
+2. Android SDK (min.18)
+3. Gradle version 6.5
+4. Android Studio IDE
+
+== Local Machine Setup
+
+1. Download Android Studio IDE (https://developer.android.com/studio)
+2. Install Android Studio IDE
+3. Pull data from repo (https://github.com/bimasaktialterra/mrs-mobile)
+4. Create device : Emulator Android, Tools - Device Manage - New Device Real device Android, Plug your Android phone to pc (make sure development mode & USB debugging is enabled)
+5. After Gradle Sync process finished, Run App (Shortcut F10) to launch App
+
+== Folder Structure
+
+1. `activity` package for all activity screen on app
+2. `adapter` contains all view adapter class
+3. `camera` for facilitate camera main feature
+4. `database` package for stored local structured app data
+5. `helper` package for helper class
+6. `model` contains all class for model
+7. `network` package contains helper class for networking utils
+8. `print` package contains helper class for printing out bills
+9. `proses` package for all utilize process reading system
+10. `utilities` package contains all class for handling app system

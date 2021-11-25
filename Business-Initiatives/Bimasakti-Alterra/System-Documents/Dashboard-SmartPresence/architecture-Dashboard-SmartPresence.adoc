@@ -1,0 +1,24 @@
+= Architecture Dashboard SmartPresence
+
+== High Level Architecture
+
+Bisa diisi dengan gambar HLA sistem
+
+// Gambar dapat dimasukkan dalam folder "images-Dashboard-SmartPresence", dengan nama image yang dimulai dengan nama sistem, contoh "Dashboard-SmartPresence-Image-Name.png"
+
+== Related System
+
+Dashboard SmartPresence terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Dashboard SmartPresence.
+
+[cols="10%,20%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+|*Dashboard SmartPresence*
+|
+a|
+a|
+|===

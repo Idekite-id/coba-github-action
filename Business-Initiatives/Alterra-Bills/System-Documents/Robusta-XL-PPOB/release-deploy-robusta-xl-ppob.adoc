@@ -1,0 +1,74 @@
+= Release and Deployment Robusta (XL-PPOB)
+
+== Schedule and Steps
+
+=== Production Release Step
+
+*Dont :*
+
+. Jangan _create pull request_ setelah _task_ disetujui oleh QA
+. Jangan _merge_ PR ke "Pre-Release" tanpa mengonfirmasi ke PIC Release
+. _Unprotected branch "Master" and "Pre-Release"_
+
+*Do :*
+
+. Setiap SE (Software Engineer) harus membuat _"Pull Request"_ ke branch Release setelah _task_ disetujui oleh QA
+. Segerakan (A.S.A.P) untuk melakukan proses no.1
+. PIC Release harus _build and create_ catatan rilis (_release note_) untuk setiap _task_ yang sudah siap untuk Release:
+ .. Release harus diselesaikan minimal H-1 sebelum hari perilisan
+ .. Cek semua PR
+ .. _Merge_ PR satu per satu ke _"Pre-Release"_
+ .. Jika terjadi _conflict_: _resolve it_.
+Jika tidak cukup yakin, koordinasikan dengan SE yang mengerjakan _task_ tersebut
+ .. setelah semuanya di-_merged_ ke "Pre-Release": buatlah _Release Draft_ di dalam Github.
+Tandai dengan _version number_: 1.x.x (_major, medium, single-task_)
+ .. Selesaikan Release dari poin kelima
+ .. _Do PR from "Pre-Release" ke branch "Master"_
+ .. Peringatan: _All PR merged into master will be release to production_ (kecuali untuk beberapa repo, contohnya Terra)
+
+*Development & UAT Release*
+
+. Semua langkahnya sama dengan panduan _release_ di atas
+. Kecuali:
+ .. Tidak butuh untuk membuat tag Release
+ .. _Merge_ ke branch _Development_ untuk men-_deploy_ ke server _Development_
+
+== Deployment
+
+=== Production
+
+To build scripts for *production*, Edit *.env* file so that it pointed to correct environment variables.Execute `yarn build` in your project directory then rsync 'build' or upload it to web directory for Production
+
+After build, scripts & assets will be available at `build` directory.
+To check the scripts running well we can test it using `pushstate-server`.
+
+Install `pushstate-server`
+
+----
+`npm install -g pushstate-server`
+----
+
+Run `pushstate-server [directory_name]`
+
+----
+# /Users/azul/Sites/newfrigate
+
+pushstate-server build
+Listening on port 9000 (<http://0.0.0.0:9000>)
+----
+
+Access to pronghorn API server restricted to certain domain defined.
+Just point fake domain to 127.0._._, here example for Unix, OSX;
+
+----
+# Edit hosts file
+sudo nano /etc/hosts
+
+# add these
+127.0.*.*      p.sepulsa.id
+127.0.*.*      f.sepulsa.id
+----
+
+Save it then, you can access http://f.sepulsa.id:9000
+
+If all good we can upload the scripts to web directory for production.

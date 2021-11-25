@@ -1,0 +1,23 @@
+= Database Documentation Bacameter Mobile
+
+Berisi dokumentasi database yang digunakan di dalam sistem, seperti daftar tabel dan gambar ERD beserta penjelasannya.
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Table Name* 
+^.^h| *Description* 
+
+| `lang` | Data pelanggan yang belum dibaca atau yang sudah dibaca
+| `rayon` | Data rayon pelanggan
+| `blok` | Data blok pelanggan
+| `kelainan` | Data kelainan
+| `diameter` | Data diameter
+| `golongan` | Data golongan
+| `tarif` | Data tarif
+| `airlimbah` | Data air limbah
+| `meterai` | Data meterai
+| `biayalain` | Data biaya lain
+| `setting` | Data setting
+| `lisensi` | Data lisensi
+| `logerror` | Data log error
+|===

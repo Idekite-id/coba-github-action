@@ -1,0 +1,13 @@
+= Database Documentation Ether Water Mobile
+
+Berisi dokumentasi database yang digunakan di dalam sistem, seperti daftar tabel dan gambar ERD beserta penjelasannya.
+
+database
+[cols="50%,50%",frame=all, grid=all]
+|===
+^.^h| *Table Name* 
+^.^h| *Description* 
+
+|
+|
+|===

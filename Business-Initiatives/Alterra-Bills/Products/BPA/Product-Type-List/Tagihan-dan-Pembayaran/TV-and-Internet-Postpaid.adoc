@@ -1,0 +1,52 @@
+= TV and Internet Postpaid
+
+Produk untuk pembayaran tagihan langganan program televisi dan internet. Karena penggunaan internet saat ini tak dimungkiri sudah menjadi bagian dari kehidupan sehari-hari. Karenanya, penyedia layanan internet pun berlomba-lomba untuk menawarkan paket internet dengan harga terbaik.
+
+Terdapat beberapa penyedia layanan Internet menambah bundling produk mereka dengan layanan televisi interaktif dan hanya dibayarkan dengan sekali paket. Biasanya paket dibentuk dengan manfaat yang didapatkan didalam satu paket, misalkan Internet dengan layanan kecepatan 30Mbps dengan tambahan channel tv interaktif dengan jumlah 30 Channel.
+
+*Variasi Produk*
+
+Varian produk TV Postpaid & Internet yang disediakan, meliputi:
+
+- TV Kabel Postpaid
+- TV Kabel Postpaid + Internet
+- Internet
+
+*Vendor Utama Produk*
+
+Vendor utama yang menyediakan layanan TV Postpaid & Internet, antara lain:
+
+- IndoBest
+- Finnet
+
+*Perilaku dan Cara Penggunaan Produk*
+
+. User akan melakukan pembayaran tagihan TV kabel atau TV Kabel Internet
+. User melakukan input nomor pelanggan sebagai identitas pelanggan terdaftar
+. User menerima jumlah tagihan yang harus dibayarkan
+. User membayar sejumlah tagihan yang tertera
+. Jika sukses, user akan menerima info tagihan sudah terbayar berupa detail transaksi yang telah dilakukan
+. Jika gagal, user harus memastikan deposit yang dimiliki belum terpotong sejumlah tagihan dan akan mendapatkan notifikasi transaksi gagal
+
+*Customer Journey*
+
+Partner
+
+. Customer memilih penyedia layanan TV Kabel Internet dan mengetikan nomer pelanggan TV Kabel sebagai identifikasi pelanggan yang terdaftar layanan.
+. Sistem menampilkan total tagihan yang perlu dibayar.
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+image::../../../images-bpa/flow-journey-tv-postpaid.png[align="center"]
+
+Switcher/Aggregator
+
+. Partner mengirimkan nomor pelanggan TV Kabel sebagai identifikasi pelanggan terdaftar
+
+. _Switching Engine_ mengirimkan _inquiry_ yang harus dibayarkan oleh Partner
+
+. Partner melakukan _request_ transaksi
+
+. _Switching Engine_ memproses transaksi dan kirim _callback_ ke Partner
+
+image::../../../images-bpa/flow-journey-tv-postpaid-2.png[align="center"]

@@ -1,0 +1,176 @@
+= Database Documentation Sipintar.NET
+
+Berisi dokumentasi database yang digunakan di dalam sistem, seperti daftar tabel dan gambar ERD beserta penjelasannya.
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Table Name* 
+^.^h|*Description*
+|master_attribute_merek_meter
+| data berbagai merek meteran PDAM
+
+|master_attribute_pdam
+| daftar PDAM berbagai daerah
+
+|master_attribute_pdam_detail
+| rincian data PDAM
+
+|master_user
+| data pengguna API Sipintar v5 (seluruh module PDAM Pintar)
+
+|master_user_access
+| hak akses pengguna Sipintar v5
+
+|master_user_module
+| daftar module PDAM Pintar
+
+|master_user_module_access
+| hak akses pengguna per module PDAM Pintar
+
+|master_user_role
+| role pengguna API Sipintar v5
+
+|master_user_role_access
+| role akses pengguna API Sipintar v5
+
+|rekening_air_posting
+| data posting rekening air
+
+|master_logger
+| log aktifitas pengguna ketika merubah data table tertentu
+
+|master_attribute_area
+|
+
+|master_attribute_blok
+|
+
+|master_attribute_cabang
+|
+
+|master_attribute_flag
+|
+
+|master_attribute_kecamatan
+|
+
+|master_attribute_kelurahan
+|
+
+|master_attribute_kolektif
+|
+
+|master_attribute_loket
+|
+
+|master_attribute_merek_meter
+|
+
+|master_attribute_rayon
+|
+
+|master_attribute_status
+|
+
+|master_attribute_wilayah
+|
+
+|master_pelanggan_air
+| data seluruh pelanggan air
+
+|master_pelanggan_air_detail
+|data detail per pelanggan air
+
+|master_tarif_diameter
+|
+
+|master_tarif_diameter_detail
+|
+
+|master_tarif_golongan
+|
+
+|master_tarif_golongan_detail
+|
+
+|dashboard_user
+|
+
+|master_attribute_alasan_batal
+|
+
+|master_attribute_dma
+|
+
+|master_attribute_dmz
+|
+
+|master_attribute_kepemilikan
+|
+
+|master_attribute_kondisi_meter
+|
+
+|master_attribute_sumber_air
+|
+
+|pengaturan
+|
+
+|rekening_nonair_detail
+|
+
+|master_attribute_jenis_nonair
+|
+
+|master_config
+|
+
+|master_config_detail
+|
+
+|master_config_field
+|
+
+|master_periode
+|
+
+|master_response_ui
+|
+
+|master_response_ui_platform
+|
+
+|master_response_ui_tipe
+|
+
+|master_tarif_administrasi_lain
+|
+
+|master_tarif_meterai
+|
+
+|master_tarif_pemeliharaan_lain
+|
+
+|master_tarif_retribusi_lain
+|
+
+|parameterdownload
+|
+
+|rekening_air
+|
+
+|rekening_air_detail
+|
+
+|rekening_air_detail_posting
+|
+
+|rekening_air_periode
+|
+
+|...
+|...
+|===

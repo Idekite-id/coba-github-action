@@ -1,0 +1,47 @@
+= Modul Gudang
+
+SIMiBIMA Gudang adalah modul PDAM Pintar yang digunakan untuk pencatatan barang, baik yang masuk maupun keluar gudang. Dalam modul ini, _User_ dapat melihat, menghapus, dan mengubah data barang yang terdapat dalam gudang. Serta melakukan pengajuan pembelian dan pengeluaran barang, dan melihat serta mencetak laporan ketersediaan barang yang terdapat dalam gudang.
+
+Terdapat 6 menu utama pada modul SIMiBIMA Gudang, antara lain, Master Data, Proses Transaksi, Pengolahan, Laporan, Pengaturan Umum, dan Area Administrator.  Berikut tampilan awal dari modul SIMiBIMA Gudang. 
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Gudang.adoc[Login ke Modul Gudang]
+
+link:./Getting-Started/Menu-Modul-Gudang.adoc[Menu Modul Gudang]
+
+== Menu Data Master
+
+link:./Menu-Data-Master/Menambah-Mengubah-dan-Menghapus-Data-Barang.adoc[Menambah, Mengubah, dan Menghapus Data Barang]
+
+== Menu Proses Transaksi
+
+link:./Menu-Proses-Transaksi/Request-Barang-Masuk.adoc[Request Barang Masuk]
+
+link:./Menu-Proses-Transaksi/Supervisi-Pengajuan-Pembelian-Barang.adoc[Supervisi Pengajuan Pembelian Barang]
+
+link:./Menu-Proses-Transaksi/Membuat-Permintaan-Pengeluaran-Barang.adoc[Membuat Permintaan Pengeluaran Barang]
+
+link:./Menu-Proses-Transaksi/Supervisi-Pengajuan-Pengeluaran-Barang.adoc[Supervisi Pengajuan Pengeluaran Barang]
+
+== Menu Pengolahan
+
+link:./Menu-Pengolahan/Memposting-Kartu-Stok.adoc[Memposting Kartu Stok]
+
+link:./Menu-Pengolahan/Memposting-Rekap-Stok-Barang.adoc[Memposting Rekap Stok Barang]
+
+== Menu Laporan
+
+link:./Menu-Laporan/Menampilkan-dan-Mencetak-Laporan.adoc[Menampilkan dan Mencetak Laporan]
+
+link:./Menu-Laporan/Menampilkan-dan-Mencetak-Memo-Pembelian.adoc[Menampilkan dan Mencetak Memo Pembelian]
+
+== Menu Pengaturan Umum
+
+link:./Menu-Pengaturan-Umum/Menambah-Mengubah-dan-Menghapus-Daftar-Karyawan.adoc[Menambah, Mengubah, dan Menghapus Daftar Karyawan]
+
+link:./Menu-Pengaturan-Umum/Menambah-Mengubah-dan-Menghapus-Daftar-Pengguna.adoc[Menambah, Mengubah, dan Menghapus Daftar Pengguna]
+
+link:./Menu-Pengaturan-Umum/Menambah-Mengubah-dan-Menghapus-Daftar-Jabatan.adoc[Menambah, Mengubah, dan Menghapus Daftar Jabatan]
+
+link:./Menu-Pengaturan-Umum/Setting-Paraf-TTD-Laporan.adoc[Setting Paraf TTD Laporan]

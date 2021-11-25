@@ -1,0 +1,34 @@
+= Konfigurasi PM Menggunakan Spek ISO
+
+Apabila Partner menggunakan Spek ISO, kamu bisa mempelajari tutorial konfigurasi di translator PM berikut ini.
+
+    _Case study_
+    Pada semester 1 tahun 2021, Saya berkesempatan untuk mendampingi salah satu Partner yang integrasi menggunakan translator PM dengan mengacu pada API mereka. Partner tersebut adalah BTNS dan spek API mereka menggunakan ISO. Kali ini saya akan _share_ bagaimana proses dari sisi Pre-dev bisa selesai konfigurasinya.
+    Shafira, INTS Agent
+ 
+Translator PM saat ini sudah mendukung untuk _message_ dengan format ISO 8583 tahun 1987. 
+
+[cols="50%,50%",frame=all, grid=all]
+|===
+^.^h| *Karakteristik _message_ ISO 8583*
+^.^h| *ISO8583 _message format_*
+
+a| 1. ASCII _character_, bisa _numeric, alphanumeric, special character_, dan _hexa character_
+2. Menggunakan _header length 4_ (empat) _digits decimal_ ASCII di awal _message_, hal ini dilakukan untuk menunjukkan banyaknya karakter yang ada di belakangnya
+3. _Header length_ tersebut tidak termasuk 4 (empat) _digits character header length_ itu sendiri
+4. Tidak menggunakan _tail character_ 
+
+a| 1. _Message Type Indicator_ (MTI)
+2. Bitmaps menunjukkan semua data elemen yang digunakan
+3. _Field_ data elemen itu sendiri
+|===
+
+== *Step by step konfigurasi* 
+
+Apabila kamu menemui permasalahan seperti contoh di atas (Partner baru yang integrasinya menggunakan spek ISO), kamu bisa merujuk pada E-Learning ini untuk belajar secara mandiri. Ikuti langkah-langkah (*baca instruksi dan lihat video*) di bawah ini secara berurutan ya. 
+
+1. link:./melakukan-setup-koneksi.adoc[Bagaimana cara melakukan _setup_ koneksi?]
+2. link:./melakukan-api-config-iso-sub-element.adoc[Bagaimana cara melakukan "API _Config_" ISO?]
+3. link:./melakukan-api-config-iso-sub-element.adoc[Bagaimana cara melakukan _config sub element_?]
+4. link:./menambahkan-command-config-request-mapping.adoc[Bagaimana cara menambahkan _command_ dan _config request mapping_?]
+5. link:./melakukan-config-product-response-code-mapping.adoc[Bagaimana cara melakukan _config response mapping_, _product mapping_, dan _response code mapping_?]

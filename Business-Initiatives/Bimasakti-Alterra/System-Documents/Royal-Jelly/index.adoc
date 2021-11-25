@@ -1,0 +1,69 @@
+= Royal Jelly
+
+== Overview
+BimaReklame merupakan aplikasi monitoring dan pendataan proses awal hingga cetak nota hitung pajak reklame yang berbasis web & mobile, sehingga dapat diakses secara langsung tanpa melakukan proses instalasi. Royal-jelly merupakan sistem backend dari sistem BimaReklame.  
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Adityas Kemal
+| Product Owner 
+| kemal@bsa.id
+
+| Rana Pradipta 
+| Software Engineer Backend
+| rana@bsa.id
+
+| Pajar Wijaya Putra 
+| Software Engineer Backend
+| pwputra@bsa.id
+
+| Hasan Mubarok 
+| Software Engineer Frontend
+| hasan@bsa.id
+
+|===
+
+== Technical Information
+
+<<./url-royal-jelly.adoc#, System URL Royal Jelly>>
+
+<<./architecture-royal-jelly.adoc#, Architecture Royal Jelly>>
+
+<<./technology-royal-jelly.adoc#, Technology Royal Jelly>>
+
+<<./environment-royal-jelly.adoc#, Environment Royal Jelly>>
+
+<<./database-royal-jelly.adoc#, Database Documentation Royal Jelly>>
+
+<<./release-deploy-royal-jelly.adoc#, Release and Deployment Royal Jelly>>
+
+<<./flow-wire-royal-jelly.adoc#, Flow and Wireframe Royal Jelly>>
+
+== Onboarding Information
+
+<<./dev-onboarding-royal-jelly.adoc#, Developer Onboarding Sytem Name>>
+
+<<./development-royal-jelly.adoc#, Development Royal Jelly>>
+
+<<./naming-convention-royal-jelly.adoc#, Naming Convention Royal Jelly>>
+
+== Documentation
+
+//Berisi dokumen penunjang untuk penggunaan sistem, berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam list dokumen berikut:
+
+//User Guide (jika ada, external link)
+
+//Dokumen Integrasi (jika ada, external link)
+
+//Dokumen Maintenance (jika ada, external link)
+
+//Dokumen API (jika ada, external link)
+
+<<./release-note-royal-jelly.adoc#, Release Note Royal Jelly>>
+

@@ -1,0 +1,24 @@
+= Architecture Ether Water Mobile
+
+== High Level Architecture
+
+Bisa diisi dengan gambar HLA sistem
+
+// Gambar dapat dimasukkan dalam folder "images-Ether-Water-Mobile", dengan nama image yang dimulai dengan nama sistem, contoh "Ether-Water-Mobile-Image-Name.png"
+
+== Related System
+
+Ether Water Mobile terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Ether Water Mobile.
+
+[cols="10%,20%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+|*Ether Water Mobile*
+|
+a|
+a|
+|===

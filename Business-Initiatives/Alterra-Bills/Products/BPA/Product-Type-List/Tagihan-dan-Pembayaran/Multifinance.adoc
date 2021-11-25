@@ -1,0 +1,39 @@
+= Multifinance
+
+Multifinance adalah produk untuk pembayaran tagihan angsuran kredit dari lembaga keuangan non-bank yang termasuk dalam kategori lembaga pembiayaan.
+
+*Variasi Produk*
+
+Varian dari produk multifinance diantaranya:
+
+- Pembiayaan kredit kendaraan bermotor
+- Pembiayaan kredit barang elektronik
+- dan lain-lain
+
+*Vendor Utama Produk*
+
+Beberapa Lembaga Pembiayaan yang banyak dikenal masyarakat seperti FIF, Adira, MAF, BAF. Selain itu juga termasuk Lembaga Pembiayaan yang terdaftar pada OJK.
+
+*Perilaku dan Cara Penggunaan Produk*
+
+. Jika customer mendapatkan denda, maka denda akan masuk ke dalam tagihan di bulan tertagih
+. Apabila pembayaran sudah lunas maka tidak muncul tagihan pada sistem
+. Tidak ada _cut-off time_ terkait produk _avaliability_
+
+*Customer Journey*
+
+Partner
+
+. Customer memilih perusahaan lembaga pembiayaan terkait dan mengetikan nomor kontrak sebagai identifikasi tagihan yang sedang berjalan.
+. Sistem menampilkan total tagihan yang perlu dibayar Customer beserta dendanya jika ada.
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi / Website milik Partner
+
+Switcher/Aggergator
+
+Journey pada Switcher/Aggregator, secara umum menggunakan alur pembayaran _postpaid_ yang menggunakan _inquiry_, dengan cara berikut:
+
+. Partner mengirimkan _customer number_
+. _Switching Engine_ mengirimkan _inquiry_ yang harus dibayarkan oleh Partner
+. Partner melakukan _request_ transaksi
+. _Switching Engine_ memproses transaksi dan mengirimkan _callback_ ke Partner

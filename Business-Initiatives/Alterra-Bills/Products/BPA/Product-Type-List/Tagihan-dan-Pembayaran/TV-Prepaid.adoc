@@ -1,0 +1,23 @@
+= TV Prepaid 
+
+TV Prepaid adalah produk yang memfasilitasi top up untuk TV berbayar.
+
+*Customer Journey*
+
+Partner Journey TV Prepaid
+
+. Customer mengetikan nomor pelanggan TV Prepaid
+. Customer memilih nominal top-up yang diinginkan
+. Sistem menampilkan _invoice_ TV Prepaid berisi identitas pelanggan
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher/Aggregator Journey TV Prepaid
+
+. Partner mengirimkan _customer number_
+. _Switching Engine_ mengirimkan _inquiry_ berisikan:
+-  _Customer number_ dan jumlah denom yang akan di top-up ke partner.
+- _Bill period_ berisi tahun & bulan saat transaksi
+. Partner melakukan _request_ transaksi
+. _Switching Engine_ memproses transaksi dan kirim _callback_ ke Partner
+- Jika _false / invalid_, maka mendapat message ``406 invalid property value customer_number``

@@ -1,0 +1,64 @@
+= Environment Digital Billing System
+
+Berikut adalah _environment_ dari _Digital Billing System_ :
+
+|===
+| *Stage* | *Environment* | *Specs*
+
+| _Development_
+| _IP Address_
+| 103.117.207.* * *
+
+|
+| _URL_
+| http://103.117.207.* * */
+
+|
+| _Doc Root_
+| /home/infra/backend/digital_billing_system
+
+|
+| _Service Name_
+a| * frontend 
+ * ops  
+ * backend 
+ * swagger-ui 
+ * mysql
+
+|
+| _DB Server_
+| localhost
+
+|
+| _Git Repo_
+| -
+
+| _Production_
+| _IP Address_
+| 103.117.207.* * *
+
+|
+| _URL_
+| https://dbs.sepulsa.id/
+
+|
+| _Doc Root_
+| /home/infra/digital_billing_system
+
+|
+| _Service Name_
+a| * frontend 
+* ops 
+* backend 
+* swagger-ui
+
+|
+| _DB Server_
+| localhost
+
+|
+| _Git Repo_
+| -
+|===
+
+*Note : Untuk detail IP Address, Anda dapat menghubungi Tim Development Digital Billing System atau Tim Infrastruktur*

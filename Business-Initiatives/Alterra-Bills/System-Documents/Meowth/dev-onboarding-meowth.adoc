@@ -1,0 +1,5 @@
+= Developer Onboarding Meowth
+
+Berikut dokumentasi _installation setup_ serta _tools_ yang digunakan:
+
+https://github.com/sepulsa/meowth/blob/master/readme.md[]

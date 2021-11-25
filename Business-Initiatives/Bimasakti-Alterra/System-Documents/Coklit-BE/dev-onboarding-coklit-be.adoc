@@ -1,0 +1,37 @@
+= Developer Onboarding Coklit BE
+
+== Local Machine Setup
+
+1. Install Dependency
++
+`go mod download`
+
+2. Install Database Migrations CLI
++
+`brew install golang-migrate` (MacOS)
+
+3. Setup Mysql Server
++
+for an easier way, you can use docker
+
+- create docker-compose.yml file in root directory
+- copy docker-compose.yaml content to docker-compose.yml that was created
+- (optional) if you want to use adminer, uncomment service adminer
+- run `docker-compose up`
+
+
+== How To Run Server
+
+1. Run migration files, execute
+`migrate -path db/migrations -database "mysql://username:password@tcp(dbhost:dbport)/dbname" -verbose up`
+
+2. create and set up `config.yaml` file based on `config.yaml.example` file, and execute
+`go run main.go`
+
+== How To Run Tests
+
+`go test -v -cover -covermode=atomic ./...`
+
+== How to Make a Migration File
+
+`migrate create -ext sql -dir db/migrations -seq <:migration_name>`

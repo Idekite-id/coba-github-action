@@ -1,0 +1,5 @@
+= Developer Onboarding Proteus Rita
+
+Adapun penjelasan tentang _Developer Onboarding_ pada sistem Proteus Rita bisa dilihat melalui _link_ di bawah ini.
+
+https://github.com/sepulsa/proteus-rita[https://github.com/sepulsa/proteus-rita]

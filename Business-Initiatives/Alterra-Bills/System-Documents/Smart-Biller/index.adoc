@@ -1,0 +1,43 @@
+= Smart Biller
+:keywords: ati, data, biller-auto-switcher, terra, hecate
+
+== Overview
+
+Awalnya, Smart Biller adalah sistem yang dibuat untuk menentukan _biller_ terbaik berdasarkan parameter yang disediakan oleh partner. Seiring dengan proses pengembangan sistem, Smart BIller kini tidak hanya berfungsi untuk menentukan peringkat _biller_, melainkan juga sebagai sistem otomasi _open / close biller system_ berdasarkan poin-poin tertentu, meliputi: _latency, success rate_, dan margin.
+
+Smart Biller terhubung langsung dengan sistem Kraken, dan menggunakan Sentinel sebagai _User Interface_-nya (UI).
+
+== Team Involved
+
+|===
+| Name | Role | Email
+
+| David Boy Tonara
+| Product Owner
+|
+
+| Theodore Adi Putra
+| Lead Developer
+| 
+
+| Sudono
+| Developer
+| 
+
+| M. Lutfi Zakaria
+| Developer
+| 
+
+|===
+
+== Technical Information
+
+<<./architecture-smart-biller.adoc#, Architecture Smart Biller>>
+
+<<./technology-smart-biller.adoc#, Technology Smart Biller>>
+
+== Documentation
+
+https://docs.google.com/document/d/19hsSxjCN_z62rt3JkMMXN7SA7dP0bIyevAkeGaib2qA/edit?usp=sharing[User Guide Smart Biller]
+
+<<./user-story-smart-biller.adoc#, User Story Smart Biller>>

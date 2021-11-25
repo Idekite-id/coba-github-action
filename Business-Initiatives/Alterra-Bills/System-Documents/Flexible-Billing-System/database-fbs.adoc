@@ -1,0 +1,400 @@
+= Database Documentation Flexible Billing System
+
+== Document Structure
+
+Berikut tabel struktur dokumen _external system_ yang ada di sistem FBS dibawah ini :
+
+=== ExternalSystem
+
+|===
+|systemId*|string($uuid)
+| | readOnly: true
+| | uniqueltems: true
+|name*|string
+| | example: Facebook API
+|description|string
+| | example: Configuration to call Facebook API
+|isActive*|boolean
+| |example: true
+|createdAt	|string($date-time)
+| | example: 2019-07-03T06:47:17.622Z
+|updatAt	|string($date-time)
+| | example: 2019-07-03T06:47:17.622Z
+|components*	|array
+||HttpComponent \ AdditionaldataComponent \ QueueComponent
+|concurrents*	|array
+||Concurrent
+|additionalData|object
+|securedAdditionalData|object
+|internalData|object
+
+|===
+
+=== HttpComponent
+
+|===
+
+|componentId|string
+|
+a|ID of component. 
+
+Can not start with "#". +
+Starts with "entry/" to mark following component as entry point and starts with "terminate/" to mark as terminator. +
+Each External System should have at least 1 entryoint and 1 terminator. +
+Use "-" only to relate components so they can only be called once at a point of time, example: "FBAPILogin-1"
+|type|string
+|
+a|Available operator: +
+
+http - HttpComponent
+|
+a|Enum: type array +
+[ http ]
+|name|string
+||string +  
+example: Login to Facebook API
+|description|string
+||string example: Login to Facebook API
+|componentConditions*	|array
+||StepCondition
+|data*	|array
+||Data
+|limitAccess|boolean
+||Default : false
+||Limit acces used to limit execution of this component to be exactly 1 at a time
+|nextSteps*	|array
+||Step
+|defaultStep*	|componentId of next component if no nextSteps unmet
+|relatedEntryPoin|string
+||example: FBAPILogin2
+||componentId of next entry point. Only available on component terminator
+|repeatLimit|number
+||Limit number how much this component can be repeated. Default: 1
+||default: 1 +
+example: 5
+||number
+||default: 0 +
+example: 5
+|repeatDelay	|Delay time in second before recall this component. Default: 0
+|callable|boolean
+||default: false
+||Callable used to indicate that the component can be called by kraken
+|url*	|string
+||example: http://api.telkomsel.com[] +
+default:
+||URL is mandatory except for entry and terminate component. For entry and terminate components, you can just provide empty string as value.
+|requestMethod|string
+||example: post
+||available operator: +
+get - method GET + 
+post - method POST
+||Enum: + 
+[ get, post ]
+|requestType*	|string
+||example: json
+||Available operator:
+
+json - parse json +
+formData - parse form data
+||Enum: +
+[ json, formData ]
+|responseType|string
+||Available operator:
+
+json - parse json
+||Enum / Array
+- / json
+|timeout|number
+||example: 5 +
+default: 0
+||Timeout in second before we decide that call to external system is failed
+|componentId*	|string
+
+|===
+
+=== AdditionalDataComponent
+
+|===
+|componentID*	|string
+|
+a|ID of component.
+
+Can not start with "#". +
+Starts with "entry/" to mark following component as entry point and starts with "terminate/" to mark as terminator.
+Each ExternalSystem should have at least 1 entryoint and 1 terminator. +
+Use "-" only to relate components so they can only be called once at a point of time, example: "FBAPILogin-1".
+|type*	|string
+||Available operator: +
+function - AdditionalDataComponent
+||Enum: +
+[ function ]
+|name|string
+||example: Login to Facebook API
+|description|string
+||example: Component to login to Facebook API
+|componentConditions*	|array
+||StepCondition
+|datas*	|array
+||Data
+|limitAccess	|boolean
+||Default : false
+||Limit access used to limit execution of this component to be exactly 1 at a time.
+|nextSteps*	|array
+||Step
+|defaultStep*	|componentId of next component if no nextSteps unmet
+|relatedEndtryPoint|string
+||example: FBAPILogin2
+||componentId of next entry point. Only available on component terminator.
+|repeatLimit	|Number
+||Limit number how much this component can be repeated. Default: 1
+||default: 1 +
+example: 5
+||number
+||default: 0 +
+example: 5
+|repeatDelay	|Delay time in second before recall this component. Default: 0
+||boolean
+|callable|default: false
+||Callable used to indicate that the component can be called by kraken
+|functionName*	|sting
+||enum: +
+- "saveAdditionalData" +
+- "deleteAdditionalData"
+|
+a|Available operator: 
+
+* `saveAdditionalData` - function to save data to additionalData
+* `deleteAdditionalData` - function to delete data from additionalData +
+example: saveAdditionalData
+|===
+
+=== QueueComponent
+|===
+|componentID*	|string
+|
+a|ID of component.
+
+Can not start with "#". +
+Starts with "entry/" to mark the following component as entry point and starts with "terminate/" to mark as terminator. +
+Each ExternalSystem should have at least 1 entrypoint and 1 terminator. +
+Use "-" only to relate components so they can only be called once at a point of time, example: "FBAPILogin-1".
+|type*	|string
+||Available operator: +
+queue - QueueComponent
+||Enum: +
+queue
+|name|string
+|description	|string
+||example: Component to login to Facebook API
+|componentCondition*	|array
+||StepConditions
+|datas*	|array
+||Data
+|limitAccess|bolean
+||Defaulr: false
+||Limir access used to limit execution ofthi component to be exacly 1 at a time
+|nextSteps*	|array
+||step
+|defaultStep*	|string
+||example: FBAPILogin
+|relatedEntryPoint	|string
+||example: FBAPILogin2
+||componentId of next point. Only available on component terminator.
+|repeatDelay	|number
+||default: 0 +
+example: 5
+||Delay time in decond before recall this component. Default: 0
+|callable	|boolean
+||default: false
+||Callable used to indicate that the component can be called by kraken
+
+|===
+
+=== Data
+
+|===
+
+|sourceComponent	|string
+||description: Source component of data that is going to be taken. It is only mandatory if sourceData is not additionalData.
+||example: FBAPILogin
+|sourceData|string
+|
+a|enum: + 
+....
+ * "status" 
+ * "queryParams"
+ * "headers" 
+ * "body" 
+ * "returnValue"  
+ * "additionalData" 
+....
+|
+a| description: >
+
+Location of data that is going to be taken. + 
+Available operator: +
+
+* `status` - Only available for HTTPComponent of sourceComponent. Get status code of http response. 
+* `queryParams`- Only available for HTTPComponent of sourceComponent. Get query parameters of http response. 
+* `headers` - Only available for HTTPComponent of sourceComponent. Get headers of http response. 
+* `body` - Only available for HTTPComponent of sourceComponent. Get a body of http response. 
+* `returnValue` - Only available for AdditionalDataComponent of sourceComponent. Get the return value of the function. 
+* `additionalData` - Get data from additionalData. +
+example: body
+|sourceName	|string
+||description: Key of the data that is going to be taken. For nested object, use "/" as the path of the data
+||example: token or path/to/token
+|targetData	|string
+|
+a| enum:
+....
+ - "queryParams" 
+ - "headers" 
+ - "body" 
+ - "params" 
+....
+|
+a| description: >
+
+Location of data that is going to be set. +
+Available operator: +
+
+* `queryParams` - Only available for HTTPComponent of current component. Set query parameters of http request. 
+* `headers` - Only available for HTTPComponent of current component. Set headers of http request.
+* `body` - Only available for HTTPComponent of current component. Set body of http request. 
+* `params` - Only available for AdditionalDataComponent of current component. Set params of function call.
+|targetName	|string
+||description: Key of the data that is going to be set. For nested object, use "/" as the path of the data
+||example: token or path/to/token
+|preValue|string
+||description: Value you want to add before value of the data
+||example: Bearer
+|postValue	|string
+||description: Value you want to add after value of the data
+
+|===
+
+
+=== Concurrent
+
+|===
+
+|limitConcurrent	|number
+||Description : +
+For unlimited concurrent use 0 as a value. Default - 0
+||default: 0 +
+example: 10
+|currentConcurrent	|nuber
+||description +
+default: 0 +
+example: 2
+||readOnly: true
+|targetResource	|string
+||example: api.telkomsel.com
+
+|===
+
+=== Step
+
+|===
+
+|name*	|string
+||example: Call fecebook graph check user
+|description	|string
+||example: Step to call facebook graph check user component
+|condition|array
+||StepCondition
+||default []
+|componentId|string
+||example: FBGCheckUser
+
+|===
+
+=== StepCondition
+
+|===
+|operataor	|string
+|
+a|
+....
+ - "lt" 
+ - "le" 
+ - "gt" 
+ - "ge" 
+ - "eq" 
+ - "ne" 
+ - "ct" 
+ - "is" 
+....
+|
+a| description: > +
+Available operator: +
+
+* `lt` - Less Than
+* `le` - Less Than Equal 
+* `gt` - Greater Than
+* `ge` - Greater Than Equal
+* `eq` - Equal 
+* `ne` - Not Equal
+* `ct` - Contain, applied for string only
+* `is` - Is, is firstValue truthy or falsy. secondValue must be a boolean
+|firstValue|- type: string +
+description: +
+If you want to access additionalData, use "#data" as first part of your string, example - "#data/token". +
+If you want to access secureAdditionalData, use "#secureData" as first part of your string, example - "#secureData/token". +
+If you want to access other component, use componentId as first part of your string, example - "FBAPILogin/token" +
+example: "componentId/path/to/value"
+||- type: number +
+example 0000
+||- type: boolean +
+example: true
+||example: "componentId/path/to/value"
+|isFirstProcessedValue	|boolean
+||default: false
+||example: true
+|fistValueType|string
+|
+a|enum:
+....
+ - "number" 
+ - "string" 
+ - "boolean" 
+....
+|
+a|
+description: > +
+Available operator: +
+
+* `number` - Number type
+* `string` - String type 
+* `boolean` - Boolean type
+|secondValue	|- type: String +
+description: > +
+If you want to access additionalData, use "#data" as first part of your string, example - "#data/token". +
+If you want to access secureAdditionalData, use "#secureData" as first part of your string, example - "#secureData/token". +
+If you want to access other component, use componentId as first part of your string, example - "FBAPILogin/token" +
+example: "success"
+||-type: number +
+example: 000
+||_type: boolean +
+example: true
+|isSecondProcessedValue	|boolean
+||default: false
+||example: true
+|secondtValueType	|string
+|
+a|enum:
+....
+ - "number" 
+ - "string" 
+ - "boolean" 
+....
+|
+a|
+description: > +
+Available operator: +
+
+* `number` - Number type
+* `string` - String type
+* `boolean` - Boolean type|
+|===

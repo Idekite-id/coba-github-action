@@ -1,0 +1,485 @@
+= Log Schema Kraken V2
+
+**Adatapter Kraken V2**
+
+Adapter handle parsing, encode and decode communication and messaging with biller
+
+|===
+
+| *Parameter* | *Type*
+
+| command
+| string
+
+| credential
+| string
+
+| customer_id
+| string
+
+| elapsed_time
+| string
+
+| endpoint
+| string
+
+| event
+| string
+
+| id
+| integer
+
+| level
+| string
+
+| package
+| string
+
+| raw_data
+| string - big text
+
+| response
+| string - big text
+
+| time
+| string
+
+| transaction_biller_id
+| int
+
+| message *
+| string
+
+| detail *
+| string
+
+|===
+
+**Note** : Parameter mark with asterisk (*) mark is optional
+
+*Log Event List*
+
+|===
+| *Event* | *Deskripsi*
+
+| adapter.request
+| _Logging adapter_ sebelum _request_ dari Kraken ke Biller
+
+| adapter.response
+| _Logging adapter_ setelah _request_ dari Kraken ke Biller dalam kasus normal
+
+| adapter.error
+| _Logging adapter_ setelah _request_ dari Kraken ke Biller dalam kasus _error_
+
+| adapter.err_parse
+| _Logging adapter_ setelah _request_ dari Kraken ke Biller dalam kasus _error_ yang spesifik
+|===
+
+*Log Example Schema*
+ 
+*Request Log Example*
+
+----
+{
+  "level": "info",
+  "event": "adapter.request",
+  "credential": "kraken dev",
+  "package": "modules/biller/smartfren/adapter",
+  "id": 181,
+  "customer_id": "088810000000",
+  "elapsed_time": 0,
+  "transaction_biller_id": 182,
+  "endpoint": "https://sevennoob.free.beeceptor.com/api/custom.xml",
+  "command": "01",
+  "raw_data": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n  <soap:Envelope xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:soapenc=\"http://schemas.xmlsoap.org/soap/encoding/\" xmlns:tns=\"urn:openApi\" xmlns:types=\"urn:openApi/encodedTypes\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\">\n    <soap:Body soap:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">\n      <tns:invoke>\n        <request href=\"#id1\" />\n      </tns:invoke>\n      <tns:SoapMap id=\"id1\" xsi:type=\"tns:SoapMap\">\n        <values href=\"#id2\" />\n\t\t\t</tns:SoapMap>\n<soapenc:Array id=\"id2\" soapenc:arrayType=\"tns:SoapMapValue[8]\"><Item href=\"#id3\" /><Item href=\"#id4\" /><Item href=\"#id5\" /><Item href=\"#id6\" /><Item href=\"#id7\" /><Item href=\"#id8\" /><Item href=\"#id9\" /><Item href=\"#id10\" /></soapenc:Array>\n<tns:SoapMapValue id=\"id3\" xsi:type=\"tns:SoapMapValue\">\n      <arrayValue xsi:nil=\"true\" />\n      <mapArrayValue xsi:nil=\"true\" />\n      <name xsi:type=\"xsd:string\">terminalID</name>\n      <singleValue xsi:type=\"xsd:string\">kraken dev</singleValue>\n    </tns:SoapMapValue><tns:SoapMapValue id=\"id4\" xsi:type=\"tns:SoapMapValue\">\n      <arrayValue xsi:nil=\"true\" />\n      <mapArrayValue xsi:nil=\"true\" />\n      <name xsi:type=\"xsd:string\">amount</name>\n      <singleValue xsi:type=\"xsd:string\">10000</singleValue>\n    </tns:SoapMapValue><tns:SoapMapValue id=\"id5\" xsi:type=\"tns:SoapMapValue\">\n      <arrayValue xsi:nil=\"true\" />\n      <mapArrayValue xsi:nil=\"true\" />\n      <name xsi:type=\"xsd:string\">sourceMsisdn</name>\n      <singleValue xsi:type=\"xsd:string\">kraken</singleValue>\n    </tns:SoapMapValue><tns:SoapMapValue id=\"id6\" xsi:type=\"tns:SoapMapValue\">\n      <arrayValue xsi:nil=\"true\" />\n      <mapArrayValue xsi:nil=\"true\" />\n      <name xsi:type=\"xsd:string\">pin</name>\n      <singleValue xsi:type=\"xsd:string\">kraken</singleValue>\n    </tns:SoapMapValue><tns:SoapMapValue id=\"id7\" xsi:type=\"tns:SoapMapValue\">\n      <arrayValue xsi:nil=\"true\" />\n      <mapArrayValue xsi:nil=\"true\" />\n      <name xsi:type=\"xsd:string\">serviceName</name>\n      <singleValue xsi:type=\"xsd:string\">01</singleValue>\n    </tns:SoapMapValue><tns:SoapMapValue id=\"id8\" xsi:type=\"tns:SoapMapValue\">\n      <arrayValue xsi:nil=\"true\" />\n      <mapArrayValue xsi:nil=\"true\" />\n      <name xsi:type=\"xsd:string\">sourceRefID</name>\n      <singleValue xsi:type=\"xsd:string\">182</singleValue>\n    </tns:SoapMapValue><tns:SoapMapValue id=\"id9\" xsi:type=\"tns:SoapMapValue\">\n      <arrayValue xsi:nil=\"true\" />\n      <mapArrayValue xsi:nil=\"true\" />\n      <name xsi:type=\"xsd:string\">destMsisdn</name>\n      <singleValue xsi:type=\"xsd:string\">088810000000</singleValue>\n    </tns:SoapMapValue><tns:SoapMapValue id=\"id10\" xsi:type=\"tns:SoapMapValue\">\n      <arrayValue xsi:nil=\"true\" />\n      <mapArrayValue xsi:nil=\"true\" />\n      <name xsi:type=\"xsd:string\">bucketType</name>\n      <singleValue xsi:type=\"xsd:string\">Reg</singleValue>\n    </tns:SoapMapValue>\n</soap:Body></soap:Envelope>",
+  "response": null,
+  "time": "2018-11-30T17:37:27.791067"
+}
+----
+
+*Response Log Example*
+
+----
+{
+  "level": "info",
+  "event": "adapter.response",
+  "credential": "kraken dev",
+  "package": "modules/biller/smartfren/adapter",
+  "id": 181,
+  "customer_id": "088810000000",
+  "elapsed_time": 5,
+  "transaction_biller_id": 182,
+  "endpoint": "https://sevennoob.free.beeceptor.com/api/custom.xml",
+  "command": "01",
+  "raw_data": "<InvokeResponse><InvokeReturn><Values><Item><Name>denomination</Name><SingleValue>1B | 1 | 20000 | 50000 | 100000 | 5000 | 10000 | </SingleValue></Item><Item><Name>denominationBalance</Name><SingleValue>0 | 37150000 | 352 | 293 | 238 | 80 | 409 | </SingleValue></Item><Item><Name>amount</Name><SingleValue>10000</SingleValue></Item><Item><Name>balance</Name><SingleValue>14650000</SingleValue></Item><Item><Name>lastBalance</Name><SingleValue>14700000</SingleValue></Item><Item><Name>returnCode</Name><SingleValue>00</SingleValue></Item><Item><Name>errorCode</Name><SingleValue>0</SingleValue></Item><Item><Name>totalBalance</Name><SingleValue>87130000</SingleValue></Item><Item><Name>transactionStatus</Name><SingleValue>01</SingleValue></Item><Item><Name>dateTime</Name><SingleValue>1475220246000</SingleValue></Item><Item><Name>activity</Name><SingleValue>Recharge</SingleValue></Item><Item><Name>transactionID</Name><SingleValue>511644294</SingleValue></Item><Item><Name>sourceRefID</Name><SingleValue>1014299</SingleValue></Item></Values></InvokeReturn></InvokeResponse>",
+  "response": "{InvokeReturn:{Values:{Item:[{Name:denomination SingleValue:1B | 1 | 20000 | 50000 | 100000 | 5000 | 10000 | } {Name:denominationBalance SingleValue:0 | 37150000 | 352 | 293 | 238 | 80 | 409 | } {Name:amount SingleValue:10000} {Name:balance SingleValue:14650000} {Name:lastBalance SingleValue:14700000} {Name:returnCode SingleValue:00} {Name:errorCode SingleValue:0} {Name:totalBalance SingleValue:87130000} {Name:transactionStatus SingleValue:01} {Name:dateTime SingleValue:1475220246000} {Name:activity SingleValue:Recharge} {Name:transactionID SingleValue:511644294} {Name:sourceRefID SingleValue:1014299}]}}}",
+  "time": "2018-11-30T17:37:27.796396"
+}
+----
+
+*Error Response Log Example*
+
+----
+{
+  "level": "error",
+  "event": "adapter.error",
+  "credential": "kraken dev",
+  "package": "modules/biller/smartfren/adapter",
+  "id": 182,
+  "customer_id": "088810000000",
+  "elapsed_time": 20,
+  "transaction_biller_id": 183,
+  "endpoint": "http://7noob/custom/api",
+  "command": "01",
+  "raw_data": "HTTP/1.1 404 Not Found\r\nContent-Length: 6\r\nContent-Type: text/html; charset=iso-8859-1\r\nDate: Fri, 30 Nov 2018 12:52:09 GMT\r\nServer: Apache/2.4.34 (Unix) OpenSSL/1.0.2p PHP/7.0.32 mod_perl/2.0.8-dev Perl/v5.16.3\r\n\r\nGaenek",
+  "response": "HTTP CODE 404 404 Not Found\n&{Status:404 Not Found StatusCode:404 Proto:HTTP/1.1 ProtoMajor:1 ProtoMinor:1 Header:map[Content-Type:[text/html; charset=iso-8859-1] Date:[Fri, 30 Nov 2018 12:52:09 GMT] Server:[Apache/2.4.34 (Unix) OpenSSL/1.0.2p PHP/7.0.32 mod_perl/2.0.8-dev Perl/v5.16.3] Content-Length:[6]] Body:{Reader:} ContentLength:6 TransferEncoding:[] Close:false Uncompressed:false Trailer:map[] Request:0xc0001e1400 TLS:<nil>}\nGaenek",
+  "time": "2018-11-30T19:52:09.177345"
+}
+----
+
+**Biller Kraken V2**
+
+Biller log consists of payment process, advice, and force manual update
+
+|===
+| *Parameter* | *Type*
+
+| amount
+| integer
+
+| credential
+| string
+
+| customer_id
+| string
+
+| elapsed_time
+| string
+
+| event
+| string
+
+| id
+| integer
+
+| level
+| string
+
+| package
+| string
+
+| paramrequest
+| string - big text
+
+| parsedresponse
+| string - big text
+
+| price
+| integer
+
+| responsecode
+| string
+
+| time
+| string
+
+| transaction_biller_id
+| integer
+
+| message *
+| string
+
+| detail *
+| string
+|===
+
+
+**Note** : Parameter mark with asterisk (*) mark is optional
+
+*Log Event List*
+
+|===
+| *Event* | *Description*
+
+| biller.purchase.request
+| _Logging biller purchase_ sebelum membuat _request_ ke _adapter_
+
+| biller.purchase.response
+| _Logging biller purchase_ setelah mendapat respons dari adapter
+
+| biller.advice.request
+| _Logging biller advice_ sebelum membuat _request_ ke adaptor (jika ada)
+
+| biller.advice.response
+| _Logging biller advice_ setelah mendapat respons dari adaptor (jika ada)
+
+| biller.manual.prepare
+| _Logging biller_ sebelum menjalankan _manual update_ (jika ada)
+
+| biller.manual.update
+| _Logging biller_ setelah menjalankan _manual update_ (jika ada)
+|===
+
+*Log Example Schema*
+
+*Purchase Request Example*
+
+----
+{
+    "amount": 0,
+    "credential": "kraken dev",
+    "customer_id": "088810000000",
+    "elapsed_time": 9,
+    "event": "biller.purchase.request",
+    "id": 182,
+    "level": "info",
+    "package": "modules/biller/smartfren",
+    "paramrequest": {
+        "amount": "10000",
+        "customer_id": "088810000000",
+        "partner_name": "kraken dev"
+    },
+    "parsedresponse": null,
+    "price": 0,
+    "responsecode": "",
+    "time": "2018-11-30T19:52:09.156855",
+    "transactionbillerid": 183
+}
+----
+
+*Purchase Response Example*
+
+----
+{
+    "amount": 10000,
+    "credential": "kraken dev",
+    "customer_id": "088810000000",
+    "elapsed_time": 1605,
+    "event": "biller.purchase.response",
+    "id": 183,
+    "level": "info",
+    "package": "modules/biller/smartfren",
+    "paramrequest": {
+        "amount": "10000",
+        "customer_id": "088810000000",
+        "partner_name": "kraken dev"
+    },
+    "parsedresponse": {
+        "desc": "SUCCESS",
+        "rescode": "0",
+        "status": "success",
+        "transactionID": "704467088"
+    },
+    "price": 10000,
+    "responsecode": "00",
+    "time": "2018-12-03T12:38:10.728163",
+    "transactionbillerid": 184
+}
+----
+
+
+
+
+**Task Kraken V2**
+
+Task is a thread handling transaction event (taken from Transaction Queue)
+
+
+|===
+| *Parameter* | *Type*
+
+| amount
+| int
+
+| credential
+| string
+
+| customer_id
+| string
+
+| data
+| string - big text
+
+| elapsed_time
+| int
+
+| event
+| string
+
+| id
+| int
+
+| level
+| string
+
+| package
+| string
+
+| price
+| int
+
+| product_code
+| string
+
+| product_type
+| string
+
+| response_code
+| string
+
+| task_type
+| string
+
+| time
+| string
+|===
+
+**Log Event List**
+
+|===
+| *Event* | *Deskripsi*
+
+| task.create
+| Log Task Module saat _task_ sedang dibuat
+
+| task.inquiry
+| Log Task Module saat _transaction inquiry proccess_
+
+| task.transaction
+| Log Task Module saat transaksi dibayarkan ke Biller
+
+| task.advice
+| Log Task Module ketika transaksi diberitahukan
+
+| task.reversal
+| Log Task Module ketika transaksi di-_refund_
+
+| task.update
+| Log Task Module ketika data transaksi diperbaharui dari _biller response_
+
+| task.notificationcallback
+| Log Task Module ketika menerima notifikasi _callback_ dari _biller_
+
+| task.manualupdate
+| Log Task Module ketika transaksi diperbaharui secara manual
+
+| task.notification
+| Log Task Module ketika mengirim notifikasi _callback_ ke _partner_
+|===
+
+**Task Schema Example**
+
+____
+Here is the log example which will produced for one transaction cycle
+____
+
+----
+{
+    "amount": 0,
+    "credential": "***",
+    "customer_id": "08883000***",
+    "data": "{\"PartnerID\":1,\"ProductCode\":\"3\",\"ProductID\":3,\"CustomerID\":\"0888300***\",\"TransactionID\":0,\"OrderID\":\"\",\"BillerID\":18,\"PhoneNumber\":\"\",\"PaymentPeriod\":\"\",\"ReferenceNo\":\"\",\"Period\":\"\",\"Callback\":\"http://7noob/custom/api\",\"ReversalCounter\":0,\"AdviceCounter\":0,\"Price\":0,\"Amount\":0,\"ExtendedParams\":{\"params1\":\"s5=1,s10=1,s20=1,s25=1,s50=1,s100=1\"},\"BillInquiryID\":0}",
+    "elapsed_time": 6,
+    "event": "task.create",
+    "id": 0,
+    "level": "info",
+    "package": "modules/kraken/task",
+    "price": 0,
+    "product_code": "3",
+    "product_type": "mobile",
+    "response_code": "",
+    "task_type": "taskmobile",
+    "time": "2018-12-26T13:59:43.945493"
+}
+
+{
+    "amount": 10200,
+    "credential": "***",
+    "customer_id": "0888300****",
+    "data": "{\"PartnerID\":1,\"ProductCode\":\"3\",\"ProductID\":3,\"CustomerID\":\"0888300***\",\"TransactionID\":343,\"OrderID\":\"\",\"BillerID\":18,\"PhoneNumber\":\"\",\"PaymentPeriod\":\"\",\"ReferenceNo\":\"\",\"Period\":\"\",\"Callback\":\"http://7noob/custom/api\",\"ReversalCounter\":0,\"AdviceCounter\":0,\"Price\":0,\"Amount\":0,\"ExtendedParams\":{\"params1\":\"s5=1,s10=1,s20=1,s25=1,s50=1,s100=1\"},\"BillInquiryID\":0}",
+    "elapsed_time": 19,
+    "event": "task.transaction",
+    "id": 343,
+    "level": "info",
+    "package": "modules/kraken/task",
+    "price": 10200,
+    "product_code": "3",
+    "product_type": "mobile",
+    "response_code": "",
+    "task_type": "taskmobile",
+    "time": "2018-12-26T13:59:43.970441"
+}
+
+{
+    "amount": 10200,
+    "credential": "***",
+    "customer_id": "08883000****",
+    "data": "{\"PartnerID\":1,\"ProductCode\":\"3\",\"ProductID\":3,\"CustomerID\":\"0888300***\",\"TransactionID\":343,\"OrderID\":\"\",\"BillerID\":18,\"PhoneNumber\":\"\",\"PaymentPeriod\":\"\",\"ReferenceNo\":\"\",\"Period\":\"\",\"Callback\":\"http://7noob/custom/api\",\"ReversalCounter\":0,\"AdviceCounter\":0,\"Price\":0,\"Amount\":0,\"ExtendedParams\":{\"params1\":\"s5=1,s10=1,s20=1,s25=1,s50=1,s100=1\"},\"BillInquiryID\":0}",
+    "elapsed_time": 0,
+    "event": "task.update",
+    "id": 343,
+    "level": "info",
+    "package": "modules/kraken/task",
+    "price": 10200,
+    "product_code": "3",
+    "product_type": "mobile",
+    "response_code": "10",
+    "task_type": "taskmobile",
+    "time": "2018-12-26T13:59:43.970976"
+}
+
+{
+    "amount": 10200,
+    "credential": "***",
+    "customer_id": "0888300***",
+    "data": "{\"PartnerID\":1,\"ProductCode\":\"3\",\"ProductID\":3,\"CustomerID\":\"088830***\",\"TransactionID\":343,\"OrderID\":\"\",\"BillerID\":18,\"PhoneNumber\":\"\",\"PaymentPeriod\":\"\",\"ReferenceNo\":\"\",\"Period\":\"\",\"Callback\":\"http://7noob/custom/api\",\"ReversalCounter\":0,\"AdviceCounter\":1,\"Price\":0,\"Amount\":0,\"ExtendedParams\":{\"params1\":\"s5=1,s10=1,s20=1,s25=1,s50=1,s100=1\"},\"BillInquiryID\":0}",
+    "elapsed_time": 19,
+    "event": "task.advice",
+    "id": 343,
+    "level": "info",
+    "package": "modules/kraken/task",
+    "price": 10200,
+    "product_code": "3",
+    "product_type": "mobile",
+    "response_code": "10",
+    "task_type": "taskmobile",
+    "time": "2018-12-26T13:59:46.013054"
+}
+
+{
+    "amount": 10200,
+    "credential": "***",
+    "customer_id": "0888300***",
+    "data": "{\"PartnerID\":1,\"ProductCode\":\"3\",\"ProductID\":3,\"CustomerID\":\"0888300***\",\"TransactionID\":343,\"OrderID\":\"\",\"BillerID\":18,\"PhoneNumber\":\"\",\"PaymentPeriod\":\"\",\"ReferenceNo\":\"\",\"Period\":\"\",\"Callback\":\"http://7noob/custom/api\",\"ReversalCounter\":0,\"AdviceCounter\":1,\"Price\":0,\"Amount\":0,\"ExtendedParams\":{\"params1\":\"s5=1,s10=1,s20=1,s25=1,s50=1,s100=1\"},\"BillInquiryID\":0}",
+    "elapsed_time": 3,
+    "event": "task.update",
+    "id": 343,
+    "level": "info",
+    "package": "modules/kraken/task",
+    "price": 10200,
+    "product_code": "3",
+    "product_type": "mobile",
+    "response_code": "00",
+    "task_type": "taskmobile",
+    "time": "2018-12-26T13:59:46.017158"
+}
+
+{
+    "amount": 10200,
+    "credential": "***",
+    "customer_id": "0888300***",
+    "data": "{\"serial_number\":\"\",\"transaction_id\":\"343\",\"type\":\"mobile\",\"created\":\"1545807583\",\"changed\":\"1545807586\",\"customer_number\":\"08883000***\",\"product_id\":\"3\",\"order_id\":\"\",\"status\":\"success\",\"price\":\"10200\",\"response_code\":\"00\",\"amount\":\"10200\",\"key\":\"\"}",
+    "elapsed_time": 13,
+    "event": "task.notification",
+    "id": 343,
+    "level": "info",
+    "package": "modules/kraken/task",
+    "price": 10200,
+    "product_code": "3",
+    "product_type": "mobile",
+    "response_code": "00",
+    "task_type": "taskmobile",
+    "time": "2018-12-26T13:59:46.034052"
+}
+----
+

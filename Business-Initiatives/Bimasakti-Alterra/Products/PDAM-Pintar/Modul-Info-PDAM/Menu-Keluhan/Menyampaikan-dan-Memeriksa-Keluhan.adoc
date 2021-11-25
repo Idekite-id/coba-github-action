@@ -1,0 +1,27 @@
+= Menyampaikan dan Memeriksa Keluhan
+
+Dengan menu ini, pelanggan dapat menyampaikan keluhan baik teknis maupun administratif, serta memeriksa status keluhannya.
+
+Untuk menambahkan keluhan, Anda dapat mengikuti langkah-langkah berikut:
+
+image::../images-info-PDAM/info-pdam-lapor-keluhan-1-2.png[align="center"]
+
+1. Pilih menu *Keluhan*.
+2. Pada bagian LAPORKAN KELUHAN, klik tombol *Tambah Keluhan*.
++
+image::../images-info-PDAM/info-pdam-lapor-keluhan-3.png[align="center"]
+
+3. Masukkan *Nomor Sambungan*, kemudian klik tombol *CHECK*. Jika Anda tidak memiliki nomor sambungan, klik pada tombol *Saya Tidak Punya Nomor Sambungan*.
++
+image::../images-info-PDAM/info-pdam-lapor-keluhan-4-5.png[align="center"]
+
+4. Isi _form_ yang tersedia.
+5. Klik pada tombol *KIRIM LAPORAN*.
+
+Setelah pengaduan terkirim, Anda dapat memeriksa statusnya dengan kembali pada halaman awal menu Keluhan, kemudian mengikuti langkah-langkah berikut:
+
+image::../images-info-PDAM/info-pdam-cek-keluhan-1-2.png[align="center"]
+
+1. Isi *nomor sambungan* atau *nomor tiket keluhan* pada _field_ *CEK TANGGAPAN KELUHAN ANDA*.
+2. Klik pada tombol *CHECK*.
+3. Sistem akan menampilkan status keluhan.

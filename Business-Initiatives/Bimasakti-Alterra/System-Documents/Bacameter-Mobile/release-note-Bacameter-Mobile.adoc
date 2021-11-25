@@ -1,0 +1,55 @@
+= Release Note Bacameter Mobile
+
+== 3.9.3 (17-11-2020)
+
+22 Oktober 2020 - Update Bug Pembatasan Pembacaan dengan Tanggal
+
+== 3.9.4 (18-11-2020)
+
+== 3.9.5 (20-11-2020)
+
+16 November 2020 - Update Fix Bug Force Close
+
+== 3.9.6 (26-11-2020)
+
+26 November 2020 - Update Fix Bug Force Close Null Initialize Variable
+
+== 3.9.7 (02-12-2020)
+
+01 Desember 2020 {13OKT17} - Update Opsi Buka/Tutup Tombol Ambil Video
+
+== 3.9.8 (09-12-2020)
+
+09 Desember 2020 - Update Bug Force Close Camera
+
+== 3.9.9 (15-12-2020)
+
+15 Desember 2020 Moya PDAM Batam - Update Konfigurasi Tutup Pilihan Upload Data
+
+== 4.0.0 (22-01-2021)
+
+20 Januari 2021 Moya PDAM Batam - Update Filter Data Pelanggan Berdasarkan Waktu Pembacaan
+
+== 4.0.1 (28-01-2021)
+
+25 Januari 2021 - Solved Bug Preview Camera Photo Meter/Scan Barcode Vivo Y20
+
+== 4.1.0 (20-04-2021)
+
+Fix Bug Force Close Camera On Device Xiaomi and ASUS 2. Fix Bug Device Location Updates on V.3.9.9
+
+== 4.2.1 (21-05-2021)
+
+07 Mei 2021 Update Bug Print Struk Database update: 6
+
+== 4.2.2 (31-05-2021)
+
+Fix Bug Stan Kini Saat Input Kelainan
+
+== 4.2.3 (14-06-2021)
+
+FIX Bug Cek Koneksi Internet Download & Upload Data Database update 6
+
+== 4.2.4 (22-06-2021)
+
+Fix bug info dialog upload data baca Database update: 6

@@ -1,0 +1,93 @@
+= Release and Deployment Meowth
+
+== Production Release Step
+
+Hal-hal yang harusnya dilakukan
+
+. Setiap SE (Software Engineer) harus membuat _Pull Request_ ke _branch_, setelah _task_ diterima oleh QA (Quality Assurance).
+. A.S.A.P untuk langkah no.1
+. _Release Person_, harus membuat _release notes_ untuk setiap _task_ yang telah siap untuk release.
+ .. Minimal sehari sebelum jadwal rilis, rilis harus dilakukan
+ .. Lakukan pengecekan seluruh _pull request_
+ .. _Merge_ _pull request_ _task_ satu per satu sebelum rilis
+ .. Jika terdapat masalah atau ada yang perlu didiskusikan, koordinasi dengan SE yang mengerjakan _task_ tersebut
+ .. Setelah semuanya sukses After all successfully masukkan di _pre-release_ : buat RELEASE DRAFT di github.
+Tandai dengan tag nomor versi : 1.x.x ( _major, medium, single-task_)
+ .. Finalisasi rilis dari langkah 5
+ .. Lakukan  PR dari _pre-release_ ke _master_ branch
+ .. PERINGATAN : SEMUA PR _MERGED_ KE MASTER AKAN DI RILIS KE _PRODUCTION_ (Kecuali untuk beberapa repo, contoh: Terra)
+
+=== Hal-hal yang tidak boleh dilakukan
+
+. Tidak membuat _Pull Request_ setelah task disetujui oleh QA.
+. Jangan _merge_ _pull request_ ke "`pre-release`" tanpa konfirmasi ke penanggung jawab rilis.
+. Tidak memberikan perlindungan pada _branch_ "`master`" and "`pre-release`".
+
+=== Hal-hal yang harusnya dilakukan
+
+. Setiap SE (Software Engineer) harus membuat _Pull Request_ ke UI _branch_ ( i.e : piggybank-ui, meowth-ui ) setelah _task_ disetujui oleh QA.
+. A.S.A.P untuk no.1
+. Penanggung jawab rilis, membuat rilis note untuk setiap _task_ yang telah siap untuk dirilis.
+. _Merge_ satu per satu ke UI _branch_
+. _Merge_ ke UI _branch_ ke _branch_ origin/master
+. Buat _pull request_ dari UI _branch_ ke "master" dan  and berikan catatan rilis di setiap PR
+. Koordinasi dengan tim data, atau member lain yang dapat menggunakan _deployment_ dengan Terra
+
+== Production Release Step: Terra
+
+=== Hal-hal yang tidak boleh dilakukan
+
+. Setelah _task_ disetujui oleh QA, masing-masing SE (Software Engineer) harus membuat _pull request_ (PR) to UI* branch (i.e.: piggybank-ui, meowth-ui).
+. A.S.A.P untuk langkah no 1
+. Membuat rilis note untuk setiap _task_ yang telah siap untuk dirilis
+. _Merge_ satu per satu ke UI _branch_
+. _Merge_ ke UI* _branch_ ke _branch_ origin/master
+. Buat _pull request_ dari UI* _branch_ ke `master` dan  and berikan catatan rilis disetiap _pull request_
+. Koordinasi dengan tim data, atau member lain yang dapat menggunakan _deployment_ dengan Terra
+
+=== Hal-hal yang harusnya dilakukan
+
+. Setiap SE (Software Engineer) harus membuat _Pull Request_ ke UI* branch ( i.e : piggybank-ui, meowth-ui ) setelah _task_ disetujui oleh QA
+. A.S.A.P untuk langkah no.1
+. Penanggung jawab rilis, membuat rilis note untuk setiap _task_ yang telah siap untuk dirilis.
+. _Merge_ satu per satu ke UI _branch_
+. _Merge_ ke UI _branch_ ke _branch_ origin/master Buat _pull request_ dari UI* _branch_ ke "master" dan  and berikan catatan rilis disetiap _pull request_
+. Koordinasi dengan tim data, atau member lain yang dapat menggunakan _deployment_ dengan Terra
+
+== Development & UAT Release
+
+=== Development
+
+=== Hal-hal yang harusnya dilakukan
+
+. Setiap Software Engineer (SE) harus membuat _Pull Request_ ke _"development" branch_ setelah _task_ disetujui oleh QA.
+. A.S.A.P untuk langkah 1
+. Membuat rilis note untuk setiap _task_ yang telah siap untuk dirilis
+ .. Minimal sehari sebelum jadwal rilis, rilis harus dilakukan
+ .. cek seluruh hasil _pull request_.
+ .. _Merge_ _pull request task_ satu per satu ke _"development" branch._
+ .. Jika terjadi konflik maka segera atasi dengan baik, namun jika anda tidak yakin, silahkan berkoordinasi dengan SE.
+
+=== UAT/Staging
+
+=== Hal-hal yang harusnya dilakukan
+
+. Setiap Software Engineer (SE) harus membuat _Pull Request_ ke _"pre-release" branch_ setelah _task_ disetujui oleh QA.
+. A.S.A.P untuk langkah 1
+. Membuat rilis note untuk setiap _task_ yang telah siap untuk dirilis
+ .. Minimal sehari sebelum jadwal rilis, rilis harus dilakukan
+ .. cek seluruh hasil _pull request_.
+ .. _Merge_ _pull request task_ satu per satu ke _"development" branch._
+ .. Jika terjadi konflik maka segera atasi dengan baik, namun jika anda tidak yakin, silahkan berkoordinasi dengan SE.
+
+=== Hal-hal yang harusnya dilakukan
+
+. Semua langkah sama untuk panduan rilis sebelumnya
+. Kecuali:
+ .. Tidak perlu membuat rilis Tag
+ .. _Merge_ ke __development__branch untuk _deploy_ ke _development server_
+ .. _Merge_ ke "`pre-release`" _branch_ untuk _deploy_ ke UAT/Staging server
+
+== Deployment Schedule
+
+Jadwal _deployment_ dilakukan secara Meowth *tentatif*. Idealnya deployment dilakukan sebelum _sprint review_. Namun jika memungkinkan seharusnya rilis _deployment_ dilakukan dalam rentang _sprint_ sesudahnya.

@@ -1,0 +1,32 @@
+= Gaharu
+:keywords: telco
+
+== Overview
+
+Gaharu merupakan sistem untuk _redeem_ voucher bagi partner Alterra. _Voucher_ yang di-_redeem_ dan ditukarkan dapat berupa voucher, paket data, token PLN dan E-Wallet (masih tahap _development_).
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Leovano Adias Julian Triatama
+| Sofware Engineer
+| leovano@alterra.id
+
+|===
+
+== Technical Information
+
+<<./architecture-gaharu.adoc#, Architecture Gaharu>>
+
+<<./url-gaharu.adoc#, System URL Gaharu>>
+
+== Documentation
+
+https://docs.google.com/document/d/11vZmyfOvZEsARgZdwycYfG5RIIwo2QBSkRfRbUDbmIY/edit?usp=sharing[User Guide Gaharu for Operations Team]
+
+<<./API-Documentation-Gaharu/index.adoc#, API Documentation Gaharu>>

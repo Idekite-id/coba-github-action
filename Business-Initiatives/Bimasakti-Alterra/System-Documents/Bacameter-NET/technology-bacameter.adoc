@@ -1,0 +1,27 @@
+= Technology Bacameter.NET
+
+Berikut ini adalah teknologi yang digunakan dalam pengembangan sistem Bacameter.NET:
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+
+|Server 
+| -
+
+|OS 
+| Windows
+
+|Programming Language 
+| C# .NET WPF
+
+|Framework
+| .NET WPF
+
+|Container
+| -
+
+|Proxy
+| -
+|===

@@ -1,0 +1,68 @@
+= Bacameter Mobile
+
+== Overview
+
+Bacameter Mobile adalah aplikasi mobile yang digunakan untuk menginput dan menangkap tagihan air pelanggan.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Bacameter Mobile. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan.
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| Hardiyusa 
+| Software Engineer 
+| hardiyusa@bsa.id
+
+| Surya Adiputra 
+| Software Engineer 
+| suryaadiputra@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Bacameter-Mobile.adoc#, System URL Bacameter Mobile>>
+
+<<./architecture-Bacameter-Mobile.adoc#, Architecture Bacameter Mobile>>
+
+<<./technology-Bacameter-Mobile.adoc#, Technology Bacameter Mobile>>
+
+<<./environment-Bacameter-Mobile.adoc#, Environment Bacameter Mobile>>
+
+<<./database-Bacameter-Mobile.adoc#, Database Documentation Bacameter Mobile>>
+
+<<./release-deploy-Bacameter-Mobile.adoc#, Release and Deployment Bacameter Mobile>>
+
+<<./flow-wire-Bacameter-Mobile.adoc#, Flow and Wireframe Bacameter Mobile>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Bacameter-Mobile.adoc#, Developer Onboarding Bacameter Mobile>>
+
+<<./development-Bacameter-Mobile.adoc#, Development Bacameter Mobile>>
+
+<<./naming-convention-Bacameter-Mobile.adoc#, Naming Convention Bacameter Mobile>>
+
+== Documentation
+
+// Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+// User Guide (jika ada, external link)
+
+// Dokumen Integrasi (jika ada, external link)
+
+// Dokumen Maintenance (jika ada, external link)
+
+// Dokumen API (jika ada, external link)
+
+<<./release-note-Bacameter-Mobile.adoc#, Release Note Bacameter Mobile>>

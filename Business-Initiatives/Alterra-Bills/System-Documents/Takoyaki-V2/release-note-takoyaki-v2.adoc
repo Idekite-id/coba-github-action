@@ -1,0 +1,5 @@
+= Release Note Takoyaki V2
+
+Berikut adalah _release note_ dari sistem Takoyaki V2:
+
+https://github.com/sepulsa/takoyaki/releases

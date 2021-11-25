@@ -1,0 +1,74 @@
+= Report BSBS ver 4
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Report BSBS ver 4. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Tuagus Mardeka 
+| Software Engineer 
+| dika@bsa.id
+
+| Detut Indra 
+| Software Engineer 
+| detut@bsa.id
+
+| Angga Wira Prayudi 
+| Software Engineer 
+| prayudi@bsa.id
+
+| Prawira Ariadi 
+| Software Engineer 
+| wira@bsa.id
+|===
+
+== Technical Information
+
+//Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Report-BSBS-ver-4.adoc#, System URL Report BSBS ver 4>>
+
+<<./architecture-Report-BSBS-ver-4.adoc#, Architecture Report BSBS ver 4>>
+
+<<./technology-Report-BSBS-ver-4.adoc#, Technology Report BSBS ver 4>>
+
+<<./environment-Report-BSBS-ver-4.adoc#, Environment Report BSBS ver 4>>
+
+<<./database-Report-BSBS-ver-4.adoc#, Database Documentation Report BSBS ver 4>>
+
+<<./release-deploy-Report-BSBS-ver-4.adoc#, Release and Deployment Report BSBS ver 4>>
+
+<<./flow-wire-Report-BSBS-ver-4.adoc#, Flow and Wireframe Report BSBS ver 4>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Report-BSBS-ver-4.adoc#, Developer Onboarding Report BSBS ver 4>>
+
+<<./development-Report-BSBS-ver-4.adoc#, Development Report BSBS ver 4>>
+
+<<./naming-convention-Report-BSBS-ver-4.adoc#, Naming Convention Report BSBS ver 4>>
+
+== Documentation
+
+//Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+//User Guide (jika ada, external link)
+
+//Dokumen Integrasi (jika ada, external link)
+
+//Dokumen Maintenance (jika ada, external link)
+
+//Dokumen API (jika ada, external link)
+
+<<./release-note-Report-BSBS-ver-4.adoc#, Release Note Report BSBS ver 4>>

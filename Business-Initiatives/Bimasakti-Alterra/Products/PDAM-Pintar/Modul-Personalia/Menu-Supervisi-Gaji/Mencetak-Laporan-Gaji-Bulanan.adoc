@@ -1,0 +1,12 @@
+= Mencetak Laporan Gaji Bulanan
+
+Fitur ini berfungsi untuk mencetak laporan gaji, berikut langkah-langkahnya.
+
+image::../images-personalia/personalia-laporan-gaji.png[align="center"]
+
+1. Pilih menu *Supervisi Gaji*
+2. Cari ikon *Laporan*
+3. Lengkapi data pada _form_, sepeti periode, kode gaji dan laporan yang ingin dicetak
+4. Untuk mencetak laporan, User dapat mengklik tombol *Cetak*. Berikut contoh hasil cetak laporan.
++
+image::../images-personalia/personalia-laporan-gaji2.png[align="center"]

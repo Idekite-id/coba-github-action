@@ -1,0 +1,31 @@
+= Technology Digital Billing System
+
+Berikut adalah teknologi yang digunakan dalam pengembangan sistem _Digital Billing System_ :
+
+|===
+| *Specification* | *Name*
+
+| _Operating System_
+| Debian 9
+
+| _Web Server_
+| -
+
+| _Programming Language_
+| Golang (Backend)
+
+|
+| Vue (Frontend)
+
+| _Framework_
+| Echo (Backend)
+
+|
+| Nuxt JS (Frontend)
+
+| _Container_
+| Docker
+
+| _Proxy_
+| NGINX
+|===

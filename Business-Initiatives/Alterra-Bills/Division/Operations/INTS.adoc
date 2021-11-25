@@ -1,0 +1,66 @@
+= Integration Support (INTS)
+
+
+Integration Support adalah salah satu departemen pada divisi Operations di Alterra Bills. Integration Support bertanggung jawab untuk memastikan integrasi semua Partner dan Biller bisa berjalan baik dengan prosedur yang tepat.
+
+Dalam pelaksanaannya, Integration Support dibagi menjadi dua (2) fungsi utama meliputi.
+
+*1. Pre-Development*
+
+Bertanggung jawab untuk membantu tahap awal integrasi dengan Partner atau Biller. Secara umum tugas dari Pre Development adalah sebagai berikut.
+
+a. Menerima informasi dari Business Development Partner atau Biller terkait produk yang akan diintegrasikan. Apabila produk baru, maka akan dilanjutkan dengan mengajukan pembuatan _Product Journey_ ke tim Product
+b. Menerima _minimum requirement dari_ Partner atau Biller
+
+     - _Technical document integration_
+     - _Check availability of minimum service_ untuk setiap produk 
+     - Dokumen pendukung integrasi lainnya
+
+c. Melakukan konfigurasi pada Translator PM untuk Partner dan/atau Translator BM untuk Biller sesuai dengan dokumen API yang diterima dari Partner atau Biller
+d. Menyusun dokumen pendukung integrasi yang berisi detail proses _development_ API Partner atau Biller. Dokumen ini biasanya berisi 
+
+     - _Technical documentation & requirement_ Partner atau Biller
+     - _Flow process_ Partner atau Biller
+     - _Mapping response code_ Biller to RC Alterra
+     - _Pricing scheme_
+     - dan kebutuhan integrasi lainnya
+
+*2. Post-Development*
+
+Bertanggung jawab untuk melanjutkan proses integrasi dari tim Pre Development hingga tahap integrasi selesai, yang ditandai dengan _handover_ ke _stakeholder._ Secara umum tugas dari Post Development adalah sebagai berikut.
+
+a. Melakukan UAT _Staging_ (Horven) ke _Staging_ Biller
+b. Melakukan SIT _Staging_ (Horven) sebelum Partner PM melakukan UAT 
+c. Memberikan dokumen _specification_ API Alterra ke Partner
+d. Melayani dan membantu menjawab pertanyaan dari Partner terkait proses _development_ Partner
+e. Mendampingi Partner UAT setelah proses _development_
+f. Mendampingi Partner TO setelah proses _development_
+g. Melakukan _Test Operations_ (TO) _production_ (Kraken) ke _production_ Biller
+h. _Handover_ ke _stakeholder_
+
+== *Quick Link*
+
+=== SOP
+
+- SOP Partner Integration
+- SOP Biller Integration
+- https://drive.google.com/drive/u/0/folders/1ahR4EkLmyinEgeliT-Q1fpeUwvXSfOtI[SOP Open Product Partner]
+
+=== Policy
+
+Sedang dalam tahap pengembangan
+
+=== Working Instruction
+
+- https://docs.google.com/document/d/1lWBd36TP0qBP3YbcneVwX4i0UqfXAj4k_lE6oXOrx1k/edit?usp=sharing[WI Partner Management]
+- https://docs.google.com/document/d/1xL7EFDtxedt6K_XsxTBe6kMI1hywXR-iKYZeOhBmQYM/edit?usp=sharing[WI Partner Kraken]
+- https://docs.google.com/document/d/1PIeUxOP-bNWesMP97cko7uIgeftMJS3CVr21zYX6Syc/edit?usp=sharing[WI Elisian]
+- https://docs.google.com/document/d/1uyPfrBJSAFaOWRB0ZPTjjTLlFqy9tQQh0o7SOF4meU8/edit?usp=sharing[WI Digital Billing Sistem]
+- https://docs.google.com/document/d/1RkCmikIuUb-fAgNsVZjSyFAPeJnK_vbgfeBqPmg3YSA/edit?usp=sharing[WI Biller Management]
+- https://docs.google.com/document/d/1o84gSd9n8aydaDqb6YFQyVxfkZ14GcFwu0ZghlygiHM/edit?usp=sharing[WI Biller Development]
+
+=== Guidelines
+
+- https://docs.alterra.id/home/kb-ho/business-initiatives/alterra-bills/guidelines/integration-support-e-learning/[INTS E-Learning]
+
+**_Note_**: daftar dokumen di atas akan diperbarui secara berkala.

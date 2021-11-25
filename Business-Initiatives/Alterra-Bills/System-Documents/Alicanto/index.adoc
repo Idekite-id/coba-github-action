@@ -1,0 +1,59 @@
+= Alicanto
+:keywords: sti, sepulsa, whitelabel-order-system-client, chital
+
+== Overview
+
+Alicanto merupakan _frontend_ terbaru dari http://sepulsa.com[sepulsa.com] (_web apps_) yang menangani bisnis transaksi di Sepulsa. Alicanto terhubung dengan API dari Chital untuk memproses semua transaksi. Dengan API tersebut, Alicanto memiliki laporan _log_ dan bisa dilakukan _maintenance_ dalam sistem Chital.
+
+Alicanto tidak hanya berfungsi untuk transaksi, tetapi juga untuk mengelola _User_.
+
+== Team Involved
+
+[cols="35%,35%,30",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Ramdhan Pohan
+| Product Owner
+| rpohan@alterra.id
+
+| Antonius Ananto
+| Development Manager
+| anton@alterra.id
+
+| Miftah Muhammad
+| Software Engineer
+| miftah@alterra.id
+
+| Ferdinandus Eka
+| Lead Quality Engineer
+| ferdi@alterra.id
+
+|===
+
+== Technical Information
+
+<<./url-alicanto.adoc#, System URL Alicanto>>
+
+<<./architecture-alicanto.adoc#, Architecture Alicanto>>
+
+
+<<./technology-alicanto.adoc#, Technology Alicanto>>
+
+<<./environment-alicanto.adoc#, Environment Alicanto>>
+
+<<./flow-wire-alicanto.adoc#, Flow and Wireframe Alicanto>>
+
+== Onboarding Information
+
+<<./development-alicanto.adoc#, Development Alicanto>>
+
+<<./dev-onboarding-alicanto.adoc#, Developer Onboarding Alicanto>>
+
+== Documentation
+
+https://docs.google.com/document/d/1tfTt3JCAS-Ypbp3I49Q9lr4DH9oGCFaOAk0nv-7rW4I/edit?usp=sharing[User Guide Alicanto]
+
+<<./Feature-Knowledge-Alicanto/index.adoc#, Feature Knowledge Alicanto>>

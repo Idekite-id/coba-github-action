@@ -1,0 +1,19 @@
+= Developer Onboarding Coklit FE
+
+== Tools
+
+1. nodeJs (minimum version >= 12.0.0)
+
+== Local Machine Setup
+
+1. Install Dependency
++
+`cd src && npm install`
+
+== How To Run Apps
+
+`cd src && npm run dev`
+
+== How To Run Tests
+
+`cd src && npm run test`

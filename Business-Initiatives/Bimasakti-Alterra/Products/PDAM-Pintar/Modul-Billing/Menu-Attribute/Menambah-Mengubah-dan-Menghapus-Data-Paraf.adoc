@@ -1,0 +1,8 @@
+= Menambah, Mengubah, dan Menghapus Data Paraf
+
+Fitur ini berfungsi untuk mengelola data paraf, baik itu menambahkan dan memperbarui data seperti langkah berikut.
+
+image::../images-billing/billing-attribute-paraf.png[align="center"]
+
+1. Pilih menu *Atribut*, cari ikon *Paraf*
+2. Masukkan data sesuai dengan kolom yang tersedia.

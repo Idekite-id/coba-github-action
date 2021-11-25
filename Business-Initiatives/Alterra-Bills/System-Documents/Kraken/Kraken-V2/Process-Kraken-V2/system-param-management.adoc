@@ -1,0 +1,21 @@
+= System Parameter Management Kraken V2
+
+== Short Description
+
+_System Parameter Management_ adalah fitur yang digunakan untuk mengelola perubahan konfigurasi _general parameter sistem_ pada Kraken V2.
+
+== Feature Documentation
+
+Anda dapat mengakses dokumentasi _system parameter management_ di https://docs.google.com/document/d/108gTfQLQ-A4GkHe_458wrWYFpjrgclew/edit?usp=sharing[Dokumentasi Admin API - System Param Management] 
+
+== Log Catalog
+
+.Katalog Log System Parameter Management
+|===
+|json.url |json.handler |description
+
+|/parameter
+|UpdateSystemParam
+|Log ini mencatat aktivitas perubahan konfigurasi _system parameter_
+
+|===

@@ -1,0 +1,6 @@
+= Naming Convention Elisian
+
+Elisian mengikuti standarisasi penamaan _file_, _database_, dan _endpoint_ sesuai _best practice_. Namun, harus dipastikan untuk memberikan nama yang sudah umum digunakan oleh _developer_. Pastikan tim dapat membaca mengerti kode dengan baik.
+
+1. https://www.php-fig.org/psr/psr-4/[PSR 4]
+2. https://laravel.com/docs/5.5[Laravel Web Framework]

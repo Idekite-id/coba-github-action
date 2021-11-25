@@ -1,0 +1,107 @@
+= Modul Personalia
+
+BSHR adalah sistem manajemen yang mengatur kegiatan SDM (sumber daya manusia) perusahaan yang akan sangat mendukung kinerja perusahaan, khususnya bagi segmentasi PDAM. Bimasakti Human Resource dibuat untuk manajemen data kepegawaian di lingkungan PDAM, beberapa formula perhitungan tunjangan dan gaji diimplementasikan pada aplikasi ini.
+
+Seperti beberapa otomasi rekomendasi kenaikan pangkat secara berkala, tunjangan anak, istri/suami, waktu pensiun dan beberapa hal lain menyangkut kepegawaian seperti riwayat pendidikan dan diklat. Perhitungan SPPD untuk kegiatan perjalanan dinas.
+
+Terdapat 9 (sembilan) menu utama pada modul Personalia, antara lain, Data Master, Kepegawaian, Gaji Pokok, Tunjangan, Potongan, Supervisi Gaji, dan Pengaturan. User dapat mengakses modul Personalia melalui komputer/laptop dengan mengakses shortcut Personalia dan memasukkan hak akses/akun yang nantinya diberikan oleh tim BIMASAKTI.
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Personalia.adoc[Login ke Modul Personalia]
+
+link:./Getting-Started/Menu-Personalia.adoc[Menu Modul Personalia]
+
+== Menu Data Master
+
+link:./Menu-Data-Master/Menambah-Memperbarui-dan-Menghapus-Data-Pegawai.adoc[Menambah, Memperbarui, dan Menghapus Data Pegawai]
+
+== Menu Kepegawaian
+
+link:./Menu-Kepegawaian/Mengubah-Data-Pegawai-Kontrak-Menjadi-Calon-Pegawai.adoc[Mengubah Data Pegawai Kontrak Menjadi Calon Pegawai]
+
+link:./Menu-Kepegawaian/Mengubah-Data-Calon-Pegawai-menjadi-Pegawai-Tetap.adoc[Mengubah Data Calon Pegawai Menjadi Pegawai Tetap]
+
+link:./Menu-Kepegawaian/Mengatur-Data-Kenaikan-Pangkat-Berkala.adoc[Mengatur Data Kenaikan Pangkat Berkala]
+
+link:./Menu-Kepegawaian/Mengatur-Data-Kenaikan-Pangkat-Pilihan.adoc[Mengatur Data Kenaikan Pangkat Pilihan]
+
+link:./Menu-Kepegawaian/Mengatur-Pencatatan-Data-Pegawai-Pensiun.adoc[Mengatur Pencatatan Data Pegawai Pensiun]
+
+link:./Menu-Kepegawaian/Mengatur-Pencatatan-Data-Mutasi-Pegawai.adoc[Mengatur Pencatatan Data Mutasi Pegawai]
+
+link:./Menu-Kepegawaian/Mengatur-Pencatatan-Data-Perjalanan-Dinas.adoc[Mengatur Pencatatan Data Perjalanan Dinas]
+
+link:./Menu-Kepegawaian/Mengatur-Pencatatan-Data-Diklat-dan-Pelatihan.adoc[Mengatur Pencatatan Data Diklat dan Pelatihan]
+
+link:./Menu-Kepegawaian/Mengatur-dan-Memposting-Data-Personalia.adoc[Mengatur dan Memposting Data Personalia]
+
+link:./Menu-Kepegawaian/Mengatur-Periode-dan-Jenis-Laporan.adoc[Mengatur Periode dan Jenis Laporan]
+
+== Menu Gaji Pokok
+
+link:./Menu-Gaji-Pokok/Memasukkan-Gaji-Pokok.adoc[Memasukkan Gaji Pokok]
+
+link:./Menu-Gaji-Pokok/Memfilter-Data-Gaji-Pokok.adoc[Memfilter Data Gaji Pokok]
+
+== Menu Tunjangan
+
+link:./Menu-Tunjangan/Menambah-Memperbarui-dan-Menghapus-Data-Jenis-Tunjangan.adoc[Menambah, Memperbarui, dan Menghapus Data Jenis Tunjangan]
+
+link:./Menu-Tunjangan/Menambah-dan-Menghapus-Data-Pengecualian-Hak-Tunjangan.adoc[Mengatur Hak Tunjangan Bulanan]
+
+link:./Menu-Tunjangan/Menambah-dan-Menghapus-Data-Pengecualian-Hak-Tunjangan.adoc[Menambah dan Menghapus Data Pengecualian Hak Tunjangan]
+
+== Menu Potongan
+
+link:./Menu-Potongan/Menambah-Memperbarui-dan-Menghapus-Data-Jenis-Potongan.adoc[Menambah, Memperbarui, dan Menghapus Data Jenis Potongan]
+
+link:./Menu-Potongan/Mengatur-Potongan-Bulanan.adoc[Mengatur Potongan Bulanan]
+
+link:./Menu-Potongan/Menambah-Mengubah-dan-Menghapus-Data-Pengecualian-Potongan.adoc[Menambah, Mengubah, dan Menghapus Data Pengecualian Potongan]
+
+== Menu Lainnya
+
+link:./Menu-Lainnya/Posting-dan-Mencari-Data-Status-Keluarga.adoc[Posting dan Mencari Data Status Keluarga]
+
+link:./Menu-Lainnya/Menambah-Memperbarui-dan-Menghapus-Data-Pensiun.adoc[Menambah, Memperbarui, dan Menghapus Data Pensiun]
+
+link:./Menu-Lainnya/Menambah-Memperbarui-dan-Menghapus-Data-Askes.adoc[Menambah, Memperbarui, dan Menghapus Data Askes]
+
+link:./Menu-Lainnya/Menambah-Memperbarui-dan-Menghapus-Data-Astek.adoc[Menambah, Memperbarui, dan Menghapus Data Astek]
+
+== Menu Supervisi Gaji
+
+link:./Menu-Supervisi-Gaji/Posting-dan-Memasukkan-Rekap-Absensi.adoc[Posting dan Memasukan Rekap Absensi]
+
+link:./Menu-Supervisi-Gaji/Membuat-dan-Menghapus-Periode-Posting-Gaji.adoc[Membuat dan Menghapus Periode Posting Gaji]
+
+link:./Menu-Supervisi-Gaji/Memposting-Data-Gaji-Bulanan.adoc[Memposting Data Gaji Bulanan]
+
+link:./Menu-Supervisi-Gaji/Melakukan-Verifikasi-Gaji-THR.adoc[Melakukan Verifikasi Gaji THR]
+
+link:./Menu-Supervisi-Gaji/Mencetak-Laporan-Gaji-Bulanan.adoc[Mencetak Laporan Gaji Bulanan]
+
+== Menu Pengaturan
+
+link:./Menu-Pengaturan/Mengatur-Memperbarui-Menambah-dan-Menghapus-Hak-Akses-Pengguna.adoc[Mengatur, Memperbarui, Menambah dan Menghapus Hak Akses Pengguna]
+
+link:./Menu-Pengaturan/Mencadangkan-Database.adoc[Mencadangkan Database]
+
+link:./Menu-Pengaturan/Mengatur-Tampilan-Laporan-Kepegawaian.adoc[Mengatur Tampilan Laporan Kepegawaian]
+
+link:./Menu-Pengaturan/Mengatur-Tampilan-Laporan-Penggajian.adoc[Mengatur Tampilan Laporan Penggajian]
+
+== Menu Help
+
+link:./Menu-Help/Mengatur-Data-Jabatan-atau-Bagian-Pegawai.adoc[Mengatur Data Jabatan atau Bagian Pegawai]
+
+link:./Menu-Help/Mengatur-Golongan-atau-Pangkat-Pegawai.adoc[Mengatur Golongan atau Pangkat Pegawai]
+
+link:./Menu-Help/Mengatur-Data-Masa-Kerja-Pegawai.adoc[Mengatur Data Masa Kerja Pegawai]
+
+link:./Menu-Help/Mengatur-Jadwal-Kenaikan-Pangkat.adoc[Mengatur Jadwal Kenaikan Pangkat]
+
+link:./Menu-Help/Mengatur-Penyesuaian-Pendidikan-Pegawai.adoc[Mengatur Penyesuaian Pendidikan Pegawai]
+
+link:./Menu-Help/Mengatur-Persentase-Kenaikan-Gaji.adoc[Mengatur Persentase Kenaikan Gaji]

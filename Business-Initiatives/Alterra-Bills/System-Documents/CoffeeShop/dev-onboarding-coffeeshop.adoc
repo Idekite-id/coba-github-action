@@ -1,0 +1,34 @@
+= Developer Onboarding CoffeeShop
+
+== Tools
+
+Berikut _tools_ yang digunakan pada sistem CoffeeShop:
+
+|===
+| Tools | Name
+
+| Web Server
+| MAMP
+
+| Manual Test API
+| Postman
+
+| Browser
+| Chrome, Firefox
+
+| Programming Language
+| Drupal
+
+| Database
+| MySQL
+
+| Framework
+| PHP 7
+|===
+
+== *Local Machine Setup*
+
+. _Download_ proyek ini dari github _repository_ https://github.com/sepulsa/coffee-shop[https://github.com/sepulsa/coffee-shop]
+. _yarn install_ ke _install dependency packages_
+. `cp .env.example .env` dan atur _local configurations_
+. _yarn start_ untuk _run_ robusta di _local_ mu.

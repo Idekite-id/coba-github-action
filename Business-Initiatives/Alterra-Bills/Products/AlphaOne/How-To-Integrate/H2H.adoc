@@ -1,0 +1,5 @@
+= H2H (Host to Host)
+
+Alphaone dapat terhubung dengan server pulsa yang dimiliki partner/biller melalui sambungan Host to Host. Istilah ini adalah sistem antar server yang terhubung satu sama lain secara langsung, sehingga proses pertukaran data dan transaksi dapat terjadi secara _realtime_. Alphaone dapat memenuhi kebutuhan pemilik jaringan yang menyediakan _payment channel_ (ATM, _payment point_, _modern channel_, Konter pembayaran, _website_, _mobile apps_ dll.)untuk penambahan produk maupun layanan.
+
+

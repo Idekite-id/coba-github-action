@@ -1,0 +1,21 @@
+= Konfigurasi Stock Menggunakan BM
+
+Apabila Biller menggunakan API Balance, kamu bisa mempelajari tutorial konfigurasi stok di translator BM berikut ini.
+
+    Case study
+    Pada semester 2 tahun 2021, saya berkesempatan untuk melakukan konfigurasi stok di translator BM. Sebelumnya, tidak ada Biller yang melalui translator BM yang menggunakan stok. Tim INTS juga belum pernah melakukan konfigurasi stok dan ini masih menjadi hal yang baru. Kali ini saya akan share bagaimana proses dari sisi Predev bisa selesai konfigurasinya.
+    Erfandi, INTS Agent
+
+Translator BM untuk stok memiliki 2 karakteristik API sebagai berikut.
+
+- Biller yang akan diproses integrasinya ada _service_ stok (_balance_)
+- Stok digunakan untuk skema Biller yang deposit
+
+== *Step by step konfigurasi*
+
+Apabila kamu menemui permasalahan seperti contoh di atas (Biller yang integrasinya menggunakan API Balance), kamu bisa merujuk pada E-Learning ini untuk belajar secara mandiri. Ikuti langkah-langkah (*baca instruksi dan lihat video*) di bawah ini secara berurutan ya. 
+
+1. link:./Cara-Generate-Token-Menggunakan-Tools-JWT.adoc[Cara _generate_ token menggunakan tools JWT]
+2. link:./Cara-Hit-API-Balance-Direct-ke-Biller-Menggunakan-Postman.adoc[Cara _hit_ API _Balance Direct_ ke Biller menggunakan Postman]
+3. link:./Cara-Konfigurasi-Stok-di-BM.adoc[Cara melakukan konfigurasi stok di BM]
+4. link:./Cara-Melakukan-Pengecekan-Sisa-Stok-di-BM.adoc[Cara melakukan pengecekan sisa stok di BM]

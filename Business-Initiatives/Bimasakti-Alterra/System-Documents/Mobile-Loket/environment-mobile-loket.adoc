@@ -1,0 +1,34 @@
+= Environment Mobile Loket
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+1.4+|Development 
+|IP Address 
+|
+
+|URL 
+| https://mloket.sumpahpalapa.com/v1/api[]
+
+|Minimum Android Version 
+| Android 5.0 (Api Level 21)
+
+|Target Android Version 
+| Android 9.0 (Api Level 28)
+
+1.4+|Production 
+|DB Server 
+|
+
+|URL 
+| https://mloket.bsa.id/v1/api[]
+
+|Minimum Android Version 
+| Android 5.0 (Api Level 21)
+
+|Target Android Version 
+| Android 9.0 (Api Level 28)
+|===

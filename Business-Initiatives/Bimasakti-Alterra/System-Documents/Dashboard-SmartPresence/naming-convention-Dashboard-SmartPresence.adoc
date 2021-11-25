@@ -1,0 +1,3 @@
+= Naming Convention Dashboard SmartPresence
+
+Berisi aturan penamaan dalam development sistem.

@@ -1,0 +1,21 @@
+= System URL
+
+Informasi akses dapat dilihat melalui URL tabel di bawah ini.
+Gunakan alias, _username_, dan _password_ yang sudah terdaftar untuk mengakses sistem.
+
+|===
+| Nama | URL
+
+| Development
+| https://terra-uat.sepulsa.id/[]
+
+| Staging/UAT
+| -
+
+| Production
+| https://terra.sepulsa.id/[]
+|===
+
+== Berikut akses _credential_:
+
+https://docs.google.com/spreadsheets/d/11JEP4Z51eyp29S3RPbDSnW-i0OXpYr4xLEPZSBafnrs/edit#gid=1126515695[Akses]

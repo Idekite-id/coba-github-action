@@ -1,0 +1,5 @@
+= Naming Convention Royal Jelly
+
+Royal Jelly mengikuti standarisasi penamaan _file_, _database_, dan _endpoint_ sesuai best practice. Namun, harus dipastikan untuk memberikan nama yang sudah umum digunakan oleh _developer_. Pastikan tim dapat membaca mengerti kode dengan baik.
+
+https://www.python.org/dev/peps/pep-0008/#names[PEP 8]

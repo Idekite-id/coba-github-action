@@ -1,0 +1,13 @@
+= Memposting Data Bulanan
+
+Posting Akun merupakan menu yang dapat digunakan _user_ untuk penerbitan catatan akuntansi. Di dalam menu Posting Akun, terdapat satu submenu, yaitu pada ikon *Proses Tutup Buku Akhir Bulan*. Berikut langkah-langkah yang dapat diikuti untuk memulai proses posting:
+
+image::../images-akuntansi/akuntansi-memposting-data-bulanan-1.png[align="center"]
+
+1. Pilih menu *Proses Tutup Buku Akhir Bulan*
+
+2. Akan muncul *pop-up* berisikan kolom Posting Data Bulanan. Pilih *Bulan Tahun Posting*
+
+3. Klik tombol *Proses Posting*
+
+4. Tunggu sampai proses posting selesai. Jika ingin membatalkan proses posting, silakan klik pada tombol *Batal*.

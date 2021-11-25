@@ -1,0 +1,14 @@
+= Memproses Piutang Bulanan Air, LC & LT, dan Penerimaan Bulanan
+
+Fitur ini berfungsi untuk memproses piutang air, piutang LC & LT, dan proses penerimaan bulanan. Proses ini dilakukan tiap awal bulan setelah terbitnya DRD (Daftar Rekening Ditagih). Untuk melihat proses piutang, Anda dapat mengikuti langkah-langkah berikut:
+
+image::../images-keuangan/keuangan-posting-keuangan-memproses-piutang-1.png[align="center"]
+
+1. Klik ikon *Proses Piutang Bulanan*
+
+2. Tentukan *Proses s/d Tanggal dan Opsi Proses*, kemudian klik tombol *Proses*
+
++
+image::../images-keuangan/keuangan-posting-keuangan-memproses-piutang-2.png[align="center"]
+
+3. Setelah itu akan muncul kotak dialog konfirmasi data saldo piutang per bulan. Untuk melanjutkan proses, klik tombol *Yes*

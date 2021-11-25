@@ -1,0 +1,3 @@
+= Naming Convention CoffeeShop
+
+Sistem CoffeeShop tidak memiliki standar untuk penamaan di dalam _coding_. Untuk _Naming Convention_ sendiri mengikuti https://www.drupal.org/docs/develop/standards/coding-standards#naming[standar pada Drupal 8].

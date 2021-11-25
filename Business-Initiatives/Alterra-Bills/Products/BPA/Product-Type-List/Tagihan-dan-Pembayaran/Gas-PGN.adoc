@@ -1,0 +1,67 @@
+= Gas PGN
+
+Gas PGN adalah program pembayaran tagihan gas bumi yang dimiliki PT. PGN (Perusahaan Gas Negara) secara online.
+
+Perusahaan Gas Negara (PT) adalah perusahaan nasional Indonesia terbesar di bidang transportasi dan distribusi gas bumi yang berperan besar dalam pemenuhan gas bumi domestik.
+
+LNG adalah singkatan dari Liquefied Natural Gas merupakan gas alam cair yang telah diproses untuk menghilangkan pengotor
+
+*Variasi Produk*
+
+- Residential dan Usaha Kecil
++
+GasKita adalah produk dari PGN untuk residential dan usaha kecil
+
+.. GasKita Pelanggan Rumah Tangga
++
+GasKita memenuhi kebutuhan gas bumi untuk rumah tangga dapat dimanfaatkan untuk kegiatan memasak makanan favorit keluarga, pemanas air, pengering pakaian serta peralatan gas lainnya.
+
+.. GasKita Pelanggan Kecil
++
+GasKita juga hadir sebagai pilihan sumber energi baik bagi usaha kecil Anda seperti rumah sakit, tempat ibadah, rumah makan, perkantoran dan kegiatan komersial sejenisnya.
+
+- Bisnis
++
+Sinergi adalah produk dari PGN untuk pelanggan komersial dan industri
+
+- Transportasi
++
+GasKu adalah gas bumi handal dengan komposisi yang optimum guna memenuhi kebutuhan gas untuk sektor transportasi. GasKu telah digunakan di beberapa operator taksi, bajaj rekondisi, bus Transjakarta ataupun kendaraan lainnya.
+
+*Vendor Utama Produk*
+
+Principal/vendor utama untuk produk Gas adalah PT. PGN (Perusahaan Gas Negara)
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Harga gas berbeda-beda, dikelompokan berdasarkan status sosio ekonomi pemilik rumah.
+
+- Harga gas PGN juga berbeda untuk skala penggunaan besar. Sektor industri hotel, rumah sakit swasta, perkantoran, pabrik, dan sebagainya dipatok lebih tinggi ketimbang penggunaan organisasi seperti panti asuhan, tempat ibadah, lembaga keagamaan, lembaga sosial, dan lain-lain.
+
+- Informasi tagihan pemakaian Gas (rekening) Pelanggan setiap bulan mulai tanggal 6 (enam) sampai dengan tanggal 20 (dua puluh) dapat diperoleh di kantor PGN atau tempat lain yang ditunjuk
+
+*Customer Journey*
+
+Partner
+
+. Partner memasukkan nomor pelanggan milik customer
+. Sistem menampilkan invoice tagihan yang harus dibayarkan oleh customer
+. Partner melakukan transaksi pembayaran dengan merode yang tersedia
+. Partner akan menerima data bukti pembayaran dan detail data yang dibutuhkan untuk informasi ke customer
+
+Switcher/Aggregator
+
+. Partner memasukkan nomor pelanggan milik customer
+
+. Sistem mengirimkan _request inquiry_ untuk mendapatkan total tagihan customer
+
+. Sistem mendapatkan _response_ jumlah tagihan customer dan akan dikirimkan ke partner
+
+. Partner _request_ transaksi
+
+. Sistem proses request transaksi dan mengirimkan response dengan status *_pending_* ke partner
+
+. Sistem mendapatkan response dengan data-data detail yang dibutuhkan untuk customer
+
+. Sistem mengirimkan _callback_ _response_ ke Partner
+

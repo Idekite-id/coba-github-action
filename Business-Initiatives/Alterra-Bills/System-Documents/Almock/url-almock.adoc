@@ -1,0 +1,11 @@
+= System URL Almock
+
+Berikut adalah URL yang dapat digunakan untuk mengakses sistem Almock :
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+| Staging 
+| https://almock.sumpahpalapa.com/admin[*Mocking API - Alterra.ID*]

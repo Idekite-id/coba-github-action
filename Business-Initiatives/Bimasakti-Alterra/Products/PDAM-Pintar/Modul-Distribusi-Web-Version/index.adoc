@@ -1,0 +1,50 @@
+= Modul Distribusi (Web Version)
+
+Modul Distribusi versi Web dikembangkan untuk memudahkan proses distribusi baik alat maupun SDM pada saat pelayanan pelanggan PDAM. Peran Distribusi mencakup pemasangan sambungan baru, sambung kembali, perbaikan pipa, dan sebagainya. Proses distribusi dimulai dari pembuatan Surat Perintah Kerja (SPK), input detail terkait perintah kerja baik material, lokasi maupun lainnya, hingga terealisasi dalam bentuk Berita Acara Pemeriksaan (BAP).
+
+Terdapat 3 menu utama pada modul ini, yaitu Pemasangan, Laporan, dan Master. 
+
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Distribusi-Web-Version.adoc[Login ke Modul Distribusi (Web Version)]
+
+link:./Getting-Started/Menu-Modul-Distribusi-Web-Version.adoc[Menu Modul Distribusi (Web Version)]
+
+== Menu Pemasangan
+
+link:./Menu-Pemasangan/Membuat-Surat-Perintah-Kerja-SPK-Service.adoc[Membuat Surat Perintah Kerja (SPK) Service]
+
+link:./Menu-Pemasangan/Membuat-Surat-Perintah-Pengambilan-Barang-SPPB-untuk-Service.adoc[Membuat Surat Perintah Pengambilan Barang (SPPB) untuk Service]
+
+link:./Menu-Pemasangan/Membuat-Data-Service-Perbaikan.adoc[Membuat Data Service Perbaikan]
+
+link:./Menu-Pemasangan/Membuat-Berita-Acara-Pemeriksaan-BAP-Service.adoc[Membuat Berita Acara Pemeriksaan (BAP) Service]
+
+link:./Menu-Pemasangan/Membuat-Surat-Perintah-Kerja-SPK-Segel.adoc[Membuat Surat Perintah Kerja (SPK) Segel]
+
+link:./Menu-Pemasangan/Membuat-Surat-Perintah-Kerja-SPK-Cabut.adoc[Membuat Surat Perintah Kerja (SPK) Cabut]
+
+link:./Menu-Pemasangan/Membuat-Surat-Perintah-Pengambilan-Barang-SPPB-untuk-Pemutusan.adoc[Membuat Surat Perintah Pengambilan Barang (SPPB) untuk Pemutusan]
+
+link:./Menu-Pemasangan/Memproses-Pemutusan.adoc[Memproses Pemutusan]
+
+link:./Menu-Pemasangan/Membuat-Berita-Acara-Pemeriksaan-BAP-Pemutusan.adoc[Membuat Berita Acara Pemeriksaan (BAP) Pemutusan]
+
+link:./Menu-Pemasangan/Mencetak-Laporan-SPK-SPPB-dan-BAP.adoc[Mencetak Laporan SPK, SPPB, dan BAP]
+
+== Menu Laporan
+
+link:./Menu-Laporan/Menampilkan-Laporan.adoc[Menampilkan Laporan]
+
+== Menu Master
+
+link:./Menu-Master/Mengelola-Data-Vendor-Pemasangan.adoc[Mengelola Data Vendor Pemasangan]
+
+link:./Menu-Master/Mengelola-Data-Petugas-Distribusi.adoc[Mengelola Data Petugas Distribusi]
+
+link:./Menu-Master/Mengelola-Data-Jenis-Kebocoran.adoc[Mengelola Data Jenis Kebocoran]
+
+link:./Menu-Master/Mengelola-Data-Formula-NRW.adoc[Mengelola Data Formula NRW]
+
+link:./Menu-Master/Mengelola-Data-Sumber-Air-Baku.adoc[Mengelola Data Sumber Air Baku]

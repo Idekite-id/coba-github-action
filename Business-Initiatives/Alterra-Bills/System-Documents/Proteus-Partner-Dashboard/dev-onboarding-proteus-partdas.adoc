@@ -1,0 +1,7 @@
+= Developer Onboarding Proteus Partner Dashboard
+
+== Developer Onboarding
+
+Berikut ini adalah informasi tentang _developer onboarding_ sistem Proteus Partner Dashboard:
+
+https://github.com/sepulsa/proteus-partner-dashboard[Developer Onboarding]

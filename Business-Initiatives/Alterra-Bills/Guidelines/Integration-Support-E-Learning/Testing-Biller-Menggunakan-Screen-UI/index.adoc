@@ -1,0 +1,32 @@
+= Testing Biller Menggunakan Screen UI (krakenconnect UI) (PoC)
+
+Apabila ada kebutuhan dokumentasi _test_ sesuai _request_ Biller, kamu bisa mempelajari tutorial menggunakan _screen_ UI pada _section_ berikut ini.
+
+        Case study
+        Beberapa waktu yang lalu, saya berkesempatan untuk melakukan testing Biller menggunakan screen UI untuk kebutuhan pengecekan oleh Biller. Salah satu contohnya adalah Biller Bank Artha Graha dengan produk yang diintegrasikan adalah PLN Postpaid pada semester 2 tahun 2021. Kali ini saya akan share bagaimana proses testing oleh Post-dev untuk Biller yang menggunakan screen UI.
+        Mendy, INTS Agent
+
+Screen UI saat ini yang digunakan untuk mendukung proses integrasi Biller adalah aplikasi _web service_ AlphaPay (krakenconnect UI). Saat ini tipe produk yang ada di krakenconnect UI masih terbatas, belum semua tipe produk yang dimiliki Alterra Bills tersedia. Berikut tipe produk yang tersedia di krakenconnect UI.
+
+* PLN Prepaid
+* PLN Postpaid
+* Telkom Postpaid
+* Mobile Postpaid
+* Pay TV
+* BPJS Kesehatan
+* Multifinance
+* PDAM
+* PBB
+* PKB
+
+Keterbatasan tipe produk membutuhkan _development_ untuk penambahan tipe produk baru. Hal tersebut dilakukan apabila di kemudian hari perlu melakukan _testing_ produk yang belum tersedia. Terkait API, secara _default_ krakenconnect UI menggunakan API v2 dan tidak _configurable_.
+
+== *Step by step testing*
+
+Apabila kamu menemui permasalahan seperti contoh di atas, kamu bisa merujuk pada E-Learning ini untuk belajar secara mandiri. Ikuti langkah-langkah (*baca instruksi dan lihat video*) di bawah ini secara berurutan ya.
+
+1. link:./Persiapan-Testing-Biller-Menggunakan-Screen-UI.adoc[Persiapan testing Biller menggunakan screen UI (krakenconnect UI)]
+
+2. link:./Cara-Setting-Produk-Sebelum-Di-test.adoc[Cara setting produk sebelum di-test]
+
+3. link:./Cara-Testing-Produk-menggunakan-krakenconnect-UI.adoc[Cara testing menggunakan krakenconnect UI]

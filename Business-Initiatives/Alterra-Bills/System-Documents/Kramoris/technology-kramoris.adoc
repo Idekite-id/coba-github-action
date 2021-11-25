@@ -1,0 +1,29 @@
+= Technology Kramoris
+
+== *Platform Spesification*
+
+Berikut adalah teknologi yang digunakan dalam _development_ sistem Kramoris:
+
+|===
+| *Spesifikasi* | *Nama* | *Deskripsi*
+
+| *Operating System*
+| Debian 10
+|
+
+| *Web Server*
+| Nginx
+|
+
+| *Programming Language*
+| PHP 7
+|
+
+| *Framework*
+| Drupal 7
+|
+
+| *DBMS*
+| MariaDB
+|
+|===

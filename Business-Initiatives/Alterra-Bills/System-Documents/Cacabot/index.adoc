@@ -1,0 +1,39 @@
+= Cacabot
+:keywords: sti, bpa-support, telegram-bot, cacabot
+
+== Overview
+
+Sistem Cacabot adalah sistem yang digunakan untuk _reminder_ dan informasi umum yang dapat dilakukan dan dikonfigurasi sesuai dengan kebutuhan Partner dengan menggunakan _platform_ Telegram Bot. Dengan adanya Sistem Cacabot, Partner akan lebih cepat untuk mendapatkan data ataupun informasi yang dibutuhkan dengan interaksi pada bot yang sudah ada pada _platform_ yang ditentukan.
+
+Sistem Cacabot befungsi sebagai alat komunikasi antara Partner dengan Alterra, dibuat untuk mengurangi _effort_ pada tim Operational. Karena sistem ini dapat memberikan informasi terhadap _request_ Partner maupun tim Operational Alterra yang sering terjadi.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name*
+^.^h| *Role*
+^.^h| *Email*
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Somy Andriyanto
+| Lead Developer
+| somy@alterra.id
+
+| Leovano Adias Julian Triatama
+| Software Engineer
+| leovano@alterra.id
+
+| Lalu Haryadi Guni
+| Software Engineer
+| adi@alterra.id
+|===
+
+== Technical Information
+
+<<./architecture-cacabot.adoc#, Architecture Cacabot>>
+
+<<./technology-cacabot.adoc#, Technology Cacabot>>

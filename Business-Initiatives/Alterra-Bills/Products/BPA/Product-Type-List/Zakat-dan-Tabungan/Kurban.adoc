@@ -1,0 +1,19 @@
+= Kurban
+
+Produk untuk memfasilitasi pembelian atau transaksi hewan qurban secara online. Kurban adalah hewan tertentu yang disembelih bagi manusia untuk menjadi lebih dekat dengan kasih sayang Allah.
+
+*Variasi Produk*
+
+- Kurban
+- Produk dengan nominal
+- Nama yang berkurban jika lebih dari 1 maka dimasukkan ke nama customer dengan dipisahkan koma
+
+*Customer Journey*
+
+. Customer mengisikan nomor handphone, nama, dan email
+
+. Customer memilih denominasi kurban yang diinginkan
+
+. Selanjutnya melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dari Aplikasi Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills

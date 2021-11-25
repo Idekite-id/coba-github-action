@@ -1,0 +1,12 @@
+= Partner Switching
+
+Dalam proses rekon Partner, rekon hanya berlaku untuk tipe Partner _switching_. Yaitu Partner yang mempunyai kerjasama (PKS) dengan pihak Biller/PDAM, dan proses pelimpahan dana transaksi Partner langsung disetorkan kepada Biller/PDAM. Berikut adalah contoh Partner _switching_. 
+
+1. VSI 
+2. Mitracom
+3. MKM
+4. Bukopin
+5. Bank Nagari
+6. Bank BSI
+
+Dari semua Partner di atas, yang bisa dilakukan rekon hanya 3 Partner, yaitu VSI, Mitracom dan MKM, karena ketiganya memiliki perjanjian dengan Partner (gunakan  data Partner sebagai acuan), maka perlu dilakukan proses rekon terlebih dahulu sebelum Partner melakukan pelimpahan dana ke PDAM untuk menyesuaikan data semua pihak.

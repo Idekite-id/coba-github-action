@@ -1,0 +1,31 @@
+= Pivotal Template Kraken V2
+
+== Why
+
+PO harus menjelaskan mengapa kami membutuhkan _feature_ / _story_ / _task_!
+Apakah ada _value_ untuk dikerjakan tim?
+
+== Implementation
+
+Bagaimana kita bisa mencapai tujuan _feature_ / _story_ / _task_?
+Jelaskan apa yang perlu dilakukan.
+
+== Dev Implementation
+
+Daftar yang terus bertambah dari apa yang perlu ditambahkan atau diubah, _impacted flow_.
+
+== Test Scenario
+
+_Test Scenarios._
+
+== Deliverables
+
+Daftar hasil kerja dan detail jika ada, sebagai _handover_ kepada pengguna sistem.
+
+== Deployment Notes
+
+Daftar catatan sebelum dan sesudah _deployment_, apa yang perlu di-_monitor_, untuk dikonfigurasikan.
+
+== Log Catalogue
+
+Katalog _logging_, ini harus diisi oleh Dev dan/atau OPS Onboarding, berisi apa yang dicatat dan apa kunci untuk mencari di Kibana, _log onboard_ dapat digunakan sebagai dokumen serah terima ke OPS.

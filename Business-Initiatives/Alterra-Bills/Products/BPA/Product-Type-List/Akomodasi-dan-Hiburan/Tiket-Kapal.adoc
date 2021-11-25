@@ -1,0 +1,78 @@
+= Tiket Kapal
+
+Produk untuk memfasilitasi pemesanan dan pembelian tiket kapal laut secara online. Kapal laut ( Ship ) adalah salah satu alat transportasi untuk keperluan penghubung antar pulau dengan jalur laut. Perjalanan menggunakan kapal laut tergolong dalam kategori transportasi yang susah untuk mendapatkan tiketnya, karena tidak banyak jasa yang menjual layanan tiket untuk Kapal. Biasanya transportasi laut ini digunakan untuk perjalanan jauh yang tidak terlalu banyak dilintasi oleh jasa transportasi udara, misalkan dari Jakarta ke Batam atau ke daerah di pulau Sumatera, Kalimantan dll.
+
+Pemesanan dengan menggunakan metode online platform akan sangat membantu customer nantinya dalam pemesanan dan pembelian tiket. Customer akan sangat dimudahkan karena biasanya perlu untuk langsung datang ke dermaga terdekat untuk membeli tiket, tapi dengan adanya pembelian tiket secara online mereka tidak perlu jauh untuk membeli tiket kapal yang akan mereka gunakan.
+
+Biasanya customer yang melakukan perjalanan menggunakan kapal laut selain memang daerah yang dituju lebih dekat via laut, tapi juga customer-customer yang tidak terjangkau untuk melakukan perjalan via udara. Misalkan untuk ibu hamil dengan umur kandungan tertentu biasanya terdapat larangan dari maskapai penerbangan, jadi untuk tidak mengambil resiko biasanya akan menggunakan pilihan Kapal laut atau jalur darat (misal kereta).
+
+*Variasi Produk*
+
+Produk yang akan disediakan adalah Tiket Kapal laut dengan semua kelas yang ada didalamnya.
+
+*Vendor Utama Produk*
+
+- MMBC Tour & Travel
++
+API Documentation: https://api.klikmbc.co.id/docs/pelni/1.0/API-PELNI.pdf
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Data hasil cari *_Schedule_* hanya bisa digunakan selama maksimal *4 Jam (240 Menit)* untuk dilakukan proses pemesanan
+- Proses pemesanan sampai ke pembayaran diberlakukan dalam waktu *maksimal 1 Jam (60 Menit)*
+- Pencarian dan pemesanan tiket diberlakukan minimal di *2 hari* sebelum jadwal keberangkatan
+
+*Product Journey*
+
+Customer
+
+. Customer membuka pemesanan tiket Kapal laut
+
+. Customer memasukkan data untuk kebutuhan pencarian jadwal kapal :
+.. Origin port
+.. Destination port
+.. Depart date
+.. Jumlah penumpang (*_Adult, Child, Infant_*)
+
+. Customer akan mendapatkan list jadwal kapal beserta harga dan kelas dari setiap kapal sesuai dengan filter yang telah dimasukkan
+
+. Setelah memilih salah satu jadwal, customer diwajibkan untuk mengisi data penumpang. Yang wajib diisi adalah:
+.. Title penumpang (*_Mr, Mrs_*)
+.. Nama penumpang
+.. ID Penumpang
+.. Tipe penumpang (*_Adult, Child, Infant_*)
+
+. Setelah mengisi data data penumpang, customer melakukan pembayaran dengan limit waktu 30 menit dari waktu _booking_
+
+Switcher/Agregator
+
+. Partner melakukan pencarian list dermaga (_port_)
+
+. Sistem akan menampilkan semua list dermaga yang tersedia
+
+. Partner input data untuk kebutuhan pencarian jadwal kapal dan melakukan proses pencarian jadwal kapal berdasarkan:
+- Origin port
+- Destination port
+- Depart date
+- Jumlah penumpang (*_Adult, Child, Infant_*)
+
+. Sistem akan mencari data jadwal kapal sesuai dengan filter yang sudah dimasukkan sebelumnya
+
+. Partner akan mendapatkan list jadwal kapal beserta harga dan kelas dari setiap kapal sesuai dengan filter yang telah dimasukkan
+
+. Partner melakukan proses booking tiket sesuai dengan jadwal yang dipilih dengan beberapa data yang harus diinputkan:
+- schedule id
+- customer detail:
+.. nomor telepon partner
+.. email partner
+- passenger detail
+
+. Sistem akan memproses _request booking_ dan akan mendapatkan _response_ data dari Biller, kemudian dikirimkan ke Partner
+
+. Partner mendapatkan _detail booking_ dan _time expired_ untuk proses _payment_ dan _issued_ nya
+
+. Partner akan mengirim proses transaksi untuk melakukan issued tiket yang sudah di booking
+
+. Sistem akan memproses request transaksi dan mengirim partner dengan status *_pending_*
+
+. Setelah mendapat response dari Biller, sistem akan mengirimkan data _callback_ yang kemudian dikirimkan ke partner sebagai hasil akhirnya

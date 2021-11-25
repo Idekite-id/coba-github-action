@@ -1,0 +1,39 @@
+= Environment Royal Jelly
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+1.6+|KBB | IP Address | 35.186.159.***
+| URL | https://kbb-api.bimareklame.id[]
+| Doc Root | 
+| Service Name | Royal Jelly KBB
+| DB Server | host:3306
+| Git Branch | royal-jelly - master-kbb
+1.6+|Surakarta | IP Address | 34.101.223.***
+| URL | https://surakarta-api.bimareklame.id[]
+| Doc Root | 
+| Service Name | Royal Jelly Surakarta
+| DB Server | host:3306
+| Git Branch | royal-jelly - master-solo
+1.6+|Staging | IP Address | 34.101.231.***
+| URL | https://royal-jelly.sumpahpalapa.com[]
+| Doc Root | 
+| Service Name | Staging Royal Jelly
+| DB Server | host:3306
+| Git Branch | royal-jelly - development-kbb
+1.6+|Surakarta Solo | IP Address | 34.101.231.***
+| URL | http://royal-solo.sumpahpalapa.com[]
+| Doc Root | 
+| Service Name | Staging Royal Jelly Solo
+| DB Server | host:3306
+| Git Branch | royal-jelly - development-solo
+1.6+|Demo | IP Address | 34.101.223.***
+| URL | https://demo-be.bimareklame.id[]
+| Doc Root | 
+| Service Name | Royal Jelly Demo
+| DB Server | host:3306
+| Git Branch |
+|===

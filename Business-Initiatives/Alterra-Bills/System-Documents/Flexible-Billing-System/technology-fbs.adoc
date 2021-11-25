@@ -1,0 +1,43 @@
+= Technology Flexible Billing System
+
+Berikut ini teknologi yang digunakan dalam pengembangan Flexible Billing System :
+
+== Flexible Billing System
+
+|===
+|    *Environment*   |    *Server*    
+|      Web Server      |   Direct NodeJS  
+| Programming Language |    Typescript     
+|      Framework       |      NestJS      
+|         DBS          |        -         |
+|===
+
+== Flexible Billing System Extention
+
+|===
+|    *Environment*   |    *Server*    
+|      Web Server      |   Direct NodeJS  
+| Programming Language |    Typescript    
+|      Framework       |       NestJS     
+|         DBS          |        -         |
+|===
+
+== Flexible Billing System Callback
+
+|===
+|    *Environment*   |    *Server*    
+|      Web Server      |     Direct Go    
+| Programming Language |        Go        
+|      Framework       |        -         
+|         DBS          |        -         |
+|===
+
+== Flexible Billing System UI
+
+|===
+|    *Environment*   |    *Server*    
+|      Web Server      |       Nginx      
+| Programming Language |    Javascript    
+|      Framework       |       React      
+|        DBS          |        -         |
+|===

@@ -1,0 +1,5 @@
+= Database Documentation Takoyaki V2
+
+Berikut adalah gambar dokumentasi _database_ dari sistem Takoyaki:
+
+image::images-takoyaki-v2/Takoyaki-V2-ERD.png[Database Documentation]

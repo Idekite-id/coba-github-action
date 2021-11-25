@@ -1,0 +1,14 @@
+= Menampilkan Tunggakan Tagihan Pelanggan
+
+Berikut ini adalah langkah-langkah untuk menampilkan laporan tunggakan pelanggan: 
+
+image::../images-loket/loket-tunggakan-1.png[align="center"]
+
+1. Pilih menu *Tunggakan*
++
+image::../images-loket/loket-tunggakan-2-3.png[align="center"]
+2. Pilih kategori data pelanggan yang ingin ditampilkan
+3. Gunakan tombol *Cetak* untuk menampilkan data yang dibutuhkan
++
+image::../images-loket/loket-tunggakan-4.png[align="center"]
+4. Selanjutnya akan muncul tampilan preview dari detail informasi tagihan seluruh pelanggan.

@@ -1,0 +1,27 @@
+= Mengelola Daftar Posting Akun
+
+Fitur ini merupakan sebuah fungsi yang digunakan untuk mengatur daftar posting yang telah diunggah pada menu Posting Akun. Berikut contoh tampilan dari fitur tersebut:
+
+image::../images-akuntansi/akuntansi-mengelola-daftar-posting-akun-1.png[align="center"]
+
+1. Klik pada menu *Pengaturan*
+
+2. Klik pada *Daftar Posting*
+
+3. Klik ikon *Tambah Data* untuk menambahkan data pada bagian kiri halaman 
+
+4. Selanjutnya akan muncul _pop-up_ kotak berisikan data daftar periode posting dan proses piutang. Silakan pilih data sesuai dengan kebutuhan. 
+
+5. Klik pada tombol *Simpan*. Klik pada tombol *Keluar* untuk membatalkan proses.
+
++
+image::../images-akuntansi/akuntansi-mengelola-daftar-posting-akun-2.png[align="center"]
+
+6. Pilih pada data yang ingin dihapus, kemudian klik ikon *Hapus Data* pada bagian kiri halaman
+
+7. Selanjutnya akan muncul _pop-up_ kotak dialog berisikan konfirmasi penghapusan data. Klik tombol *Yes* untuk menghapus data. Klik tombol *No* untuk membatalkannya.
+
++
+image::../images-akuntansi/akuntansi-mengelola-daftar-posting-akun-3.png[align="center"]
+
+8. Klik pada ikon *Segarkan* di bagian kiri halaman untuk memperbaharui data.

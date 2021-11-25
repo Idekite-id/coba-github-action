@@ -1,0 +1,220 @@
+= Education Trunko
+
+== BM - FBS
+
+=== INQUIRY
+
+----
+    // Request
+    {
+
+    }
+
+    // Response
+    {
+
+    }
+----
+
+=== PURCHASE / ADVICE / REVERSAL
+
+----
+    // Request
+    {
+    	
+    }
+
+    // Response
+    {
+
+    }
+----
+
+== Kraken - BM
+
+=== INQUIRY
+
+----
+    // Request
+    {
+      "command_type": "inquiry", // purchase/advice/reversal
+      "transaction_id": 0,
+    	"transaction_biller_id": 0,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "1998900001",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 0,
+    	"rawdata": "" // product with inquiry
+    }
+
+    // Response Success Inquiry
+    {
+      "transaction_id": 0,
+      "transaction_biller_id": 0,
+      "customer_id": "1998900001",
+      "response_code": "00",
+      "amount": 100000,
+      "data": {
+        "biller_rescode": "0000",
+        "message": "success",
+        "rawdata": "",
+        "detail": {
+          "customer_name": "Claudia Ramadhani",
+          "bill_amount": "100000",
+          "admin_charge": "7500",
+          "bill_count": "2",
+          "reference_no": "123123123",
+          "bills": [
+            {
+              "bill_date": "20190817",
+              "bill_item_id": "qwerty123",
+              "bill_label": "Uang Antar Jemput",
+              "bill_amount": "50000",
+              "penalty_fee": "0",
+              "due_datetime": "20190829 07:08:09",
+              "expired_datetime": "20190830 07:08:09"
+            },
+            {
+              "bill_date": "20190817",
+              "bill_item_id": "qwerty123",
+              "bill_label": "Uang SPP",
+              "bill_amount": "50000",
+              "penalty_fee": "0",
+              "due_datetime": "20190829 07:08:09",
+              "expired_datetime": "20190830 07:08:09"
+            }
+          ]
+        }
+      },
+      "next": ""
+    }
+
+    //Response Failed Inquiry
+    {
+    	"transaction_id": 0,
+    	"transaction_biller_id": 0,
+      "customer_id": "1998900001",
+      "response_code": "20",
+      "data": {
+        "biller_rescode": "0014",
+        "message": "failed",
+    		"rawdata": "No pelanggan salah, silahkan teliti kembali" // http response
+      },
+    	"next":""
+    }
+----
+
+=== PURCHASE/ADVISE/REVERSAL
+
+----
+    // Request
+
+    {
+    	"command_type": "purchase", // purchase/advice/reversal
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "", // advice/reversal
+    	"remote_product_id": "", // advice/reversal
+    	"customer_id": "1998900001",
+    	"partner_id": 6,
+      "product_id": 1,
+      "biller_id": 1,
+    	"biller_label": "serpul",
+    	"counter": 1,
+    	"rawdata": "",
+    	"parameters": {
+    		"bill_item_id": [""]
+    	} // product with inquiry
+    }
+
+    // Response Success
+
+    {
+    	"transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "6855950",
+    	"remote_product_id": "SP25",
+      "customer_id": "1998900001",
+      "response_code": "00",
+    	"price": 107500, // product mapping (price)
+    	"amount": 100000, // product nominal (prepaid)
+      "data": {
+        "serial_number": "0051003619319900",
+        "biller_rescode": "0000",
+        "message": "success",
+        "rawdata": "",
+        "detail": {
+          "customer_name": "Claudia Ramadhani",
+          "bill_amount": "100000",
+          "admin_charge": "7500",
+          "bill_count": "2",
+          "reference_no": "123123123",
+          "bills": [
+            {
+              "bill_date": "20190817",
+              "bill_item_id": "qwerty123",
+              "bill_label": "Uang Antar Jemput",
+              "bill_amount": "50000",
+              "penalty_fee": "0",
+              "due_datetime": "20190829 07:08:09",
+              "expired_datetime": "20190830 07:08:09"
+            },
+            {
+              "bill_date": "20190817",
+              "bill_item_id": "qwerty123",
+              "bill_label": "Uang SPP",
+              "bill_amount": "50000",
+              "penalty_fee": "0",
+              "due_datetime": "20190829 07:08:09",
+              "expired_datetime": "20190830 07:08:09"
+            }
+          ]
+        }
+      },
+    	"next":""
+    }
+
+    // Response Pending
+
+    {
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "6855950",
+    	"remote_product_id": "SP25",
+      "customer_id": "085363783000",
+      "response_code": "10",
+    	"price": 107500, // product mapping (price)
+    	"amount": 100000, // product nominal (prepaid)
+      "data": {
+        "serial_number": "",
+        "biller_rescode": "9999",
+        "message": "pending", // failed/timeout/etc
+    		"rawdata": "" // http response
+      },
+    	"next":""
+    }
+
+    // Response Failed
+
+    {
+      "transaction_id": 6855945,
+    	"transaction_biller_id": 6855950,
+    	"remote_transaction_id": "6855950",
+    	"remote_product_id": "SP25",
+      "customer_id": "085363783000",
+      "response_code": "99",
+    	"price": 107500, // product mapping (price)
+    	"amount": 100000, // product nominal (prepaid)
+      "data": {
+        "serial_number": "",
+        "biller_rescode": "9999",
+        "message": "failed", // failed/timeout/biller-message/etc
+    		"rawdata": "" // http response
+      },
+    	"next":""
+    }
+----

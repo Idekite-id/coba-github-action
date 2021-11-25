@@ -1,0 +1,29 @@
+= Technology
+
+Berikut adalah teknologi yang digunakan dalam pengembangan Flea:
+
+== Platform Specification
+
+|===
+| *Spesifikasi* | *Nama* | *Deskripsi*
+
+| Operating System
+| Debian 9
+|
+
+| Web Server
+| NGINX
+|
+
+| Programming Language
+| Javascript
+|
+
+| Framework
+| ReactJS
+|
+
+| DBMS
+|
+|
+|===

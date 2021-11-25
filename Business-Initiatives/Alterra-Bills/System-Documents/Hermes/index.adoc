@@ -1,0 +1,59 @@
+= Hermes
+:keywords: sti, erp, erp-brige
+
+== Overview
+
+Hermes merupakan aplikasi penghubung yang digunakan untuk _convert_ semua transaksi pada Kraken ke ERP Odoo di Alterra.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Guntur Suparno Putra
+| Product Owner
+| guntur@alterra.id
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Tri Haryono
+| Lead Software Engineer
+| tharyono@alterra.id
+
+| Fransiska Maya
+| Lead Quality Engineer
+| fransiska@alterra.id
+|===
+
+== Technical Information
+
+<<./url-hermes.adoc#, System URL Hermes>>
+
+<<./architecture-hermes.adoc#, Architecture Hermes>>
+
+<<./technology-hermes.adoc#, Technology Hermes>>
+
+<<./environment-hermes.adoc#, Environment Hermes>>
+
+<<./release-deploy-hermes.adoc#, Release and Deployment Hermes>>
+
+<<./flow-wire-hermes.adoc#, Flow and Wireframe Hermes>>
+
+
+== Onboarding Information
+
+<<./dev-onboarding-hermes.adoc#, Developer Onboarding Hermes>>
+
+<<./development-hermes.adoc#, Development Hermes>>
+
+<<./naming-convention-hermes.adoc#, Naming Convention Hermes>>
+
+== Documentation
+
+<<./doc-source-hermes.adoc#, Document Source Hermes>>
+

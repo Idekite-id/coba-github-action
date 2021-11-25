@@ -1,0 +1,8 @@
+= API Translator
+
+Metode integrasi API Partner Translator memungkinkan pengguna untuk menyediakan dokumen API dan testing scenario yang dimiliki untuk melakukan integrasi. Pengguna tidak perlu melakukan development menggunakan dokumentasi API Alterra Bills, namun tim Development Alterra Bills yang akan melakukannya untuk keperluan bisnis Anda. Metode ini cocok digunakan untuk Anda yang sudah memiliki API sendiri namun ingin melakukan integrasi tanpa perlu melakukan konfigurasi ulang.
+
+_Requirement_:
+
+.. Dokumentasi API dari Partner
+.. Testing Scenario

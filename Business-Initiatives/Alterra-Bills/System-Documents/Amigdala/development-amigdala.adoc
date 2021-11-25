@@ -1,0 +1,13 @@
+= Development Amigdala
+
+== Development Steps
+
+. Melakukan _refinement_ terhadap _JIRA issue tickets_ yang akan masuk dalam _Backlog_
+. Tim _Product_ melengkapi _issue tickets_ dari hasil _refinement_
+. Melaksanakan _planning_ untuk _sprint_ yang akan datang dengan _issue tickets_ yang sudah siap dikerjakan di _Backlog_
+. Buat _branch_ baru dengan format nama : *JIRAissueId-FeaturesName* dari branch _Origin Develop_
+. _Finish_ dengan _Pull Request_ ke _branch_ : *stage_version* (_version_ : versi rilis)
+. Jika _PR merged_, _github action_ secara otomatis akan _pull_ perubahan terbaru dari _branch_ *stage_version* di _UAT server_
+. _QA_ akan melakukan _test_ di _server Staging_
+. _QA_ akan melakukan _test_ di _server Regression_
+. _Issue ticket_ siap di-_release_

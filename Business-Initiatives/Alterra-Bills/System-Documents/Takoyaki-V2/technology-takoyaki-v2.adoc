@@ -1,0 +1,25 @@
+= Technology Takoyaki V2
+
+Berikut adalah teknologi yang digunakan dalam pengembangan sistem Takoyaki V2:
+
+|===
+| *Spesification* | *Name*
+
+| OS
+| Debian 9
+
+| Webserver
+| Nginx
+
+| Programming Language
+| PHP 7.0
+
+| Framework
+| Lumen
+
+| DBMS
+| MariaDB
+
+| Others
+| Redis
+|===

@@ -1,0 +1,81 @@
+= Tagihan dan Pembayaran
+
+Tagihan dan pembayaran memiliki sektor pelanggan yang cukup besar karena mencakup kebutuhan untuk membayar berbagai jenis tagihan seperti, tagihan listrik, iuran BPJS, kesehatan, biaya edukasi, biaya sewa, perawatan rumah dan apartemen, dan masih banyak lagi. Selain itu, kebanyakan pembayaran tagihan merupakan jenis transaksi yang berulang. Berbeda dari beberapa kategori produk lain yang cukup dibeli sekali dalam rentang beberapa tahun, tagihan-tagihan seperti listrik dan air merupakan kebutuhan wajib yang harus dibayar setiap bulannya. Tagihan lain yang bukan merupakan kebutuhan pokok seperti TV kabel dan layanan hiburan lainnya juga cenderung memiliki masa berlangganan yang cukup lama, sehingga potensi untuk terjadinya transaksi berulang sangat tinggi.
+
+*Jenis Produk:*
+
+.. link:./PDAM.adoc[PDAM]
++
+Produk untuk pembayaran tagihan air bersih dari Perusahaan Daerah Air Minum milik daerah.
++
+.. link:./PLN-Prepaid.adoc[PLN Prepaid]
++
+Produk yang ditawarkan oleh PT PLN Persero untuk alternatif pembayaran sistem listrik prabayar atau token listrik.
++
+.. link:./PLN-Postpaid.adoc[PLN Postpaid]
++
+Produk yang ditawarkan oleh PT PLN Persero untuk alternatif pembayaran layanan kelistrikan dengan sistem listrik pasca bayar.
++
+.. link:./Telkom-Postpaid.adoc[Telkom Postpaid]
++
+Produk untuk pembayaran tagihan telepon dan internet dari PT. Telekomunikasi Indonesia (TELKOM).
++
+.. link:./BPJS-Kesehatan.adoc[BPJS Kesehatan]
++
+Produk untuk pembayaran layanan jaminan kesehatan dari pemerintah untuk setiap penduduk Indonesia.
++
+.. link:./BPJS-Ketenagakerjaan.adoc[BPJS Ketenagakerjaan]
++
+Produk untuk pembayaran layanan jaminan sosial ketenagakerjaan setiap pekerja di Indonesia.
++
+.. link:./Pajak-Kendaraan-Bermotor.adoc[Pajak Kendaraan Bermotor (PKB)]
++
+Produk untuk pembayaran pajak kendaraan bermotor secara online.
++
+.. link:.Pajak-Bumi-dan-Bangunan.adoc[Pajak Bumi dan Bangunan (PBB)]
++
+Produk untuk pembayaran pajak yang bersifat kebendaan yang ditentukan oleh keadaan objek yaitu bumi/tanah dan atau bangunan.
++
+.. link:./Gas-PGN.adoc[Gas PGN]
++
+Produk untuk pembayaran program pembayaran tagihan gas bumi yang dimiliki PT. PGN (Perusahaan Gas Negara) secara online.
++
+.. link:./Insurance.adoc[Insurance]
++
+Produk untuk pembayaran premi atau iuran asuransi yang harus dibayar setiap bulan.
++
+.. link:./Micro-Insurance.adoc[Micro Insurance]
++
+Produk untuk pembayaran produk asuransi dengan premi terjangkau dengan nilai pertanggungan sangat terbatas.
++
+.. link:./Multifinance.adoc[Multifinance]
++
+Produk untuk pembayaran tagihan angsuran kredit dari lembaga keuangan non-bank.
++
+.. link:./Credit-Card.adoc[Credit Card]
++
+Produk untuk pembayaran tagihan kartu kredit.
++
+.. link:./TV-Prepaid.adoc[TV Prepaid]
++
+Produk untuk top up program TV berbayar
++
+.. link:./TV-and-Internet-Postpaid/tv-postpaid.adoc[TV and Internet Postpaid]
++
+Produk untuk pembayaran tagihan langganan program televisi dan internet.
++
+.. link:./Education.adoc[Pendidikan]
++
+Produk yang memfasilitasi pembayaran pendidikan atau sekolah secara online.
++
+.. link:./Shopping-Payment.adoc[Shopping Payment]
++
+Produk yang memfasilitasi pembayaran pada _platform_ atau _marketplace_.
++
+.. link:./Mobile-VAS.adoc[Mobile VAS]
++
+Fasilitas produk yang ditawarkan oleh industri telekomunikasi sebagai penunjang layanan utama.
++
+.. link:./Money-Transfer.adoc[Money Transfer]
++
+Produk untuk memfasilitasi proses transfer dana ke semua bank.

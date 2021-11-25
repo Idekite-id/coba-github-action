@@ -1,0 +1,11 @@
+= API Documentation Oknurt
+
+https://oknurt-doc.sumpahpalapa.com/[API Documentation Oknurt]
+
+<<./api-execute-oknurt.adoc#, API Execute Partner Request Oknurt>>
+
+<<./api-partner-oknurt.adoc#, API Partner Config Oknurt>>
+
+<<./api-callback-oknurt.adoc#, API Callback Oknurt>>
+
+<<./api-simulate-oknurt.adoc#, API Simulate Rules Oknurt>>

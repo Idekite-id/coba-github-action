@@ -1,0 +1,234 @@
+= Mobile Prepaid Trunko
+
+== BM - FBS
+
+=== PURCHASE / ADVICE / REVERSAL
+
+[source,go]
+----
+// Request
+{
+	"product_id": "fbs_product_id_mapping",
+	"data": {
+	**	"transaction_id": "[transaction_biller_id]",
+		"customer_id": "[customer_id]",
+	  "remote_product_id": "[remote_product_id]"
+	}
+}
+
+// Response
+
+{
+    "code": 200,
+    "body": {
+			{
+		    "remote_transaction_id": "xyz",
+		    "biller_rc": "0000",
+				"message": "Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref [serial_number_from_biller]",
+		    "serial_number": "[serial_number_from_biller]"
+			}
+    },
+    "processed_steps": {
+        "unique_id": "b5a0cf81-f0f8-4b9c-a560-c68fd2ce59d2",
+        "product_id": "4c0622f5-5fab-4cae-83f3-c26486c4879a",
+        "order_id": null,
+        "steps": [
+            {
+                "headers": {
+                    "Host": "157.230.254.134",
+                    "X-Forwarded-For": "175.103.43.138",
+                    "Connection": "close",
+                    "Content-Length": "179",
+                    "Content-Type": "application/json",
+                    "Cache-Control": "no-cache",
+                    "Postman-Token": "79d909d5-b9f3-408f-bd6b-80144ee91220",
+                    "Authorization": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE1NjUxNjc0NjIsInVzZXJuYW1lIjoiYW5kaTEyMyJ9.anWi4Xy363Ea63s79E34xnMt_BzMRYklHoOtx1Gylo0",
+                    "User-Agent": "PostmanRuntime/7.6.0",
+                    "Accept": "*/*",
+                    "Accept-Encoding": "gzip, deflate"
+                },
+                "body": {
+                    "submsisdn": "6289659331493",
+                    "msisdn": "6289659331493",
+                    "idtrx": "1234567891"
+                },
+                "steps": [
+                    {
+                        "headers": {
+                            "Server": "nginx/1.15.5 (Ubuntu)",
+                            "Date": "Wed, 07 Aug 2019 08:38:29 GMT",
+                            "Content-Type": "application/json; charset=UTF-8",
+                            "Content-Length": "226",
+                            "Connection": "keep-alive",
+                            "Access-Control-Allow-Origin": "*",
+                            "Vary": "Origin"
+                        },
+                        "body": {
+                            "data": {
+                                "ResponseCode": "00000",
+                                "ResponseText": "Success",
+                                "PRODUCT_COST": "1179",
+                                "RET_POSTBAL": "764370",
+                                "EVC_SerialNum": "0807153828149268102"
+                            },
+                            "reqid": "1234567891",
+                            "submsisdn": "6289659331493",
+                            "trxid": "5d4a8e0491faa870078e5b16"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "inquiry_id": "b5a0cf81-f0f8-4b9c-a560-c68fd2ce59d2"
+}
+----
+
+=== STOCK
+
+Khusus stock, harus dicari tau lagi apakah FBS  memungkinkan untuk return data array
+
+[source,go]
+----
+// Request
+{
+	"id": "xxxxx",
+	"data": {
+		"transaction_id": 6855945,
+		"transaction_biller_id": 6855950,
+		"remote_transaction_id": "", // advise/reversal
+	  "biller_id": 1,
+		"biller_label": "serpul"
+	}
+}
+
+// Response
+{
+  "response_code": "00", // rc kraken
+  "data": [
+    {
+      "wallet_id": "xyz",
+      "saldo": 50000000
+    }
+  ]
+}
+----
+
+== Kraken - BM
+
+=== PURCHASE/ADVISE/REVERSAL
+
+[source,go]
+----
+// Request
+
+{
+	"command_type": "purchase", // purchase/advice/reversal
+  "transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "", // advice/reversal
+	"remote_product_id": "", // advice/reversal
+	"customer_id": "085363783000",
+	"partner_id": 6,
+  "product_id": 1,
+  "biller_id": 1,
+	"biller_label": "serpul",
+	"counter": 1,
+	"rawdata": "" // product with inquiry
+}
+
+// Response Success
+
+{
+	"transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "6855950",
+	"remote_product_id": "SP25",
+  "customer_id": "085363783000",
+  "response_code": "00",
+	"price": 24800, // product mapping (price)
+	"amount": 25000, // product nominal (prepaid)
+  "data": {
+    "serial_number": "0051003619319900",
+    "biller_rescode": "0000",
+    "message": "success",
+		"rawdata": "Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref <0051003619319900>" // http response
+  },
+	"next":""
+}
+
+// Response Pending
+
+{
+  "transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "6855950",
+	"remote_product_id": "SP25",
+  "customer_id": "085363783000",
+  "response_code": "10",
+	"price": 24800, // product mapping (price)
+	"amount": 25000, // product nominal (prepaid)
+  "data": {
+    "serial_number": "",
+    "biller_rescode": "9999",
+    "message": "pending", // failed/timeout/etc
+		"rawdata": "Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref <0051003619319900>" // http response
+  },
+	"next":""
+}
+
+// Response Failed
+
+{
+  "transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "6855950",
+	"remote_product_id": "SP25",
+  "customer_id": "085363783000",
+  "response_code": "99",
+	"price": 24800, // product mapping (price)
+	"amount": 25000, // product nominal (prepaid)
+  "data": {
+    "serial_number": "",
+    "biller_rescode": "9999",
+    "message": "failed", // failed/timeout/biller-message/etc
+		"rawdata": "Pengisian Voucher sebesar 25000 ke nomor 085363783000 pada tanggal 18/07/2019 09:54:44 telah berhasil dengan no ref <0051003619319900>" // http response
+  },
+	"next":""
+}
+----
+
+=== STOCK
+
+[source,go]
+----
+// Request
+
+{
+  "command_type": "stock",
+  "transaction_id": 6855945,
+	"transaction_biller_id": 6855950,
+	"remote_transaction_id": "", // advise/reversal
+  "biller_id": 1,
+	"biller_label": "serpul"
+}
+
+// Response Success
+
+{
+	"response_code": "00",
+	"message": "success",
+	"data": {
+		"wallet1": "1500000",
+		"wallet2": "2500000"
+	}
+}
+
+// Response Failed
+
+{
+	"response_code": "99",
+	"message": "timeout", // failed/timeout/biller message/etc
+	"data": null
+}
+----

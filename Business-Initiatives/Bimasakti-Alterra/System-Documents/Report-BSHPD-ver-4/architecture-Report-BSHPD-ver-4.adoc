@@ -1,0 +1,28 @@
+= Architecture Report BSHPD ver 4
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem BSHPD ver 4:
+
+//image::./images-Report-BSHPD-ver-4/Report-BSHPD-ver-4-c2-diagram.png[BSHPD ver 4 C2 Diagram]
+
+// Gambar dapat dimasukkan dalam folder "images-Report-BSHPD-ver-4", dengan nama image yang dimulai dengan nama sistem, contoh "Report-BSHPD-ver-4-Image-Name.png"
+
+Sistem ini merupakan bagian dari Bimasakti Alterra. Untuk lebih detail terkait hubungan BSHPD ver 4 dengan sistem Bimasakti Alterra lainnya, silakan mengakses diagram C1 berikut.
+
+== Related System
+
+BSHPD ver 4 terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan BSHPD ver 4.
+
+[cols="10%,30%,30%,30%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+| *Report BSHPD ver 4*
+|
+a| 
+a|
+|===

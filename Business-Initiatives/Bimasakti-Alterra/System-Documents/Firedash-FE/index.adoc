@@ -1,0 +1,73 @@
+= Firedash (FE)
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem Firedash (FE). Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan.
+
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| Hardiyusa 
+| Software Engineer 
+| hardiyusa@bsa.id
+
+| I Ketut Giri Arsa 
+| Software Engineer 
+| giriarsa@bsa.id
+
+| I Wayan Agus Krisna Apriana 
+| Software Engineer 
+| apriana@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Firedash-FE.adoc#, System URL Firedash (FE)>>
+
+<<./architecture-Firedash-FE.adoc#, Architecture Firedash (FE)>>
+
+<<./technology-Firedash-FE.adoc#, Technology Firedash (FE)>>
+
+<<./environment-Firedash-FE.adoc#, Environment Firedash (FE)>>
+
+<<./database-Firedash-FE.adoc#, Database Documentation Firedash (FE)>>
+
+<<./release-deploy-Firedash-FE.adoc#, Release and Deployment Firedash (FE)>>
+
+<<./flow-wire-Firedash-FE.adoc#, Flow and Wireframe Firedash (FE)>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Firedash-FE.adoc#, Developer Onboarding Firedash (FE)>>
+
+<<./development-Firedash-FE.adoc#, Development Firedash (FE)>>
+
+<<./naming-convention-Firedash-FE.adoc#, Naming Convention Firedash (FE)>>
+
+== Documentation
+
+// Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+// User Guide (jika ada, external link)
+
+// Dokumen Integrasi (jika ada, external link)
+
+// Dokumen Maintenance (jika ada, external link)
+
+// Dokumen API (jika ada, external link)
+
+<<./release-note-Firedash-FE.adoc#, Release Note Firedash (FE)>>

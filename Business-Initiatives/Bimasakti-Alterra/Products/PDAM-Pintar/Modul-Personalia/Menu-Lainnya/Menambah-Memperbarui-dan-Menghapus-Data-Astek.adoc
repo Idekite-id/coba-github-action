@@ -1,0 +1,17 @@
+= Menambah Memperbarui dan Menghapus Data Astek
+
+Fitur ini *Dasar Astek* berfungsi untuk dasar perhitungan potongan. Misalnya, potongan BPJS Ketenagakerjaan ambil dasarnya dari menu *Dasar Astek*. Berikut langkah-langkah dan penjelasan Fitur pada Menu *Dasar Astek* 
+
+image::../images-personalia/personalia-data-astek.png[align="center"]
+
+1. Pilih menu *Lainnya*
+2. Selanjutnya cari ikon *Dasar Astek*
+3. Untuk menambahkan data *Dasar Astek*, klik pada tombol *Tambah* seperti poin . Selanjutnya lengkapi data pada form. Jika sudah User dapat mengklik tombol *Simpan* seperti pada gambar
++
+image::../images-personalia/personalia-data-astek2.png[align="center"]
+4. Untuk memperbarui data, pilih data yang ingin User perbarui terlebih dahulu. Selanjutnya klik pada ikon *Koreksi*. Selanjutnya perbarui bagian yang ingin diubah, jika sudah User dapat mengklik tombol *Simpan*
+5. Untuk menghapus data, pilih data yang ingin User hapus terlebih dahulu. Selanjutnya klik pada tombol *Hapus*. Centang data yang ingin dihapus, jika User yakin untuk menghapus data *Dasar Astek*, User dapat mengklik tombol *Hapus*
++
+image::../images-personalia/personalia-data-astek3.png[align="center"]
+6. Ikon *Refresh* digunakan untuk refresh pada data Astek bulanan ketika ada data yang belum muncul setelah ditambahkan data baru
+7. Ikon *Pencarian* digunakan untuk mencari data pada Dasar Astek berdasarkan field yang sudah ditentukan yaitu *NIK* dan *Nama*. Klik tombol *Tampilkan* untuk menampilkan tunjangan yang akan dicari sesuai dengan field yang sudah diisi.

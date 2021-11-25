@@ -1,0 +1,16 @@
+= System URL Tentacles
+
+[cols="30%,40%,30%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL* 
+^.^h| *Description*
+
+| *Production*
+| https://kraken.sepulsa.id/admin/kraken/tentaclesui[]
+|
+|===
+
+____
+*Any system account/credential information should be asked by request*
+____

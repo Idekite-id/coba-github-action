@@ -1,0 +1,19 @@
+= Technology Coklit BE
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+
+|Programming Language 
+| Go
+
+|Framework 
+| Echo
+
+|Database 
+| MySQL 5.5.x / MariaDB 10.3.x
+
+|Cache 
+| Redis
+|===

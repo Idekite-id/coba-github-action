@@ -1,0 +1,34 @@
+= Technology Hermes
+
+Berikut adalah teknologi yang digunakan dalam pengembangan sistem Hermes:
+
+[cols="30%,30%,40%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+^.^h| *Description*
+
+| OS
+| -
+|
+
+| Web Server
+| NGINX
+|
+
+| Programming Language
+| PHP 7
+|
+
+| Framework
+| Laravel v5.6
+|
+
+| DBS
+| MySQL
+|
+
+| Others
+| Supervisor v.3.3
+|
+|===

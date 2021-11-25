@@ -1,0 +1,46 @@
+= Database Documentation Coklit BE
+
+
+Berisi dokumentasi database yang digunakan di dalam sistem Coklit.
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Table Name* 
+^.^h| *Description* 
+
+| `access_menu` | menampung role dan menu yang bisa diakses oleh role tersebut
+| `activity_history` | menampung riwayat aktifitas objek (user, dpta, revisi, dll)
+| `data_level` | menampung data lembaga atau lokasi berdasarkan lokasinya
+| `dpta` | menampung data tagihan air
+| `dpta_ba` | menampung berita acara sesuai dengan dpta
+| `dpta_ba_document_storage` | menampung file document berita acara
+| `dpta_csv_storage` | menampung file csv dpta
+| `dpta_documnent_storage` | menampung file document dpta
+| `dpta_nasional_approver` | menampung data approver dpta nasional
+| `dpta_nasional_approver_default` | menampung data approver default dpta nasional
+| `dpta_rekap_additional_info` | menampung data tambahan rekap dpta
+| `dpta_status` | menampung data status dpta
+| `jenis_kelainan` | menampung data jenis kelainan revisi
+| `menu` | menampung data daftar menu
+| `message_template` | menampung data template berbagai pesan di coklit
+| `notification` | menampung data notifikasi
+| `payment_history` | menampung data riwayat pembayaran
+| `payment_history_document` | menampung data dokumen riwayat pembayaran
+| `pdam_code` | menampung data kode pdam untuk yang terintegrasi dengan PDAM Pintar
+| `pdam_coklit_code` | menampung data kode pdam yang digenerate coklit
+| `provinsi_kotama` | menampung data kotama berdasarkan provinsinya
+| `rekap_approver` | menampung data approver rekap
+| `revisi` | menampung data revisi
+| `revisi_file` | menampung data file revisi
+| `revisi_kelainan` | menampung data revisi berdasarkan kelainannya
+| `revisi_status` | menampung data status revisi
+| `role` | menampung data role
+| `satker_matra` | menampung data satker berdasarkan matranya
+| `tagihan` | menampung data tagihan
+| `tagihan_status` | menampung data status tagihan
+| `tarif` | menampung data master tarif
+| `template_ba` | menampung data template berita acara berdasarkan matranya
+| `user` | menampung data user
+| `user_data_access_level` | menampung data user berdasarkan data levelnya
+| `user_notification` | menampung data notifikasi berdasarkan usernya
+|===

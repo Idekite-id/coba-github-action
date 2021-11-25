@@ -1,0 +1,25 @@
+= Release and Deployment Elisian
+
+== Schedule and Step
+
+=== Release Preparation
+
+1. Buat _branch_ `release/YYYYMMDD` dari _branch_ `develop`
+2.  _Finish branch_ `release`
+3.  _Git push develop_
+4.  _Git push master_
+5.  Buat _new release_ di Github
+ ** Pilih sebuah _existing tag_, atau buat _tag_ baru pada _publish_
+ ** _Add release_ (dengan _title_ `Elisian Release_ YYYYMMDD`)
+ ** _Add list_ dari semua _accepted stories_ dalam deskripsi
+ ** _Publish Release_
+6.  Buat _Release Story_ di Pivotal dengan _title_ `Elisian Release YYYYMMDD`
+7.  _Update_ _Release Story description_ dengan _Release Note_ (Title `Elisian Release YYYYMMDD`) dan tambahkan _list_ dari semua _accepted stories_
+8.  _Finish_ _release story_ pada Pivotal
+9.  Kirim _email_ ke Stakeholders
+
+=== Deployment
+
+1.  Akses _root_ dari Elisian _project_ pada _server_ `cd /sepulsa/www/elisian`
+2.  `git pull` untuk melakukan _pull_ _commit_ terbaru.
+3.  `composer dump-autoload && php artisan clear-compiled && php artisan auth:clear-resets && php artisan cache:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear` untuk _clean project cache_.

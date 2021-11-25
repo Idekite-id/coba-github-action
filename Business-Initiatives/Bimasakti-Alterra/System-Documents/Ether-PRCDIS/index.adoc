@@ -1,0 +1,68 @@
+= Ether PRCDIS
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem Ether PRCDIS. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| I Ketut Giri Arsa 
+| Software Engineer 
+| giriarsa@bsa.id
+
+| I Wayan Agus Krisna Apriana 
+| Software Engineer 
+| apriana@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Ether-PRCDIS.adoc#, System URL Ether PRCDIS>>
+
+<<./architecture-Ether-PRCDIS.adoc#, Architecture Ether PRCDIS>>
+
+<<./technology-Ether-PRCDIS.adoc#, Technology Ether PRCDIS>>
+
+<<./environment-Ether-PRCDIS.adoc#, Environment Ether PRCDIS>>
+
+<<./database-Ether-PRCDIS.adoc#, Database Documentation Ether PRCDIS>>
+
+<<./release-deploy-Ether-PRCDIS.adoc#, Release and Deployment Ether PRCDIS>>
+
+<<./flow-wire-Ether-PRCDIS.adoc#, Flow and Wireframe Ether PRCDIS>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Ether-PRCDIS.adoc#, Developer Onboarding Ether PRCDIS>>
+
+<<./development-Ether-PRCDIS.adoc#, Development Ether PRCDIS>>
+
+<<./naming-convention-Ether-PRCDIS.adoc#, Naming Convention Ether PRCDIS>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+<<./release-note-Ether-PRCDIS.adoc#, Release Note Ether PRCDIS>>

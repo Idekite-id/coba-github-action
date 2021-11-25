@@ -1,0 +1,72 @@
+= Mobile Loket
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+Mobile Loket (Mobile Apps) merupakan aplikasi android mobile untuk membantu pihak PDAM agar bisa menarik bayaran (_collective payment_) dari pelanggan PDAM.
+
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Mobile Loket. Masing-masing sudah dilengkapi dengan alamat email yang bisa dihubungi jika diperlukan.
+
+== Team Involved
+ 
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Leo Himawan Adiakso
+| Product Owner
+| leo@bsa.id
+
+| Muhammad Nur Hadi
+| Software Engineer Mobile
+| hadi@bsa.id
+
+| Agus Surya Adiputra
+| Software Engineer Mobile
+| suryaadiputra@bsa.id
+
+| Andhika Restama
+| Software Engineer Backend
+| andhika@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang
+dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-mobile-loket.adoc#, System URL Mobile Loket>>
+
+<<./architecture-mobile-loket.adoc#, Architecture Mobile Loket>>
+
+<<./technology-mobile-loket.adoc#, Technology Mobile Loket>>
+
+<<./environment-mobile-loket.adoc#, Environment Mobile Loket>>
+
+<<./database-mobile-loket.adoc#, Database Documentation Mobile Loket>>
+
+<<./release-deploy-mobile-loket.adoc#, Release and Deployment Mobile Loket>>
+
+<<./flow-wire-mobile-loket.adoc#, Flow and Wireframe Mobile Loket>>
+
+== Onboarding Information
+
+<<./dev-onboarding-mobile-loket.adoc#, Developer Onboarding Mobile Loket>>
+
+<<./development-mobile-loket.adoc#, Development Mobile Loket>>
+
+<<./naming-convention-mobile-loket.adoc#, Naming Convention Mobile Loket>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem, berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam list dokumen berikut:
+
+<<./release-note-mobile-loket.adoc#, Release Note Mobile Loket>>
+
+

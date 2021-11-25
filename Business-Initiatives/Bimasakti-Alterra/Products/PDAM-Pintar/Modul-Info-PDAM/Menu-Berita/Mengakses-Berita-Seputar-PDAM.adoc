@@ -1,0 +1,8 @@
+= Mengakses Berita Seputar PDAM
+
+Untuk mengakses berita, Anda dapat mengikuti langkah-langkah berikut:
+
+image::../images-info-PDAM/info-pdam-berita-1-2.png[align="center"]
+
+1. Pilih menu *Berita*.
+2. Anda dapat membaca berita yang tersedia. Sistem juga menyediakan *kategori berita* yang dapat Anda pilih sesuai kebutuhan, sebagaimana poin 2 pada gambar di atas.

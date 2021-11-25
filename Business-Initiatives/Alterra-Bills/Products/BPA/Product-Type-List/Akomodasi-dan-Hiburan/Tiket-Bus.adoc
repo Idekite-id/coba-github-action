@@ -1,0 +1,79 @@
+= Tiket Bus
+
+Produk untuk memfasilitasi pemesanan dan pembayaran tiket bus secara online. Bus adalah salah satu dari beberapa transportasi darat terlaris di Indonesia sampai saat ini. Kemudahan dalam penjualan tiket adalah sasaran utama pasar dan pemilik Perusahaan Otobus dalam meningkatkan pemasaran produk. Pemesanan tiket berbasis online sangat diminati oleh pengguna bus karena sangat memudahkan pengguna dalam pemesanan dan pembayaran dengan detail transaksi yang lengkap.
+
+*Variasi Produk*
+
+Varian produk dari Tiket Bus antara lain:
+
+- Tiket Ekonomi
+- Tiket Patas (VIP)
+
+*Vendor Utama Produk*
+
+Vendor utama untuk Tiket Bus adalah Perusahaan Otobus yakni:
+
+- PO Menggala
+- Pahala Kencana
+- Kramat Djati Jakarta
+- Medali Mas
+- dll
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Data hasil cari _schedule_ hanya bisa digunakan selama maksimal 4 Jam ( 240 Menit ) untuk dilakukan proses pemesanan
+- Proses pemesanan sampai ke pembayaran diberlakukan dalam waktu maksimal 30 menit
+- Tiket anak-anak biasanya diberlakukan dengan Harga yang sama dengan Dewasa karena akan mendapatkan tempat duduk sendiri
+
+*Product Journey*
+
+Partner Product Journey
+
+. Partner memilih jadwal Bus dengan menginputkan nilai dari :
+
+.. Bus
+.. Terminal keberangkatan
+.. Terminal tujuan
+.. Tanggal keberangkatan
+
+. Partner mendapatkan jadwal bus dari _Switching Engine_ sesuai dengan filter yang sudah dimasukkan
+. Partner memilih salah satu jadwal yang tersedia
+. Jika pihak bus terdapat fasilitas untuk pilih kursi, maka partner diwajibkan untuk memilih kursi yang tersedia. Jika tidak maka proses akan dilanjutkan ke _Booking_
+. Partner melakukan proses _Booking_ dengan menyesuaikan jadwal yang sudah dipilih sebelumnya
+. Partner mendapatkan Kode _Booking_ dan detail pemesanan
+. Setelah customer selesai melakukan pembayaran, Partner akan melakukan proses Transaksi (_Issuing Process_) untuk mensukseskan proses _booking_
+. Partner mendapatkan status *_Pending_* dari sistem untuk melakukan proses transaksi
+. Partner akan mendapatkan status *_Success_* dan detail data Tiket jika proses Transaksi sudah selesai dan proses berhasil
+Partner akan mendapatkan status *_Failed_* jika proses Transaksi gagal
+
+image::../../../images-bpa/flow-journey-bus.png[align="center"]
+
+Switcher Product Journey Bus Ticket
+
+. Partner mengirimkan _request_ untuk jadwal Bus
+
+. Sistem mengirimkan _request schedule_ ke Biller untuk mendapatkan data _List Schedule_
+
+. Jika proses sukses, maka sistem akan mendapatkan _List Schedule_ untuk dikirimkan langsung ke Partner
+
+. Jika partner melakukan proses pilih kursi:
+- Sistem akan melakukan proses request ke Biller untuk mendapatkan _list Availability Seats_ atau kursi yang masih tersedia
+- Sistem mendapatkan _list Availability Seats_ dan akan dikirimkan ke Partner
+
+. Partner melakukan proses _booking_ dengan memasukkan data _requester dan passengers_
+
+. Sistem akan melakukan validasi _request_ , jika proses validasi tidak terdapat _error_ maka sistem akan melakukan _request booking_ ke Biller, jika tidak maka Partner akan mendapatkan _error_ dari hasil pengecekan validasi
+
+. Sistem akan mendapatkan respon dari Biller berupa _Booking_Code_ dan juga detail pemesanan. Kemudian data akan langsung dikirimkan ke Partner
+
+. Partner akan mendapatkan _Booking Code_ dan detail pemesanan untuk pengecekan data yang dipesan
+
+. Partner akan melakukan _request transaction_ untuk memproses _schedule_ yang sudah dipesan sebelumnya
+
+. Sistem akan mengirimkan _response_ *_Pending_* untuk menginformasikan proses transaksi sedang dilakukan
+
+. Sistem akan melakukan proses _issuing_ tiket ke Biller untuk mendapatkan data detail Tiket
+
+. Jika proses _success_, maka sistem akan mendapatkan detail data tiket bus yang telah diproses sebelumnya dan akan mengirimkan status *_Success_* ke Partner
+
+Jika proses _failed_, maka sistem akan langsung mengirimkan status *_Failed_* ke Partner

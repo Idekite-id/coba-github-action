@@ -1,0 +1,22 @@
+= Technology BSA Store
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+
+|OS
+|Android
+
+|Programming Language
+|.Net
+
+|Framework
+|Xamarin
+
+|Minimum Android Version
+|Android 5.0 (Api Level 21)
+
+|Target Android Version
+|Android 9.0 (Api Level 28)
+|===

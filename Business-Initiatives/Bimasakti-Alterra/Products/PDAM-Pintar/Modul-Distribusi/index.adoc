@@ -1,0 +1,67 @@
+= Modul Distribusi
+
+Modul Distribusi merupakan sistem Bimasakti yang digunakan untuk yang digunakan untuk penanganan distribusi, baik penyegelan rekening, pengelolaan air tangki, dan sebagainya pada masing-masing PDAM.
+
+== Getting Started
+
+link:./Getting-Started/Login-ke-Modul-Distribusi.adoc[Login ke Modul Distribusi]
+
+link:./Getting-Started/Menu-Modul-Distribusi.adoc[Menu Modul Distribusi]
+
+== Menu Distribusi
+
+link:./Menu-Distribusi/Mengelola-SPK-Tutup-Total-karena-Permohonan.adoc[Mengelola  SPK Tutup Total karena Permohonan]
+
+link:./Menu-Distribusi/Mengelola-Berita-Acara-Tutup-karena-Permohonan.adoc[Mengelola Berita Acara Tutup karena Permohonan]
+
+link:./Menu-Distribusi/Mengelola-SPK-Segel-karena-Tunggakan.adoc[Mengelola SPK Segel karena Tunggakan]
+
+link:./Menu-Distribusi/Mengelola-Berita-Acara-Buka-Segel-Pelanggan.adoc[Mengelola Berita Acara Buka Segel Pelanggan]
+
+link:./Menu-Distribusi/Mengelola-Berita-Acara-Segel-karena-Tunggakan.adoc[Mengelola Berita Acara Segel karena Tunggakan]
+
+link:./Menu-Distribusi/Mengelola-Usulan-Tutup-Total-karena-Tunggakan.adoc[Mengelola Usulan Tutup Total karena Tunggakan]
+
+link:./Menu-Distribusi/Mengelola-SPK-Tutup-Total-karena-Tunggakan.adoc[Mengelola SPK Tutup Total karena Tunggakan]
+
+link:./Menu-Distribusi/Mengelola-Berita-Acara-Tutup-Total-karena-Tunggakan.adoc[Mengelola Berita Acara Tutup Total karena Tunggakan]
+
+link:./Menu-Distribusi/Mengelola-SPK-Buka-Segel-Pelanggan.adoc[Mengelola SPK Buka Segel Pelanggan]
+
+link:./Menu-Distribusi/Mengelola-SPKO-Sambungan-Baru.adoc[Mengelola SPKO Sambungan Baru]
+
+link:./Menu-Distribusi/Mengelola-RAB-Sambungan-Baru.adoc[Mengelola RAB Sambungan Baru]
+
+link:./Menu-Distribusi/Mengelola-SPK-BA-Rubah-Rayon.adoc[Mengelola SPK-BA Rubah Rayon]
+
+link:./Menu-Distribusi/Mengelola-SPK-BA-Pengaduan.adoc[Mengelola SPK-BA Pengaduan]
+
+link:./Menu-Distribusi/Mengelola-SPK-BA-Air-Tangki.adoc[Mengelola SPK-BA Air Tangki]
+
+link:./Menu-Distribusi/Melakukan-Ganti-Meter-Rutin.adoc[Melakukan Ganti Meter Rutin ]
+
+link:./Menu-Distribusi/Melakukan-Ganti-Meter-Non-Rutin.adoc[Melakukan Ganti Meter Non Rutin ]
+
+== Menu Supervisi Permohonan
+
+link:./Menu-Supervisi-Permohonan/Menampilkan-Daftar-Tunggu-Proses-Data.adoc[Menampilkan Daftar Tunggu Proses Data]
+
+== Menu Laporan
+
+link:./Menu-Laporan/Menampilkan-Laporan.adoc[Menampilkan Laporan]
+
+== Menu Master Data
+
+link:./Menu-Master-Data/Mengelola-Data-Material.adoc[Mengelola Data Material]
+
+link:./Menu-Master-Data/Mengelola-Data-Ongkos.adoc[Mengelola Data Ongkos]
+
+link:./Menu-Master-Data/Mengelola-Data-Paket-Material.adoc[Mengelola Data Paket Material]
+
+link:./Menu-Master-Data/Mengelola-Data-Paket-Ongkos.adoc[Mengelola Data Paket Ongkos]
+
+link:./Menu-Master-Data/Mengelola-Data-Paket-RAB.adoc[Mengelola  Data Paket RAB]
+
+link:./Menu-Master-Data/Mengelola-Data-Jenis-Non-Air.adoc[Mengelola  Data Jenis Non Air]
+
+link:./Menu-Master-Data/Mengelola-Data-Tarif-Air-Tangki.adoc[Mengelola Data Tarif Air Tangki]

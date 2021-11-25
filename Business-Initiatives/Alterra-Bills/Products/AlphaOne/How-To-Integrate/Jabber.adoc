@@ -1,0 +1,5 @@
+= Jabber
+
+Alphaone menyediakan metode integrasi melalui sambungan Terminal Jabber untuk dapat terhubung ke server pulsa. Jabber merupakan aplikasi Instant Messaging yang dapat menghubungkan sistem dari partner dengan sistem Alphaone, yang digunakan dalam transaksi pembelian produk dari Alphaone.  
+
+Untuk dapat melakukan transaksi produk, partner terlebih dahulu harus menghubungkan ID Jabber dengan Alphaone sehingga dapat mengoperasikan perintah akses dalam transaksi. Transaksi yang dilakukan partner dalam Jabber menggunakan format transaksi yang sudah ditentukan oleh Alphaone.

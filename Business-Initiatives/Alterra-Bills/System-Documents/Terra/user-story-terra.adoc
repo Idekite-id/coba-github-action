@@ -1,0 +1,13 @@
+= User Story Terra
+
+Berikut _user story_ milik sistem Terra:
+
+[discrete]
+=== Updated
+
+https://docs.google.com/spreadsheets/d/1DDvmq2qIpIBfBwmtq1u47rvtdWuFAc8I909aGUGQBVU/edit#gid=1600871678[Updated user Story]
+
+[discrete]
+=== Past
+
+https://docs.google.com/spreadsheets/d/11f-S5fz-EzG_pU1Nyr87fIwoljGLBPsfUmq9Wg7XgHs/edit#gid=0[Past User Story]

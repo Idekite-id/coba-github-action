@@ -1,0 +1,26 @@
+= OpenVPN Client Installation and Configuration Terra
+
+-- OS X --
+
+Installing
+
+. https://tunnelblick.net/[Tunnelblick] is a free, open source OpenVPN client for Mac OS X.
+
+. You can download the latest disk image from the https://tunnelblick.net/downloads.html[Tunnelblick Downloads] page.
+
+. Double-click the downloaded .dmg file and follow the prompts to install.
+
+. Towards the end of the installation process, Tunnelblick will ask if you have any configuration files.
+
+. It can be easier to answer No and let Tunnelblick finish.
+Open a Finder window and DOUBLE CLICK https://sepulsa.slack.com/?redir=%2Ffiles%2Frawis%2FF0JRTR5HV%2Foutlander-client1.ovpn[outlander-client1.ovpn.] Tunnelblick will install the client profile.
+Administrative privileges are required.
+Connecting
+
+. Launch Tunnelblick by double-clicking Tunnelblick in the Applications folder.
+
+. Once Tunnelblick has been launched, there will be a Tunnelblick icon in the menu bar at the top right of the screen for controlling connections.
+
+. Click on the icon, and then the Connect menu item to initiate the VPN connection.
+
+. Select the outlander-client1 connection.

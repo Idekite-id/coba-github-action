@@ -1,0 +1,15 @@
+= Menampilkan Laporan
+
+Menu ini digunakan untuk menampilkan berbagai laporan sesuai dengan kebutuhan. Ikuti langkah-langkah berikut untuk menampilkan laporan: 
+
+image::../images-loket/loket-laporan-1-2.png[align="center"]
+
+1. Pilih menu *Laporan*
+2. Pilih jenis laporan yang ingin ditampilkan dengan cara klik kiri mouse sebanyak 2x pada jenis laporan
++
+image::../images-loket/loket-laporan-3-4.png[align="center"]
+3. Masukkan _filtering_ data laporan yang ingin ditampilkan berdasarkan *Tanggal Penerimaan*, *Loket Bayar*, *Kasir*, *Golongan*, dan *Periode Rekening*. 
+4. Jika semua data sudah dimasukkan, untuk proses akhir menampilkan data, klik tombol *Tampilkan*.
++
+image::../images-loket/loket-laporan-5.png[align="center"]
+5. Gambar di atas adalah salah satu contoh laporan yang ditampilkan. Anda dapat mencetak laporan tersebut dengan icon *print* pada _menu bar_.

@@ -1,0 +1,52 @@
+= Flea
+:keywords: sti,telco,starter-pack-activation,flea
+
+== Overview
+
+Flea adalah sistem perantara yang menangani registrasi _SIM Card_ pascabayar dari _host_ sistem tekait.
+
+Terdapat 3 host sistem pada Flea, diantaranya :
+
+. Flea Marketplace XL : sistem perantara dari _marketplace_ Lazada & Shopee untuk registrasi nomor XL Postpaid
+. Flea Marketplace Indosat : sistem perantara dari _marketplace_ Bukalapak & Lazada untuk registrasi nomor Indosat Postpaid
+. Indosat Redeem : sistem perantara _code voucher_ ke Dolphin atau sebagai perantara dari Indosat ke Dolphin
+
+== Team Involved
+
+|===
+| *Nama* | *Role* | *Email*
+
+| Pipit Puspitasari
+| Product Owner
+| pipit@alterra.id
+
+| Antonius Ananto
+| Engineer Manager
+| anton@alterra.id
+
+| Kurniawan Eko Wasono
+| Lead Engineet
+| iwan@alterra.id
+
+| Johanes Paulus Giovani Putra
+| Lead Quality Engineer
+| johanes@alterra.id
+
+| Pipit Puspitasari
+| Ex.Lead System Analyst
+| pipit@alterra.id
+|===
+
+== Technical Information
+
+<<./url-flea.adoc#, System URL Flea>>
+
+<<./architecture-flea.adoc#, Architecture Flea>>
+
+<<./technology-flea.adoc#, Technology Flea>>
+
+<<./environment-flea.adoc#, Environment Flea>>
+
+<<./release-deploy-flea.adoc#, Release and Deployment Flea>>
+
+== Documentation

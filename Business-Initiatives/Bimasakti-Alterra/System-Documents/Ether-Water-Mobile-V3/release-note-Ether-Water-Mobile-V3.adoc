@@ -1,0 +1,3 @@
+= Release Note Ether Water Mobile V3
+
+Berisi catatan rilis sistem.

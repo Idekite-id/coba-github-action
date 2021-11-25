@@ -1,0 +1,18 @@
+= System URL Coklit BE
+
+Berikut adalah URL yang dapat digunakan untuk mengakses sistem Coklit :
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+| Development 
+| https://coklit.sumpahpalapa.com[]
+
+| Staging 
+| https://coklit.sumpahpalapa.com[]
+
+| Production 
+| https://coklit-be.bsa.id[]
+|===

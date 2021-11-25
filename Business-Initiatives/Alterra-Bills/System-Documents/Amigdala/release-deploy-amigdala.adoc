@@ -1,0 +1,11 @@
+= Release and Deployment Amigdala
+
+== Release and Deployment Steps
+
+. _Merge branch_ : *stage_version* (_version_ : versi rilis) ke _branch develop_
+. Lalu _merge branch develop_ ke _branch master_
+. Buat _tag_ baru dari _branch master_
+. Isi bagian *tag version*, *release title* dan *release notes*
+. Lalu pilih _publish release_
+. Secara otomatis _github action_ akan menjalankan _job_ untuk _deploy_ ke _production_
+. _Release_ dan _Deployment_ selesai

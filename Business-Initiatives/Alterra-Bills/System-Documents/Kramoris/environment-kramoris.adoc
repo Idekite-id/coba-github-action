@@ -1,0 +1,81 @@
+= Environment Kramoris
+
+Berikut adalah _environment_ sistem Kramoris:
+
+|===
+| *Environment* | *Spesifikasi* | *Files*
+
+| *Development*
+| *IP Address*
+| 103.117.20 *. * *
+
+|
+| *URL*
+| https://kramoris-uat.alphabill.id/[]
+
+|
+| *Doc Root*
+|
+
+|
+| *Service Name*
+| Kramoris UAT (Linode)
+
+|
+| *DB Server*
+|
+
+|
+| *Git Repo*
+| xlaxiata - staging-clone
+
+| *Staging*
+| *IP Address*
+| 103.117.20 *. * *
+
+|
+| *URL*
+| https://kramoris-uat.alphabill.id/[]
+
+|
+| *Doc Root*
+|
+
+|
+| *Service Name*
+| Kramoris UAT (Linode)
+
+|
+| *DB Server*
+|
+
+|
+| *Git Repo*
+| xlaxiata - staging-clone
+
+| *Production*
+| *IP Address*
+| 103.117.20 *. * *
+
+|
+| *URL*
+| https://beligadget.xl.co.id/[]
+
+|
+| *Doc Root*
+| /sepulsa/www/xl
+
+|
+| *Service Name*
+| Kramoris Production (DigitalOcean)
+
+|
+| *DB Server*
+| MariaDB
+
+|
+| *Git Repo*
+| release-beligadget/*
+|===
+
+*Note : Untuk detail IP Address, Anda dapat menghubungi Tim Development Kramoris XL atau Tim Infrastruktur*

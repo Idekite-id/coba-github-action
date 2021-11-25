@@ -1,0 +1,53 @@
+= Game Top Up
+
+Game Top Up adalah pembayaran langsung untuk pembelian cash in game untuk dapat menggunakan fitur premium dari game tertentu seperti kostum atau senjata premium. Fitur premium ini dapat membuat karakter menjadi lebih spesial daripada yang lain.
+
+*Variasi Produk*
+
+Berikut ini adalah varian game yang tersedia:
+
+- Love Nikki
+- Echo of Phantoms
+- Free Fire
+- Arena of Valor
+- Speed Drifters
+- Ragnarok Big Cat Coin
+- Era of Celestials
+- Legacy of Discord-FuriousWings
+- indoPlay
+- Dragon Nest M - SEA
+- BLEACH Mobile 3D
+- Dancing Love
+- Jade Dynasty
+- Mobile Legend Diamond
+- Heroes Evolved
+- Snail Games
+- Starpass
+- Domino Qiu Qiu
+- AU2 Mobile
+- Rules Of Survival: Bertahan Hidup
+- Rules Of Survival: Yang Terakhir Hidup
+- Audition Mobile Indonesia
+- Werewolf (Party Game)
+- Eternal City Gem
+- Point Blank
+- Laplace M
+
+link: https://docs.google.com/spreadsheets/d/14Rv-uFRNyo5XLUrQOuaFLwyRm2Ubwl3bM0IzF7BNlVc/edit#gid=0[Top Up Game - Unipin]
+
+*Product Journey*
+
+Customer Product Journey 
+
+. Pilih produk yang tersedia
+. Customer mengisikan parameter yang dibutuhkan untuk top up game
+. Sistem menampilkan _inquiry_ yang harus dibayarkan dan validasi user
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher Product Journey 
+
+. Partner mengirimkan parameter yang dibutuhkan untuk top up game
+. _Switching Engine_ mengirimkan _inquiry_ yang harus dibayarkan oleh partner
+. Partner _request_ transaksi
+. _Switching Engine_ proses transaksi dan kirim callback ke Partner

@@ -1,0 +1,55 @@
+= Polaris
+:keywords: sti,bpa,alert-system,polaris
+
+== Overview
+
+Polaris adalah sistem notifikasi _realtime_ yang diharapkan selalu mengingatkan tim secepatnya ketika ada potensi masalah di dalam operasi Sepulsa menggunakan data log, basis data, maupun API.
+
+Polaris adalah sekumpulan _task_, yang secara berkala dijalankan, dan masing - masing tasknya melakukan hal-hal berikut. 
+
+. Mengambil data (data - mysql, data - postgre)
+. Melakukan komparasi dengan data lain (_threshold_)
+. Jika data yang didapat sama / melebihi _threshold_ maka akan mengirimkan notifikasi (email, sms, telegrambot).
+
+=== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Arnoldus Lasut
+| Product Owner
+| arnoldus@alterra.id
+
+| Antonius Ananto
+| Development Manager
+| anton@alterra.id
+
+| Somy Andriyanto
+| Lead Software Engineer
+| somy@alterra.id
+
+| Andik Wiko Sumartono
+| Quality Manager
+| andik@alterra.id
+
+| Johanes Paulus
+| Lead Quality Engineer
+| johanes@alterra.id
+|===
+
+== Technical Information
+
+<<./architecture-polaris.adoc#, Architecture Polaris>>
+
+<<./technology-polaris.adoc#, Technology Polaris>>
+
+<<./flow-wireframe-polaris.adoc#, Flow and Wireframe Polaris>>
+
+== Onboarding Information
+
+== Documentation
+
+<<./release-note-polaris.adoc#, Release Note Polaris>>

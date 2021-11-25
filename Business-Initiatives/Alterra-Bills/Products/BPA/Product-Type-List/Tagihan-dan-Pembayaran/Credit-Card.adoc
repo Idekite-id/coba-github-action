@@ -1,0 +1,30 @@
+= Credit Card
+
+Produk untuk pembayaran tagihan kartu kredit.
+
+Kartu Kredit adalah Kartu Pembayaran Transaksi dengan cara dibayarkan terlebih dulu oleh pihak penyedia layanan kartu kredit, yang biasanya adalah Bank. Dimana di kemudian hari, pada tanggal jatuh tempo pengguna kartu kredit diwajibkan membayar sejumlah nominal dengan pembayaran minimum atau lebih sesuai tagihan pada bulan berjalan.
+
+*Variasi Produk*
+
+Tipe Kartu Kredit yang dapat dibayarkan melalui Alterra Bills adalah sebagai berikut:
+
+- CITIBANK
+- BRI
+- BUKOPIN
+- MEGA
+- DANAMON
+- NIAGA
+- AMEX
+- HSBC
+- SCB
+- GE
+- ANZ
+- PANIN
+
+*Customer Journey*
+
+. Customer memilih jenis Kartu Kredit/Penyedia layanan Kartu Kredit
+
+. Customer memasukkan nomor kartu kredit beserta besar nilai nominal yang dibayarkan
+
+. Customer akan dibawa ke halaman pilihan metode pembayaran

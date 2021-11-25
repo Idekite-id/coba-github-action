@@ -1,0 +1,7 @@
+= Flow and Wireframe Loket.NET
+
+Berikut _flow_ Loket-NET _step by step_ berdasarkan fitur atau menu yang tersedia:
+
+* <<./tagihan-sr-flow.adoc#, Flow Tagihan SR Loket.NET>>
+
+* <<./response-message-loket.adoc#, Penggunaan Response Message via UI Loket.NET>>

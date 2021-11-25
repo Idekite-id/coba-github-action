@@ -1,0 +1,24 @@
+= Architecture Bacameter Mandiri Web
+
+== High Level Architecture
+
+Bisa diisi dengan gambar HLA sistem
+
+// Gambar dapat dimasukkan dalam folder "images-Bacameter-Mandiri-Web", dengan nama image yang dimulai dengan nama sistem, contoh "Bacameter-Mandiri-Web-Image-Name.png"
+
+== Related System
+
+Bacameter Mandiri Web terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Bacameter Mandiri Web.
+
+[cols="10%,20%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+|*Bacameter Mandiri Web*
+|
+a|
+a|
+|===

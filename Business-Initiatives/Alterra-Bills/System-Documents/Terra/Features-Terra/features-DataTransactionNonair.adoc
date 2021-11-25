@@ -1,0 +1,121 @@
+= Data Transaction Nonair Terra
+
+== Overview
+
+Data transaction Nonair adalah sebuah fitur reporting historical transaksi Nonair untuk initiative BSA, contohnya seperti: biaya sambungan baru, buka segel, balik nama, perbaikan instalasi, dll.
+Berikut beberapa informasi yang ada di dalam reporting Data transaction piutang :
+
+* No Sambungan
+* Periode
+* Stan lalu
+* Stan Sekarang
+* Stan Angkat
+* Pakai
+* Biaya Pemakaian
+* Materai
+* Rekair
+* PPN	Persen
+* PPN
+* Total
+* Tanggal Bayar
+* Flag Angsur
+* etc.
+
+== User Story
+
+|===
+
+|Nama |Actor| Business Problem | Goal 
+
+| Data transaction nonair 
+|
+| Ada kebutuhan untuk tracking history transaction pembayaran PDAM dalam inisiatif BSA 
+| Bisa mengetahui history transaksi Nonair PDAM untuk di analisa dan menjadi insight bagi team internal
+
+|===
+
+== Development Team
+
+|===
+| Position | Tim | Nama
+
+| Product Owner
+| Saiyo
+| Bayu Setiawan
+
+| Lead Data Engineer
+| Saiyo
+| Bayu Setiawan
+
+| Data Engineer
+| Saiyo
+| Andhika Restama
+
+| System Analyst
+|
+|
+
+| Quality engineer
+|
+|
+|===
+
+== Required Database and Table
+
+Airavata Postgree 
+
+|===
+|Scheema | Table |Description 
+
+|bimasakti
+|tbl_nonair
+|
+
+|bimasakti 
+|master_loket
+|
+
+|bimasakti
+|master_source_db
+|
+
+|===
+
+== High Level Diagram
+
+image::../images-terra/terra-Diagram_-_Merge_Biller.png[Data Merge Biller]
+
+== Workflow System
+
+Fitur Data transaction Nonair
+
+image::../images-terra/terra-Workflow_-_Data_Transaction_Nonair.png[Data Transaction Nonair]
+
+*Frontend process :*
+
+. Login terra
+. Choose menu _'Bimasakti'_
+. Click submenu _'Data Transaction'_
+. Click sub menu _'Data transaction Nonair'_
+. Input _'No Sambungan'_
+. Input _'Periode Bayar'_
+. Select _'Status'_
+. Select _'Layanan PDAM'_
+. Select _'Loket'_
+. Select _'Bayar Start Date'_
+. Select _'Bayar End Date'_
+. Select _'Waktu Update Start'_
+. Select _'Waktu Update End'_
+. Click _'Search'_
+. Click _'Export to CSV'_
+. Input email
+. Click _'Submit'_
+
+*Backend process :*
+
+. Pada saat _User_ klik sub menu _Data Transaction Nonair_ maka akan me-_trigger_ _function_ untuk _select_ transaksi terbaru di table _tbl_nonair_ dari _schema_ bimasakti _*dan akan di show pada datatables di page *Data Transaction Piutang_.
+. Selanjutnya ketika _User_ selesai input filter parameter dan klik search maka akan mentriggered function untuk mengexecute data based on filter parameter, sebagai source data transaksi nya menggunakan schema bimasakti table _tbl_nonair_ , _master_loket_, _master_source_db_ dari _datalake_ _airavata postgree_.
+. Setelah dataset yang kita inginkan selesai di proses maka akan di show di ui terra, next step nya _User_ klik button _export to CSV_ maka akan diteruskan ke page _Data Transaction Nonair Prepare Export Data to CSV._
+. Pada page _prepare export data transaction bayar prepare export data to CSV_ user harus menginput alamat email pribadi sepulsa untuk dikirimkan link hasil export data, dilanjutkan dengan click button _Submit_.
+. Ketika _User_ klik button _submit_ akan me-_trigger_ _function_ untuk menjalankan job export dataset to csv file dan akan di store di Amazon S3.
+Link download file nya akan dikirim ke email yang di input oleh _User_.

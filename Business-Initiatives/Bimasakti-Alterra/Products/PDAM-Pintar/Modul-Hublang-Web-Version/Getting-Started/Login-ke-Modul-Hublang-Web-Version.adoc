@@ -1,0 +1,9 @@
+= Login ke Modul Hublang (Web Version)
+
+Untuk masuk ke dalam sistem Hublang Web, Anda cukup mengikuti langkah berikut:
+
+image::../images-hublang-web/hublang-web-login.png[align="center"]
+
+1. Masukan *Username* dan *Password* 
+2. Klik pada tombol *Log In*
+3. Sistem akan menampilkan halaman utama Modul Hublang. 

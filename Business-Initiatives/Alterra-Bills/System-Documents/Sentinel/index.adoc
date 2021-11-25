@@ -1,0 +1,71 @@
+= Sentinel
+:keywords: sti, bpa-support, operation-dashboard, kraken, smartbiller, amigdala, cacabot
+
+== Overview
+
+Sentinel adalah _dashboard_ khusus untuk tim Ops (Operations) dalam menjalankan tugas kesehariannya. Diharapkan pada tahun 2019 Sentinel sudah dapat menggunakan _realtime data_ yang berasal dari data _Stream_.
+
+Nama lain dari _dashboard_ ini adalah *Kraken Admin phase 2*. Melalui Sentinel _User_ dapat melihat data transaksi, melakukan pengecekan status produk yang tersedia, menambahkan produk, partner, dan operator.
+
+=== Sistem
+
+==== Sentinel Web Application (FE)
+
+Aplikasi Web Sentinel adalah UI Interface berupa Web Dashboard yang terhubung dengan beberapa sistem,di antaranya adalah: Kraken, Pollux, Sentinel Backend.
+
+==== Sentinel System (BE)
+
+Sistem Sentinel Backend belum ada (bisa dihilangkan dahulu dan mungkin nantinya akan jadi sistem baru yang bisa menjadikan _Single Sign-On_ pada semua sistem di Alterra).
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h|*Name* 
+^.^h|*Role* 
+^.^h|*Email*
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Somy Andriyanto
+| Lead Developer
+| somy@alterra.id
+
+| Leovano Adias J T
+| Software Engineer
+| leovano@alterra.id
+
+| Lalu Haryadi Guni
+| Software Engineer
+| adi@alterra.id
+|===
+
+== Technical Information
+
+<<url-sentinel.adoc#, System URL Sentinel>>
+
+<<architecture-sentinel.adoc#, Architecture Sentinel>>
+
+<<technology-sentinel.adoc#, Technology Sentinel>>
+
+<<environment-sentinel.adoc#, Environment Sentinel>>
+
+<<release-deploy-sentinel.adoc#, Release and Deployment Sentinel>>
+
+<<smartbiller-sentinel.adoc#, Smartbiller Sentinel>>
+
+== Onboarding Information
+
+<<dev-onboarding-sentinel.adoc#, Developer Onboarding Sentinel>>
+
+<<development-sentinel.adoc#, Development Sentinel>>
+
+<<naming-convention-sentinel.adoc#, Naming Convention Sentinel>>
+
+== Documentation
+
+https://docs.google.com/document/d/1xT3O2s9f883ZTs89pa-EVOWCjvOQYtzRtjgHXsofEx0/edit?usp=sharing[User Guide Sentinel (for Tech-Ops Team)]
+
+https://alterra.atlassian.net/projects/BPAS?contains=Sentinel&orderField=RANK&selectedItem=com.atlassian.jira.jira-projects-plugin%3Arelease-page&status=released[Release Notes Sentinel]

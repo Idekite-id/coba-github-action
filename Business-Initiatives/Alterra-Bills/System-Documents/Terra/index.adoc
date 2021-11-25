@@ -1,0 +1,71 @@
+= Terra
+:keywords: ati, data, admin-system-report
+
+== Overview
+
+Terra merupakan sebuah sistem yang digunakan sebagai _reporting management dashboard_ atau dasbor untuk menampilkan manajemen _reporting_ di Alterra. Terra secara langsung mengoneksikan Postgre SQL, _as a warehouse_, dan menjadi _frontend_ dari semuanya. Terra akan menyediakan servis operasional, seperti halnya _monitoring_, _historical_, intergasi admin, dan lainnya.
+
+Terra juga merupakan sebuah sistem yang langsung mengoneksikan  _retrieved data_ database PostgreeSQL (_Sepulsa Reporting_) menggunakan sistem Buffalo (_semi automated database migration_) dan menjadi antarmuka dari data apa pun yang sedang diproses atau menyediakan data mentah untuk orang/mesin yang membutuhkan data.
+
+Pada situasi sebelumnya, perusahaan memiliki data namun tidak memiliki _visibility_ dari data tersebut.
+Artinya, perusahaan tidak mampu melihat atau menganalisa data yang telah dimiliki. Adanya Terra diharapkan mampu menampilkan _visibility_ dari data terkini yang akan digunakan oleh semua orang di Sepulsa/Alterra.
+
+Nama Terra diambil dari bahasa Latin, yang berarti Bumi, dan di dalamnya terdapat elemen-elemen yang mana dari semua elemen tersebut dapat diproses menjadi sesuatu yang berguna dan bermanfaat untuk apa pun itu.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Terra beserta dengan alamat email yang bisa dihubungi jika dibutuhkan.
+
+|===
+| *Name* | *Role* | *Email*
+
+| Bayu Setiawan
+| Product Owner
+| bayu@alterra.id
+
+| Bayu Setiawan
+| Lead Developer
+| bayu@alterra.id
+
+| Akira Oskar Oentaryo
+| Quality Engineer
+| akira@alterra.id
+
+| Dimas Ardiyanto
+| System Analyst
+| dardiyanto@alterra.id
+|===
+
+== Technical Information
+
+Informasi teknis seputar sistem Terra, dapat dilihat lebih detail di bawah ini.
+
+<<./url-terra.adoc#, System URL Terra>>
+
+<<./architecture-terra.adoc#,  Architecture Terra>>
+
+<<./technology-terra.adoc#, Technology Terra>>
+
+<<./flow-wire-terra.adoc#, Flow and Wireframe Terra>>
+
+<<./features-terra.adoc#, Features Terra>>
+
+
+== Documentation
+
+https://docs.google.com/document/d/1eVrIUHy42lQ8l-2prbCIl8ZeIiqeoeLPIaQN7eIWPz0/edit?usp=sharing[User Guide Terra (for Operations Team)]
+
+<<./api-doc-terra.adoc#, API Documentation Terra>>
+
+<<./user-story-terra.adoc#, User Story Terra>>
+
+<<./Features-Terra/index.adoc#, Features Terra>>
+
+<<./AR-Marketplaces-Terra/index.adoc#, AR Marketplaces Terra>>
+
+<<./setup-terra.adoc#, Setup Terra>>
+
+<<./openvpn-terra.adoc#, OpenVPN Client Installation and Configuration Terra>>
+
+<<./other-terra.adoc#, Others Terra>>
+

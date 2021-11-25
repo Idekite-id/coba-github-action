@@ -1,0 +1,110 @@
+= BPJS Ketenagakerjaan
+
+Badan Penyelenggara Jaminan Sosial (BPJS) Ketenagakerjaan merupakan badan hukum publik yang bertugas melindungi seluruh pekerja. Produk ini memfasilitasi pembayaran layanan jaminan sosial ketenagakerjaan setiap pekerja di Indonesia.
+
+*Variasi Produk*
+
+Berikut adalah 4 program jaminan sosial ketenagakerjaan:
+
+. Jaminan Hari Tua
++
+Merupakan program penghimpunan dana yang ditujukan sebagai simpanan yang dapat dipergunakan oleh peserta, terutama bila penghasilan yang bersangkutan terhenti karena berbagai sebab, seperti cacat total tetap, telah mencapai usia 56 tahun, meninggal dunia atau berhenti bekerja (PHK, mengundurkan diri, atau meninggalkan Indonesia untuk selama-lamanya).
++
+Manfaat:
++
+Merupakan program penghimpunan dana yang ditujukan sebagai simpanan yang dapat dipergunakan oleh peserta, terutama bila penghasilan yang bersangkutan terhenti karena berbagai sebab, seperti cacat total tetap, telah mencapai usia 56 tahun, meninggal dunia atau berhenti bekerja (PHK, mengundurkan diri, atau meninggalkan Indonesia untuk selama-lamanya).
+
+. Jaminan Kecelakaan Kerja
+Jaminan Kecelakaan Kerja (JKK) merupakan jaminan yang memberikan kompensasi dan rehabilitasi bagi pekerja yang mengalami kecelakaan pada saat mulai berangkat bekerja sampai tiba kembali di rumah atau menderita penyakit yang berkaitan dengan pelaksanaan pekerjaannya.
++
+Manfaat:
++
+.. Biaya pengangkutan maksimum
++
+- Darat / Sungai / Danau = Rp 1.000.000,-
+- Laut = Rp 1.000.000,-
+- Udara = Rp 2.500.000,-
++
+Jika menggunakan lebih dari 1 jasa angkutan, maka berhak atas biaya maksimal dari masing-masing jenis angkutan.
+
+.. Biaya pengobatan dan perawatan
+Biaya perawatan dan pengobatan sesuai kebutuhan medisnya.
+
+.. Sementara tidak mampu bekerja
+- Enam (6) bulan pertama = 100% x upah sebulan
+- Enam (6) bulan kedua = 75% x upah sebulan
+- Enam (6) bulan ketiga dan seterusnya = 50% x upah sebulan
+ 
+.. Penggantian gigi tiruan
++
+Rp 3.000.000,- (maksimum)
+
+.. Santunan cacat
+- Cacat Sebagian Anatomis = % tabel x 80 x upah sebulan
+- Cacat Total Tetap = 70% x 80 x upah sebulan
+- Cacat Sebagian Fungsi = % kurang fungsi x % tabel x 80 x upah sebulan
+
+.. Santunan kematian
+- Santunan Kematian = 60% x 80 upah sebulan (paling sedikit sebesar JKM)
+- Berkala (24 bulan) = Rp 200.000,- per bulan (sesuai dengan PP Nomor 44 tahun 2015)
+- Biaya pemakaman = Rp 3.000.000,-
+
+.. Biaya rehabilitasi
++
+Rehabilitasi berupa alat bantu (orthese) dan/atau alat ganti (prothese) bagi Peserta yang anggota badannya hilang atau tidak berfungsi akibat Kecelakaan Kerja untuk setiap kasus dengan patokan harga yang ditetapkan oleh Pusat Rehabilitasi Rumah Sakit Umum Pemerintah ditambah 40% (empat puluh persen) dari harga tersebut serta biaya rehabilitasi medik.
+
+.. Bantuan beasiswa
++
+Bantuan beasiswa kepada 1 (satu) anak peserta yang masih sekolah sebesar Rp 12.000.000,00 (dua belas juta rupiah) untuk setiap peserta, apabila Peserta meninggal dunia atau cacat total tetap akibat kecelakaan kerja.
+
+. Jaminan Kematian
++
+Jaminan Kematian diperuntukkan bagi ahli waris pekerja peserta BPJS Ketenagakerjaan yang meninggal dunia bukan karena kecelakaan kerja. JKM diperlukan untuk membantu meringankan beban keluarga dalam bentuk biaya pemakaman dan uang santunan.
++
+Manfaat:
++
+Program ini memberikan manfaat kepada keluarga tenaga kerja seperti:
++
+- Santunan Kematian Rp 16.200.000,-
+- Santunan Berkala Rp 200.000,- bulan (selama 24 bulan) atau dapat diambil sekaligus dimuka
+- Biaya Pemakaman Rp 3.000.000,-
+- Beasiswa pendidikan 1 (satu) anak diberikan kepada setiap peserta yang meninggal dunia bukan akibat kecelakaan kerja dan telah memiliki masa iur paling singkat 5 (lima) tahun sebesar Rp. 12.000.000,-
+
+. Jaminan Pensiun
++
+Merupakan program yang diperuntukkan bagi peserta/ahli waris pada saat memasuki usia pensiun, mengalami cacat total tetap dan meninggal dunia. Program Jaminan Pensiun diselenggarakan berdasarkan manfaat pasti.
++
+Manfaat:
++
+Manfaat jaminan pensiun berwujud uang tunai yang diterima setiap bulan sebagai:
++
+- Pensiun hari tua, diterima peserta setelah pensiun sampai meninggal dunia;
+- Pensiun cacat, diterima peserta yang cacat akibat kecelakaan atau akibat penyakit sampai meninggal dunia;
+- Pensiun janda/duda, diterima janda/duda, ahli waris peserta sampai meninggal dunia atau menikah lagi;
+- Pensiun anak, diterima ahli waris peserta sampai mencapai usia 23 (dua puluh tiga) tahun, bekerja, atau menikah; atau
+- Pensiun orang tua, diterima, orang tua ahli waris peserta lajang sampai batas waktu tertentu sesuai dengan peraturan perundang-undangan.
+
+*Perilaku dan Penggunaan Produk*
+
+. Produk yang bisa dibayarkan melalui Alterra adalah layanan khusus untuk Tenaga Kerja Bukan Penerima Upah.
+
+. Peserta wajib mendaftarkan dirinya secara mandiri ke kantor BPJS Ketenagakerjaan terdekat atau secara online melalui link berikut
+
+. Pembayaran dapat dilakukan melalui Partner Sepulsa atau sepulsa.com
+
+. Aturan dari Operator BPJS Kesehatan adalah setiap peserta akan dibebankan biaya registrasi untuk pembayaran pertama kali setelah registrasi awal (bukan _renewal_)
+
+. Admin fee per transaksi
+
+. Pembayaran bisa dilakukan per bulan selama periode transaksi
+
+*Customer Journey*
+
+Partner Product Journey
+
+. Pelanggan memasukkan Nomor Induk Kependudukan (NIK) sebagai identitas akun peserta yang akan dibayarkan, serta jumlah bulan bayarnya.
+. _Client_, yang berperan sebagai aplikasi yang diakses oleh pelanggan, akan menampilkan tagihan beserta statusnya.
+. Pembayaran dapat dilakukan melalui kanal pembayaran yang tersedia di _client_.
+. Aplikasi _client_ akan menampilkan tanda bukti pembayaran yang dapat diakses oleh pelanggan kapan saja.
+
+image::../../../images-bpa/flow-journey-bpjs-ketenagakerjaan.png[align="center"]

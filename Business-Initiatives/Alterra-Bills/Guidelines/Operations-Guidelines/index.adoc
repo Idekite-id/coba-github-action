@@ -1,0 +1,17 @@
+= Operations Guidelines
+
+Dari Alterrans, untuk Alterrans.
+
+_Section_ ini dibuat khusus untuk kamu yang ingin berbagi _knowledge_ kepada rekan kerja baik satu tim maupun lintas divisi. Kali ini, kamu sudah bisa membaca panduan teknis terkait prosedur yang dijalankan dalam penyelesaian _task_ tim Operations.
+
+image:./images-ops-guides/operation-guidelines.png[align="center"]
+
+== *Apa saja daftar Operations Guidelines yang bisa kamu pelajari di sini?*
+
+Berikut adalah daftar guideline yang bisa kamu pelajari di sini dan akan kami _update_ secara berkala. 
+
+- link:./Rekonsiliasi-Partner-Switching/index.adoc[Rekonsiliasi Partner Switching]
+
+== *Apa yang bisa saya lakukan dengan informasi di atas?*
+
+Kalau kamu ada pertanyaan terkait topik ini, jangan ragu untuk menghubungi tim Operations melalui email opscare@alterra.id 

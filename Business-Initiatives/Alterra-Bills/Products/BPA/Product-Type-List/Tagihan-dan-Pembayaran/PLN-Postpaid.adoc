@@ -1,0 +1,41 @@
+= PLN Postpaid
+
+Produk yang ditawarkan oleh PT PLN Persero untuk alternatif pembayaran layanan kelistrikan dengan sistem listrik pasca bayar. Pelanggan listrik pasca bayar dari PLN akan menerima tagihan atas biaya jasa penggunaan listrik pasca bayar.
+
+*Variasi Produk*
+
+PLN postpaid tidak memiliki varian produk, karena dikhususkan untuk pembayaran listrik.
+
+*Vendor Utama Produk*
+
+Vendor utama dari produk PLN Postpaid adalah PT. PLN Persero
+
+*Perilaku dan Cara Penggunaan Produk*
+
+Pengguna dapat melakukan pembayaran tagihan melalui _website_ / aplikasi milik Partner.
+
+*Product Journey*
+
+Partner
+
+. Customer memasukkan nomer meter PLN
+
+. Sistem menampilkan total tagihan yang perlu dibayar
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher / Aggregator
+
+. Partner mengirimkan _customer number_
+
+. _Switching Engine_ mengirimkan _inquiry_ yang harus dibayarkan oleh partner
+
+. Partner melakukan _request_ transaksi
+
+. _Switching Engine_ memproses transaksi dan kirim _callback_ ke Partner
+
+*Switcher Product Journey Flowchart "PLN Postpaid"*
+
+image::../../../images-bpa/flow-journey-pln-postpaid.png[align="center"]

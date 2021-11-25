@@ -1,0 +1,12 @@
+= User Story Smart Biller
+
+Tabel berikut ini berisi tentang penjelasan masalah bisnis yang sedang dihadapi:
+
+|===
+| Title | Problems | Goals
+
+| _Performance Biller System_
+| *Tim Ops* menghadapi kesulitan untuk memantau performa _biller_ secara manual.
+Sehingga bisa memicu terjadinya kesalahan ketika memilih _billers_ untuk proses transaksi
+| Dibutuhkan sistem yang bisa membuat peringkat atau _ranking_ performa _biller_ secara otomatis
+|===

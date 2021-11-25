@@ -1,0 +1,21 @@
+= Technology Sentinel 
+
+Berikut ini adalah teknologi yang digunakan untuk mengembangkan sistem Sentinel:
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Spesification* 
+^.^h|*Name*
+
+| *Programming Language*
+| Javascript
+
+| *Framework*
+| Vue.js v2.5.2
+
+| *Package Manager*
+| Yarn
+
+| *Development Tools*
+| Visual Studio Code (Latest)
+|===

@@ -1,0 +1,5 @@
+= Dashboard
+
+Dashboard adalah tampilan yang digunakan untuk melakukan pengaturan informasi dan business intelligence. Dashboard dapat digunakan untuk  memvisualisasikan tampilan beragam informasi dan pengaturan yang mudah digunakan oleh setiap orang. 
+
+Alterra Bills dapat membantu partner dengan melakukan integrasi menggunakan metode Dashboard. Partner akan diberikan akses dan pelatihan menggunakan Dashboard yang dimiliki oleh Alterra Bills. Dashboard ini memungkinkan partner untuk melakukan pengaturan secara leluasa dan sesuai dengan kebutuhan. Dengan Dashboard Partner juga dapat melakukan transaksi secara _bulk_ dalam satu waktu.

@@ -1,0 +1,114 @@
+= Hotel
+
+Hotel adalah salah satu jenis akomodasi yang mempergunakan sebagian atau keseluruhan bagian untuk jasa pelayanan penginapan, penyedia makanan dan minuman serta jasa lainnya bagi masyarakat umum yang dikelola secara komersil (Keputusan Menteri Parpostel no Km 94/HK103/MPPT 1987)
+
+Pemesanan dengan menggunakan metode online platform akan sangat membantu customer nantinya dalam pemesanan hotel. Customer akan sangat dimudahkan karena biasanya perlu untuk langsung datang ke hotel, tapi dengan adanya pemesanan kamar hotel secara online mereka tidak perlu jauh untuk memesan kamar hotel yang akan mereka gunakan.
+
+*Variasi Produk*
+
+Produk yang akan disediakan adalah kamar hotel dengan semua kelas yang ada didalamnya.
+
+*Perilaku dan Cara Penggunaan Produk*
+
+Terdapat beberapa kebiasaan yang dilakukan oleh customer yang terkadang tidak diantisipasi oleh sistem pada saat pemesanan Hotel. Terdapat beberapa _behavior_ yang nantinya akan dikalkulasi internal sistem nantinya, seperti:
+
+- Data hasil setelah mencari list Hotel akan ditampilkan selama 3 Jam (*180 Menit*)
+
+- Terdapat batasan pemesanan kamar dalam 1 kali transaksi sejumlah maksimal *4 Kamar*
+
+*Customer Journey*
+
+. Customer membuka pemesanan tiket Hotel
+
+. Customer memasukkan data pilihan yang digunakan sebagai filter untuk pencarian, yaitu:
+- Kota
+- Tanggal Check-In
+- Durasi menginap
+- Jumlah Kamar
+
+. Sistem akan menampilkan list Hotel berdasarkan filter yang telah dimasukkan
+
+. Customer memilih salah satu hotel yang ada pada list
+
+. Sistem akan menampilkan detail per kamar dengan informasi:
+- Harga per Kamar
+- Tipe kamar
+- Jumlah tempat tidur
+- Fasilitas yang didapatkan
+
+. Customer memilih tipe kamar yang sudah disediakan
+
+. Customer mengisi Contact Detail pemesan untuk kebutuhan booking di hotel tersebut dan juga mereview data dan jumlah yang harus dibayarkan
+
+. Customer melakukan pembayaran
+
+. Sistem akan memproses apakah pembayaran sukses atau tidak
+
+. Jika sukses, sistem akan mengirimkan data dan juga e-ticket untuk kebutuhan pada saat datang ke Hotel
+
+Switcher/Aggregator
+
+. Partner melakukan pencarian kode kota sesuai dengan yang direquestkan
+
+. Sistem memproses _request_ dan menampilkan list kota beserta kode yang akan digunakan untuk proses pencarian Hotel
+
+. Partner melakukan input data untuk kebutuhan filter dalam pencarian Hotel. Filter yang diinputkan adalah:
+- Kode Kota
+- Tanggal Check-In
+- Durasi menginap (digunakan sebagai acuan untuk menentukan tanggal check-out)
+- Jumlah kamar
+
+. Sistem akan melakukan validasi dari filter request yang diinputkan dan akan menampilkan list Hotel berdasarkan filter yang diinputkan :
+- Kode hotel
+- Nama Hotel
+- Rating
+- Alamat
+- Hotel Image
+- Deskripsi hotel
+- Harga termurah
+- _Reference number_
+
+. Partner akan memilih salah satu hotel dan melakukan request detail room di hotel yang sudah dipilih tersebut. Filter yang diinputkan:
+- _Reference number_ yang ada pada _response search_ Hotel
+- Kode Hotel
+
+. Sistem akan melakukan validasi dari filter yang diinputkan dan menampilkan list Kamar di hotel tersebut berdasarkan filter yang diinputkan :
+- Detail hotel
+- Detail tiap kamar
+.. Kode kamar
+.. Tipe kamar
+.. Kode kamar
+.. Harga
+.. Gambar kamar
+.. Info kamar
+.. Fasilitas kamar
+.. Informasi tambahan (_additional fee_)
+
+. Setelah memilih kamar yang ditentukan, Partner akan melakukan proses booking Kamar hotel dengan memasukkan data berikut:
+- _Reference number_ yang ada pada _response search_ Hotel
+- Kode kamar
+- Contact Detail dari tamu yang akan menginap, meliputi:
+.. Nama lengkap
+.. Email
+.. Nomor telefon
+.. Request tambahan (misal: smooking room, membawa bayi, dll)
+
+. Sistem akan melakukan validasi dari request yang telah dilakukan dan akan melakukan proses booking ke Biller dengan menampilkan _response_:
+- Kode pembayaran
+- Detail Hotel dan Kamar
+- Harga total
+- Waktu pembayaran _Expired_
+- Status Pemesanan (_waiting / pending_)
+
+. Partner kemudian akan melakukan proses issuing untuk mengkonfirmasi proses booking yang sudah dilakukan dengan memasukkan data:
+- Reference number yang ada pada response search Hotel
+- Kode pembayaran
+
+. Sistem akan melakukan validasi data dan kemudian mengirimkan response pending ke partner sebagai tanda bahwa proses transaksi telah dilakukan
+
+. Sistem akan mengirimkan response callback jika dari biller telah mengirimkan response sukses/gagal, jika sukses sistem akan mengirimkan:
+- Kode booking (untuk keperluan pada saat _check-in_ di hotel)
+- Detail Hotel dan Kamar
+- Harga total
+- Status pemesanan (*_issued_*)
+

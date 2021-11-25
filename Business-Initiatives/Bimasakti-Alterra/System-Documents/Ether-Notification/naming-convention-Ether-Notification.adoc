@@ -1,0 +1,3 @@
+= Naming Convention Ether Notification
+
+Berisi aturan penamaan dalam development sistem.

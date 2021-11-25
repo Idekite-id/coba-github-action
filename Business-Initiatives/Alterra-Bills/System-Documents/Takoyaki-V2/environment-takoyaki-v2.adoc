@@ -1,0 +1,48 @@
+= Environment Takoyaki V2
+
+Berikut adalah detail _environment_ dari sistem Takoyaki V2:
+
+== Production
+
+|===
+| *Name* | *Spesification*
+
+| Ip Address
+| 52.77.127.* * *
+
+| URL
+| https://takoyaki.sepulsa.id/[]
+
+| Service Name
+| -
+
+| DB Server
+| MariaDB
+
+| Git Branch
+| develop-kraken2
+|===
+
+== Staging
+
+|===
+| *Name* | *Spesification*
+
+| Ip Address
+| 103.117.207.* *
+
+| URL
+| https://takoyaki-uat.alphabill.id/[]
+
+| Service Name
+| -
+
+| DB Server
+| MariaDB
+
+| Git Branch
+| staging-kraken2
+|===
+
+
+*Note : Untuk detail IP Address, Anda dapat menghubungi Tim Development Takoyaki V2 atau Tim Infrastruktur*

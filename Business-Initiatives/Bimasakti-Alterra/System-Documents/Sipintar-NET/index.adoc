@@ -1,0 +1,99 @@
+= Sipintar.NET
+:keywords: bsa-pdam, sipintar-net
+
+== Overview
+
+Sipintar.NET merupakan _revamp_ dari Sipintar PDAM Desktop Delphi dengan konsep REST API sebagai _backend_ server dan WPF sebagai _client application_. 
+
+Semua modul PDAM Pintar (_desktop app_ Delphi) yang sebelumnya _direct connect_ ke RDBMS akan diubah cara mengelola datanya dengan _request_ ke server REST API.
+
+== Team Involved
+
+Berikut adalah _talent_ yang terlibat dalam pengembangan sistem Sipintar.NET. Masing-masing sudah dilengkapi dengan alamat _email_ yang bisa dihubungi jika diperlukan.
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Aryo Indrasmoro 
+| Head of Engineering 
+| aryo@alterra.id
+
+| Acep Zulkipli J 
+| Engineering Manager 
+| azul@alterra.id
+
+| I Kadek Yoga Segara 
+| Lead Software Engineer 
+| yoga@bsa.id
+
+| Ahmad Alfan 
+| Lead Software Engineer 
+| alfan@alterra.id
+
+| Angga Dwi Apria Rifandi 
+| Software Engineer 
+| angga@alterra.id
+
+| I Nyoman Widiarta 
+| Software Engineer 
+| widiarta@bsa.id
+
+| Josua Geovani Sinaga 
+| Software Engineer 
+| josua.sinaga@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem Sipintar.NET, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-sipintar.adoc#, System URL Sipintar.NET>>
+
+<<./architecture-sipintar.adoc#, Architecture Sipintar.NET>>
+
+<<./technology-sipintar.adoc#, Technology Sipintar.NET>>
+
+<<./environment-sipintar.adoc#, Environment Sipintar.NET>>
+
+<<./database-sipintar.adoc#, Database Documentation Sipintar.NET>>
+
+<<./release-deploy-sipintar.adoc#, Release and Deployment Sipintar.NET>>
+
+<<./Flow-and-Wireframe-Sipintar/index.adoc#, Flow and Wireframe Sipintar.NET>>
+
+== Onboarding Information
+
+<<./dev-onboarding-sipintar.adoc#, Developer Onboarding Sipintar.NET>>
+
+<<./development-sipintar.adoc#, Development Sipintar.NET>>
+
+<<./naming-convention-sipintar.adoc#, Naming Convention Sipintar.NET>>
+
+== Quick Development Workflow
+
+[arabic]
+. _Assign_ _task_ dari Jira, eg; JIRA ID PDAM-2260
+. _Checkout_ ke _branch_ `main`
+. Buat _branch_ dengan nama sesuai JIRA ID. Contoh `git checkout -b PDAM-2260`
+. Buat draft PR (Pull Request). Contoh: base `main` - compare `PDAM-2260`
+. Dalam pengerjaannya, pastikan untuk _push commit_ dengan _commit message_ yang deskriptif setiap 1-3 jam
+. Lakukan _unit test_ pada setiap _line_ yang sudah ditulis. Pelajari lebih lengkap dalam _section_ <<./test-coverage.adoc#, Test Coverage>>
+. Pastikan untuk _run_ `dotnet test --settings coverlet.runsettings --logger trx` sebelum _push commit_
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem, berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+link:https://sipintardev.azurewebsites.net/[Development API Document]
+
+
+link:https://github.com/bimasaktialterra/sipintar.net/blob/main/CHANGELOG.md[Release Note Sipintar.NET]

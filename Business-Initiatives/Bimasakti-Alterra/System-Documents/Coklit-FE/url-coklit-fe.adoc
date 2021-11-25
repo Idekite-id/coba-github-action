@@ -1,0 +1,18 @@
+= System URL Coklit FE
+
+Saat ini sistem sudah dalam tahap __production__, informasi akses dapat dilihat melalui tabel di bawah ini. Gunakan alias, username, dan password yang sudah terdaftar untuk mengakses sistem.
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+|Development 
+| http://coklit-dash.sumpahpalapa.com/[]
+
+|Staging 
+| http://coklit-dash.sumpahpalapa.com/[]
+
+|Production 
+| https://coklit.bsa.id/[]
+|===

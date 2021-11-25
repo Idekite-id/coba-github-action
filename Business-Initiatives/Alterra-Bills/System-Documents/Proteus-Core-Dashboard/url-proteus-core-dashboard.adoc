@@ -1,0 +1,18 @@
+= System URL Proteus Core Dashboard
+
+Berikut merupakan tautan dari sistem Proteus Core Dashboard:
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *URL*
+
+| Development/Staging
+| https://proteuscore-dashboard.sumpahpalapa.com
+
+| UAT
+| https://proteuscore-dashboard-uat.sumpahpalapa.com
+
+| Production
+| http://proteus-core-dashboard.konekto.id
+|===

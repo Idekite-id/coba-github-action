@@ -1,0 +1,30 @@
+= Technology Oknurt
+
+Berikut adalah teknologi yang digunakan dalam pengembangan Kraken V2 :
+
+[cols="30%,30%,40%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+^.^h| *Description*
+
+| Sistem Operasi
+| Linux 
+|
+
+| Web Server 
+| NGINX 
+|
+
+| Bahasa Pemrograman 
+| Go 
+|
+
+| Framework 
+| Echo 
+| Minimalistic Go Framework
+
+| DBMS 
+| Mongo DB 
+| sebagai tempat penyimpanan data _log system_
+|===

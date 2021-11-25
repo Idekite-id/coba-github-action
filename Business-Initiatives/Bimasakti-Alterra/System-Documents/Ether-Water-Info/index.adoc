@@ -1,0 +1,65 @@
+= Ether Water Info
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Ether Water Info. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto | Engineering Manager | agusyudi@bsa.id
+| I Wayan Agus Krisna Apriana | Software Engineer | apriana@bsa.id
+| I Gede Krisna Putra Andiana | Software Engineer | gedekrisna@bsa.id
+| I Ketut Giri Arsa | Software Engineer | giriarsa@bsa.id
+| I Made Agus Surya Adiputra | Software Engineer | suryaadiputra@bsa.id
+| Hardiyusa | Software Engineer | hardiyusa@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Ether-Water-Info.adoc#, System URL Ether Water Info>>
+
+<<./architecture-Ether-Water-Info.adoc#, Architecture Ether Water Info>>
+
+<<./technology-Ether-Water-Info.adoc#, Technology Ether Water Info>>
+
+<<./environment-Ether-Water-Info.adoc#, Environment Ether Water Info>>
+
+<<./database-Ether-Water-Info.adoc#, Database Documentation Ether Water Info>>
+
+<<./release-deploy-Ether-Water-Info.adoc#, Release and Deployment Ether Water Info>>
+
+<<./flow-wire-Ether-Water-Info.adoc#, Flow and Wireframe Ether Water Info>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Ether-Water-Info.adoc#, Developer Onboarding Ether Water Info>>
+
+<<./development-Ether-Water-Info.adoc#, Development Ether Water Info>>
+
+<<./naming-convention-Ether-Water-Info.adoc#, Naming Convention Ether Water Info>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+
+<<./release-note-Ether-Water-Info.adoc#, Release Note Ether Water Info>>

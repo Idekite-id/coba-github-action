@@ -1,0 +1,41 @@
+= Tabungan Emas
+
+Tabungan Emas adalah layanan penitipan saldo emas yang memudahkan masyarakat untuk berinvestasi emas.
+
+*Variasi Produk*
+
+Varian produk Tabungan yang dimiliki Pegadaian, antara lain:
+
+- Buka tabungan emas
+- Beli emas
+- Jual emas
+- Transfer emas
+
+*Vendor Utama*
+
+Vendor utama dari produk jual beli emas adalah Pegadaian
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Buka Tabungan Emas: Setelah mendaftar tabungan emas, customer akan mendapatkan CIF, nomor rekening tabungan emas, dan tabungan emas yang dibeli
+
+- Beli Emas: Customer akan memasukkan jumlah uang yang akan ditabung menjadi emas. Customer akan mengetahui jumlah emas yang didapat. Setelah transaksi selesai, customer akan mendapatkan tambahan deposit emas di tabungan emas
+
+*Showcase Product Journey*
+
+Studi kasus Pegadaian
+
+. Pilih produk yang tersedia
+. Customer mengetikan nomor rekening tabungan emas dan jumlah uang akan dikonversi ke emas Pegadaian
+. Sistem menampilkan _invoice_ yang harus dibayarkan
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+*Switcher Product Journey*
+
+. Partner mengirimkan nomor rekening tabungan emas Pegadaian dan jumlah uang akan dikonversi ke emas Pegadaian
+. _Switching Engine_ mengirimkan _inquiry_ yang harus dibayarkan oleh Partner
+. Partner melakukan _request_ transaksi
+. _Switching Engine_ memproses transaksi dan kirim _callback_ ke Partner
+
+image::../../../images-bpa/flow-journey-tabungan-emas.png[align="center"]

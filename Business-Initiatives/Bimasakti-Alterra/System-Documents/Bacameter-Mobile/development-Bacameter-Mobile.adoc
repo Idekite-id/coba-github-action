@@ -1,0 +1,14 @@
+= Development Bacameter Mobile
+
+Berikut adalah Git Flow dan langkah _development_ sistem Bacameter Mobile.
+
+== Development Step
+
+1. Pull data from repo branch master (https://github.com/bimasaktialterra/mrs-mobile)
+2. Development of new features starting from the `develop` branch.
+3. Checkout and pull `develop/x.x.x` (latest version)
+4. For start a new feature, creates a new feature branch based on `develop` and switches to it with convention name: `feature/idJira-title`, eg: `feature/1234-layouting-login-page`
+5. Finish up a feature, Merges feature branch into `develop/x.x.x` (latest version)
+6. Start a release, Creates a release branch created from the `develop/x.x.x` branch with name `release/x.x.x`
+7. Finish up a release, Merges the release branch back into `master`
+8. Back-merges the release into `develop`

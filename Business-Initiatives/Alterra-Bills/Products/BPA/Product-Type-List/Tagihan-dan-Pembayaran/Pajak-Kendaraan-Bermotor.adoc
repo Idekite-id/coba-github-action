@@ -1,0 +1,86 @@
+= Pajak Kendaraan Bermotor
+
+PKB adalah program pembayaran pajak kendaraan bermotor secara online sehingga customer tidak harus datang ke kantor Samsat.
+
+*Variasi Produk*
+
+Tipe produk PKB tidak ada variasi / klasifikasi produk, semua pajak kendaraan bermotor.
+
+*Vendor Utama Produk*
+
+Vendor utama untuk produk PKB adalah Bank Daerah yang ditunjuk oleh Pemerintah Daerah, seperti:
+
+- Bank BJB
+- Bank Jakarta
+- Bank Jatim
+
+*Perilaku dan Cara Penggunaan Produk*
+
+Secara umum, Samsat online mempunyai 2 manfaat, yaitu:
+
+- Bagi Samsat: Samsat online menyajikan data lebih akurat dan _up to date_, sehingga dapat dilihat realisasi dan penerimanya per UPT PPD maupun secara keseluruhan.
+
+- Bagi Wajib Pajak: memudahkan pembayaran pajak kendaraan bermotor, karena dapat membayar pajak kendaraan di kantor bersama Samsat manapun selama 1 provinsi.
+
+Saat ini, baru beberapa provinsi yang sudah melayani pembayaran pajak motor online, yaitu:
+
+- Jawa Timur http://www.esamsat.jatimprov.go.id/
+
+- Jawa Tengah http://dppad.jatengprov.go.id/
+
+- Jawa Barat http://dispenda.jabarprov.go.id/e-samsat-jabar/
+
+- DKI Jakarta http://samsat-pkb.jakarta.go.id/INFO_PKB
+
+- Nangroe Aceh Darusalam esamsat.acehprov.go.id
+
+- Banten http://dppkd.bantenprov.go.id
+
+Syarat untuk menikmati fasilitas E-Samsat:
+
+. Kendaraan tidak dalam status blokir Ranmor/ blokir data kepemilikan.
+
+. Wajib Pajak memiliki telpon dan nomor seluler yang aktif.
+
+. Wajib Pajak Memiliki Nomor Rekening Tabungan dan Kartu ATM di Bank BJB atau Bank BNI atau Bank BCA atau Bank BRI dengan identitas yang sama dengan data kendaraan dimaksud.
+
+. Kendaraan yang bisa melakukan daftar ulang adalah yang Wajib Pajak yang NIK/No. KTP-nya telah sesuai (sama) antara yang terdaftar di server samsat dan di Rekening Bank BJB atau Bank BNI atau Bank BCA atau Bank BRI.
+
+. Berlaku untuk pembayaran pajak kendaraan daftar ulang 1 (satu) tahunan.
+
+. Tidak berlaku untuk pembayaran pajak kendaraan yang bersamaan dengan ganti STNK 5 tahunan.
+
+. Masa berlaku pajak yang bisa dibayar kurang dari 6 bulan dari masa jatuh tempo.
+
+. Wajib pajak adalah perseorangan (bukan badan usaha/yayasan /badan sosial).
+
+. Pajak kendaraan 5 tahunan tidak dapat dilakukan pembayaran online sehingga kode bayar tidak dapat di-_genarate_.
+
+*Product Journey*
+
+Partner Product Journey E-Samsat
+
+. Partner memasukkan Kode Bayar milik pelanggan
+
+. Sistem menampilkan _invoice_ tagihan yang harus dibayarkan oleh pelanggan
+
+. Partner melakukan transaksi pembayaran dengan metode yang tersedia
+
+. Partner akan menerima data bukti pembayaran dan detail data yang dibutuhkan untuk informasi ke pelanggan
+
+Switcher Product Journey E-Samsat
+
+. Partner memasukkan Kode Bayar milik pelanggan
+
+. Sistem mengirimkan _request_ inquiry untuk mendapatkan total tagihan pelanggan
+
+. Sistem mendapatkan _response _jumlah tagihan customer dan akan dikirimkan ke Partner
+
+. Partner melakukan _request_ transaksi
+
+. Sistem memproses _request_ transaksi dan mengirimkan _response_ dengan status **_pending_** ke Partner
+
+. Sistem mendapatkan _response_ dengan data-data detail yang dibutuhkan untuk pelanggan
+
+. Sistem mengirimkan _callback_ _response_ ke Partner
+

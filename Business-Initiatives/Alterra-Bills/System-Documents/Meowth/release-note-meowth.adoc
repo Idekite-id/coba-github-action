@@ -1,0 +1,273 @@
+= Release Note Meowth
+
+Di bawah ini adalah informasi rilis dari sistem Meowth.
+https://github.com/sepulsa/meowth/releases[https://github.com/sepulsa/meowth/releases]
+
+Klik tautan di bawah ini untuk mengakses referensi tentang _versioning_ yang digunakan sistem Meowth. https://www.thoughtfulcode.com/semantic-versioning-caring-communication/[https://www.thoughtfulcode.com/semantic-versioning-caring-communication/]
+
+== Functional Specification
+
+Klik tautan di bawah ini untuk mengakses dokumen spesifikasi fungsional sistem Meowth.
+
+|===
+| *Story ID*| *Story Name* | *Actors* | *I can... (Goal)* | *Remarks* | *Status*
+
+| S001
+| Log In
+| SADM, ADM
+| Log in to terra dashboard
+|
+| Live
+
+| S002
+| Log out
+| SADM, ADM
+| Log out from terra dashboard
+|
+| Live
+
+| S003
+| Filter client data
+| SADM, ADM
+| Filter client data based on client id, client name, partner, or status on client page
+|
+| Live
+
+| S004
+| Reset filter field
+| SADM, ADM
+| Resel filter field on client page
+|
+| Live
+
+| S005
+| View list of client
+| SADM, ADM
+| View list of client on client page
+|
+| Live
+
+| S006
+| Add client
+| SADM, ADM
+| Add new client on client page
+|
+| Live
+
+| S007
+| Edit client
+| SADM, ADM
+| Edit particular client data on client page
+|
+| Live
+
+| S008
+| Delete client
+| SADM, ADM
+| Delete particular client on client page
+|
+| Live
+
+| S009
+| Filter banner type data
+| SADM, ADM
+| Filter banner type by code on banner type page
+|
+| Live
+
+| S010
+| Reset filter field
+| SADM, ADM
+| Resel filter field on banner page
+|
+| Live
+
+| S011
+| View list of banner type
+| SADM, ADM
+| View list of banner type on banner page
+|
+| Live
+
+| S012
+| Add banner type
+| SADM, ADM
+| Add new banner type on banner page
+|
+| Live
+
+| S013
+| Edit banner type
+| SADM, ADM
+| Edit particular banner type on banner page
+|
+| Live
+
+| S014
+| Delete banner type
+| SADM, ADM
+| Delete particular banner type on banner page
+|
+| Live
+
+| S015
+| Filter promo
+| SADM, ADM
+| Filter promo based on general, promo code, partner, promo name, or status on promo page
+|
+| Live
+
+| S016
+| Reset filter field
+| SADM, ADM
+| Reset filter field on promo page
+|
+| Live
+
+| S017
+| View list of promo
+| SADM, ADM
+| View list of promo on promo page
+|
+| Live
+
+| S018
+| Add promo
+| SADM, ADM
+| Add new promo on promo page
+|
+| Live
+
+| S019
+| Upload promo code
+| SADM, ADM
+| Upload csv file that contain promo code
+|
+| Live
+
+| S020
+| Edit promo
+| SADM, ADM
+| Edit particular promo on promo page
+|
+| Live
+
+| S021
+| Delete promo
+| SADM, ADM
+| Delete particular promo on promo page
+|
+| Live
+
+| S022
+| View promo details
+| SADM, ADM
+| View particular promo details on promo page
+|
+| Live
+
+| S023
+| Add & replace banner promo
+| SADM, ADM
+| Add & replace particular banner promo on promo page
+|
+| Live
+
+| S024
+| Add & replace how to
+| SADM, ADM
+| Add & replace how to of particular promo on promo page
+|
+| Live
+
+| S025
+| Add & replace term and conditions
+| SADM, ADM
+| Add & relpace TnC of particular promo on promo page
+|
+| Live
+
+| S026
+| Add & replace call to action
+| SADM, ADM
+| Add & replace call to action pf particular promo on promo page
+|
+| Live
+
+| S027
+| Custom HTML
+| SADM, ADM
+| Custom HTML for particular promo on promo page
+|
+| Live
+
+| S028
+| Add generate promo code
+| SADM, ADM
+| Add new generate promo code on promo page
+|
+| Live
+
+| S029
+| Export promo code
+| SADM, ADM
+| Export promo code to csv file
+|
+| Live
+
+| S030
+| View history promo code
+| SADM, ADM
+| View promo code download history on promo page
+|
+| Live
+
+| S031
+| Setup meowth settings
+| SADM, ADM
+| Setup meowth setting on settings page
+|
+| Live
+
+| S032
+| Filter log
+| SADM, ADM
+| Filter log by type or action on log page
+|
+| Live
+
+| S033
+| Filter recon redeem
+| SADM, ADM
+| Filter recon redeem by general search, order id, promo code, identifier, promo, usage status or transaction date
+|
+| Live
+
+| S034
+| View recon redeem list
+| SADM, ADM
+| View list of recon redeem on report page
+|
+| Live
+
+| S035
+| Filter failed usage log
+| SADM, ADM
+| Filter recon redeem by order id, promo code, identifier, promo
+|
+| Live
+
+| S036
+| View failed usage log list
+| SADM, ADM
+| View list of failed usage log on report page
+|
+| Live
+
+| S037
+| View detail of failed usage log
+| SADM, ADM
+| View detail of particular failed usage log on report page
+|
+| Live
+|===

@@ -1,0 +1,65 @@
+= Proteus Core Dashboard
+:keywords: gst, traditional 
+
+== Overview
+
+Proteus Core Dashboard adalah _dashboard_ untuk sistem Proteus Core.
+Dimana _dashboard_ ini digunakan oleh Serpul Owner untuk mengatur produknya yang akan digunakan untuk transaksi dari _partner_.
+Selain itu juga, Serpul Owner bisa membuat akun untuk _partner_ pada _dashboard_ ini.
+
+== Team Involved
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Kevin Setiawan Tanzil
+| Lead Software Engineer
+| kevin@alterra.id
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Anandhi Tristiaratri
+| Quality Engineer
+| anandhi@alterra.id
+
+| Moehammad Oki Putra Samudra
+| Software Engineer
+| oki@alterra.id
+
+| Doni Hadiyansyah
+| Software Engineer
+| dhadiansyah@alterra.id
+
+| Mohamad Lutfi
+| Software Engineer
+| lutfi@alterra.id
+
+| Micky Robby Saputra Eka S
+| Quality Engineer
+| micky@alterra.id
+|===
+
+== Technical Information
+
+<<./architecture-proteus-core-dashboard.adoc#, Architecture Proteus Core Dashboard>>
+
+<<./url-proteus-core-dashboard.adoc#, System URL Proteus Core Dashboard>>
+
+<<./technology-proteus-core-dashboard.adoc#, Technology Proteus Core Dashboard>>
+
+<<./environment-proteus-core-dashboard.adoc#, Environment Proteus Core Dashboard>>
+
+== Onboarding Information
+
+<<./dev-onboarding-proteus-core-dashboard.adoc#, Developer Onboarding Proteus Core Dashboard>>
+
+<<./development-proteus-core-dashboard.adoc#, Development Proteus Core Dashboard>>
+
+== Documentation
+
+https://docs.google.com/document/d/1EwJOET4OyXQXqA2wxmKJ6fwxmDFTUr2iF9fc14Nc73Q/edit?usp=sharing[User Guide Proteus Dashboard for Operations Team]

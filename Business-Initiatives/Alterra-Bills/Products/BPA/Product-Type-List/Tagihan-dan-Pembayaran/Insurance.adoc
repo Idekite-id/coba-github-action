@@ -1,0 +1,46 @@
+= Insurance
+
+Produk untuk pembayaran premi atau iuran asuransi yang harus dibayar setiap bulan. Asuransi adalah pertanggungan atau perjanjian antara dua belah pihak, di mana pihak satu berkewajiban membayar iuran/kontribusi/premi. Premi asuransi adalah iuran yang harus dibayar setiap bulan sesuai dengan kewajiban nasabah asuransi (sebagai tertanggung) atas keikutsertaan program asuransi.
+
+*Variasi Produk*
+
+Secara umum, berdasarkan pembagain jenis asuransinya. Produk Asuransi (diluar asuransi sosial BPJS dan BPJS Ketenagakerjaan) dapat dibagi menjadi:
+
+- Asuransi Umum
+- Asuransi Jiwa
+- Reasuransi
+
+*Vendor Utama Produk*
+
+Berikut adalah sumber referensi terkait daftar produk asuransi yang dapat diintegrasikan ke Alterra Bills:
+
+link:https://www.ojk.go.id/id/kanal/iknb/berita-dan-kegiatan/publikasi/Pages/Daftar-Perusahaan-Asuransi-Umum,-Jiwa,-Reasuransi,-Asuransi-Wajib-Dan-Asuransi-Sosial.aspx[Referensi Produk Asuransi]
+
+Dengan rincian sebagai berikut:
+
+- Asuransi Umum  = 76 Perusahaan
+- Asuransi Jiwa = 50 Perusahaan
+- Reasuransi = 6 Perusahaan
+- Asuransi Wajib = 3 Perusahaan
+- Asuransi Sosial = 2 Perusahaan
+
+*Perilaku dan Penggunaan Produk*
+
+Bila pelanggan asuransi terdaftar dengan auto debit sebagai metode pembayaran polisnya dan telah dilakukan pembayaran melalui channel lain maka auto debit tidak dijalankan.
+
+*Customer Journey*
+
+Partner
+
+. Pilih produk yang tersedia
+. Customer mengetikan _customer number_ (nomor polis)
+. Sistem menampilkan _invoice_ tagihan yang harus dibayarkan
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi/Website Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher / Aggregator
+
+. Partner mengirimkan customer number (nomor polis)
+. _Switching Engine_ mengirimkan _inquiry_ yang harus dibayarkan oleh partner
+. Partner melakukan _request_ transaksi
+. _Switching Engine_ memproses transaksi dan kirim _callback_ ke Partner

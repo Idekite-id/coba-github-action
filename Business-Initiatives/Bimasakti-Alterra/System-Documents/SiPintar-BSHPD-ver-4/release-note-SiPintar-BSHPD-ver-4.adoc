@@ -1,0 +1,3 @@
+= Release Note SiPintar BSHPD ver 4
+
+Berisi catatan rilis sistem.

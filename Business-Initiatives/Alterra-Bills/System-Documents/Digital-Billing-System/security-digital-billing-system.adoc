@@ -1,0 +1,22 @@
+= Security Digital Billing System
+
+Berikut keamanan yang digunakan di _Digital Billing System_ :
+
+== _JWT (JSON Web Token)_
+
+_JSON Web Token_  digunakan untuk mengautentikasi _REST API_ (_endpoint_ Sistem _Disbursement_), sehingga hanya pihak atau Merchant yang memiliki token saja yang boleh menggunakannya.
+
+Untuk mendapatkan token, Merchant atau pihak yang ingin integrasi dengan Sistem _Disbursement_ memerlukan `key` dan `secret`, yang akan didapatkan jika sudah terdaftar sebagai _Merchant_ Sistem _Disbursement_.
+
+== _Signature_
+
+_Signature_ digunakan untuk mem-verifikasi bahwa _request disburse_ yang diajukan _valid_ atau tidak. _Signature_ memungkinkan Sistem _Disbursement_ mengetahui bahwa request yang diajukan _valid_ dan berasal dari _Merchant_ yang sudah terdaftar di Sistem _Disbursement_.
+
+== _Throttling_
+
+_Throttling_ merupakan pembatasan dalam pemanggilan _API_. _Throttling_ mengatur izin apakah pemanggilan _API_ tersebut _valid_ atau tidak. _Throttling_ digunakan untuk mengontrol data yang dapat diakses _Merchant_ melalui _API_.
+
+Penerapan _Throttling_ dalam Sistem _Disbursment_:
+
+. *_Login_*, dibatasi 10 request per menit, ketika request lebih dari 10 per menit maka Sistem Disbursment akan mem-block request tersebut berdasarkan `IP`.
+. *_Transaction Disbursement_*, jika melebihi batas _request_ per menit maka Sistem _Disbursement_ akan mem-_block_ _request_ tersebut berdasarkan `merchant`, `dest_no`, `bank_code`.

@@ -1,0 +1,470 @@
+= API Biller Config Trunko
+
+== Biller Config
+
+----
+    {
+       "production":false,
+       "debug":true,
+       "response_code_mapping":{
+    			"00":[
+             {
+                "biller_rc":"0000",
+                "message":"Success"
+             }
+          ],
+          "20":[
+             {
+                "biller_rc":"9006",
+                "message":"Nomorexpiredataubelumaktif"
+             }
+          ],
+          "22":[
+             {
+                "biller_rc":"9012",
+                "message":"DuplicateTransactionID/RejectFromBilling"
+             },
+             {
+                "biller_rc":"",
+                "message":"Duplicateentry“idx”key1"
+             }
+          ]
+       },
+       "product_mapping":{
+          "13":{
+             "product_id":"PKREG60WS",
+             "price":4900
+          }
+       },
+       "api_config":{
+          "connection_type":"http", // code, http, http, rcp, dll
+    			"content_type": "json", // json, xml, text, dll
+    			"callback": {
+    				"whitelist": "::1, 192.168.2.12",
+    				"response_map": {
+    					"remote_transaction_id": "data.remote_transaction_id",
+    					"serial_number": "data.serial_number",
+    					"biller_rescode": "data.rc_biller",
+    					"message": "data.biller_message"
+    				},
+    				"response_success": "ok"
+    			},
+          "auth":{
+             "type":"Bearer Token",
+             "request":{
+                "url":"http://157.230.254.134/login",
+                "method":"post",
+                "header":{
+                   "Content-Type":"application/json"
+                },
+                "timeout":60,
+                "body":"{\"username\": \"andi123\",\"password\": \"asd123\"}"
+             },
+             "response_map":{
+                "token":"payload.token"
+             }
+          },
+          "purchase":{
+             "mobile":{ // tombol plus di front end pilih product type
+                "request":{
+                   "url":"https://almock.sumpahpalapa.com/fbs/purchasesuccess/process/request_inquiry",
+                   "method":"post",
+                   "header":{
+                      "Content-Type":"application/json"
+                   },
+                   "timeout":60,
+                   "body":"{\"product_id\":\"b5af8f85-119e-450e-ae52-27a3cc6a15c5\",\"data\":{\"transaction_id\":[transaction_id],\"customer_number\":\"[customer_id]\"}}"
+                },
+                "response_map":{ // tombol plus di front end pilih response kraken variable
+                   "remote_transaction_id":"data.remote_transaction_id",
+                   "serial_number":"data.serial_number",
+                   "biller_rescode":"data.rc_biller",
+                   "message":"data.biller_message"
+                },
+    			      "rules":[ // for detail specification, see below
+    			         {
+    									"label": "hanya sebuah label",
+    			            "conditions":[
+    			               {"data":"[data.status]","operator":"equal","value":"gagal","logic":"and"},
+    			               {"data":"[data.transaction_id]","operator":"not_empty","value":"","logic":""}
+    			            ],
+    			            "operations":[
+    			               {"data":"next","function":"","value":"advice"}
+    			            ],
+    			         },
+    							 {
+    									"label": "hanya sebuah label",
+    			            "conditions":[
+    			               {"data":"[data.status]","operator":"equal","value":"sukses","logic":"and"},
+    			               {"data":"[data.transaction_id]","operator":"not_empty","value":"","logic":""}
+    			            ],
+    			            "operations":[
+    			               {"data":"next","function":"","value":"reversal"}
+    			            ],
+    			         }
+    			      ]
+             },
+             "electricity":{
+                "request":{
+                   "url":"https://almock.sumpahpalapa.com/fbs/purchasesuccess/process/request_inquiry",
+                   "method":"post",
+                   "header":{
+                      "Content-Type":"application/json"
+                   },
+                   "timeout":60,
+                   "body":"{\"product_id\":\"b5af8f85-119e-450e-ae52-27a3cc6a15c5\",\"data\":{\"transaction_id\":[transaction_id],\"customer_number\":\"[customer_id]\"}}"
+                },
+                "response_map":{ // tombol plus di front end pilih response kraken variable
+                   "remote_transaction_id":"data.remote_transaction_id",
+                   "serial_number":"data.serial_number",
+                   "biller_rescode":"data.rc_biller",
+                   "message":"data.biller_message"
+                },
+    						"rules": []
+             }
+          },
+          "advise":{
+             "mobile":{ // tombol plus di front end pilih product type
+                "request":{
+                   "url":"https://almock.sumpahpalapa.com/fbs/advisesuccess/process/request_inquiry",
+                   "method":"post",
+                   "header":{
+                      "Content-Type":"application/json"
+                   },
+                   "timeout":60,
+                   "body":"{\"product_id\":\"b5af8f85-119e-450e-ae52-27a3cc6a15c5\",\"data\":{\"transaction_id\":[transaction_id],\"customer_number\":\"[customer_id]\"}}"
+                },
+                "response_map":{ // tombol plus di front end pilih response kraken variable
+                   "remote_transaction_id":"data.remote_transaction_id",
+                   "serial_number":"data.serial_number",
+                   "biller_rescode":"data.rc_biller",
+                   "message":"data.biller_message"
+                },
+    	          "rules": []
+             },
+             "electricity":{
+                "request":{
+                   "url":"https://almock.sumpahpalapa.com/fbs/advisesuccess/process/request_inquiry",
+                   "method":"post",
+                   "header":{
+                      "Content-Type":"application/json"
+                   },
+                   "timeout":60,
+                   "body":"{\"product_id\":\"b5af8f85-119e-450e-ae52-27a3cc6a15c5\",\"data\":{\"transaction_id\":[transaction_id],\"customer_number\":\"[customer_id]\"}}"
+                },
+                "response_map":{ // tombol plus di front end pilih response kraken variable
+                   "remote_transaction_id":"data.remote_transaction_id",
+                   "serial_number":"data.serial_number",
+                   "biller_rescode":"data.rc_biller",
+                   "message":"data.biller_message"
+                },
+                "rules": []
+             }
+          },
+          "reversal":{
+             "mobile":{ // tombol plus di front end pilih product type
+                "request":{
+                   "url":"https://almock.sumpahpalapa.com/fbs/reversalsuccess/process/request_inquiry",
+                   "method":"post",
+                   "header":{
+                      "Content-Type":"application/json"
+                   },
+                   "timeout":60,
+                   "body":"{\"product_id\":\"b5af8f85-119e-450e-ae52-27a3cc6a15c5\",\"data\":{\"transaction_id\":[transaction_id],\"customer_number\":\"[customer_id]\"}}"
+                },
+                "response_map":{ // tombol plus di front end pilih response kraken variable
+                   "remote_transaction_id":"data.remote_transaction_id",
+                   "serial_number":"data.serial_number",
+                   "biller_rescode":"data.rc_biller",
+                   "message":"data.biller_message"
+                },
+    						"rules": []
+             },
+             "electricity":{
+                "request":{
+                   "url":"https://almock.sumpahpalapa.com/fbs/reversalsuccess/process/request_inquiry",
+                   "method":"post",
+                   "header":{
+                      "Content-Type":"application/json"
+                   },
+                   "timeout":60,
+                   "body":"{\"product_id\":\"b5af8f85-119e-450e-ae52-27a3cc6a15c5\",\"data\":{\"transaction_id\":[transaction_id],\"customer_number\":\"[customer_id]\"}}"
+                },
+                "response_map":{ // tombol plus di front end pilih response kraken variable
+                   "remote_transaction_id":"data.remote_transaction_id",
+                   "serial_number":"data.serial_number",
+                   "biller_rescode":"data.rc_biller",
+                   "message":"data.biller_message"
+                },
+    						"rules": []
+             }
+          },
+          "stock":{
+             "request":{
+                "url":"https://almock.sumpahpalapa.com/fbs/stocksuccess/process/request_inquiry",
+                "method":"post",
+                "header":{
+                   "Content-Type":"application/json"
+                },
+                "timeout":60,
+                "body":"{\"product_id\":\"b5af8f85-119e-450e-ae52-27a3cc6a15c5\",\"data\":{\"transaction_id\":[transaction_id],\"customer_number\":\"[customer_id]\"}}"
+             },
+             "response_map":{ // tombol plus di front end pilih response kraken variable
+                "remote_transaction_id":"data.remote_transaction_id",
+                "serial_number":"data.serial_number",
+                "biller_rescode":"data.rc_biller",
+                "message":"data.biller_message"
+             }
+          }
+       }
+    }
+----
+
+== Biller Config Rules Spec
+
+----
+    {
+      "rules": [ //|optional|array_object|, if empty set to empty array []
+    		{
+    	    "conditions": [ //|optional|array_object|
+    	      {
+    	        "data": "",//|required|string|, use bracket [] if refer to fbs response
+    	        "operator": "",//|required|string|, see below for list operator
+    	        "value": "",//|optional|string| use bracket [] if refer to fbs response
+    	        "logic": ""//|optional|string|, MUST set to empty for single/last condition
+    	      }
+    	    ],
+    			// Operations will be executed when Conditions TRUE
+    	    "operations": [ //|optional|array_object|
+    	      {
+    	        "data": "",//|required|string|, dropdown, refer to Kraken Response Variable for Map
+    	        "function": "",//|optional|string| list function see below
+    	        "value": "advice"//|optional|string| use bracket [] if refer to fbs response
+    	      }
+    	    ]
+    		}
+    	]
+    }
+----
+
+== Biller Config Rules Operator
+
+----
+    // operator
+    empty //no need value, ( "",0,[],{},null )
+    not_empty //no need value
+    equal
+    not_equal
+
+    num_greater_than
+    num_greater_than_or_equal
+    num_less_than
+    num_less_than_or_equal
+
+    date_before
+    date_after
+
+    text_contains
+    text_not_contains
+
+    // operator logc
+    and
+    or
+----
+
+== Biller Config Rules Examples
+
+----
+    // condition data/value, operation value refer to FBS response
+    {
+      "rules": [
+        {
+    			"label" : "jika status 401, next advise"
+          "conditions": [
+            {
+              "data": "[status]", //refer to fbs response
+              "operator": "equal",
+              "value": "[data.rc_biller]", //refer to fbs response
+              "logic": "or"
+            },
+            {
+              "data": "[data.rc_biller]", // refer to fbs response
+              "operator": "equal",
+              "value": "0000", // just string
+              "logic": "" // MUST be empty for last condition
+            }
+          ],
+          "operations": [
+            {
+              "data": "biller_rescode",
+              "function": "",
+              "value": "[data.rc_biller]" // refer to fbs response
+            }
+          ]
+        }
+      ]
+    }
+
+    // condition with operator date
+    {
+      "rules": [
+        {
+    			"label": "cmn label",
+          "conditions": [
+            {
+              "data": "[transaction_date]", //ex value: 2019-08-31 23:00:00
+              "operator": "date_before",
+              "value": "2019-09-01", // also support 2019-09-01 00:00:00
+              "logic": "" // MUST be empty for single condition
+            }
+          ],
+          "operations": [
+            {
+              "data": "next",
+              "function": "",
+              "value": "advise"
+            }
+          ]
+        }
+      ]
+    }
+
+    // condition with operator empty / not_empty
+    {
+      "rules": [
+        {
+          "conditions": [
+            {
+              "data": "[data.serial_number]", // SN-12345-XXX
+              "operator": "not_empty",
+              "value": "", // no need to set value
+              "logic": "and"
+            },
+    				{
+              "data": "[data.status]",
+              "operator": "not_empty",
+              "value": "", // no need to set value
+              "logic": ""
+            }
+          ],
+          "operations": [
+            {
+              "data": "serial_number",
+              "function": "regex",
+              "value": "sn:([0-9]+),[data.message]"
+            }
+          ]
+        }
+      ]
+    }
+
+    // condition will always TRUE
+    {
+      "rules": [
+        {
+          "conditions": [
+            {
+              "data": "1",
+              "operator": "num_greater_than_or_equal",
+              "value": "1",
+              "logic": ""
+            }
+          ],
+          "operations": [
+            {
+              "data": "next",
+              "function": "",
+              "value": "advise"
+            }
+          ]
+        }
+      ]
+    }
+----
+
+== Biller Rules Function
+
+----
+    // used in rules operation function
+    formula ===> support for math operator: * / + - ( )
+    substring(value, indexFrom, indexTo)
+    length(value)
+    replace(value, old, new)
+    concat(value, ...value)
+    uppercase(value)
+    lowercase(value)
+    regex(exp, value)
+----
+
+== Biller Rules Temporary Variables
+
+----
+    //temporary varibale, only used in rules operation data
+    _VAR_A_
+    _VAR_B_
+    _VAR_C_
+----
+
+== Kraken Request Variable for Map
+
+----
+    [transaction_id]
+    [transaction_biller_id]
+    [remote_transaction_id]
+    [remote_product_id]
+    [customer_id]
+    [partner_id]
+    [product_id]
+    [biller_id]
+    [biller_label]
+    [counter]
+    [rawdata]
+----
+
+== Kraken Response Variable for Map
+
+----
+    //also can be used in rules operations data
+    remote_transaction_id
+    serial_number
+    biller_rescode
+    message
+    next
+    detail
+----
+
+== Command for Api Config
+
+----
+    purchase
+    advise
+    reversal
+    stock
+----
+
+== Product Type for Api Config
+
+----
+    mobile
+    electricity
+    multi
+    bpjs_kesehatan
+    game
+    electricity_postpaid
+    telkom_postpaid
+    pdam
+    prepaid_registration
+    spoint
+    tv_cable
+    mobile_postpaid
+    data
+    bill
+    voucher_game
+    telkom
+    emoney
+    paytv_postpaid
+    multifinance
+    ewallet
+    zakat
+    infaq
+----

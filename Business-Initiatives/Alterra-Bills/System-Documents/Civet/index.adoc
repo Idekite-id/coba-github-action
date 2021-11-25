@@ -1,0 +1,68 @@
+= Civet
+:keywords: akj,telco,telco-order-system,kraken,meowth,polaris,terra,takoyaki
+
+== Overview
+
+Civet merupakan _clone_ dari sistem Pronghorn. Civet sendiri memiliki _frontend_ yang dinamakan Robusta. Sistem ini merupakan sistem yang berfungsi untuk memproses transaksi-transaksi _partner_ dari Whitelabel, terutama dalam bidang telekomunikasi. Beberapa produk yang tersedia dan dapat diproses oleh Civet adalah: 
+
+* Pulsa
+* Paket Data
+* dan lain-lain
+
+Cara pembayaran yang dapat dilakukan dengan sistem Civet di antaranya adalah:
+
+* Credit Card
+* Jenius
+* OVO
+* Kredivo
+* Gopay
+* Dana
+
+Dalam memproses transaksi, sistem ini menerima order atau transaksi dari _frontend_ Robusta, kemudian transaksi tersebut dilanjutkan dan diproses di Kraken.
+
+=== Latar Belakang Penamaan Sistem 
+
+Civet dalam bahasa Indonesia berarti musang. Musang adalah mamalia bersifat nokturnal yang bertubuh kecil dan lentur. Sebagian besar populasi musang berasal dari Asia dan Afrika, terutama daerah dengan hutan tropis. Musang memiliki bentuk badan yang mirip seperti kucing, dengan bentuk muka seperti luwak atau berang-berang. Panjang musang dapat berkisar antara 43 hingga 71 meter (belum termasuk panjang ekor) sedangkan beratya mencapai 1,4 hingga 4,5 kg.
+
+=== Team Involved
+
+|===
+|*Name*|*Role*|*Email*
+| Pipit Puspitasari |Product Owner | pipit@alterra.id
+| Ananto Eko Hendarto |Developer Manager |anton@alterra.id
+| Hendrik Rahardja|Lead Developer| hendrik@alterra.id
+|Johanes Paulus Giovani Putra|Lead Quality Engineer |johanes@alterra.id
+|Pipit Puspitasari| Ex Lead System Analyst|pipit@alterra.id |
+|===
+
+== Technical Information
+
+<<./url-civet.adoc#,  System URL Civet>>
+
+<<./architecture-civet.adoc#,  Architecture Civet>>
+
+<<./technology-civet.adoc#,  Technology Civet>>
+
+<<./environment-civet.adoc#,  Environment Civet>>
+
+<<./database-civet.adoc#,  Database Documentation Civet>>
+
+<<./release-deploy-civet.adoc#,  Release and Deployment Civet>>
+
+== Onboarding Information
+
+<<./dev-onboarding-civet.adoc#,  Developer Onboarding Civet>>
+
+<<./development-civet.adoc#,  Development Civet>>
+
+<<./naming-convention-civet.adoc#,  Naming Convention Civet>>
+
+== Documentation
+
+https://docs.google.com/document/d/1hFFZYPIno2V0iEgLIU3vKIJnxx1LBT8d-Qqu2l0rKpo/edit?usp=sharing[User Guide Civet (for Operations Team)]
+
+https://pron.sumpahpalapa.com/swaggerui/index.html[API Documentation]
+
+<<./flow-civet.adoc#,  Feature and Flow Civet>>
+
+https://github.com/sepulsa/civet/releases[Release Note]

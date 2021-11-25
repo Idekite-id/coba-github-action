@@ -1,0 +1,154 @@
+= Tiket Pesawat 
+
+Produk untuk memfasilitasi pembelian dan pembayaran tiket pesawat secara online. Pesawat terbang adalah transportasi travel terbesar dan tergolong termewah di Indonesia. Selain sudah mempunyai pasar tersendiri, pesawat juga sangat memudahkan dalam perjalanan dengan waktu yang sangat minim untuk perjalanan berkilo-kilo meter. Mengarah ke Surat Edaran Menteri Perhubungan Nomor HK 209/I/I/16/PHB.2014, banyak perusahaan dan PT dari penerbangan membuka peluang dalam penjualan tiket secara online. Tidak bisa dipungkiri lagi untuk masa sekarang dan akan datang penjualan tiket secara online sangat meningkat pesat dikalangan pengguna transportasi pesawat selain karena memudahkan dalam pembelian, pemesanan berbasis online juga menyediakan banyak fitur yang sangat dibutuhkan dalam pemesanan tiket pesawat.
+
+*Variasi Produk*
+
+|===
+|Product Type |Product Code|Operator| Label  
+
+|Flight
+|QG
+|Citilink
+|Citylink
+
+|Flight
+|SJ
+|Sriwijaya
+|Sriwijaya
+
+|Flight
+|GA
+|Garuda Indonesia
+|Garuda Indonesia
+
+|Flight
+|ID
+|Batik Air
+|Batik Air
+|===
+
+*Vendor Utama Produk*
+
+- Darmawisata
+- Bimasakti - Fast Travel
+
+*Perilaku dan Cara Penggunaan Produk*
+
+Penggunaan umum dalam pemesanan tiket:
+
+. User memilih Airport keberangkatan dan tujuan
+
+. User memilih tanggal berangkat dan tanggal kembali (opsional jika pesan tiket PP)
+
+. User memilih jumlah penumpang ( Dewasa(_adult_), Anak(_child_), Bayi(_infant_) )
+
+. User akan melihat tampilan _list schedule_ dari pesawat yang tersedia sesuai dengan filter yang dipilih:
+
+.. Nama Maskapai + Icon
+.. Rute Pesawat
+.. Deskripsi rute (*Langsung , +1 transit , +2 transit, dll*)
+.. Harga Tiket
+
+. User memilih salah satu dari _list schedule_ yang ditampilkan pada daftar jadwal
+
+. User mengisi form data pemesan dan detail penumpang
+
+. User memilih tempat duduk penumpang (Opsional, tidak semua maskapai)
+
+. User mendapatkan detail data pemesanan (*_Booking Code_*)
+
+. User melakukan pembayaran
+
+. Jika pembayaran sukses, maka user akan diberikan e-ticket yang dikirimkan ke email pemesan
+
+*Customer Journey*
+
+Partner
+
+. Partner memilih produk tiket pesawat
+
+. Partner memasukkan data untuk mencari _schedule_ yang tersedia:
+
+.. Lokasi bandara keberangkatan dan tujuan
+.. Tanggal keberangkatan dan kembali (opsional, jika beli tiket PP)
+.. Jumlah penumpang (_adult_, _child_, _infant_)
+
+. Partner akan diberikan _list schedule_ pesawat secara detail yang tersedia sesuai dengan filter pencarian (nomor 2 dan 3):
+
+.. Nama Maskapai + Icon
+.. Rute Pesawat
+.. Deskripsi rute (*Langsung , +1 transit , +2 transit, dll*)
+.. Harga Tiket
+
+. Partner memilih salah satu dari _schedule_ yang telah disediakan
+
+. Partner mengisi data customer (pemesan) dan data passengers (penumpang):
+
+.. *Customer*
+
+- Title
+- Fullname
+- Phone number
+- Email
+
+.. *Passengers*
+
+- Passenger type (_adult_, _child_, _infant_)
+- Title
+- Fullname
+
+. Partner melakukan proses booking tiket dengan data sesuai yang di inputkan
+
+. Partner mendapatkan detail booking data (termasuk _booking code_)
+
+. Partner melakukan transaksi pembayaran dengan menginputkan ``customer_id` berisi data nomor telepon pemesan
+
+. Jika data pembayaran sukses, maka akan mendapatkan respone sukses dan data untuk kebutuhan pembentukan e-ticket.
+
+image::../../../images-bpa/flow-journey-pesawat.png[align="center"]
+
+Switcher/Aggregator
+
+. Partner memilih menu produk tiket pesawat
+
+. _Switching Engine_ melakukan _get list_ Airport untuk kebutuhan pilihan bandara keberangkatan dan tujuan
+
+. Partner memasukkan data kebutuhan _search schedule_
+
+.. Lokasi bandara (keberangkatan dan tujuan)
+.. Tanggal keberangkatan dan kembali (opsional jika pilih tiket PP)
+.. Jumlah penumpang (_Adult_, _Child_, _Infant_)
+
+. _Switching Engine_ melakukan _request_ data Search Ticket ke Biller
+
+. _Switching Engine_ _get list_ data schedule pesawat berdasarkan filter parameter yang di-_request_ customer
+
+. Partner memilih salah satu _schedule_ pesawat yang ada di list
+
+. Partner mengisi form daftar penumpang dan data pemesan dan submit data
+
+. _Switching Engine_ melakukan pengecekan harga tiket masih sama dan _available_
+
+. _Switching Engine_ validation:
+
+- Jika harga sama dan _available_, maka akan dilanjutkan ke proses booking tiket
+- Jika harga beda dan available, maka akan ada informasi tentang *harga baru*
+- Jika harga sama/beda tapi tidak available, maka proses booking akan error
+
+. _Switching Engine_ memproses booking tiket sesuai dengan data yang sudah di-_submit_ sebelumnya
+
+. _Switching Engine_ mendapatkan response booking tiket
+
+. Jika sukses, maka akan mendapatkan detail booking (termasuk *_Booking Code_*)
+
+. Jika gagal, maka akan mendapatkan respone _error booking_
+
+. Partner melakukan proses transaksi dengan input ``customer_id`` nomor telepon pemesan
+
+. _Switching Engine_ melakukan _confirm request_ dan proses _request transaction_ ke Biller
+
+. _Switching Engine_ menerima _response transactional_ dari Biller dan _recon data response_
+
+. _Switching Engine_ melakukan update status *_success_* _transaction_ dan mengirim _callback_ ke Partner data untuk kebutuhan pembentukan e-ticket Partner
+

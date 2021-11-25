@@ -1,0 +1,33 @@
+= Business Initiatives
+
+Sebagai company yang terus berkembang, Alterra terus mengembangkan berbagai inisiatif untuk mencapai visinya sebagai inovator _billing_ terbaik di Indonesia. Berbagai insiatif tersebut saling berkaitan sehingga dikelompokkan ke dalam _business unit_ tertentu. Beberapa di antaranya adalah Alterra Bills dan Bimasakti Alterra. 
+
+image::images-business-initiatives/business-initiatives-page.png[Business Initiatives]
+
+Nah, ada apa saja di masing-masing _business unit_? Daftar lengkapnya ada di bawah yaaaa.
+
+[cols="50%,50%",frame=none, grid=none]
+|===
+a| == *Alterra Bills*
+
+link:./Alterra-Bills/Company/index.adoc[Company]
+
+link:./Alterra-Bills/Guidelines/index.adoc[Guidelines]
+
+link:./Alterra-Bills/Governance-Documents/index.adoc[Governance Documents]
+
+link:./Alterra-Bills/Products/index.adoc[Products]
+
+link:./Alterra-Bills/System-Documents/index.adoc[System Documents]
+a| == *Bimasakti Alterra*
+
+link:./Bimasakti-Alterra/Company/index.adoc[Company]
+
+link:./Bimasakti-Alterra/Guidelines/index.adoc[Guidelines]
+
+link:./Bimasakti-Alterra/Governance-Documents/index.adoc[Governance Documents]
+
+link:./Bimasakti-Alterra/Products/index.adoc[Products]
+
+link:./Bimasakti-Alterra/System-Documents/index.adoc[System Documents]
+|===

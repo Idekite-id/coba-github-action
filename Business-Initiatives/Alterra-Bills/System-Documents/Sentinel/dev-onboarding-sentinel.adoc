@@ -1,0 +1,30 @@
+= Developer Onboarding Sentinel
+
+== Tools and Preparation
+
+Berikut tools yang digunakan dalam sistem Sentinel:
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h|*Spesification* 
+^.^h|*Name*
+
+| Programming Language 
+| Javascript 
+
+| Framework
+| Vue.js
+
+| Package Manager
+| NPM
+
+| Development Tools
+| Visual Studio Code, Vue.js Dev Tools, Firefox & Chrome Plugin
+|===
+
+== Local Machine Setup
+
+. _Install_ Nodejs dan Yarn Package Manager
+. _Clone_ dari Git
+. Arahkan _terminal_ ke _directory Git_ dan jalankan perintah `yarn install`
+. _Run App_ menggunakan perintah `yarn start`

@@ -1,0 +1,59 @@
+= Nadiabot
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Nadiabot. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| Andreas | Engineer | andreas@alterra.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang
+dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-nadiabot.adoc#, System URL Nadiabot>>
+
+<<./architecture-nadiabot.adoc#, Architecture Nadiabot>>
+
+<<./technology-nadiabot.adoc#, Technology Nadiabot>>
+
+<<./environment-nadiabot.adoc#, Environment Nadiabot>>
+
+<<./database-nadiabot.adoc#, Database Documentation Nadiabot>>
+
+<<./release-deploy-nadiabot.adoc#, Release and Deployment Nadiabot>>
+
+<<./flow-wire-nadiabot.adoc#, Flow and Wireframe Nadiabot>>
+
+== Onboarding Information
+
+<<./dev-onboarding-nadiabot.adoc#, Developer Onboarding Nadiabot>>
+
+<<./development-nadiabot.adoc#, Development Nadiabot>>
+
+<<./naming-convention-nadiabot.adoc#, Naming Convention Nadiabot>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+<<./release-note-nadiabot.adoc#, Release Note Nadiabot>>

@@ -1,0 +1,101 @@
+= Modul Dasbor
+
+Panduan ini berisi informasi dan manual Modul Dasbor yang terdiri dari 4 aspek menu utama, meliputi Aspek Keuangan, Aspek Pelayanan, Aspek Operasional, Aspek Sumber Daya Manusia, dan Manipulasi Data.
+
+== Getting Started
+
+link:./dasbor-getting-started/dasbor-login.adoc[Login ke Modul Dasbor]
+
+link:./dasbor-getting-started/dasbor-menu.adoc[Menu Modul Dasbor]
+
+== Aspek Keuangan
+
+link:./Aspek-Keuangan/Menampilkan-Data-Penerimaan-dan-Penagihan-Air.adoc[Menampilkan Data Penerimaan dan Penagihan Air]
+
+link:./Aspek-Keuangan/Menampilkan-Data-Efisiensi-Wilayah.adoc[Menampilkan Data Efisiensi Wilayah]
+
+link:./Aspek-Keuangan/Menampilkan-Tarif-Rata-Rata-PDAM.adoc[Menampilkan Tarif Rata-Rata PDAM]
+
+link:./Aspek-Keuangan/Menampilkan-Data-Penjualan-Volume-Air-Bulanan.adoc[Menampilkan Data Penjualan Volume Air Bulanan]
+
+link:./Aspek-Keuangan/Menampilkan-Data-Produktivitas-Loket.adoc[Menampilkan Data Produktivitas Loket]
+
+link:./Aspek-Keuangan/Menampilkan-Laporan-Tagihan-Air-dan-Non-Air.adoc[Menampilkan Laporan Tagihan Air dan Non Air]
+
+link:./Aspek-Keuangan/Menampilkan-Data-Neraca-Aktiva-dan-Passiva.adoc[Menampilkan Data Neraca Aktiva dan Passiva]
+
+link:./Aspek-Keuangan/Menampilkan-Data-Arus-Kas.adoc[Menampilkan Data Arus Kas]
+
+link:./Aspek-Keuangan/Menampilkan-Laporan-Laba-Rugi.adoc[Menampilkan Laporan Laba dan Rugi]
+
+link:./Aspek-Keuangan/Menampilkan-Persentase-Kinerja-dari-ROE-dan-Rasio-Operasi.adoc[Menampilkan Persentase Kinerja dari ROE dan Rasio Operasi]
+
+link:./Aspek-Keuangan/Menampilkan-Persentase-Kinerja-dari-Rasio-Kas-dan-Efektivitas-Penagihan.adoc[Menampilkan Persentase Kinerja dari Rasio Kas dan Efektivitas Penagihan]
+
+link:./Aspek-Keuangan/Menampilkan-Persentase-Kinerja-dari-Solvabilitas.adoc[Menampilkan Persentase Kinerja dari Solvabilitas]
+
+== Aspek Pelayanan
+
+link:./Aspek-Pelayanan/Menampilkan-Detail-Tagihan-Pelanggan.adoc[Menampilkan Detail Tagihan Pelanggan]
+
+link:./Aspek-Pelayanan/Melakukan-Pengaduan-Pelanggan.adoc[Melakukan Pengaduan Pelanggan]
+
+link:./Aspek-Pelayanan/Mengelola-Informasi-Web-PDAM.adoc[Mengelola Informasi Web PDAM]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-Produktivitas-Baca.adoc[Menampilkan Data Produktivitas Baca]
+
+link:./Aspek-Pelayanan/Menampilkan-Detail-Data-Produktivitas-Petugas-Baca.adoc[Menampilkan Detail Data Produktivitas Petugas Baca]
+
+link:./Aspek-Pelayanan/Menampilkan-Detail-Data-Pengaduan-Pelanggan.adoc[Menampilkan Detail Data Pengaduan Pelanggan]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-Tahunan-Pertumbuhan-Pelanggan.adoc[Menampilkan Data Tahunan Pertumbuhan Pelanggan]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-RAB-dan-Realisasinya.adoc[Menampilkan Data RAB dan Realisasinya]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-Evaluasi-SPK-dan-Pengawasan-SR.adoc[Menampilkan Data Evaluasi SPK dan Pengawasan SR]
+
+link:./Aspek-Pelayanan/Menampilkan-Laporan-SPK-dan-BAP-Realisasi-Sambungan-Baru.adoc[Menampilkan Laporan SPK dan BAP Realisasi Sambungan Baru]
+
+link:./Aspek-Pelayanan/Menampilkan-Laporan-SPK-dan-BAP-Pemeliharaan-Sambungan-Baru.adoc[Menampilkan Laporan SPK dan BAP Pemeliharaan Sambungan Baru]
+
+link:./Aspek-Pelayanan/Melakukan-Pemantauan-Rekapitulasi-Stok-Barang.adoc[Melakukan Pemantauan Rekapitulasi Stok Barang]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-Cakupan-Pelayanan-Pelanggan.adoc[Menampilkan Data Cakupan Pelayanan Pelanggan]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-Pertumbuhan-Pelanggan.adoc[Menampilkan Data Pertumbuhan Pelanggan]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-Tingkat-Penyelesaian-Aduan-Pelanggan.adoc[Menampilkan Data Tingkat Penyelesaian Aduan Pelanggan]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-Tingkat-Kualitas-Air-PDAM.adoc[Menampilkan Data Tingkat Kualitas Air PDAM]
+
+link:./Aspek-Pelayanan/Menampilkan-Data-dan-Skor-Konsumsi-Air-Secara-Domestik.adoc[Menampilkan Data dan Skor Konsumsi Air Secara Domestik]
+
+== Aspek Operasional
+
+link:./Aspek-Operasional/Menampilkan-Perhitungan-Biaya-Pemakaian-Bahan-Instalasi-dan-Kimia.adoc[Menampilkan Perhitungan Biaya Pemakaian Bahan Instalasi dan Kimia]
+
+link:./Aspek-Operasional/Menampilkan-Persentase-Efisiensi-Produksi-PDAM.adoc[Menampilkan Persentase Efisiensi Produksi PDAM]
+
+link:./Aspek-Operasional/Menampilkan-Persentase-Kehilangan-Air.adoc[Menampilkan Persentase Kehilangan Air]
+
+link:./Aspek-Operasional/Menampilkan-Persentase-Jam-Operasi-Pelayanan.adoc[Menampilkan Persentase Jam Operasi Pelayanan]
+
+link:./Aspek-Operasional/Menampilkan-Persentase-Tekanan-Air-Sambungan-Pelanggan.adoc[Menampilkan Persentase Tekanan Air Sambungan Pelanggan]
+
+link:./Aspek-Operasional/Menampilkan-Persentase-Pergantian-Kalibrasi-Meter-Air-Pelanggan.adoc[Menampilkan Persentase Pergantian / Kalibrasi Meter Air Pelanggan]
+
+== Aspek Sumber Daya Manusia
+
+link:./Aspek-Sumber-Daya-Manusia/Menampilkan-Data-Efisiensi-Kinerja-Pegawai.adoc[Menampilkan Data Efisiensi Kinerja Pegawai]
+
+link:./Aspek-Sumber-Daya-Manusia/Menampilkan-Data-Rasio-Diklat-Pegawai.adoc[Menampilkan Data Rasio Diklat Pegawai]
+
+link:./Aspek-Sumber-Daya-Manusia/Menampilkan-Data-Biaya-Pendidikan-dan-Diklat-Pegawai.adoc[Menampilkan Data Biaya Pendidikan dan Diklat Pegawai]
+
+== Manipulasi Data
+
+link:./Manipulasi-Data/Mengelola-Data-Kependudukan.adoc[Mengelola Data Kependudukan]
+
+link:./Manipulasi-Data/Menampilkan-dan-Mengubah-Kelengkapan-Data-Aspek.adoc[Menampilkan dan Mengubah Data Kelengkapan Aspek]
+
+link:./Manipulasi-Data/Mengelola-Data-User.adoc[Mengelola Data User]

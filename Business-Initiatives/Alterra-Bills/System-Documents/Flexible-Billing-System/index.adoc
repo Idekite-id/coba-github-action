@@ -1,0 +1,55 @@
+= Flexible Billing System
+:keywords: ati, innovation
+
+== Overview
+
+*Flexible Billing System (FBS)* atau biasa disebut *Ditto* adalah sebuah microservice Alterra yang berfungsi untuk memudahkan serta mempercepat proses integrasi antara *Kraken* dengan _biller_ baru agar _biller_ dapat terhubung dengan lebih cepat.
+
+== Team Involved
+
+|===
+| *Name* | *Role* | *Email*
+
+| Ian Budi Kurniawan
+| Product Owner
+| kurniawan@alterra.id
+
+| Christoforus Surjoputro
+| Development Lead
+| christoforus@alterra.id
+
+| Vincent Yapranz
+| Lead Software Engineer
+| vincent@alterra.id
+
+| Lead Quality Engineer
+| Difa Rakaditya
+| rakaditya@alterra.id
+
+| Sawitry D Kusuma W
+| Lead System Analyst
+| sawitry@alterra.id
+|===
+
+== Technical Information
+
+<<./architecture-fbs.adoc#, Architecture Flexible Billing System>>
+
+<<./technology-fbs.adoc#, Technology Flexible Billing System>>
+
+<<./environment-fbs.adoc#, Environment Flexible Billing System>>
+
+<<./url-fbs.adoc#, System URL Flexible Billing System>>
+
+<<./database-fbs.adoc#, Database Documentation Flexible Billing System>>
+
+<<./release-deploy-fbs.adoc#, Release and Deployment Flexible Billing System>>
+
+
+== Onboarding Information
+
+<<./dev-onboarding-fbs.adoc#, Developer Onboarding Flexible Billing System>>
+
+== Documentation
+
+

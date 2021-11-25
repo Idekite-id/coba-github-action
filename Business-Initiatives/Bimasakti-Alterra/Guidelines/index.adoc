@@ -1,0 +1,5 @@
+= Guidelines
+
+Hi, dalam halaman ini kamu bisa mengakses berbagai guideline yang ada dalam Bimasakti Alterra. Berikut adalah beberapa guideline yang dapat kamu baca.
+
+link:./PDAM-Pintar-Product/index.adoc[PDAM Pintar Product]

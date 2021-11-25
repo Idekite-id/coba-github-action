@@ -1,0 +1,50 @@
+= Environment Sipintar.NET
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *Specification* 
+^.^h| *Name*
+
+1.6+|Development 
+
+|IP Address 
+|
+
+|URL 
+|
+
+|Doc Root 
+|
+
+|Service Name 
+|
+
+|DB Server 
+|
+
+|Git Repo 
+|
+
+1.6+|Production 
+|DB Server 
+|
+
+|IP Address 
+|
+
+|URL 
+|
+
+|Doc Root 
+|
+
+|Service Name 
+|
+
+|DB Server 
+|
+
+|Git Repo 
+|
+|===

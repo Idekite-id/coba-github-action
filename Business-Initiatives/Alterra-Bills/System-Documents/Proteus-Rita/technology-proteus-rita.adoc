@@ -1,0 +1,23 @@
+= Technology Proteus Rita
+
+[cols="30%,30%,40%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+^.^h| *Description*
+
+1.2+| Programming Language
+| GoLang
+|
+
+| PHP
+| Dashboard
+
+| Database
+| MySQL
+|
+
+| Others
+| Systemd
+|
+|===

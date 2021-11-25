@@ -1,0 +1,55 @@
+= System URL Digital Billing System
+
+Berikut adalah URL yang dapat digunakan untuk mengakses _Digital Billing System_ :
+
+== System URL - Frontend
+
+|===
+| *Stage* | *URL*
+
+| _Development_
+| http://103.117.207.183:443/
+
+| _Staging_
+| http://dbs-staging.sumpahpalapa.com
+
+| _Production_
+| http://dbs.sepulsa.id
+|===
+
+== System URL - Backend
+
+|===
+| *Stage* | *URL*
+
+| _Development_
+| http://103.117.207.183/api
+
+| _Staging_
+| https://dbs-sbackend.sumpahpalapa.com
+
+| _Production_
+| https://dbs-be.sepulsa.id
+|===
+
+== Repository
+
+|===
+| *Repo* | *Description* | *Language/Framework*
+
+| https://github.com/sepulsa/digital_billing_system
+| _Backend Repository_
+| Golang / Echo
+
+| https://github.com/sepulsa/fe_digital_billing_system
+| _Deprecated Old Frontend Repository_
+| Javascript / NuxtJS
+
+| https://gitlab.alterra.id/alterra/peregrine/bills_fe
+| _New Frontend Repository_
+| Javascript / NuxtJS + Web Component (Lit-Elements)
+
+| https://gitlab.alterra.id/alterra/peregrine/ops_digital_billing_system
+| _Ops Dashboard Frontend_
+| Javascript / NuxtJS
+|===

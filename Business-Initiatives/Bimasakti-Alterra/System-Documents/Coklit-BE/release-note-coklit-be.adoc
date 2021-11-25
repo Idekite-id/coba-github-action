@@ -1,0 +1,5 @@
+= Release Notes Coklit BE
+
+== Github
+
+Anda dapat mengakses _Release Notes_ sistem Coklit BE pada https://github.com/bimasaktialterra/coklit-be/releases[halaman berikut]

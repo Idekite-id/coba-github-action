@@ -1,0 +1,46 @@
+= Environment Perencanaan Web PDAM Jogja
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+1.6+|Staging 
+|IP Address 
+|
+
+|URL 
+|
+
+|Doc Root 
+|
+
+|Service Name 
+|
+
+|DB Server 
+|
+
+|Git Repo 
+| 
+
+1.6+|Production 
+|IP Address 
+|
+
+|URL 
+|
+
+|Doc Root 
+|
+
+|Service Name 
+|
+
+|DB Server 
+|
+
+|Git Repo 
+|
+|===

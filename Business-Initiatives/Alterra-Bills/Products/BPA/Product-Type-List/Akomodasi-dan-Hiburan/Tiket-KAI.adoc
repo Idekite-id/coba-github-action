@@ -1,0 +1,81 @@
+= Tiket KAI
+
+Produk untuk memfasilitasi pembelian dan pembayaran tiket kereta api secara online. Kereta api adalah salah satu dari beberapa transportasi Travel terlaris di Indonesia sampai saat ini. Kemudahan dalam penjualan tiket adalah sasaran utama pasar dan pemilik perusahaan kereta api dalam meningkatkan pemasaran produk. Pemesanan tiket berbasis online sangat diminati oleh pengguna kereta api karena sangat memudahkan pengguna dalam pemesanan dan pembayaran dengan detail transaksi yang lengkap.
+
+*Variasi Produk*
+
+Produk yang disediakan adalah pembelian Tiket Kereta Api (_non local train_)
+
+*Vendor Utama Produk*
+
+- Bimasakti
+
+*Perilaku & Cara Penggunaan*
+
+Penggunaan umum dalam pemesanan tiket Kereta Api, sebagai berikut:
+
+. User memilih Lokasi stasiun keberangkatan dan tujuan
+. User memilih tanggal berangkat dan tanggal pulang (opsional jika pesan tiket PP)
+. User memilih jumlah penumpang dalam 1x pesanan
+. User mendapatkan list kereta dengan detail berikut:
+.. Nama kereta beserta tipe kelas kereta
+.. Rute kereta
+.. Jadwal keberangkatan kereta
+.. Harga tiket per orang (_adult_)
+. User memilih salah satu pilihan jadwal kereta yang ada di list
+. User mengisi form daftar penumpang dan data pemesan
+. User mendapatkan *Kode Booking* dan tempat duduk
+. Apakah user memilih untuk pindah kursi ?
+- Jika iya, User memilih tempat duduk yang tersedia di kereta tersebut (opsional)
+- Jika tidak, user langsung melakukan proses selanjutnya
+. User melakukan pembayaran
+. Jika transaksi sukses, User akan mendapatkan _E-ticket_ yang dikirimkan via email
+. User bisa mencetak tiket (_check-in_) di waktu *12 jam sampai 10 menit* sebelum keberangkatan. Jika mencetak diluar jadwal tersebut, maka user tidak akan mendapatkan tiket dan dianggap belum melakukan _check-in_.
+
+*Customer Journey*
+
+Partner Product Journey
+
+. Partner memilih produk tiket kereta api
+. Partner memilih lokasi stasiun keberangkatan dan tujuan
+. Partner memilih tanggal berangkat
+. Partner memilih jumlah penumpang dalam 1x pesanan ( maksimal 4 Orang Dewasa )
+. Partner mendapatkan list kereta dengan detail berikut:
+.. Nama kereta beserta tipe kelas kereta
+.. Rute kereta
+.. Tanggal keberangkatan dan tanggal sampai di tujuan
+.. Harga tiket per orang (_adult_)
+.. Durasi perjalanan
+. Partner memilih salah satu pilihan jadwal kereta yang ada di list
+. Partner mengisi form daftar penumpang dan data pemesan
+. Partner melakukan _submit booking_ dan akan mendapatkan *Booking Code*
+. Partner memilih tempat duduk yang tersedia di kereta tersebut (opsional)
+. Partner melakukan pembayaran via deposit
+. Jika transaksi sukses, partner akan mendapatkan data informasi untuk kebutuhan pembentukan _E-ticket_
+
+image::../../../images-bpa/flow-journey-kai.png[align="center"]
+
+Switcher/Aggregator
+
+. Partner memilih menu produk tiket kereta api
+. _Switching Engine_ get list stasiun untuk dipilih partner
+. Partner memilih lokasi stasiun (berangkat & tujuan), tanggal berangkat dan jumlah penumpang
+. _Switching Engine_  _get list_ data jadwal kereta dari Biller berdasarkan parameter yang dimasukkan oleh partner
+. _Switching Engine_ mendapat _response callback_ list jadwal kereta dari Biller dan ditampilkan ke partner. (notes : perlu ada beberapa _recon_ data dari _callback_ yang diberi oleh Biller)
+. Partner memilih salah satu dari pilihan jadwal kereta yang ada di list
+. Partner mengisi form daftar penumpang dan data pemesan
+. _Switching Engine_  _submit booking_ Tiket kereta dan menerima _callback response_ dari Biller
+. Partner mendapatkan _summary_ detail tiket (_Booking Code_ beserta kursi yang sudah ditentukan oleh pihak KAI)
+. Jika Partner akan memilih kursi lain :
+.. _Switching Engine_  get list kursi di _subclass_ kereta tersebut yang tersedia untuk dipilih dan ditampilkan ke Partner.   
+.. Partner memilih tempat duduk yang tersedia di kereta tersebut (opsional)
+.. Partner _submit_ tempat duduk yang baru
+.. _Switching Engine_  _request_ pindah kursi dan _pass-through_ ke Biller yang nantinya akan dapat _callback_ dari Biller untuk berhasil pindah kursi atau tidak
+. Partner _submit request transaction Order_ (_Confirm Payment_)
+. _Switching Engine_ mengirimkan _response_ transaksi dengan status _pending_
+. _Switching Engine_ melakukan proses _payment_ tiket kereta ke Biller berdasarkan kode booking yang sudah diberikan sebelumnya
+. _Switching Engine_  menerima _callback_ dari Biller dengan final status (*_success_* atau *_failed_*)
+. Jika status *_success_* maka Partner akan menerima _callback_ transaksi data kebutuhan _e-ticket_
+. Jika status *_failed_* maka partner akan menerima _callback_ transaksi dengan status _failed_
+
+image::../../../images-bpa/flow-journey-kai-2.png[align="center"]

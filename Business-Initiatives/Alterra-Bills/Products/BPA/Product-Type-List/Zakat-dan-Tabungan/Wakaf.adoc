@@ -1,0 +1,15 @@
+= Wakaf
+
+Produk untuk memfasilitasi sedekah dengan memisahkan/menyerahkan sebagian harta untuk dimanfaatkan. 
+
+Wakaf adalah perbuatan hukum wakif (pihak yang melakukan wakaf) untuk memisahkan dan/atau menyerahkan sebagian harta benda miliknya untuk dimanfaatkan selamanya atau untuk jangka waktu tertentu sesuai dengan kepentingannya guna keperluan ibadah dan/atau kesejahteraan umum sesuai syariah.
+
+*Customer Journey*
+
+. Customer mengisikan nomor handphone, nama, dan email
+
+. Customer memilih denominasi kurban yang diinginkan
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dari Aplikasi Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills

@@ -1,0 +1,9 @@
+= Login ke Modul Keuangan
+
+image::../images-keuangan/keuangan-login.png[align="center"]
+
+Untuk mengakses Modul Keuangan, silakan mengakses aplikasi SIMiBIMA Akuntansi pada desktop, kemudian mengikuti langkah-langkah berikut:
+
+1. Masukkan *Nama Pengguna* yang sudah terdaftar
+2. Masukkan *Kata Sandi*
+3. Klik tombol *Masuk* untuk masuk ke dalam aplikasi. Klik tombol *Keluar* apabila hendak keluar dari aplikasi.

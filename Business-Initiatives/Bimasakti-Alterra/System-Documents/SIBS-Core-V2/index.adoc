@@ -1,0 +1,68 @@
+= SIBS Core V2
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem SIBS Core V2. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan.
+
+[cols="35%,35%,30%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| Hardiyusa 
+| Software Engineer 
+| hardiyusa@bsa.id
+
+| I Ketut Giri Arsa 
+| Software Engineer 
+| giriarsa@bsa.id
+|===
+
+== Technical Information
+
+//Berisi informasi teknis tentang sistem. Adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-SIBS-Core-V2.adoc#, System URL SIBS Core V2>>
+
+<<./architecture-SIBS-Core-V2.adoc#, Architecture SIBS Core V2>>
+
+<<./technology-SIBS-Core-V2.adoc#, Technology SIBS Core V2>>
+
+<<./environment-SIBS-Core-V2.adoc#, Environment SIBS Core V2>>
+
+<<./database-SIBS-Core-V2.adoc#, Database Documentation SIBS Core V2>>
+
+<<./release-deploy-SIBS-Core-V2.adoc#, Release and Deployment SIBS Core V2>>
+
+<<./flow-wire-SIBS-Core-V2.adoc#, Flow and Wireframe SIBS Core V2>>
+
+== Onboarding Information
+
+<<./dev-onboarding-SIBS-Core-V2.adoc#, Developer Onboarding SIBS Core V2>>
+
+<<./development-SIBS-Core-V2.adoc#, Development SIBS Core V2>>
+
+<<./naming-convention-SIBS-Core-V2.adoc#, Naming Convention SIBS Core V2>>
+
+== Documentation
+
+//Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan _external link_ (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+//User Guide (jika ada, _external link_)
+
+//Dokumen Integrasi (jika ada, _external link_)
+
+//Dokumen Maintenance (jika ada, _external link_)
+
+//Dokumen API (jika ada, _external link_)
+
+<<./release-note-SIBS-Core-V2.adoc#, Release Note SIBS Core V2>>

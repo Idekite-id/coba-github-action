@@ -1,0 +1,93 @@
+= Mengelola Berita Acara Tutup karena Permohonan
+
+image::../images-distribusi/distribusi-BA-tutup-karena-permohonan-1.png[align="center"]
+
+Berita Acara dibedakan menjadi 2 berdasarkan periode penutupan, yaitu *sementara* dan *total*. Pelanggan dapat mengajukan permohonan tutup rekening yang kemudian akan diproses oleh petugas.
+
+_Dropdown_ Berita Acara berisi 2 pilihan yang disesuaikan dengan jenis permohonan, meliputi *Berita Acara tutup sementara pelanggan air (karena Permohonan)* dan *Berita Acara tutup total pelanggan air (karena Permohonan)*. Berikut adalah penjelasan terkait Berita Acara Tutup karena Permohonan total dan sementara:
+
+.*Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan)*
+[%collapsible]
+====
+image::../images-distribusi/distribusi-BA-tutup-karena-permohonan-2.png[align="center"]
+
+1. *Refresh Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan)*
++
+Tombol *Refresh* digunakan untuk memperbarui data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan) yang mungkin belum masuk ketika data sudah di-_submit_.
+
+2. *Tambah Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan)*
++
+Tombol *Tambah* digunakan untuk menambah data baru Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan). Berikut cara untuk menambah data tersebut:
++
+image::../images-distribusi/distribusi-BA-tutup-karena-permohonan-3.png[align="center"]
+[arabic]
+.. Isi *Form Tambah* data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan) pada kolom yang tersedia.
+.. Isi *Form Saat Pencabutan Meter* dengan  informasi-informasi mengenai meter yang ditutup.
+.. Kemudian tambahkan data pelaksana pada kolom *Pelaksana* untuk menentukan pelaksana penutupan meter, klik tombol *Tambah* untuk menambahkan data petugas yang akan ditugaskan. Tombol *Hapus* digunakan untuk menghapus data petugas yang sudah ditambahkan
+.. Klik tombol *Simpan* untuk menambahkan data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan) yang baru. Tombol *Batal* digunakan untuk melakukan _cancel_ pada data yang akan ditambahkan.
+
+3. *Koreksi Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan)*
++
+Tombol *Koreksi* digunakan untuk melakukan koreksi pada data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan). Untuk melakukan Koreksi, Anda dapat memilih salah satu data pada daftar, kemudian klik tombol *Koreksi*.
+
+4. *Hapus Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan)*
++
+Tombol *Hapus* digunakan untuk menghapus data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan). Untuk menghapus data, Anda dapat memilih salah satu data pada daftar, kemudian klik tombol *Hapus*.
+
+5. *Filter Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan)*
++
+_Field_ Filter digunakan untuk mencari data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan) sesuai dengan kebutuhan. Untuk melakukan pencarian data, Anda dapat mengisi _form_ sesuai dengan _field_ yang sudah ditentukan, kemudian klik tombol *Refresh*.
+
+6. *Action Menu saat diklik kanan*
++
+Anda dapat melakukan klik kanan pada _row_ data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan) untuk menampilkan _action menu_. Berikut adalah penjelasan untuk masing-masing _action menu_:
++
+- *Tambah*: Untuk menambah data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan)
+- *Koreksi*: Untuk melakukan koreksi (edit) terhadap data Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan) yang dipilih
+- *Hapus*: Untuk menghapus data yang Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan) yang dipilih
+- *Cetak Berita Acara*: Untuk mencetak Berita Acara Tutup Sementara Pelanggan Air (karena Permohonan)
+- *Export Excel*: Untuk _export_ data yang dipilih ke format excel
+====
+
+.*Berita Acara tutup total pelanggan air (karena permohonan)*
+[%collapsible]
+====
+image::../images-distribusi/distribusi-BA-tutup-total-karena-permohonan-1.png[align="center"]
+
+1. *Refresh Berita Acara Tutup Total Pelanggan Air (karena Permohonan)*
++
+Tombol *Refresh* digunakan untuk memperbarui data Berita Acara Tutup Total Pelanggan Air (karena Permohonan) yang mungkin belum masuk ketika data sudah di-_submit_.
+
+2. *Tambah Berita Acara Tutup Total Pelanggan Air (karena Permohonan)*
++
+Tombol *Tambah* digunakan untuk menambah data baru Berita Acara Tutup Total Pelanggan Air (karena Permohonan). Berikut cara untuk menambah data tersebut: 
++
+image::../images-distribusi/distribusi-BA-tutup-total-karena-permohonan-2.png[align="center"]
+[arabic]
+. Isi _form_ yang tersedia pada menu *Tambah* Data Berita Acara Tutup Total Pelanggan Air (karena Permohonan)
+. Isi _form_ *Saat Pencabutan Meter* dengan  informasi-informasi mengenai meter yang ditutup.
+. Kemudian tambahkan data pelaksana pada kolom *Pelaksana* untuk menentukan pelaksana penutupan meter, klik tombol *Tambah* untuk menambah data petugas yang akan ditugaskan. Tombol *Hapus* digunakan untuk menghapus data petugas yang sudah ditambahkan.
+. Klik tombol *Simpan* untuk menambahkan data Berita Acara Tutup Total Pelanggan Air (karena Permohonan) yang baru. Tombol *Batal* digunakan untuk melakukan _cancel_ pada data yang akan ditambahkan.
+
+3. *Koreksi Berita Acara Tutup Total Pelanggan Air (karena Permohonan)*
++
+Tombol *Koreksi* digunakan untuk melakukan koreksi pada data Berita Acara Tutup Total Pelanggan Air (karena Permohonan). Untuk melakukan Koreksi, Anda dapat memilih data pada daftar, kemudian klik tombol *Koreksi*.
+
+4. *Hapus Berita Acara Tutup Total Pelanggan Air (karena Permohonan)*
++
+Tombol *Hapus* digunakan untuk menghapus data Berita Acara Tutup Total Pelanggan Air (karena Permohonan) dari daftar. Untuk menghapus data, Anda dapat memilih data pada daftar, kemudian klik tombol *Hapus*.
+
+5. *Filter Berita Acara Tutup Total Pelanggan Air (karena Permohonan)*
++
+_Field_ Filter digunakan untuk mencari data Berita Acara Tutup Total Pelanggan Air (karena Permohonan) sesuai dengan kebutuhan. Untuk melakukan pencarian data, Anda dapat mengisi _form_ sesuai dengan _field_ yang sudah ditentukan, kemudian klik tombol *Refresh*.
+
+6. *Action Menu saat diklik kanan*
++
+Anda dapat melakukan klik kanan pada *Row Data* Berita Acara Tutup Total Pelanggan Air (karena Permohonan) untuk menampilkan _action menu_. Berikut adalah penjelasan untuk masing-masing _action menu_:
++
+- *Tambah*: Untuk menambah data Berita Acara Tutup Total Pelanggan Air (karena Permohonan)
+- *Koreksi*: Untuk melakukan koreksi (edit) terhadap data Berita Acara Tutup Total Pelanggan Air (karena Permohonan) yang dipilih
+- *Hapus*: Untuk menghapus data yang Berita Acara Tutup Total Pelanggan Air (karena Permohonan) yang dipilih
+- *Cetak Berita Acara*: Untuk mencetak Berita Acara Tutup Total Pelanggan Air (karena Permohonan)
+- *Export Excel*: Untuk _export_ data yang dipilih ke format Excel
+====

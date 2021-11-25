@@ -1,0 +1,12 @@
+= Infaq
+
+Produk untuk memfasilitasi amal atau pengeluaran harta secara sukarela kepada orang yang membutuhkan secara online.
+
+Infaq berasal dari kata anfaqa yang berarti mengeluarkan sesuatu (harta) untuk kepentingan sesuatu. Menurut terminologi syariat, infaq berarti mengeluarkan sebagian dari harta atau pendapatan/penghasilan untuk suatu kepentingan yang diperintahkan Islam. Jika zakat ada nishabnya, infaq tidak mengenal nishab.
+
+*Customer Journey*
+
+. Customer mengisikan nomor handphone, nama, dan email
+. Customer memilih denominasi infaq yang diinginkan
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+. Customer akan menerima bukti pembayaran dari Aplikasi Client, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills

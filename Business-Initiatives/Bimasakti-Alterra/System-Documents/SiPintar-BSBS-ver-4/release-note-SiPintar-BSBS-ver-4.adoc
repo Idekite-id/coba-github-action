@@ -1,0 +1,3 @@
+= Release Note SiPintar BSBS ver 4
+
+Berisi catatan rilis sistem.

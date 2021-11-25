@@ -1,0 +1,6 @@
+= API Documentation Redeem Pulsa or Paket Data Gaharu
+
+Berikut flow API Gaharu Redeem pulsa dan paket data
+
+image::./images-api-gaharu/Gaharu-API-Redeem-Pulsa-Paket-Data.png[Redeem pulsa dan paket data]
+

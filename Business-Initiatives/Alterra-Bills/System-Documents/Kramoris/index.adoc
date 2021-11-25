@@ -1,0 +1,78 @@
+= Kramoris
+:keywords: sti,telco,physical-goods-order-systems,kraken,silo,kramoris
+
+== Overview
+
+=== Partner Kramoris
+|===
+| *Name* | *Description* | *Status*
+
+| *Indosat StarterPack*
+| _Starter_ _pack_ _and_ _modem_ _device_ _for_ _Indosat_
+| _Withdrawn_
+
+| *Smartfren Starterpack*
+| _Starter_ _pack_ _and_ _modem_ _device_ _for_ _smartfren_
+| _Withdrawn_
+
+| *Hard Bundling Device-Beli Gadget*
+| _Device_ _bundling_ (HP and modem) _with_ _starter_ _pack_ _and_ _data_ _plan_
+| _Live_
+
+| *XL Starterpack*
+| _Starter_ _pack_ _and_ _modem_ _device_ _for_ XL _Postpaid_ _and_ _Prepaid_
+| _Live_
+|===
+
+Partner (XL, Indosat, Smartfren) akan mengirimkan list produk yang tersedia ke Sepulsa, selanjutnya Ops Sepulsa melakukan _upload_ produk _starter_ _pack_ yang tersedia melalui halaman admin. Produk yang di-_upload_ melalui halaman admin akan ditampilkan pada _landing_ _page_ (Xl, Indosat, Smartfren).
+
+_Transaction_ _flow_ pada sistem Kramoris sama seperti _e-commerce_ lainnya. Secara sederhana, _user_ memilih item yang diinginkan dan diarahkan ke halaman _checkout_. Kemudian, _user_ mengisi informasi pengiriman dan memilih metode pembayaran untuk membayar transaksi. Kramoris (Beli Gadget) menggunakan JNE untuk ekspedisi pengiriman.
+
+*Notes*
+
+Sistem Kramoris (Beli Gadget) tidak terintegrasi langsung dengan Kraken, Ops Sepulsa akan melakukan _top up_ paket data untuk setiap _starter pack_ secara manual. Data pengisian paket data untuk setiap _starter pack_ kemudian akan tersimpan di Kraken.
+
+== Team Involved
+
+|===
+| *Nama* | *Role* | *Email*
+
+| Pipit Puspitasari
+| *Product Owner*
+| pipit@alterra.id
+
+| Antonius Ananto
+| *Engineer Manager*
+| anton@alterra.id
+
+| Kurniawan Eko Wasono
+| *Lead Engineet*
+| iwan@alterra.id
+
+| Johanes Paulus Giovani Putra
+| *Lead Quality Engineer*
+| johanes@alterra.id
+
+| Pipit Puspitasari
+| *Ex.
+Lead System Analyst*
+| pipit@alterra.id
+|===
+
+== Technical Information
+
+<<./url-kramoris.adoc#, System URL Kramoris>>
+
+<<./architecture-kramoris.adoc#, Architecture Kramoris>>
+
+<<./technology-kramoris.adoc#, Technology Kramoris>>
+
+<<./environment-kramoris.adoc#, Environment Kramoris>>
+ 
+<<./release-deploy-kramoris.adoc#, Release and Deployment Kramoris>>
+
+== Onboarding Information
+
+<<./dev-onboarding-kramoris.adoc#, Developer Onboarding Kramoris>>
+
+== Documentation

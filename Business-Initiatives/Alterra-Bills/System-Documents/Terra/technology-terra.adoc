@@ -1,0 +1,35 @@
+= Technology Terra
+
+Berikut merupakan teknologi yang digunakan oleh sistem Terra:
+
+|===
+| Specification | Server | Description
+
+| OS
+| -
+|
+
+| Web Server
+| NGINX
+|
+
+| Programming Language
+| PHP 7
+|
+
+| Framework
+| Drupal
+|
+
+| DBMS
+| MySQL
+|
+
+|
+| PostgreeSQL
+|
+
+| Other
+| -
+|
+|===

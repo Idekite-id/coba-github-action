@@ -1,0 +1,71 @@
+= Bimareklame
+:keywords: design system, BSA-PDAM, Honey
+
+== Overview
+
+**Honey** adalah project dashboard (__frontend__) untuk pengembangan Bimareklame. **BimaReklame** sendiri adalah aplikasi yang dibuat untuk memudahkan proses pendataan reklame oleh Badan Pengelola Keuangan Daerah (BPKD) agar dapat menggali potensi pajak daerah reklame secara maksimal. 
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Honey. Masing-masing sudah dilengkapi dengan alamat email yang
+bisa dihubungi jika diperlukan.
+
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| Hasan Mubarok 
+| Software Engineer 
+| hasan@bsa.id
+
+| Rana Pradipta 
+| Software Engineer 
+| rana@bsa.id
+
+| Pajar Wijaya Putra 
+| Software Engineer 
+| pwputra@bsa.id
+|===
+
+== Technical Information
+
+<<./url-honey.adoc#, System URL Honey>>
+
+<<./architecture-honey.adoc#, Architecture Honey>>
+
+<<./technology-honey.adoc#, Technology Honey>>
+
+<<./environment-honey.adoc#, Environment Honey>>
+
+<<./release-deploy-honey.adoc#, Release and Deployment Honey>>
+
+<<./flow-wire-honey.adoc#, Flow and Wireframe Honey>>
+
+== Onboarding Information
+
+<<./dev-onboarding-honey.adoc#, Developer Onboarding Honey>>
+
+<<./development-honey.adoc#, Development Honey>>
+
+<<./naming-convention-honey.adoc#, Naming Convention Honey>>
+
+== Documentation
+
+User Guide:
+
+https://docs.google.com/document/d/1nDOfcIpEjM2u5tjUBm-PGymxZsmY2hg41uSF16Dn_CM/edit?usp=sharing[Manual Book General Bimareklame]
+
+https://docs.google.com/document/d/1o5JWAx1fTBaPRN4foJp4WFsv3dByt8FDMWjRJqML4Vg/edit?usp=sharing[User Guide Bimareklame (Desktop)]
+
+https://docs.google.com/document/d/1W1-5OKAy8zfG965tPe_Buo99I4edeOtk5uLpsO4B_Q8/edit?usp=sharing[User Guide Bimareklame (Mobile)]
+
+https://docs.google.com/document/d/1sHAaPPMKnrXcBCXsQDmKH3q4LOhBP4UzqdorgGBLC2I/edit?usp=sharing[User Guide Aplikasi Ukur Bimareklame]
+
+https://docs.google.com/document/d/1sHAaPPMKnrXcBCXsQDmKH3q4LOhBP4UzqdorgGBLC2I/edit?usp=sharing[Tech Documentation]
+
+<<./release-note-honey.adoc#, Release Note Honey>>
+
+

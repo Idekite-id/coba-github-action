@@ -1,0 +1,91 @@
+= Environment Hermes
+
+== Production
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *Specs* 
+^.^h| *Name* 
+
+1.4+| Server
+| Host
+| https://hermes.sepulsa.id/
+
+| IP
+| 103.117.20 * . * *
+
+| SSH User
+| Admin
+
+| Project Dir
+| /sepulsa/www/hermes
+
+1.7+| Database
+| DB_Connection
+| Hermes
+
+| DB_Host
+| 127.0.0.*
+
+| DB_PORT
+| 77**
+
+| DB_DATABASE
+| Hermes
+
+| DB_HOST_terra
+| sepulsapgaurora-cluster.cluster-ro-cn26rqn0gh39.ap-southeast-1.rds.amazonaws.com
+
+| DB_PORT_terra
+| 54**
+
+| DB_DATABASE_terra
+| sepulsa_reporting
+|===
+
+== Staging
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *Specs* 
+^.^h| *Name* 
+
+1.4+| Server
+| Host
+| https://hermes.sumpahpalapa.com/
+
+| IP
+| 103.117.20 * . * *
+
+| SSH User
+| Admin
+
+| Project Dir
+| /sepulsa/www/hermes
+
+1.7+| Database
+| DB_Connection
+| Hermes
+
+| DB_Host
+| 127.0. * . *
+
+| DB_PORT
+| 33**
+
+| DB_DATABASE
+| Hermes
+
+| DB_HOST_terra
+| sepulsapgaurora-cluster.cluster-ro-cn26rqn0gh39.ap-southeast-1.rds.amazonaws.com
+
+| DB_PORT_terra
+| 54**
+
+| DB_DATABASE_terra
+| sepulsa_reporting
+|===
+
+*Note : Untuk detail IP Address, Anda dapat menghubungi Tim Development Hermes atau Tim Infrastruktur*

@@ -1,0 +1,147 @@
+= Flow and Wireframe Dolphin
+
+Berikut adalah _flow & wireframe_ dari sistem Dolphin:
+
+[cols="5%,40%,10%,45%",frame=all, grid=all]
+|===
+^.^h| *No*  
+^.^h| *Feature* 
+^.^h| *Type* 
+^.^h| *Diagram*
+
+| 1 
+| Spawn Processing a Transaction (API) 
+| Flow 
+| https://drive.google.com/file/d/1FSleGzc-RFpeEf1qZ9TxX1rlZiUl3mN0/view?usp=sharing[]
+
+| 2 
+| Worker Processing a Queue (API) 
+|Flow 
+| https://drive.google.com/file/d/1b_6YjXW7LNB15wOGWDpeTZrgwftW38lA/view?usp=sharing[]
+
+| 3 
+| Spawn Processing a Point (API) 
+|Flow 
+| https://drive.google.com/file/d/1crBXiLbZL6rFVyvjI406bNOhUJTrTIm5/view?usp=sharing[]
+
+| 4 
+| Kraken Transactions  
+| Flow 
+| https://drive.google.com/file/d/1pAGjyK6eZgNm_RUj_ezKF3imv8Hx87sm/view?usp=sharing[]
+
+| 5 
+| Kraken Product Packages 
+|Flow 
+| https://drive.google.com/file/d/1NlTzLaAcHlD4qRUSrofSDgtn93UuLkkV/view?usp=sharing[]
+
+| 6 
+| Kraken Transactions  
+|Flow 
+| https://drive.google.com/file/d/1pAGjyK6eZgNm_RUj_ezKF3imv8Hx87sm/view?usp=sharing[]
+
+| 7 
+| Kraken Products 
+| Flow 
+| https://drive.google.com/file/d/11Dqo04crOYGgoDHWGFPC5G7NcwwUtZzW/view?usp=sharing[]
+
+| 8 
+| Kraken Reports (Finance) 
+|Flow 
+| https://drive.google.com/file/d/1npAi1oKJNMZCborlguLQMwv-oQyrb1mf/view?usp=sharing[]
+
+| 9 
+| Kraken Inventory 
+|Flow 
+| https://drive.google.com/file/d/18WcwT9ScDJVRrj3YY9IzY0qlhQhOSnA5/view?usp=sharing[]
+
+| 10 
+| kraken Deposit Partner 
+| Flow 
+| https://drive.google.com/file/d/1ahpWVkhxp7PL77J6Q6QHPGycudmjAmNX/view?usp=sharing[]
+
+| 11 
+| Kraken Partners 
+|Flow 
+| https://drive.google.com/file/d/1_xK5t8DgsXScqM60ffHLi9dC2FON30KE/view?usp=sharing[]
+
+| 12 
+| Add Kraken Products Packages 
+|Flow 
+| https://drive.google.com/file/d/1klMzqrdRB42zNOfFXbFy2oroatkup7yl/view?usp=sharing[]
+
+| 13 
+| List Detail All Kraken Transactions 
+| Flow 
+| https://drive.google.com/file/d/1v2xkIX-CZrl6G3NOULHpc0C6MVhwW4oJ/view?usp=sharing[]
+
+| 14 
+| List Details All Products 
+|Flow 
+| https://drive.google.com/file/d/1W6IaRqd7zj54-uqNVGOUkGNrAZ3B5UzS/view?usp=sharing[]
+
+| 15 
+| Edit Name Kraken Product 
+|Flow 
+| https://drive.google.com/file/d/1mAOkbR9-sSwzDV7KVFghgNV4ITJ9iL8-/view?usp=sharing[]
+
+| 16 
+| Add Name Kraken Product 
+| Flow 
+| https://drive.google.com/file/d/1PhdHdvQkZbmTxFfe6DIJAWISFqNinhwT/view?usp=sharing[]
+
+| 17 
+| List Details Kraken Reports 
+|Flow 
+| https://drive.google.com/file/d/1TuCo1t1dg_w8dzIyT9aoucJ5vAJCOzkn/view?usp=sharing[]
+
+| 18 
+| Search Form Kraken Transactions 
+|Flow 
+| https://drive.google.com/file/d/1eD7TQsRqTNDyp2gD6wl24FFj4dS5gQly/view?usp=sharing[]
+
+| 19 
+| Search Form Kraken Reports 
+| Flow 
+| https://drive.google.com/file/d/1OzGQdrwmSZ3DIvkk99btIPjvV5U9fiD1/view?usp=sharing[]
+
+| 20 
+| Add Kraken Transaction 
+|Flow 
+| https://drive.google.com/file/d/1IeJGI4HC-CnUJT7qxRjZkqG6UNf76-py/view?usp=sharing[]
+
+| 21 
+| Name Kraken Partners 
+|Flow 
+| https://drive.google.com/file/d/1ykUpiO3BJyYd53lAYRRiGWlY1sFITwJ-/view?usp=sharing[]
+
+| 22 
+| Name Product Packages 
+| Flow 
+| https://drive.google.com/file/d/1PqM-9LOnC0pG9KL-yjgLiSTdTgFB5fzh/view?usp=sharing[]
+
+| 23 
+| Add Kraken Products List 
+|Flow 
+| https://drive.google.com/file/d/1ZFJyJBAQ2tjRD6y6cYGVOOJMe_eYPmgB/view?usp=sharing[]
+
+| 24 
+| List Details All Product Packages 
+|Flow 
+| https://drive.google.com/file/d/1ovfk0UANZPM991UosmN-Je4mIPpxbdrw/view?usp=sharing[]
+
+| 25 
+| Name Kraken Product 
+| Flow 
+| https://drive.google.com/file/d/1Dno0aDp30z1Zpt7NwWgNmAD_3Tgm6mOy/view?usp=sharing[]
+
+| 26 
+| Edit Name Kraken Product 
+|Flow 
+| https://drive.google.com/file/d/1mAOkbR9-sSwzDV7KVFghgNV4ITJ9iL8-/view?usp=sharing[]
+
+| 27 
+| List Details All Partners 
+|Flow 
+| https://drive.google.com/file/d/1sN3_xqF9bhg-Kp9mtMfyHnPTwTYRCvNb/view?usp=sharing[]
+|===
+

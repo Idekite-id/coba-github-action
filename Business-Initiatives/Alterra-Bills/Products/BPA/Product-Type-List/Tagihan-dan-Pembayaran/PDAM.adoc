@@ -1,0 +1,39 @@
+= PDAM
+
+PDAM adalah produk untuk pembayaran tagihan air bersih dari Perusahaan Daerah Air Minum milik daerah.
+
+*Variasi Produk*
+
+Tidak ada produk varian untuk tagihan PDAM, karena dikhususkan untuk pembayaran air.
+
+*Perlilaku dan Cara Penggunaan*
+
+Customer akan melakukan pembayaran tagihan PDAM yang dilakukan setiap bulannya. Apabila terlambat melakukan pembayaran customer akan mendapatkan denda.
+
+_Bill count_ : jumlah tagihan secara keseluruhan dalam 1 _inquiry_
+
+_Bill repeat count_ : jumlah tagihan yang bisa dibayarkan melalui sistem. Jika masih ada tagihan yang belum terbayarkan dapat dilakukan _inquiry_ kembali untuk membayar transaksi sisanya
+
+Untuk beberapa daerah PDAM, tagihan dapat bernilai 0. Jika tagihan tidak dibayarkan maka ada biaya admin yang dibebankan.
+
+*Product Journey*
+
+Showcase Customer Journey
+
+. Customer memilih area wilayah PDAM dan mengetikan nomer id pelanggan PDAM.
+
+. Sistem menampilkan total tagihan yang perlu dibayar beserta denda jika ada.
+
+. Customer melakukan pembayaran dengan metode pembayaran yang tersedia
+
+. Customer akan menerima bukti pembayaran dari Aplikasi/ _website client_, dalam hal ini Partner yang terhubung dengan Sistem Alterra Bills
+
+Switcher Product Journey
+
+. Partner mengirimkan _customer number_
+
+. _Swtiching Engine_ mengirimkan _inquiry_ yang harus dibayarkan oleh Partner
+
+. Partner melakukan _request_ transaksi
+
+.  _Swtiching Engine_ memproses transaksi dan mengiirimkan _callback_ ke Partner

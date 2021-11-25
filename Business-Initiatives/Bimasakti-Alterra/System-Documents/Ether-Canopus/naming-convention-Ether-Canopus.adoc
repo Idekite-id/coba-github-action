@@ -1,0 +1,3 @@
+= Naming Convention Ether Canopus
+
+Berisi aturan penamaan dalam development sistem.

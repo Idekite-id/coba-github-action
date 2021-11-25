@@ -1,0 +1,34 @@
+= Getting Started
+
+Dengan bertransaksi di Sepulsa, kamu bisa membayar apa saja yang kamu butuhkan dengan cara berikut:
+
+. Kunjungi website https://www.sepulsa.com/ atau unduh aplikasi Sepulsa pada smartphone yang kamu miliki.
+. Pilih produk yang kamu butuhkan.
+. Masukkan informasi yang dibutuhkan pada kolom yang tersedia.
+. Lakukan pembayaran dengan metode pembayaran yang tersedia dan kamu inginkan.
+. Transaksi selesai.
+
+*Registrasi Akun Sepulsa*
+
+. Kunjungi website https://www.sepulsa.com/ kemudian pilih *Masuk*
++
+image::../images-sepulsa/daftar-akun-1.png[align="center"]
+
+. Klik *Daftar* pada bagian bawah
++
+image::../images-sepulsa/daftar-akun-2.png[align="center"]
+
+. Masukkan informasi yang dibutuhkan seperti, nama lengkap, email, nomor handphone, dan password
++
+image::../images-sepulsa/daftar-akun-3.png[align="center"]
+
+. Beri tanda centang pada persetujuan layananan dan kebijakan _privacy_ kemudian klik *Daftar*
++
+image::../images-sepulsa/daftar-akun-4.png[align="center"]
+
+. Kamu akan diminta memasukkan kode verifikasi yang telah dikirimkan ke email yang telah didaftarkan. Masukkan kode verifikasi kemudian klik *Selanjutnya*
++
+image::../images-sepulsa/daftar-akun-5.png[align="center"]
+
+. Yay.. Kamu berhasil registrasi akun di Sepulsa dan dapat langsung melakukan transaksi !
+

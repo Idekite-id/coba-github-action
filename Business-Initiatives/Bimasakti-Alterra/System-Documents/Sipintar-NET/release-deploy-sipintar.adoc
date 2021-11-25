@@ -1,0 +1,21 @@
+= Release and Deployment Sipintar.NET
+
+Berisi informasi tentang release dan step deployment
+
+==  Release Schedule and Step
+
+Berisi tentang langkah - langkah dan jadwal release sistem 
+
+== Schedule and Step Deployment
+
+Berisi tentang langkah - langkah dan jadwal deployment sistem 
+
+== CI/CD Notes
+
+Saat ini, proses build & release WPF exe memanfaatkan CI/CD dari Github Action. Dimana auto publish akan dijalankan ketika ada PR dengan label "publish all wpf" atau spesifik wpf di-merged ke main.
+
+3 rule utama auto release, ketentuan yang harus dilakukan adalah:
+
+1. PR Title harus mengandung version dengan format: `vX.X.X`, contoh `v0.0.1`, `v0.1.0`, `v1.0.0` dll (apapun title nya, yg penting ada kata dengan prefix `vX.X.X`)
+1. PR harus mengandung label `publish wpf billing` (untuk wpf billing) atau `publish all wpf` (untuk build semua wpf)
+1. Version yang ada di PR title (vX.X.X) usahakan belum ada pada halaman https://github.com/bimasaktialterra/sipintar.net/releases[release] sebelumnya, karena jika version tersebut sudah ada di release sebelumnya, create release & build akan failed.

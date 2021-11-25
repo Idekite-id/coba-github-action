@@ -1,0 +1,12 @@
+= Technology Honey
+
+[cols="40%,60%",frame=all, grid=all]
+|===
+^.^h| *Specification* 
+^.^h| *Name* 
+
+|Web Server| Kubernetes | https://kubernetes.io[]
+|Programming Language | Javascript | https://www.javascript.com/[]
+|Framework| Next.js | https://nextjs.org/[]
+|Container| Docker | https://www.docker.com/[]
+|===

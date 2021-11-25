@@ -1,0 +1,72 @@
+= Ether Water Mobile
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem Ether Water Mobile. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| Hardiyusa 
+| Software Engineer 
+| hardiyusa@bsa.id 
+
+| I Wayan Agus Krisna Apriana 
+| Software Engineer 
+| apriana@bsa.id 
+
+| I Ketut Giri Arsa 
+| Software Engineer 
+| giriarsa@bsa.id 
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Ether-Water-Mobile.adoc#, System URL Ether Water Mobile>>
+
+<<./architecture-Ether-Water-Mobile.adoc#, Architecture Ether Water Mobile>>
+
+<<./technology-Ether-Water-Mobile.adoc#, Technology Ether Water Mobile>>
+
+<<./environment-Ether-Water-Mobile.adoc#, Environment Ether Water Mobile>>
+
+<<./database-Ether-Water-Mobile.adoc#, Database Documentation Ether Water Mobile>>
+
+<<./release-deploy-Ether-Water-Mobile.adoc#, Release and Deployment Ether Water Mobile>>
+
+<<./flow-wire-Ether-Water-Mobile.adoc#, Flow and Wireframe Ether Water Mobile>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Ether-Water-Mobile.adoc#, Developer Onboarding Ether Water Mobile>>
+
+<<./development-Ether-Water-Mobile.adoc#, Development Ether Water Mobile>>
+
+<<./naming-convention-Ether-Water-Mobile.adoc#, Naming Convention Ether Water Mobile>>
+
+== Documentation
+
+// Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+// User Guide (jika ada, external link)
+
+// Dokumen Integrasi (jika ada, external link)
+
+// Dokumen Maintenance (jika ada, external link)
+
+// Dokumen API (jika ada, external link)
+
+<<./release-note-Ether-Water-Mobile.adoc#, Release Note Ether Water Mobile>>

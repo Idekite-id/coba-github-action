@@ -1,0 +1,5 @@
+= Developer Onboarding Proteus Core Dashboard
+
+Berikut ini adalah _link_ tentang _developer onboarding_ sistem Proteus Core Dashboard:
+
+https://github.com/sepulsa/proteus-core-dashboard[]

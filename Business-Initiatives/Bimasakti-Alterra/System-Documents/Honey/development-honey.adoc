@@ -1,0 +1,8 @@
+= Development Honey
+
+== Development Step
+
+1. `checkout` ke branch `development` dari setiap daerah yang akan di-develop (misalnya untuk surakarta, nama branch development-nya adalah development-solo)
+2. pastikan branch development dalam keadaan paling update (jalankan `git pull origin development` jika belum)
+3. `checkout` ke branch feature
+4. lakukan _pull request_ ke branch devlopment setelah task selesai

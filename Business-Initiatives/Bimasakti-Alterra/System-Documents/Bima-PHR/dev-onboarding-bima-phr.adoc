@@ -1,0 +1,28 @@
+= Developer Onboarding Bima PHR
+
+Untuk memulai _development_ pada sistem _dashboard_ Bima PHR ini, seorang Software Engineer harus menguasai _library_ dan _framework Javascript_ sebagai berikut;
+
+* ReactJS
+* Redux State Management
+* Ajax Request REST API using axios
+* Git, Gitlab, Trunk Base Development
+* Gitlab CI/CD
+
+Sedangkan, _requirement_ pada PC yang harus disiapkan adalah sebagai berikut;
+
+* Linux Operating System
+* Node Version Manager (nvm)
+* NodeJS v13.x (LTS) (node, npm v.6)
+* VSCode Text Editor
+
+== Dokumentasi Onboarding
+
+Berdasarkan bekal pengetahuan ketika masa _onboarding_, Software Engineer dapat memulai men-_develop_ fitur dengan membaca dokumentasi _onboarding_ di bawah ini:
+
+<<./dev-onboarding-product-bima-phr.adoc, Product Resources Bima PHR>>
+
+<<./dev-onboarding-dev-bima-phr.adoc, Development Process Bima PHR>>
+
+<<./dev-onboarding-project-bima-phr.adoc, Project Management Bima PHR>>
+
+<<./dev-onboarding-reuse-bima-phr.adoc, Reuse Function Bima PHR>>

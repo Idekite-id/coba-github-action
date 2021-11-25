@@ -1,0 +1,6 @@
+= Naming Convention Diamante
+
+Diamante mengikuti standar _naming convention_ berikut:
+
+1. https://www.php-fig.org/psr/psr-4/[PSR 4]
+2. https://laravel.com/docs/7.x[Laravel Convention]

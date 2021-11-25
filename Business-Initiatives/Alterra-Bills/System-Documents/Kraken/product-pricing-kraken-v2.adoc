@@ -1,0 +1,154 @@
+= Product Pricing Kraken v2
+
+Pedoman skema _pricing_ untuk _development biller_ di Kraken.
+
+== *Prepaid Product*
+
+=== *Purchase Price*
+
+_Purchase Price_ merupakan harga beli _product_ dari _biller_ dengan ketentuan sebagai berikut:
+
+----
+purchase_price = base_bill + biller_fee
+biller_fee = admin_fee - pks_fee
+----
+
+=== *Sell Price*
+
+_Sell Price_ merupakan harga jual _product_ ke _partner_ dengan ketentuan sebagai berikut:
+
+----
+sell_price = base_bill + package_fee
+----
+
+=== *Sample Case*
+
+Contoh kasus _prepaid_:
+
+----
+
+*Response* dari *biller* adalah:
+
+<amount> 50000
+<admin_fee> 3500
+
+Harga yang tercantum di PKS adalah:
+
+<pks_fee> 2500
+
+Maka perhitungannya adalah:
+
+base_bill = <amount>
+	  = 50000
+
+biller_fee  = <admin_fee> - <pks_fee>
+	    = 3500 - 2500
+	    = 1000
+
+purchase_price  = base_bill + biller_fee
+		= 50000 + 1000
+		= 51000
+
+sell_price  = base_bill + package_fee
+	    = 50000 + 2500
+	    = 52500
+----
+
+== Product Price Using Percentage
+
+|===
+| Nama Produk | Status
+
+| Mobile Postpaid
+| Development
+
+| Zakat
+| Live
+
+| Tabungan Emas
+| Icebox
+
+| Infaq
+|
+
+| Kurban
+|
+
+| Wakaf
+|
+
+| Event
+| Icebox
+|===
+
+=== Purchase Price
+
+_Purchase Price_ merupakan harga beli _product_ dari _biller_ dengan ketentuan sebagai berikut:
+
+----
+purchase_price = base_bill + biller_fee
+----
+
+=== Sell Price
+
+_Sell Price_ merupakan harga jual _product_ ke _partner_ dengan ketentuan sebagai berikut:
+
+----
+sell_price = base_bill + package_fee
+----
+
+=== Sample Case
+
+Contoh kasus _mobile postpaid_ dengan persentase:
+
+----
+<amouunt> 100000
+<biller_fee> 2%
+
+Harga yang tercantum di PKS adalah:
+
+<pks_fee> 4%
+
+Maka perhitungannya adalah:
+
+base_bill = <amount>
+					= 100000
+
+purchase_price  = base_bill + biller_fee
+								= 100000 + (100000 * 2%)
+								= 100000 + 2000
+								= 102000
+
+sell_price  = base_bill + package_fee
+						= base_bill + (base_bill * percentage package_fee)
+						= 100000 + (100000 * 4%)
+						= 100000 + 4000
+						= 104000
+----
+
+Contoh kasus zakat (_collection_) dengan persentase:
+
+----
+<amouunt> 100000
+<biller_fee> -5%
+
+Harga yang tercantum di PKS adalah:
+
+<pks_fee> -4%
+
+Maka perhitungannya adalah:
+
+base_bill = <amount>
+					= 100000
+
+purchase_price  = base_bill + biller_fee
+								= 100000 + (100000 * -5%)
+								= 100000 + (-5000)
+								= 95000
+
+sell_price  = base_bill + package_fee
+						= base_bill + (base_bill * percentage package_fee)
+						= 100000 + (100000 * -4%)
+						= 100000 + (-4000)
+						= 96000
+----

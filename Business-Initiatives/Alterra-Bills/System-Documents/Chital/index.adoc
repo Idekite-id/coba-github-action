@@ -1,0 +1,65 @@
+= Chital
+:keywords: sti, sepulsa, whitelabel-order-system 
+
+== Overview
+
+Chital adalah Sepulsa.com _Backend_ untuk B2C dan API _endpoint_.
+
+== Team Involved
+
+[cols="35%,35%,30",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Ramdhan Pohan
+| Product Owner
+| rpohan@alterra.id
+
+| Antonius Ananto
+| Development Manager
+| anton@alterra.id
+
+| Hendrik Rahardja
+| Lead Software Engineer
+| hendrik@alterra.id
+
+| Ferdinandus Eka
+| Lead Quality Engineer
+| ferdi@alterra.id
+
+| Pipit Puspitasari
+| Ex-Lead System Analyst
+| pipit@alterra.id
+|===
+
+== Technical Information
+
+<<./url-chital.adoc#, System URL Chital>>
+
+<<./architecture-chital.adoc#, Architecture Chital>>
+
+<<./technology-chital.adoc#, Technology Chital>>
+
+<<./environment-chital.adoc#, Environment Chital>>
+
+<<./flow-wire-chital.adoc#, Flow and Wireframe Chital>>
+
+== Onboarding Information
+
+<<./dev-onboarding-chital.adoc#, Developer Onboarding Chital>>
+
+<<./development-chital.adoc#, Development Chital>>
+
+== Documentation
+
+https://docs.google.com/document/d/1zj7SfFCRDRgBcERk-LCiOjjR3uwRDxTtGskXN0DPxWM/edit?usp=sharing[User Guide Chital for Operations Team]
+
+<<./api-doc-chital.adoc#, API Documentation Chital>>
+
+<<./release-note-chital.adoc#, Release Notes Chital>>
+
+<<./pivotal-chital.adoc#, Pivotal Project Chital>>
+
+<<./Feature-Knowledge-Chital/index.adoc#, Feature Knowledge Chital>>

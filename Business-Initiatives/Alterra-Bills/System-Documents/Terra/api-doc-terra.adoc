@@ -1,0 +1,8 @@
+= API Documentation Terra
+
+
+Berikut API dari sistem Terra:
+
+https://terra.sepulsa.id/api-docs/index.html[API Docs]
+
+API ini menyediakan daftar produk yang diset ON/OFF per 2 menit dan dapat diakses oleh partner Alterra.

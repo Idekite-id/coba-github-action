@@ -1,0 +1,5 @@
+= Naming Convention Coklit BE
+
+Coklit mengikuti standarisasi penamaan _file_, _database_, dan endpoint sesuai _best practice_. Namun, harus dipastikan untuk memberikan nama yang sudah umum digunakan oleh developer. Pastikan tim dapat membaca mengerti kode dengan baik.
+
+https://golang.org/doc/effective_go#names[Effective Go]

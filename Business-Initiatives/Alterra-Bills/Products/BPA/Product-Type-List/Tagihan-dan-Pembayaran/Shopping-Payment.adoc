@@ -1,0 +1,68 @@
+= Shopping Payment
+
+Belanja online saat ini sangat digemari oleh banyak orang dikarenakan banyak customer yang sangat mengharapkan belanja dari rumah dan barang akan langsung diantar ke rumah. Dengan banyaknya platform dan marketplace yang menyediakan untuk pembelian barang secara online, diperlukan lebih banyak lagi channel pembayaran yang bisa disediakan untuk customer
+
+*Variasi Produk*
+
+Produk yang tersedia saat ini di kategori Shopping Payment adalah :
+
+- MNC Shop
+
+*Vendor Utama*
+
+Vendor utama dari produk dengan kategori ini adalah  Marketplace atau Platform yang akan menambahkan channel pembayaran baru
+
+|===
+|Product |Biller
+
+|MNC Shop
+|Flash Mobile (MNC Shop)
+
+|===
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Produk dengan kategori ini masuk kedalam produk _inquiry_. Dikarenakan untuk pembayaran diperlukan total tagihan yang disesuaikan.
+
+- Untuk produk dengan type _Shopping Payment_ ini, mengharuskan untuk research market dari pasarnya langsung di marketplace atau platform belanja online yang ada saat ini seperti Tokopedia, Shopee, Lazada, dll untuk menentukan seberapa banyak peminat produk ini di setiap channel belanjanya.
+
+*Product Journey*
+
+_Customer to Partner_ 
+
+- Customer input Payment Code / Customer ID as customer identification
+- Customer get customer detail payment data
+- Customer do payment request
+- Customer select payment method for payment process
+- Customer process payment
+- Customer get Transaction Detail data
+
+_Partner to Switcher_ 
+
+* Partner input parameter to request Inquiry
+** product_id ( BPA product ID )
+** customer_id
+
+* Send request inquiry
+
+* Get Response data inquiry
+** reference_no
+** customer_id
+** amount
+** price
+** detail_data
+*** customer_name
+*** vendor
+*** admin_charge
+*** base_bill
+
+* Partner input parameter to request payment transaction
+** product_id ( BPA product ID )
+** customer_id
+** reference_no
+
+* Send request payment
+
+* Get response payment transaction with status  ``pending``
+
+* Get callback for payment transaction with final status ``success`` or ``failed``

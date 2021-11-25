@@ -1,0 +1,3 @@
+= Release Note Firedash (FE)
+
+Berisi catatan rilis sistem.

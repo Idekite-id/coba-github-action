@@ -1,0 +1,7 @@
+= Development Proteus Partner Dashboard
+
+== Development
+
+=== Workflow / Gitflow
+
+image::images-proteus-partdas/proteus-partdas-flow.png[Proteus-Partner-Dashboard-Gitflow]

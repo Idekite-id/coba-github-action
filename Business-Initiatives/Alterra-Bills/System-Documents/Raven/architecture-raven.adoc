@@ -1,0 +1,5 @@
+= Architecture Raven
+
+Berikut adalah gambar _High Level Architecture (HLA)_ dari sistem Raven:
+
+image::images-raven/Raven-HLA.png[HLA]

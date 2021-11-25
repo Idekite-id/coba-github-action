@@ -1,0 +1,65 @@
+= Ether Water Mobile V3
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem Ether Water Mobile V3. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan. 
+
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| Hardiyusa 
+| Software Engineer 
+| hardiyusa@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Etherßßß-Water-Mobile-V3.adoc#, System URL Ether Water Mobile V3>>
+
+<<./architecture-Ether-Water-Mobile-V3.adoc#, Architecture Ether Water Mobile V3>>
+
+<<./technology-Ether-Water-Mobile-V3.adoc#, Technology Ether Water Mobile V3>>
+
+<<./environment-Ether-Water-Mobile-V3.adoc#, Environment Ether Water Mobile V3>>
+
+<<./database-Ether-Water-Mobile-V3.adoc#, Database Documentation Ether Water Mobile V3>>
+
+<<./release-deploy-Ether-Water-Mobile-V3.adoc#, Release and Deployment Ether Water Mobile V3>>
+
+<<./flow-wire-Ether-Water-Mobile-V3.adoc#, Flow and Wireframe Ether Water Mobile V3>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Ether-Water-Mobile-V3.adoc#, Developer Onboarding Ether Water Mobile V3>>
+
+<<./development-Ether-Water-Mobile-V3.adoc#, Development Ether Water Mobile V3>>
+
+<<./naming-convention-Ether-Water-Mobile-V3.adoc#, Naming Convention Ether Water Mobile V3>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+<<./release-note-Ether-Water-Mobile-V3.adoc#, Release Note Ether Water Mobile V3>>

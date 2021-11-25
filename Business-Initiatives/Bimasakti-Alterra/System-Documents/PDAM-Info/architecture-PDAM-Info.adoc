@@ -1,0 +1,27 @@
+= Architecture PDAM Info
+
+== High Level Architecture
+
+Berikut adalah gambar diagram C2 sistem PDAM Info:
+
+image::./images-pdam-info/pdam-info-c2-diagram.png[PDAM Info C2 Diagram]
+
+Sistem ini merupakan bagian dari Bimasakti Alterra. Untuk lebih detail terkait hubungan PDAM Info dengan sistem Bimasakti Alterra lainnya, silakan mengakses <<../../../../../Divisions/Meet-Our-Divisions/Technology/Engineering/Alterra-Systems-C1-Diagram/BSA-C1-Diagram.adoc#,BSA C1 Diagram>> berikut.
+
+== Related System
+
+PDAM Info terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan PDAM Info.
+
+[cols="10%,30%,30%,30%",frame=all, grid=all]
+|===
+^.^h| *System Name* 
+^.^h| *Description* 
+^.^h| *Depends on* 
+^.^h| *Be a Dependencies to*
+
+| *PDAM Info*
+|
+a| 
+a|
+|===
+

@@ -1,0 +1,59 @@
+= Proteus Core
+:keywords: gst, traditional
+
+== Overview
+
+Proteus Core adalah sistem yang berfungsi sebagai Server Pulsa (Serpul), menggantikan fungsi dari IRS. Fungsinya antara lain memproses transaksi dari _partner_ untuk pulsa, paket data, dan lain - lain yang stoknya disediakan oleh Serpul Owner.
+
+== Team Involved
+
+[cols="35%,35%,30",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email*
+
+| Kevin Setiawan Tanzil
+| Lead Software Engineer
+| kevin@alterra.id
+
+| Evan Sujanto
+| Development Manager
+| evan@alterra.id
+
+| Anandhi Tristiaratri
+| Quality Engineer
+| anandhi@alterra.id
+
+| Moehammad Oki Putra Samudra
+| Software Engineer
+| oki@alterra.id
+
+| Doni Hadiyansyah
+| Software Engineer
+| dhadiansyah@alterra.id
+
+| Hilman Syafei
+| Software Engineer
+| hilman@alterra.id
+
+| M. Lutfi
+| Software Engineer
+| lutfi@alterra.id
+|===
+
+== Technical Information
+
+<<./architecture-proteus-core.adoc#, Architecture Proteus Core>>
+
+<<./url-proteus-core.adoc#, System URL Proteus Core>>
+
+<<./technology-proteus-core.adoc#, Technology Proteus Core>>
+
+== Onboarding Information
+
+<<./dev-onboarding-proteus-core.adoc#, Developer Onboarding Proteus Core>>
+
+== Documentation
+
+<<./api-doc-proteus-core.adoc#, API Documentation Proteus Core>>

@@ -1,0 +1,102 @@
+= System URL Amigdala
+
+Berikut ini adalah URL yang dapat digunakan untuk mengakses sistem Amigdala.
+
+[cols="30%,30%,40%",frame=all, grid=all]
+|===
+^.^h| *Environment* 
+^.^h| *Spesifikasi* 
+^.^h| *Files*
+
+| *Staging Development*
+| *IP Address*
+| 35.213.128.69
+
+|
+| *URL*
+| https://dev-amigdala.sumpahpalapa.com/
+
+|
+| *Swagger URL*
+| https://dev-amigdala.sumpahpalapa.com/api-docs
+
+|
+| *Doc Root*
+| -
+
+|
+| *Service Name*
+| -
+
+|
+| *Type*
+| Docker
+
+|
+| *Container Name*
+| Amigdala
+
+|
+| *DB Server*
+| type: mongodb + host: 35.213.128.69 </br>
+
+|
+| *Git Branch*
+| stage_*
+
+| *Staging Regression (Not Ready)*
+| *IP Address*
+| -
+
+|
+| *URL*
+| -
+
+|
+| *Swagger URL*
+| -
+
+|
+| *Doc Root*
+| -
+
+|
+| *Service Name*
+| -
+
+|
+| *DB Server*
+| -
+
+|
+| *Git Branch*
+| -
+
+| *Production*
+| *IP Address*
+| 104.26.11.228
+
+|
+| *URL*
+| https://amigdala.alterra.id/
+
+|
+| *Swagger URL*
+| -
+
+|
+| *Doc Root*
+| -
+
+|
+| *Service Name*
+|
+
+|
+| *DB Server*
+|
+
+|
+| *Git Branch*
+| master
+|===

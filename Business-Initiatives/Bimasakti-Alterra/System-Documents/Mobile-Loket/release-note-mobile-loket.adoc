@@ -1,0 +1,95 @@
+= Release note Mobile Loket
+
+
+== 1.1.4 (18-05-2021)
+
+https://drive.google.com/drive/folders/1g4bkJbofrOZE5kZ6vlJnRUsOIvMqgvy_?usp=sharing[]
+
+[PDAM-2741] Change Value Tagihan Air di page Tagihan Detail SR
+[PDAM-2715] Fixing Issues Sonar Cloud Critical Rating
+
+== 1.1.3 (07-05-2021)
+
+https://drive.google.com/drive/folders/12crGsE1Cjjf6AFar52DGkRmVZjYbfgf6?usp=sharing[]
+
+- [Fixing] defaultnya tab active: riwayat (kolektif dan biasa)
+- [Fixing] Pada halaman Produktivitas, ketika coba di scroll kebawah, ada beberapa data Riwayat setoran yang terpotong (mentok tidak bisa di scroll)
+- [Fixing] Data daftar kolektif tampil berulang & ada tagihannya tp didetailnya sdh lunas
+- [Fixng] Data halaman Rincian setoran tidak berubah
+
+== 1.1.2 (03-05-2021)
+
+https://drive.google.com/drive/folders/1ZJWhudS3PCZxHFGM8-lMMNBuEp8e4AhZ?usp=sharing[]
+
+- [Fixing] Pada halaman Produktivitas, ketika coba di scroll kebawah, ada beberapa data Riwayat setoran yang terpotong (mentok tidak bisa di scroll)
+- [Fixing] Button terima pembayaran pada halaman tagihan SR belum sesuai posisi dan kerning fontnya. wording jadi terlihat seperti ""Pembavaran""
+- [Fixing] saat semua centang kosong, button terima pembayaran tolong di disable
+- [Fixing] Button login MASUK seharusnya huruf besar hanya di M saja
+- [Fixing] pada tagihan SR, Button TERIMA PEMBAYARAN seharusnya Terima Pembayaran bold
+- [Fixing] Button disable pada info pelanggan lunas, rincian pembayaran, biru dengan tulisan biru gelap tidak sesuai.
+
+== 1.1.1 (23-04-2021)
+
+https://drive.google.com/drive/folders/147vJJPWuC3hd6UNzaCKI7wDhC3z9E2IL?usp=sharing[]
+
+- [Fixing] value which is hardcode
+- [Fixing] bottom tab appear at kolektif
+- change naming app at profile page to Loket Mobile
+- change version to 1.1.1 get from manifest
+- change naming app at phone screen to Loket Mobile
+- [Fixing] Stuck pada input PIN terima pembayaran kolektif (online ver. staging) user petugas01
+- [Fixing] Data tidak muncul pada halaman rincian penerimaan trx sambungan rumah (online ver. staging) user petugas01
+- [Fixing] Konfirmasi kendala penagihan (SR) seharusnya muncul popup saat textbox masih kosong
+- [Fixing] FC ketika klik item di tab riwayat SR
+- [Fixing] Remove bottom tab-nya di Page Cari
+- [Fixing] value Total Tagihan terbayar saat kirim / print
+- [Fixing] loading at login
+- enhance standart button
+
+== 1.0.0 (29-01-2021)
+
+=== "link gdrive not found"
+
+ Beranda 
+1.1. Daftar tagihan nomor sambungan dan kolektif
+1.2. Setoran untuk menyerahkan penerimaan rekening dari petugas penagihan ke loket
+1.3. Rincian Penerimaan untuk melihat satu per satu tagihan yang telah dikumpulkan/diterima oleh petugas penagihan
+1.4. Notifikasi (baca dan hapus)
+1.5. Sinkronisasi tagihan untuk memperbarui data penagihan dan penerimaan
+1.6. Total penerimaan
+1.7. Indikator mode online/offline
+1.8. total penerimaan
+1.9. Sisa Limit penerimaan
+1.10. tooltips total penerimaan
+
+ Produktivitas
+2.1. Preview Produktivitas
+2.2. Pemilihan periode Produktivitas yang ditampilkan
+2.2.1. Rincian Setoran
+2.3. Screen offline (melihat produktivitas harus online)
+
+ Tagihan
+3.1. Tab Daftar Pelanggan
+3.2.1. Filter Tagihan Sambungan Rumah & kolektif
+3.2.2. Rincian tagihan sambungan rumah
+3.2.3. Tab air, non-air, dan riwayat
+3.2.4. Penagihan terkendala
+3.2.5. PIN Konfirmasi penerimaan
+3.2.6. Rincian Penerimaan
+3.2.7. Lihat Bukti Pembayaran (SR & Kolektif)
+3.2.8. Cetak Bukti pembayaran (SR & Kolektif)
+3.3.1. Daftar Tagihan kolektif dengan fitur pemilihan tagihan yang akan diterima pembayarannya
+3.3.2. Rincian tagihan kolektif dengan tab air dan riwayat
+3.4.3. Tab Riwayat penerimaan untuk melihat rincian SR & Kolektif yang telah lunas
+
+ Cari
+4.1. Pencarian khusus SR
+4.2. Pencarian khusus Kolektif
+4.3. Scan Barcode / QR pelanggan
+
+ Profil
+5.1. Pengaturan rekap riwayat angsuran sebagai pengaturan untuk menghemat kertas bukti pembayaran
+5.2. pengaturan printer bluetooth
+5.3. Saran dan pengaduan dengan metode embed typeform
+5.4. Pusat bantuan (F.A.Q) seputar penggunaan dasar aplikasi Loket Mobile"
+

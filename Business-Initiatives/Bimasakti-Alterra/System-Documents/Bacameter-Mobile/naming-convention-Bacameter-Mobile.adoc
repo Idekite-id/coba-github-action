@@ -1,0 +1,14 @@
+= Naming Convention Bacameter Mobile
+
+|===
+|*Atribute* |*Naming Convention* |*Notes*
+|Activity Class | xxxActivity.class | layout page
+|Adapter Class | xxxAdapter.class | view adapter
+|DAO Class | xxxDao | Data Access Object
+|Item Class | xxxItem | Class for handle object item
+|Activity Layout | activity_xxx | layout page
+|View Layout | view_xxx | view page
+|Menu File | menu_xxx | menu item
+|Icon Image File | ic_xxx | icon image
+|Button Image File | buttonxxx | button image
+|===

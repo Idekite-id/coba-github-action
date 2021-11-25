@@ -1,0 +1,14 @@
+= Melakukan Setoran Penerimaan
+
+Untuk melakukan setoran penerimaan, Anda dapat mengikuti langkah-langkah di bawah ini:
+
+image::../images-loket/loket-melakukan-setoran-1.png[align="center"]
+
+1. Klik tombol *Setor* untuk melakukan setoran penerimaan tagihan dari pelanggan.
++
+image::../images-loket/loket-melakukan-setoran-2.png[align="center"]
+2. Selanjutnya akan muncul form Setoran. Masukkan detail setoran yang ingin dilakukan seperti: *Tanggal Setor*, *Total LPP*, *Jumlah Setoran*, *Bank tujuan*, dan *Keterangan*.
++
+image::../images-loket/loket-melakukan-setoran-3.png[align="center"]
+3. Klik tombol *OK* untuk menyimpan
+4. Selanjutnya pilih gambar bukti setoran, dan upload.

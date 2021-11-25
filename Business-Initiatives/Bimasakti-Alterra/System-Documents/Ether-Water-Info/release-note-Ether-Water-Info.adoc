@@ -1,0 +1,3 @@
+= Release Note Ether Water Info
+
+Berisi catatan rilis sistem.

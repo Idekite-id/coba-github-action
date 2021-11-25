@@ -1,0 +1,27 @@
+= Technology Imperium
+
+== Spesifikasi System
+
+Berikut merupakan spesifikasi yang digunakan dalam pengembangan sistem Imperium :
+
+|===
+| *Category* | *Details*
+
+| Database
+| Apache Airflow
+
+| Data Storage
+| Google Cloud Storage
+
+| DBMS
+| BigQuery
+
+| Language
+| SQL
+
+| Batch Processing
+| Dataproc
+
+| Streaming Processing
+| Dataflow
+|===

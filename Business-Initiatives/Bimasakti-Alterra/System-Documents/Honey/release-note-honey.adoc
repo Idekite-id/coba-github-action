@@ -1,0 +1,3 @@
+= Release note Honey
+
+Anda dapat mengakses Release Notes sistem Honey pada https://github.com/bimasaktialterra/honey/releases[]

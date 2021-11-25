@@ -1,0 +1,19 @@
+= System URL Oknurt
+
+[cols="30%,70%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*URL*
+
+|QA 
+| https://oknurt-uat.sumpahpalapa.com
+
+|Staging 
+| https://oknurt.sumpahpalapa.com
+
+|Production 
+| https://oknurt.sepulsa.id
+
+|Swagger 
+| https://oknurt-doc.sumpahpalapa.com/
+|===

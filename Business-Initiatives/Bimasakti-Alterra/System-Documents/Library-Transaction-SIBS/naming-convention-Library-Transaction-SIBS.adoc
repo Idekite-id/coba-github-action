@@ -1,0 +1,3 @@
+= Naming Convention Library Transaction SIBS
+
+Berisi aturan penamaan dalam development sistem.

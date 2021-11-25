@@ -1,0 +1,99 @@
+= Money Transfer
+
+Kebutuhan akan transaksi perbankan saat ini sedang sangat meningkat. Tidak hanya menjangkau di perkotaan tetapi juga bisa mencakup ke daerah daerah yang lebih kecil seperti pedesaan. Banyak kebutuhan akan pengiriman uang menggunakan bank tetapi untuk didaerah-daerah kecil saat ini jarang sekali tiap rumah mempunyai rekening yang bisa digunakan untuk mentransfer dana keluar.
+
+Dengan adanya produk ini, diharapkan jangkauan transfer dana akan semakin luas bahkan sampai ke channel perorangan yang tidak memiliki rekening pribadi. Dengan adanya ini juga bisa menambahkan fitur bagi partner yang banyak mengalami keluhan tentang customer tidak bisa mentransfer kembali deposit yang tidak dipakai untuk dijadikan saldo rekening bank.
+
+*Variasi Produk*
+
+Transfer Dana kesemua bank
+
+*Vendor Utama Produk*
+
+Sasaran utama vendor dalam pelaksanaan produk ini adalah vendor yang memiliki kapibilitas resmi dalam hal transfer dana. Untuk sementara ini tersedia:
+
+- FastPay
+https://www.fastpay.co.id/api/api 
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Produk termasuk dalam produk dengan _behaviour_: *_Open Payment system_*
+
+- Terdapat proses _Inquiry_ sebagai pengecekan nama dari rekening yang ingin dituju untuk transfernya
+
+- Terdapat minimal dan maksimal dana yang bisa dikirimkan melalui produk ini
+
+- Sasaran partner untuk produk ini adalah *_Partner yang memiliki loket_*
+
+*Customer Journey*
+
+Berikut adalah customer journey dari produk Transfer Dana: 
+
+. Customer melakukan transaksi ke loket partner
+
+. Customer menginformasikan nomor Rekening Bank dari penerima dana dan nomor telfon dari customer sebagai informasi customer
+
+. Customer mengkonfirmasi jumlah dana yang akan ditransfer dan menyerahkan uang sejumlah total tagihan ke loket
+
+. Customer mendapatkan _receipment_ dan detail data jika transaksi sukses ataupun gagal
+
+*Partner Journey*
+
+Berikut adalah Partner Journey dari penjualan produk Transfer Dana: 
+
+. Partner input parameter untuk kebutuhan _inquiry_ data dari customer, yaitu: 
+.. Kode bank (sample Mandiri : 008)
+.. Nomor rekening penerima
+.. Nomor telfon customer (_identifier_)
+.. Kode produk (dari aggregator)
+
+. Partner akan request _inquiry_ sesuai dengan parameter yang telah ditentukan
+
+. Partner menerima _response inquiry_ dengan detail data: 
+.. Kode bank (sample Mandiri : 008)
+.. Nomor rekening penerima
+.. Nama Pemilik rekening penerima
+.. Kode referensi (di-generate oleh aggregator sebagai validasi transaksi)
+
+. Partner mengirim _request payment/transaction_ dengan menginputkan data: 
+.. Kode referensi (di-generate oleh aggregator sebagai validasi transaksi)
+.. Nomor telfon customer (_identifier_)
+.. Kode produk ( dari aggregator )
+.. Nominal transfer
+
+. Parter akan menerima response transaksi dengan ketentuan: 
+.. Jika nominal *lebih dari minimum transfer* atau *kurang dari maximum transfer*, maka status transaksi adalah ``Pending``
+.. Jika nominal *kurang dari minimum transfer* atau *lebih dari maksimum transfer*, maka status transaksi adalah ``Failed``
+
+. Jika status sebelumnya adalah ``Pending``, maka partner akan mendapatkan _callback response_ dengan final status _transaction_ yaitu ``Success`` atau ``Failed``
+
+*Switcher/Agregator*
+
+Berikut adalah switcher journey dari penjualan produk Transfer Data: 
+
+. Partner melakukan _request inquiry_ seusai dengan _mandatory_ parameter yang telah ditetapkan
+
+. Sistem melakukan pengecekan parameter _inquiry_:
+.. Jika parameter sudah sesuai maka proses akan diteruskan dan dikirimkan ke Biller
+.. Jika parameter tidak sesuai, maka akan mengirimkan response gagal _inquiry_
+
+. Sistem akan memperoleh response _inquiry_ dari Biller dengan data: 
+- Nama Pemilik rekening penerima
+
+. Sistem akan mereformat _response_ sesuai dengan yang sudah ditentukan dan dikirimkan ke Partner
+
+. Partner melakukan _request transaction_ seusai dengan _mandatory_ parameter yang telah ditetapkan
+
+. Sistem melakukan pengecekan parameter _transcation_, terutama untuk data *_amount_*: 
+.. Jika parameter sudah sesuai maka proses akan diteruskan dan dikirimkan ke _response_ ``pending`` ke Partner
+.. Jika parameter tidak sesuai, maka akan mengirimkan _response_ ``failed`` _transaction_
+
+. Setelah mengirimkan _response_ ``pending`` ke Partner, sistem akan mengirimkan _request payment_ ke Biller untuk pembayaran berdasarkan _inquiry_ yang telah dilakukan
+
+. Sistem akan menerima _response payment_ dari Biller dengan data detail transaksi yang telah dilakukan
+
+. Sistem akan memformat data sesuai dengan _response_ yang telah disepakati sebelumnya
+
+. Sistem akan mengirimkan _response_ transaksi sebagai sebuah _callback_ ke Partner dengan mengirimkan data _final status transaction_: 
+.. ``Success`` , jika proses pembayaran berhasil dan tagihan berhasil dibayarkan
+.. ``Failed``, jika proses pembayaran gagal

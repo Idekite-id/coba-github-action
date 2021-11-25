@@ -1,0 +1,7 @@
+= Naming Convention Trunko
+
+Berisi aturan penamaan dalam proses _development_ sistem.
+
+1. Camel Case
+2. Don't use underscore (_)
+3. Use English

@@ -1,0 +1,68 @@
+= Dashboard Web PDAM
+
+== Overview
+
+Berisi deskripsi, etimologi penamaan, dan fungsi sistem yang dijabarkan secara singkat. Sekaligus memuat informasi tentang tujuan pengembangan sistem.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam _development_ sistem Dashboard Web PDAM. Masing-masing sudah dilengkapi dengan alamat email yang dapat dihubungi jika diperlukan.
+
+[cols="35%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+| I Ketut Agus Yudianto 
+| Engineering Manager 
+| agusyudi@bsa.id
+
+| Hardiyusa 
+| Software Engineer 
+| hardiyusa@bsa.id
+
+| I Wayan Agus Krisna Apriana 
+| Software Engineer 
+| apriana@bsa.id
+|===
+
+== Technical Information
+
+Berisi informasi teknis tentang sistem, adapun informasi yang dicantumkan harus menyesuaikan dengan kebutuhan.
+
+<<./url-Dashboard-Web-PDAM.adoc#, System URL Dashboard Web PDAM>>
+
+<<./architecture-Dashboard-Web-PDAM.adoc#, Architecture Dashboard Web PDAM>>
+
+<<./technology-Dashboard-Web-PDAM.adoc#, Technology Dashboard Web PDAM>>
+
+<<./environment-Dashboard-Web-PDAM.adoc#, Environment Dashboard Web PDAM>>
+
+<<./database-Dashboard-Web-PDAM.adoc#, Database Documentation Dashboard Web PDAM>>
+
+<<./release-deploy-Dashboard-Web-PDAM.adoc#, Release and Deployment Dashboard Web PDAM>>
+
+<<./flow-wire-Dashboard-Web-PDAM.adoc#, Flow and Wireframe Dashboard Web PDAM>>
+
+== Onboarding Information
+
+<<./dev-onboarding-Dashboard-Web-PDAM.adoc#, Developer Onboarding Dashboard Web PDAM>>
+
+<<./development-Dashboard-Web-PDAM.adoc#, Development Dashboard Web PDAM>>
+
+<<./naming-convention-Dashboard-Web-PDAM.adoc#, Naming Convention Dashboard Web PDAM>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem. Berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam daftar dokumen berikut:
+
+User Guide (jika ada, external link)
+
+Dokumen Integrasi (jika ada, external link)
+
+Dokumen Maintenance (jika ada, external link)
+
+Dokumen API (jika ada, external link)
+
+<<./release-note-Dashboard-Web-PDAM.adoc#, Release Note Dashboard Web PDAM>>

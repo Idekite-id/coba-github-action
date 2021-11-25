@@ -1,0 +1,20 @@
+= Menampilkan Histori Tagihan
+
+Setelah melakukan pembayaran anda dapat melihatnya pada fitur histori. Pada fitur ini terdapat 2 _action_ yang dapat anda gunakan yaitu cetak ulang kwitansi pembayaran dan pembatalan pembayaran.
+
+image::../images-loket/loket-histori-tagihan-1.png[align="center"]
+
+1. Pilih menu *History* pada sidebar kanan
++
+image::../images-loket/loket-histori-tagihan-2.png[align="center"]
+2. Setelah itu akan muncul tampilan histori pembayaran pelanggan.
++
+image::../images-loket/loket-histori-tagihan-3.png[align="center"]
+3. Klik kanan untuk menampilkan action *Cetak Ulang kwitansi pembayaran* dan *Batalkan Pembayaran*.
+4. Pilih action yang ingin anda lakukan.
++
+image::../images-loket/loket-histori-tagihan-5.png[align="center"]
+5. Berikut merupakan tampilan untuk *cetak ulang* kwitansi pembayaran.
++
+image::../images-loket/loket-histori-tagihan-6.png[align="center"]
+6. Untuk _action_ pembatalan pembayaran verifikasi dengan memasukkan _password_ dan alasan mengapa dibatalkan, lalu tekan *OK*.

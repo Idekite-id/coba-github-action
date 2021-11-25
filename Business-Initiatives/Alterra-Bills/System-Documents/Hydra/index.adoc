@@ -1,0 +1,17 @@
+= Hydra
+:keywords: sti,bpa,performance-support
+
+== Overview
+
+Hydra merupakan sebuah _service_ yang digunakan untuk mengirimkan _payload request_ ke sistem lain, menggunakan Hystrix yang diinisiasi oleh Netflix. _Library_ yang bersifat _latent_ dan _fault-tolerant_ ini menggunakan _circuit breaker method_ untuk meningkatkan _performance_ sistem. Hydra akan mengirimkan _payload_ ke sistem lain berdasarkan konfigurasi data dari _client_. Fungsi dari sistem ini adalah menurunkan _workload_ _client_ pada saat memproses _http request_. Sebagai contoh, dalam Alterra Bills, kita dapat menggunakan Hydra untuk mengirimkan _callback notification_ ke sistem milik _partner_ dari Kraken.
+
+
+== Documentation
+
+https://hydra.sumpahpalapa.com/docs/http/[API Documentation Hydra]
+
+<<./sequence-diagram-hydra.adoc#, Sequence Diagram Hydra>>
+
+<<./hystrix-hystrixgo-hydra.adoc#, Hystrix and Hystrix-Go Hydra>>
+
+<<./protocol-hydra.adoc#, Connection and Protocol Hydra>>

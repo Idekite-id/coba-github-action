@@ -1,0 +1,28 @@
+= Development Sipintar.NET
+
+Berisi Git Flow dan langkah development sistem.
+
+== Development Step
+
+Requirement
+
+- Visual Studio
+- VS Code
+
+
+=== Step to Create API CRUD
+
+- Master Attribute Ongkos
+- Master Tipe Permohonan
+- Master Jenis Nonair
+- <<Dev-API/lisensi-bacameter-mobile.adoc#, Lisensi Bacameter Mobile>>
+
+=== Step to Create CRUD WPF
+
+- Master Attribute Ongkos
+- Master Tipe Permohonan
+- Master Jenis Nonair
+- Issue loading render WPF after request API
+- Async Navigation
+
+=== Step to Create Web MVC CRUD

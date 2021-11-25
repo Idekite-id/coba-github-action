@@ -1,0 +1,10 @@
+= Mengunduh Data Transaksi Rekening Air
+
+Untuk mengunduh transaksi rekening air, ikuti langkah-langkah di bawah ini.
+
+image::../images-billing/billing-supervisi-download.png[align="center"]
+
+1. Pilih menu *Supervisi*
+2. Cari ikon *_Download_ Transaksi*
+3. Centang *Ganti Tanggal*, kemudian lengkapi _form_ agar dapat mengunduh transaksi yang diinginkan
+4. Tekan tombol *_Download_* untuk melanjutkan proses.

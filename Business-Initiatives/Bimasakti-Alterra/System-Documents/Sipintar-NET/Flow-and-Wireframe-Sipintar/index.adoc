@@ -1,0 +1,12 @@
+= Flow and Wireframe Sipintar.NET
+
+Dokumen ini berisi tentang _flow_ dan wire_frame dari sistem Sipintar.NET, yang berisi gambar dan deskripsi dari _flow_ dan _wireferame_ sistem.
+
+Berikut adalah daftar modul yang tersedia pada sistem Sipintar.NET versi 5:
+
+|===
+| *No* |*Module Name* | *Flow Doc* | *Last Updated*
+|1 | Billing | <<Flow-Modul-Billing-Sipintar/index.adoc#, show detail>> | 2021-04-28
+|2 | Perencanaan | <<./Flow-Modul-Perencanaan-Sipintar/index.adoc#, show detail>> | 2021-07-22
+|3 | Hublang | <<Flow-Modul-Hublang-Sipintar/index.adoc#, show detail>> | 2021-07-30
+|===

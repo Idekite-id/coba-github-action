@@ -1,0 +1,122 @@
+= Flow Atribut Material
+
+Dokumen ini berisi tentang _flow_ CRUD pada menu *Atribut Tarif* dari sistem Sipintar.NET.
+
+Berikut adalah _flow_ dari Atribut Material:
+
+== 1. Flow Page Atribut Material
+
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-1.png[600,400]
+{sp} +
+
+Berikut adalah _flow_ dari _show_ halaman Atribut Material. Saat membuka _page_ Atribut Material, aplikasi akan melakukan serangkaian proses berikut:
+
+1. Mendapatkan data pada _page_ tersebut dengan memanggil URL REST API;
+2. Pada sisi REST API, akan melakukan rangkaian proses _query_ ke _database_; 
+3. REST API mengembalikan hasil _query_ ke Client; 
+4. Client menampilkan hasil _query_ oleh REST API. Jika _query_ tidak bermasalah dan datanya tidak nol maka akan _show_ tabel, apabila tidak maka akan _show empty state_.
+
+Berikut adalah penjelasan terkair Fitur Material :
+
+. Tampilan Utama Fitur Material => manampilkan pengolahan data material dan pilihan melakukan filtering.
+
+.. Tambah => Fitur ini digunakan untuk menambah data material baru.
+
+.. Hapus => Fitur ini digunakan untuk menghapus data material yang sudah ada, dengan memilih data yang ada pada tabel. 
+.. Koreksi => Fitur ini digunakan untuk mengkoreksi data material yang sudah ada, dengan memilih data yang ada pada tabel. 
+.. Export => Fungsi export disini untuk mengeksport data-data yang di tampilkan pada grid material. Pilihan export yang dapat di pilih html, excel, excel 2007, xml, csv. +
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-2.png[600,400]
+{sp} +
+
+.. Filter Pencarian => fitur ini digunakan untuk menyaring data material berdasarkan filter yang di pilih. Filter terdiri dari 3 bagian:
+
+ ** Kategori => Menampilkan data material berdasarkan kategorinya. _Value_ pada _combo box_ diambil dari REST API..
+
+  Kategori => /api/v1/master-kategori
+
+ ** Kode Material => Menampilkan data material berdasarkan kode material yang ingin di tampilkan.
+ ** Nama Material => Menampilkan data material berdasarkan nama material yang ingin di tampilkan.
+
+** Terapkan Filter => Button untuk menampilkan datanya pada _grid_, sesuai filter - filter yang dipilih. _Value_ di ambil dari REST API:
+
+ Terapkan Filter => /api/v1/master-material
+
+** Atur Ulang Filter => Button untuk mengembalikan filter pada saat pertama kali membuka fitur atribut material.
++ 
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-3.png[600,400]
+{sp} +
+
+.. Tabel Material => fitur ini untuk menampilkan isi tabel master_attribute_material. Pada tabel menampilkan berapa jumlah data pada tabel, pagination dan limit berapa data ditampilkan.
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-4.png[600,400]
+{sp} +
+
+. Tampilan Dilog Host Fitur Material => manampilkan halaman untuk menambah, mengkoreksi dan menghapus data material.
+.. Tambah Data Material => Menambah data material baru dengan mengisi semua textbox dan memilih combobox yang ada dalam halaman dialog tambah data. Jika semua sudah terisi dan di pilih maka button tambah akan aktif.
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-5.png[600,400]
+{sp} +
+.. Koreksi Data Material => Mengkoreksi data material yang sudah ada, harus ada nilai yang di ubah agak button simpan aktif.
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-6.png[600,400]
+{sp} +
+.. Hapus Data Material => Menghapus data material yang sudah ada.
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-7.png[600,400]
+{sp} +
+
+
+=== 1.1. Flow Chart 
+
+. REST API
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-9.png[600,400]
+{sp} +
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-11.png[600,400]
+{sp} +
+
+. WPF
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-8.png[600,400]
+{sp} +
++
+image::../../images-sipintar/perencanaan/atribut/sipintar-atribut-material-10.png[600,400]
+{sp} +
+
+=== 1.2. Endpoint URL REST API
+
+Pada menu ini, URL REST API yang digunakan adalah: 
+
+[cols="10%,25%,65%",frame=all, grid=all]
+|===
+^.^h| *Method* 
+^.^h| *URL* 
+^.^h| *Deskripsi*
+
+|GET 
+| /api/v1/master-material 
+| Digunakan untuk Get data, wajib menambahkan *IdPdam* dan *IdUserRequest* pada URI param ketika request
+
+|POST 
+| /api/v1/master-material 
+| Digunakan untuk Tambah data, wajib menambahkan *IdPdam* dan *IdUserRequest* pada body ketika request
+
+|PATCH 
+| /api/v1/master-material 
+| Digunakan untuk Ubah data, wajib menambahkan *IdPdam* dan *IdUserRequest* serta *IdEntity* pada body ketika request
+
+|DELETE 
+| /api/v1/master-material 
+| Digunakan untuk Hapus data, wajib menambahkan *IdPdam* dan *IdUserRequest* serta *IdEntity* pada URI param ketika request
+|===
+
+==== Code Notes
+
+Fitur ini menggunakan tabel _master_attribute_material_ untuk menyimpan datanya.
+{sp} +
+
+==== Other Source
+
+https://drive.google.com/file/d/11puWTqzM8qDLKZUX7RAa0Yeh8x-gT3Sf/view?usp=sharing[Diagram Source (editable with email @bsa.id)]

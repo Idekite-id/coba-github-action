@@ -1,0 +1,9 @@
+= Login ke Modul Distribusi
+
+Modul Distribusi hanya bisa diakses setelah dilakukan setup oleh Tim Bimasakti Alterra. Untuk login ke dalam modul, silakan mengakses modul pada desktop, kemudian ikuti langkah-langkah di bawah ini:
+
+image::../images-distribusi/distribusi-login.png[align="center"]
+
+1. Masukkan *Nama Pengguna* yang sudah terdaftar
+2. Masukkan *Kata Sandi*
+3. Tekan tombol *Masuk* untuk masuk ke dalam modul. Tekan tombol *Keluar* apabila hendak keluar dari modul.

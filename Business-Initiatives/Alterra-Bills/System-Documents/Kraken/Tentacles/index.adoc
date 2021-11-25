@@ -1,0 +1,32 @@
+= Tentacles
+:keywords: sti,bpa,switcher-engine
+
+== Overview
+
+*Tujuan dibangun sistem Tentacles adalah:*
+
+1. Cron based process, 1 minute wait time.
+2. Max 4 threads in a time.
+3. Serial queue processing.
+4. With an average of 1s per transaction. We can only serve at the maximum of 240 transactions per cron run.
+5. No scaling options available.
+6. 3% max CPU and memory usage.
+
+*Cara kerja sistem Tentacles adalah:*
+
+1. Infinite Looped Queue Worker
+2. Parallelized the process
+
+== Technical Information
+
+<<./url-tentacles.adoc#, System URL Tentacles>>
+
+<<./technology-tentacles.adoc#, Technology Tentacles>>
+
+== Onboarding Information
+
+<<./development-tentacles.adoc#, Development Tentacles>>
+
+== Documentation
+
+https://github.com/sepulsa/kraken/releases[Release Note]

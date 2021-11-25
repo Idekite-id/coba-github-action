@@ -1,0 +1,20 @@
+= Architecture Coklit BE
+
+== High Level Architecture
+
+image::./images-coklit-be/coklit-be-hla.png[HLA]
+
+== Related System
+
+Coklit BE terdiri dari beberapa sistem yang saling terintegrasi. Berikut daftar sistem yang terhubung dengan Coklit BE.
+
+[cols="5%,35%,65%",frame=all, grid=all]
+|===
+^.^h|*No* 
+^.^h|*System Name* 
+^.^h|*Description*
+
+|1 | Coklit FE | Dashboard Coklit
+|2 | Factura | System untuk inquiry tagihan PDAM
+|3 | LimaSakti | System yang berhubungan dengan PDAM. Coklit terintegrasi untuk menampilkan foto data bacameter
+|===

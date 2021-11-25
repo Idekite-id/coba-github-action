@@ -1,0 +1,34 @@
+= Flow Modul Hublang Sipintar.NET
+
+Berikut adalah deskripsi dan flow dari Modul Hublang pada Sipintar.NET versi 5. 
+
+== Menu Login
+
+* Flow Login
+
+== Menu Pelayanan
+
+* Permohonan
+
+    ** <<./pelayanan-permohonan-permohonan-pelanggan-air.adoc#, Flow Permohonan Pelanggan Air>>
+    ** <<./pelayanan-permohonan-permohonan-pelanggan-limbah.adoc#, Flow Permohonan Pelanggan Limbah>>
+    ** <<./pelayanan-permohonan-permohonan-pelanggan-l2t2.adoc#, Flow Permohonan Pelanggan L2T2>>
+    ** <<./pelayanan-permohonan-permohonan-non-pelanggan.adoc#, Flow Permohonan Non Pelanggan>>
+    ** <<./pelayanan-pengaduan-pengaduan-non-pelanggan.adoc#, Flow Pengaduan Non Pelanggan>>
+    ** <<./pelayanan-berita-acara-berita-acara-pelanggan-air.adoc#, Flow Berita Acara Pelanggan Air>>
+    ** <<./pelayanan-berita-acara-berita-acara-pelanggan-limbah.adoc#, Flow Berita Acara Pelanggan Limbah>>
+    ** <<./pelayanan-berita-acara-berita-acara-pelanggan-lltt.adoc#, Flow Berita Acara Pelanggan L2T2>>
+
+== Menu Supervisi
+
+== Menu Atribut
+
+* <<./atribut-tipe-permohonan.adoc#, Flow Atribut Tipe Permohonan>>
+* <<./atribut-tarif-air-tangki.adoc#, Flow Atribut Tarif Air Tangki>>
+* <<./atribut-jenis-non-air.adoc#, Flow Jenis Non-Air>>
+* <<./atribut-tipe-pendaftaran-sambungan.adoc#, Flow Tipe Pendaftaran Sambungan>>
+* <<./atribut-pekerjaan.adoc#, Flow Pekerjaan>>
+* <<./atribut-jenis-bangunan.adoc#, Flow Jenis Bangunan>>
+* <<./atribut-peruntukan.adoc#, Flow Peruntukan>>
+
+== Manu Bantuan

@@ -1,0 +1,187 @@
+= Product Type List
+
+Berikut adalah kategori produk yang dimiliki Bill Payment Aggregator (BPA).
+
+.Pulsa dan Paket Data
+[%collapsible]
+====
+.. link:./Pulsa-dan-Paket-Data/Mobile-Prepaid.adoc[Mobile Prepaid]
++
+Produk untuk memfasilitasi pembelian pulsa pada telepon seluler prabayar.
++
+.. link:./Pulsa-dan-Paket-Data/Mobile-Postpaid.adoc[Mobile Postpaid]
++
+Produk untuk memfasilitasi pembayaran tagihan pada telepon seluler pascabayar.
++
+.. link:./Pulsa-dan-Paket-Data/Mobile-Data-Package.adoc[Mobile Data Package]
++
+Produk untuk memfasilitasi pembelian paket data internet pada telepon seluler.
+
+====
+
+.Uang Elektronik, Voucher dan Game 
+[%collapsible]
+====
+.. link:./Uang-Elektronik-Voucher-dan-Game/Uang-Elektronik.adoc[Uang Elektronik]
++
+Produk untuk memfasilitasi isi ulang/top-up uang digital.
++
+.. link:./Uang-Elektronik-Voucher-dan-Game/Voucher.adoc[Voucher]
++
+Produk dalam bentuk transaksi yang memiliki nilai uang dan dapat digunakan dengan cara ditukarkan(_redeem_).
++
+.. link:./Uang-Elektronik-Voucher-dan-Game/Game-Top-Up.adoc[Game Top-Up]
++
+Produk untuk pembelian koin, _cash_, atau poin pada game sehingga dapat menggunakan fitur premium.
++
+.. link:./Uang-Elektronik-Voucher-dan-Game/Game-Voucher.adoc[Game Voucher]
++
+Produk yang memfasilitasi pembelian kode voucher untuk memainkan suatu game online.
+
+====
+
+.Tagihan dan Pembayaran
+[%collapsible]
+====
+.. link:./Tagihan-dan-Pembayaran/PDAM.adoc[PDAM]
++
+Produk untuk pembayaran tagihan air bersih dari Perusahaan Daerah Air Minum milik daerah.
++
+.. link:./Tagihan-dan-Pembayaran/PLN-Prepaid.adoc[PLN Prepaid]
++
+Produk yang ditawarkan oleh PT PLN Persero untuk alternatif pembayaran sistem listrik prabayar atau token listrik.
++
+.. link:./Tagihan-dan-Pembayaran/PLN-Postpaid.adoc[PLN Postpaid]
++
+Produk yang ditawarkan oleh PT PLN Persero untuk alternatif pembayaran layanan kelistrikan dengan sistem listrik pasca bayar.
++
+.. link:./Tagihan-dan-Pembayaran/Telkom-Postpaid.adoc[Telkom Postpaid]
++
+Produk untuk pembayaran tagihan telepon dan internet dari PT. Telekomunikasi Indonesia (TELKOM).
++
+.. link:./Tagihan-dan-Pembayaran/BPJS-Kesehatan.adoc[BPJS Kesehatan]
++
+Produk untuk pembayaran layanan jaminan kesehatan dari pemerintah untuk setiap penduduk Indonesia.
++
+.. link:./Tagihan-dan-Pembayaran/BPJS-Ketenagakerjaan.adoc[BPJS Ketenagakerjaan]
++
+Produk untuk pembayaran layanan jaminan sosial ketenagakerjaan setiap pekerja di Indonesia.
++
+.. link:./Tagihan-dan-Pembayaran/Pajak-Kendaraan-Bermotor.adoc[Pajak Kendaraan Bermotor (PKB)]
++
+Produk untuk pembayaran pajak kendaraan bermotor secara online.
++
+.. link:./Tagihan-dan-Pembayaran/Pajak-Bumi-dan-Bangunan.adoc[Pajak Bumi dan Bangunan (PBB)]
++
+Produk untuk pembayaran pajak yang bersifat kebendaan yang ditentukan oleh keadaan objek yaitu bumi/tanah dan atau bangunan.
++
+.. link:./Tagihan-dan-Pembayaran/Gas-PGN.adoc[Gas PGN]
++
+Produk untuk pembayaran program pembayaran tagihan gas bumi yang dimiliki PT. PGN (Perusahaan Gas Negara) secara online.
++
+.. link:./Tagihan-dan-Pembayaran/Insurance.adoc[Insurance]
++
+Produk untuk pembayaran premi atau iuran asuransi yang harus dibayar setiap bulan.
++
+.. link:./Tagihan-dan-Pembayaran/Micro-Insurance.adoc[Micro Insurance]
++
+Produk untuk pembayaran produk asuransi dengan premi terjangkau dengan nilai pertanggungan sangat terbatas.
++
+.. link:./Tagihan-dan-Pembayaran/Multifinance.adoc[Multifinance]
++
+Produk untuk pembayaran tagihan angsuran kredit dari lembaga keuangan non-bank.
++
+.. link:./Tagihan-dan-Pembayaran/Credit-Card.adoc[Credit Card]
++
+Produk untuk pembayaran tagihan kartu kredit.
++
+.. link:./Tagihan-dan-Pembayaran/TV-Prepaid.adoc[TV Prepaid]
++
+Produk untuk top up program TV berbayar
++
+.. link:./Tagihan-dan-Pembayaran/TV-and-Internet-Postpaid.adoc[TV and Internet Postpaid]
++
+Produk untuk pembayaran tagihan langganan program televisi dan internet.
++
+.. link:./Tagihan-dan-Pembayaran/Education.adoc[Education]
++
+Produk yang memfasilitasi pembayaran pendidikan atau sekolah secara online.
++
+.. link:./Tagihan-dan-Pembayaran/Shopping-Payment.adoc[Shopping Payment]
++
+Produk yang memfasilitasi pembayaran pada _platform_ atau _marketplace_.
++
+.. link:./Tagihan-dan-Pembayaran/Mobile-VAS.adoc[Mobile VAS]
++
+Fasilitas produk yang ditawarkan oleh industri telekomunikasi sebagai penunjang layanan utama.
++
+.. link:./Tagihan-dan-Pembayaran/Money-Transfer.adoc[Money Transfer]
++
+Produk untuk memfasilitasi proses transfer dana ke semua bank.
+====
+
+.Akomodasi dan Hiburan
+[%collapsible]
+====
+.. link:./Akomodasi-dan-Hiburan/Tiket-Pesawat.adoc[Tiket Pesawat]
++
+Produk untuk memfasilitasi pembayaran tiket pesawat secara online.
++
+.. link:./Akomodasi-dan-Hiburan/Tiket-KAI.adoc[Tiket KAI]
++
+Produk untuk memfasilitasi pembelian dan pembayaran tiket kereta api secara online.
++
+.. link:./Akomodasi-dan-Hiburan/Tiket-Kapal.adoc[Tiket Kapal]
++
+Produk untuk memfasilitasi pemesanan dan pembelian tiket kapal laut secara online.
++
+.. link:./Akomodasi-dan-Hiburan/Tiket-Bus.adoc[Tiket Bus]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran tiket bus secara online.
++
+.. link:./Akomodasi-dan-Hiburan/Travel.adoc[Travel]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran perjalanan menggunakan transportasi darat seperti mobil atau mini bus.
++
+.. link:./Akomodasi-dan-Hiburan/Hotel.adoc[Hotel]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran akomodasi pelayanan penginapan.
++
+.. link:./Akomodasi-dan-Hiburan/Accomodation-Rent.adoc[Accomodation Rent]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran akomodasi seperti sewa rumah, kost, apartemen dalam periode harian, bulanan, dan tahunan.
++
+.. link:./Akomodasi-dan-Hiburan/Rent-Property.adoc[Rent Property]
++
+Produk untuk memfasilitasi pemesanan dan pembayaran apartemen.
++
+.. link:./Akomodasi-dan-Hiburan/Event.adoc[Event]
++
+Produk untuk memfasilitasi pemesanan dan transaksi acara konser, hiburan, pertandingan olahraga hingga wahana hiburan.
+
+====
+
+.Zakat dan Tabungan
+[%collapsible]
+====
+.. link:./Zakat-dan-Tabungan/Zakat-Fitrah.adoc[Zakat Fitrah]
++
+Produk untuk memfasilitasi pembayaran zakat fitrah bagi umat muslim secara online.
++
+.. link:./Zakat-dan-Tabungan/Infaq.adoc[Infaq]
++
+Produk untuk memfasilitasi amal atau pengeluaran harta secara sukarela kepada orang yang membutuhkan secara online.
++
+.. link:./Zakat-dan-Tabungan/Wakaf.adoc[Wakaf]
++
+Produk untuk memfasilitasi sedekah dengan memisahkan/menyerahkan sebagian harta untuk dimanfaatkan. 
++
+.. link:./Zakat-dan-Tabungan/Kurban.adoc[Kurban]
++
+Produk untuk memfasilitasi pembelian atau transaksi hewan qurban secara online. 
++
+.. link:./Zakat-dan-Tabungan/Tabungan-Emas.adoc[Tabungan Emas]
++
+Produk untuk memfasilitasi penitipan saldo emas.
+
+====

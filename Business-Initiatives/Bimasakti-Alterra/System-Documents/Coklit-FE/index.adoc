@@ -1,0 +1,69 @@
+= Coklit FE
+:keywords: design system, BSA-PDAM, Coklit-FE
+
+== Overview
+
+*Coklit* adalah sistem yang dibuat untuk mengumpulkan informasi tagihan air pada semua objek tagihan di bawah insitusi Hankam. Alur penagihan di Coklit diawali dengan proses pengumpulan tagihan institusi Hankam di tingkat kota/kab di masing-masing PDAM untuk kemudian diteruskan ke DPD Perpamsi di tingkat PD/provinsi. Setelah itu dilanjutkan ke DPP Perpamsi di tingkat pusat, sampai proses verifikasi oleh tim Coklit agar bisa ditagihkan dan dibayarkan oleh Kementrian Hankam.
+
+== Team Involved
+
+Berikut adalah nama-nama yang terlibat dalam pengembangan sistem Coklit (Pencocokan & Penelitian). Masing-masing sudah dilengkapi dengan alamat email yang bisa dihubungi jika diperlukan.
+
+[cols="30%,35%,35%",frame=all, grid=all]
+|===
+^.^h| *Name* 
+^.^h| *Role* 
+^.^h| *Email* 
+
+|Rana Pradipta    
+| Software Engineer             
+| rana@bsa.id
+
+|Pajar Wijaya Putra    
+| Software Engineer             
+| pwputra@bsa.id
+
+|Ekky Patria Kencana    
+| Software Engineer             
+| ekky@alterra.id
+
+|Hasan Mubarok          
+| Software Engineer             
+| hasan@bsa.id
+|===
+
+== Technical Information
+
+<<./url-coklit-fe.adoc#, System URL Coklit FE>>
+
+<<./architecture-coklit-fe.adoc#, Architecture Coklit FE>>
+
+<<./technology-coklit-fe.adoc#, Technology Coklit FE>>
+
+<<./environment-coklit-fe.adoc#, Environment Coklit FE>>
+
+<<./release-deploy-coklit-fe.adoc#, Release and Deployment Coklit FE>>
+
+<<./flow-wire-coklit-fe.adoc#, Flow and Wireframe Coklit FE>>
+
+== Onboarding Information
+
+<<./dev-onboarding-coklit-fe.adoc#, Developer Onboarding Coklit FE>>
+
+<<./development-coklit-fe.adoc#, Development Coklit FE>>
+
+<<./naming-convention-coklit-fe.adoc#, Naming Convention Coklit FE>>
+
+== Documentation
+
+Berisi dokumen penunjang untuk penggunaan sistem, berikut adalah dokumen yang biasa dimasukkan di dalamnya. Anda dapat memasukkan external link (Google Doc, Horven, Swagger, maupun lainnya dalam list dokumen berikut:
+
+https://docs.google.com/document/d/1i5fT_aV268KoZLgGkHg__tzWno_Gg4KKMsUnsUHTv6I/edit?usp=sharing[]
+
+<<./adr-doc-coklit-fe.adoc#, ADR Document Coklit FE>>
+
+<<./product-information-coklit-fe.adoc#, Product Information Document Coklit FE>>
+
+<<./release-note-coklit-fe.adoc#, Release Note Coklit FE>>
+
+

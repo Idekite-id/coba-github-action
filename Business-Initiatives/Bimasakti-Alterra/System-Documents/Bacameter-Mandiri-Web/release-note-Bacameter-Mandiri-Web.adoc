@@ -1,0 +1,3 @@
+= Release Note Bacameter Mandiri Web
+
+Berisi catatan rilis sistem.

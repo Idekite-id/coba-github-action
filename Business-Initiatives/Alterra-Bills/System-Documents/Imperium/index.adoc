@@ -1,0 +1,59 @@
+= Imperium
+:keywords: ati, data, big-data-ecosystem-core
+
+== Overview
+
+Imperium adalah sebuah _Big Data project_ yang mengusung konsep _service-oriented_ dan berbasis _cloud computing_. Imperium dibuat karena kebutuhan terhadap data yang tinggi dan semakin kompleks.
+Sebagai _data platform_, Imperium menggunakan teknologi Google Cloud Platform karena memiliki keunggulan, di antaranya:
+
+* Security
+* Multi-Cloud
+* Server less
+* Integrated with open source software
+* AI and machine learning
+* Cheap and easy to implemented
+
+
+Seiring dengan pertambahan jumlah bisnis yang didorong oleh data (data-driven), ada kebutuhan besar untuk melaksanakan "pipa" pemrosesan data (_data pipeline_) yang kompleks dan secara teratur mengekstraksi data dari berbagai sumber _structured dan non structured._ Serta mengubah data menjadi format yang memfasilitasi logika bisnis, dan menyimpan _value_ yang dihasilkan dengan cara memfasilitasi peningkatan produk dan pengambilan keputusan _stakeholder._
+Mempertimbangkan hal tersebut, tim Data berinisiatif untuk meningkatkan layanannya untuk mendukung _data service_ melalui proyek Imperium.
+
+
+* Migrasi data dari Sepulsa micro-systems ke _datalake_ yang berbasis Google Cloud Platform secara berkala dengan metode ELT untuk diolah menjadi _reporting_ atau _analitics_, untuk _orchestrator_-nya, Imperium menggunakan teknologi Apache Airflow untuk menggantikan pekerjaan yang sebelumnya di-_handle_ oleh sistem Buffalo.
+* Menyediakan serangkaian layanan _cloud modular_ termasuk komputasi, penyimpanan data, analisis data dan _machine learning_.
+
+== Team Involved
+
+|===
+| *Name*  | *Role* | *Email*    
+ 
+| Bayu Setiawan
+| Product Owner 
+| bayu@alterra.id
+
+| Bayu Setiawan 
+| Lead Data Engineer  
+| bayu@alterra.id
+
+| Ranu Goldan Yeara 
+| Data Engineer 
+| ranu@alterra.id
+
+| Vera Rusmalawati 
+| Data Engineer  
+| vera@alterra.id
+
+| Dimas Ardiyanto
+| System Analyst  
+| dardiyanto@alterra.id
+|===
+
+== Technical Information
+
+<<./architecture-imperium.adoc#, Architecture Imperium>>
+
+<<./technology-imperium.adoc#, Technology Imperium>>
+
+<<./flow-wire-imperium.adoc#, Flow and Wireframe Imperium>>
+
+== Documentation 
+

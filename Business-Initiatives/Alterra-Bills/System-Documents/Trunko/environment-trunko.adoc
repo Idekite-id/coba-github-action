@@ -1,0 +1,21 @@
+= Environment Trunko
+
+[cols="25%,25%,50%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+| Development | URL | https://trunko-dev.sumpahpalapa.com
+| | Project Root | /app
+| | IP Address | Dynamic IP
+| QA | URL | https://trunko-uat.sumpahpalapa.com
+| | Project Root | /app
+| | IP Address | Dynamic IP
+| Staging | URL | https://oknurt.sumpahpalapa.com
+| | Project Root | /app
+| | IP Address | Dynamic IP
+| Production | URL | https://oknurt.sepulsa.id
+| | Project Root | /app
+| | IP Address | Dynamic IP
+|===

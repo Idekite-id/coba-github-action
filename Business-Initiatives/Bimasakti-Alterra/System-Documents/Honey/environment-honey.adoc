@@ -1,0 +1,45 @@
+= Environment Honey
+
+== Kabupaten Bandung Barat
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+1.6+|Staging |IP Address |
+|URL | https://honey.sumpahpalapa.com/[]
+|Doc Root |
+|Service Name | Honey
+|DB Server |
+|Git Repo | https://github.com/bimasaktialterra/honey[]
+1.6+|Production |IP Address |
+|URL | https://kbb.bimareklame.id[]
+|Doc Root |
+|Service Name | Bimareklame
+|DB Server |
+|Git Repo | https://github.com/bimasaktialterra/honey[]
+|===
+
+== Kota Surakarta
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+1.6+|Staging |IP Address |
+|URL | http://surakarta.sumpahpalapa.com[]
+|Doc Root |
+|Service Name | Honey
+|DB Server |
+|Git Repo | https://github.com/bimasaktialterra/honey[]
+1.6+|Production |IP Address |
+|URL | https://surakarta.bimareklame.id[]
+|Doc Root |
+|Service Name | Bimareklame
+|DB Server |
+|Git Repo | https://github.com/bimasaktialterra/honey[]
+|===

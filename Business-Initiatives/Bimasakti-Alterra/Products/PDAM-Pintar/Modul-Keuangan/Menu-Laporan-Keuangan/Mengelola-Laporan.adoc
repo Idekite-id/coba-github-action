@@ -1,0 +1,101 @@
+= Mengelola Laporan
+
+Menu Laporan Keuangan digunakan untuk menampilkan berbagai laporan. Laporan tersebut mencakup berbagai proses yang dilakukan pada menu *Master Keuangan*, *Voucher*, dan *Posting Keuangan*. 
+Menu Laporan mempunyai 2 fitur untuk menampilkan *Laporan Harian* dan *laporan Bulanan*
+
+image::../images-keuangan/keuangan-mengelola-laporan.png[align="center"]
+
+Berikut untuk langkah - langkah mengelola *Laporan Harian* dan *Laporan Bulanan* : 
+
+.Mengelola Laporan Harian
+[%collapsible]
+====
+Fitur Laporan Harian berfungsi untuk mengatur dan mencetak laporan per hari, yang mencakup enam (6) laporan, yaitu : 
+
+1. LPH - Laporan Harian Penerimaan
+2. DPK - Daftar Penerimaan Kas
+3. DPH - Daftar Pengeluaran Harian
+4. DBK - Daftar Biaya Kas
+5. LHK - Laporan Harian Kas
+6. RPB - Rekap Penerimaan dan Biaya
+
+
+image::../images-keuangan/keuangan-menampilkan-laporan-harian-1.png[align="center"]
+
+Laporan harian bisa ditampikan dengan memilih menu *Laporan* dan mengikuti langkah - langkah sebagai berikut :  
+
+image::../images-keuangan/keuangan-menampilkan-laporan-harian-2.png[align="center"]
+
+1. Klik ikon *Laporan Harian*, kemudian pilih *salah satu jenis laporan* sesuai kebutuhan. Sebagai contoh, dalam langkah ini akan dipilih *LHP - Laporan Harian Penerimaan*
+
++
+image::../images-keuangan/keuangan-menampilkan-laporan-harian-3.png[align="center"]
+
+2. Sistem akan menampilkan kotak dialog untuk filter laporan, tentukan opsi untuk masing-masing _field_ 
+
+3. Setelah selesai, klik pada tombol *Tampil*
+
++
+image::../images-keuangan/keuangan-menampilkan-laporan-harian-4.png[align="center"]
+
+4. Gambar di atas ini merupakan contoh tampilan dari hasil Laporan Harian Penerimaan. Anda dapat melakukan klik pada ikon *Print* untuk mencetak laporan.
+
+*Note:* Langkah-langkah di atas dapat digunakan untuk menampilkan semua jenis laporan sesuai dengan kebutuhan pada Fitur *Laporan Harian*
+====
+
+.Mengelola Laporan Bulanan
+[%collapsible]
+====
+Fitur Laporan Harian berfungsi untuk mengatur dan mencetak laporan per bulan, yang mencakup sebelas (11) laporan, yaitu : 
+
+1. Laporan Efisiensi Penagihan ( LEP )
+
+2. Efektivitas Penagihan Bulanan ( EPB )
+
+3. Rekap Laporan Harian Penerimaan (RLHP)
+
+4. Daftar Penerbitan Voucher ( DPV )
+
+5. Daftar Voucher YSM Harus Dibayar ( DVHD )
+
+6. Rekap Laporan Harian Kas ( RLHK )
+
+7. Laporan Penagihan Bulanan ( LPB )
+
+8. Rekap Penagihan & Penyisihan Piutang Rekening Air ( RP3RA )
+
+9. Rekap Penagihan Non Air ( RPNA )
+
+10. Daftar Umur Piutang Rekening Air ( DUPRA )
+
+11. Daftar Piutang & Tunggakan Rekening ( DPTR )
+
+image::../images-keuangan/keuangan-menampilkan-laporan-bulanan-1.png[align="center"]
+
+Laporan bulanan bisa ditampikan dengan memilih menu *Laporan* dan mengikuti langkah - langkah sebagai berikut : 
+
+
+image::../images-keuangan/keuangan-menampilkan-laporan-bulanan-2.png[align="center"]
+
+1. Klik ikon *Laporan Bulanan*, kemudian pilih *salah satu jenis laporan* sesuai kebutuhan. Sebagai contoh, dalam langkah ini akan dipilih *LEP - Laporan Efisiensi Penagihan*
+
++
+image::../images-keuangan/keuangan-menampilkan-laporan-bulanan-3.png[align="center"]
+
+2. Sistem akan menampilkan kotak dialog untuk filter laporan, tentukan opsi untuk masing-masing _field_
+
+3. Setelah selesai, klik pada tombol *Tampil*
+
++
+image::../images-keuangan/keuangan-menampilkan-laporan-bulanan-4.png[align="center"]
+
+4. Setelah itu, akan muncul pop-up konfirmasi. Klik tombol *Yes* untuk menampilkan laporan
+
++
+image::../images-keuangan/keuangan-menampilkan-laporan-bulanan-5.png[align="center"]
+
+5. Gambar di atas ini merupakan contoh tampilan dari hasil laporan Laporan Efisiensi Penagihan. Anda dapat melakukan klik pada ikon *Print* untuk mencetak laporan.
+
+
+*Note:* Langkah-langkah di atas dapat digunakan untuk menampilkan semua jenis laporan sesuai dengan kebutuhan pada Fitur *Laporan Bulanan*
+====

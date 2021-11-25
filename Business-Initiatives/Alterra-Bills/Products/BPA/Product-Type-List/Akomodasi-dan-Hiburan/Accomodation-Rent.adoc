@@ -1,0 +1,51 @@
+= Accomodation Rent
+
+Produk untuk memfasilitasi pemesanan dan pembayaran akomodasi seperti sewa rumah, kost, apartemen dalam periode harian, bulanan, dan tahunan. Akomodasi merupakan salah satu kebutuhan pokok manusia, dimana sudah pasti banyak yang membutuhkan.
+
+*Variasi Produk*
+
+Cakupan tipe produk yang disasar adalah sewa rumah, kost dan apartement yang dibayar pada periode tertentu:
+
+- Harian
+- Bulanan
+- Tahunan.
+
+*Vendor Utama*
+
+- Pemilik kost, rumah, dan apartement. Produk ini termasuk ke dalam microbiller, karena bisa jadi hanya 1 atau 2 unit yang disewakan.
+
+- Aggregator atau Billing Platform lain sebagai supplier yang mengumpulkan para pemilik unit.
+
+*Perilaku dan Cara Penggunaan Produk*
+
+- Customer (penyewa kost) melakukan negosiasi ketentuan pembayaran dengan pemilik unit terkait harga dan cara pembayaran, atau bisa juga langsung mengikuti ketentuan yang sudah ditetapkan oleh pemilik unit.
+- Customer melakukan pembayaran untuk setiap periode yang akan berjalan (bayar di depan)
+- Detil akomodasi, bisa meliputi fasilitas tambahan, _furnished_/_not furnished_
+
+*Customer Journey*
+
+Partner
+
+. Customer memilih nama perumahan / kost / apartemen yang diinginkan
+. Customer menginputkan nomor unit
+. Customer memilih jangka waktu pembayaran hingga periode berjalan dan/atau periode selanjutnya jika diinginkan
+. Customer mengirimkan data tersebut ke _channel partner_
+. Customer mendapatkan jumlah tagihan untuk periode yang sudah dipilih beserta tagihan yang belum terbayar sebelumnya
+. Customer melakukan pembayaran sesuai dengan jumlah tagihan dan detil tagihan yang ditentukan pada tahap _inquiry_
+
+Switcher/Agregator
+
+. Partner melakukan API call untuk mendapatkan _product list_ untuk kost, apartemen ataupun nama perumahan terkait
+
+. Partner mengirimkan _inquiry_ dengan data _customer_id_ (nomor unit) dan _product_id_ terkait, serta periode pembayaran
+- _Product Id_  mengacu kepada operator tertentu dan jenis unit tertentu. misalnya Kos Griya Wahana Tipe A memiliki product ID 1234
+- _Customer Id_ mengacu ke nomor tagihan atau nomor unit yang akan dibayar
+
+. Partner menerima detil tagihan yang harus dibayarkan
+
+. Partner melakukan _payment_, beserta _amount_ yang dibayarkan. Karena untuk product type ini bisa _open payment_, yang artinya dapat bayar untuk periode selanjutnya
+
+. Partner menerima respon pembayaran yang selanjutnya harus dicetak sebagai struk, baik email, struk konvensional ataupun sms notifikasi ke pelanggan terkait.
+
+
+

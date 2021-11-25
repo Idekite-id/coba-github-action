@@ -1,0 +1,42 @@
+= Technology Robusta V2
+
+== *Platform Specification*
+
+|===
+| *Specification* | *Name*
+
+| OS
+| -
+
+| Web Server
+| NGINX
+
+| Programming Language
+| Javascript
+
+| Framework
+| ReactJS
+
+| DBMS
+| -
+|===
+
+== React.js Library
+
+Berikut library yang digunakan oleh sistem Robusta V2:
+
+|===
+| Library | Link
+
+| Mobx
+| https://mobx.js.org
+
+| Axios
+| https://github.com/axios/axios
+
+| Semantic UI React
+| https://github.com/Semantic-Org/Semantic-UI-React
+
+| Daneden
+| https://github.com/daneden/animate.css
+|===

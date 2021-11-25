@@ -1,0 +1,9 @@
+= Login ke Modul Supervisi
+
+Untuk masuk ke dalam sistem, Anda cukup mengikuti langkah berikut.
+
+image::../images-bacameter/bacameter-login-supervisi.png[align="center"]
+
+1. Masukkan *Username*, *Password*, dan *Periode*
+2. Klik pada tombol *MASUK*
+3. Sistem akan menampilkan halaman utama Modul Supervisi.

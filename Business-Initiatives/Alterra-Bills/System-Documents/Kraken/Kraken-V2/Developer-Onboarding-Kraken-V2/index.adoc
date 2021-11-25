@@ -1,0 +1,42 @@
+=  Developer Onboarding Kraken V2
+
+== Overview
+
+Kraken 2 adalah pengembangan dari Sistem Kraken yang sudah ada sebelumnya, Kraken 2 dibangun menggunakan Bahasa Pemrograman *Go* yang mampu menangani transaksi yang lebih besar, serta lebih efisien dalam hal penggunaan _resources server_.
+
+Beberapa informasi terkait adalah sebagai berikut:
+
+<<./architecture-kraken-v2.adoc#, Architecture Kraken V2>>
+
+____
+Gambaran umum sistem Kraken dari sisi Logical dan Physical
+____
+
+<<./local-machine-setup-kraken-v2.adoc#, Local Machine Setup Kraken V2>>
+
+____
+Cara installasi Kraken 2 di komputer lokal
+____
+
+<<./ide-kraken-v2.adoc#, IDE Kraken V2>>
+
+____
+IDE yang dapat digunakan untuk pengembangan Kraken 2
+____
+
+== Code Of Conduct
+
+Dalam proses _development_, pastikan untuk mengikuti kaidah-kaidah yang sudah disepakati bersama.
+Jika ada ide/gagasan untuk perbaikan, silahkan diajukan untuk dibahas lebih lanjut.
+
+<<./gitflow-kraken-v2.adoc#, Gitflow Kraken V2>>
+
+____
+Alur penggunaan Gitflow di Kraken
+____
+
+<<./pivotal-template-kraken-v2.adoc#, Pivotal Template Kraken V2>>
+
+____
+Cara penulisan deksripsi pivotal task
+____

@@ -1,0 +1,8 @@
+= Mengunggah Data Transaksi Rekening Air
+
+image::../images-billing/billing-supervisi-upload.png[align="center"]
+
+1. Pilih menu *Supervisi*
+2. Cari sub-menu *Upload*
+3. Centang data yang ingin di-_upload_, baik Sinkronisasi Parameter maupun Tagihan Air yang belum terkirim seperti poin 3 pada gambar di atas
+4. Jika sudah, tekan tombol *Upload* untuk melakukan proses _upload_ data.

@@ -1,0 +1,177 @@
+= Environment
+
+Berikut adalah _environment_ dari sistem Flea:
+
+|===
+| *Environment* | *Spesifikasi* | *Files*
+
+| Development Shopee
+| IP Address
+| 103.117.207.* *
+
+|
+| URL
+| https://lazada-uat.sumpahpalapa.com/[]
+
+|
+| Doc Root
+|
+
+|
+| Service Name
+| Flea
+
+|
+| DB Server
+|
+
+|
+| Git Repo
+| flea - shopee
+
+| Development Lazada
+| IP Address
+| 103.117.207.* *
+
+|
+| URL
+| https://shopee-uat.sumpahpalapa.com/[]
+
+|
+| Doc Root
+|
+
+|
+| Service Name
+| Flea
+
+|
+| DB Server
+|
+
+|
+| Git Repo
+| flea - marketplace
+
+| Development Shopee Oppo
+| IP Address
+| 103.117.207.* *
+
+|
+| URL
+| https://oppo-uat.sumpahpalapa.com/[]
+
+|
+| Doc Root
+|
+
+|
+| Service Name
+| Flea
+
+|
+| DB Server
+|
+
+|
+| Git Repo
+| flea - oppo
+
+| Development Indosat
+| IP Address
+| 103.117.207.* *
+
+|
+| URL
+| https://indosat-uat.sumpahpalapa.com/[]
+
+|
+| Doc Root
+|
+
+|
+| Service Name
+| Flea
+
+|
+| DB Server
+|
+
+|
+| Git Repo
+| flea - indosat-landing-page
+
+| Production Shopee
+| IP Address
+| 178.128.222.* * *
+
+|
+| URL
+| https://xlprioritas.alphabill.id/shopee/[]
+
+|
+| Doc Root
+| /sepulsa/www/lazada/flea/shopee
+
+|
+| Service Name
+| Flea
+
+|
+| DB Server
+|
+
+|
+| Git Repo
+|
+
+| Production Lazada
+| IP Address
+| 178.128.222.* * *
+
+|
+| URL
+| https://xlprioritas.alphabill.id/lazada/[]
+
+|
+| Doc Root
+| /sepulsa/www/lazada/flea/lazada
+
+|
+| Service Name
+| Flea
+
+|
+| DB Server
+|
+
+|
+| Git Repo
+|
+
+| Production Shopee Oppo
+| IP Address
+| 178.128.222.* * *
+
+|
+| URL
+| https://xlprioritas.alphabill.id/lazada/[]
+
+|
+| Doc Root
+| /sepulsa/www/lazada/flea/lazada
+
+|
+| Service Name
+| Flea
+
+|
+| DB Server
+|
+
+|
+| Git Repo
+|
+|===
+
+**Note : Untuk detail IP Address, Anda dapat menghubungi tim Development Flea atau tim Infrastruktur**

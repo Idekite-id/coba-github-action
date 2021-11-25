@@ -1,0 +1,79 @@
+= Environment Meowth
+
+|===
+| *Development* | *Specification* | *Files*
+
+| Development
+| IP Address
+| 103.117.207.* *
+
+|
+| URL
+| https://meowth.sepulsa.co.id/[]
+
+|
+| Doc Root
+| /sepulsa/www/meowth/public[]
+
+|
+| Service Name
+| DEVEL
+
+|
+| DB Server
+| localhost:3306
+
+|
+| Git Repo
+| _Please ask dev_
+
+| Staging
+| IP Address
+| 52.74.229.* *
+
+|
+| URL
+| https://meowth-uat.sumpahpalapa.com/[]
+
+|
+| Doc Root
+| Meowth Prod 210217
+
+|
+| Service Name
+| JellyFish UAT 11122017
+
+|
+| DB Server
+| localhost:3306
+
+|
+| Git Repo
+| _Please ask dev_
+
+| Production
+| IP Address
+| 52.221.94. * *
+
+|
+| URL
+| https://meowth.sepulsa.co.id/[]
+
+|
+| Doc Root
+| /sepulsa/www/meowth/public
+
+|
+| Service Name
+| Meowth Prod 210217
+
+|
+| DB Server
+| meowthprod.cn26rqn0gh39.ap-southeast-1.rds.amazonaws.com
+
+|
+| Git Repo
+| _Please ask dev_
+|===
+
+*Note : Untuk detail IP Address, Anda dapat menghubungi Tim Development Meowth atau Tim Infrastruktur*

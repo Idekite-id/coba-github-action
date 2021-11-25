@@ -1,0 +1,19 @@
+= URL System
+
+Berikut adalah URL yang digunakan untuk mengakses sistem Flea:
+
+|===
+| *Stage* | *URL*
+
+| XL Postpaid Registration - Lazada
+| https://xlprioritas.alphabill.id/shopee/
+
+| XL Postpaid Registration - Lazada
+| https://xlprioritas.alphabill.id/lazada/
+
+| Indosat Postpaid Registration
+| http://indosat-register.sepulsa.com/
+
+| Indosat Redeem Voucher
+| https://indosat.sepulsa.com/
+|===

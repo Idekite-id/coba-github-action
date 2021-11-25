@@ -1,0 +1,78 @@
+= Bima PHR
+:keywords: bsa, bimaphr, pajak
+
+== Overview
+
+_Dashboard_ Bima PHR adalah aplikasi web yang dapat digunakan oleh Badan Pendapatan Daerah (BAPENDA) dan Admin Bima PHR (OPS) untuk memantau dan mengawasi setiap transaksi yang dilakukan oleh wajib pajak (Hotel, Restoran, Tempat Parkir, dan Tempat Hiburan)
+
+_Dashboard_ Bima PHR ini terkoneksi dengan Bapenda API 2.1 sebagai klien dari sistem Bapenda.
+_Role_ pengguna yang dapat mengakses _Dashboard_ ini adalah Ops (admin Bima PHR) dan Supervisi dari BAPENDA.
+
+== Team Involved
+
+Berikut merupakan susunan tim yang terlibat dalam _development_ aplikasi Dashboard Bima PHR:
+
+|===
+| *Name* | *Role* | *Email*
+
+| Bondan Ari Bowo
+| Product Owner
+| bondan@alterra.id
+
+| Herman Sutanto
+| Development Manager
+| herman@alterra.id
+
+| Rana Pradipta
+| Lead Engineer
+| rana@alterra.id
+
+| Ardian Pranajaya
+| Back End Engineer
+| -
+
+| M. Diar Fathurrohman
+| Software Engineer
+| diar@alterra.id
+
+| Hasan Mubarok
+| Software Engineer
+| hasan@alterra.id
+
+| Pajar Wijaya Putra
+| Software Engineer
+| pwputra@bsa.id
+|===
+
+== Technical Information
+
+<<./architecture-bima-phr.adoc#, Architecture Bima PHR>>
+
+<<./technology-bima-phr.adoc#, Technology Bima PHR>>
+
+<<./environment-bima-phr.adoc#, Environment Bima PHR>>
+
+<<./release-deploy-bima-phr.adoc#, Release and Deployment Bima PHR>>
+
+
+== Onboarding Information
+
+<<./dev-onboarding-bima-phr.adoc#, Developer Onboarding Bima PHR>>
+
+<<./dev-onboarding-dev-bima-phr.adoc#, Development Process Bima PHR>>
+
+<<./dev-onboarding-product-bima-phr.adoc#, Product Resources Bima PHR>>
+
+<<./dev-onboarding-project-bima-phr.adoc#, Project Management Bima PHR>>
+
+<<./dev-onboarding-reuse-bima-phr.adoc#, Reuse Function Bima PHR>>
+
+<<./development-bima-phr.adoc#, Development Bima PHR>>
+
+<<./schedule-step-bima-phr.adoc#, Schedule and Step Bima PHR>>
+
+<<./naming-convention-bima-phr.adoc#, Naming Convention Bima PHR>>
+
+== Documentation
+
+<<./release-note-bima-phr.adoc#, Release Note Bima PHR>>

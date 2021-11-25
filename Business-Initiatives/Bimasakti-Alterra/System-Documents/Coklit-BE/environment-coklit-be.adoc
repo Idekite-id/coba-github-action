@@ -1,0 +1,21 @@
+= Environment Coklit BE
+
+[cols="25%,35%,40%",frame=all, grid=all]
+|===
+^.^h|*Stage* 
+^.^h|*Environment* 
+^.^h|*Specs*
+
+1.6+|Staging | IP Address | 34.101.231.***
+| URL | https://coklit.sumpahpalapa.com[]
+| Doc Root | 
+| Service Name | Coklit BE Staging
+| DB Server | host:3306
+| Git Branch | coklit-be - development
+1.6+|Production | IP Address | 34.101.223.***
+| URL | https://coklit-be.bsa.id/[]
+| Doc Root | 
+| Service Name | Coklit BE Production
+| DB Server | host:3306
+| Git Branch | coklit-be - master
+|===
