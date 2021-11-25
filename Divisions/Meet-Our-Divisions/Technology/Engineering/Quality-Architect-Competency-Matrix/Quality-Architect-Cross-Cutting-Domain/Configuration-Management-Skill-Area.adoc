@@ -1,0 +1,104 @@
+= Configuration Management Skill Area
+
+According to IEEE Standard 828-2012, configuration management is the discipline of applying technical and administrative direction and surveillance to identify and document the functional and physical characteristics of a configuration item, to control changes to those characteristics, to record and report change processing and implementation status, and to verify compliance with specified requirements [IEEE 828-2012]. 
+
+According to the Software Configuration Management KA in the SWEBOK Guide [SWEBOK 2014], the elements of software configuration management include: 
+
+- Software configuration identification 
+- Software configuration control 
+- Software configuration status accounting 
+- Software configuration auditing 
+- Software release management and delivery
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Plan SCM
+a|- Operates SCM tools
+- Operates and maintains the SCM library under technical leader supervision
+a|- Assists in determining impact of constraints on SCM imposed by policies, contract, and SDLC
+- Assists in developing, updating, and maintaining the SCMP
+- Assists in specifying the SCM measures to be used
+- Assists in identifying software configuration items (SCIs)
+- Assists in selecting and procuring SCM tools
+a|- Participates in determining impact of constraints on SCM imposed by policies, contract, and SDLC
+- Provides measurement data for SCM measures
+- Participates in identifying SCIs and the relationships among them
+- Procures SCM tools
+a|- Determines constraints and impacts of constraints on SCM imposed by policies, contracts, and SDLC
+- Develops and maintains the SCMP
+- Adopts an existing way of organizing for SCM and tailors a template for the SCMP
+- Specifies the SCM measures to be used
+- Identifies SCIs and the relationships among them
+- Specifies SCM tools
+- Sets up an SCM library for a project under technical leader supervision
+- Specifies the template for, and supervises setting up, the SCM library
+a|- Develops new ways of organizing to perform SCM
+- Develops new templates and ways of planning for SCM
+- Develops new measures and measure- ments for SCM
+- Develops procedures for identifying SCIs and the relationships among them
+- Specifies new SCM tools and ways of combining existing SCM tools
+- Specifies new ways of organizing SCM libraries
+
+|Conduct SCM
+a|- Operates tools to generate SCM status and audit reports
+- Generates, classifies, and manages problem reports
+a|- Generates, classifies, and manages problem reports
+- Assists in using adopted mechanisms for requesting, evaluating, and approving software changes, including deviations and waivers
+- Assists in establishing and maintaining the mechanisms for recording and reporting SCM information and generating SCM audit reports
+a|- Implements and documents approved changes to SCIs
+- Evaluates and reports to CCB the impacts of proposed changes to SCIs
+- Tailors and adopts mechanisms for requesting, evaluating, and approving software changes, including deviations and waivers
+- Generates, classifies, and manages problem reports
+- Uses established procedures for populating and maintaining the SCM library
+- Provides SCM audit reports as scheduled and requested
+- Uses established mechanisms to record and report SCM information
+- Develops and tailors tools for generating SCM audit reports
+a|- Generates, classifies, and manages problem reports
+- Appoints members and convenes the CCB
+- Leads CCB in making yes/ no decisions on change requests
+- Ensures that approved changes are made and documented
+- Maintains mechanisms for recording and reporting SCM information
+- Establishes and maintains mechanisms for generating SCM audit reports
+a|- Revises existing and develops new mechanisms for requesting, evaluating, and approving software changes, including deviations and waivers
+- Develops new mechanisms for SCM status accounting
+- Develops new processes and procedures for generating SCM audit reports
+
+|Manage Software Releases
+a|-
+a|- Operates tools to build software releases
+- Participates in developing software release plans
+- Uses software release tools to produce software releases
+a|- Operates tools to build software releases
+- Participates in developing software release plans
+- Participates in the building and verifying of software releases
+- Participates in the building of software releases
+- Implements release plans
+a|- Develops software release plans
+- Leads the building and verifying of software releases
+a|- Modifies existing and develops new formats and procedures for implementing software release plans
+- Modifies existing and creates new tools for building software releases
+
+|
+|
+|
+|
+|
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through link:https://alterra.tribe.so/[Tribe].

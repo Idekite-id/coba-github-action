@@ -1,0 +1,16 @@
+= Product
+
+Department Product adalah divisi yang memiliki fungsi sebagai berikut.
+
+* Menerjemahkan visi perusahaan ke dalam produk yang dibuat
+* Membuat produk sesuai dengan masalah yang dihadapi oleh _User_
+* Berkoordinasi dengan _Stakeholders_ untuk memberikan fitur yang bermanfaat bagi _User_
+* _Deliver_ suatu produk dengan tepat waktu
+* Merencanakan dan memutuskan fitur mana yang harus di-_deliver_ terlebih dahulu.
+
+== Quick Link
+
+* SOP
+* User Guide
+* Guideline
+* Working Instruction (WI)

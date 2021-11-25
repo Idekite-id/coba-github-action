@@ -1,0 +1,84 @@
+= Software Requirements Skill Area
+
+Software requirements engineering consists of activities performed to discover what functional and nonfunctional attributes and interfaces a software system should have to satisfy the needs of the customer. 
+
+It also includes analysis and management activities performed in order to discover flaws in requirements artifacts and to manage the requirements engineering process.
+
+*Swipe right to read the entire Software Requirements skill area.*
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Elicitation
+a|- Assists requirements engineers with preparation of surveys and other elicitation
+a|Assists in 
+
+- Applying different methods to the project as appropriate to elicit requirements 
+- Requirements engineers with preparation of surveys and other elicitation instruments 
+- Negotiating conflicts between stakeholders in requirements elicitation
+a|- Engages different stakeholders to determine needs and requirements
+- Applies different methods to the project as appropriate to elicit requirements
+- Negotiates conflicts between stakeholders in requirements elicitation
+a|- Identifies important stakeholder
+- Selects appropriate methods to engage and communicate with stakeholders in requirements activities
+- Negotiates conflicts between stakeholders in requirements elicitation
+a|- Creates new ways to engage and communicate with stakeholders, the management team, and developers in requirements activities
+
+|Analysis
+a|-
+a|- Assists in domain analysis
+a|- Selects the most appropriate domain analysis methods
+- Leads identification of emergent properties and requirements throughout the software development life cycle
+- Identifies emergent properties and requirements throughout the software development life cycle
+a|- Selects the most appropriate domain analysis method
+- Selects the most appropriate formal and informal notations for describing interfaces and functional and non-functional requirements
+- Leads development of the SRS
+a|- Creates new domain analysis methods
+
+|Specification
+a|- Assists with preparation of requirements for consistency with internal and published standards
+a|- Assists with preparation of requirements for consistency with internal and published standards
+a|- Prepares requirements documentation including descriptions of interfaces and functional and non-functional requirements
+- Selects the most appropriate formal and informal notations for describing interfaces and functional and non-functional requirements
+a|- Selects the most appropriate formal and informal notations for describing interfaces and functional and non-functional requirements
+a|- Creates new requirements specification methods
+
+|Verification & validation
+a|- Assists in prototype construction and testing
+a|Assits in
+- Prototype construction and testing
+- Negotiating conflicts between stakeholders in requirements verification
+a|- Reviews specifications of requirements for errors and omissions
+- Creates prototypes of different types as neede
+- Negotiates conflicts between stakeholders in requirements verification
+a|- Reviews specifications of requirements for errors and omissions
+- Selects the most appropriate formal and informal requirements validation and verification techniques
+- Negotiates conflicts between stakeholders in requirements verification
+a|- Creates new requirements validation and verification techniques
+
+|Process & Product Management
+a|- Follows and applies defined processes for requirements engineering with guidance
+a|- Follows and applies defined processes for requirements engineering with guidance
+- Assists in applying defined processes for requirements engineering
+a|- Performs tradeoff analysis of requirements activities
+a|- Performs tradeoff analysis of requirements activitie
+- Sets strategy and direction for the requirements process across projects and functional units of an organization
+| -
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

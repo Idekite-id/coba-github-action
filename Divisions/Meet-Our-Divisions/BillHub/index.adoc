@@ -1,0 +1,15 @@
+= BillHub
+
+BillHub merupakan salah satu unit bisnis Alterra yan terdiri dari tiga fungsi platform dan mempunyai 3 divisi.
+
+Tiga fungsi platform tersebut antara lain:
+
+1. Untuk mengubah tagihan offline pelanggan menjadi tagihan online
+2. Untuk mengingatkan pelanggan terkait akhir pembayaran tagihan
+3. Untuk menerima pembayaran tagihan dari pelanggan melalui berbagai metode pembayaran
+
+Divisi yang berada dibawah unit bisnis BillHub sendiri ada 3, yaitu:
+
+1. link:./BillHub-Customer-Development/index.adoc[BillHub - Customer Development]
+2. link:./BillHub-Business-Development/index.adoc[BillHub - Business Development]
+3. link:./BillHub-Strategy/index.adoc[BillHub - Strategy]

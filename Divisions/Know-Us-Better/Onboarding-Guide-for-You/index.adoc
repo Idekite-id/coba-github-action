@@ -1,0 +1,64 @@
+= Onboarding Guide For You
+
+
+> Selamat Datang di Knowledge Base Alterra!
+
+image::./images-onboarding-guide-for-you/thematic-welcome-new-joiner.png[align="center"]
+
+Selamat kamu telah menjadi bagian dari Alterrans. _Onboarding guide_ ini akan membantumu mengenal hal - hal dasar yang penting untuk dipahami di Alterra. 
+
+[cols="30%,70%",frame=none, grid=none]
+|===
+a|image::./images-onboarding-guide-for-you/thematic-onboarding.png[align="center"]
+
+[.text-center]
+*New Joiner Journey*
+|_New Joiner Journey_ adalah sesi yang akan di ikuti oleh _new joiner_ untuk mengetahui gambaran besar Alterra terkait dengan People Service (manfaat, kompensasi, fasilitas, dan _compliance_), Produk Alterra, Sistem Alterra, dan juga akan ada sesi tentang Risk Awareness di Alterra. 
+
+Kamu akan mengikuti beberapa sesi yang pada hari pertama kamu. Berikut ini daftar sesi untuk _onboarding new joiner_:
+
+✓ Welcoming Session +
+✓ People Operation Session +
+✓ Product Session +
+✓ System Session +
+✓ Risk Session +
+✓ Information Security Awareness
+
+Daftar sesi di atas dapat kamu akses di https://course.alterra.id/courses/course-v1:Onboarding+On01+2019/about[Alterra Course].
+
+a|image::./images-onboarding-guide-for-you/thematic-periods.png[align="center"]
+
+[.text-center]
+*Probation Periods in Alterra*
+|_Probation Periods_ adalah masa percobaan dalam jangka waktu 3 bulan yang harus dijalani oleh _new joiner_. 
+
+a|image::./images-onboarding-guide-for-you/thematic-apps-and-tools.png[align="center"]
+
+[.text-center]
+*Apps and Tools*
+|_Apps and tools_ memuat informasi terkait aplikasi dan perangkat yang digunakan untuk menunjang pekerjaan sehari-hari di Alterra.
+
+a|image::./images-onboarding-guide-for-you/thematic-division.png[align="center"]
+
+[.text-center]
+*Division & Team*
+|Division & Team memuat infomasi tiap divisi, gambaran umum pekerjaan masing-masing tim, dan struktur organisasi yang ada di Alterra.
+
+a|image::./images-onboarding-guide-for-you/thematic-sop.png[align="center"]
+
+[.text-center]
+*SOP & Policy*
+|SOP & Policy memuat prosedur dan kebijakan karyawan yang berlaku di Alterra.
+
+a|image::./images-onboarding-guide-for-you/thematic-career.png[align="center"]
+
+[.text-center]
+*Alterra Career Framework*
+|Alterra _Career Framework_ memuat informasi tentang mengenai penggolongan tingkat posisi yang ada di Alterra.
+
+a|image::./images-onboarding-guide-for-you/thematic-link.png[align="center"]
+
+[.text-center]
+*Reference & Link*
+|_Reference & link_ memuat kumpulan URL yang digunakan sebagai panduan dalam penyelesaian task di Alterra.
+|===

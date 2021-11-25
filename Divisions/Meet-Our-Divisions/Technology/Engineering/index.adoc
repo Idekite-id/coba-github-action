@@ -1,0 +1,290 @@
+= Engineering
+
+Departemen Engineering merupakan departemen yang memiliki tanggung jawab mengembangkan semua sistem di Alterra, sehingga dapat disebut sebagai _core_ dari Divisi Technology. Departemen ini terdiri dari beberapa _Engineer_, baik _back-end_, _front-end, full-stack_ maupun yang lain yang saling bekerja sama dalam tim baik internal maupun eksternal dalam pengembangan berbagai sistem atau aplikasi dari proses _planning, development, testing, deployment_, hingga _release_.
+
+Sistem atau aplikasi tersebut mendukung masing-masing inisiatif bisnis yang ada di Alterra. Berikut daftar inisiatif tersebut :
+
+* Sepulsa
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1 
+|Sanca 
+|Sepulsa 
+a|- Chital
+- Alicanto
+
+|===
+
+* Telco (App Support, Starter Pack, etc)
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System*  
+
+|1 
+|Cobra 
+|Telco 
+a|- Civet
+- Robusta
+- Kramoris (Beli Gadget)
+- Flea
+- Silo
+- Gaharu
+- Coffee Shop
+- Gaharu
+- Takoyaki
+|===
+
+* BPA Support
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1
+|Venom
+|BPA-Support
+a|- Sentinel
+- Amigdala
+- CacaBot
+- Polaris
+- Elisian
+- Diamante
+|===
+
+* BPA
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System*  
+
+|1
+|Marlin
+|BPA
+|Kraken (API)
+
+|2
+|Fugu
+|BPA
+a|- Kraken (Core)
+- Dolphin
+
+|3
+|Barracuda
+|BPA
+|Kraken (Biller)
+
+|4
+|Orca
+|BPA
+a|- Almock
+- Trunko
+- Lusca
+- Hydra
+
+|===
+
+* AlterraPay
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1
+|Jellyfish
+|AlterraPay
+a|- Lucent
+- Mallaca
+- Piggybank
+- Bonabo
+
+|2
+|Canopus
+|AlterraPay
+|Canopus Family (All Canopus Systems)
+
+|===
+
+* Internal
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1
+|Jellyfish
+|Internal
+a|- Hedwig
+- Meowth
+
+|===
+
+* Innovation
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1
+|IPL
+|Innovation
+|Magellan
+
+|2
+|Peregrine
+|Innovation
+a|- Tax
+- Regina
+- PVC
+- Pakis
+- Igov
+- Kharys
+- eReklame
+- DBS
+- Bee
+
+|3
+|Phoenix
+|Innovation
+|Bayar Tagihan (_Front end_ Atur Tagihan)
+
+|===
+
+* Traditional
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1
+|The A Team
+|Traditional
+|Proteus Family (All Proteus Systems)
+
+|===
+
+* ERP
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1
+|Puffer fish
+|ERP
+a|- Hermes
+- Odoo
+
+|===
+
+* Spartech
++
+Berikut adalah detail sistem yang sedang dikerjakan dan _development squad_-nya:
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1
+|Phoenix
+|Spartech
+a|- Early Warning System 
+- eProcurement
+- Coklit (for BSA)
+- Onebox API (for BSA Batam, sudah selesai)
+- AlterraSaku (for internal)
+- Fitness Apps (belum mulai)
+- Mobile Loket (for BSA)
+|===
+
+* BSA PDAM
++
+Inisiatif ini bertujuan untuk membantu proses Perusahaan Daerah Air Minum (PDAM) milik negara, mulai dari pendataan pelanggan, instalasi unit, hingga pembayaran tagihan PDAM.
++
+[cols="5%,30%,30%,35%",frame=all, grid=all]
+|===
+^.^h| *No.* 
+^.^h| *Team/Squad Name*
+^.^h| *Initiatives* 
+^.^h| *System* 
+
+|1
+|PDAM-Pintar
+|BSA PDAM
+a|- https://drive.google.com/drive/folders/1gvSF60PJx2j7PflvQQA168bxUjYQfXZb[Si-Pintar]
+- Modul Hublang (Hubungan Pelanggan)
+- Modul Perencanaan
+- Modul Distribusi
+- Modul Loket
+- Modul Bacameter
+- Modul Info PDAM
+- Modul Billing
+- Modul Akuntansi
+- Modul Personalia
+- Modul Dasbor
+- Modul Gudang
+- Modul Keuangan
+|===
+
+== Quick Link
+
+* link:./Software-Engineering-Competency-Matrix/index.adoc[Software Engineering Competency Matrix]
+* link:./Software-Engineering-Rating-Standard/index.adoc[Software Engineering Rating Standard]
+* link:./Software-Engineering-Learning-Program/index.adoc[Software Engineering Learning Program]
+* link:./Quality-Architect-Competency-Matrix/index.adoc[Quality Architect Competency Matrix]
+* link:./Quality-Architect-Rating-Standard/index.adoc[Quality Architect Rating Standard]
+* SOP
+* User Guide
+* Guideline
+* Working Instruction (WI) 

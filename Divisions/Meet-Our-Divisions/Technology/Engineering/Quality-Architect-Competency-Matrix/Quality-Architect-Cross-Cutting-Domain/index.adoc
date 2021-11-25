@@ -1,0 +1,25 @@
+= Quality Architect - Cross-cutting Domain
+
+== What is cross-cutting domain?
+
+A crosscutting skill area is one that applies across all life cycle skill areas (for example, quality assurance) and, in some cases, a crosscutting skill may apply to other crosscutting skill areas (for example, a software process model). 
+
+image::./images-cross-cutting-domain/QCR-cross-cutting-domain.png[align="center"]
+
+Crosscutting skill areas are sometimes called “specialty disciplines” that are practiced by specialists in those skill areas (such as safety, security, systems engineering). Software engineers who are competent in one or more life cycle skill areas typically have some working knowledge of crosscutting skill areas.
+
+== What are skill sets for cross-cutting domain?
+
+The seven *key behaviour* of cross-cutting domain of Quality Architect competency model are listed in the list below.
+
+* link:./Process-Skill-Area.adoc[Process Skill Area]
+* link:./System-Requirements-Engineering-Skill-Area.adoc[System Requirements Engineering Skill Area]
+* link:./Quality-Skill-Area.adoc[Quality Skill Area]
+* link:./Security-and-Safety-Skill-Area.adoc[Security and Safety Skill Area]
+* link:./Configuration-Management-Skill-Area.adoc[Configuration Management Skill Area]
+* link:./Measurement-Skill-Area.adoc[Measurement Skill Area]
+* link:./HCI-Skill-Area.adoc[HCI Skill Area]
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through link:https://alterra.tribe.so/[Tribe].

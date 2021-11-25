@@ -1,0 +1,23 @@
+= Risk Management and Document Controller
+
+Departemen Risk Management and Document Controller bertanggung jawab dalam mengembangkan dan memantau implementasi manajemen risiko perusahaan secara keseluruhan, yang dijalankan oleh unit/fungsi bisnis _first line_ di Alterra. Tujuan dari departemen ini adalah membuat dan menjaga semua _value_ yang ada pada Alterra Group khususnya kesadaran atas suatu risiko.
+
+Terdapat tiga (3) komponen penting yang diperhatikan oleh departemen ini dalam implementasi manajemen resiko, yaitu:
+
+[arabic]
+. _Principle_
+. _Framework_
+. _Process_ (identifikasi, analisis, dan proses)
+
+Untuk menunjang ketiga komponen di atas, departemen ini kemudian ditunjang oleh dua tim, yaitu:
+
+[cols="50%,50%"",frame=none, grid=none]
+|===
+a| image::../images-IARM/IARM-Risk-Management.png[align="center", width=320, height=240]
+a| image::../images-IARM/IARM-Document-Controller.png[align="center", width=320, height=240]
+
+a|[.text-center]
+link:./Risk-Management/index.adoc[*Risk Management*]
+a|[.text-center]
+link:./Risk-Management/index.adoc[*Document Controller*]
+|===

@@ -1,0 +1,236 @@
+= Logging Implementation
+:toc:
+
+== Logging Library Options and their default output
+
+=== Golang
+
+Log https://golang.org/pkg/log/ -  That logger writes to `standard error` and prints the date and time of each logged message
+
+Zap go.uber.org/zap - reset the standard library's output to `os.Stderr`
+
+Logrus github.com/sirupsen/logrus - default stderr
+
+Zerolog https://github.com/rs/zerolog - By default log writes to `os.Stderr`
+
+=== Python
+
+link:https://docs.python.org/3/howto/logging.html[Logging] - if one is not set, they will set a destination of the console (`sys.stderr`)
+
+=== Node
+
+* Winston
+* Bunyan
+* Pino
+* Loglevel
+* Log4js
+
+=== PHP
+
+Monolog
+
+=== Decision
+
+|===
+a|Karena `docker logs --follow` command will continue streaming the new output from the container’s `STDOUT` and `STDERR`. Maka logging akan ada di Standard Stream (`STDOUT` atau `STDERR`)
+|===
+
+|===
+a|`Standard output` is a stream to which a program writes its *output data*.
+
+`Standard error` is another output stream typically used by programs to *output error messages or diagnostics.*
+
+Karena logging (di Level apapun) termasuk diagnostic, maka lebih baik diteruskan ke `STDERR`. Hal tersebut juga diimplementasikan pada berbagai _command line_.
+|===
+
+Logging sebagai diagnostic diteruskan ke STDERR juga diimplementasikan pada _command line_ program. Dapat diuji coba beberapa contoh program berikut
+
+cURL
+
+----
+$ curl -v google.com 1>stdout.txt 2>stderr.txt
+$ tail std*
+ 
+==> stderr.txt <==
+< Cache-Control: public, max-age=2592000
+< Server: gws
+< Content-Length: 219
+< X-XSS-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+<
+{ [219 bytes data]
+100   219  100   219    0     0   1921      0 --:--:-- --:--:-- --:--:--  1921
+* Connection #0 to host google.com left intact
+* Closing connection 0
+ 
+==> stdout.txt <==
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
+----
+
+SSH
+
+----
+$ ssh -v pi@guardian.local 1>stdout.txt 2>stderr.txt
+pi@guardian.local's password:
+(exit)
+$ tail std*
+ 
+==> stderr.txt <==
+debug1: Sending environment.
+debug1: Sending env LC_CTYPE = UTF-8
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+debug1: client_input_channel_req: channel 0 rtype eow@openssh.com reply 0
+debug1: channel 0: free: client-session, nchannels 1
+debug1: fd 2 clearing O_NONBLOCK
+Connection to guardian.local closed.
+Transferred: sent 2608, received 3400 bytes, in 8.9 seconds
+Bytes per second: sent 292.7, received 381.5
+debug1: Exit status 0
+ 
+==> stdout.txt <==
+ 
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+ 
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Sat Sep 12 06:37:07 2020 from 192.168.0.13
+[oh-my-zsh] Would you like to update? [Y/n] ^Cmanpath: can't set the locale; make sure $LC_* and $LANG are correct
+----
+
+== Logging Severity Level
+
+Pada umumnya, level pada _logging_ seperti berikut
+
+[cols="15%,5%,40%,40%",frame=all, grid=all]
+|===
+^.^h|*Level* 
+^.^h|*Numeric Value* 
+^.^h|*Description*
+^.^h|*Example*
+
+| DEBUG
+| 10
+| Detailed information, typically of interest only when diagnosing problems.
+a|*  What parameters were passed
+* Raw result of function
+
+(Something that you can see in debugger or breakpoint)
+
+|INFO
+|20
+|Confirmation that things are working as expected.
+a|* A function is successfully called as expected
+* User registration
+* Access log
+
+|WARN / WARNING
+|30
+|An indication that something unexpected happened, or indicative of some problem in the near future (e.g. ‘disk space low’). The software is still working as expected.
+a|* Wrong user input or 3rd party response
+* Change important field such as bank account, password etc
+* Access from new IP address
+* Retries to connect 3rd party
+
+|ERROR
+|40
+|Due to a more serious problem, the software has not been able to perform some functions.
+a|* Terjadi putus koneksi ke _database_ atau _cache_
+* Melakukan circuit breaker terhadap sebuah fungsi yang berulang kali _error_
+* Gagal menghubungi _3rd party service_
+* _Traceback_
+
+|FATAL / CRITICAL
+|50
+|A serious error, indicating that the program itself may be unable to continue running.
+a|* _Timeout_ dan otomatis dikirimkan signal _kill_
+* Terjadi _unhandled exception_ sehingga membuat program berhenti
+
+|===
+
+Value pada _logging severity level_ bervariasi tergantung _library_ yang digunakan namun dengan konsep yang sama. _Value_ tersebut berguna bila ingin membuat _custom level_, misal diantara INFO dan WARNING dengan nilai 25 atau (INFO+WARNING)/2
+
+== Logging Format (DRAFT)
+
+*Notes*
+
+* Solusi ini masih perlu dipelajari lebih lanjut, apakah perlu untuk dilakukan perubahan ke _structured log_ mulai dari level aplikasi (JSON) atau dari _level log router_ (fluentd atau logstash)?
+
+* Jika menggunakan JSON, _mandatory key_: *timestamp* (not “time”), *level, identifier* (where in the app produce this log), *msg* (not “message”)
+
+_Logging_ yang tertulis pada aplikasi akan dilakukan transformasi pada (Fluentd atau Logstash) sehingga dari _unstructured log_ menjadi _structured log_. Contoh format yang bisa digunakan:
+
+[source,json]
+----
+[TIMESTAMP ISO 8601] [LEVEL] [IDENTIFIER] MESSAGE -- {"JSON_KEY":"JSON_VALUE"}
+[2016-07-11T23:56:42.000+07:00] [INFO] [MySecretApp.com.Transaction.Manager] Starting transaction for session -464410bf-37bf-475a-afc0-498e0199f008 -- {"hello":"world"}
+----
+
+JSON data lebih baik dilakukan stringify terlebih dahulu agar menghindari _error_ saat _parsing_ JSON. Lalu _log_ tersebut di _parsing_ dengan _syntax_ grok sebagai berikut
+
+[source]
+----
+\[%{TIMESTAMP_ISO8601:timestamp}\] \[%{LOGLEVEL:log_level}\] \[%{DATA:identifier}\] %{GREEDYDATA:message} \-\- %{GREEDYDATA:json_data}
+----
+
+Akan menghasilkan _structured logging_ untuk _elasticsearch_ seperti ini (gunakan link:https://grokdebug.herokuapp.com/[grok debugger])
+
+[source, json]
+----
+{
+  "timestamp": [
+    "2016-07-11T23:56:42.000+07:00"
+  ],
+  "YEAR": [
+    "2016"
+  ],
+  "MONTHNUM": [
+    "07"
+  ],
+  "MONTHDAY": [
+    "11"
+  ],
+  "HOUR": [
+    "23",
+    "07"
+  ],
+  "MINUTE": [
+    "56",
+    "00"
+  ],
+  "SECOND": [
+    "42.000"
+  ],
+  "ISO8601_TIMEZONE": [
+    "+07:00"
+  ],
+  "log_level": [
+    "INFO"
+  ],
+  "identifier": [
+    "MySecretApp.com.Transaction.Manager"
+  ],
+  "message": [
+    "Starting transaction for session -464410bf-37bf-475a-afc0-498e0199f008"
+  ],
+  "json_data": [
+    "{"hello":"world"}"
+  ]
+}
+----
+
+== Batasan
+
+* Tidak menuliskan informasi penting seperti _username-password_, _financial info_ seperti _card number_, _CVV number_ secara terbuka. Dibutuhkan _masking_ jika ingin tetap dimasukan.
+
+* _Log level_ pada production diharapkan berada pada `WARNING`. Untuk server _development_ boleh berada pada `INFO`. Hal tersebut untuk dapat memfilter kejadian yang penting saja, mengurangi beban _centralized log management_ dan meningkatkan performa.
+
+* Untuk _local development_ boleh berada pada `DEBUG` walaupun disarankan menggunakan fitur _debugging_ dan _breakpoint_.
+
+* _Log level_ dapat diatur berdasarkan parameter pemanggilan system tanpa merubah _code_.

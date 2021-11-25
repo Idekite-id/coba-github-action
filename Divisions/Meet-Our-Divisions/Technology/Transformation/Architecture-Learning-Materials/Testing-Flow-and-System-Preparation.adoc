@@ -1,0 +1,79 @@
+= Testing Flow and System Preparation
+
+> Dokumen ini berisi tentang contoh Testing Flow & System Preparation. Adapun proses implementasi bisa berbeda prosedur dan requirement-nya, menyesuaikan dengan kebutuhan masing-masing project.
+
+*Contoh*:
+
+Sebuah sistem baru yang akan di-launch ke production, namun sebelum masuk ke production perlu dilakukan _performance test_ untuk mengetahui throughput dan response time dari sistem tersebut. Adapun informasi endpoint yang akan diuji meliputi:
+
+1. /login
+
+2. /beli pulsa
+
+3. /cek-out
+
+*Persiapan*
+
+Hal-hal yang perlu dipersiapkan dalam melakukan _performance test_ adalah (alur baca step dimulai dari kiri ke kanan, lalu bawah kiri ke kanan).
+
+[cols="5%,25%,35%,35%",frame=all, grid=all]
+|===
+^.^h|*No* 
+2+^.^h|*Step* 
+^.^h|*Note*
+
+1.4+|1 
+1.4+|Membuat __test plan__
+|Mengetahui jenis _endpoint_ yang diuji 
+a|/login ✓
+
+/beli_pulsa ✓
+
+/cek-out ✓
+
+|Membuat _environment_ _test_, bisa _clone_ production atau local
+a|Clone production ✓
+
+Pastikan URL yang akan diuji ✓
+
+|Menentukan metode _performance test_
+
+|_Load Testing_ karena sistem baru maka untuk mengetahui kebiasaan sistem ✓
+
+|Paham mengenai istilah-istilah penting di _performance test_
+
+|Cek di link:https://classroom.google.com/c/MjExMjU4MDUyMDY2/m/MjUxMjA2OTcwODU3/details[materi ke 2] untuk test terminologi ✓
+
+1.1+|2
+|Membuat _script_ test
+
+|Membuat _script_ test menggunakan K6
+
+a| Pastikan _username_ dan _password_ sudah tepat untuk _endpoint_ /login ✓
+
+Pastikan produk dengan mengecek `product_id` untuk /beli_pulsa ✓
+
+Pastikan metode pembayaran yang dipilih untuk _cek-out_
+
+Stages pengetesan (lama atau target VUs pada sekian waktu saat pengetesan dari awal, puncak hingga akhir pengetesan) ✓
+
+_Script_ selesai, _script_ di _smoke testing_ ✓
+
+1.1+|3
+|Melakukan _performance test_
+
+a|Run _script_ di K8s ✓
+
+Monitoring _performance test_ menggunakan Grafana ✓
+|
+
+1.1+|4
+|Menganalisa hasil _performance test_
+
+a|Perhatikan, amati _throughput_ dan _response time_ sistem
+
+Lihat ke _tier_ mana sistem akan masuk link:https://classroom.google.com/c/MjExMjU4MDUyMDY2/m/MjUxMjA2OTcwODU3/details[(materi ke 2)]
+|
+|===
+
+Karena masing-masing kasus _performance test_ sangat beragam, ada kemungkinan _test plan_ dan persiapannya juga berbeda. Kamu bisa baca referensi lainnya link:https://www.oreilly.com/library/view/the-art-of/9781491900536/ch04.html[di sini]. 

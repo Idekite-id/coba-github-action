@@ -1,0 +1,15 @@
+= Know Us Better
+
+Hi Alterrans, sudah kah kamu familiar dengan berbagai struktur organisasi, _career framework_, dan berbagai informasi umum di Alterra? Halaman ini akan membantumu memahami lebih jauh tentang perusahaan dengan menyediakan berbagai artikel dan _guideline_ terkait.
+
+== Informasi apa saja yang bisa kamu akses disini?
+
+Halaman berikut mencakup beberapa informasi dan _guideline_ bagi Alterrans.
+
+link:./Organization-Structures/index.adoc[Organization Structures]
+
+link:./Alterra-Career-Framework/index.adoc[Alterra Career Framework]
+
+link:./Onboarding-Guide-for-You/index.adoc[Onboarding Guide for You]
+
+link:./Alterrans-Guidance/index.adoc[Alterrans Guidance]

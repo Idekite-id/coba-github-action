@@ -1,0 +1,35 @@
+= Transformation Skill Area
+
+Transformation domain explains how Knowledge Management deals with changes. When a change occurs, Knowledge Management is expected to be ready to accept and help others to adapt the changes by communicating clearly and effectively with a diverse range of stakeholders; taking account of their views; and using well reasoned arguments to convince and help them adapt to the changes.
+
+    Scroll down to read the entire Consulting and Customer Centricity skill area.
+
+[cols="20%,20%,20%,20%,20%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+4+^.^|*Proficiency Level*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+^.^h|*4*
+
+^.^h|*Imitative*
+^.^h|*Operative*
+^.^h|*Adaptive*
+^.^h|*Developmental*
+
+a|Change Management
+
+*Description:*
+
+The ability to develop a comprehensive strategy to guide change, apply established change management techniques, and understand the prevailing organizational culture(s) and how to operate within them.
+|Understands the impact of changes in organization.
+|Analyzes and continuously improves the overall change strategy after wide consultation with the relevant stakeholders. 
+|Communicates the broad change impact and implements the strategies
+|Creates innovative ways of reinforcing change, rewarding acceptance and discouraging change resistance.
+|===
+
+== Any question?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

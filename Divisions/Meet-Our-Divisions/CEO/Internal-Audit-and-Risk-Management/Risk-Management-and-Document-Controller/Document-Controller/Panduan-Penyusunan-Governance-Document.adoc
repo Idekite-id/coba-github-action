@@ -1,0 +1,15 @@
+= Panduan Penyusunan Governance Document
+
+Tanggung jawab utama Document Controller adalah mengelola _governance document_, atau yang biasa kita sebut dokumen tata kelola. Nah, apa itu _governance document_? _Governance document_ adalah jenis dokumen yang memuat  segala informasi mengenai semua prinsip maupun prosedur kerja yang harus dimiliki perusahaan sebagai acuan atau panduan dalam melaksanakan keberlangsungan bisnisnya.
+
+_Governance document_ mencakup lima (5) jenis dokumen, yaitu _Charter_, _Policy_, _Standard Operating Procedure (SOP)_, _Working Instruction_, dan _Form & Record_.
+
+Di Alterra, dokumen biasanya disusun oleh masing-masing departemen, kemudian direview dan dikelola oleh Document Controller. Untuk lebih tau prosedurnya, kamu bisa mengakses SOP Pembuatan Governance Document https://drive.google.com/file/d/1X3mqy2-UscyHIRPYynZkFg2aR-dfACa4/view[berikut].
+
+Nah, dari SOP tersebut, kamu sudah tau bagaimana alur pembuatan dan reviewnya hingga _governance document_ selesai. Bagaimana dengan standar penyusunannya? Kamu bisa mengaksesnya pada halaman di bawah ini.
+
+https://drive.google.com/file/d/15cvgm6sjOewBS1Zd9LIvL-erIzL1MRwl/view[Guideline Penyusunan _Policy_]
+
+https://drive.google.com/file/d/1fd_XeQqruP-rgXJGVQbmzoDyC8ZTbQiw/view[Guideline Penyusunan SOP]
+
+

@@ -1,0 +1,25 @@
+= Technical Support Service Catalogue
+
+image:./images-service-catalogue/images-service-catalogue.png[ITS Service Catalogue]
+
+Service Catalog memuat informasi layanan yang diberikan oleh tim IT Support kepada _customer_ secara terperinci meliputi sistem, environment, approval dan divisi yang bertanggung jawab. Dokumen ini disusun untuk membantu tim IT Support memantau perubahan layanan dari waktu ke waktu.
+
+List Provider yang disediakan oleh tim Technical Support meliputi
+
+[cols="50%,50%",frame=all, grid=all]
+
+|===
+| Infra System | Infra Support
+| Development Team | Product Owner
+| Operational |  Data/Log
+| Knowledge Management | POPs
+| Pentest | Incident
+| FAQ | General
+|===
+
+
+Agar bisa memahami lebih jelas kamu bisa klik link berikut ini
+
+* link:https://docs.google.com/document/d/1PblY7ADmgSzXKsDZ6mEPbg7H8bd7OPnMQNLpqfIvrgA/edit?usp=sharing[Technical Support Service Catalogue]
+
+* link:https://docs.google.com/document/d/1rsaofwprJSrwi6a1zhNLafTT9va1jS3hVtYNVu-IwYo/edit?usp=sharing[RACI  of Service Catalogue]

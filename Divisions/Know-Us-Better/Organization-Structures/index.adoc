@@ -1,0 +1,80 @@
+= Organization Structure
+
+Halaman ini menyediakan informasi tentang struktur organisasi Alterra.
+
+Harap dicatat bahwa ini bisa berubah kapan saja dengan menyesuaikan Kebijakan Manajemen
+
+[cols="^.^10%,^.^20%,^.^20%,^.^20%,^.^30%",frame=all, grid=all]
+|===
+1.18+|Head Office 
+1.2+|CEO
+|HO - Management
+|MGT
+|Management (CEO-1)
+
+|HO - IAR
+|IAR
+|Internal Audit & Risk Management
+
+1.3+|CEO Office
+1.3+|HO - CEO Office
+|PIM
+|Process Improvement
+
+|POP
+|People Operations
+
+|STR
+|Strategy
+
+1.3+|Finance, Legal, and
+Procurement
+1.3+|HO - Finance
+|FIN
+|Finance
+
+|LGC
+|Legal & Compliance
+
+|PRC
+|Procurement
+
+|ERP
+|HO - ERP
+|ERP
+|Enterprise Resource Planning
+
+1.3+|BillHub
+1.3+|HO - BillHub
+|BHB - CSD
+|BillHub - Customer Development
+
+|BHB - STR
+|BillHub - Strategy
+
+|BHB - BDM
+|BillHub - Business Development
+
+|Product
+|HO - PRO
+|PRO
+|Product
+
+1.5+|Technology
+1.5+|HO - Technology
+|TEC - DATA
+|Technology - Data
+
+|TEC - ENG
+|Technology - Engineering
+
+|TEC - INF
+|Technology - Infrastructure
+
+|TEC - OPS
+|Technology - Technology Operations
+
+|TEC - TRA
+|Technology - Transformation
+
+|===

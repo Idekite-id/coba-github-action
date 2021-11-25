@@ -1,0 +1,45 @@
+= POPS SOP and Policy
+
+Halaman berikut berisi daftar SOP dan Policy dari tim POPS yang berkaitan dengan _Employee Onboarding_.
+
+[cols="35%,65%",frame=all, grid=all]
+|===
+^.^h| *SOP & Policy* 
+^.^h| *Description*
+
+|https://drive.google.com/file/d/1o5vxQOHbz9A8SQ6_OpRfssBz_1bdqnmx/view[Employee Engagement Survey Policy]
+|Kebijakan tentang survei kepuasan karyawan terhadap perusahaan tempatnya bekerja
+
+|https://drive.google.com/file/d/1r8M14a8aSvi8dosShLoE0FBQSH1ao8SQ/view[Overtime Policy]
+|Kebijakan terkait dengan lembur di Alterra Group.
+
+|https://drive.google.com/file/d/12BW2gxuwALyisNDiqpVIo2fchWRjbQnM/view[Employee Discount Policy]
+|Kebijakan yang mengatur tentang benefit subsidi untuk pembelian produk yang ada di platform Sepulsa bagi karyawan Alterra Group
+
+|https://drive.google.com/file/d/1HRgK-gDoxyZZeIq0OTZcyRaQ8b1NSblO/view[Service Awards Policy]
+|Kebijakan yang mengatur tentang program pemberian hadiah untuk karyawan, dimana pemberian hadiah tersebut diukur dari lama masa kerjanya
+
+|https://drive.google.com/file/d/1okBshVKjFqSHKZeqrSavmi00sFALBJ-Q/view[Balance Policy]
+|Kebijakan terkait dengan cuti di Alterra Group.
+
+|https://drive.google.com/file/d/1_q_HkODYDfE7kLiensCrLT3BhqswFuAg/view[WFH Support Policy]
+|Kebijakan yang dibuat oleh perusahaan untuk menjaga produktivitas dan juga kesehatan karyawan selama Perusahaan memberlakukan WFH untuk waktu yang panjang
+
+|https://drive.google.com/file/d/1iGCvtpm4CMvnFYBP6UyWjBFYAhZ8qTi9/view[Flexy Policy]
+|Kebijakan mengenai aturan jam kerja di Alterra Group.
+
+|https://drive.google.com/file/d/1VxcpjSnEcON-fswKemZkL038tGJv13US/view[Heal Policy]
+|Kebijakan terkait dengan benefit kesehatan di Alterra Group.
+
+|https://drive.google.com/file/d/1n5MNhCOeVi_JvQqOkVAkRQMK7_544I52/view[Remote Working Policy]
+|Kebijakan yang mengatur implementasi _remote working_ di Alterra
+
+|https://drive.google.com/file/d/10arWrdFPipnyev_rBy4B_-dd2J6vt44y/view[Secure Policy]
+|Kebijakan mengenai implementasi pelaksanaan program BPJS Ketenagakerjaan dan BPJS Kesehatan
+
+|https://drive.google.com/file/d/1HZnMto_DBKa4LUstjeNXO0vv9VD6__s1/view[Learning Budget Policy]
+|Kebijakan yang mengatur budget tahunan yang dapat digunakan oleh karyawan untuk mengikuti program pembelajaran dan pengembangan diri
+
+|https://drive.google.com/file/d/1kLFbmnBKsaWhCaDlsOxuX_SX4WGKaMBt/view[Buddy Policy]
+|Kebijakan terkait program referral Karyawan di Alterra
+|===

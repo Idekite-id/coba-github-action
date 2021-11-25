@@ -1,0 +1,7 @@
+= Finance, Legal, and Procurement
+
+Divisi Finance, Legal, and Procurement terdiri atas tiga (3) department, yaitu: 
+
+1. link:./Finance/index.adoc[Finance]
+2. link:./Legal-and-Compliance/index.adoc[Legal and Compliance]
+3. link:./Procurement/index.adoc[Procurement]

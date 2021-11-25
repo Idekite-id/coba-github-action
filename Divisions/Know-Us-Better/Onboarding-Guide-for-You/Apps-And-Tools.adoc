@@ -1,0 +1,46 @@
+= Apps and Tools
+
+Selama bekerja di Alterra, kamu akan menggunakan aplikasi dan _tools_ yang membantumu dalam menyelesaikan pekerjaan sehari-hari. Apa saja aplikasi dan _tools_-nya? 
+
+== Communication Tools
+
+Salah satu _tools_ yang digunakan di Alterra adalah media untuk berkomunikasi, yang dibagi menjadi dua (2) berdasarkan fungsi utamanya. Yaitu _daily communications_ menggunakan Telegram dan _meeting tools_ menggunakan Zoom, Google Meet, atau yang terbaru Gather Town. 
+
+[cols="40%,60%",frame=none, grid=none]
+|===
+a|image::./images-onboarding-guide-for-you/thematic-telegram.png[align="center"]
+|*Telegram* digunakan sebagai media komunikasi sehari - hari, baik melalui pesan pribadi maupun grup yang disediakan Alterra.
+
+a|image::./images-onboarding-guide-for-you/thematic-video-conference.png[align="center"]
+|*Zoom, Google Meet, dan Gather Town* digunakan sebagai media komunikasi untuk keperluan _meeting_ sesuai dengan kebutuhan. Berikut panduan penggunaan Zoom & Google Meet yang dapat kamu baca https://docs.google.com/document/d/1zvdcwm2fwGg-2_7YI-imUfzFa0iIS7IRtVRMYv6xn7k/edit?usp=sharing[di sini].
+|
+|===
+
+== Presence Tools
+
+[cols="40%,60%",frame=none, grid=none]
+|===
+a|image::./images-onboarding-guide-for-you/thematic-check.png[align="center"]
+|Aplikasi *Talenta* digunakan untuk melakukan _submit_ absensi kehadiran dan _time off_ yang dapat di-_install_ di _smartphone_ atau https://account.mekari.com/#/[_website_].
+
+|===
+
+== Feedback & Question
+
+Berikut adalah _channel_ yang bisa digunakan untuk memberikan _feedback_, berdiskusi, dan mengajukan pertanyaan atau yang berkaitan dengan pekerjaanmu.
+
+[cols="40%,60%",frame=none, grid=none]
+|===
+a|image::./images-onboarding-guide-for-you/thematic-support.png[align="center"]
+| link:https://support.alterra.id/support/tickets[Alterra Support] membantumu untuk mengajukan tiket yang berhubungan dengan kendala teknis dan dokumentasi
+
+a|image::./images-onboarding-guide-for-you/thematic-pops.png[align="center"]
+|link:https://popsline.alterra.id/support/home[POPS Line] menjawab pertanyaan dan kebutuhan yang berkaitan dengan hal-hal administratif dalam perusahaan.
+
+a|image::./images-onboarding-guide-for-you/thematic-tribe.png[align="center"]
+| link:https://alterra.tribe.so/[Tribe] memfasilitasimu untuk mengikuti / membuka forum diskusi bersama Alterrans
+
+a|image::./images-onboarding-guide-for-you/thematic-saku.png[align="center"]
+| link:https://saku.alterra.id/[Alterra Saku] memfasilitasimu untuk terus berkembang melalui apresiasi yang diberikan kepada dan/atau dari Alterrans
+
+|===

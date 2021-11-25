@@ -1,0 +1,39 @@
+= Meet Our Divisions
+
+Alterra sedang menerapkan kebijakan _Work from Home_ di masa pandemi, tapi bukan berarti kita tidak punya kesempatan untuk mengenal teman kerja dari divisi lain. Selalu ada cara untuk mengenal satu sama lain. Salah satu caranya adalah membaca informasi singkat seputar Divisi yang ada di Alterra Head Office (HO) berikut ini. 
+
+image::./images-meet-our-divisions/images-meet-our-divisions.png[align="center"]
+
+== Ada siapa saja di Alterra HO? 
+
+Saat ini ada 5 divisi di Alterra HO yang diklasifikasikan menjadi beberapa tim atau departemen berdasarkan peran dan tanggung jawabnya. 
+
+- link:./CEO/index.adoc[CEO]
+
+- link:./CEO-Office/index.adoc[CEO Office]
+
+- link:./BillHub/index.adoc[BillHub]
+
+- ERP
+
+- link:./Finance-Legal-and-Procurement/index.adoc[Finance, Legal, and Procurement]
+
+- link:./Product/index.adoc[Product]
+
+- link:./Technology/index.adoc[Technology]
+
+
+*Informasi di atas dapat berubah sewaktu-waktu menyesuaikan Kebijakan Manajemen.
+
+== Apa yang bisa saya lakukan dengan informasi di atas?
+
+[cols="50%,50%",frame=none, grid=none]
+|===
+a| Mau meng-update informasi divisi? 
+a| Mau kirim apresiasi untuk teman satu tim atau lintas divisi?
+
+a| - _Submit_ saran perbaikan konten melalui kolom komentar di bawah halaman, atau
+- _Submit_ tiket ke link:https://support.alterra.id/support/login[Alterra Support] 
+
+a| - Kirim apresiasimu lewat link:https://po-box.alterra.id/[PO-BOX]  by Alterra 
+|===

@@ -1,0 +1,15 @@
+= Process Improvement
+
+Divisi Process Improvement berperan untuk mengawasi _business core_ dan proses yang berjalan di Alterra, lalu memperbaiki saat terjadi perubahan dan inovasi. 
+
+Tujuan utama dari divisi ini adalah melakukan _optimizing the cost_. Ada dua cara yang dilakukan untuk mencapai tujuan tersebut, di antaranya.
+
+== Project Management
+Cara yang pertama adalah meninjau kembali _cost project_ yang sudah atau sedang berjalan. Hal ini dilakukan untuk membantu mendapatkan informasi terkait _project_. Informasi tersebut akan digunakan sebagai salah satu acuan untuk memutuskan tindak lanjut sebuah _project_, seperti _merge_ atau _terminate_. 
+
+== Process Improvement
+Cara berikutnya adalah meninjau kembali proses pada inisiatif tim masing-masing yang sedang berjalan. Serta membantu merekomendasikan perbaikan yang bisa dilakukan dari proses tersebut.
+
+== Quick Link
+
+* Link _process improvement history_

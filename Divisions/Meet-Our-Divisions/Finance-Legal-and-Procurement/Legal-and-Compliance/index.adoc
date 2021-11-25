@@ -1,0 +1,23 @@
+= Legal and Compliance
+
+Departemen Legal adalah departemen khusus yang bekerja bersama dengan seluruh departemen dalam Alterra Group untuk memastikan perusahaan mencapai semua visi dan misinya sejalan dengan semua hukum dan peraturan yang berlaku di Indonesia. Departemen Legal dibagi menjadi 3 yaitu:
+
+Departemen ini memiliki 3 (tiga) fungsi utama, yang dikenal sebagai 3C:
+
+* _Corporate_
++
+Memastikan Alterra Group melakukan segala urusan internalnya dengan benar sesuai dengan hukum yang berlaku dalam perusahaan dan prinsip-prinsip Good Corporate Governance.
+
+* _Compliance_
++
+Membantu Alterra Group dalam kaitannya dengan undang-undang, regulasi, dan juga masalah hukum yang dapat mempengaruhi bisnis, terutama dalam kaitannya dengan persyaratan, proses, dan / atau lisensi wajib di bawah undang-undang yang berkaitan.
+
+* _Commercial_
++
+Memberikan perlindungan dan mengusahakan yang terbaik untuk Alterra Group dalam hal komersial, terutama dalam segi kontrak atau perjanjian bisnis.
+
+Dalam menjalankan fungsinya, *Departemen Legal* akan banyak berkolaborasi dengan *Management*, Divisi *Commercial*, Divisi *Innovation*, dan *Department Finance and Procurement*.
+
+== Quick Link
+
+* link:./Legal-Consciousness/index.adoc[Legal Consciousness]

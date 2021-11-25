@@ -1,0 +1,96 @@
+= Software Design Skill Area
+
+Software design skills are used to develop and describe the software architecture of a system based on its software requirements: this consists of a description of how software is decomposed into components and the interfaces between those components. 
+
+The components are specified at a level of detail that enables their construction. This skill area also includes skills related to processes and techniques for software design quality, analysis, and evaluation.
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Design Fundamentals
+a|- Assists software designers with tools and techniques for gathering information about application and use of software design fundamentals
+a|- Assists software designers with tools and techniques for gathering information about application and use of software design fundamentals
+a|- Applies enabling techniques (such as abstraction, couplin/cohesion, information hiding, and so forth) to the design of software components and module
+- Evaluates the effectiveness of the application of software design enabling techniques
+- As appropriate in the domain of application, applies appropriate design techniques in the areas of concurrency, event handling, data persistence, or distributed softwar
+- Applies exception handling and fault tolerance techniques in the design of software components and module
+- Uses restructuring and refactoring methods in the design of software components and modules
+a|- Evaluates the effectiveness of the application of software design enabling techniques
+- Provides direction and advice on methods and techniques to be used in the areas of concurrency, event handling, or distributed software
+a|- Analyzes and makes recommendations related to organization-wide application of software design fundamentals
+
+|Strategies & Methods
+a|- Provides assistance in the installation and use of tools appropriate for a project’s designated design strategy and methodology (such as an incremental object-oriented approach)
+a|- Provides assistance in the installation and use of tools appropriate for a project’s designated design strategy and methodology (such as an incremental object-oriented approach)
+- Assists in the application of design techniques in the areas of concurrency, event handling, data persistence, or distributed softwar
+- Assists in the application of enabling techniques in the design of software components and module
+- Assists in the application of exception handling and fault tolerance techniques in the design of software components and module
+- Assists in the use of restructuring and refactoring methods in the design of software components and modules
+a|- Assists in the application of the designated software design strategy and methodology to create a software design (such as an incremen- tal object-oriented approach)
+- Applies the designated software design strategy and methodology to create a software design (such as an incremental object-oriented approach)
+- Evaluates the effectiveness of the application of the selected software design methodology
+- Determines design alternatives and performs trade-off analysis
+a|- Determines the process and strategy to be used in software design at the project level (such as top-down or bottom-up, stepwise refinement, use of patterns and pattern languages, iterative and incremental processes, and so forth)
+- Selects the appropriate design methodology (such as object-oriented, function-oriented, component- based) and strategies to be used at the project level
+- Provides guidance and advice on the use of software design strategies and methods
+- Evaluates the effectiveness of the application of the selected software design methodology
+- Determines design alternatives and performs trade-off analysis
+a|- Examines and assesses the effectiveness, across an organization, of the application of software design strategies and methods
+- Analyzes and makes recommendations related to organization-wide software design strategies and methodologies
+- Creates new techniques evaluating software design quality
+
+|Architectural Design
+a|- Provides assistance in the installation and use of software architecture tools
+- Applies a selected software design pattern to the design of a software component or module
+a|- Provides assistance in the installation and use of tools appropriate for a project’s designated design strategy and methodology (such as an incremental object-oriented approach)
+- Assists in the application of the designated software design strategy and methodology to create a software design (such as an incremental object-oriented approach)
+- Provides assistance in the installation and use of software architecture tools
+- Assists in architectural design tasks associated with use of standard notations, diagramming techniques, models, and patterns
+a|- Applies standard notations, diagramming techniques, models, and patterns (such as architectural styles, structural and behavioral models, GoF patterns, structured systems design models, and UML) to model the high-level organization of a software system
+- Applies a selected software design pattern to the design of a software component or module
+- Creates multiple views of the software system
+- Evaluates the effectiveness of the creation of software architecture
+- Uses design patterns and frameworks to design mid-level software components or modules
+a|- Applies standard notations, diagramming techniques, models, and patterns (such as architectural styles, structural and behavioral models, GoF patterns, structured systems design models, and UML) to model the high-level organization of a software system
+- Provides direction and advice on standard notations, diagramming techniques, models, and patterns to be applied
+- Creates multiple views of the software system
+- Evaluates the effectiveness of the creation of software architecture
+a|- Analyzes and makes recommendations related to organization-wide software architectural design
+- Determines new methods and techniques to be used in architectural design
+
+|Quality Analysis & Evaluation
+a|- Assists software designers with tools and techniques for collecting design metrics and evaluating software design quality
+a|- Assists in development and use of simulation and prototypes to evaluate software design quality
+- Assists software designers with tools and techniques for collecting design metrics and evaluating software design quality
+a|- Participates in software design reviews
+- Facilitates software design reviews
+- Carries out static analysis tasks to evaluate design quality
+- Leads static analysis tasks to evaluate design quality
+- Develops and uses simulation and prototypes to evaluate software design quality
+- Uses the results of software design quality evaluation activities to assess the quality of the design and to decide on corrective action, if needed
+- Provides guidance and direction related to the need for requirements change resulting from design review
+a|- Facilitates software design reviews
+- Selects appropriate tools and techniques (such as design reviews, static analysis, simulation and prototyping, design metrics) to ensure a software design’s quality
+- Leads static analysis tasks to evaluate design quality
+- Uses the results of software design quality evaluation activities to assess the quality of the design and to decide on corrective action, if needed
+- Provides guidance and direction related to the need for requirements change resulting from design review
+a|- Analyzes and makes recommendations related to organization-wide design quality evaluation and analysis technique
+- Creates new techniques for evaluating software design quality
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

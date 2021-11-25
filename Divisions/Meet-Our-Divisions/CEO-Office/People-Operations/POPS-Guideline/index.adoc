@@ -1,0 +1,21 @@
+= POPS Guideline
+
+Halaman berikut berisi daftar _guideline_ dari tim POPS yang berkaitan dengan _Employee Onboarding_.
+
+[cols="35%,65%",frame=all, grid=all]
+|===
+^.^h| *Guideline* 
+^.^h| *Description*
+
+|https://drive.google.com/file/d/1N0OXjdhMWH8jIhlRcLxjOAIkk_OF6OtI/view[360 Degree Feedback Guide]
+|Panduan yang menjelaskan proses di mana Alterrans akan menerima dan memberikan _feedback_ dalam bentuk penilaian secara *pribadi* dan *rahasia*
+
+|https://drive.google.com/file/d/1-WPhG1vYuyaP7pgrSgpvR27X1_QCVnYP/view[Check-Up Session Guide]
+|Panduan yang menjelaskan kegiatan diskusi secara "1-on-1" antara Alterrans dengan Line Manager-nya (N+1) di setiap pertengahan semester
+
+|https://drive.google.com/file/d/1T516O0RRhu-s7WsxDxQxbaGtCPGWTy5-/view[Performance Management System Alterra]
+|Panduan yang menjelaskan rangkaian proses dan _tools_ yang digunakan untuk melakukan identifikasi, pengukuran, evaluasi, serta perancangan perbaikan kinerja karyawan
+
+|https://drive.google.com/file/d/1Vfg0n8FopcbI1soWQLlmGOZXQreEhgV5/view[Performance Review Guide]
+|Panduan yang menjelaskan tahap akhir dari rangkaian Performance Management System (PMS) Alterra
+|===

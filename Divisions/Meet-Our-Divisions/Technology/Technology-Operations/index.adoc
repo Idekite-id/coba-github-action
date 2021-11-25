@@ -1,0 +1,26 @@
+= Technology Operation
+
+Tech Ops adalah salah satu department di bawah Divisi Technology yang mencakup 3 fungsi, yaitu
+
+* *IT Support* 
++
+Membantu divisi lain di Alterra dalam menyelesaikan segala permasalahan IT, baik dari internal maupun eksternal dan mengeskasikannya ke divisi atau pihak yang berkaitan jika diperlukan.
+
+* *Agile Management Officer*
+
+* *Knowledge Management* 
++
+Mengelola _knowledge_ dalam Alterra dan menyediakannya dalam platform _knowledge base_.
+
+== Quick Link
+
+* link:./Agile-Management-Specialist-Competency-Matrix/index.adoc[Agile Management Specialist Competency Matrix]
+* link:./Agile-Management-Specialist-Rating-Standard/index.adoc[Agile Management Specialist Rating Standard]
+* link:./Knowledge-Management-Competency-Matrix/index.adoc[Knowledge Management Competency Matrix]
+* link:./Knowledge-Management-Rating-Standard/index.adoc[Knowledge Management Rating Standard]
+* link:./Technical-Support-Competency-Matrix/index.adoc[Technical Support Competency Matrix]
+* link:./Technical-Support-Rating-Standard/index.adoc[Technical Support Rating Standard]
+* SOP
+* User Guide
+* Guideline
+* Working Instruction (WI)

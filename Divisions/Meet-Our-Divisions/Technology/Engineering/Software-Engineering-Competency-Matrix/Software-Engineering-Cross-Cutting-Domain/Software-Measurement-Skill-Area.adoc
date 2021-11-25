@@ -1,0 +1,75 @@
+= Software Measurement Skill Area
+
+Measurement is foundational to the engineering disciplines, including software engineering. Measurements are used to quantify attributes of processes and products for the purposes of assessing progress and providing indications of real or impending problems. 
+
+Measurement is a crosscutting skill area that applies to each of the other skill areas in this competency model. To be effective, measurement activities are planned prior to implementation and adjusted as necessary during implementation to improve effectiveness.
+
+The skills and activities in this skill area apply equally to measurement of management attributes, such as schedule and budget. The emphasis of this skill area, however, is on measurement of process and product attributes. Process attributes to be measured may include items such as the percent of effort for various work activities, levels of rework for various work products, and so forth. Product measures may include items such as work products completed, rate of defect discovery and defect correction, and so forth.
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Plan Measurement Process
+|- 
+a|- Assists in selecting measures and measurement scales
+- Assists in planning for data storage
+- Assists in selecting data collection and analysis methods
+- Assists in identifying measurement tools and manual procedures
+- Selects measurement tools and manual procedures
+- Approves measurement tools and manual procedures
+a|- Participates in identifying measures for an organization
+- Participates in identifying measurement needs for a project or program
+- Establishes data collection and analysis methods
+- Participates in setting target values and thresholds
+- Participates in establishing report formats and reporting procedures
+- Identifies measurement tools and manual procedures
+- Plans for data storage
+- Selects data collection and analysis methods
+a|- Leads identification of measurement needs for a project or program
+- Selects measures and measurement scales
+- Reviews and approves data collection and analysis methods
+- Sets target values and thresholds
+- Establishes report formats and reporting procedures
+- Reviews and approves measurement tools and manual procedures
+- Reviews and approves plan for data storage
+- Approves data collection and analysis methods
+- Procures and installs measurement tools
+a|- Defines attributes of the process and product measures to be used throughout an organization
+- Develops new ways to identify measurement needs
+- Defines new measures and measurement scales
+- Develops new data collection and analysis methods
+- Develops new report formats and reporting procedures
+- Develops new measurement tools and manual procedures
+
+|Perform Measurement Process
+|- 
+a|- Assists in validating collected data
+- Identifies and recommends improvements to the measurement process
+a|- Uses measurement tools to collect data
+- Uses manual procedures to collect data
+- Maintains valid data in a repository
+- Validates collected data
+- Generates and distributes reports
+a|- Leads and coordinates the measurement process
+- Approves tactical improvements to the measurement process
+a|- Periodically reviews methods, tools, and techniques used to perform the measurement process
+- Modifies existing and develops new review methods, tools, and techniques used to perform the measurement process
+
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

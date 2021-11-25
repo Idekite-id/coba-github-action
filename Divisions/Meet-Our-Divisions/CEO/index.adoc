@@ -1,0 +1,6 @@
+= CEO
+
+Dalam CEO, terdapat 2 bagian utama, yaitu: 
+
+1. link:./Management-CEO-1/index.adoc[Management (CEO-1)]
+2. link:./Internal-Audit-and-Risk-Management/index.adoc[Internal Audit and Risk Management]

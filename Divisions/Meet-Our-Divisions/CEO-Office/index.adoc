@@ -1,0 +1,7 @@
+= Department
+
+CEO Office meliputi (3) department, yaitu: 
+
+1. link:./Process-Improvement/index.adoc[Process Improvement]
+2. link:./People-Operations/index.adoc[People Operation]
+3. link:./Strategy/index.adoc[Strategy]

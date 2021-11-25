@@ -1,0 +1,43 @@
+= Reference and Link
+
+Dalam halaman ini kamu akan menemukan berbagai informasi yang dapat kamu akses untuk memudahkanmu dalam proses pengembangan diri, _request_ 1 on 1, dan berbagai informasi teknis lainnya.
+
+[cols="40%,60%",frame=none, grid=none]
+|===
+a|image::./images-onboarding-guide-for-you/thematic-request.png[align="center"]
+
+[.text-center]
+https://course.alterra.id/forms/[*Request Form*]
+|Halaman ini memfasilitasimu dalam _submit form_ untuk keperluan _training_ pengembangan diri, _1 on 1 session_, dan _online course_.
+
+a|image::./images-onboarding-guide-for-you/thematic-performance.png[align="center"]
+
+[.text-center]
+https://sites.google.com/alterra.id/pmscorner/home[*PMS Corner*]
+|Halaman ini memuat informasi terkait _Performace Management System_ (PMS) yang ada di Alterra.
+
+a|image::./images-onboarding-guide-for-you/thematic-infra.png[align="center"]
+
+[.text-center]
+https://support.alterra.id/support/solutions/folders/67000477550[*Infrastructure Guidelines*]
+|Halaman ini memuat panduan yang mencakup solusi permasalahan _hardware, software_, dan jaringan, seperti cara mengakses VPN dan sebagainya.
+
+a|image::./images-onboarding-guide-for-you/thematic-bonding.png[align="center" width="80"]
+
+[.text-center]
+https://docs.google.com/forms/d/1AnAIKJ3NO9spVTIuLz8t5yWLsfWUvYYK_ZHhwgg9nNs/viewform?edit_requested=true[*Bonding Requisition Form (Brefo)*]
+|Halaman ini memfasilitasimu dalam pengajuan proposal _team bonding_ ke Tim People Operations (POPS).
+
+a|image::./images-onboarding-guide-for-you/thematic-kamis.png[align="center" width="75"]]
+
+[.text-center]
+https://docs.google.com/forms/d/1AnAIKJ3NO9spVTIuLz8t5yWLsfWUvYYK_ZHhwgg9nNs/viewform?edit_requested=true[*Alterra Kamis*]
+|Halaman ini memuat beragam artikel yang ditulis oleh para Alterrans.
+
+a|image::./images-onboarding-guide-for-you/thematic-cash-advance.png[align="center" width="80"]]
+
+[.text-center]
+https://docs.google.com/forms/d/1AnAIKJ3NO9spVTIuLz8t5yWLsfWUvYYK_ZHhwgg9nNs/viewform?edit_requested=true[*ODOO*]
+|Halaman ini memfasilitasimu dalam melakukan pengajuan _cash advance_, PO, dan lain sebagainya.
+|===
+

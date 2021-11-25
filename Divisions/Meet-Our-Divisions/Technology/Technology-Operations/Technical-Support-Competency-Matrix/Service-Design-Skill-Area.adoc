@@ -1,0 +1,64 @@
+= Service Design Skill Area
+
+IT services cannot provide value to the business unless they have been designed to meet business objectives. Service design is the lifecycle stage where the service strategy is turned into an achievable plan for delivering the business objectives.
+
+The ITIL Service Design stage provides 2 things:
+
+1. Guidance for designing and developing services and service management practices
+2. Design principles and methods for converting strategic objectives into portfolios of services and related assets.
+
+Service strategy provides the basic framework to create value, and the service design fits the pieces of the puzzle into its creation. The purpose of the service design phase is to develop designs for the IT services that were envisioned in the service strategy phase, along with the policy and process documents that are necessary to control and govern the designed IT services.
+
+image::./images-ts-competency-matrix/service-design-skill-area.png[align="center"]
+
+The designs must fit into the environment the customer is looking to deal with, ensuring maximum customer satisfaction and minimum costs while meeting all the quality requirements.
+
+    Scroll down to read the entire Service Design skill area.
+
+[cols="20%,20%,20%,20%,20%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+4+^.^h|*Proficiency Level*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+^.^h|*4*
+
+^.^h|*Imitative*
+^.^h|*Operative*
+^.^h|*Adaptive*
+^.^h|*Developmental*
+
+a|Design & Service Level Management
+
+*Description:*
+
+A process to ensure the consistent and effective design of new or changed IT services, service management information systems, architectures, technology, processes, information and metrics based on service level requirements and achievement (SLA). 
+|Gathers the required information in order to handle customer software and technical inquiries
+|Identifies service design processes and related activities to support the development of standards and possibility improvement
+|Provides and improves the relationship and communication with customers
+|Boosts service requirements through availability, reliability and maintainability of IT services to meet future and ideal services
+
+a|IT Service Continuity and Security Management
+
+*Description:*
+
+- A process that focuses on planning for incident prevention, prediction, and management with the goal of maintaining service availability and performance at the highest possible levels before, during, and after a disaster-level incident.
+
+- Establishes, implements, operates, monitors, reviews,, maintains, and improves a documented Information Security Management System within the context of the organization's overall business risks.
+|Follows standardized methods and procedures to handle of all services and security controls
+|Identifies user input to address user problems and interrogates database for potential solutions
+|Improves security controls and risk management by elaborating information to fulfill requests and enable resolution
+|Designs a prevention plan by ensuring that the confidentiality, integrity, and availability of services are protected within all other ITSM processes to deliver value for money
+
+|===
+
+== Any question?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].
+
+== References
+Lou Hunnebeck (2011). ITIL Service Design. 2nd ed. London: The Stationery Office; https://tomjsmyth.files.wordpress.com/2015/04/itilv3sd-itil-v3-service-design.pdf[URL].
+
+_______ (2011). ITIL Stage Service Design. Germany: Wiki; https://wiki.en.it-processmaps.com/index.php/Category:Service_Design[URL].

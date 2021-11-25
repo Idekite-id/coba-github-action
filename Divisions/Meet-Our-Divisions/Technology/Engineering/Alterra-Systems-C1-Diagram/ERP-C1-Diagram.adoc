@@ -1,0 +1,7 @@
+= ERP C1 Diagram
+
+ERP merupakan inisiatif Head Office yang berfokus dalam pengembangan berbagai aplikasi _Enterprise Resource Planning_. Inisiatif ini mencakup beberapa sistem yang saling terhubung, yang dapat dirangkum dalam diagram C1 berikut:
+
+image::./images-alterra-system-c1-diagram/erp-c1-diagram.png[ERP C1 Diagram]
+
+Berikut adalah sistem-sistem yang termasuk dalam inisiatif ERP:

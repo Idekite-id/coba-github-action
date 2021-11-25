@@ -1,0 +1,112 @@
+= Software Quality Skill Area
+
+The software quality skill area consists of fundamental skills that a software engineer needs to possess in order to produce a highquality product, which is defined as one that conforms to its requirements and satisfies user needs. The software quality skill area includes both software quality assurance and software quality control, which includes verification and validation. 
+
+Software Quality Assurance (SQA) includes all competencies associated with ensuring a quality process. In other words, SQA within an organization establishes a series of processes, methods, standards, and techniques that are used throughout the organization to develop high-quality products. 
+
+Software Quality Control (SQC) includes all competencies associated with ensuring a quality product. In other words, an organization ensures that the software product will meet its quality goals through SQC. Software quality control may also be referred to as Software Validation and Verification; there are, however, some minor differences between the two terms. Software Verification and Validation consists of fundamental competencies that a software engineer should possess in order to produce a high-quality product. 
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Software Quality Management (SQM)
+|-
+a|- Assists with establishing the appropriate infrastructure (such as defect tracking tools) to support organizations’ quality goals
+- Assists with identification of the different quality characteristics and attributes for the product
+a|- Follows defined quality processes and standards
+- Follows quality standards for the product and supporting processes
+- Establishes quality standards for the product
+- Establishes a culture of producing quality products and of following quality processes across projects
+- Follows defined quality models
+- Selects appropriate SQM processes that support the identified quality goals for the project
+- Uses appropriate tools and resources to develop quality products
+- Identifies quality characteristics and attributes for the product and establishes priorities
+
+Establishes quality standards, models, and processes for projects
+- Assists with identification of the different quality characteristics and attributes for the product
+- Identifies the quality models that need to be followed for the project
+- Analyzes the advantages and disadvantages of alternative SQM processes and tools that can be used for achieving organizational goals for product quality
+- Ensures that product quality goals are achieved
+- Develops the Quality Assurance (QA) plan for the project
+- Collects quality metrics and prepares quality documentation to be shared with appropriate stakeholders
+- Identifies appropriate stakeholders who have authority and accountability regarding the quality process and quality product
+- Identifies organizational measures that support achieving product quality goals (across projects)
+- Develops and updates an appropriate traceability matrix for the product
+- Identifies appropriate measures that support achieving product quality goals
+- Identifies appropriate tools and resources that need to be used in order to achieve product quality goals
+- Verifies that quality goals and requirements are met
+a|- Establishes quality standards for the product
+- Establishes a culture of producing quality products and of following quality processes across projects
+- Establishes quality standards, models, and processes for projects
+- Develops the QA plan for the project
+- Identifies organizational measures that support achieving product quality goals (across projects)
+- Proposes/ Designs new tools to improve the achievement of product quality goals
+- Identifies appropriate measures that support achieving product quality goals
+- Identifies continuous improvement opportunities across projects
+- Identifies appropriate tools and resources that need to be used in order to achieve product quality goals
+- Verifies that quality goals and requirements are met
+- Identifies continuous improvement opportunities across the project
+a|- Creates new and improved quality practices for delivering high quality products
+- Creates new processes
+- Examines and assesses the effectiveness of a specific SQM process across an organization
+- Makes recommendations related to organization-wide SQM processes
+- Creates/ modifies SQM processes to achieve higher quality products and processes
+
+|Reviews
+|-
+|-
+a|- Assists with necessary logistics associated with reviews and inspections, including but not limited to: meeting logistics, performing all appropriate data warehousing, and generating appropriate reports associated with the meeting
+- Participates as an active member of the review team in order to achieve the goals of the activity
+- Identifies appropriate review processes needed to achieve product quality goals
+- Identifies appropriate organization-wide review processes
+- Uses appropriate checklists called for by the review organizer
+- Identifies appropriate personnel that need to participate in review activities
+- Conducts across the organization data analysis for the purpose of root cause analysis
+- Collects appropriate and accurate data that is called for by the review organizer
+- Identifies appropriate measures that need to be collected as part of the product review
+- Based on the review data, identifies appropriate corrective actions to be implemented across projects for the purpose of achieving product improvement
+- Produces appropriate documentation called for by the quality management plan
+- Identifies appropriate artifacts under the review and corresponding checklist
+- Follows appropriate practices defined by the quality management plan
+- Analyzes collected product data for the purpose of root cause analysis and assessment of review effectiveness
+- Identifies appropriate corrective actions in order to achieve product improvement
+a|- Identifies appropriate review processes needed to achieve product quality goals
+- Identifies appropriate organization-wide review processes
+- Based on the review data, identifies appropriate corrective actions to be implemented across projects for the purpose of achieving product improvement
+- Analyzes collected product data for the purpose of root cause analysis and assessment of review effectiveness
+- Identifies appropriate corrective actions in order to achieve product improvement
+- Leads the review team
+a|- Creates new or customizes review processes to meet organizational needs
+- Develops new root cause analysis techniques
+
+|Audits
+|- 
+a|- Establishes the environment necessary to conduct the audit
+a|- Establishes the environment necessary to conduct the audit
+- Participates in audits
+- Plans, organizes, and conducts audits
+- Establishes audit infrastructure by identifying: appropriate organization to conduct the audit, products and processes that need to be included in audits, and stakeholders receiving the audit results
+- Classifies issues identified by audits
+- Analyzes audit results for continuous improvement
+- Establishes and implements appropriate resolution strategies for identified issues
+a|- Plans, organizes, and conducts audits
+a|- Creates new audit processes
+
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

@@ -1,0 +1,65 @@
+= Alterra Guidance
+
+> Hai Alterrans! selamat datang di halaman Alterra Guidance. 
+
+image::./images-alterra-guidance/alterra-guide-1.png[align="center"]
+
+
+Semua dokumentasi yang kamu butuhkan untuk menunjang pekerjaan, sudah tersedia lengkap di sini. 
+
+== Apa saja yang bisa kamu temukan di sini?
+
+====
+
+image::./images-alterra-guidance/br1.png[align="center"]
+
+[.text-center]
+*General Guideline*
+
+[.text-center]
+_General guideline_ ditujukan sebagai panduan umum dalam menggunakan _tools_ yang ada di Alterra
+
+====
+====
+
+image::./images-alterra-guidance/br2.png[align="center"]
+
+[.text-center]
+*General Governance Document*
+
+[.text-center]
+Cari tahu prosedur dan kebijakan terbaru yang berlaku di Alterra, baik dalam lingkup divisi maupun perusahaan
+====
+
+====
+
+image::./images-alterra-guidance/br3.png[align="center"]
+
+[.text-center]
+*Alterra Careers Framework*
+
+[.text-center]
+Alterra _Career Framework_ memuat informasi tentang mengenai penggolongan tingkat posisi yang ada di Alterra 
+====
+
+====
+
+image::./images-alterra-guidance/br4.png[align="center"]
+
+[.text-center]
+*System Document*
+
+[.text-center]
+Dokumentasi teknis tentang sistem yang ada di Alterra
+====
+
+====
+
+image::./images-alterra-guidance/br5.png[align="center"]
+
+[.text-center]
+*Feedback and Question*
+
+[.text-center]
+Ada _feedback_ atau pertanyaan yang ingin disampaikan? Yuk, cari tahu _platform_-nya melalui halaman _Feedback & Questions_
+====

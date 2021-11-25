@@ -1,0 +1,19 @@
+= Procurement
+
+Divisi Procurement adalah divisi yang bertanggung jawab untuk melakukan pengadaan barang dan jasa dengan kualitas, kuantitas, harga, sumber, dan waktu yang baik sesuai dengan kebutuhan perusahaan. 
+
+Dalam pelaksanaannya, ada 2 tugas utama yang dilakukan oleh divisi Procurement, meliputi: 
+
+1. Pengadaan barang dan jasa (prosedur lebih detail merujuk pada https://drive.google.com/drive/folders/15eBJd7QhlIra_EYWpWp_WZ3Ak1xB29aA?usp=sharing[BIS-ON Guide])
+2. Business trip (prosedur lebih detail merujuk pada https://docs.google.com/presentation/d/10FbpgT-Pq2Rd8m3UnizxUdrVfdF1DN6a/edit?usp=sharing&ouid=104079751095134047806&rtpof=true&sd=true[Trip Policy & Flow] & https://drive.google.com/drive/folders/1RPeqi8VdKMeRvKuN-mejWZevsXecTTvF?usp=sharing[Business Trip Policy])
+
+
+== Quick Link
+
+* SOP
+* Policy
+** https://drive.google.com/drive/u/0/folders/1RPeqi8VdKMeRvKuN-mejWZevsXecTTvF[Business Trip Policy]
+* Guideline 
+** https://drive.google.com/drive/u/0/folders/15eBJd7QhlIra_EYWpWp_WZ3Ak1xB29aA[BIS-ON Guide]
+** https://docs.google.com/presentation/d/10FbpgT-Pq2Rd8m3UnizxUdrVfdF1DN6a/edit?usp=drive_web&ouid=109914499342443213197&rtpof=true[Trip Policy & Flow]
+** link:./Approval-Matrix.adoc[Approval Matrix]

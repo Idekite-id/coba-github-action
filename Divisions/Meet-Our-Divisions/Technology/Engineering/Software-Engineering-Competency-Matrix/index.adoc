@@ -1,0 +1,41 @@
+= Software Engineering Competency Matrix
+
+== How does it work?
+
+Do you want to know about Software Engineer https://drive.google.com/file/d/1XgQSGRJu48vn3PVT2eAXULYTGYelfmWF/view[career framework in Alterra]? Watch https://drive.google.com/file/d/1ai3y1xDCSc4rGIBz9y9xTdqFyD2q-5Az/view[this] till the end!
+
+For the mindmap version, https://whimsical.com/se-career-path-Gs6VyZpT4SY8PS57CThvVx[click here].
+
+== Software Engineering Technical Domains
+
+Technical skills and associated activities are the primary focus Software Engineering Competency Model. They are grouped as *2 domains, life cycle and crosscutting*.
+
+=== Life Cycle Domains
+
+Life cycle skill areas are categorized by typical phases of software development and modification (link:./Software-Engineering-Lifecycle-Domain/index.adoc[continue reading]). There are 5 key behaviours on life cylce domain.
+
+* link:./Software-Engineering-Lifecycle-Domain/Software-Requirements-Skill-Area.adoc[Software Requirements Skill Area]
+* link:./Software-Engineering-Lifecycle-Domain/Software-Design-Skill-Area.adoc[Software Design Skill Area]
+* link:./Software-Engineering-Lifecycle-Domain/Software-Construction-Skill-Area.adoc[Software Construction Skill Area]
+* link:./Software-Engineering-Lifecycle-Domain/Software-Testing-Skill-Area.adoc[Software Testing Skill Area]
+* link:./Software-Engineering-Lifecycle-Domain/Software-Sustainment-Skill-Area.adoc[Software Sustainment Skill Area]
+
+=== Cross Cutting Domain
+
+Crosscutting skill areas are sometimes called “specialty disciplines” that are practiced by specialists in those skill areas such as safety, security, systems engineering (link:./Software-Engineering-Cross-Cutting-Domain/index.adoc[continue reading]). There are 7 key behaviours on Cross-cutting domain.
+
+* link:./Software-Engineering-Cross-Cutting-Domain/Software-Process-Skill-Area.adoc[Software Process Skill Area]
+* link:./Software-Engineering-Cross-Cutting-Domain/Software-System-Requirements-Engineering-Skill-Area.adoc[Software System Requirements Engineering Skill Area]
+* link:./Software-Engineering-Cross-Cutting-Domain/Software-Quality-Skill-Area.adoc[Software Quality Skill Area]
+* link:./Software-Engineering-Cross-Cutting-Domain/Software-Security-and-Safety-Skill-Area.adoc[Software Security & Safety Skill Area]
+* link:./Software-Engineering-Cross-Cutting-Domain/Software-Configuration-Management-Skill-Area.adoc[Software Configuration Management Skill Area]
+* link:./Software-Engineering-Cross-Cutting-Domain/Software-Measurement-Skill-Area.adoc[Software Measurement Skill Area]
+* link:./Software-Engineering-Cross-Cutting-Domain/Software-HCI-Skill-Area.adoc[Software HCI Skill Area]
+
+== How far can you g(r)o(w)?
+
+Find out your answer by learning about Alterra career track, link:../Software-Engineering-Rating-Standard/index.adoc[Software Engineering Rating Standard]. 
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

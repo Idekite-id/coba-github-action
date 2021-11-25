@@ -1,0 +1,14 @@
+= Architecture Learning Materials
+
+image:./images-architecture-learning-materials/archi.png[Architecture Learning Materials]
+
+Halaman ini menyajikan meteri yang dibutuhkan oleh Tim Engineering dalam memahami segala halyang berkaitan dengan arsitektur sistem di Alterra
+
+Berikut adalah beberapa artikel yang dapat tersedia:
+
+[arabic]
+. link:./Architecture-Learning-Materials/Prometheus-Grafana.adoc[Prometheus Grafana]
+. link:./Architecture-Learning-Materials/Logging-Implementation.adoc[Logging Implementation]
+. link:./Architecture-Learning-Materials/Create-Script-K6.adoc[Create Script K6]
+. link:./Architecture-Learning-Materials/Testing-Flow-and-System-Preparation.adoc[Testing Flow and System Preparation]
+. link:./Architecture-Learning-Materials/Visualisasi-Data-Hasil-Performance-Test.adoc[Visualisasi Data Hasil Performance Test]

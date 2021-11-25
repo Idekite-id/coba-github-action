@@ -1,0 +1,46 @@
+= Division
+
+Hai, apakah kamu ingin mengetahui lebih banyak tentang semua Divisi yang ada di Alterra Head Office? Kamu bisa cek disini!
+
+Halaman ini menyediakan informasi tentang setiap divisi di Alterra termasuk _job description,_ struktur organisasi dan masih banyak lagi.
+
+image::./images-division/division-1.png[align="center"]
+
+[cols="50%,50%",frame=all, grid=all]
+|===
+^.^| *Vision* 
+^.^| *Mission*
+
+| Innovate Billing in Indonesia 
+| Provide every bill issuers in Indonesia with collection systems that connects with any payment channels.
+|===
+
+== Alterra Value
+
+[cols="33%,33%,33%",frame=none, grid=none]
+|===
+a|image::./images-division/division-innovation.png[align="center"] 
+a|image::./images-division/division-champion.png[align="center"] 
+a|image::./images-division/division-cust-focus.png[align="center"] 
+
+a|image::./images-division/division-integrity.png[align="center"] 
+a|image::./images-division/division-collaboration.png[align="center"] a|
+|===
+
+== Meet Our Divisions
+
+link:./Meet-Our-Divisions/CEO/index.adoc[CEO]
+
+link:./Meet-Our-Divisions/CEO-Office/index.adoc[CEO Office]
+
+link:./Meet-Our-Divisions/Finance-Legal-and-Procurement/index.adoc[Finance, Legal, and Procurement]
+
+link:./Meet-Our-Divisions/Technology/index.adoc[Technology]
+
+== Know Us Better
+
+link:./Know-Us-Better/Organization-Structures/index.adoc[Organization Structures]
+
+link:./Know-Us-Better/Onboarding-Guide-for-You/index.adoc[Onboarding Guide for You]
+
+link:./Know-Us-Better/Alterra-Career-Framework/index.adoc[Alterra Career Framework]

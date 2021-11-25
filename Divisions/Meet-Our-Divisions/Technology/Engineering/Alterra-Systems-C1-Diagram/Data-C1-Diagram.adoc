@@ -1,0 +1,9 @@
+= Data C1 Diagram
+
+Data merupakan inisiatif Head Office yang berfokus pada pengelolaan data yang digunakan dalam Alterra. Inisiatif ini mencakup beberapa sistem yang saling terhubung, yang dapat dirangkum dalam diagram C1 berikut:
+
+image::./images-alterra-system-c1-diagram/data-c1-diagram.png[Data C1 Diagram]
+
+Berikut adalah sistem-sistem yang termasuk dalam inisiatif Data: 
+
+1. link:../../../../../../System-Documents/Bifrost/architecture-bifrost.adoc[Bifrost]

@@ -1,0 +1,9 @@
+= Legal Consciousness
+
+Untuk membudayakan penerapan prinsip Tata Kelola Perusahaan _(Good Corporate Governance)_ yang baik, Tim Legal and Compliance telah merangkum berbagai macam aturan dalam infografis sebagaimana daftar berikut:
+
+link:./Personal-Data-Protection.adoc[Personal Data Protection]
+
+link:./FAQ-Tanda-Tangan-Digital.adoc[FAQ Tanda Tangan Digital (E-Signature)]
+
+link:./Peraturan-Baru-atas-Bea-Meterai.adoc[Peraturan Baru atas Bea Meterai]

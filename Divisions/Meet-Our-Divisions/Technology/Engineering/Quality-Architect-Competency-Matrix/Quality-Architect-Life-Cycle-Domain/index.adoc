@@ -1,0 +1,23 @@
+= Quality Architect - Life Cycle Domain
+
+== What is life cycle domain?
+
+A life cycle skill area is one that includes skills needed to accomplish various work activities within a phase of software development or sustainment—for example, software requirements engineering. 
+
+image::./images-life-cycle-domain/QCR-life-cycle-domain1.png[align="center"]
+
+Life cycle skill areas are categorized by typical phases of software development and modification. In practice, software phases are often intermixed, interleaved, and iterated in various ways; however, no implication of development processes (for example, predictive versus adaptive) is intended.
+
+== What are skill sets for life cycle domain?
+
+The five *key behaviour* of life cycle domain of Quality Architect competency model are listed in the list below.
+
+* link:./Requirement-Skill-Area.adoc[Requirements Skill Area]
+* link:./Design-Skill-Area.adoc[Design Skill Area]
+* link:./Construction-Skill-Area.adoc[Construction Skill Area]
+* link:./Testing-Skill-Area.adoc[Testing Skill Area]
+* link:./Sustainment-Skill-Area.adoc[Sustainment Skill Area]
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through link:https://alterra.tribe.so/[Tribe].

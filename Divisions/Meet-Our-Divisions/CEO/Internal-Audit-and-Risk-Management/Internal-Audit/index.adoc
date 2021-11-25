@@ -1,0 +1,7 @@
+= Internal Audit
+
+image::../images-IARM/IARM-Internal-Audit.png[align="center"]
+
+Departemen Internal Audit bertugas sebagai bagian _independent_ pada manajemen dalam melakukan fungsi pengawasan dan bertanggung jawab dalam pembuatan _Audit Plan_. Ruang lingkup Internal Audit meliputi seluruh aspek fisis (keadaan lingkungan alam di luar manusia) perusahaan.
+
+Sejalan dengan fungsi dan ruang lingkup di atas, departemen Internal Audit bertanggung jawab untuk melakukan evaluasi proses bisnis, manajemen risiko, fungsi pengendalian, dan proses tata kelola. Selain itu, bagian ini juga berwewenang melakukan pelaporan langsung ke Dewan Direksi, Komite Audit, dan Manajemen Puncak. 

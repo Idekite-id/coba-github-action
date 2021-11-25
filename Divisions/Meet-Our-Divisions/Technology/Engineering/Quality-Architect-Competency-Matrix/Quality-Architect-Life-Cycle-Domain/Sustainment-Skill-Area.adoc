@@ -1,0 +1,99 @@
+= Sustainment Skill Area
+
+As systems become larger, more complex, and increasingly reliant on software, sustainment issues become increasingly complex and time consuming. A study of software systems effort distribution indicated that 55% of software system life cycle effort involves sustainment activities [CMU/SEI-2006-TN-007]. The risks of inadequate sustainment can potentially undermine the stability, enhancement, and longevity of operational systems. No authoritative definition of “software sustainment” exists. 
+
+The Software Engineering Institute’s working definition is, “The processes, procedures, people, material, and information required to support, maintain, and operate the software aspects of a system” [Lapham 2006]. The IEEE Standard Glossary of Software Engineering Terminology defines software maintenance as “The process of modifying a software system or component after delivery to correct faults, improve performance or other attributes, or adapt to a changed environment” [IEEE/ISO/IEC 24765-2010]. 
+
+According to these definitions, software sustainment addresses issues of maintenance plus documentation, deployment, operation, security, configuration management, training (users and sustainment personnel), help desks, COTS product management, technology updates, and software retirement. Three categories of software maintenance activities—corrective, adaptive, and perfective—involve modifying a software product/ system after delivery. A fourth category of software maintenance activities focuses on preventive maintenance.
+
+Successful software sustainment depends on the culture of the sustainment organization, the skills of the sustainment team (which is the focus of this skill area), the flexibility of the customer, and the operational domain of the product, in addition to skills needed to modify source code for corrective, adaptive, and perfective enhancements.
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Software Transition
+a|- Follows instructions to help develop software transition and operational documentation
+- Follows instructions to help install software
+a|- Assists in identifying applicable systems and software operational standards
+- Assists in the development of software transition and operational documentation
+- Assists in the development of training material for operational support personnel
+- Assists in training operational support personnel
+- Assists in determining the impacts of software changes on the operational environment
+- Assists in system acceptance
+a|- Participates in developing transition plans
+- Participates in the identification of stakeholders for transition and operational requirements
+- Participates in the identification of system and software constraints
+- Identifies applicable systems and software operational standards
+- Installs software
+- Develops training material for operational support personnel
+- Trains software operational support personnel
+a|- Leads development of transition plans
+- Leads in the identification of stakeholders for transition and operational requirements
+- Leads in the identification of system and software constraints
+- Modifies existing and develops new systems and software operational standards
+- Leads in the development of software transition and operational documentation
+- Approves software transition and operational documentation
+- Leads in the installation of software
+- Approves new software installations
+- Approves training material for operational support personnel
+- Leads software operational training
+- Approves software system activation and checkout procedures
+- Leads in determining the impacts of software changes on the operational environment
+- Leads system acceptance
+a|- Modifies existing and creates new guidelines for transition plans
+- Modifies existing and creates new guidelines for the identification of stakeholders
+- Modifies existing and creates new templates for software transition and operational documentation
+- Modifies existing and creates new guidelines for determining the impacts of software changes on the operational environment
+- Modifies existing and develops new system acceptance methods, tools, and techniques
+
+|Software Support
+a|- Follows instructions to perform operational software assurance tasks
+- Operates tools to collect operational data under supervision
+a|- Operates operational software configuration management tools
+- Assists in implementing software retirement procedures
+a|- Performs software system activation and checkout procedures
+- Develops software system activation and checkout procedures
+- Participates in determining the impacts of software changes on the operational environment
+- Participates in system acceptance
+- Performs operational software configuration management
+- Performs operational software assurance
+- Installs COTS and other software updates
+- Updates COTS and other software technologies to maintain currency
+- Diagnoses and responds to reported software defects, anomalies, and operational incidents and events
+- Analyzes operational data
+- Implements software retirement procedures
+a|- Develops operational software configuration management plans
+- Approves operational software configuration management plans
+- Leads operational software assurance activities
+- Develops software assurance plans
+- Leads maintenance of COTS and other software technologies to maintain currency
+- Leads software help desk activities
+- Develops software help desk plans
+- Acquires tools and supervises analysis of operational data
+- Develops plans for collecting and processing operational data
+- Develops software retirement plans
+a|- Modifies existing and creates new standards and frameworks for operational software configuration management
+- Creates policies that cover help desk operations
+- Modifies existing and creates new methods, tools, and techniques for collecting and processing operational data
+
+|
+|
+|
+|
+|
+|===
+== Any questions?
+If you have a question or something to discuss about this topic, post your questions through link:https://alterra.tribe.so/[Tribe].

@@ -1,0 +1,25 @@
+= Software Engineering Cross-Cutting Domain
+
+== What is cross-cutting domain?
+
+A crosscutting skill area is one that applies across all life cycle skill areas (for example, quality assurance) and, in some cases, a crosscutting skill may apply to other crosscutting skill areas (for example, a software process model). 
+
+image::./images-cross-cutting-domain/SE-cross-cutting-domain-1.png[align="center"]
+
+Crosscutting skill areas are sometimes called “specialty disciplines” that are practiced by specialists in those skill areas (such as safety, security, systems engineering). Software engineers who are competent in one or more life cycle skill areas typically have some working knowledge of crosscutting skill areas.
+
+== What are skill sets for cross-cutting domain?
+
+The seven key behaviour of cross-cutting domain of Software Engineering competency model are listed in the list below.
+
+* link:./Software-Process-Skill-Area.adoc[Software Process Skill Area]
+* link:./Software-System-Requirements-Engineering-Skill-Area.adoc[Software System Requirements Engineering Skill Area]
+* link:./Software-Quality-Skill-Area.adoc[Software Quality Skill Area]
+* link:./Software-Security-and-Safety-Skill-Area.adoc[Software Security & Safety Skill Area]
+* link:./Software-Configuration-Management-Skill-Area.adoc[Software Configuration Management Skill Area]
+* link:./Software-Measurement-Skill-Area.adoc[Software Measurement Skill Area]
+* link:./Software-HCI-Skill-Area.adoc[Software HCI Skill Area]
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

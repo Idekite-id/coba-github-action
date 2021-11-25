@@ -1,0 +1,98 @@
+= Software Process Skill Area
+
+Software process models and life cycle models skills are concerned with process definition and tailoring, implementation, workflow, assessment, measurement, management, and improvement of the software life cycle processes, including processes both for guiding a specific set of activities and for postmortem. 
+
+The skills apply to a range of software process paradigms that range from plandriven processes (sometimes called predictive processes) to agile processes (sometimes called adaptive processes) and the spectrum of processes between the two. A key element of software processes is measurement and assessment of the effectiveness of individual activities and their combinations for software projects. 
+
+The key purpose of process assessment is to identify process activities and combinations that need to be modified to better achieve project goals. Software process model and life cycle model skills apply across most of the other skill areas in this document, including both life cycle and crosscutting skill areas. 
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Software Development Life Cycle Implementation
+a|- Provides assistance in the installation and use of tools appropriate for a project’s designated life cycle model
+a|- Provides assistance in the installation and use of tools appropriate for a project’s designated life cycle model
+- Carries out process activities specified in a life cycle process model script
+a|- Carries out process activities specified in a life cycle process model script
+- Leads a small team in execution of some portion of a life cycle process model (such as software design)
+- Assists in selection of a department or organizational-wide life cycle process model
+a|- Leads a small team in execution of some portion of a life cycle process model (such as software design)
+- Assists in selection of a department or organizational-wide life cycle process model
+- Selects a life cycle model process for a software team
+a|- Determines the need for and selects or develops an organization-wide life cycle model
+- Selects department or organization-wide process models
+- Advises on process infrastructure, training, and tools
+- Leads definition and tailoring of software processes for a project team or for a software engineering activity (such as requirements engineering, design, and so forth)
+
+|Process Definition and Tailoring
+a|- Provides assistance in the installation and use of tools for defining and modifying software processes
+a|- Provides assistance in the installation and use of tools for defining and modifying software processes
+- Interprets and adapts a software process to individual process responsibilities and tasks
+- Provides review of defined and tailored processes
+a|- Interprets and adapts a software process to individual process responsibilities and tasks
+- Provides review of defined and tailored processes
+- Tailors a software process to the work of a small team
+a|- Leads definition and tailoring of software processes for a project team or for a software engineering activity (such as requirements engineering, design, and so forth)
+- Tailors a software process to the work of a small team
+- Provides guidance to others involved in tailored processes (individual and team)
+- Leads definition and tailoring of organization-wide software processes
+a|- Conducts research into effective software process definition and tailoring
+- Leads definition and tailoring of organization-wide software processes
+
+|Process Implementation and Management
+a|- Provides assistance in the installation and use of tools for implementing, managing, and measuring software processes
+- Implements and manages individual processes
+a|- Provides assistance in the installation and use of tools for implementing, managing, and measuring software processes
+- Implements and manages individual processes
+a|- Collaborates in the execution of a team software process
+- Leads small teams in the implementation and execution of a software process
+- Provides guidance and advice to individuals on the implementation and management of their personal processes
+- Serves as a member of a software engineering process group (SEPG)
+a|- Leads small teams in the implementation and execution of a software process
+- Leads large teams or multi-team projects in the implementation and execution of a software process
+- Provides guidance and advice to individuals on the implementation and management of their personal processes
+- Provides guidance and advice to software teams on how to implement and manage software processes
+- Serves as leader of an SEPG
+a|- Provides organization-wide guidance and advice on how to implement and manage software processes
+- Provides guidance and advice to software teams on how to implement and manage software processes
+- Provides guidance and advice on the formation, structure, and responsibilities of SEPGs
+
+|Process Assessment and Improvement
+a|- Provides assistance in the installation and use of tools for assessing and improving software processes
+- Collects data relevant to individual process execution
+a|- Provides assistance in the installation and use of tools for assessing and improving software processes
+- Assists in collecting data for assessment of a software process
+- Collects data relevant to individual process execution
+- Assesses and implements improvement of an individual software process
+- As a member of an SEPG, provides input on software process improvement
+a|- Leads small teams in collecting data for assessment of software processes
+- Leads software teams in collecting data for assessment of software processes
+- Analyzes process assessment data and implements improvement of small team software processes
+- Assesses and implements improvement of an individual software process
+- As a member of an SEPG, provides input on software process improvement
+a|- Leads small teams in collecting data for assessment of software processes
+- Leads software teams in collecting data for assessment of software processes
+- Analyzes process assessment data and implements improvement of small team software processes
+- Leads the SEPG in providing guidance on department or organization-wide software process improvement
+a|- Conducts research into the effectiveness and improvement of software processes
+- Leads the SEPG in providing guidance on department or organization-wide software process improvement
+- Uses assessment data, team reports, and SEPG reports to establish organization procedures and standards for software process improvement
+
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

@@ -1,0 +1,40 @@
+= Bill Payment Aggregator C1 Diagram
+
+Bill Payment Aggregator merupakan inisiatif Alterra Bills yang berfokus dalam integrasi biller dan partner, serta penyediaan produk antara keduanya. Inisiatif ini mencakup beberapa sistem yang saling terhubung, yang dapat dirangkum dalam diagram C1 berikut:
+
+image::./images-alterra-system-c1-diagram/bpa-c1-diagram.png[Bill Payment Aggregator C1 Diagram]
+
+Berikut adalah sistem-sistem yang termasuk dalam inisiatif Bill Payment Aggregator:
+
+
+
+1. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Amigdala/architecture-amigdala.adoc[Amigdala]
+
+2. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Cacabot/architecture-cacabot.adoc[Cacabot]
+
+3. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Diamante/architecture-diamante.adoc[Diamante]
+
+4. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Dolphin/architecture-dolphin.adoc[Dolphin]
+
+5. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Elisian/architecture-elisian.adoc[Elisian]
+
+6. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Kraken/Kraken-V2/Developer-Onboarding-Kraken-V2/architecture-kraken-v2.adoc[Kraken V2]
+
+7. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Oknurt/architecture-oknurt.adoc[Oknurt]
+
+8. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Polaris/architecture-polaris.adoc[Polaris]
+
+9. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Sentinel/architecture-sentinel.adoc[Sentinel]
+
+10. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Takoyaki-V2/architecture-takoyaki-v2.adoc[Takoyaki V2]
+
+11. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Trunko/architecture-trunko.adoc[Trunko]
+
+
+
+
+
+
+
+
+

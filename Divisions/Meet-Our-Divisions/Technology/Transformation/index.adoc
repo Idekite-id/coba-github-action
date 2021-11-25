@@ -1,0 +1,23 @@
+= Transformation
+
+Departemen Transformation bertanggung jawab dalam memberikan dampak signifikan terhadap teknologi dan memastikan bahwa teknologi yang digunakan selalu _up-to-date_ dengan teknologi yang ada.
+
+Tugas departemen Transformation meliputi:
+
+1. *Research*
++
+Riset terkait teknologi dan metodologi terbaru serta cara yang memungkinkan untuk menerapkannya pada proses dan sistem yang ada.
+
+2. *Proof of Concept (PoC)*
++
+Membuktikan konsep dengan menunjukkan value yang dihasilkan dari teknologi dan metodologi hasil riset. Ketika dinyatakan valid, maka secara bertahap akan diimplementasikan oleh departemen yang relevan.
+
+Dalam prosesnya, departemen Transformation akan berkolaborasi dengan Engineering dan Data.
+
+== Quick Link
+
+* link:./Architecture-Learning-Materials/index.adoc[Architecture Learning Materials]
+* SOP
+* User Guide
+* Guideline
+* Working Instruction (WI)

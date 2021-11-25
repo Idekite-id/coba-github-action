@@ -1,0 +1,180 @@
+= System Requirements Engineering Skill Area
+
+Systems are collections of interconnected components that interact with other systems and the environment in which they are embedded. They include natural systems, such as our solar system, and human-made systems, such as digital computers. Modern engineered systems range from household appliances to medical devices, automobiles, spacecraft, and nuclear reactors. 
+
+Engineered systems are increasingly reliant on software to provide functionality, behavior, interconnections among components, and external interfaces to environments that may be complex and ill defined. Software engineers are often members, and may be leaders, of teams that develop and modify large and/or complex systems composed of diverse kinds of components, including software. 
+
+Not all software engineers will be, or need to be, competent software systems engineers; however, those software engineers who participate as members of systems engineering teams for software-intensive systems should have the skills required to participate in systems engineering projects. The skills and activities in this skill area apply to development of systems for which software is a critical component but for which software may not be the primary cost item or the key technology to be exploited.
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Life Cycle Modeling
+a|- Uses tools and follows directions to prepared depictions and documentation of tailored development models
+a|- Assists in integrating the selected software development model into the systems development model
+- Participates in systems engineering meetings and prepares meeting minutes to include decisions made, open issues, other relevant discussions, and action items
+a|- Participates in integrating the selected software development model into the system development model
+- Participates in selection of the system development life cycle model
+- Participates in/leads tailoring of policies, procedures, and templates, and selection of applicable standards for projects and programs
+a|- Leads selection of the software development life cycle model
+- Leads integration of the software development model into the system development model
+- Participates in/leads tailoring of policies, procedures, and templates, and selection of applicable standards for projects and programs
+a|- Prepares frameworks for integrating an organization’s system and software development models
+- Modifies existing models and creates new models and ways of integrated software engineering and system engineering development models
+- Determines applicable policies, procedures, standards, and guide- lines and tailors them for an organization’s system and software development models
+
+|Concept Definition
+a|- Follows directions to prepare elements of the Concept of Operations
+a|- Assists by locating identified stakeholders
+- Identifies potential stakeholders by examining historical data and having discussions with appropriate personnel inside and outside the systems engineering team
+- Arranges stakeholder meetings
+- Attends stakeholder meetings and takes meeting minutes
+- Develops elements of the Concept of Operations
+a|- Identifies potential stakeholders by examining historical data and having discussions with appropriate personnel inside and outside the systems engineering team
+- Develops lists of stakeholders and categorizes their likely interests
+- Attends stakeholder meetings and solicits stakeholder needs, wants, and desires
+- Attends stakeholder meetings to document stakeholder needs, wants, and desires
+- Develops acceptance criteria
+a|- Develops lists of stakeholders and categorizes their likely interests
+- Prepares criteria for identifying stakeholders
+- Leads stakeholder meetings
+- Leads development of scenarios, storyboards, prototypes, and use cases
+- Facilitates development of the Concept of Operations
+- Obtains stakeholder consensus on the Concept of Operations
+a|- Develops new techniques for identifying stakeholders
+- Develops new methods, tools, and techniques for concept definition
+
+|System Requirements Engineering
+a|- Follows instructions to document the system requirement specification
+a|- Provides training on traceability procedures and tools
+- Assists in development of the system requirements specification
+- Documents plans, procedures, and scenarios for system integration, verification, validation, and deployment
+- Assists in development of plans, procedures, and scenarios for system integration, verification, validation, and deployment
+a|- Attends meetings and documents the system development environment and technology constraints
+- Establishes the system development environment and identifies technology constraints
+- Establishes organizational policies and procedures for system requirements engineering
+- Procures and operates traceability tools to establish and maintain traceability
+- Identifies system level traceability requirements and tools
+- Participates in development of the system requirements specification
+- Participates in development of plans, procedures, and scenarios for system integration, verification, validation, and deployment
+a|- Establishes the system development environment and identifies technology constraints
+- Identifies system level traceability requirements and tools
+- Leads development of the system requirements specification
+- Leads the development of plans, procedures, and scenarios for system integration, verification, validation, and deployment
+a|- Modifies existing and develops new methods, tools, and techniques for system requirements engineering
+
+|System Design
+a|- 
+a|- Assists in developing alternative solution concepts and conducting trade studies to identify major system components
+- Assists in selecting components to be procured
+- Identifies sources of software components to be procured
+a|- Participates in developing alternative solution concepts and conducting trade studies to identify major system components
+- Participates in making buy/build decisions for software components
+- Participates in identifying system components as well as the interfaces and relationships among components
+- Leads/participates in making buy/build decisions for major system components
+- Recommends buy/ build decisions for software components
+- Participates in system design meetings to avoid isolated stovepipe units of software
+a|- Leads development of alternative solution concepts to identify major system components
+- Leads/participates in making buy/build decisions for major system components
+- Approves buy/build decisions for software
+- Procures selected software components
+- Leads/Participates in system design meetings to avoid isolated stovepipe units of software
+a|- Develops policies and procedures for system design in an organization
+- Develops new approaches to system design to avoid isolated stovepipe units of software
+
+|Requirements Allocation
+a|- Documents allocable and non-allocable requirements 
+- Documents allocation of requirements (functional, behavioral, structural, quality) and interfaces to software components and other major system components 
+- Operates traceability tools and generates traceability reports 
+a|- Assists in identifying allocable and non-allocable requirements
+- Assists in clarifying and refining requirements allocated to software
+a|- Identifies allocable and non-allocable requirements
+- Leads/ participates in meetings to identify and allocate requirements (functional, behavioral, structural, quality) and interfaces to software components and other major system components
+- Attends meetings and records minutes to allocate requirements (functional, behavioral, structural, quality) and interfaces to software components and other major system components
+- Participates in meetings to allocate requirements (functional, behavioral, structural, quality) and interfaces to software components and other major system components
+- Participates in meetings to refine requirements allocated to software
+- Develops bidirectional traceability between system requirements and software requirements
+- Participates in clarifying and refining requirements allocated to software
+a|- Leads/ participates in meetings to identify and allocate requirements (functional, behavioral, structural, quality) and interfaces to software components and other major system components
+- Attends meetings and records minutes to allocate requirements (functional, behavioral, structural, quality) and interfaces to software components and other major system components
+- Leads meetings to refine requirements allocated to software
+- Leads traceability from system requirements to software requirements
+- Leads in clarifying and refining requirements allocated to software
+a|- Develops new methods, tools, and techniques for requirements allocation and flowdown
+
+|Component Engineering
+a|- 
+a|- Assists in determining and documenting needed kinds of software components
+- Documents buy/build decisions for software components
+- Maintains baselines of software components
+- Develops and integrates software components
+a|- Determines needed software components
+- Determines buy/build decisions for software components
+- Develops and integrates software components
+a|- Leads in determining needed kinds of software components for a project or program
+- Assists in determining buy/build decisions for software components
+- Leads the buy/build decisionmaking process for software components
+- Develops and integrates software components
+- Establishes procedures to develop and integrate software components
+- Provides liaison from software engineering to systems engineering and other major component engineering
+a|- Modifies existing and develops new methods, tools, and techniques for component engineering
+
+|System Integration and Verification
+a|- 
+a|- Assists in integration of software with other system components
+- Assists in system verification activities
+- Assists in providing liaison to software component engineers
+a|- Participates in integration of software with other system components
+- Participates in system verification activities
+- Provides liaison to software component engineers
+a|- Leads integration of software with other system components
+- Leads/Participates in system verification activities
+- Leads/ participates in providing liaison to software component engineers
+a|- Modifies existing and provides new methods of integrating software with other system components
+
+|System Validation and Deployment
+a|- Operates tools for performing simulated and live system tests
+- Operates tools for performing system acceptance testing
+a|- Assists in performing simulated and live system tests
+- Assists in system acceptance testing
+a|- Participates in integration of software with other system components
+- Participates in system verification activities
+- Provides liaison to software component engineers
+a|- Leads/ participates in simulated and live system tests
+- Establishes system acceptance criteria
+- Leads/ participates in system acceptance testing
+- Leads in providing liaison to software component engineers during system validation and deployment
+a|- Modifies existing and develops new methods, tools, and techniques for system validation and deployment
+
+|System Sustainment Planning
+a|- 
+a|- Assists in planning for system sustainment
+a|- Participates in identifying stakeholders and developing a transition plan and requirements for operational support
+- Prepares for operational support
+a|- Establishes criteria and procedures for system sustainment
+- Leads/ participates in planning for system sustainment
+a|- 
+
+|
+|
+|
+|
+|
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through link:https://alterra.tribe.so/[Tribe].

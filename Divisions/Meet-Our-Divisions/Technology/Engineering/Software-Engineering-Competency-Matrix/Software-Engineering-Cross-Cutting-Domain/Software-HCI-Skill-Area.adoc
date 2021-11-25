@@ -1,0 +1,133 @@
+= Software HCI Skill Area
+
+Design of human-computer interaction (HCI) and of user interfaces has been traditionally regarded as part computer science and part human factors. Software engineers have, by necessity, become increasingly involved in the development cycle of HCI analysis, design, implementation, evaluation, and deployment because the user interface is often the difference between a successful product and a product that is either difficult to use or not used at all. To the user, the interface is the system. 
+
+This skill area covers skills and activities specific to the development of HCIs. There is, however, a great deal of similarity to other skill areas. For example, requirements elicitation for HCIs has much in common with conventional elicitation but there are some requirements-gathering skills that are particular to the development of human-computer interfaces. Some activities are unique to HCI, for example, the activities of interaction style design.
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Requirements
+a|- Follows directions to create simple prototypes for use in eliciting user interface requirements
+a|- Recommends HCI tools for project use
+- Assists in identifying target users
+a|- Identifies stakeholders to provide HCI requirements
+- Reviews identification of stakeholders to provide HCI requirements
+- Assists in selecting a process model for HCI interface development
+- Selects HCI tools for project use
+- Identifies target users and their attributes
+- Reviews and refines target user identification and describes their relevant attributes
+- Designs and creates prototypes for use in eliciting user interface requirements
+- Reviews and refines prototypes, tests for elicitation, and refines user interface requirements
+- Uses prototypes to elicit and refine user interface requirements
+- Identifies technical interface requirements (between the user interface and system components)
+- Designs the details of the technical interface requirements (between the user interface and system components)
+a|- Coordinates work activities for stakeholder identification
+- Determines which process model approach will be used by the HCI team to develop the interface
+- Identifies constraints on user interface implementation
+- Defines the technical interface requirements (between the user interface and system components)
+- Selects applicable standards
+a|- Modifies existing and creates new methods and tools for stakeholder identification
+- Modifies existing and creates new methods and tools for target user identification
+- Modifies existing and creates new methods and tools for prototyping
+- Modifies existing and creates new methods and tools for specifying technical interface requirements
+
+|Interaction Style Design
+a|- Follows instruction to assist in documenting use cases, scenarios, interaction dialogs, and storyboards
+- Follows directions to develop or refine interface prototypes
+a|- Assists in identifying user input errors
+- Assists in identifying user input errors and error handling approaches
+- Assists in identifying interaction modes
+a|- Documents use cases, scenarios, interaction dialogs, and storyboards
+- Identifies user input errors and error handling approaches
+- Selects and refines user error handling approaches
+- Applies metaphors and conceptual models to define interaction style
+- Identifies and refines interaction modes
+- Documents two way traceability to requirements and to test cases and test scenarios
+- Establishes two way traceability between use cases, scenarios, interaction dialogs, and storyboards and specific user interface requirements and acceptance criteria
+- Develops interface prototypes
+- Reviews and refines interface prototypes
+a|- Reviews and refines use cases, scenarios, interaction dialogs, and storyboards
+- Leads and coordinates interaction style design activities
+- Selects metaphors and conceptual models
+- Works with the system design team to establish component interfaces between the user interface and system components
+a|- Modifies existing and creates new methods and tools for interaction style design
+
+|Visual Design
+a|- Follows instructions to assist in the creation of mockups and sketches
+a|- Assists in designing page/screen layout
+- Assists in selecting from existing icons and designing new icons
+- Assists in selecting color theme, font styles, and font sizes
+- Assists in menu design
+a|- Designs page/screen layout
+- Selects from existing icons and designs new icons
+- Selects color theme, font styles, and font sizes
+- Designs menus
+- Reviews selections for color theme, font styles, and font sizes, and checks selection against applicable standards
+- Creates mockups and sketches
+- Reviews and revises mockups and sketches with stakeholders
+a|- Revises/approves final page/screen layouts
+- Revises/ approves icons and identifies new icons as needed
+- Revises/ approves color theme, font styles, and font sizes
+- Reviews and refines menu designs
+- Approves visual design components and reviews design with stakeholders and/ or target users
+a|- Modifies existing and creates new methods and tools for visual design
+
+|Usability Testing & Evaluation
+a|- Identifies representative test subjects from the target user group
+- Reviews results of checklist analysis and recommends design changes
+- Follows instructions to assist in analyzing results of usability testing
+a|- Assists in identifying representative test subjects from the target user group
+- Assists in obtaining test subjects
+- Writes user tests that evaluate user behavior
+- Assists in designing usability tests
+- Assists in conducting usability tests and collecting data
+a|- Analyzes design with a usability checklist
+- Selects and tailors one or more usability checklists
+- Reviews results of checklist analysis and recommends design changes
+- Obtains test subjects
+- Designs usability tests
+- Conducts usability tests and collects data
+- Supervises usability testing
+- Analyzes results of usability testing
+- Makes recommendations based on analysis of usability testing results
+a|- Leads and coordinates usability testing and evaluation activities
+- Approves selection of one or more usability checklists
+- Approves selection of test subjects
+- Reviews, refines, and finalizes usability tests
+- Supervises usability testing
+- Reviews and approves recommendations and results of usability testing
+a|- Modifies existing and creates new methods and tools for usability testing
+
+|Accessibility
+|- 
+a|- Assists in identifying accessibility needs for user interfaces
+- Assists in identifying the needs for international accessibility (languages, cultural considerations, and so forth)
+- Uses the selected tools and techniques for implementing required accessibility
+a|- Identifies accessibility needs for user interfaces
+- Develops acceptance criteria and tests for accessibility aspects of the user interface
+- Identifies the needs for international accessibility (languages, cultural considerations, and so forth)
+- Selects tools and techniques for providing required accessibility
+a|- Leads and coordinates accessibility activities
+- Determines which accessibility needs must be addressed in the user interface
+- Determines the extent to which the user interface must accommodate needs for international accessibility
+a|- Develops new tools and techniques for providing accessible interface elements
+
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

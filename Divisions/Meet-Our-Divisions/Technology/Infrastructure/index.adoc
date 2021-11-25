@@ -1,0 +1,23 @@
+= Infrastructure
+
+Departemen ini bertanggung jawab untuk memastikan segala fasilitas IT dan infrastruktur jaringan pada Alterra Group tersedia dan berfungsi dengan semestinya sehingga mampu menunjang pekerjaan seluruh departemen Alterra Group dan tidak menghambat proses bisnis perusahaan. Departemen Infrastructure terbagi menjadi dua bagian yaitu, System Engineer dan IT Facilities and Support.
+
+* *System Engineer* 
++
+Bagian dari departemen Infrastructure yang mengatur sistem infrastruktur yang ada di Alterra dan bertanggungjawab dalam pembuatan server, _deployment_, dan _maintenance_ server. System Engineer banyak berkolaborasi dengan departemen lainnya pada divisi Tech, departemen Finance and Procurement, dan divisi Operations.
+
+* *IT Facilities and Support* 
++
+Bagian dari departemen Infrastructure yang bertanggung jawab dalam penyediaan fasilitas atau peralatan penunjang pekerjaan setiap divisi dan departemen di Alterra Group. Tanggung jawab dari bagian IT Facilities and Support, antara lain: 
++
+** Menyediakan koneksi internet di kantor,
+** Mempersiapkan device untuk menunjang kinerja karyawan (ex: laptop, modem, dll),
+** Membantu _troubleshoot_ permasalahan yang terjadi pada device yang dipegang karyawan,
+** Manajemen akun email dan grup email, dan manajemen lisensi aplikasi yang dibutuhkan (ex: Microsoft Office).
+
+== Quick Link
+
+* SOP
+* User Guide
+* Guideline
+* Working Instruction (WI)

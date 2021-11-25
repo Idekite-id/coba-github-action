@@ -1,0 +1,21 @@
+= Risk Management
+
+image::../../images-IARM/IARM-Risk-Management.png[align="center"]
+
+Tim Risk Management dalam perusahaan berperan penting dalam pengelolaan risiko. Pengelolaan atau manajemen risiko ini mencakup empat (4) proses utama, yaitu:
+
+. *Identifikasi risiko* dengan melakukan interview dengan beberapa _risk owner_
+. *Analisa risiko* setelah mendapatkan paparan risiko dari _risk owner_
+. *Evaluasi risiko* berdasarkan kemampuan _risk owner_ dalam mengelola risiko
+. *_Monitoring_ risiko* dengan meninjau kembali hasil dari evaluasi yang sudah dilakukan.
+
+Selain keempat proses di atas, Tim Risk Management juga bertanggung jawab dalam penanganan risiko atau berbagai insiden dan mengkomunikasikannya dengan Stakeholder. Penanganan insiden yang dilakukan meliputi:
+
+. Pembuatan _report_
+. _Future improvement_
+. _Supporting evidence_
+. _Management update_
+
+== Quick Link
+
+* link:./Risk-Awareness/index.adoc[Risk Awareneness]

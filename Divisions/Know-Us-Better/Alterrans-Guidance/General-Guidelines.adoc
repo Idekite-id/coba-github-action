@@ -1,0 +1,54 @@
+= General Guidelines
+
+image::./images-alterra-guidance/general-guidelines1.png[align="center"]
+
+
+[cols="35%,15%,50%",frame=all, grid=all]
+|===
+^.^h| *Title* 
+^.^h| *Document Owner* 
+^.^h| *Description*
+
+|link:https://docs.google.com/presentation/d/1qbfWKUztGLyL22Hgs2XXVsEy2P83z_Gt4XRPRu-c2nk/present?slide=id.p1[OKRs Explained through Star Wars]
+|POPS
+|Panduan untuk memahami konsep OKR melalui gambaran besar _goals_ perusahaan
+
+|link:https://docs.google.com/presentation/d/1CjY9jPoSHs_260RGWNN6EIHA_kE0_Wib7lSLR9ZjQag/present?slide=id.g905e166c04_0_86[Goal Setting]
+|POPS
+|Panduan untuk menyusun target tim dan/atau individu dalam satu semester
+
+|link:https://docs.google.com/presentation/d/1Cvx5Bz8XIS8wQZBDgrJRzRSnh7D0pif4Rg0hJukbVeQ/present?slide=id.p1[Check Up Session]
+|POPS
+|Panduan untuk melakukan sesi _check up_ OKR atau KPI yang sudah ditetapkan pada awal semester
+
+|link:https://docs.google.com/presentation/d/1JwQmlES-yFHU9-yuXE1Kf0FvI9NEfb_oY3k6Q1QdUtc/present?slide=id.g92caef7fd4_4_2[Performance Management System]
+|POPS
+|Panduan untuk memahami konsep _performance management_ dan _timeline_-nya di Alterra
+
+|link:https://drive.google.com/file/d/1XYA6W5DAIDqxixgwNU-ay1vJ-vNqWQjL/view[Reviewer Nomination - Alterra Saku Guideline]
+|POPS
+|Panduan menggunakan Alterra Saku sebagai  _tools_ untuk mengajukan nominasi _reviewer_ 360 _degree feedback_
+
+|link:https://docs.google.com/presentation/d/190z4O5fJ-yDsTaWRy8A4vL5FNw9Q79fOocV9NLRBB5M/present?slide=id.g803224aaa3_0_1[360-Degree Feedback]
+|POPS
+|Panduan untuk memberikan penilaian dan _feedback_ kepada _User, peers_ dan Leader pada sesi 360 degree feedback_
+
+|link:https://docs.google.com/presentation/d/1dy_RoxP2WN3HO_H1EQ7MHt_KcPoZI95Eqe8y4A_-Tgo/present?slide=id.g851ee49d9b_0_0[Performance Review]
+|POPS
+|Panduan untuk mengisi _form_ yang digunakan pada saat penilaian performa, baik secara individual maupun 1on1 bersama N+1 
+
+| link:https://docs.google.com/presentation/d/1D2TrlCLFuGkImvyZMWfPGdcfNRF17K-KemeirOIxP8s/edit#slide=id.g86c87197f0_0_1042[Introduction to Alterra Support]
+| ITS
+| Panduan untuk menggunakan dan mengajukan tiket ke link:https://support.alterra.id/support/home[Alterra Support]
+
+|link:https://docs.google.com/presentation/d/1qo945nB-HCO1XgMoxeIQAmFsM6wcNbpW2k1r-mhwDGk/edit#slide=id.p1[Upraise Guide] 
+|AMO
+|Panduan menggunakan Upraise sebagai _dashboard_ untuk penyusunan dan rekap  keseluruhan _progress_ OKR
+
+|link:https://docs.google.com/presentation/d/1qToJf9JSvMu2_1bjWZi7MJ9TXR_ImPi2LP0-igPkvds/edit?usp=sharing[TEC Jira Guideline]
+|TEC - ENG
+| Panduan menggunakan JIRA sebagai _project management tools_ di Alterra 
+
+|===
+
+*Note*: daftar di atas akan diperbarui secara berkala. 

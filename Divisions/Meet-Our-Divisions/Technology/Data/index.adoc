@@ -1,0 +1,26 @@
+= Data
+
+Departemen Data adalah tim _cross-company_ yang menghasilkan data dan mengubahnya menjadi informasi. Departemen Data bertugas membuat sistem untuk mengelola data (Engineering), kemudian diubah menjadi informasi dan fitur _(Insight)_, dan dikembangkan menjadi _learning machine_ atau model statistik untuk membantu bisnis _(Foresight)_.
+
+Berikut adalah hal-hal yang disediakan oleh Departemen Data :
+
+* *Information Access* 
++ 
+Sesuai dengan kebijakan _data governance_ yang telah ditetapkan, disampaikan melalui API atau sistem _front-end_.
+
+* *Prepackage Modules* 
++
+Sejalan dengan standar _software stack_ yang sudah ditentukan oleh departemen Architecture agar tim Engineering bisa mudah mengakses dan menggunakan model _learning machine_.
+
+* *Applications* 
++
+Untuk kemudahan mengakses, melihat, dan memanipulasi informasi saat ini dan fitur store. Ini adalah aplikasi terbaik di kelas yang dikembangkan oleh Data (dibantu oleh Engineering) berdasarkan _roadmap_ yang disusun oleh departemen Product.
+
+Departemen Data juga menyediakan request untuk mencarikan data melalui tautan https://trello.com/b/c7UcatRr/data-scrum-team-pbi-refinement-board.
+
+== Quick Link
+
+* SOP
+* User Guide
+* Guideline
+* Working Instruction (WI)

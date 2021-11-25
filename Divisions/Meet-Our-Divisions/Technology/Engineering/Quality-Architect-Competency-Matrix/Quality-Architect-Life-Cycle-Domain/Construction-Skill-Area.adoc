@@ -1,0 +1,105 @@
+= Construction Skill Area
+
+Construction is the collection of activities and processes for converting design specifications into functional software solutions that meet customer needs. It includes planning, designing, programming, debugging, testing, and integrating software components. 
+
+Most software construction is performed by teams of professionals using tools (editors, compilers, version control software, debuggers, and so forth) and processes to accomplish and coordinate their work.
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Construction Planning
+a|- Assists in the selection of appropriate processes and models for software construction
+- Assists in the selection of appropriate languages and tools for software construction
+- Assists in the selection of appropriate frameworks, platforms, and environments for software construction
+a|-
+a|- Assists in the selection of appropriate processes and models for software construction
+- Assists in the selection of appropriate languages and tools for software construction
+- Assists in the selection of appropriate frameworks, platforms, and environments for software construction
+a|- Selects appropriate processes and models for constructing software on individual projects (such as compilation, generation from domain-specific languages)
+- Selects appropriate languages and tools for software construction on individual projects
+- Selects appropriate frameworks, platforms, and environments for individual projects
+a|- Creates or proposes new processes and models for software construction
+- Creates new languages and tools for software construction
+- Creates or proposes new frameworks, platforms, and environments
+
+| Managing Software Construction
+a|-
+a|- Assists in the installation of tools and repositories for version control and configuration management
+a|- Uses standard tools and processes for version control and configuration management
+- Monitors standard measures of code quality and size
+- Collects standard measures of code quality and size
+a|- Establishes project standards for version control and configuration management
+- Sets organization standards for code quality and size
+a|- Creates new tools and processes for version control and configuration management
+
+|Detailed Design & Coding
+a|- Follows project and organization standards for designs and code
+a|- Assists in the installation of tools and repositories for design and coding
+a|- Creates code to implement detailed design
+- Creates and reviews detailed designs and code that meet quality requirements
+- Refactors code when needed
+- Selects or establishes project standards for designs and code
+- Uses appropriate design patterns
+- Uses defensive coding techniques to minimize propagation of errors and threats
+- Documents code through comments to support software maintenance
+- Generates code and systems from models (such as UML) as appropriate
+- Writes executable models suitable for code generation as appropriate
+a|- Measures and monitors an organization’s use of design patterns
+- Establishes organization standards for detailed designs and code
+- Suggests and performs appropriate code refactoring when needed
+- Suggests and uses appropriate design patterns
+- Suggests and uses defensive coding techniques to minimize propagation of errors and threats
+- Writes executable models suitable for code generation as appropriate
+- Plans and initiates model driven development processes as appropriate
+a|- Creates new design patterns
+
+|Debugging & Testing
+a|-
+a|- Assists in the installation of tools for debugging and testing
+a|- Uses appropriate tools and techniques for debugging
+- Ensures project standards for unit test coverage are followed
+- Creates and executes unit tests for all delivered code
+- Achieves test coverage goals set by project and organization standards
+a|- Establishes project standards for unit test coverag
+- Establishes organization standards for unit testing
+- Selects appropriate debugging tools and techniques for a project
+a|- Creates new unit testing tools and methods
+
+|Integrating & Collaborating
+a|- 
+a|- Assists in installation of integration tools
+- Assists in creation of code inspection packages
+- Assists in scheduling code inspections
+a|- Follows project integration strategy and processes
+- Assists in selection of project tools and processes for integration
+- Performs integration testing as part of the integration process
+- Collaborates with other team members in development activities (such as pair programming, informal reviews)
+- Participates in project defined reviews and inspections
+- Sets up build and install environments where the software packages can be integrated
+a|- Leads code reviews and inspections
+- Establishes organization standards for integration tools and processes
+- Establishes organization standards for reviews and inspections
+a|- Creates new integration tools and processe
+- Creates new code review and inspection methods
+|
+|
+|
+|
+|
+|===
+
+== Any questions?
+If you have a question or something to discuss about this topic, post your questions through link:https://alterra.tribe.so/[Tribe].

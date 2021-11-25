@@ -1,0 +1,150 @@
+= Software Security and Safety Skill Area
+
+Software security is a crosscutting skill area that affects the entire software development and operation life cycle. It includes techniques and processes to identify potential security vulnerabilities, avoid such vulnerabilities in design and implementation, and discover them in software artifacts. 
+
+It includes mimicking an attacker and reviewing attack patterns. It also includes collecting and monitoring metrics to ensure that disciplined software development processes are followed. Testing is included in a separate skill area.
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Security - Requirements
+|-
+|-
+a|- Identifies security risks (such as misuse cases)
+- Creates requirements that capture security issues
+- Performs initial threat modeling
+|-
+a|- Creates or proposes new methods for recognizing security vulnerabilities
+
+|Security -  Design
+a|- Follows recommended design principles to create secure systems (such as providing multiple layers of protection, using access control mechanisms, and encrypting sensitive data)
+- Uses appropriate, secure design patterns
+|-
+a|- Models threats and associated risks of new and modified systems
+- Identifies the attack surface (in other words, the areas of potential weakness exploited by attackers) of new and modified systems
+|-
+|-
+
+|Security -  Construction
+a|- Follows recommended secure coding principles to avoid security vulnerabilities (such as buffer overflow, input validation)
+- Follows recommended coding standards to avoid security vulnerabilities (such as validating input and preventing exception handling mechanisms from revealing too much information about applications and systems)
+|-
+a|- Selects or establishes project coding standards to avoid security vulnerabilities
+- Reviews and approves coding standards to avoid security vulnerabilities
+a|- Establishes organization coding standards to avoid security vulnerabilities
+a|- Creates new coding standards to avoid security vulnerabilities
+
+|Security - Process
+a|- Follows project standards in the collection of security assessment metrics
+a|- Assists in the collection of metrics for security assessment processes
+|-
+a|- Establishes organization standards for security assessment processes
+|-
+
+|Security - Quality
+|-
+a|- Assists in the installation of static analysis tools
+a|- Performs code reviews to identify security vulnerabilities
+- Selects appropriate static analysis tools to identify security vulnerabilities
+- Uses static analysis methods to identify security vulnerabilities
+a|- Selects appropriate static analysis tools to identify security vulnerabilities
+a|- Creates new static analysis methods or tools
+
+|Safety - Requirements
+a|- Assists in collecting data for the creation of a hazard list
+- Assists in the identification of top level mishaps and their causes
+- Assists with the installation of safety and reliability tools
+a|- Assists in collecting data for the creation of a hazard list
+- Creates and verifies preliminary hazard lists
+- Assists in the identification of top level mishaps and their causes
+- Uses software tools to build safety models (FTA, ETA, FMEA)
+- Assists with the installation of safety and reliability tools
+a|- Creates and verifies preliminary hazard lists
+- Using tools, conducts formal system hazard analyses verifying safety models
+- Uses software tools to build safety models (FTA, ETA, FMEA)
+- Identifies safety requirements
+- Assures that safety requirements are included in the over all system requirements
+a|- Verifies completeness and correctness of safety requirements
+- Interacts with system and software engineers to assure that safety requirements are complete and realizable
+a|- Verifies completeness and correctness of safety requirements
+- Interacts with system and software engineers to assure that safety requirements are complete and realizable
+a|- Creates or proposes new methods for safety assessment, mitigation, and verification
+
+|Safety - Design
+a|- Assists in identifying mitigation techniques for defined safety requirements
+a|- Assists in identifying mitigation techniques for defined safety requirements
+- Implements design solutions to assure that the hazards are mitigated and the safety requirements are met
+a|- Proposes and selects design solutions to assure the hazards are mitigated
+- Verifies completeness and correctness of the design, including safety hazards and safety qualities
+- Follows the recommended design principles
+- Supervises the design team. Analyzes risk and verifies design from a safety perspective
+- Evaluates risk related to design for safety
+a|- Verifies completeness and correctness of the design, including safety hazards and safety qualities
+- Supervises the design team. Analyzes risk and verifies design from a safety perspective
+- Leads the project in deciding the proposed architectural solutions to mitigate hazards
+- Evaluates risk related to design for safety
+a|- Creates or proposes new design solutions, leading to the increased safety of new designs
+
+|Safety - Construction
+|- 
+a|- Implements large code components and their interfaces, considering safe coding practices to avoid safety violations
+a|- Implements large code components and their interfaces, considering safe coding practices to avoid safety violations
+- Implements the architecture and design to ensure code safety
+- Manages the interfacing of large code components with special attention to potential safety issues
+a|- Implements the architecture and design to ensure code safety
+- Establishes organization standards to ensure code safety
+- Manages the interfacing of large code components with special attention to potential safety issues
+- Oversees and verifies that the safety aspects of the design are implemented in the produced code
+a|- Establishes organization standards to ensure code safety
+- Creates new standards to ensure code safety
+
+|Safety -Testing
+a|- Assists in the installation of tools and infrastructure for safety requirements testing
+a|- Assists in the installation of tools and infrastructure for safety requirements testing
+- Performs testing using tools with a focus on safety requirements 
+a|- Performs testing using tools with a focus on safety requirements
+- Selects appropriate testing techniques to assure the safety of the application
+- Applies applicable industry standards to assure that the product meets industry safety criteria
+a|- Establishes organization standards for safety validation and verification
+- Manages the project, being responsible for overall safety and meeting industry guidelines
+a|- Establishes organization standards for safety validation and verification
+- Contributes expertise to establish new organization guidelines related to testing the safety of software intensive applications
+
+|Safety - Process
+a|- Assists in the collection of data to establish the project safety case
+a|- Identifies artifacts required to establish the safety case, following industry standards
+a|- Identifies artifacts required to establish the safety case, following industry standards
+- Contributes to and verifies the completeness of the safety case, following selected industry criteria
+a|- Leads the safety team responsible for the project safety case
+- Establishes organization standards for safety assessment processes and selection of safety criteria
+a|- Establishes organization standards for safety assessment processes and selection of safety criteria
+- Contributes expertise to establish better means of assessing safety
+
+|Safety - Quality
+|-
+a|- Assists in the collection of safety QM data
+- Collects safety QM data and reports the project status
+a|- Collects safety QM data and reports the project status
+- Supervises collection of QM data and their compatibility with the safety case
+a|- Supervises collection of QM data and their compatibility with the safety case
+- Manages the overall project quality with a focus on safety aspects
+a|- Contributes expertise to improve means of measuring and establishing the safety quality of the product and process
+
+|===
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

@@ -1,0 +1,66 @@
+= Foundational KM Knowledge Skill Area
+
+In the application of content management, it is necessary to take actions to ensure that all knowledge needs must be managed properly from the technology and data. Furthermore, Content Management is the strategies, methods, and tools used to capture, manage, store, preserve, and deliver content and documents related to organizational processes.  In the delivery process, it is necessary to understand the concept of knowledge sharing, so that all content processed is clearly understood by stakeholders.
+
+
+    Scroll down to read the entire Communication and Influence skill area.
+
+[cols="20%,20%,20%,20%,20%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+4+^.^|*Proficiency Level*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+^.^h|*4*
+
+^.^h|*Imitative*
+^.^h|*Operative*
+^.^h|*Adaptive*
+^.^h|*Developmental*
+
+a|Content Management
+
+*Description:*
+
+An understanding of content strategy, including managing assets throughout their lifecycle, the role of metadata and taxonomy, and structuring and providing access to content so that it is findable at the point of need.
+|Captures information, draft the required documents, and store them in multiple shared and restricted repositories
+|Makes sure all information are kept current and accessible to authorized users by keeping the document up to date and centralizing all document
+|Develop a content strategy by keeping up discussion with stakeholders and gathering feedbacks for improvement
+|Spreads awareness to stakeholders that knowledge and learning are integral parts of the overall organisational strategy so that they are willingly being a contributor
+
+a|KM Tools
+
+*Description:*
+
+Knowledge of existing systems to support knowledge management and evaluate the maturity of technologies to decide whether to implement.
+|Understands how technology impacts KM, and how the current system works
+|Analyzes existing technology needs, to provide a system that can support knowledge efficiently and in accordance with the objectives
+|Evaluates current KM tools and systems based on experience and benchmarking to other organizations
+|Stays abreast of current and emerging technologies and how they can be (or are being unofficially) used within organization
+
+a|Data Analytics
+
+*Description:*
+
+Knowledge of available KM data that can be collected and analyzed, as well as how to interpret and leverage that data
+|Understands the concept of data, analytics, and how to collect the data required
+|Conducts simple analysis using spreadsheets and accurately interpret and communicate results
+|Conducts advanced analysis using specialized software or analysis tools to deliver maximum insight for internal and eksternal team
+|Ensures and manages data is safe to be processed in a sustainable manner in a company wide initiative and to innovate processes and products.
+
+a|Knowledge Sharing
+
+*Description:*
+
+The ability to develop a targeted, multi- channel communications strategy and build trusted relationships with partners in and beyond the organization.
+|Gathers information to support the knowledge sharing by team lead's guidance
+|Explains and justifies point of view and objectively discusses options
+|Creates communication strategies and encourages internal team to communicate effectively
+|Implements appropriate communication strategies to support project management dealing with other teams
+|===
+
+== Any question?
+
+If you have a question or something to discuss about this topic, post your questions through https://alterra.tribe.so/login?redirect=/[Tribe].

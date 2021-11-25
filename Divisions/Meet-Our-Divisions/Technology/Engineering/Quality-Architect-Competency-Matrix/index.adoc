@@ -1,0 +1,41 @@
+= Quality Architect Competency Matrix
+
+== How does it work?
+
+Do you want to know about Quality Architect https://drive.google.com/file/d/1XgQSGRJu48vn3PVT2eAXULYTGYelfmWF/view[career framework in Alterra]? Watch https://drive.google.com/file/d/1ai3y1xDCSc4rGIBz9y9xTdqFyD2q-5Az/view[this] till the end!
+
+For the mindmap version, link:https://whimsical.com/se-career-path-Gs6VyZpT4SY8PS57CThvVx[click here.] 
+
+== Quality Architect Technical Domains
+
+Technical skills and associated activities are the primary focus Quality Architect Competency Model. They are grouped as *2 domains, life cycle* and *crosscutting*. 
+
+=== Life Cycle Domain
+
+Life cycle skill areas are categorized by typical phases of software development and modification link:./Quality-Architect-Life-Cycle-Domain/index.adoc[(continue reading)]. There are 5 key behaviours on life cylce domain.
+
+* link:./Quality-Architect-Life-Cycle-Domain/Requirement-Skill-Area.adoc[Requirements Skill Area]
+* link:./Quality-Architect-Life-Cycle-Domain/Design-Skill-Area.adoc[Design Skill Area]
+* link:./Quality-Architect-Life-Cycle-Domain/Construction-Skill-Area.adoc[Construction Skill Area]
+* link:./Quality-Architect-Life-Cycle-Domain/Testing-Skill-Area.adoc[Testing Skill Area]
+* link:./Quality-Architect-Life-Cycle-Domain/Sustainment-Skill-Area.adoc[Sustainment Skill Area]
+
+=== Cross-cutting Domain
+
+Crosscutting skill areas are sometimes called “specialty disciplines” that are practiced by specialists in those skill areas such as safety, security, systems engineering link:./Quality-Architect-Cross-Cutting-Domain/index.adoc[(continue reading)]. There are 7 key behaviours on Cross-cutting domain.
+
+* link:./Quality-Architect-Cross-Cutting-Domain/Process-Skill-Area.adoc[Process Skill Area]
+* link:./Quality-Architect-Cross-Cutting-Domain/System-Requirements-Engineering-Skill-Area.adoc[System Requirements Engineering Skill Area]
+* link:./Quality-Architect-Cross-Cutting-Domain/Quality-Skill-Area.adoc[Quality Skill Area]
+* link:./Quality-Architect-Cross-Cutting-Domain/Security-and-Safety-Skill-Area.adoc[Security and Safety Skill Area]
+* link:./Quality-Architect-Cross-Cutting-Domain/Configuration-Management-Skill-Area.adoc[Configuration Management Skill Area]
+* link:./Quality-Architect-Cross-Cutting-Domain/Measurement-Skill-Area.adoc[Measurement Skill Area]
+* link:./Quality-Architect-Cross-Cutting-Domain/HCI-Skill-Area.adoc[HCI Skill Area]
+
+== How far can you g(r)o(w)?
+
+Find out your answer by learning about Alterra career track, link:../Quality-Architect-Rating-Standard/index.adoc[Quality Architect Rating Standard]. 
+
+== Any questions?
+
+If you have a question or something to discuss about this topic, post your questions through link:https://alterra.tribe.so/[Tribe].

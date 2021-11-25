@@ -1,0 +1,10 @@
+= Strategy
+
+Strategy berfungsi mengkoordinasikan rencana strategis dari perusahaan. Fungsi ini dapat mencakup pengumpulan data yang akan menjadi asumsi dalam perencanaan seperti proyeksi pertumbuhan industri.
+
+== Quick Link
+
+* SOP
+* User Guide
+* Guideline
+* Working Instruction (WI)

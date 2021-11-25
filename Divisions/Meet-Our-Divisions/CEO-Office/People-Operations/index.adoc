@@ -1,0 +1,18 @@
+= People Operations 
+
+Divisi People Operations atau yang lebih dikenal dengan sebutan POPS bertanggung jawab untuk menangani sumber daya manusia yang ada di Alterra atau dikenal dengan sebutan Alterrans. 
+
+Dalam Divisi People Operations, terdapat 4 sub divisi di dalamnya, yaitu:
+
+1. People Partner
+2. Talent Acquisition
+3. Talent Growth
+4. People Services
+
+== Quick Link
+
+* link:./POPS-SOP-and-Policy/index.adoc[POPS SOP & Policy]
+* link:./POPS-Guideline/index.adoc[POPS Guideline]
+* User Guide
+* Guideline
+* Working Instruction (WI)

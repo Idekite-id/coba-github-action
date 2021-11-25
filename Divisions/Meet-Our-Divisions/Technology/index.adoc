@@ -1,0 +1,13 @@
+= Technology
+
+Divisi Technology merupakan divisi yang paling besar dalam Alterra. Divisi ini bertanggung jawab dalam development semua sistem yang ada di Alterra, dimulai dari proses planning, development, hingga deployment. Divisi Technology juga bertanggung jawab menyediakan data, infrastruktur, dan otomatisasi. 
+
+Divisi Technology terdiri atas enam (6) department, yaitu: 
+
+1. link:./Data/index.adoc[Technology - Data]
+2. link:./Engineering/index.adoc[Technology - Engineering]
+3. link:./Infrastructure/index.adoc[Technology - Infrastructure]
+4. link:./Technology-Operations/index.adoc[Technology - Technology Operations]
+5. link:./Transformation/index.adoc[Technology - Transformation]
+
+Laman dalam section divisi Technology ini berisi definisi peran dan tanggung jawab masing-masing departemen. Serta menguraikan cara masing-masing departemen berinteraksi satu sama lain untuk membangun perangkat lunak yang lebih baik, dengan garis akuntabilitas yang jelas, dan transparansi terhadap bisnis.

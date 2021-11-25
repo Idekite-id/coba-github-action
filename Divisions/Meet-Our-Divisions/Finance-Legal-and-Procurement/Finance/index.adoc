@@ -1,0 +1,10 @@
+= Finance
+
+Divisi Finance memiliki tanggung jawab untuk memantau arus kas masuk dan keluar perusahaan, menyimpan dan menganalisis transaksi keuangan dan memberikan informasi keuangan kepada Divisi Manajemen dan departemen lain.
+
+== Quick Link
+
+* SOP
+* User Guide
+* Guideline
+* Working Instruction (WI)

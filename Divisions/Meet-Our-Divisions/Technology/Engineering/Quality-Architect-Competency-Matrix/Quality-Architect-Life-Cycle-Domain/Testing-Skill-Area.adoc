@@ -1,0 +1,120 @@
+= Testing Skill Area
+
+Software testing includes all activities that are performed to evaluate overall product quality, which requires code execution. This software testing skill area covers “dynamic verification” and is concerned with selecting an appropriate set of test cases that demonstrate the expected behavior of the product by executing the software using prepared test cases and their results to analyze and improve the quality of the product. 
+
+It is well known that software cannot be tested exhaustively for all possible situations; therefore, “selecting an appropriate set of test cases” has a major effect on the success or failure of testing activities.
+
+[cols="5%,19%,19%,19%,19%,19%",frame=all, grid=all]
+|===
+1.3+^.^h|*Key Behavior* 
+5+^.^|*Example Activities*
+
+^.^h|*1*
+^.^h|*2*
+^.^h|*3*
+2+^.^h|*4*
+
+^.^h|*Follows*
+^.^h|*Assists*
+^.^h|*Participates*
+^.^h|*Leads*
+^.^h|*Creates*
+
+|Test Planning
+a|- 
+a|- Assists with the development of the test plan
+- Establishes criteria for demonstration readiness
+a|- Identifies unit and integration testing success and failure criteria
+- Identifies stakeholders participating in demonstration and testing activities
+- Establishes organizational procedures for testing
+- Follows software test plan
+- Designs and implements a software test plan
+- Establishes the criteria for unit test execution completion, such as code cover- age, defect intensity, and so forth
+- Identifies success and failure criteria for testing
+- Develops unit test plan
+- Develops demonstration or other test plans
+- Identifies success and failure criteria for system and acceptance testing
+- Establishes criteria for demonstration readiness
+- Identifies test completion criteria
+- Selects the most appropriate demonstration, testing technique
+- Establishes the criteria for test completion, such as defect arrival rate, defect intensity, and so forth
+- Establishes criteria for regression testing, such as defect density and so forth
+a|- Establishes organizational procedures for testing
+- Identifies customer representatives and other stakeholders participating in the acceptance testing and demonstrations
+- Identifies success and failure criteria for testing
+- Identifies project test objectives
+- Establishes criteria for regression testing, such as defect density and so forth
+a|-
+
+|Testing Infrastructure
+a|- 
+a|- During demonstration, monitors customer use and records customer feedback for product improvement 
+- Monitors test progress by evaluating defect arrival rate, failure intensity, and so forth
+a|- Sets up the necessary test and demonstration environment
+- Selects appropriate unit test techniques
+- Defines the necessary setup for testing and demonstration
+- Identifies testing tools and test data warehousing across projects
+- Installs the necessary tools
+- Selects the most appropriate testing tools
+- Identifies the appropriate documentations necessary for the testing activities
+- Creates new test documentation (in other words, test plan, defect recording, and so forth)
+- Develops the appropriate infrastructure for data warehousing
+- Designs and implements the test environment
+- Designs the test environment
+a|- Defines the necessary setup for testing and demonstration
+- Identifies organizational testing tools and data warehousing across projects
+- Creates new test documentation (in other words, test plan, defect recording, and so forth)
+- Designs the test environment
+a|- 
+
+|Testing Techniques
+a|- 
+a|-
+a|- Performs manual test activities (in other words, data entry, test case execution, and so forth)
+- Designs and executes unit test cases
+- Specifies appropriate test cases for the selected testing technique
+- Executes regression testing
+- Assists with the development of the test cases
+- Identifies automated testing opportunities
+- Executes integration and system test cases
+- Ensures the system is ready for demonstration by performing acceptance test
+- Executes test cases
+- Develops automated test case scenarios
+a|- Specifies appropriate test cases for the selected testing technique
+- Designs system test plan and test cases
+- Identifies automated testing opportunities
+- Ensures the system is ready for demonstration by performing acceptance test
+- Executes test cases
+- Develops automated test case scenarios
+a|- Creates new testing (in other words, unit, integration, stress, and so forth) techniques
+
+|Testing Measurement & Defect Tracking
+a|- 
+a|- Monitors test progress by evaluating defect arrival rate, failure intensity, and so forth
+a|- Performs all appropriate data warehousing (gathering execution data, data entry, data archiving, and so forth)
+- Collects appropriate data associated with test execution
+- Conducts root cause analysis
+- Creates new root cause analysis techniques
+- Generates appropriate reports associated with test/demonstration execution
+- Evaluates test execution results and identifies appropriate rework
+- Conducts root cause analysis
+- Collects appropriate data associated with executing test cases
+- Monitors test progress by evaluating defect arrival rate, failure intensity, and so forth
+- Using the test results, assigns appropriate rework to team members
+- Provides test result report to appropriate stakeholders
+- Uses test execution data and rework results to evaluate test effectiveness and decide for additional testing or regression testing
+- Evaluates test results to identify appropriate process improvement opportunitie
+a|- Collects appropriate data associated with test execution
+- Conducts root cause analysis
+- Analyzes test data to decide on further testing activities
+- Uses the data to evaluate test effectiveness
+- Monitors overall test progress by evaluating defect arrival rate, failure intensity, and so forth
+a|-
+|
+|
+|
+|
+|
+|===
+== Any questions?
+If you have a question or something to discuss about this topic, post your questions through link:https://alterra.tribe.so/[Tribe].

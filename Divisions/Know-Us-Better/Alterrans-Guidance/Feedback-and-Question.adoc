@@ -1,0 +1,17 @@
+= Feedback and Question
+
+> Hai Alterrans! 
+
+image::./images-alterra-guidance/feedback.png[align="center"]
+
+Berikut adalah _channel_ yang bisa digunakan untuk memberikan _feedback_, berdiskusi, dan mengajukan pertanyaan atau yang berkaitan dengan pekerjaanmu. 
+
+* Kirim email ke thoth@alterra.id untuk membantumu memberikan _feedback_ atau bertanya seputar konten di _Knowledge Base_ 
+
+* link:https://support.alterra.id/support/tickets[Alterra Support] membantumu untuk mengajukan tiket yang berhubungan dengan kendala teknis dan dokumentasi
+
+* link:https://popsline.alterra.id/support/home[POPS Line] menjawab pertanyaan dan kebutuhan yang berkaitan dengan hal-hal administratif dalam perusahaan
+
+* link:https://alterra.tribe.so/[Alterra Tribe] dapat digunakan untuk berdiskusi dengan Alterrans sesuai topik yang diangkat
+
+* link:https://saku.alterra.id/[Alterra Saku] memfasilitasimu untuk terus berkembang melalui apresiasi yang diberikan kepada dan/atau dari Alterrans

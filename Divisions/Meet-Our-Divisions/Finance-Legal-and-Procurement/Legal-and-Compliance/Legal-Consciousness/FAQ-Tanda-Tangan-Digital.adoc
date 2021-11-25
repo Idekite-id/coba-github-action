@@ -1,0 +1,7 @@
+=  FAQ Tanda Tangan Digital (E-Signature)
+
+Dengan berlakunya kebijakan Work from Home (WFH), terdapat beberapa kendala yang dialami oleh beberapa _employee_. Di antaranya adalah proses administrasi yang memerlukan tanda tangan. Nah, kendala ini dapat kita atasi dengan penerapan tanda tangan digital _(e-signature)_.
+
+Apa itu _e-signature_? Yuk, simak infografis berikut.
+
+image::./images-legal-consciousness/E-Signature.jpeg[E-Signature infographic]
