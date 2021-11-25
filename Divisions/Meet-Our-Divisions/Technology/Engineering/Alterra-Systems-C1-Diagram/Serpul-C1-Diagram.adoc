@@ -6,7 +6,7 @@ image::./images-alterra-system-c1-diagram/serpul-c1-diagram.png[Serpul C1 Diagra
 
 Berikut adalah sistem-sistem yang termasuk dalam inisiatif Serpul:
 
-1. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Proteus-Chip/architecture-proteus-chip.adoc[Proteus Chip]
+1. link:../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Proteus-Chip/architecture-proteus-chip.adoc[Proteus Chip]
 
 2. link:../../../../../../Business-Initiatives/Alterra-Bills/System-Documents/Proteus-Core/architecture-proteus-core.adoc[Proteus Core]
 
