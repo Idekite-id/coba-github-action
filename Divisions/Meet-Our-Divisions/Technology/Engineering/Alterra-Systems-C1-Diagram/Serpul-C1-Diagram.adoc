@@ -19,6 +19,9 @@ Berikut adalah sistem-sistem yang termasuk dalam inisiatif Serpul:
 6. link:../../Quality-Architect-Rating-Standard/index.adoc[back1]
 7. link:../Quality-Architect-Rating-Standard/index.adoc[back2]
 
+6. link:../../[back11]
+7. link:../[back22]
+
 
 
 
