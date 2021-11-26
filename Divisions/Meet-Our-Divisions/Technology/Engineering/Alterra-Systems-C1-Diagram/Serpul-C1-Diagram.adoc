@@ -21,6 +21,7 @@ Berikut adalah sistem-sistem yang termasuk dalam inisiatif Serpul:
 
 6. link:../../[back11]
 7. link:../[back22]
+7. link:Telco-C1-Diagram.adoc[back33]
 
 
 
