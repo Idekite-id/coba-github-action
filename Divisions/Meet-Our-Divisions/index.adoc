@@ -22,7 +22,7 @@ Saat ini ada 5 divisi di Alterra HO yang diklasifikasikan menjadi beberapa tim a
 
 - link:./Technology/index.adoc[Technology]
 
-- link:../[Divisions]
+- link:../index.adoc[Divisions]
 
 
 *Informasi di atas dapat berubah sewaktu-waktu menyesuaikan Kebijakan Manajemen.
