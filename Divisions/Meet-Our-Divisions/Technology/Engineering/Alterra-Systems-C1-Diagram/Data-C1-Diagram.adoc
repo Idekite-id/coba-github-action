@@ -6,4 +6,4 @@ image::./images-alterra-system-c1-diagram/data-c1-diagram.png[Data C1 Diagram]
 
 Berikut adalah sistem-sistem yang termasuk dalam inisiatif Data: 
 
-1. link:../../../../../../System-Documents/Bifrost/architecture-bifrost.adoc[Bifrost]
+1. link:../../../../../System-Documents/Bifrost/architecture-bifrost.adoc[Bifrost]
